@@ -170,7 +170,7 @@ Partecipanti esterni - Mentis:
 \series default
 \emph on
 Dr.
- Baldissera, Amir
+ Amir Baldissera
 \end_layout
 
 \begin_layout Itemize
@@ -254,7 +254,7 @@ Domande e risposte
 \end_layout
 
 \begin_layout Description
-Domanda: Poichè Lei ci ha detto che il prodotto che noi andremo a realizzare
+Domanda: Poichè Lei ha detto che il prodotto che noi andremo a realizzare
  è uno studio di fattibilità che verrà poi presentato alla Vostra azienda
  committente, il prodotto dovrà essere già perfettamente funzionante? Dovrà
  quindi, ad esempio, avere una grafica accattivante?
@@ -321,6 +321,190 @@ Risposta: Scegliete voi cosa fare da questo punto di vista.
 \end_layout
 
 \begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Durante la Sua presentazione ha detto che le domande che dovranno
+ essere sottoposte agli utenti della piattaforma le fornirete Voi.
+ Pensa che sia necessario che si possa mettere mano alle domande già presenti
+ all'interno della piattaforma?
+\end_layout
+
+\begin_layout Description
+Risposta: Si, deve essere possibile aggiungere e rimuovere domande e relative
+ risposte in maniera semplice da usare.
+ Facciamo un esempio: una delle ditte che usano la piattaforma vuole aggiornare
+ delle domande che sono presenti sulla piattaforma.
+ Deve poter assegnare questo compito ad una qualsiasi persona, anche priva
+ di conoscenze di database, senza doversi preoccupare di formarla.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Ci saranno dati sensibili all'interno del database?
+\end_layout
+
+\begin_layout Description
+Risposta: Si, ci potranno essere dati sensibili degli utenti all'interno
+ del database, quindi è importante che i dati sensibili vengano protetti.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Dovremo creare dei gruppi particolari di utenti?
+\end_layout
+
+\begin_layout Description
+Risposta: No.
+ Dovrete differenziare solo gli utenti fra interni all'azienda e quelli
+ esterni, ovvero gli utilizzatori della 
+\begin_inset Quotes eld
+\end_inset
+
+versione
+\begin_inset Quotes erd
+\end_inset
+
+ fissa e mobile dell'applicazione.
+ Inoltre dovrà essere possibile inserire le specifiche di formazione di
+ ogni utente, in modo da, possibilmente, mirare le domande che vengono sottopost
+e all'utente stesso.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Chi e quali operazioni dobbiamo prevedere?
+\end_layout
+
+\begin_layout Description
+Risposta: Dovrete prevedere due tipologie di 
+\begin_inset Quotes eld
+\end_inset
+
+operazioni
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+L'amministratore dell'azienda dovrà poter verificare ogni singola operazione
+ effettuata da ogni utente, vedendo, ad esempio, se ha deciso di saltare
+ qualche domanda, piuttosto che vedere i punteggi per aree di interessi,
+ etc...
+ 
+\end_layout
+
+\begin_layout Itemize
+L'utente finale dovrà avere un accesso limitato alle funzioni.
+ Dovrà quindi poter verificare tutti i suoi risultati, vedere la classifica
+ e le statistiche generali.
+ 
+\end_layout
+
+\begin_layout Standard
+Queste sono solamente alcune opzioni che potete prendere in considerazioni,
+ ma dovrà essere di questo tipo la gerarchia di operazioni ammesse.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Come vorrebbe che fosse segnalata la presenza, nel desktop, di
+ una nuova domanda a cui rispondere? Potrebbe essere un pop-up simil Windows
+ Live Messenger?
+\end_layout
+
+\begin_layout Description
+Risposta: Si potrebbe andare.
+ Ricordate però che una delle questioni fondamentali è che deve essere accattiva
+nte, perchè deve invogliare a rispondere alla domanda proposta.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Leggendo la richiesta di portabilità del prodotto su più piattaforme,
+ avevamo pensato all'utilizzo di Java.
+\end_layout
+
+\begin_layout Description
+Risposta: Java? Perfetto!
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
 
 \end_layout
 
