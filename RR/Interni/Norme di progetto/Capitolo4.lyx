@@ -88,8 +88,6 @@ name "sub:Struttura-repository"
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 Progetto
 \begin_inset CommandInset label
 LatexCommand label
@@ -123,7 +121,6 @@ begin{center}
 status collapsed
 
 \begin_layout Plain Layout
-
 https://github.com/TeamCommitted
 \end_layout
 
@@ -147,8 +144,6 @@ A questo indirizzo sarà possibile trovare una lista di tutti i repository
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 Documentazione
 \begin_inset CommandInset label
 LatexCommand label
@@ -182,7 +177,6 @@ begin{center}
 status collapsed
 
 \begin_layout Plain Layout
-
 https://github.com/TeamCommitted/Team-Committed---Documenti
 \end_layout
 
@@ -204,7 +198,7 @@ end{center}
 Il repository è organizzato in maniera gerarchica per revisione ed è strutturato
  nella seguente maniera
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 In questa sottosezione ci si riferirà all'url del repository della documentazion
@@ -214,7 +208,11 @@ e con
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 /root/
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -228,9 +226,11 @@ e con
 
 \begin_layout Itemize
 
-\emph on
+\family typewriter
+\series bold
 /root/
-\emph default
+\family default
+\series default
  contiene le cartelle delle varie revisioni (identificate con la loro sigla)
  e la cartella 
 \emph on
@@ -239,31 +239,59 @@ Modelli
 
 \begin_layout Itemize
 
-\emph on
+\family typewriter
+\series bold
 /root/Modelli/
-\emph default
+\family default
+\series default
  contiene tutti i file che 
 \series bold
 dovranno
 \series default
- essere applicati ad ogni documento LyX.
+ essere applicati ad ogni documento LyX
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per ulteriori informazioni sulle modalità di applicazione di questi modelli,
+ v.d.
+ sezione
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  In particolare:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 
-\emph on
+\family typewriter
+\series bold
 frontpage.lyx
-\emph default
+\family default
+\series default
  è la pagina che genera in automatico la copertina di ogni documento.
  Dovrà essere inclusa come documento figlio.
 \end_layout
 
 \begin_layout Itemize
 
+\family typewriter
+\series bold
+preface.tex
+\family default
+\series default
 \emph on
-preface.tex 
+ 
 \emph default
 è il file di impostazioni di 
 \begin_inset ERT
@@ -306,6 +334,140 @@ LaTeX
  e correttamente modificato come descritto al suo interno
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+Diario_modifiche.lyx
+\family default
+ 
+\series default
+contiene il codice 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ per generare il 
+\emph on
+Diario delle modifiche.
+ 
+\emph default
+La documentazione per il suo uso è all'interno del documento stesso.
+\end_layout
+
 \end_deeper
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/XX/
+\family default
+ 
+\series default
+conterrà tutta la documentazione riguardante una specifica revisione
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+XX
+\series default
+ è acronimo di una revisione
+\end_layout
+
+\end_inset
+
+.
+ All'interno della cartella i documenti dovranno essere divisi fra 
+\series bold
+interni
+\series default
+ ed 
+\series bold
+esterni
+\series default
+ (questa differenziazione dovrà ripercuotersi a livello di cartella) e ogni
+ documento dovrà essere inserito in una sua cartella dedicata, che conterrà
+ anche le immagini specifiche di quel documento.
+\end_layout
+
+\begin_layout Subsubsection
+Codice
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+In costruzione
+\end_layout
+
+\begin_layout Subsection
+Note di utilizzo dei repository
+\end_layout
+
+\begin_layout Subsubsection
+Documentazione
+\end_layout
+
+\begin_layout Itemize
+Il repository della documentazione dovrà contenere solamente file di testo
+ in formato 
+\family typewriter
+LyX
+\family default
+ o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+.
+ Le immagini dovranno essere in formato 
+\family typewriter
+PNG
+\family default
+ o 
+\family typewriter
+SVG
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+Nel caso fosse necessario visionare il documento in formato 
+\family typewriter
+PDF
+\family default
+, si dovrà procedere autonomamente alla compilazione.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Codice
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+In costruzione
+\end_layout
+
 \end_body
 \end_document

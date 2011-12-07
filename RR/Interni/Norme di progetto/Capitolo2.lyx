@@ -61,6 +61,8 @@
 \begin_body
 
 \begin_layout Section
+
+\lang italian
 Comunicazioni
 \begin_inset CommandInset label
 LatexCommand label
@@ -72,6 +74,8 @@ name "sec:Comunicazioni"
 \end_layout
 
 \begin_layout Subsection
+
+\lang italian
 Comunicazioni interne
 \begin_inset CommandInset label
 LatexCommand label
@@ -83,6 +87,8 @@ name "sub:Comunicazioni-interne"
 \end_layout
 
 \begin_layout Standard
+
+\lang italian
 Le comunicazioni interne dovranno passare attraverso i canali Facebook o
  tramite il servizio di ticket di Github.
  In particolare: 
@@ -91,6 +97,7 @@ Le comunicazioni interne dovranno passare attraverso i canali Facebook o
 \begin_layout Itemize
 
 \series bold
+\lang italian
 Nota su Facebook: 
 \series default
 le note su Facebook dovranno essere solo ed esclusivamente per comunicare
@@ -105,9 +112,10 @@ le note su Facebook dovranno essere solo ed esclusivamente per comunicare
 \begin_layout Itemize
 
 \series bold
+\lang italian
 Ticket:
 \series default
- il servizio di ticket offerto da Github dovrá essere usato per tutte le
+ il servizio di ticket offerto da Github dovrà essere usato per tutte le
  comunicazioni 
 \begin_inset Quotes eld
 \end_inset
@@ -121,7 +129,7 @@ point-to-point
 \end_inset
 
 , ovvero da persona a persona.
- Basterá creare un nuovo ticket apponendo all'oggetto dello stesso il tag
+ Basterà creare un nuovo ticket apponendo all'oggetto dello stesso il tag
  
 \series bold
 [MES\SpecialChar \textcompwordmark{}
@@ -133,6 +141,8 @@ GIO]
 \end_layout
 
 \begin_layout Subsection
+
+\lang italian
 Comunicazioni esterne
 \begin_inset CommandInset label
 LatexCommand label
@@ -144,12 +154,16 @@ name "sub:Comunicazioni-esterne"
 \end_layout
 
 \begin_layout Standard
-Il Responsabile di Progetto sará colui dovrá mantenere i contatti con Committent
+
+\lang italian
+Il Responsabile di Progetto sarà colui dovrà mantenere i contatti con Committent
 e, Proponente e qualsiasi altra figura esterna al gruppo
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang italian
 D'ora in poi 
 \begin_inset Quotes eld
 \end_inset
@@ -167,8 +181,10 @@ gli esterni
 \end_layout
 
 \begin_layout Standard
+
+\lang italian
 A tale proposito é stato creato un indirizzo e-mail tramite il quale il
- Responsabile potrá parlare per conto e nel nome dell'intero gruppo di progetto.
+ Responsabile potrà parlare per conto e nel nome dell'intero gruppo di progetto.
  
 \begin_inset Newline newline
 \end_inset
@@ -180,11 +196,14 @@ A tale proposito é stato creato un indirizzo e-mail tramite il quale il
 \align center
 
 \emph on
+\lang italian
 teamcommitted@gmail.com
 \end_layout
 
 \begin_layout Standard
-Il Responsabile dovrá tenere informato il gruppo rispetto ad eventuali comunicaz
+
+\lang italian
+Il Responsabile dovrà tenere informato il gruppo rispetto ad eventuali comunicaz
 ioni da e per gli esterni tramite quanto scritto nella sezione 
 \begin_inset CommandInset ref
 LatexCommand ref

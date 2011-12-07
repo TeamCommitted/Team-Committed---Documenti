@@ -143,6 +143,32 @@ Copertina:
 \family typewriter
 frontpage.lyx
 \family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Il percorso del file fornito a LyX non dovrà essere assoluto, ma 
+\series bold
+relativo 
+\series default
+(di norma sarà 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+../../../Modelli/frontpage.lyx
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
 .
  Il file non dovrà essere spostato dalla sua posizione iniziale in quanto
  sarà Lyx, assieme alle impostazioni contenute nel file 
@@ -204,8 +230,6 @@ status open
 
 \begin_layout Plain Layout
 
-\series bold
-\emph on
 
 \backslash
 LaTeX
@@ -243,46 +267,6 @@ locale
 
 ) secondo quanto scritto al suo interno.
  All'interno di LyX, invece, si dovrà andare in 
-\end_layout
-
-\begin_layout Standard
-Ogni documento dovrà essere redatto copiando all'interno della cartella
- di lavoro propria del file e modificando il file 
-\emph on
-preface.tex
-\emph default
-, per poi includerlo nel 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-Preambolo di 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
-
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
- di LyX, mentre come copertina dovrà essere incluso il file 
-\emph on
-frontpage.lyx
-\emph default
-.
- Tutti e due i file citati possono essere trovati sia all'interno del repository
- documenti che all'interno della cartella condivisa Dropbox.
 \end_layout
 
 \begin_layout Standard
@@ -410,6 +394,42 @@ Citazioni:
  corsivo.
  (ATTENZIONE! Le virgolette che contrassegnano una citazione non devono
  essere anch'esse in corsivo, ma in stile standard)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi particolari:
+\series default
+ il corsivo dovrà essere usato quando si parla di figure particolari piuttosto
+ che di aziende (ex.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -548,6 +568,13 @@ ura e/o carattere di spaziatura
 
 \begin_layout Subsubsection
 Formati ricorrenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formati-ricorrenti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -639,6 +666,141 @@ rappresenta il mese scritto utilizzando esattamente due cifre
 AAAA: 
 \series default
 rappresenta l'anno scritto utilizzando esattamente quattro cifre
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Nomi ricorrenti:
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Ruoli di progetto: 
+\series default
+vari ruoli di progetto dovranno essere formattati utilizzando la prima lettera
+ maiscola di ogni parola che non sia una preposizione (ex.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi dei documenti: 
+\series default
+i nomi dei documenti dovranno essere formattati utilizzando la prima lettera
+ maiscola di ogni parola che non sia una preposizione (ex.
+ 
+\emph on
+Norme di Progetto
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi dei file:
+\series default
+ si seguono le regole descritte al punto 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Stile-del-testo"
+
+\end_inset
+
+ per quanto riguarda lo stile monospace
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi propri:
+\series default
+ l'utilizzo dei nomi propri dovrà rispettare la struttura 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+Nome Cognome
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del gruppo:
+\series default
+ il gruppo dovrà sempre essere nominato per intero (
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ A questo proposito è stato istituito il comando 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\family typewriter
+
+\backslash
+TeamCommitted
+\family default
+ che adempirà automaticamente a questa norma
 \end_layout
 
 \end_deeper
