@@ -101,7 +101,7 @@ LatexCommand tableofcontents
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "Introduzione.lyx"
+filename "capitolo1.lyx"
 
 \end_inset
 
@@ -115,7 +115,7 @@ filename "Introduzione.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "strategie_verifica.lyx"
+filename "capitolo2.lyx"
 
 \end_inset
 

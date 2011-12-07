@@ -67,6 +67,33 @@ Visione generale delle strategie di verifica
 Organizzazione
 \end_layout
 
+\begin_layout Standard
+Per poter effettuare un corretto processo di verifica si è scelto di effettuare
+ le dovute operazioni di controllo quando il prodotto sotto analisi avrà
+ raggiunto uno stadio tale per cui risulta presentare sostanziali modifiche
+ rispetto alla precedente versione.
+ Lo svolgimento di tale fase sarà aggevolato grazie all'apposito registro
+ delle modifiche; inoltre, per garantire una migliore verifica si è adottato
+ il 
+\begin_inset Quotes eld
+\end_inset
+
+Broken Window Theory
+\begin_inset Quotes erd
+\end_inset
+
+ secondo il quale, non appena un errore viene rilevato, questo andrà segnalato
+ e corretto il prima possibile onde evitarne la propagazione incontrollata.
+\end_layout
+
+\begin_layout Standard
+Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
+ incrementale (vedi Piano di Progetto) che di conseguenza determinerà uno
+ specifico approccio alla verifica durante le varie fasi come illustrato
+ nei seguenti punti.
+ 
+\end_layout
+
 \begin_layout Subsection
 Pianificazione strategica e temporale
 \end_layout

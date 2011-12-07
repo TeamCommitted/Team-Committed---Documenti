@@ -59,7 +59,133 @@
 
 \begin_body
 
+\begin_layout Section*
+
+\emph on
+\lang italian
+Diario delle modifiche
+\end_layout
+
 \begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\lang italian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%QUESTO SCHEMA E' DA COPIARE ED INCOLLARE.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+%!!ATTENZIONE!! Le note dovranno seguire questo rigido schema (escluse le
+ virgolette):
+\end_layout
+
+\begin_layout Plain Layout
+
+% "
+\backslash
+emph{COMMENTO ALLA MODIFICA} & NOME_COGNOME & DATA_MODIFICA & VERSIONE 
+\backslash
+
+\backslash
+ 
+\backslash
+hline"
+\end_layout
+
+\begin_layout Plain Layout
+
+%Quando copierete questo schema, togliete questa sezione che è di solo commento
+ (compilate per vedere il risultato)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{tabular}{ p{6cm} | c | c | r }
+\end_layout
+
+\begin_layout Plain Layout
+
+		Modifica & Autore & Data & Versione 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Sistemazione del file sorgente per fare in modo che includa tutti i
+ capitoli come file a parte, cos
+\backslash
+'i come la prima pagina.
+ Iniziata la stesura del capitolo 3pag} & Giorgio Maggiolo & 06/12/2011
+ & V0.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inizio creazione del documento.
+ Creato lo schema base e iniziato a scrivere il capitolo relativo allo scopo
+ del documento e del prodotto} & Quadrio Giacomo & 06/12/2011 & V0.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 

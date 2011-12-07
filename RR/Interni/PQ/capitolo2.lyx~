@@ -3,9 +3,6 @@
 \begin_document
 \begin_header
 \textclass article
-\begin_preamble
-\include{preface}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -28,7 +25,6 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -63,63 +59,32 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "../../../Modelli/frontpage.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
+\begin_layout Section
+Visione generale delle strategie di verifica
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "diario_modifiche_RQ.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "capitolo1.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
+\begin_layout Subsection
+Organizzazione
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "capitolo2.lyx"
+\begin_layout Subsection
+Pianificazione strategica e temporale
+\end_layout
 
-\end_inset
+\begin_layout Subsection
+Responsabilità
+\end_layout
 
+\begin_layout Subsection
+Risorse necessarie
+\end_layout
 
+\begin_layout Subsection
+Risorse disponibili
+\end_layout
+
+\begin_layout Subsection
+Strumenti, tecniche e metodi
 \end_layout
 
 \end_body
