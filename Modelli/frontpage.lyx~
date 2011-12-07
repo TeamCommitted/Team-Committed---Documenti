@@ -342,11 +342,7 @@ datared
 \backslash
 textbf{Redattori} & 
 \backslash
-parbox{
-\backslash
-textwidth}{
-\backslash
-redattore} 
+redattore 
 \backslash
 
 \backslash
