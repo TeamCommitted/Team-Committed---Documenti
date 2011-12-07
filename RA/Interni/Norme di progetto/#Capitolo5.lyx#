@@ -247,8 +247,8 @@ va
 \series bold
  
 \series default
-esclusivamente utilizzato per evidenziare parole chiave all'interno della
- frase.
+esclusivamente utilizzato per evidenziare parole chiave o passaggi all'interno
+ della frase
 \end_layout
 
 \end_deeper
@@ -279,9 +279,9 @@ Altre situazioni:
 \series default
  in altre situazioni, il corsivo va utilizzato per enfatizzare parole importanti
  all'interno della frase.
- Differisce dal corsivo perchè mentre il primo evidenzia parole chiavi del
- discorso, il secondo mette in luce delle parole importanti, ma non essenziali
- ai fini della frase stessa.
+ Differisce dal corsivo perchè mentre il primo evidenzia parole o frasi
+ chiavi del discorso, il secondo mette in luce delle parole o frasi importanti,
+ ma non essenziali ai fini della frase stessa
 \end_layout
 
 \end_deeper
@@ -303,7 +303,7 @@ Non si considerano valide come occorrenze le parole all'interno dei titoli
 
 \end_inset
 
- di ogni parola presente nel glossario dovrà essere sottolineata.
+ di ogni parola presente nel glossario dovrà essere sottolineata
 \end_layout
 
 \begin_layout Itemize
@@ -327,6 +327,13 @@ Maiuscolo:
 
 \begin_layout Subsubsection
 Punteggiatura
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Punteggiatura"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -334,7 +341,7 @@ Punteggiatura
 \series bold
 Punteggiatura:
 \series default
- qualsiasi segno di punteggiatura non deve seguire un carattere di spazio,
+ qualsiasi segno di punteggiatura non deve seguire un carattere di spaziatura,
  ma deve essere seguito da un carattere di spazio.
  
 \end_layout
@@ -370,6 +377,13 @@ Con parentesi si intendono sia quelle tonde, che quadre o graffe
 
 \begin_layout Subsubsection
 Composizione del testo
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Composizione-del-testo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -378,8 +392,99 @@ Composizione del testo
 Elenchi: 
 \series default
 la prima parola di ogni punto dell'elenco deve avere l'iniziale maiuscola.
- La 
+ La fine di ogni punto dell'elenco deve essere priva di punteggiatura
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Note a piè di pagina:
+\series default
+ ogni nota a piè di pagina dovrà cominciare con l'iniziale della prima lettera
+ maiuscola, e non deve essere preceduta da alcun carattere di spaziatura.
+ Ogni nota a piè di pagina non dovrà terminare con alcun carattere di punteggiat
+ura e/o carattere di spaziatura
+\end_layout
+
+\begin_layout Subsubsection
+Formati ricorrenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Path:
+\series default
+ gli indirizzi web ed e-mail dovranno essere scritti utilizzando il relativo
+ .
+ Non sono ammessi indirizzi web relativi (a meno dell'uso di convenzioni
+ [per un esempio v.d.
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Documenti"
+
+\end_inset
+
+])
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Date:
+\series default
+ ove non specificato diversamente, le date dovranno essere espresse seguendo
+ la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+notazione italiana
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, ovvero:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+GG/MM/AAAA
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+GG: 
+\series default
+rappresenta il gio
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

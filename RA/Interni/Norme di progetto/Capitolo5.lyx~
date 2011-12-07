@@ -327,6 +327,13 @@ Maiuscolo:
 
 \begin_layout Subsubsection
 Punteggiatura
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Punteggiatura"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -370,6 +377,13 @@ Con parentesi si intendono sia quelle tonde, che quadre o graffe
 
 \begin_layout Subsubsection
 Composizione del testo
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Composizione-del-testo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -377,7 +391,8 @@ Composizione del testo
 \series bold
 Elenchi: 
 \series default
-la prima parola di ogni punto dell'ele
+la prima parola di ogni punto dell'elenco deve avere l'iniziale maiuscola.
+ La 
 \end_layout
 
 \end_body

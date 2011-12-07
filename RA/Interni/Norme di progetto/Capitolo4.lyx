@@ -62,6 +62,13 @@
 
 \begin_layout Section
 Repository
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Repository"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -71,12 +78,26 @@ Per un corretto e più rapido sviluppo delle risorse, sono inserite qui le
 
 \begin_layout Subsection
 Struttura repository
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Struttura-repository"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
 Progetto
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Progetto"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -129,6 +150,13 @@ A questo indirizzo sarà possibile trovare una lista di tutti i repository
 
 \series bold
 Documentazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Documentazione"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -262,7 +290,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 LaTeX
@@ -280,9 +307,5 @@ LaTeX
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-
-\end_layout
-
 \end_body
 \end_document
