@@ -294,7 +294,7 @@ Large Informazioni sul documento}
 
 	
 \backslash
-begin{tabular}{ l | r }
+begin{tabular}{ l | p{5cm} }
 \end_layout
 
 \begin_layout Plain Layout
@@ -394,7 +394,11 @@ usodoc
 \backslash
 textbf{Lista distribuzione} & 
 \backslash
-listadistr 
+parbox{
+\backslash
+textwidth}{
+\backslash
+listadistr} 
 \backslash
 
 \backslash

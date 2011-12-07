@@ -800,7 +800,54 @@ LaTeX
 \backslash
 TeamCommitted
 \family default
- che adempirà automaticamente a questa norma
+ che è già formattato secondo questa norma
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del proponente:
+\series default
+ ci si riferirà al proponente come 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+propProg
+\end_layout
+
+\end_inset
+
+.
+ Anche a questo proposito è stato creato un comando 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+, 
+\family typewriter
+
+\backslash
+propProg
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del progetto: 
+\series default
+ci si riferirà al progetto come 
 \end_layout
 
 \end_deeper
