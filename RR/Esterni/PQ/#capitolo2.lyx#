@@ -88,10 +88,13 @@ Broken Window Theory
 
 \begin_layout Standard
 Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
- incrementale (vedi Piano di Progetto) che di conseguenza determinerà uno
- specifico approccio alla verifica durante le varie fasi come illustrato
- nei seguenti punti.
- 
+ incrementale (vedi Piano di Progetto) e di conseguenza le operazioni di
+ verifica verranno realizzate in modo tale da intervenire in maniera coerente
+ nelle varie fasi del progetto come illustrato di seguito: 
+\end_layout
+
+\begin_layout Itemize
+Analisi dei requisiti
 \end_layout
 
 \begin_layout Subsection
