@@ -118,12 +118,55 @@ name "sub:Formattazione-e-copertina"
 \end_layout
 
 \begin_layout Standard
-Ogni documento dovrà essere redatto copiando all'interno della cartella
- di lavoro propria del file e modificando il file 
-\emph on
+Ogni documento dovrà essere redatto seguendo queste indicazioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ogni file citato in questa sezione è possibile trovarlo nel repository all'inter
+no della cartella 
+\family typewriter
+/root/Modelli/
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Copertina:
+\series default
+ ogni file LyX dovrà includere come primo oggetto il file 
+\family typewriter
+frontpage.lyx
+\family default
+.
+ Il file non dovrà essere spostato dalla sua posizione iniziale in quanto
+ sarà Lyx, assieme alle impostazioni contenute nel file 
+\family typewriter
 preface.tex
+\family default
+, a modificare automaticamente il file.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diario delle modifiche:
+\series default
+ il codice del 
+\emph on
+diario delle modifiche
 \emph default
- nel Preambolo di 
+ è possibile trovarlo nel file 
+\family typewriter
+Diario_modifiche.lyx
+\family default
+.
+ Il file contiene il codice 
 \begin_inset ERT
 status open
 
@@ -136,7 +179,104 @@ LaTeX
 
 \end_inset
 
-, mentre come copertina dovrà essere incluso il file 
+ che dovrà essere copiato ed incollato subito dopo l'inclusione della copertina.
+ All'interno si troveranno le istruzioni su come utilizzare il file e come
+ deve essere modificato il codice per mostrare correttamente il diario delle
+ modifiche.
+ Non è necessario copiare e incollare il file all'interno della cartella
+ del documento in lavorazione, in quanto si dovrà invece copiare-incollare
+ il suo contenuto e modificarlo di conseguenza all'interno del documento
+ che si sta modificando.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Impostazioni del 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Preambolo di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\series default
+le impostazioni che dovranno essere applicate ad ogni documento è possibile
+ trovarle all'interno del file 
+\family typewriter
+preface.tex
+\family default
+.
+ Questo file dovrà essere copiato-incollato all'interno della cartella del
+ proprio documento in lavorazione.
+ Inoltre dovrà essere modificato (la copia 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+locale
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+) secondo quanto scritto al suo interno.
+ All'interno di LyX, invece, si dovrà andare in 
+\end_layout
+
+\begin_layout Standard
+Ogni documento dovrà essere redatto copiando all'interno della cartella
+ di lavoro propria del file e modificando il file 
+\emph on
+preface.tex
+\emph default
+, per poi includerlo nel 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Preambolo di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ di LyX, mentre come copertina dovrà essere incluso il file 
 \emph on
 frontpage.lyx
 \emph default
@@ -482,7 +622,23 @@ dove:
 \series bold
 GG: 
 \series default
-rappresenta il gio
+rappresenta il giorno scritto utilizzando esattamente due cifre
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MM: 
+\series default
+rappresenta il mese scritto utilizzando esattamente due cifre
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AAAA: 
+\series default
+rappresenta l'anno scritto utilizzando esattamente quattro cifre
 \end_layout
 
 \end_deeper
