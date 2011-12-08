@@ -116,11 +116,17 @@ o, entrerà nella dedicata fase di revisione per controllare la presenza
 \begin_layout Itemize
 Progettazione: il processo di verifica riguardante la fase di Progettazione
  consisterà nel verificare che tutti i requisiti descritti durante la fase
- di Analisi dei Requisiti siano stati individuati 
+ di Analisi dei Requisiti rientrino nei componenti individuati.
+ Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
+ segnalate tramite Issue e successivamente risolte (chiarire questo punto).
 \end_layout
 
 \begin_layout Itemize
-Realizzazione
+Realizzazione: la verifica in questa fase verrà effettuata sia da parte
+ dei programmatori stessi che utilizzando appositi e specifici strumenti
+ di verifica automatizzata del codice.
+ Un esempio di questi strumenti riguarda il sito web W3C per controllare
+ la conformità delle pagine
 \end_layout
 
 \begin_layout Itemize
