@@ -94,7 +94,30 @@ Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
 \end_layout
 
 \begin_layout Itemize
-Analisi dei requisiti
+Analisi dei requisiti: ogni documento necessario alla RR, quando verrà completat
+o, entrerà nella dedicata fase di revisione per controllare la presenza
+ di eventuali inregolarità lessico/grammaticali e nei contenuti esposti.
+ Nel dettaglio il controllo grammaticale verrà effettuato con gli strumenti
+ messi a disposizione da LyX (dobbiamo approfondire questo aspetto), mentre
+ il controllo lessicale da un'accurata rilettura del testo.
+ I contenuti verranno invece controllati in modo tale da verificare la copertura
+ delle richieste del proponente e questo tramite un'accurata rilettura e
+ confronto con il documento d'appalto (si chiama così???) e che ogni requisito
+ abbia il suo caso d'uso corrispondente.
+ Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
+ dei documenti alle Norme di Progetto stabilite.
+\end_layout
+
+\begin_layout Itemize
+Progettazione
+\end_layout
+
+\begin_layout Itemize
+Realizzazione
+\end_layout
+
+\begin_layout Itemize
+Validazione
 \end_layout
 
 \begin_layout Subsection
