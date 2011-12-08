@@ -106,10 +106,17 @@ o, entrerà nella dedicata fase di revisione per controllare la presenza
  abbia il suo caso d'uso corrispondente.
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
+ Se durante la verifica saranno state rilevate inregolarità queste verranno
+ segnalate tramite apposita Issue dal verificatore e corrette dal redattore.
+ Il processo di verifica si concluderà quindi con la validazione del documento
+ da parte del verificatore e l'approvazione da parte del responsabile per
+ la presentazione al committente.
 \end_layout
 
 \begin_layout Itemize
-Progettazione
+Progettazione: il processo di verifica riguardante la fase di Progettazione
+ consisterà nel verificare che tutti i requisiti descritti durante la fase
+ di Analisi dei Requisiti siano stati individuati 
 \end_layout
 
 \begin_layout Itemize
