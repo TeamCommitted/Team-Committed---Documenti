@@ -141,6 +141,27 @@ Validazione: (questa sezione è particolare e dobbiamo discutere insieme
 Pianificazione strategica e temporale
 \end_layout
 
+\begin_layout Standard
+La strategia di verifica adottata prevede, come da sottocapitolo 2.1, una
+ verifica ogni qualvolta il prodotto da noi realizzato abbia raggiunto uno
+ stadio tale che si differenzi dalla sua precedente versione.
+ Questa, unita alla tecnica 
+\begin_inset Quotes eld
+\end_inset
+
+Broken Window Theory
+\begin_inset Quotes erd
+\end_inset
+
+, cerca di garantire un alto livello di qualità al fine di raggiungere il
+ totale soddisfacimento dei requisiti richiesti dal capitolato d'appalto
+ oltre che del cliente.
+ Il responsabile di progetto avrà quindi il compito di coordinare e definire
+ le attività volte alla verifica del materiale prodotto, sia esso software,
+ documenti o materiale d'altro genere.
+ (Da espandere)
+\end_layout
+
 \begin_layout Subsection
 Responsabilità
 \end_layout

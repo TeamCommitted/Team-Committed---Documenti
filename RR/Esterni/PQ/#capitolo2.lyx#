@@ -126,15 +126,26 @@ Realizzazione: la verifica in questa fase verrà effettuata sia da parte
  dei programmatori stessi che utilizzando appositi e specifici strumenti
  di verifica automatizzata del codice.
  Un esempio di questi strumenti riguarda il sito web W3C per controllare
- la conformità delle pagine
+ la conformità delle pagine html realizzate agli standard o FireBug.
+ La resenza di errori verrà segnalata da un apposita Issue che verrà presa
+ in carico dai programmatori e chiusa una volta risolto il problema.
+ (questa parte va sistemata e resa più precisa)
 \end_layout
 
 \begin_layout Itemize
-Validazione
+Validazione: (questa sezione è particolare e dobbiamo discutere insieme
+ cosa inserire)
 \end_layout
 
 \begin_layout Subsection
 Pianificazione strategica e temporale
+\end_layout
+
+\begin_layout Standard
+La strategia di verifica adottata prevede, come da sottocapitolo 2.1, una
+ verifica ogni qualvolta il prodotto da noi realizzato abbia raggiunto uno
+ stadio tale che si differenzi dalla sua precedente versione.
+ 
 \end_layout
 
 \begin_layout Subsection
