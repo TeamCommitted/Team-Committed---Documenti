@@ -1383,6 +1383,24 @@ reference "fn:Nel-caso-di"
 Approvatori
 \series default
 , ovvero chi ha approvato la versione finale del documento
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1399,6 +1417,24 @@ Uso
 Distribuzione
 \series default
 , ovvero la lista di persone che dovranno ricevere il documento
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+v.d.
+ nota
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1436,10 +1472,202 @@ Informazioni sulle modifiche
 \series bold
 Autore
 \series default
-: dovrà contenere il nominativo di chi ha apportato la modifica in oggetto.
- Possono essere più persone
+: dovrà contenere il nominativo di chi ha apportato la modifica in oggetto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data modifica
+\series default
+: dovrà indicare la data delle modifiche apportate
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione
+\series default
+: indicherà la versione a cui si è arrivati al momento dell'aggiornamento
+ del 
+\emph on
+diario delle modifiche
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Per quanto riguarda le note di formattazione e di inclusione automatica
+ dei seguenti documenti, si prega di vedere la sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Classificazione documenti
+\end_layout
+
+\begin_layout Subsubsection
+Documenti informali
+\end_layout
+
+\begin_layout Standard
+Tutti i documenti che non siano stati approvati dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+dovranno essere considerati essere dei 
+\series bold
+documenti informali
+\series default
+.
+ Questi documenti saranno considerati 
+\series bold
+sempre
+\series default
+ ad uso interno.
+ Dovranno essere depositati nel repository dei documenti seguendo le norme
+ descritte nella sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Documentazione-1"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Documenti formali
+\end_layout
+
+\begin_layout Standard
+I documenti formali sono tutti quei documenti che hanno raggiunto una versione
+ definitiva, ovvero quando il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ ha dato il suo assenso alla distribuzione.
+ 
+\end_layout
+
+\begin_layout Standard
+Raggiunto questo stadio, il documento dovrà essere considerato per l'uso
+ descritto nelle 
+\emph on
+informazioni generali del documento
+\emph default
+.
+ Questi documenti sono gli unici che possono (e devono) essere distribuiti
+ alla propria lista di distribuzione.
+ Il responsabile dovrà seguire quanto scritto nella sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Documentazione-1"
+
+\end_inset
+
+ per quanto concerne la creazione del documento PDF del documento formale.
+\end_layout
+
+\begin_layout Standard
+Ogni volta che si appone una modifica ad un documento già approvato (quindi
+ dichiarato formale), si dovrà inserire tale modifica nel 
+\emph on
+diario delle modifiche
+\emph default
+, avvisando nel frattempo il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ che provvederà, nel caso non siano necessarie ulteriori modifiche, a riapprovar
+e il documento e rilasciare una nuova versione formale di esso.
+\end_layout
+
+\begin_layout Subsection
+Procedura di formalizzazione dei documenti
+\end_layout
+
+\begin_layout Standard
+Ogni volta che i 
+\emph on
+redattori
+\emph default
+ considerano pronto un documento, dovranno avvisare il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+, il quale assegnerà tale documento ai 
+\emph on
+verificatori
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Se il documento dovesse rispettare tutte le norme ivi descritte, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ potrà approvare o meno il documento, oppure rimandarlo ai 
+\emph on
+redattori
+\emph default
+ per correzioni non normative.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document
