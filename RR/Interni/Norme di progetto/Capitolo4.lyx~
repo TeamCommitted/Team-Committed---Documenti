@@ -121,6 +121,7 @@ begin{center}
 status collapsed
 
 \begin_layout Plain Layout
+
 https://github.com/TeamCommitted
 \end_layout
 
@@ -177,6 +178,7 @@ begin{center}
 status collapsed
 
 \begin_layout Plain Layout
+
 https://github.com/TeamCommitted/Team-Committed---Documenti
 \end_layout
 
@@ -451,12 +453,11 @@ SVG
 \end_layout
 
 \begin_layout Itemize
-Nel caso fosse necessario visionare il documento in formato 
+Una volta rilasciato un documento, si dovrà allegare il file 
 \family typewriter
 PDF
 \family default
-, si dovrà procedere autonomamente alla compilazione.
- 
+ del documento.
 \end_layout
 
 \begin_layout Subsubsection

@@ -985,35 +985,7 @@ Tabelle
 \end_layout
 
 \begin_layout Standard
-Ogni tabella dovrà essere fornita di didascalia, in cui dovrà comparire
- un numero identificativo incrementale per la tracciabilità di tale tabella
- all'interno del documento
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-E' escluso il 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-Diario delle modifiche
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
- per ovvi motivi
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-Versionamento
+Ogni tabella do
 \end_layout
 
 \end_body
