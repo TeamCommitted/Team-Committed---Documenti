@@ -959,10 +959,24 @@ RA
 \end_deeper
 \begin_layout Subsection
 Componenti visive
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Componenti-visive"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Immagini
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Immagini"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -982,6 +996,13 @@ Ogni immagine dovrà avere una breve didascalia in cui dovrà necessariamente
 
 \begin_layout Subsubsection
 Tabelle
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tabelle"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -989,7 +1010,7 @@ Ogni tabella dovrà essere fornita di didascalia, in cui dovrà comparire
  un numero identificativo incrementale per la tracciabilità di tale tabella
  all'interno del documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 E' escluso il 
@@ -1014,11 +1035,411 @@ Diario delle modifiche
 
 \begin_layout Subsection
 Versionamento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Versionamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come già descritto nel capitolo 1 del seguente documento, al fine di uniformare
+ lo stile di versionamento si useranno le seguenti norme sul versionamento:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Notazione: 
+\series default
+per esprimere le varie versioni dei documenti si userà la seguente notazione:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+V{X}.{Y}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+{X}: 
+\series default
+indica il numero di uscite formali 
+\begin_inset Quotes eld
+\end_inset
+
+accumulate
+\begin_inset Quotes erd
+\end_inset
+
+ dal documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{Y}:
+\series default
+ indica il numero di modifiche effettuate considerate importanti dal redattore
+ del documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Non viene normata la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+modifica effettuata considerata importante
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in quanto pensiamo che sia palese il suo significato
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Utilizzo:
+\series default
+ la notazione di versionamento dovrà sempre essere utilizzata nei seguenti
+ casi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Citazione di un documento:
+\series default
+ ogni volta che si cita un documento, bisognerà inserire il suo acronimo
+ seguito dalla sua versione: 
+\family typewriter
+AD - V{X}.{Y}
+\family default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+AD
+\series default
+ = Acronimo Documento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Intestazione documenti:
+\series default
+ la copertina di ogni documento dovrà avere il nome per esteso seguito dalla
+ sua versione attuale
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Formattazione documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formattazione-documenti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
+\series bold
+IN COSTRUZIONE FINO A QUANDO NON AVREMO IL LOGO DEL TEAM
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Per essere considerato formattato bene, ogni documento dovrà avere:
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Nome documento, versione
+\series default
+ 
+\series bold
+e nome del team
+\series default
+: posizionati nel frontespizio sulla destra, seguendo lo schema 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+NomeDocumento V{X}.{Y} - Team Committed
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Numero di pagina:
+\series default
+ posizionato a piè pagina al centro, espresso nel formato:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+n di tot
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ogni documento prodotto, inoltre, prima dell'indice dovrà contenere nelle
+ pagine di apertura:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione del documento
+\series default
+, espressa nel formato definito nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Versionamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Informazioni generali del documento:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Nome del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data redazione
+\series default
+, ovvero data di rilascio della versione 
+\emph on
+{X}
+\emph default
+ del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Redattori
+\series default
+, ovvero quali membri del gruppo hanno collaborato alla redazione del documento
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Nel-caso-di"
+
+\end_inset
+
+Nel caso di più persone si dovrà utilizzare un elenco puntato per elencarle
+ tutte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verificatori
+\series default
+, ovvero quali membri del gruppo hanno collaborato alla verifica del documento
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Approvatori
+\series default
+, ovvero chi ha approvato la versione finale del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Uso
+\series default
+, se interno od esterno al gruppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Distribuzione
+\series default
+, ovvero la lista di persone che dovranno ricevere il documento
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Diario delle modifiche
+\series default
+, tabella che riporti le varie modifiche apportate al documento per giungere
+ alla versione finale.
+ Il 
+\emph on
+Diario delle modifiche
+\emph default
+ è una tabella ordinata in maniera decrescente, ovvero le prime righe conengono
+ informazioni sulle ultime modifiche, mentre l'ultima riga conterrà le informazi
+oni riguardanti le prime modifiche.
+\begin_inset Newline newline
+\end_inset
+
+Ogni riga dovrà contenere:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Informazioni sulle modifiche
+\series default
+: breve descrizione sulle modifiche apportate al documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Autore
+\series default
+: dovrà contenere il nominativo di chi ha apportato la modifica in oggetto.
+ Possono essere più persone
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

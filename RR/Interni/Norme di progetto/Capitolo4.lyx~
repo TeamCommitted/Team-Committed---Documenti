@@ -376,7 +376,7 @@ La documentazione per il suo uso è all'interno del documento stesso.
 \series default
 conterrà tutta la documentazione riguardante una specifica revisione
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -384,7 +384,17 @@ status collapsed
 \size normal
 XX
 \series default
- è acronimo di una revisione
+ è acronimo di una revisione(v.d.
+ sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formati-ricorrenti"
+
+\end_inset
+
+
+\size default
+)
 \end_layout
 
 \end_inset
