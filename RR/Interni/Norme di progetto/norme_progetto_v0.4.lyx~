@@ -129,7 +129,23 @@ hline
 
 		
 \backslash
-emh{Finita la scrittura del capitolo 5} & Giorgio Maggiolo & 08/12/2011
+emph{Capitolo 6 iniziato.
+ Manca una parte che è da concordare.
+ Capitolo 9 iniziato (anche questo da concordare).} & Giorgio Maggiolo &
+ 09/12/2011 & V0.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Finita la scrittura del capitolo 5} & Giorgio Maggiolo & 08/12/2011
  &V0.5 
 \backslash
 
@@ -315,40 +331,6 @@ filename "Capitolo4.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Capitolo5.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Capitolo6.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Capitolo7.lyx"
 
 \end_inset
 
