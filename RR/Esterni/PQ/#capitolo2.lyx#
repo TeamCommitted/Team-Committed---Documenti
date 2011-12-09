@@ -145,23 +145,179 @@ Pianificazione strategica e temporale
 La strategia di verifica adottata prevede, come da sottocapitolo 2.1, una
  verifica ogni qualvolta il prodotto da noi realizzato abbia raggiunto uno
  stadio tale che si differenzi dalla sua precedente versione.
- 
+ Questa, unita alla tecnica 
+\begin_inset Quotes eld
+\end_inset
+
+Broken Window Theory
+\begin_inset Quotes erd
+\end_inset
+
+, cerca di garantire un alto livello di qualità al fine di raggiungere il
+ totale soddisfacimento dei requisiti richiesti dal capitolato d'appalto
+ oltre che del cliente.
+ Il responsabile di progetto avrà quindi il compito di coordinare e definire
+ le attività volte alla verifica del materiale prodotto, sia esso software,
+ documenti o materiale d'altro genere.
+ (Da espandere)
 \end_layout
 
 \begin_layout Subsection
 Responsabilità
 \end_layout
 
+\begin_layout Standard
+Al Responsabile di Progetto saranno affidate le responsabilità riguardanti
+ tutte le attività di verifica e validazione, ponendosi quindi come garante
+ del corretto svolgimento delle attività volte alla qualità del materiale
+ prodotto.
+ L'Amministratore di Progetto invece si occuperà di assicurare che l'ambiente
+ in cui tutte le attività di realizzazione del prodotto si svolgeranno sia
+ adeguato a tale scopo.
+ 
+\end_layout
+
 \begin_layout Subsection
 Risorse
 \end_layout
 
-\begin_layout Subsubsection
-Risorse necessarie
+\begin_layout Standard
+La gestione della qualità prevede l'utilizzo di alcune risorse
 \end_layout
 
 \begin_layout Subsubsection
-Risorse disponibili
+Risorse Necessarie
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Umane
+\end_layout
+
+\begin_layout Standard
+L'organigramma relativo alla garanzia di qualità è:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Responsabile 
+\series default
+è il referente e responsabile nei confronti del committente, supervisiona
+ i processi interni e si preoccupa di valutare le proposte di modifica correttiv
+a o migliorativa dei Verificatori.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ammistratore
+\series default
+ definisce i piani per la gestione della qualità, come i processi di verifica,
+ test e individuazione e risoluzione delle anomalie e discrepanze.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verificatore
+\series default
+ esegue le attività di verifica sul prodotto a seconda delle norme redatte,
+ ne riassumerà gli esiti e in caso di discrepanze presenterà il problema
+ al Responsabile.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Programamtore 
+\series default
+è incentivato a eseguire attività di debugging quando ne riterrà necessario
+ ed è coinvolto dai verificatori nella risoluzione dei ticket.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Software
+\end_layout
+
+\begin_layout Itemize
+Software per la verifica dei requisiti richiesti.
+\end_layout
+
+\begin_layout Itemize
+Software di gestione e commento di ticket, codice e documentazione.
+\end_layout
+
+\begin_layout Itemize
+Software necessario alla corretta configurazione dell'ambiente di sviluppo.
+\end_layout
+
+\begin_layout Itemize
+Software utile alla comunicazione fra i membri del team.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Hardware
+\end_layout
+
+\begin_layout Itemize
+Computer su cui eseguire il software necessario all'ambiente di sviluppo.
+\end_layout
+
+\begin_layout Itemize
+Luogo fisico per incontri fra i membri del team.
+\end_layout
+
+\begin_layout Subsubsection
+Risorse Disponibili
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Software
+\end_layout
+
+\begin_layout Itemize
+Risorse messe a disposizione dal servizio web Github per gestire commenti
+ o problemi a codice, documentazione e ticket.
+\end_layout
+
+\begin_layout Itemize
+Eclipse con relativi strumenti già inclusi o aggiunti tramite plugin.
+\end_layout
+
+\begin_layout Itemize
+Strumenti W3C per validazione web.
+\end_layout
+
+\begin_layout Itemize
+Gruppo Facebook per poter comunicare fra membri del team.//?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Hardware
+\end_layout
+
+\begin_layout Itemize
+Computer personali, portatili e fissi.
+\end_layout
+
+\begin_layout Itemize
+Computer messi a disposizione nei laboratori dal Dipartimento di Matematica
+ Pura ed Applicata dell'Università di Padova.
+\end_layout
+
+\begin_layout Itemize
+Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
+ di Padova.
 \end_layout
 
 \begin_layout Subsection
