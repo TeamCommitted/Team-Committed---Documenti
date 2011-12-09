@@ -269,60 +269,9 @@ NomeCognome:
 \series bold
 Changes:
 \series default
- rappresenta la lista dei cambiamenti.
- Per ogni riga dovrà esserci un solo cambiamento
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Nel caso di più cambiamenti usare più righe indicando solo una volta la
- data e NomeCognome
-\end_layout
-
-\end_inset
-
-.
- 
-\emph on
-Label
-\emph default
- potrà essere:
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-[+]
-\emph default
-: indica la creazione del metodo 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-[-]
-\emph default
-: indica l'eliminazione del metodo
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-[*]
-\emph default
-: indica la modifica del metodo
+ rappresenta la lista dei camb
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
-Convenzioni di codifica
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DA CONCORDARE
-\end_layout
-
 \end_body
 \end_document
