@@ -211,7 +211,8 @@ LaTeX
 
 
 \emph default
- che dovrà essere copiato ed incollato subito dopo l'inclusione della copertina.
+ che potrà essere copiato e incollato subito dopo l'inclusione del file
+ frontpage.lyx, oppure essere direttamente incluso.
  All'interno si troveranno le istruzioni su come utilizzare il file e come
  deve essere modificato il codice per mostrare correttamente il diario delle
  modifiche.
@@ -258,8 +259,8 @@ preface.tex
 \family default
 .
  Questo file dovrà essere copiato-incollato all'interno della cartella del
- proprio documento in lavorazione.
- Inoltre dovrà essere modificato (la copia 
+ proprio documento in lavorazione, quindi dovrà essere modificato (la copia
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -271,8 +272,56 @@ locale
 \begin_inset Quotes erd
 \end_inset
 
-) secondo quanto scritto al suo interno.
- All'interno di LyX, invece, si dovrà andare in 
+) secondo le istruzioni interne al file.
+ Per usare il file, invece, All'interno di LyX si dovrà andare in 
+\emph on
+Documento->Impostazioni
+\emph default
+, quindi cercare nell'elenco la voce 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Preambolo di Latex
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ e scrivere:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+
+\backslash
+include{preface}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
