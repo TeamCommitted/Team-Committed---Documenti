@@ -60,6 +60,26 @@
 
 \begin_body
 
+\begin_layout Standard
+
+\lang italian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge IL SEGUENTE CAPITOLO 
+\backslash
+'E DA FINIRE DOPO LA DISCUSSIONE SUGLI STRUMENTI DI LAVORO}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Repository
 \begin_inset CommandInset label
@@ -156,7 +176,7 @@ name "sub:Documentazione"
 \end_layout
 
 \begin_layout Standard
-l'indirizzo root del repository è: 
+L'indirizzo root del repository è: 
 \begin_inset Newline newline
 \end_inset
 
@@ -198,7 +218,7 @@ end{center}
 \end_inset
 
 Il repository è organizzato in maniera gerarchica per revisione ed è strutturato
- nella seguente maniera
+ con la seguente struttura
 \begin_inset Foot
 status collapsed
 
@@ -233,7 +253,24 @@ e con
 /root/
 \family default
 \series default
- contiene le cartelle delle varie revisioni (identificate con la loro sigla)
+ contiene le cartelle delle varie revisioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:XX-è-acronimo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
  e la cartella 
 \emph on
 Modelli
@@ -382,6 +419,12 @@ status open
 
 \series bold
 \size normal
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:XX-è-acronimo"
+
+\end_inset
+
 XX
 \series default
  è acronimo di una revisione(v.d.
@@ -471,6 +514,11 @@ LaTeX
 
 \end_inset
 
+, oltre che alla versione pronta per il rilascio di ogni documento in formato
+ 
+\family typewriter
+PDF
+\family default
 .
  Le immagini dovranno essere in formato 
 \family typewriter

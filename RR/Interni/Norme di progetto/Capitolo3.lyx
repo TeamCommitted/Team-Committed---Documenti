@@ -291,9 +291,26 @@ Caso 1:
 \series default
  
 \emph on
-vicinanza con una milestone.
+vicinanza con una milestone
 \emph default
 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+Vicinanza = (
+\begin_inset Formula $\Delta t\leq\mathbf{1}settimana)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -311,7 +328,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 respProg
@@ -392,7 +408,11 @@ commitProg
 
 \end_inset
 
- e il 
+ e un gruppo di rappresentanza del gruppo di progetto
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -400,22 +420,17 @@ status open
 
 
 \backslash
-respProg
+'E
+\end_layout
+
+\end_inset
+
+ possibile che l'intero gruppo partecipi all'incontro
 \end_layout
 
 \end_inset
 
 .
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-O un suo delegato
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -482,41 +497,10 @@ commitProg
 \end_inset
 
  e organizzare l'incontro.
- Ad esso dovranno partecipare almeno il 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-respProg
-\end_layout
-
-\end_inset
-
-, il proponente dell'incontro e i sottoscrittori
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-D'ora in poi questa condizione verrà chiamata 
-\begin_inset Quotes eld
-\end_inset
-
-
+ A questo incontro dovrà esserci il 
 \emph on
 numero legale
 \emph default
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 .
  Il 
 \begin_inset ERT
@@ -552,12 +536,15 @@ status open
 
 \end_inset
 
- richiesta conferma scritta di ogni presente, via email o con il mezzo con
- cui sono stati informati della corretta redazione del verbale.
-\end_layout
+ richiesta conferma scritta di ogni presente attraverso le modalità descritte
+ nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
 
-\begin_layout Standard
+\end_inset
 
+.
 \end_layout
 
 \end_body
