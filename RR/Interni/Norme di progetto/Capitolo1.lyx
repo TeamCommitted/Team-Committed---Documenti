@@ -157,42 +157,34 @@ Codifica
 
 \series bold
 \emph on
-Definizione delle particolaritá dei vari documenti
-\series default
-\emph default
-: 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\emph on
 Definizione dell'ambiente di lavoro
 \series default
 \emph default
-: 
+: programmi utilizzate dall'intero gruppo di progetto
 \end_layout
 
 \begin_layout Standard
-Tutti i membri del gruppo di progetto dovranno sottoscrivere il seguente
- documento
-\begin_inset Foot
-status collapsed
+Tutti i membri del gruppo di progetto sottoscrivono le norme ivi contenute
+ e vi sottostanno, in modo da migliorare la coerenza fra i vari documenti
+ e migliorare efficienza ed efficacia dei vari file prodotti.
+\end_layout
+
+\begin_layout Standard
+Qualora si renda necessario, un qualsiasi membro potrá proporre all'
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Le firme verranno apposte alla fine del documento, nella sezione dedicata
+
+
+\backslash
+ammProg
 \end_layout
 
 \end_inset
 
- e dovranno sottostare ad esse, in modo da migliorare la coerenza fra i
- vari documenti e migliorare efficienza ed efficacia dei vari file prodotti.
-\end_layout
-
-\begin_layout Standard
-Qualora si renda necessario, un qualsiasi membro potrá proporre all'Amministrato
-re di Progetto una modifica alle N.d.P il quale, sentito il parere di tutti
- gli altri membri del gruppo, cambierá o meno le NdP
+ una modifica alle NdP il quale, sentito il parere di tutti gli altri membri
+ del gruppo, cambierá o meno le NdP
 \end_layout
 
 \begin_layout Subsection

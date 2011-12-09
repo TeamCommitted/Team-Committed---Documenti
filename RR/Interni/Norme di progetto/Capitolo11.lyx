@@ -78,6 +78,24 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge IL SEGUENTE CAPITOLO 
+\backslash
+'E DA FINIRE DOPO LA DISCUSSIONE SUGLI STRUMENTI DI LAVORO}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Ambiente di progetto
 \end_layout
@@ -115,9 +133,21 @@ Sistema operativo
 
 \begin_layout Standard
 Tutte le attività legate allo sviluppo del progetto verranno svolte su ambienti
- Windows 7, Mac OsX e GNU/Linux
+ 
+\series bold
+Windows 7
+\series default
+, 
+\series bold
+Mac OsX
+\series default
+ e 
+\series bold
+GNU/Linux
+\series default
+
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Con GNU/Linux intendiamo Ubuntu 10.04, 
@@ -138,8 +168,170 @@ Ambiente documentale
 Scrittura documenti
 \end_layout
 
+\begin_layout Standard
+La scrittura dei documenti avverrà per mezzo di 
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.latex-project.org
+\end_layout
+
+\end_inset
+
+ e come editor utilizzeremo 
+\series bold
+LyX
+\series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+//INSERIRE L'INDIRIZZO DEL SITO WEB DI LYX
+\end_layout
+
+\end_inset
+
+, editor WYSIWYM
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+What You See Is What You Mean
+\end_layout
+
+\end_inset
+
+ che permette una rapida stesura di documenti avendo una minima, se non
+ nulla, conoscenza di
+\emph on
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Per la compilazione di ogni sorgente ci si affiderà alla libreria 
+\family typewriter
+pdflatex
+\family default
+, libreria 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+ che compilerà i file prodotti con 
+\emph on
+LyX
+\emph default
+ in formato 
+\family typewriter
+PDF
+\family default
+; la compilazione avverrà direttamente all'interno di 
+\emph on
+LyX
+\emph default
+.
+\end_layout
+
 \begin_layout Subsubsection
 Verifica ortografica
+\end_layout
+
+\begin_layout Standard
+Per la verifica ortografica dei documenti scritti in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ si userà il plugin per 
+\emph on
+LyX
+\emph default
+ 
+\series bold
+Aspell
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Aspell 
+\begin_inset Formula $\geq$
+\end_inset
+
+ 0.60.6
+\end_layout
+
+\end_inset
+
+.
+ L'utilizzo di Aspell avverrà tramite 
+\emph on
+LyX
+\emph default
+, tramite 
+\emph on
+Strumenti -> Correttore ortografico
+\emph default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -154,6 +346,66 @@ Per quanto riguarda la pianificazione delle attività legate allo sviluppo
 
 \begin_layout Subsubsection
 Grafici UML
+\end_layout
+
+\begin_layout Standard
+Per la definizione dei grafici UML è stato deciso di utilizzare 
+\end_layout
+
+\begin_layout Subsubsection
+Documentazione semi-automatica
+\end_layout
+
+\begin_layout Subsection
+Ambiente di sviluppo
+\end_layout
+
+\begin_layout Subsubsection
+Strumento di versionamento
+\end_layout
+
+\begin_layout Subsubsection
+Ambiente di codifica
+\end_layout
+
+\begin_layout Subsubsection
+Framework
+\end_layout
+
+\begin_layout Subsubsection
+Design pattern
+\end_layout
+
+\begin_layout Subsubsection
+Front-end grafico
+\end_layout
+
+\begin_layout Subsubsection
+Piattaforma cloud
+\end_layout
+
+\begin_layout Subsubsection
+Ambiente mobile
+\end_layout
+
+\begin_layout Subsection
+Ambiente di verifica e validazione
+\end_layout
+
+\begin_layout Subsubsection
+Analisi statica
+\end_layout
+
+\begin_layout Subsubsection
+Test
+\end_layout
+
+\begin_layout Subsubsection
+Analisi dinamica
+\end_layout
+
+\begin_layout Subsubsection
+Validazione
 \end_layout
 
 \end_body

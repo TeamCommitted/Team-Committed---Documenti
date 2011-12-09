@@ -172,7 +172,8 @@ relativo
 
 .
  Il file non dovrà essere spostato dalla sua posizione iniziale in quanto
- sarà Lyx, assieme alle impostazioni contenute nel file 
+ sarà l'editor dei documenti, assieme alle impostazioni contenute nel file
+ 
 \family typewriter
 preface.tex
 \family default
@@ -194,6 +195,8 @@ Diario_modifiche.lyx
 \family default
 .
  Il file contiene il codice 
+\emph on
+
 \begin_inset ERT
 status open
 
@@ -206,6 +209,8 @@ LaTeX
 
 \end_inset
 
+
+\emph default
  che dovrà essere copiato ed incollato subito dopo l'inclusione della copertina.
  All'interno si troveranno le istruzioni su come utilizzare il file e come
  deve essere modificato il codice per mostrare correttamente il diario delle

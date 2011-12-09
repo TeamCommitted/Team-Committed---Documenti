@@ -32,7 +32,16 @@ fixltx2e
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
 \use_amsmath 1
@@ -121,6 +130,33 @@ begin{tabular}{ p{6cm} | c | c | r }
 		
 \backslash
 hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Finito capitolo 7} & Giorgio Maggiolo & 09/12/2011 & V0.8 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Cominciato capitolo 8 e sistemazione della struttura del capitolo 9}
+ & Giorgio Maggiolo & 09/12/2011 & V0.7 
+\backslash
+
+\backslash
+ 
 \backslash
 hline
 \end_layout

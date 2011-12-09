@@ -78,6 +78,24 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge IL SEGUENTE CAPITOLO 
+\backslash
+'E DA FINIRE DOPO LA DISCUSSIONE SULLE CONVENZIONI DI CODIFICA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Codifica
 \begin_inset CommandInset label

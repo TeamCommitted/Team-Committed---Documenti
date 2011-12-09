@@ -288,6 +288,135 @@ hline
 
 \begin_layout Plain Layout
 
+		RFO 6 & L'Amministratore Azienda deve poter visualizzare i dati di ogni
+ singolo dipendente & UCAA2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 7 & L'Amministratore Azienda deve poter visionare le statistiche personali
+ di ogni singolo dipendente & UCAA3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 8 & Un Utente Autenticato può modificare i propri dati personali,
+ in seguito il sistema si occupa di inviargli una mail di conferma & Interno
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 8.1 & Quando l'utente modifica la password di accesso alla sua area
+ personale, il sistema gli invia una mail di conferma & Interno
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 8.2 &  Quando l'utente modifica il suo indirizzo di posta elettronica,
+ il sistema gli invia una mail di conferma al nuovo indirizzo & Interno
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 9 & Un Utente Autenticato può visualizzare i propri dati personali
+ memorizzati nel sistema & UCUA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 10 & Un Utente che ha smarrito la propria password per accedere al
+ sistema può recuperarla & UCU2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 10.1 & Un Utente che ha smarrito la password ed ha eseguito la procedura
+ di recupero e non ha ancora effettuato il primo login, la riceve sulla
+ propria casella di posta elettronica & UC2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 10.2 & Un Utente che ha smarrito la password ed ha eseguito la procedura
+ di recupero ed ha avuto accesso al sistema almeno una volta, riceve una
+ mail contenente una nuova password ottenuta in modo randomico 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFO 11 & Il sistema permette agli utenti che hanno effettuato il login
+ di uscire dalla sessione autenticata, ma non di terminare l'applicazione
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 	
 \backslash
 end{tabular}
@@ -529,11 +658,6 @@ end{center}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\align center
 
 \end_layout
 
