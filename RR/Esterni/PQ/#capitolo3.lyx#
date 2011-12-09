@@ -109,7 +109,7 @@ Struttura di un ticket
 \end_layout
 
 \begin_layout Standard
-La struttura di un ticket dovrà seguire le seguenti specifiche:
+La struttura di un ticket dovrà seguire le seguenti specifiche://da confermare
 \end_layout
 
 \begin_layout Itemize
@@ -136,12 +136,17 @@ Owner
 Priorità
 \end_layout
 
+\begin_layout Standard
+A riguardo è possibile leggere in dettaglio le specifiche di un ticket nel
+ documento Norme di Progetto capitolo xx //?
+\end_layout
+
 \begin_layout Paragraph*
 Risoluzione di un ticket
 \end_layout
 
 \begin_layout Standard
-Quando un programmatore assegnato(o no?) al ticket è pronto per inviare
+Quando un programmatore assegnato(//o no?) al ticket è pronto per inviare
  l'opportuna modifica al codice, dovrà preoccuparsi di inviare la modifica
  e segnalare il ticket come 
 \begin_inset Quotes eld
@@ -162,12 +167,64 @@ Trattamento delle discrepanze
 \end_layout
 
 \begin_layout Standard
+Una discrepanza è un tipo di anomalia non grave, non concerne il corretto
+ funzionamento del prodotto, ma può riguardare un allontanamento dai requisiti
+ attesi specificati nel capitolato d'appalto oppure una violazione delle
+ Norme di Progetto.
+\end_layout
+
+\begin_layout Standard
 Le modalità di ricerca e comunicazione delle discrepanze è del tutto simile
- alle modalità specificate per le anomalie; 
+ alle modalità specificate per le anomalie; la risoluzione presenta invece
+ modalità differenti.
+\end_layout
+
+\begin_layout Standard
+Una volta creato il ticket sarà compito del verificatore riconoscere quale
+ tipo di discrepanza si tratta e nel caso riguardi una violazione delle
+ Norme di Progetto provvederà a comnicare il problema all'Amministratore
+ che prenderà provvedimenti.
+ Se invece il problema riguarda un allontanamento dai requisiti, una volta
+ identificata l'origine della discrepanza il Verificatore solleciterà l'Analista
+ per valutare la gravità e i costi per risolverla.
 \end_layout
 
 \begin_layout Subsection
 Procedure di controllo di qualità di processo
+\end_layout
+
+\begin_layout Standard
+Le procedure di gestione della qualità che il gruppo TeamCommitted userà
+ si basano sul concetto di 
+\begin_inset Quotes eld
+\end_inset
+
+ciclo di Deming
+\begin_inset Quotes erd
+\end_inset
+
+ o PDCA, utili a garantire un continuo processo di miglioramento basandosi
+ sulla comunicazione attiva da parte delle varie componenti del gruppo,
+ una continua connessione fra le fasi di analisi, progettazione, produzione
+ e verifica o collaudo.
+ Lo scopo è un continuo miglioramento dei processi qualitativi unito ad
+ una riduzione di costi e sprechi.
+\end_layout
+
+\begin_layout Standard
+Il concetto è molto vicino al termine Kaizen, comunemente tradotto con 
+\begin_inset Quotes eld
+\end_inset
+
+miglioramento continuo
+\begin_inset Quotes erd
+\end_inset
+
+, si riferisce ai processi di miglioramento qualitativo che devono coinvolgere
+ tutto il gruppo di persone al lavoro.
+ Si basa sulla filosofia de "L'energia viene dal basso", ovvero sull'idea
+ che il processo qualitativo non dipenda solo dall'organizzazione di un
+ progetto, ma anche sul lavoro fatto sui singoli processi e prodotti.
 \end_layout
 
 \end_body
