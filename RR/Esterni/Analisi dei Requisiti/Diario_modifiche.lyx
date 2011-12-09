@@ -152,6 +152,33 @@ hline
 
 		
 \backslash
+emph{Modificato Capitolo3} & Gabriele Facchin & 09/12/2011 & V0.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Iniziata stesura Capitolo4} & Alessandro Cornaglia & 09/12/2001 & V0.3
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
 emph{Sistemazione del file sorgente per fare in modo che includa tutti i
  capitoli come file a parte, cos
 \backslash
@@ -177,7 +204,9 @@ emph{Inizio creazione del documento.
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
