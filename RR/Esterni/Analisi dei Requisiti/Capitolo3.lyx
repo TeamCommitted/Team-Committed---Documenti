@@ -75,7 +75,1260 @@
 \end_layout
 
 \begin_layout Standard
+Di seguito sono presenti i casi d'uso identificati dal capitolato d'appalto
+ 
+\series bold
+Piattaforma Mobile di Apprendimento Comportamentale
+\series default
+.
+\end_layout
 
+\begin_layout Subsection
+3.1 Ambito Utente, caso d'uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Utente, caso d'uso generale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+Utente, Utente Autenticato, Dipendente, Amministratore Sicurezza, Amministratore
+ Azienda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione: 
+\series default
+L'Utente può effettuare il login, diventando Utente Autenticato, o recuperare
+ la password.
+ L'Utente Autenticato può visualizzare i propri dati, modificarli o effetuare
+ il logout.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione: 
+\series default
+Il sistema è funzionante, è stato creato un account sul database.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione: 
+\series default
+L'Utente è operativo a seconda dei suoi poteri, le modifiche vengono salvate
+ in modo corretto.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'Utente può effettuare il login.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente può recuperare la password dimenticata.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente autenticato può effettuare il logout.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente autenticato può visualizzare i propri dati.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente autenticato può modificare i propri dati.
+\end_layout
+
+\begin_layout Subsubsection
+3.1.1 UCUA 3: Ambito Utente Autenticato, modifica dati account
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Utente Autenticato, modifica dati account
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+Utente Autenticato
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione: 
+\series default
+L'Utente Autenticato può modificare la propria password o la propria email.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione: 
+\series default
+L'Utente ha effettuato il login.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione: 
+\series default
+Le modifiche sono state salvate in modo corretto.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'Utente può modificare la propria password.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente può modificare la propria email.
+\end_layout
+
+\begin_layout Enumerate
+L'Utente, dopo aver modificato o la password, o l'email, riceve la comunicazione
+ di comferma.
+\end_layout
+
+\begin_layout Subsection
+3.2 Ambito Dipendente, caso d'uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, caso d'uso generale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti: 
+\series default
+Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione: 
+\series default
+Al Dipendente devono venire proposte delle domande dal sistema, deve poter
+ richiedere che gliene venga proposta una in ogni momento e deve poter visualizz
+are i suoi punteggi in qualsiasi momento.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante, l’utente ha effettuato il login come Dipendente nel
+ sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ L’Utente è ancora loggato come Dipendente ed ha effettuato una o più delle
+ operazioni consentite rimanendo in uno stato consistente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può ricevere una domanda proposta dal sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può richiedere al sistema di proporgli una domanda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può visualizzare i suoi punteggi.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+3.2.1 UCD 1 Ambito Dipendente, domanda proposta
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, domanda proposta
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti: 
+\series default
+Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ Al Dipendente viene segnalata una domanda dal sistema e lui deve poter
+ decidere se visualizzare la domanda per rispondere o se posticipare la
+ visualizzazione a più tardi.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione: 
+\series default
+Sistema funzionante, l’utente ha effettuato il login come Dipendente nel
+ sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione: 
+\series default
+L’Utente è ancora loggato come Dipendente ed ha visualizzato o posticipato
+ la domanda proposta.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente riceve una segnalazione di domanda dal sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può visualizzare la domanda proposta o posticiparla per visualizza
+rla in seguito.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+3.2.1.1 UCD 1.1 Ambito Dipendente, mostra domanda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, mostra domanda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione: 
+\series default
+La domanda mostrata al dipendente può essere o una domanda mai vista che
+ può essere stata posticipata precedentemente o una domanda già vista ma
+ risposta erroneamente dal Dipendente, il Dipendente deve rispondere alla
+ domanda mostrata.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante, il Dipendente ha scelto di visualizzare la domanda
+ proposta dal sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Il Dipendente ha risposto alla domanda proposta dal sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente visualizza la domanda proposta.
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente risponde alla domanda.
+\end_layout
+
+\begin_layout Subsubsection
+3.2.2 UCD 2 Ambito Dipendente, richiesta domanda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, richiesta domanda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ Il sistema deve proporre una domanda al Dipendente ogni qualvolta esso
+ lo richieda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante, il Dipendente ha richiesto che gli venga proposta
+ una domanda dal sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Il sistema visualizza una domanda come richiesto dal Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente richiede una domanda al sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Il sistema visualizza una domanda.
+\end_layout
+
+\begin_layout Subsection
+3.3 Ambito Amministratore Sicurezza, caso d’uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Sicurezza, caso d’uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ Amministratore Sicurezza.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’Amministratore Sicurezza può modificare il database di domande o consultare
+ le domande.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente e l’Amministratore
+ Sicurezza ha effettuato il login.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Sicurezza può vedere il database di domande.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Sicurezza può modificare il database di domande.
+\end_layout
+
+\begin_layout Subsubsection
+3.3.1 UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Sicurezza, modifica database.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ Amministratore Sicurezza.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’Amministratore Sicurezza può modificare il database di domande tramite
+ operazioni fondamentali.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Sicurezza può aggiungere una domanda al database di domande.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Sicurezza può modificare una domanda nel database di domande.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Sicurezza può cancellare una domanda nel database di domande.
+\end_layout
+
+\begin_layout Subsubsection
+3.3.1 UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Sicurezza, modifica domanda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Sicurezza.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’Amministratore Sicurezza può modificare la domanda in ogni sua parte.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Esiste una domanda nel database di domande.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ La domanda è stata correttamente modificata secondo la scelta dell’Amministrato
+re Sicurezza.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il tipo della domanda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il testo delle risposte della domanda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il testo della domanda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la risposta corretta.
+\end_layout
+
+\begin_layout Subsection
+3.4 Ambito Amministratore Azienda, caso d’uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Azienda, caso d’uso generale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Azienda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ Un Amministratore Azienda può visualizzare i dati sensibili ed i punteggi
+ relativi ad ogni Dipendente della sua azienda, inoltre ha la possibilità
+ di gestire gli account dei Dipendenti.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Sistema funzionante con database di utenti funzionante, l’utente ha effettuato
+ il login come Amministratore Azienda nel sistema.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ L’Utente è ancora loggato come Amministratore Azienda ed ha effettuato
+ una delle operazioni consentite rimanendo in uno stato consistente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può gestire gli account dei dipendenti.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può visualizzare i dati sensibili dei dipendenti.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può visualizzare i punteggi dei dipendenti.
+\end_layout
+
+\begin_layout Subsubsection
+3.4.1 UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Azienda, gestione dipendenti
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Azienda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’Amministratore Azienda può aggiungere od eliminare account dipendenti
+ nel database, inoltre può modificare i dati personali contenuti negli account.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ L’Amministratore Azienda vuole aggiungere, eliminare o modificare i dati
+ di un account dipendente, è a conoscenza dei dati di eventuali nuovi dipendenti
+ non presenti nel database.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Nel database di dipendenti è presente un nuovo account dipendente, un account
+ dipendente già presente è stato eliminato oppure i dati di un account già
+ presente è stato modificato.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può aggiungere un nuovo account dipendente o se
+ eliminare o modificare i dati personali di un account dipendente già esistente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può eliminare un account dipendente già esistente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’Amministratore Azienda può modificare i dati personali di un account dipendent
+e già esistente.
+\end_layout
+
+\begin_layout Subsection
+3.5 Ambito Amministratore Installatore, caso d’uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Installatore, caso d’uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Installatore, Amministratore Installatore Autenticato.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’ Amministratore Installatore può effettuare il login e gestire il server
+ globale delle aziende oppure installare il software nella azienda relativa.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ L’ Amministratore Installatore effettua il lavoro solo sotto incarico.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ L’ Amministratore Installatore ha effettuato il login o si è recato nell’
+ azienda e ha installato il software su ogni dispositivo richiesto.
+ L’ Amministratore Installatore Autenticato ha effettuato il logout o ha
+ gestito il server globale delle aziende.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore può effettuare il login diventando Amministratore
+ Installatore Autenticato.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore può installare il software recandosi nella
+ azienda che lo ha richiesto.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore Autenticato può effettuare il logout diventando
+ Amministratore Installatore.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore Autenticato può gestire il server globale
+ delle aziende.
+\end_layout
+
+\begin_layout Subsubsection
+3.5.1 UCAI 2: Ambito Amministratore Installatore, installazione software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Installatore, installazione software.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Installatore.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’ Amministratore Installatore si reca nella azienda richiedente ad installare
+ il software.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ L’ Amministratore Installatore effettua il lavoro solo sotto incarico.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ L’ Amministratore Installatore si è recato nell’ azienda e ha installato
+ il software su ogni dispositivo richiesto.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore può installare il software sui dispositivi
+ mobili (tablet, smartphone …).
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore può installare il software sui computer.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+3.5.2 UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
+ aziende.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Installatore Autenticato, gestione server aziende.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ Amministratore Installatore Autenticato.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione:
+\series default
+ L’ Amministratore Installatore Autenticato può gestire il server aziende.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ L’ Amministratore Installatore Autenticato effettua il lavoro solo sotto
+ incarico, esiste il database delle aziende.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione:
+\series default
+ Il database delle aziende esiste ed è consistente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore Autenticato aggiunge una azienda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+L’ Amministratore Installatore Autenticato elimina una azienda.
+ 
 \end_layout
 
 \end_body
