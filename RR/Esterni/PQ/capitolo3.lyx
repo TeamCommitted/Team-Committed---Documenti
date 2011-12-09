@@ -82,7 +82,10 @@ Issues
 \end_inset
 
  messa a disposizione da Github.
- Coerentemente con l'organizzazione generale delle strategie di verifica,
+\end_layout
+
+\begin_layout Standard
+Coerentemente con l'organizzazione generale delle strategie di verifica,
  nuove anomalie potranno essere scoperte in due modi:
 \end_layout
 
@@ -101,12 +104,12 @@ Appena un'anomalia viene trovata è opportuna una segnalazione tempestiva
  attraverso i ticket.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Paragraph*
 Struttura di un ticket
 \end_layout
 
 \begin_layout Standard
-La struttura di un ticket dovrà seguire le seguenti specifiche:
+La struttura di un ticket dovrà seguire le seguenti specifiche://da confermare
 \end_layout
 
 \begin_layout Itemize
@@ -129,19 +132,23 @@ Milestone
 Owner
 \end_layout
 
+\begin_layout Itemize
+Priorità
+\end_layout
+
 \begin_layout Standard
 A riguardo è possibile leggere in dettaglio le specifiche di un ticket nel
  documento Norme di Progetto capitolo xx //?
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Paragraph*
 Risoluzione di un ticket
 \end_layout
 
 \begin_layout Standard
-Quando un programmatore assegnato al ticket è pronto per inviare l'opportuna
- modifica al codice, dovrà preoccuparsi di inviare la modifica e segnalare
- il ticket come 
+Quando un programmatore assegnato(//o no?) al ticket è pronto per inviare
+ l'opportuna modifica al codice, dovrà preoccuparsi di inviare la modifica
+ e segnalare il ticket come 
 \begin_inset Quotes eld
 \end_inset
 

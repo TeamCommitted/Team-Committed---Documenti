@@ -70,12 +70,12 @@
 
 \begin_body
 
-\begin_layout Subsection
-2 Descrizione Generale
+\begin_layout Section
+Descrizione Generale
 \end_layout
 
-\begin_layout Subsubsection
-2.1 Contesto d'uso del prodotto
+\begin_layout Subsection
+Contesto d'uso del prodotto
 \end_layout
 
 \begin_layout Standard
@@ -98,23 +98,16 @@ Il sistema non si limita ad essere funzionale solo per lavoratori interni
  come tablet e smartphone.
 \end_layout
 
-\begin_layout Subparagraph
-2.1.1 Processi produttivi e modalità d'uso
+\begin_layout Subsubsection
+Processi produttivi e modalità d'uso
 \end_layout
 
-\begin_layout Subparagraph
-2.1.2 Piattaforma d'esecuzione e interfacciamento con l'ambiente di installazione
+\begin_layout Subsubsection
+Piattaforma d'esecuzione e interfacciamento con l'ambiente di installazione
  e uso
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
 Il prodotto è utilizzabile da qualsiasi piattaforma fissa connessa alla
  rete, con una java virtual machine precedentemente installata e che disponga
  di almeno un browser per la visualizzazione di pagine web.
@@ -125,18 +118,11 @@ Invece per quanto riguarda i dispositivi portatili basta che questi abbiano
  la possibilità di connettersi alla rete.
 \end_layout
 
-\begin_layout Subsubsection
-2.2 Funzioni del prodotto
+\begin_layout Subsection
+Funzioni del prodotto
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
 Il prodotto fornirà ad un datore di lavoro la possibilità di definire delle
  domande relative alla sicurezza, di tipo teorico e pratico consigliate
  da esperti nel settore, che verranno somministrate periodicamente ai propri
@@ -206,8 +192,8 @@ rispondere a domande di tipo dinamico, come seguire percorsi e varie
 \end_layout
 
 \end_deeper
-\begin_layout Subparagraph
-2.3 Vincoli generali
+\begin_layout Subsection
+Vincoli generali
 \end_layout
 
 \begin_layout Standard

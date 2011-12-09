@@ -294,7 +294,7 @@ Large Informazioni sul documento}
 
 	
 \backslash
-begin{tabular}{ l | p{5cm} }
+begin{longtable}{ l | p{5cm} }
 \end_layout
 
 \begin_layout Plain Layout
@@ -342,7 +342,11 @@ datared
 \backslash
 textbf{Redattori} & 
 \backslash
-redattore 
+parbox{
+\backslash
+textwidth}{
+\backslash
+redattore} 
 \backslash
 
 \backslash
@@ -409,7 +413,7 @@ listadistr}
 
 	
 \backslash
-end{tabular} 
+end{longtable} 
 \backslash
 
 \backslash

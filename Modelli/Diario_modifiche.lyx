@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{longtable}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -116,7 +119,7 @@ begin{center}
 
 	
 \backslash
-begin{tabular}{ p{6cm} | c | c | r }
+begin{longtable}{ p{6cm} | c | c | r }
 \end_layout
 
 \begin_layout Plain Layout
@@ -174,7 +177,7 @@ emph{Inizio creazione del documento.
 
 	
 \backslash
-end{tabular}
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout

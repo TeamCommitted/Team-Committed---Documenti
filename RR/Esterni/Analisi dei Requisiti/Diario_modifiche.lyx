@@ -127,7 +127,7 @@ begin{center}
 
 	
 \backslash
-begin{tabular}{ p{6cm} | c | c | r }
+begin{longtable}{ p{6cm} | c | c | r }
 \end_layout
 
 \begin_layout Plain Layout
@@ -213,7 +213,7 @@ hline
 
 	
 \backslash
-end{tabular}
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout

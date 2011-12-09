@@ -294,7 +294,7 @@ Large Informazioni sul documento}
 
 	
 \backslash
-begin{tabular}{ l | p{5cm} }
+begin{longtable}{ l | p{5cm} }
 \end_layout
 
 \begin_layout Plain Layout
@@ -413,11 +413,7 @@ listadistr}
 
 	
 \backslash
-end{tabular} 
-\backslash
-
-\backslash
-[1cm]
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout
