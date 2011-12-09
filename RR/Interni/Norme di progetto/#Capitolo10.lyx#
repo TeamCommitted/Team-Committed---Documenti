@@ -376,47 +376,7 @@ use case
 \series bold
 Attori: 
 \series default
-gli attori dovranno essere scriti con l'iniziale maiuscola e, nel caso di
- composizione di più parole, devono essere concatenate dal carattere 
-\emph on
-underscore
-\emph default
-, seguito da una maiuscola.
- Per gli acronimi vale quanto scritto nella sezione 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "sub:Norme-tipografiche"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Funzioni: 
-\series default
-tutte le funzioni dovranno essere scritte in maniera 
-\emph on
-atomica
-\emph default
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Ovvero inserendo il minor numero di termini possibili
-\end_layout
-
-\end_inset
-
-, senza però lasciare spazio ad interpretazione al nome della funzione.
- Inoltre i verbi, se presenti, dovrano essere sostantivizzati
-\end_layout
-
-\begin_layout Subsection
-Stesura del codice
+gli attori 
 \end_layout
 
 \end_body

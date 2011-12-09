@@ -99,20 +99,61 @@ TeamCommitted
  ha deciso di utilizzare per lo svolgimento dell'intero progetto.
 \end_layout
 
-\begin_layout Subsection
-Ambiente generale
+\begin_layout Standard
+Poichè il progetto 
+\emph on
+C03
+\emph default
+ richiede espressamente delle applicazioni multi-piattaforma, abbiamo deciso
+ di uniformare dove possibile l'ambiente di sviluppo, cercando applicazioni
+ multipiattaforma.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Sistema operativo
 \end_layout
 
 \begin_layout Standard
-Poichè il capitolato 
-\emph on
-C03
-\emph default
- richiede espressamente 
+Tutte le attività legate allo sviluppo del progetto verranno svolte su ambienti
+ Windows 7, Mac OsX e GNU/Linux
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Con GNU/Linux intendiamo Ubuntu 10.04, 
+\series bold
+ETC....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambiente documentale
+\end_layout
+
+\begin_layout Subsubsection
+Scrittura documenti
+\end_layout
+
+\begin_layout Subsubsection
+Verifica ortografica
+\end_layout
+
+\begin_layout Subsubsection
+Pianificazione
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda la pianificazione delle attività legate allo sviluppo
+ del progetto e la gestione delle risorse verrà utilizzato lo strumento
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Grafici UML
 \end_layout
 
 \end_body
