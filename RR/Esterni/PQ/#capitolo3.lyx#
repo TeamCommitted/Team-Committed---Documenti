@@ -60,171 +60,61 @@
 \begin_body
 
 \begin_layout Section
-Gestione amministrativa della revisione
+Obbiettivi di qualità
+\end_layout
+
+\begin_layout Standard
+Team Committed ha ritenuto importante fissare, di comune accordo, alcuni
+ obbiettivi di qualità da perseguire e raggiungere sia nei processi di realizzaz
+ione che del prodotto in se, questo per garantire una migliore e più efficace
+ soddisfazione dei requisiti richiesti nel capitolato d'appalto (non sono
+ sicuro del termine).
 \end_layout
 
 \begin_layout Subsection
-Comunicazione e risoluzione di anomalie
-\end_layout
-
-\begin_layout Standard
-Un'anomalia consiste in un comportamento non coerente con le aspettative
- di qualità prefissate.
-\end_layout
-
-\begin_layout Standard
-Lo strumento scelto per la gestione delle anomalie è la sezione 
-\begin_inset Quotes eld
-\end_inset
-
-Issues
-\begin_inset Quotes erd
-\end_inset
-
- messa a disposizione da Github.
-\end_layout
-
-\begin_layout Standard
-Coerentemente con l'organizzazione generale delle strategie di verifica,
- nuove anomalie potranno essere scoperte in due modi:
-\end_layout
-
-\begin_layout Enumerate
-Al rilascio di ogni nuova versione con relativo registro delle modifiche,
- il Verificatore effettuerà una fase di verifica cercando eventuali anomalie.
-\end_layout
-
-\begin_layout Enumerate
-Grazie all'approccio “Broken Window Theory”, chiunque in qualunque momento
- è incentivato alla ricerca di possibili anomalie.
-\end_layout
-
-\begin_layout Standard
-Appena un'anomalia viene trovata è opportuna una segnalazione tempestiva
- attraverso i ticket.
-\end_layout
-
-\begin_layout Paragraph*
-Struttura di un ticket
-\end_layout
-
-\begin_layout Standard
-La struttura di un ticket dovrà seguire le seguenti specifiche://da confermare
-\end_layout
-
-\begin_layout Itemize
-Nome
-\end_layout
-
-\begin_layout Itemize
-Descrizione
-\end_layout
-
-\begin_layout Itemize
-Tag
-\end_layout
-
-\begin_layout Itemize
-Milestone
-\end_layout
-
-\begin_layout Itemize
-Owner
-\end_layout
-
-\begin_layout Itemize
-Priorità
-\end_layout
-
-\begin_layout Standard
-A riguardo è possibile leggere in dettaglio le specifiche di un ticket nel
- documento Norme di Progetto capitolo xx //?
-\end_layout
-
-\begin_layout Paragraph*
-Risoluzione di un ticket
-\end_layout
-
-\begin_layout Standard
-Quando un programmatore assegnato(//o no?) al ticket è pronto per inviare
- l'opportuna modifica al codice, dovrà preoccuparsi di inviare la modifica
- e segnalare il ticket come 
-\begin_inset Quotes eld
-\end_inset
-
-fixed
-\begin_inset Quotes erd
-\end_inset
-
- attraverso la sintassi suggerita da Github nella descrizione del relativo
- commit.
- Sarà compito del Responsabile confermare l'effettiva chiusura del ticket
- solo se la modifica al codice ha risolto l'anomalia.
+Qualità dei processi
 \end_layout
 
 \begin_layout Subsection
-Trattamento delle discrepanze
+Qualità del prodotto
 \end_layout
 
 \begin_layout Standard
-Una discrepanza è un tipo di anomalia non grave, non concerne il corretto
- funzionamento del prodotto, ma può riguardare un allontanamento dai requisiti
- attesi specificati nel capitolato d'appalto oppure una violazione delle
- Norme di Progetto.
+Per quanto concerne la qualità del prodotto si è scelto di seguire alcune
+ linee guida dettate dallo standard ISO/IEC 9126, classificato da sei caratteris
+tiche generali e varie sottocaratteristiche.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Funzionalità
 \end_layout
 
 \begin_layout Standard
-Le modalità di ricerca e comunicazione delle discrepanze è del tutto simile
- alle modalità specificate per le anomalie; la risoluzione presenta invece
- modalità differenti.
+Il prodotto software realizzato deve essere in grado di offrire apposite
+ funzioni che siano in grado di soddisfare le esigenze evidenziate dai requisiti
+ individuati nell'analisi dei requisiti.
+ 
 \end_layout
 
-\begin_layout Standard
-Una volta creato il ticket sarà compito del verificatore riconoscere quale
- tipo di discrepanza si tratta e nel caso riguardi una violazione delle
- Norme di Progetto provvederà a comnicare il problema all'Amministratore
- che prenderà provvedimenti.
- Se invece il problema riguarda un allontanamento dai requisiti, una volta
- identificata l'origine della discrepanza il Verificatore solleciterà l'Analista
- per valutare la gravità e i costi per risolverla.
+\begin_layout Subsubsection
+Affidabilità
 \end_layout
 
-\begin_layout Subsection
-Procedure di controllo di qualità di processo
+\begin_layout Subsubsection
+Efficienza
 \end_layout
 
-\begin_layout Standard
-Le procedure di gestione della qualità che il gruppo TeamCommitted userà
- si basano sul concetto di 
-\begin_inset Quotes eld
-\end_inset
-
-ciclo di Deming
-\begin_inset Quotes erd
-\end_inset
-
- o PDCA, utili a garantire un continuo processo di miglioramento basandosi
- sulla comunicazione attiva da parte delle varie componenti del gruppo,
- una continua connessione fra le fasi di analisi, progettazione, produzione
- e verifica o collaudo.
- Lo scopo è un continuo miglioramento dei processi qualitativi unito ad
- una riduzione di costi e sprechi.
+\begin_layout Subsubsection
+Usabilità
 \end_layout
 
-\begin_layout Standard
-Il concetto è molto vicino al termine Kaizen, comunemente tradotto con 
-\begin_inset Quotes eld
-\end_inset
+\begin_layout Subsubsection
+Manutenibilità
+\end_layout
 
-miglioramento continuo
-\begin_inset Quotes erd
-\end_inset
-
-, si riferisce ai processi di miglioramento qualitativo che devono coinvolgere
- tutto il gruppo di persone al lavoro.
- Si basa sulla filosofia de "L'energia viene dal basso", ovvero sull'idea
- che il processo qualitativo non dipenda solo dall'organizzazione di un
- progetto, ma anche sul lavoro fatto sui singoli processi e prodotti.
+\begin_layout Subsubsection
+Portabilità
 \end_layout
 
 \end_body

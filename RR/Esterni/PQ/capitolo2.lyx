@@ -94,9 +94,13 @@ Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
 \end_layout
 
 \begin_layout Itemize
-Analisi dei requisiti: ogni documento necessario alla RR, quando verrà completat
-o, entrerà nella dedicata fase di revisione per controllare la presenza
- di eventuali inregolarità lessico/grammaticali e nei contenuti esposti.
+
+\series bold
+Analisi dei requisiti
+\series default
+: ogni documento necessario alla RR, quando verrà completato, entrerà nella
+ dedicata fase di revisione per controllare la presenza di eventuali inregolarit
+à lessico/grammaticali e nei contenuti esposti.
  Nel dettaglio il controllo grammaticale verrà effettuato con gli strumenti
  messi a disposizione da LyX (dobbiamo approfondire questo aspetto), mentre
  il controllo lessicale da un'accurata rilettura del testo.
@@ -114,17 +118,25 @@ o, entrerà nella dedicata fase di revisione per controllare la presenza
 \end_layout
 
 \begin_layout Itemize
-Progettazione: il processo di verifica riguardante la fase di Progettazione
- consisterà nel verificare che tutti i requisiti descritti durante la fase
- di Analisi dei Requisiti rientrino nei componenti individuati.
+
+\series bold
+Progettazione
+\series default
+: il processo di verifica riguardante la fase di Progettazione consisterà
+ nel verificare che tutti i requisiti descritti durante la fase di Analisi
+ dei Requisiti rientrino nei componenti individuati.
  Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
  segnalate tramite Issue e successivamente risolte (chiarire questo punto).
 \end_layout
 
 \begin_layout Itemize
-Realizzazione: la verifica in questa fase verrà effettuata sia da parte
- dei programmatori stessi che utilizzando appositi e specifici strumenti
- di verifica automatizzata del codice.
+
+\series bold
+Realizzazione
+\series default
+: la verifica in questa fase verrà effettuata sia da parte dei programmatori
+ stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
+ del codice.
  Un esempio di questi strumenti riguarda il sito web W3C per controllare
  la conformità delle pagine html realizzate agli standard o FireBug.
  La resenza di errori verrà segnalata da un apposita Issue che verrà presa
@@ -133,8 +145,11 @@ Realizzazione: la verifica in questa fase verrà effettuata sia da parte
 \end_layout
 
 \begin_layout Itemize
-Validazione: (questa sezione è particolare e dobbiamo discutere insieme
- cosa inserire)
+
+\series bold
+Validazione
+\series default
+: (questa sezione è particolare e dobbiamo discutere insieme cosa inserire)
 \end_layout
 
 \begin_layout Subsection
