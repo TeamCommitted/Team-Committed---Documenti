@@ -160,7 +160,11 @@ Codifica
 Definizione delle particolaritá dei vari documenti
 \series default
 \emph default
+<<<<<<< HEAD
 : 
+=======
+: programmi utilizzati dall'intero gruppo di progetto
+>>>>>>> ac534ee7249c3c44992a84565766d8b626f827e7
 \end_layout
 
 \begin_layout Itemize
