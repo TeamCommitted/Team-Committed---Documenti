@@ -78,12 +78,268 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge IL SEGUENTE CAPITOLO 
+\backslash
+'E DA FINIRE DOPO LA DISCUSSIONE SULLE CONVENZIONI DI CODIFICA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Codifica
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Codifica"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Si elencano ora una serie di 
+Si elencano ora una serie di convenzioni per la struttura dei file sorgenti
+ prodotti.
+\end_layout
+
+\begin_layout Subsection
+Intestazione file
+\end_layout
+
+\begin_layout Standard
+Ogni file di codice sorgente dovrà iniziare con un'intestazione che dovrà
+ rispettare il seguente schema:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+/*
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Name: {Nome del file}
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Package: {Package di appartenenza}
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Author: {Autore del file}
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Date: {Data di approvazione del file}
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Version: {Versione del file}
+\end_layout
+
+\begin_layout Plain Layout
+
+ * 
+\end_layout
+
+\begin_layout Plain Layout
+
+ * Changes:
+\end_layout
+
+\begin_layout Plain Layout
+
+ * +--------+------------+---------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+ * |  Date  | Programmer | Changes
+\end_layout
+
+\begin_layout Plain Layout
+
+ * +--------+------------+---------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+ * | GGMMAA | NomeCognome| - [label]method1
+\end_layout
+
+\begin_layout Plain Layout
+
+ * |        |            | - [label]method2
+\end_layout
+
+\begin_layout Plain Layout
+
+ * |        |            | - ....
+\end_layout
+
+\begin_layout Plain Layout
+
+ * +--------+------------+---------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+ *
+\end_layout
+
+\begin_layout Plain Layout
+
+*/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Name: 
+\series default
+nome del file comprensivo di estensione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Package: 
+\series default
+nome completo della gerarchia del package
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Author:
+\series default
+ deve contenere i nomi di tutti coloro che hanno creato e modificato il
+ file.
+ Non devono essere inclusi coloro che hanno verificato e approvato il file
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Date: 
+\series default
+indica la data di approvazione del file
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Version:
+\series default
+ indica la versione attuale del file
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Changes: 
+\series default
+rappresenta la tabella di avanzamento del file.
+ Per convenzione:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+NomeCognome:
+\series default
+ dovrà contenere le prime 4 lettere del nome seguite dalle prime 4 lettere
+ del cognome
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Changes:
+\series default
+ rappresenta la lista dei cambiamenti.
+ Per ogni riga dovrà esserci un solo cambiamento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Nel caso di più cambiamenti usare più righe indicando solo una volta la
+ data e NomeCognome
+\end_layout
+
+\end_inset
+
+.
+ 
+\emph on
+Label
+\emph default
+ potrà essere:
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+[+]
+\emph default
+: indica la creazione del metodo 
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+[-]
+\emph default
+: indica l'eliminazione del metodo
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+[*]
+\emph default
+: indica la modifica del metodo
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Convenzioni di codifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+DA CONCORDARE
 \end_layout
 
 \end_body
