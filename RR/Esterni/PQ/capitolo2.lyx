@@ -339,5 +339,239 @@ Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
 Strumenti, tecniche e metodi
 \end_layout
 
+\begin_layout Subsubsection
+Strumenti
+\end_layout
+
+\begin_layout Standard
+Il gruppo potrà avvalersi dei seguenti strumenti per effettuare i processi
+ di verifica
+\end_layout
+
+\begin_layout Itemize
+GNU Aspell usato come plugin al gestore documenti Lyx
+\end_layout
+
+\begin_layout Itemize
+FindBugs
+\end_layout
+
+\begin_layout Itemize
+Validatore W3C
+\end_layout
+
+\begin_layout Itemize
+asdlol
+\end_layout
+
+\begin_layout Itemize
+lolasd
+\end_layout
+
+\begin_layout Subsubsection
+Tecniche
+\end_layout
+
+\begin_layout Paragraph
+Analisti statica
+\end_layout
+
+\begin_layout Standard
+L'analisi statica consisterà nella verifica critica del codice, controllandone
+ requisiti e la corretta progettazione.
+\end_layout
+
+\begin_layout Standard
+Questo tipo di analisi è usualmente fatta con due tecniche complementari.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Walkthrough 
+\series default
+consiste in un'ispezione generale del codice senza prerequisiti iniziali
+ e pianificazione.
+ È utile nelle fasi iniziali di verifica quando va considerato il software
+ nel suo intero senza sapere quali saranno le parti più critiche.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Inspection 
+\series default
+consiste in una verifica mirata del codice, è possibile solo quando si è
+ raggiunto un buon grado di conoscenze e si è già a conoscenza degli errori
+ più comuni o delle aree più critiche.
+\end_layout
+
+\begin_layout Standard
+Chiaramente la tecnica dell'Inspection è più efficace, ma sarà possibile
+ attuarla solo dopo aver appreso la consapevolezza iniziale del proprio
+ codice e delle proprie capacità.
+\end_layout
+
+\begin_layout Paragraph
+Metodi di Analisi Statica:
+\end_layout
+
+\begin_layout Itemize
+Analisi del flusso di controllo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ci si accerta che il codice segua il flusso aspettato, che non si possa
+ entrare in porzioni di codice che possono non terminare, che non esista
+ codice non raggiungibile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Analisi del flusso dei dati
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ci si accerta che il software non acceda mai a variabili non inizializzate,
+ o scriva inutilmente più volte prima di usare la variabile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Analisi del flusso di informazione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica che gli input e gli output di ogni unità di codice o di più unità
+ rientrino nelle specifiche del programma
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Analisi dinamica
+\end_layout
+
+\begin_layout Standard
+L'analisi dinamica consisterà nella verifica dei componenti del software
+ o del sistema in generale.
+ Verranno effettuati test mirati e ripetuti in diversi contesti.
+ Il programmatore durante i test dovrà essere coscente dello stato dell'ambiente
+, degli input, e dei risultati in ogni momento dell'esecuzione.
+ Questi risultati saranno utili solo nel caso vengano trovati errori da
+ correggere, nel caso non vengano trovati questo non significa necessariamente
+ l'assenza di anomalie.
+\end_layout
+
+\begin_layout Paragraph
+Metodi di Analisi Dinamica
+\end_layout
+
+\begin_layout Itemize
+Test di unità
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Test che si effettuano per ogni unità del software con il massimo grado
+ di parallelismo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di integrazione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica dei componenti formati dall'integrazione delle varie unità che
+ hanno passato il test di unità.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di sistema e di collaudo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica che il sistema in cui andrà installato il software rispetti i requisiti
+ richiesti, o che il software riesca ad adattarsi correttamente al contesto
+ dell'azienda proponente.
+\end_layout
+
+\begin_layout Itemize
+Collaudo del software installato, finito il quale avverrà il rilascio del
+ prodotto.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di regressione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nel caso di una modifica ad un singolo componente, andranno effettuati nuovament
+e tutti i test di unità e, se necessario, di integrazione riferiti a quel
+ componente.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Misure e Metriche
+\end_layout
+
+\begin_layout Standard
+Le misure e le metriche che adotteremo per la verifica della qualità del
+ software si ispiriranno alle indicazioni dello standard ISO-14598.
+ Sono misure focalizzate al miglioramento della capacità di prevedere e
+ contenere il costo del software.
+\end_layout
+
+\begin_layout Itemize
+Numero dei requisiti
+\end_layout
+
+\begin_layout Itemize
+Punti Funzione
+\end_layout
+
+\begin_layout Itemize
+Volatilità dei requisiti
+\end_layout
+
+\begin_layout Itemize
+Numero degli Use Case Points (UML).
+\end_layout
+
+\begin_layout Itemize
+Numero di moduli e coesione tra di essi.
+\end_layout
+
+\begin_layout Itemize
+Complessità di flusso (misura la quantità di informazioni in entrata ed
+ uscita da una funzione [fan in e fan out] ) 
+\end_layout
+
+\begin_layout Itemize
+Linee di codice 
+\end_layout
+
+\begin_layout Itemize
+Complessità ciclomatica 
+\end_layout
+
+\begin_layout Itemize
+Misure di coesione funzionale – misurano le istanze di definione e utilizzo
+ di variabli e costanti (1994) 
+\end_layout
+
+\begin_layout Itemize
+Livello di copertura di istruzioni, dei rami, dei percorsi base
+\end_layout
+
 \end_body
 \end_document
