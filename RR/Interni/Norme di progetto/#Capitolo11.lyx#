@@ -587,10 +587,6 @@ FindBugs
 Metrics 
 \series default
 (
-\begin_inset Formula $\geqslant1.3.6$
-\end_inset
-
-)
 \end_layout
 
 \begin_layout Subsubsection
@@ -606,22 +602,10 @@ Eclipse
 \series bold
 JUnit
 \series default
- (
-\begin_inset Formula $\geqslant4.10)$
-\end_inset
-
 .
  Per quanto riguarda i testi di carico sul database useremo 
 \series bold
 ApacheBench 
-\series default
-(
-\begin_inset Formula $\geqslant2.0$
-\end_inset
-
-)
-\series bold
- 
 \series default
 tramite linea di comando, mentre per i test su browser useremo il plug-in
  per 
@@ -632,11 +616,7 @@ Mozilla Firefox
 \series bold
 Selenium IDE
 \series default
- (
-\begin_inset Formula $\geqslant1.4.1$
-\end_inset
-
-).
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -650,15 +630,7 @@ Mozilla Firefox
 \emph default
  
 \series bold
-Firebug 
-\series default
-(
-\begin_inset Formula $\geqslant1.8.3$
-\end_inset
-
-
-\series bold
-).
+Firebug.
 \end_layout
 
 \begin_layout Subsubsection
@@ -677,18 +649,6 @@ CSS
  dell'applicazione da noi sviluppata verrà fatta tramite il servizio 
 \series bold
 W3C Validator
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family typewriter
-http://validator.w3.org/
-\end_layout
-
-\end_inset
-
-
 \series default
  del 
 \emph on
