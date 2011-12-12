@@ -78,6 +78,24 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge IL SEGUENTE CAPITOLO 
+\backslash
+'E DA FINIRE DOPO LA DISCUSSIONE SULLE NORME PER LO SVILUPPO DI APPLICAZIONI}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Norme per lo sviluppo dell'applicazione
 \end_layout
@@ -377,11 +395,8 @@ use case
 Attori: 
 \series default
 gli attori dovranno essere scriti con l'iniziale maiuscola e, nel caso di
- composizione di più parole, devono essere concatenate dal carattere 
-\emph on
-underscore
-\emph default
-, seguito da una maiuscola.
+ composizione di più parole, dovranno essere concatenate da un carattere
+ di spaziatura, seguito da una maiuscola.
  Per gli acronimi vale quanto scritto nella sezione 
 \begin_inset CommandInset ref
 LatexCommand vref
@@ -415,6 +430,40 @@ Ovvero inserendo il minor numero di termini possibili
  Inoltre i verbi, se presenti, dovrano essere sostantivizzati
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Nomenclatura:
+\series default
+ il nome di ogni 
+\emph on
+Use Case
+\emph default
+ dovrà essere un acronimo formato da:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+UC: 
+\series default
+Use Case
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{XX}:
+\series default
+ iniziali del caso d'uso descritto
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\end_layout
+
 \begin_layout Subsection
 Stesura del codice
 \end_layout
@@ -441,6 +490,8 @@ Gestione delle attività
 
 \begin_layout Standard
 
+\series bold
+DA DEFINIRE
 \end_layout
 
 \end_body
