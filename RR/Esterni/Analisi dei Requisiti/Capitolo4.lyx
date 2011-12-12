@@ -93,11 +93,8 @@ RXY con:
 \end_layout
 
 \begin_layout Itemize
-X: indica il dettaglio del vincolo a cui si riferisce, 
-\begin_inset space \space{}
-\end_inset
-
-F se funzionale, P se prestazionale, Q se di qualità, V se di vincolo 
+X: indica il dettaglio del vincolo a cui si riferisce, F se funzionale,
+ P se prestazionale, Q se di qualità, V se di vincolo 
 \end_layout
 
 \begin_layout Itemize
@@ -452,7 +449,7 @@ begin{center}
 
 	
 \backslash
-begin{tabular}{ l | p{10cm} | r}
+begin{longtable}{ l | p{10cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -472,7 +469,7 @@ hline
 
 	
 \backslash
-end{tabular}
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout
@@ -506,7 +503,7 @@ begin{center}
 
 	
 \backslash
-begin{tabular}{ l | p{10cm} | r}
+begin{longtable}{ l | p{10cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -531,7 +528,7 @@ hline
 
 	
 \backslash
-end{tabular}
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout
@@ -565,7 +562,7 @@ begin{center}
 
 	
 \backslash
-begin{tabular}{ l | p{10cm} | r}
+begin{longtable}{ l | p{10cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -645,7 +642,7 @@ hline
 
 	
 \backslash
-end{tabular}
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout
