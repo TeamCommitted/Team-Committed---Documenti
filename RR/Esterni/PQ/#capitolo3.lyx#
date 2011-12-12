@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -73,6 +74,305 @@ ione che del prodotto in se, questo per garantire una migliore e più efficace
 
 \begin_layout Subsection
 Qualità dei processi
+\end_layout
+
+\begin_layout Standard
+La realizzazione di prodotti di buona qualità richiede che vi sia qualità
+ anche nei processi necessari.
+ Team Committed ha quindi deciso di adottare lo standard ISO/IEC 15504:1998
+ SPICE (Software Process Improvement and Capability dEtermination) che definisce
+ il modello denominato SPA-I (Software Process Assessment & Improvement)
+ che offre metodi per la valutazione ed aumento di qualità dei processi.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename SPA-I.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Figura 1: modello SPA-I
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tutti i processi dovranno quindi essere sottoposti a valutazione in modo
+ da verificarne la qualità ed eventualmente facilitarne il miglioramento.
+ A tale scopo lo SPICE definisce nove attributi di processo per effettuare
+ una migliore valutazione:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process performance
+\series default
+: un processo raggiunge i suoi obiettivi nel momento in cui trasforma dell'input
+ identificabile in output identificabile.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Performance Management
+\series default
+: l'attuazione di un processo è pianificata e controllata al fine di generare
+ risultati che rispondono agli obiettivi attesi.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Work Product Management
+\series default
+: l'attuazione di un processo è pianificata e controllata al fine di generare
+ risultati che siano adeguatamente documentati, controllati e verificati.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process Definition
+\series default
+: l'attuazione di un processo si basa su approcci standardizzati.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process Resource
+\series default
+: il processo può contare sulle adeguate risorse umane, d'infrastrutture
+ ecc.
+ per essere attuato.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process Measurement: 
+\series default
+i risultati conseguiti e le misure rilevate durante l'attuazione di un processo
+ sono utilizzati per assicurarsi che l'attuazione di tale processo supporti
+ efficacemente il raggiungimebto di obiettivi specifici.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process Control
+\series default
+: un processo è controllato tramite la raccolta, analisi ed utilizzo delle
+ misure di prodotto e di processo rilevate, con l'obbiettivo di correggere,
+ se necessario, le sue modalità di attuazione.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Process Change
+\series default
+: le modifiche alla definizione, gestione e attuazione di un processo sono
+ controllate.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Continuous Integration
+\series default
+: Le modifiche ad un processo sono identificate ed implementate con lo scopo
+ di assicurare il continuo miglioramento nel raggiungere gli obbiettivi
+ rilevati per l'organizzazione.
+\end_layout
+
+\begin_layout Standard
+La norma stabilisce poi quattro differenti livelli di possesso di ciascuno
+ degli attributi:
+\end_layout
+
+\begin_layout Itemize
+N - Non posseduto (0 - 15% di possesso, non c'è evidenza oppure ce n'è poca
+ del possesso di un attributo).
+\end_layout
+
+\begin_layout Itemize
+P - Parzialmente posseduto (16 - 50% di possesso, c'è evidenza di approccio
+ sistematico al raggiungimento del possesso di un attributo e del raggiungimento
+ di tale possesso, ma alcuni aspetti del possesso possono essere non prevedibili
+).
+\end_layout
+
+\begin_layout Itemize
+L - Largamente posseduto (51 - 85% di possesso, vi è evidenza di approccio
+ sistematico al raggiungimento del possesso di un attributo e di un significativ
+o livello di possesso di tale attributo, ma l'attuazione del processo può
+ variare nelle diverse unita operative della organizzazione).
+\end_layout
+
+\begin_layout Itemize
+F - (Fully) pienamente posseduto (86 - 100% di possesso, vi è evidenza di
+ un totale e sistematico approccio e di un completo raggiungimento del possesso
+ dell'attributo e non esistono significative differenze nel modo di attuare
+ il processo tra le diverse unità operative).
+\end_layout
+
+\begin_layout Standard
+Vi sono poi vari livelli di maturità dei processi che sono dati dal diverso
+ livello di possesso degli attributi:
+\end_layout
+
+\begin_layout Itemize
+Livello 0 - Processo incompleto: il processo non è implementato o non raggiunge
+ gli obiettivi.
+ Non vi è evidenza di approcci sistematici agli attributi definiti.
+\end_layout
+
+\begin_layout Itemize
+Livello 1 - Processo semplicemente attuato: il proesso viene messo in atto
+ e raggiunge i suoi obiettivi.
+ Non vi + evidenza di approcci sistematici agli attributi definiti.
+ Il raggiungimento di questo livello è dimostrato attraverso il possesso
+ degli attributi di 
+\begin_inset Quotes eld
+\end_inset
+
+Process performance
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Livello 2 - Processo gestito: il processo è attuato ma anche pianificato,
+ tracciato, verificato ed aggiustato se necessario, sulla base di obiettivi
+ ben definiti.
+ Il raggiungimento di questo livello è dimostrato attraverso il possessi
+ degli attributi di 
+\begin_inset Quotes eld
+\end_inset
+
+Performance management
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+Work product management
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Livello 3 - Processo definito: il processo è attuato, pianificato e controllato
+ sulla base di procedure ben definite, basate sui principi del software
+ engineering.
+ Il raggiungimento di questo livello è dimostrato attraverso il possesso
+ degli attributi di 
+\begin_inset Quotes eld
+\end_inset
+
+Process definition
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+Process resource
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Livello 4 - Processo predicibile: il processo è stabilizzato ed è attuato
+ all'interno di definiti limiti riguardo i risultati attesi, le performance,
+ le risorse impiegate ecc.
+ Il raggiungimento di questo livello è dimostrato attraverso il possesso
+ degli attributi di 
+\begin_inset Quotes eld
+\end_inset
+
+Process measurement
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+Process control
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Livello 5 - Processo ottimizzante: il processo è predicibile ed in grado
+ di adattarsi per raggiungere obiettivi specifici e rilevanti per l'organizzazio
+ne.
+ Il raggiungimento di questo livello è dimostrato attraverso il possesso
+ degli attributi di 
+\begin_inset Quotes eld
+\end_inset
+
+Process change
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+Continuous integration
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(NOTA: Inserito anche i dettagli precisi per ognuno, li tengo?)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'applicazione dello standard ISO/IEC 15504 porta a benefici sia agli sviluppato
+di del software che ai suoi utilizzatori/acquirenti.
+ Per gli sviluppatori porta vantaggi nell'ottimiz
 \end_layout
 
 \begin_layout Subsection
