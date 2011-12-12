@@ -93,23 +93,15 @@ Norme di Progetto
 
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 D'ora in poi chiamato 
 \begin_inset Quotes eld
 \end_inset
 
-NdP
+N.d.P
 \begin_inset Quotes erd
-\end_inset
-
-, v.d.
- sezione 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:Formati-ricorrenti"
-
 \end_inset
 
 
@@ -160,11 +152,7 @@ Codifica
 Definizione delle particolaritá dei vari documenti
 \series default
 \emph default
-<<<<<<< HEAD
 : 
-=======
-: programmi utilizzati dall'intero gruppo di progetto
->>>>>>> ac534ee7249c3c44992a84565766d8b626f827e7
 \end_layout
 
 \begin_layout Itemize
@@ -184,23 +172,23 @@ Tutti i membri del gruppo di progetto dovranno sottoscrivere il seguente
 status collapsed
 
 \begin_layout Plain Layout
-Le firme verranno apposte alla fine del documento, nella sezione dedicata
+Le firme verranno apposte alla fine del documento, nella sezione riservata
 \end_layout
 
 \end_inset
 
  e dovranno sottostare ad esse, in modo da migliorare la coerenza fra i
- vari documenti e migliorare efficienza ed efficacia dei vari file prodotti.
+ vari documenti e migliorare l'efficienza dei vari file prodotti.
 \end_layout
 
 \begin_layout Standard
 Qualora si renda necessario, un qualsiasi membro potrá proporre all'Amministrato
 re di Progetto una modifica alle N.d.P il quale, sentito il parere di tutti
- gli altri membri del gruppo, cambierá o meno le NdP
+ gli altri membri del gruppo, cambierá o meno le N.d.P.
 \end_layout
 
 \begin_layout Subsection
-Ambiguità
+Ambiguitá
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Ambiguitá"
@@ -211,7 +199,7 @@ name "sub:Ambiguitá"
 \end_layout
 
 \begin_layout Standard
-Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+Al fine di evitare ogni ambiguitá relativa al linguaggio e ai termini utilizzati
  nei documenti formali, viene redatto un glossario di documento, dove vengono
  definiti e descritti i termini marcati da una sottolineatura.
  

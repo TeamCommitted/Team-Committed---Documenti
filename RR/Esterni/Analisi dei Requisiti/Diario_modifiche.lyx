@@ -127,7 +127,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{6cm} | c | c | r }
+begin{tabular}{ p{6cm} | c | c | r }
 \end_layout
 
 \begin_layout Plain Layout
@@ -144,33 +144,6 @@ begin{longtable}{ p{6cm} | c | c | r }
 		
 \backslash
 hline 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Modificato Capitolo3} & Gabriele Facchin & 09/12/2011 & V0.4 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Iniziata stesura Capitolo4} & Alessandro Cornaglia & 09/12/2001 & V0.3
- 
-\backslash
-
-\backslash
- 
 \backslash
 hline
 \end_layout
@@ -204,16 +177,14 @@ emph{Inizio creazione del documento.
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
-end{longtable}
+end{tabular}
 \end_layout
 
 \begin_layout Plain Layout

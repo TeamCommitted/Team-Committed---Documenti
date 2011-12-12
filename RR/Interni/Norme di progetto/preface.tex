@@ -4,7 +4,6 @@
 \usepackage{fancyhdr}
 \usepackage{ucs}
 \usepackage{lastpage}
-\usepackage{longtable}
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
@@ -32,7 +31,7 @@
 \newcommand{\doctitle}{Norme di Progetto }
 
 %% INSERIRE QUI LA VERSIONE ATTUALE DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DELLA VERSIONE)
-\newcommand{\versiondoc}{V0.9 }
+\newcommand{\versiondoc}{V0.5 }
 
 %%INSERITE QUI LA DATA DI COMPILAZIONE FINALE DEL DOCUMENTO
 \newcommand{\datared}{GG/MM/AAAA}
@@ -50,7 +49,10 @@
 \newcommand{\usodoc}{Interno}
 
 %%INSERIRE LA LISTA DI DISTRIBUZIONE DEL DOCUMENTO
-\newcommand{\listadistr}{\TeamCommitted}
+\newcommand{\listadistr}{\begin{itemize}
+\item \TeamCommitted
+\item \commProg
+\end{itemize}}
 
 %%INSERIRE IL SOMMARIO DEL DOCUMENTO
 \newcommand{\testosommario}{Questo documento vuol definire le norme volte alla regolamentazione del gruppo \TeamCommitted necessarie al processo di sviluppo del progetto SecurityGame}

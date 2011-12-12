@@ -1529,7 +1529,7 @@ respProg
 
 \end_inset
 
- dovranno essere considerati essere dei 
+dovranno essere considerati essere dei 
 \series bold
 documenti informali
 \series default
@@ -1663,6 +1663,10 @@ respProg
 redattori
 \emph default
  per correzioni non normative.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

@@ -32,16 +32,7 @@ fixltx2e
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref true
-\pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder false
-\pdf_colorlinks false
-\pdf_backref false
-\pdf_pdfusetitle true
+\use_hyperref false
 \papersize default
 \use_geometry false
 \use_amsmath 1
@@ -113,7 +104,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{6cm} | c | c | r }
+begin{tabular}{ p{6cm} | c | c | r }
 \end_layout
 
 \begin_layout Plain Layout
@@ -130,63 +121,6 @@ begin{longtable}{ p{6cm} | c | c | r }
 		
 \backslash
 hline 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Corretti alcune imprecisioni nei capitoli 1,2,3,4,5} & Giorgio Maggiolo
- & 09/12/2011 & V0.9 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Finito capitolo 7} & Giorgio Maggiolo & 09/12/2011 & V0.8 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Cominciato capitolo 8 e sistemazione della struttura del capitolo 9}
- & Giorgio Maggiolo & 09/12/2011 & V0.7 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Capitolo 6 iniziato.
- Manca una parte che è da concordare.
- Capitolo 9 iniziato (anche questo da concordare).} & Giorgio Maggiolo &
- 09/12/2011 & V0.6 
-\backslash
-
-\backslash
- 
 \backslash
 hline
 \end_layout
@@ -271,7 +205,7 @@ emph{Inizio creazione del documento.
 
 	
 \backslash
-end{longtable}
+end{tabular}
 \end_layout
 
 \begin_layout Plain Layout
