@@ -432,6 +432,14 @@ Sicurezza: la capacità del prodotto software di proteggere informazioni
 i
 \end_layout
 
+\begin_layout Standard
+La misurazione del raggiungimento di questo obiettivo si calcolerà verificando
+ la quantità di requisiti soddisfatti che avranno un riscontro in elementi
+ funzionanti nell'applicazione prodotta.
+ La soglia di sufficienza sarà quindi data dal soddisfacimento di tutti
+ i requisiti obbligatori previsti dal capitolato d'appalto.
+\end_layout
+
 \begin_layout Subsubsection
 Affidabilità
 \end_layout
@@ -439,15 +447,109 @@ Affidabilità
 \begin_layout Standard
 L'affidabilità misura la capacità di un prodotto software di manterene un
  determinato livello di prestazioni se usato in determinate condizioni e
- per
+ per un certo periodo.
+\end_layout
+
+\begin_layout Itemize
+Maturità: capacità del prodotto software di evitare che si verifichino errori,
+ malfunzionamenti o siano prodotti risultati non coerenti.
+\end_layout
+
+\begin_layout Itemize
+Tolleranza agli errori: capacità di mantenere determinati livelli di prestazioni
+ nonostante la presenza di errori, malfunzionamenti o usi scorretti del
+ prodotto.
+\end_layout
+
+\begin_layout Itemize
+Recuperabilità: capacità di un prodotto di ripristinare il livello appropriato
+ di prestazioni e di essere in grado di recuperare le informazioni rilevanti
+ in seguito ad un malfunzionamento.
+ 
+\end_layout
+
+\begin_layout Itemize
+Aderenza: capacità di aderire a standard, regole e convenzioni inerenti
+ l'affidabilità.
+\end_layout
+
+\begin_layout Standard
+La misurazione del raggiungimento di questo obiettivo si calcolerà confrontando
+ il numero di esecuzioni totale con quelle andate a buon fine e che hanno
+ mantenuto un livello di prestazioni tali da poter permettere l'utilizzo
+ basilare del prodotto.
+ (da rivedere)
 \end_layout
 
 \begin_layout Subsubsection
 Efficienza
 \end_layout
 
+\begin_layout Standard
+La capacità di fornire adeguate prestazioni in relazione alla quantità di
+ risorse usate determina l'efficienza.
+\end_layout
+
+\begin_layout Itemize
+Comportamento rispetto al tempo: capacità di fornire adeguati tempi di risposta,
+ elaborazione e velocità di attraversamento, sotto condizioni determinate.
+\end_layout
+
+\begin_layout Itemize
+Utilizzo delle risorse: capacità di utilizzare in maniera adeguata la giusta
+ quantità e tipologia di risorse.
+\end_layout
+
+\begin_layout Itemize
+Conformità: capacità di aderire a standard e specifiche sull'efficienza.
+\end_layout
+
+\begin_layout Standard
+La misurazione del raggiungimento di questo obiettivo sarà determinato dal
+ tempo necessario per ottenere una risposta dal programma sia in condizioni
+ normali che in condizioni di sovraccarico.
+\end_layout
+
 \begin_layout Subsubsection
 Usabilità
+\end_layout
+
+\begin_layout Standard
+La capacità di un prodotto software di essere capito, appreso e usato dall'utent
+e in determinate condizioni determina determina la sua usabilità.
+\end_layout
+
+\begin_layout Itemize
+Comprensibilità: costituisce la facilità di comprensione dei concetti del
+ prodotto, permettendo all'utente quindi di comprendere se il software è
+ appropriato.
+\end_layout
+
+\begin_layout Itemize
+Apprendibilità: capacità di diminuire l'impegno richiesto agli utenti per
+ imparare ad utilizzare la' applicazione.
+\end_layout
+
+\begin_layout Itemize
+Operabilità: capacità di porre gli utenti in condizioni tali da utilizzarlo
+ per i propri scopi e controllarne l'uso.
+\end_layout
+
+\begin_layout Itemize
+Attrattiva: capacità del software di essere piacevole per l'utente.
+\end_layout
+
+\begin_layout Itemize
+Conformità: capacità del software di aderire a standard o convenzioni relativi
+ all'usabilità.
+\end_layout
+
+\begin_layout Standard
+La misurazione del raggiungimento di questo obiettivo sarà costituita dalla
+ capacità dell'applicativo di adattarsi ai vari tipi di ambienti in cui
+ esso verrà eseguito come ambienti desktop o dispositivi mobili.
+ L'usabilità sarà poi ritenuta raggiunta anche rendendo l'applicativo fruibile
+ a quelle categorie di utenti affetti da disabilità come daltonici o ipovedenti.
 \end_layout
 
 \begin_layout Subsubsection
