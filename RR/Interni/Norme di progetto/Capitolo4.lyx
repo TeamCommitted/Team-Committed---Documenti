@@ -60,26 +60,6 @@
 
 \begin_body
 
-\begin_layout Standard
-
-\lang italian
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\backslash
-Huge IL SEGUENTE CAPITOLO 
-\backslash
-'E DA FINIRE DOPO LA DISCUSSIONE SUGLI STRUMENTI DI LAVORO}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Repository
 \begin_inset CommandInset label
@@ -468,9 +448,8 @@ name "sub:Codice"
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-In costruzione
+La struttura del repository del codice sorgente verrà decisa in fase di
+ progettazione.
 \end_layout
 
 \begin_layout Subsection
@@ -586,9 +565,7 @@ name "sub:Codice-1"
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-In costruzione
+L'uso del repository del codice sorgente verrà decisa in fase di progettazione.
 \end_layout
 
 \end_body

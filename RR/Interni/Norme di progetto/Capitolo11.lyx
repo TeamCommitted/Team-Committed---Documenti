@@ -3,24 +3,6 @@
 \begin_document
 \begin_header
 \textclass article
-\begin_preamble
-\date{}
-%\usepackage{fullpage}
-\usepackage[latin9]{inputenc}
-\usepackage{fancyhdr}
-\usepackage{ucs}
-\usepackage{lastpage}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\newcommand{\doctitle}{Norme di progetto }
-\newcommand{\asd}{asd}
-\newcommand{\versiondoc}{V0.2 }
-\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
-\fancyhead[RE, RO]{\doctitle}
-\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -77,24 +59,6 @@
 \end_header
 
 \begin_body
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\backslash
-Huge IL SEGUENTE CAPITOLO 
-\backslash
-'E DA FINIRE DOPO LA DISCUSSIONE SUGLI STRUMENTI DI LAVORO}
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Section
 Ambiente di progetto
@@ -349,11 +313,15 @@ Grafici UML
 \end_layout
 
 \begin_layout Standard
-Per la definizione dei grafici UML è stato deciso di utilizzare 
+Per la definizione dei grafici UML è stato deciso di utilizzare bouml
 \end_layout
 
 \begin_layout Subsubsection
 Documentazione semi-automatica
+\end_layout
+
+\begin_layout Standard
+javadoc
 \end_layout
 
 \begin_layout Subsection
@@ -364,48 +332,83 @@ Ambiente di sviluppo
 Strumento di versionamento
 \end_layout
 
+\begin_layout Standard
+git
+\end_layout
+
 \begin_layout Subsubsection
 Ambiente di codifica
 \end_layout
 
-\begin_layout Subsubsection
-Framework
-\end_layout
-
-\begin_layout Subsubsection
-Design pattern
+\begin_layout Standard
+eclipse (android, java) e bluej(java), geany(html)
 \end_layout
 
 \begin_layout Subsubsection
 Front-end grafico
 \end_layout
 
-\begin_layout Subsubsection
-Piattaforma cloud
+\begin_layout Standard
+swing e awt(java)
 \end_layout
 
 \begin_layout Subsubsection
 Ambiente mobile
 \end_layout
 
+\begin_layout Standard
+android sdk(adt android)
+\end_layout
+
 \begin_layout Subsection
 Ambiente di verifica e validazione
+\end_layout
+
+\begin_layout Standard
+Di seguito vengono elencati gli strumenti scelti per le verifiche e la validazio
+ne
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per maggiori dettagli si rimanda al documento Piano di Qualica v1.0
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
 Analisi statica
 \end_layout
 
+\begin_layout Standard
+FindBugs, Metrics
+\end_layout
+
 \begin_layout Subsubsection
 Test
+\end_layout
+
+\begin_layout Standard
+junit(java), ApacheBench, Selenium IDE
 \end_layout
 
 \begin_layout Subsubsection
 Analisi dinamica
 \end_layout
 
+\begin_layout Standard
+firebug(html)
+\end_layout
+
 \begin_layout Subsubsection
 Validazione
+\end_layout
+
+\begin_layout Standard
+W3C Validator(css e html)
 \end_layout
 
 \end_body
