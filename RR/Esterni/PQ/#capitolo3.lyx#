@@ -372,7 +372,14 @@ Continuous integration
 \begin_layout Standard
 L'applicazione dello standard ISO/IEC 15504 porta a benefici sia agli sviluppato
 di del software che ai suoi utilizzatori/acquirenti.
- Per gli sviluppatori porta vantaggi nell'ottimiz
+ Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
+ risorse, un contenimento dei costi, una maggiore tempestività di consegna
+ del prodotto ultimato, migliore stima dei rischi e degli impegni e la possibili
+tà di confrontarsi con delle best practise.
+ Per gli utenti invece abbiamo una maggior facilità nella selezione dei
+ fornitori, una migliore valutazione dei rischi di progetto, controllo dello
+ stato di avanzamento in corso d'opera, riduzione dei costi di correzione
+ degli errori ed un controllo dei rischi e delle varianti in corso d'opera.
 \end_layout
 
 \begin_layout Subsection
@@ -392,13 +399,47 @@ Funzionalità
 
 \begin_layout Standard
 Il prodotto software realizzato deve essere in grado di offrire apposite
- funzioni che siano in grado di soddisfare le esigenze evidenziate dai requisiti
- individuati nell'analisi dei requisiti.
+ funzioni che siano in grado di soddisfare le esigenze stabilite, necessarie
+ per operare sotto condizioni specifiche.
  
+\end_layout
+
+\begin_layout Itemize
+Appropiatezza: costituisce la capacità del software di offrire un insieme
+ di funzioni per i compiti ed obbiettivi prefissati all'utente.
+\end_layout
+
+\begin_layout Itemize
+Accuratezza: capacità del software di fornire i risultati concordati o i
+ precisi effetti richiesti.
+ 
+\end_layout
+
+\begin_layout Itemize
+Interoperabilità: capacità del prodotto software di interagire ed operare
+ con uno specifici sistemi.
+\end_layout
+
+\begin_layout Itemize
+Conformità: capacità del prodotto software di aderire a standard, convenzioni
+ e regolamentazioni rilevanti al settore operativo a cui vengono applicate.
+\end_layout
+
+\begin_layout Itemize
+Sicurezza: la capacità del prodotto software di proteggere informazioni
+ e dati impedendo che persone o sistemi non autorizzati possano accedervi
+ o modificarli, mentre garantire queste operazioni a utenti o sistemi autorizzat
+i
 \end_layout
 
 \begin_layout Subsubsection
 Affidabilità
+\end_layout
+
+\begin_layout Standard
+L'affidabilità misura la capacità di un prodotto software di manterene un
+ determinato livello di prestazioni se usato in determinate condizioni e
+ per
 \end_layout
 
 \begin_layout Subsubsection

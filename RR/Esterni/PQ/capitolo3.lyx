@@ -399,17 +399,93 @@ Funzionalità
 
 \begin_layout Standard
 Il prodotto software realizzato deve essere in grado di offrire apposite
- funzioni che siano in grado di soddisfare le esigenze evidenziate dai requisiti
- individuati nell'analisi dei requisiti.
+ funzioni che siano in grado di soddisfare le esigenze stabilite, necessarie
+ per operare sotto condizioni specifiche.
  
+\end_layout
+
+\begin_layout Itemize
+Appropiatezza: costituisce la capacità del software di offrire un insieme
+ di funzioni per i compiti ed obbiettivi prefissati all'utente.
+\end_layout
+
+\begin_layout Itemize
+Accuratezza: capacità del software di fornire i risultati concordati o i
+ precisi effetti richiesti.
+ 
+\end_layout
+
+\begin_layout Itemize
+Interoperabilità: capacità del prodotto software di interagire ed operare
+ con uno specifici sistemi.
+\end_layout
+
+\begin_layout Itemize
+Conformità: capacità del prodotto software di aderire a standard, convenzioni
+ e regolamentazioni rilevanti al settore operativo a cui vengono applicate.
+\end_layout
+
+\begin_layout Itemize
+Sicurezza: la capacità del prodotto software di proteggere informazioni
+ e dati impedendo che persone o sistemi non autorizzati possano accedervi
+ o modificarli, mentre garantire queste operazioni a utenti o sistemi autorizzat
+i
 \end_layout
 
 \begin_layout Subsubsection
 Affidabilità
 \end_layout
 
+\begin_layout Standard
+L'affidabilità misura la capacità di un prodotto software di manterene un
+ determinato livello di prestazioni se usato in determinate condizioni e
+ per un certo periodo.
+\end_layout
+
+\begin_layout Itemize
+Maturità: capacità del prodotto software di evitare che si verifichino errori,
+ malfunzionamenti o siano prodotti risultati non coerenti.
+\end_layout
+
+\begin_layout Itemize
+Tolleranza agli errori: capacità di mantenere determinati livelli di prestazioni
+ nonostante la presenza di errori, malfunzionamenti o usi scorretti del
+ prodotto.
+\end_layout
+
+\begin_layout Itemize
+Recuperabilità: capacità di un prodotto di ripristinare il livello appropriato
+ di prestazioni e di essere in grado di recuperare le informazioni rilevanti
+ in seguito ad un malfunzionamento.
+ 
+\end_layout
+
+\begin_layout Itemize
+Aderenza: capacità di aderire a standard, regole e convenzioni inerenti
+ l'affidabilità.
+\end_layout
+
 \begin_layout Subsubsection
 Efficienza
+\end_layout
+
+\begin_layout Standard
+La capacità di fornire adeguate prestazioni in relazione alla quantità di
+ risorse usate determina l'efficienza.
+\end_layout
+
+\begin_layout Itemize
+Comportamento rispetto al tempo: capacità di fornire adeguati tempi di risposta,
+ elaborazione e velocità di attraversamento, sotto condizioni determinate.
+\end_layout
+
+\begin_layout Itemize
+Utilizzo delle risorse: capacità di utilizzare in maniera adeguata la giusta
+ quantità e tipologia di risorse.
+\end_layout
+
+\begin_layout Itemize
+Conformità: capacità di aderire a standard e specifiche sull'efficienza.
 \end_layout
 
 \begin_layout Subsubsection
