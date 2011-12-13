@@ -60,6 +60,303 @@
 \begin_body
 
 \begin_layout Section
+Organigramma
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \textcompwordmark{}
+
+\end_layout
+
+\begin_layout Section
+Introduzione
+\end_layout
+
+\begin_layout Subsection
+Scopo del documento
+\end_layout
+
+\begin_layout Standard
+Con il presente documento si intende specificare la pianificazione del lavoro
+ necessario allo sviluppo del progetto.
+ In particolare saranno specificati la suddivisione dei ruoli di lavoro,
+ il calendario delle attività e le risorse disponibili.
+ 
+\end_layout
+
+\begin_layout Subsection
+Glossario
+\end_layout
+
+\begin_layout Standard
+Il Glossario è un documento a parte necessario a evitare ambiguità nell'utilizzo
+ e nella comprensione dei termini specifici.
+ Si è scelto di redarlo come documento a parte per una maggiore semplicità
+ di consultazione.
+\end_layout
+
+\begin_layout Subsection
+Riferimenti
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti normativi
+\end_layout
+
+\begin_layout Itemize
+Capitolato d’Appalto: Piattaforma Mobile di Apprendimento Comportamentale,
+ v 1.0, rilasciato dal proponente Mentis s.r.l., reperibile all’indirizzo: http://ww
+w.math.unipd.it/~tullio/IS-1/2011/Progetto/C3.pdf
+\end_layout
+
+\begin_layout Itemize
+Vincoli di Organigramma: http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.h
+tml
+\end_layout
+
+\begin_layout Itemize
+Norme di Progetto, v 1.0 (NormeDiProgetto v1.0.pdf) 
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti informativi
+\end_layout
+
+\begin_layout Itemize
+Software Engineering - Part 4: Software processes - Ian Sommerville – 8th
+ ed.
+ (2006)
+\end_layout
+
+\begin_layout Subsection
+Ruoli e costi
+\end_layout
+
+\begin_layout Standard
+Per il corretto sviluppo di un progetto è fondamentale la pianificazione
+ dei ruoli che i membri del progetto dovranno ricoprire.
+ In particolare, il gruppo 
+\backslash
+TeamCommitted eseguirà una rotazione il più possibile omogenea dei ruoli.
+ Tale rotazione seguirà le norme specificate dai Vincoli di organigramma
+ (vedi sezione 2.3.1 del presente documento).
+ Di seguito sono riportati i costi orari dei singoli ruoli (tabella 2.5).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ruolo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Costo orario
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsabile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amministratore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Analista
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Progettista
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Programmatore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verificatore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+€15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+costi per ruolo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Scadenze
+\end_layout
+
+\begin_layout Standard
+Seguono le scadenze che il gruppo 
+\backslash
+TeamCommitted ha scelto di rispettare: 
+\end_layout
+
+\begin_layout Itemize
+Revisione Requisiti (RR): 10/12/2012
+\end_layout
+
+\begin_layout Itemize
+Revisione di Progetto (RP): 7/02/2012
+\end_layout
+
+\begin_layout Itemize
+Revisione di Qualifica (RQ): 07/03/2012
+\end_layout
+
+\begin_layout Itemize
+Revisione di Accettazione (RA): *da verificare 
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \textcompwordmark{}
+
+\end_layout
+
+\begin_layout Section
 Pianificazione
 \end_layout
 
@@ -203,6 +500,10 @@ diagramma di Gantt
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -338,7 +639,7 @@ A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
 \end_layout
 
 \begin_layout Standard
-Infine, si riporta la ripartizione dei ruoli fra i 1membri e il riassuntivo
+Infine, si riporta la ripartizione dei ruoli fra I membri e il riassuntivo
  delle ore di lavoro per ogni singolo membro.
  
 \end_layout
@@ -398,18 +699,36 @@ A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
 \end_layout
 
 \begin_layout Standard
-Infine, si riporta la ripartizione dei ruoli fra i membri e il riassuntivo
+Infine, si riporta la ripartizione dei ruoli fra I membri e il riassuntivo
  delle ore di lavoro per ogni singolo membro.
  
 \end_layout
 
 \begin_layout Standard
-****tabella 3.4c, ripartizione dei ruoli fra i membri del gruppo**** 
+****tabella 3.4c, ripartizione dei ruoli fra I membri del gruppo**** 
 \end_layout
 
 \begin_layout Standard
 ****tabella 3.4d, riassuntivo delle ore totali per membro del gruppo****
  
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \textcompwordmark{}
+
+\end_layout
+
+\begin_layout Section
+Analisi dei rischi
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \textcompwordmark{}
+
+\end_layout
+
+\begin_layout Section
+Preventivo / Prospetto Economico
 \end_layout
 
 \end_body
