@@ -779,8 +779,9 @@ Misure e Metriche
 \begin_layout Standard
 Le misure e le metriche che adotteremo per la verifica della qualità del
  software si ispiriranno alle indicazioni dello standard ISO-14598.
- Sono misure focalizzate al miglioramento della capacità di prevedere e
- contenere il costo del software.
+ Sono misure spesso focalizzate al miglioramento della capacità di prevedere
+ e contenere il costo del software, noi le useremo per valutare la qualità
+ del prodotto sia nel processo di progettazione che di codifica.
 \end_layout
 
 \begin_layout Itemize
