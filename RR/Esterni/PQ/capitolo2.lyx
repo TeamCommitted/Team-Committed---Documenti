@@ -784,46 +784,63 @@ Le misure e le metriche che adotteremo per la verifica della qualità del
 \end_layout
 
 \begin_layout Itemize
-Numero dei requisiti
+
+\series bold
+Complessità ciclomatica:
+\series default
+ La complessità ciclomatica di un metodo è il numero di cammini linearmente
+ indipendenti attraverso il codice sorgente.
+ Per esempio, se il codice sorgente non contiene if o for, allora il livello
+ di complessità sarà 1, poiché esiste un solo cammino.
 \end_layout
 
 \begin_layout Itemize
-Punti Funzione
+
+\series bold
+Misure nella progettazione 
+\series default
+permettono di stimare il costo di un software e la sua qualità.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Volatilità dei requisiti
-\end_layout
-
-\begin_layout Itemize
-Numero degli Use Case Points (UML).
-\end_layout
-
-\begin_layout Itemize
-Numero di moduli e coesione tra di essi.
+Numero di classi, coesione tra di esse e peso.
+ Il peso di una classe è identificato dalla somma della complessità ciclomatica
+ di tutti i metodi appartenenti alla classe.
+ 
 \end_layout
 
 \begin_layout Itemize
 Complessità di flusso (misura la quantità di informazioni in entrata ed
- uscita da una funzione [fan in e fan out] ) 
+ uscita da una funzione [fan in e fan out] ).
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Misure sul codice 
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Linee di codice 
 \end_layout
 
 \begin_layout Itemize
-Complessità ciclomatica 
-\end_layout
-
-\begin_layout Itemize
 Misure di coesione funzionale – misurano le istanze di definione e utilizzo
- di variabli e costanti (1994) 
+ di variabli e costanti (1994).
+ Un numero elevato di parametri può essere abbassato, e quindi migliorato,
+ raggruppando parametri tra loro correlati in classi diverse, aumentando
+ manutenibilità e astrazione del codice.
 \end_layout
 
 \begin_layout Itemize
-Livello di copertura di istruzioni, dei rami, dei percorsi base
+Livello di copertura di istruzioni, dei rami, dei percorsi base.
+ Una non buona copertura del codice è indice di scarsa qualità dello stesso,
+ inoltre vanno evitati eccessivi annidamenti  dei metodi.
 \end_layout
 
+\end_deeper
 \end_body
 \end_document
