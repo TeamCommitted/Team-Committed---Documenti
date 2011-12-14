@@ -4,22 +4,7 @@
 \begin_header
 \textclass article
 \begin_preamble
-\date{}
-%\usepackage{fullpage}
-\usepackage[latin9]{inputenc}
-\usepackage{fancyhdr}
-\usepackage{ucs}
-\usepackage{lastpage}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\newcommand{\doctitle}{Norme di progetto }
-\newcommand{\asd}{asd}
-\newcommand{\versiondoc}{V0.2 }
-\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
-\fancyhead[RE, RO]{\doctitle}
-\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\include{preface}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -216,7 +201,7 @@ begin{center}
 
 
 \family typewriter
-{X}{Y}
+R{X}{Y}
 \family default
 
 \begin_inset ERT
@@ -255,14 +240,6 @@ requisito funzionale
 \begin_layout Itemize
 
 \series bold
-NF: 
-\series default
-requisito non funzionale
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
 Q: 
 \series default
 requisito di qualità
@@ -271,9 +248,9 @@ requisito di qualità
 \begin_layout Itemize
 
 \series bold
-I: 
+P: 
 \series default
-requisito di interfaccia 
+requisito di prestazionale
 \end_layout
 
 \begin_layout Itemize
@@ -298,7 +275,7 @@ indica la classe del requisito.
 \begin_layout Itemize
 
 \series bold
-O: 
+Ob: 
 \series default
 requisito obbligatorio
 \end_layout
@@ -306,17 +283,17 @@ requisito obbligatorio
 \begin_layout Itemize
 
 \series bold
-C: 
+D: 
 \series default
-requisito consigliato
+requisito desiderabile
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-F:
+Op:
 \series default
- requisito facoltativo
+ requisito opzionale
 \end_layout
 
 \end_deeper
@@ -400,7 +377,7 @@ atomica
 \emph default
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Ovvero inserendo il minor numero di termini possibili
@@ -422,6 +399,40 @@ Nomenclatura:
 Use Case
 \emph default
  dovrà essere un acronimo formato da:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+UC{XX}{YY}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
 \end_layout
 
 \begin_deeper
@@ -438,7 +449,32 @@ Use Case
 \series bold
 {XX}:
 \series default
- iniziali del caso d'uso descritto
+ iniziali dell'attore principale del caso d'uso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{YY}
+\series default
+: numero sequenziale che contraddistingue il caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Se è un'
+\emph on
+esplosione
+\emph default
+ di un caso d'uso, sarà formato dal numero del caso d'uso che espande seguito
+ da 
+\family typewriter
+.{ZZ}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -465,7 +501,43 @@ Gestione delle attività
 \end_layout
 
 \begin_layout Standard
+Per quanto riguarda la gestione delle attività e delle problematiche correlate
+ al progetto, abbiamo deciso di adottare il 
+\series bold
+servizio di ticketing
+\series default
+ messo a disposizione da 
+\emph on
+Github
+\emph default
 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Come scritto nella sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+, questo servizio verrà usato anche per le comunicazioni fra membri singoli
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Questo servizio è ottimale in quanto, assieme al servizio di milestone,
+ permette di avere sott'occhio molto facilmente tutto lo stato dell'avanzamento
+ dei lavori.
+\end_layout
+
+\begin_layout Subsubsection
+Stati delle issue
 \end_layout
 
 \end_body

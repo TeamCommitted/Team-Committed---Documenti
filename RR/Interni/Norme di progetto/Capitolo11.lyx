@@ -535,7 +535,7 @@ Per sviluppare l'applicazione mobile useremo il
 \series bold
 Android SDK
 \series default
-, con il plug-in per 
+, con il plugin per 
 \emph on
 Eclipse
 \emph default
@@ -590,7 +590,9 @@ Metrics
 \begin_inset Formula $\geqslant1.3.6$
 \end_inset
 
-)
+), plugin per 
+\emph on
+Eclipse
 \end_layout
 
 \begin_layout Subsubsection
@@ -610,7 +612,15 @@ JUnit
 \begin_inset Formula $\geqslant4.10)$
 \end_inset
 
-.
+ e 
+\series bold
+EclEmma
+\series default
+ (
+\begin_inset Formula $\geqslant1.5.3$
+\end_inset
+
+).
  Per quanto riguarda i testi di carico sul database useremo 
 \series bold
 ApacheBench 
@@ -656,8 +666,19 @@ Firebug
 \begin_inset Formula $\geqslant1.8.3$
 \end_inset
 
-
+).
+ Per i test di velocità dell'applicazione web useremo il plugin per 
+\emph on
+Chrome
+\emph default
+ 
 \series bold
+SpeedTracer
+\series default
+ (
+\begin_inset Formula $\geqslant2.4$
+\end_inset
+
 ).
 \end_layout
 

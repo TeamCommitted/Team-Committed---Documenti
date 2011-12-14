@@ -136,8 +136,10 @@ point-to-point
 SAG\SpecialChar \textcompwordmark{}
 GIO]
 \series default
-, per evidenziare in questo modo la natura del ticket.
+, per evidenziare in questo modo la natura del ticket, senza indicare alcuna
  
+\emph on
+milestone.
 \end_layout
 
 \begin_layout Subsection
