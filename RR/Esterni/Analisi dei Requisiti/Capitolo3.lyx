@@ -71,7 +71,7 @@
 \begin_body
 
 \begin_layout Section
-Casi d' uso
+3 Casi d' uso
 \end_layout
 
 \begin_layout Standard
@@ -84,7 +84,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \end_layout
 
 \begin_layout Subsection
-Ambito Utente, caso d' uso generale
+3.1 Ambito Utente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -92,6 +92,16 @@ Ambito Utente, caso d' uso generale
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Utente.png
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -175,7 +185,7 @@ L' Utente Autenticato può modificare i propri dati.
 \end_layout
 
 \begin_layout Subsubsection
-UCU 2: Ambito Utente, recupero password dimenticata
+3.1.1 UCU 2: Ambito Utente, recupero password dimenticata
 \end_layout
 
 \begin_layout Standard
@@ -183,6 +193,16 @@ UCU 2: Ambito Utente, recupero password dimenticata
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCU 2 Esploso.png
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -250,159 +270,8 @@ L' Utente fornisce le credenziali per la verifica della persona.
 L' Utente riceve nella propria mail la password.
 \end_layout
 
-\begin_layout Subsubsection
-UCUA 2: Ambito Utente Autenticato, visione dati account
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Utente Autenticato, visione dati account
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-Utente Autenticato.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Scopo e Descrizione: 
-\series default
-L' Utente Autenticato può visualizzare i dati personali che lo riguardano.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Precondizione: 
-\series default
-L' Utente ha effettuato l' accesso.
- Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Postcondizione: 
-\series default
-L' Utente Autenticato è a conoscenza del suo stato attuale.
- Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-All' Utente Autenticato vengono forniti i dati che lo riguardano
-\end_layout
-
-\begin_layout Subsubsection
-UCUA 3: Ambito Utente Autenticato, modifica dati account
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Utente Autenticato, modifica dati account.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-Utente Autenticato.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Scopo e Descrizione: 
-\series default
-L' Utente Autenticato può modificare la propria password o la propria email.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Precondizione: 
-\series default
-L' Utente ha effettuato il login.
- Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Postcondizione: 
-\series default
-Le modifiche sono state salvate in modo corretto.
- Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L' Utente può modificare la propria password.
-\end_layout
-
-\begin_layout Enumerate
-L' Utente può modificare la propria email.
-\end_layout
-
-\begin_layout Enumerate
-L' Utente, dopo aver modificato o la password, o l' email, riceve la comunicazio
-ne di comferma.
-\end_layout
-
 \begin_layout Subsection
-Ambito Dipendente, caso d' uso generale
+3.2 Ambito Dipendente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -410,6 +279,16 @@ Ambito Dipendente, caso d' uso generale
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Dipendente.png
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -488,7 +367,7 @@ Il Dipendente può visualizzare i suoi punteggi.
 \end_layout
 
 \begin_layout Subsubsection
-UCD 1 Ambito Dipendente, domanda proposta
+3.2.1 UCD 1 Ambito Dipendente, domanda proposta
 \end_layout
 
 \begin_layout Standard
@@ -498,6 +377,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -569,7 +459,7 @@ rla in seguito.
 \end_layout
 
 \begin_layout Subsubsection
-UCD 1.1 Ambito Dipendente, mostra domanda
+3.2.1.1 UCD 1.1 Ambito Dipendente, mostra domanda
 \end_layout
 
 \begin_layout Standard
@@ -579,6 +469,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 1.1 esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -646,7 +547,7 @@ Il Dipendente risponde alla domanda.
 \end_layout
 
 \begin_layout Subsubsection
-UCD 2 Ambito Dipendente, richiesta domanda
+3.2.2 UCD 2 Ambito Dipendente, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -656,6 +557,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 2 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -723,7 +635,7 @@ Il sistema visualizza una domanda.
 \end_layout
 
 \begin_layout Subsubsection
-UCD 3 Ambito Dipendente, visione punteggi personali
+3.2.3 UCD 3 Ambito Dipendente, visione punteggi personali
 \end_layout
 
 \begin_layout Standard
@@ -733,6 +645,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 3 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -794,8 +717,8 @@ Il Dipendente prende visione di tutte le sue statistiche.
  
 \end_layout
 
-\begin_layout Subsection
-Ambito Amministratore Sicurezza, caso d' uso generale.
+\begin_layout Subsubsection
+3.2.4 UCD 4: Ambito Dipendente, modifica dati account
 \end_layout
 
 \begin_layout Standard
@@ -805,6 +728,108 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 4 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, modifica dati account.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+Dipendente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scopo e Descrizione: 
+\series default
+Il Dipendente può modificare la propria password o la propria email.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Precondizione:
+\series default
+ Il Dipendente ha effettuato il login.
+ Il sistema è funzionante.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Postcondizione: 
+\series default
+Le modifiche sono state salvate in modo corretto.
+ Il sistema è funzionante.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può modificare la propria password.
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può modificare la propria email.
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente, dopo aver modificato o la password, o l' email, riceve la
+ comunicazione di comferma.
+\end_layout
+
+\begin_layout Subsection
+3.3 Ambito Amministratore Sicurezza, caso d' uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Sicurezza.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -872,7 +897,7 @@ L' Amministratore Sicurezza può modificare il database di domande.
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 1: Ambito Amministratore Sicurezza, consultazione domande.
+3.3.1 UCAS 1: Ambito Amministratore Sicurezza, consultazione domande.
 \end_layout
 
 \begin_layout Standard
@@ -942,7 +967,7 @@ L' Amministratore Sicurezza può visualizzare le domande del database di
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+3.3.2 UCAS 2: Ambito Amministratore Sicurezza, modifica database.
 \end_layout
 
 \begin_layout Standard
@@ -952,6 +977,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1023,7 +1059,7 @@ L' Amministratore Sicurezza può cancellare una domanda nel database di domande.
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2.1: Ambito Amministratore Sicurezza, aggiunta domanda.
+3.3.2.1 UCAS 2.1: Ambito Amministratore Sicurezza, aggiunta domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1033,6 +1069,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2.1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1095,7 +1142,7 @@ L' Amministratore Sicurezza aggiunge una domanda al database di domande
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+3.3.2.2 UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1105,6 +1152,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2.2 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1204,7 +1262,7 @@ Si può modificare il punteggio di risposta errata.
 \end_layout
 
 \begin_layout Subsection
-Ambito Amministratore Azienda, caso d' uso generale
+3.4 Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1214,6 +1272,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Azienda.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1288,7 +1357,7 @@ L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti.
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+3.4.1 UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
 \end_layout
 
 \begin_layout Standard
@@ -1298,6 +1367,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1376,7 +1456,7 @@ L' Amministratore Azienda può modificare i dati personali di un account
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 1.1: Ambito Amministratore Azienda, aggiungi dipendente
+3.4.1.1 UCAA 1.1: Ambito Amministratore Azienda, aggiungi dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1386,6 +1466,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1.1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1447,7 +1538,7 @@ L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti.
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 1.3: Ambito Amministratore Azienda, modifica dati dipendente
+3.4.1.2 UCAA 1.3: Ambito Amministratore Azienda, modifica dati dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1457,6 +1548,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1.3 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1533,7 +1635,7 @@ L' Amministratore Azienda può modificare il campo badge del Dipendente.
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 3: Ambito Amministratore Azienda, visione punteggi dipendenti
+3.4.2 UCAA 3: Ambito Amministratore Azienda, visione punteggi dipendenti
 \end_layout
 
 \begin_layout Standard
@@ -1605,7 +1707,7 @@ L' Amministratore Azienda può visualizzare le statistiche di tutti i Dipendenti
 \end_layout
 
 \begin_layout Subsection
-Ambito Amministratore Installatore, caso d' uso generale.
+3.5 Ambito Amministratore Installatore, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -1615,6 +1717,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Installazione.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1699,7 +1812,7 @@ L' Amministratore Installatore Autenticato può gestire il server globale
 \end_layout
 
 \begin_layout Subsubsection
-UCAI 2: Ambito Amministratore Installatore, installazione software.
+3.5.1 UCAI 2: Ambito Amministratore Installatore, installazione software.
 \end_layout
 
 \begin_layout Standard
@@ -1779,7 +1892,7 @@ L' Amministratore Installatore può installare il software sui computer.
 \end_layout
 
 \begin_layout Subsubsection
-UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
+3.5.2 UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
  aziende.
 \end_layout
 
@@ -1790,6 +1903,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAIA 1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1863,7 +1987,8 @@ L' Amministratore Installatore Autenticato può modificare il link al database
 \end_layout
 
 \begin_layout Subsubsection
-UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
+3.5.2.1 UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi
+ azienda
 \end_layout
 
 \begin_layout Standard
@@ -1873,6 +1998,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAIA 1.1 Esploso.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
