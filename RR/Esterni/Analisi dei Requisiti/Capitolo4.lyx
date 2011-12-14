@@ -793,6 +793,30 @@ hline
 
 \begin_layout Plain Layout
 
+		RPOB 1 & Il prodotto deve essere prestazionale anche nelle ore di traffico
+ massimo della rete & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2 & Il prodotto deve essere prestazionale sia se il server delle
+ domande si trova interno all'azienda sia se è esterno & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 	
 \backslash
 end{longtable}
@@ -843,6 +867,156 @@ begin{longtable}{ l | p{10cm} | r}
 hline 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 1 & Sarà fornita documentazione esaustiva di tutte le classi chiave
+ ed interfacce del prodotto & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQD 2 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3 & Sarà fornita assieme al software documentazione adeguata riguardo
+ l'installazione e l'utilizzo del sistema & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.1 & Sarà fornito un manuale ad uso dei Dipendenti che coprirà gli
+ aspetti di utilizzo del software dal loro punto di vista & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.2 & Sarà fornito un manuale ad uso Amministratore Azienda  riguardo
+ tutte le azioni che tale utente può compiere & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.3 & Sarà fornito un manuale ad uso Amministratore Installatore riguardo
+ l'installazione del prodotto & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.4 & Sarà fornito un manuale ad uso Amministratore Sicurezza riguardo
+ le azioni che può compiere tale utente & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQO 4 & Le interfacce che saranno visibili ai dipendenti dovranno essere
+ accattivanti e le funzionalità quanto più intuitive, così da invogliare
+ l'utilizzo & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 4.1 & Ogni elemento di interazione fornirà all'utente informazioni
+ visive sulla possibile azione effettuabile & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 4.2 & Da ogni schermata sarà possibile raggiungere un'area di aiuto
+ che guiderà l'utente spiegandogli le operazioni effettuabili nella pagina
+ in cui esso si trova & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQD 5 & Le applicazioni WEB aderiranno allo stile W3C & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 6 & Tutti i processi di sviluppo aderiscono allo standard ISO/IEC
+ 15504:1998 SPICE & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
 \end_layout
 
 \begin_layout Plain Layout
@@ -966,6 +1140,23 @@ hline
 
 \begin_layout Plain Layout
 
+		RVO 4 & Le funzioni del sistema offerte al Dipendente devono essere fruibili
+ tramite interfaccia web & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\end_layout
+
+\begin_layout Plain Layout
+
 	
 \backslash
 end{longtable}
@@ -981,6 +1172,62 @@ end{center}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Interfacciamento con gli ambienti di installazione e d'uso
+\end_layout
+
+\begin_layout Subsubsection
+Norme vigenti nel dominio applicativo
+\end_layout
+
+\begin_layout Subsubsection
+Caratteristiche degli utenti
+\end_layout
+
+\begin_layout Standard
+Si prevedono quattro tipi di utenti che nei vari ruoli utilizzeranno il
+ sistema:
+\end_layout
+
+\begin_layout Itemize
+Dipendente :
+\begin_inset Newline newline
+\end_inset
+
+dal punto di vista del sistema rappresenta un semplice lavoratore con un
+ determinato ruolo nell'azienda.
+ È a questo utente che il sistema somministrerà periodicamente le domande
+ per poi analizzarne i risultati delle risposte.
+ Ad un Dipendente non è richiesta alcuna conoscenza informatica per poter
+ utilizzare l'applicativo.
+\end_layout
+
+\begin_layout Itemize
+Amministratore Sicurezza:
+\begin_inset Newline newline
+\end_inset
+
+reppresenta l'utente che fisicamente gestirà le domande, complete di risposte
+ e punteggi, all'interno dell'applicazione.
+ Si tiene in considerazione l'idea che questa persona possa avere ridotte,
+ se non nulle, conoscenze informatiche quindi le operazioni che potrà eseguire
+ dovranno risultare semplici e guidate.
+ 
+\end_layout
+
+\begin_layout Itemize
+Amministratore Installatore
+\end_layout
+
+\begin_layout Itemize
+Amministratore Azienda:
+\begin_inset Newline newline
+\end_inset
+
+è un utente che gestice i Dipendenti di un'azienda all'interno del sistema.
+ 
 \end_layout
 
 \end_body
