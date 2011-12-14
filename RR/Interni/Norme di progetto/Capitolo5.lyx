@@ -267,7 +267,29 @@ locale
 \end_inset
 
 ) secondo quanto scritto al suo interno.
- All'interno di LyX, invece, si dovrà andare in 
+ All'interno di LyX, invece, si dovrà andare in Documento->Impostazioni,
+ selezionare nell'elenco di sinistra la voce 
+\emph on
+Preambolo di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+, quindi scrivere 
+\family typewriter
+
+\backslash
+include{preface}
 \end_layout
 
 \begin_layout Standard
