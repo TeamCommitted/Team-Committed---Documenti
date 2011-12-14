@@ -45,5 +45,28 @@
 Fattibilita del progetto
 \end_layout
 
+\begin_layout Standard
+Il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ritiene di essere in grado di sviluppare l'applicativo su pc e quello per
+ dispositivi mobili che utilizzino come sistema operativo Android, rispettando
+ tutti i requisiti obbligatori e parte degli opzionali, rimanendo all'interno
+ delle tempistiche e dei costi previsti.
+ Le conoscenze possedute dal gruppo sono sufficienti alla comprensione e
+ corretta risoluzione delle problematiche principali.
+ Tuttavia, per alcuni particolari aspetti e' richiesto un approfondimento,
+ che il gruppo prevede di riuscire a colmare senza produrre ritardo.
+\end_layout
+
 \end_body
 \end_document

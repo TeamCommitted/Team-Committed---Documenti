@@ -36,6 +36,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -45,8 +46,14 @@ Descrizione sommaria del capitolato
 \end_layout
 
 \begin_layout Standard
-Il capitolato, Prevede la creazione di una applicazione per desktop o laptop
- 
+Il capitolato, prevede la creazione di una applicazione per desktop - laptop
+ e mobile (smartphone e tablet) che ponga delle domande sulla sicurezza
+ sul lavoro a determinati intervalli di tempo.
+ Le risposte alle domande vengono messe in una classifica punti la quale
+ fornira' all'azienda un quadro generale sulla formazione dei propri dipendenti.
+ L'obiettivo ultimo di questa applicazione e' l'istruzione dei dipendenti
+ sulla sicurezza per mezzo della sana competizione tra colleghi ai fini
+ della classifica.
 \end_layout
 
 \end_body

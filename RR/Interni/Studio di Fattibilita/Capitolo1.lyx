@@ -97,5 +97,15 @@ commProg
 
 \end_layout
 
+\begin_layout Subsection
+Glossario
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, viene redatto un glossario di documento, dove vengono
+ definiti e descritti i termini marcati da una sottolineatura.
+\end_layout
+
 \end_body
 \end_document
