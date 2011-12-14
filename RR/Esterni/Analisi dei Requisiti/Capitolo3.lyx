@@ -89,6 +89,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -96,7 +97,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Utente.png
+	filename UML/Ambito Utente.png
+	scale 50
 
 \end_inset
 
@@ -165,23 +167,23 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Utente può effettuare il login.
+L' Utente può effettuare il login
 \end_layout
 
 \begin_layout Enumerate
-L' Utente può recuperare la password dimenticata.
+L' Utente può recuperare la password dimenticata
 \end_layout
 
 \begin_layout Enumerate
-L' Utente Autenticato può effettuare il logout.
+L' Utente Autenticato può effettuare il logout
 \end_layout
 
 \begin_layout Enumerate
-L' Utente Autenticato può visualizzare i propri dati.
+L' Utente Autenticato può visualizzare i propri dati
 \end_layout
 
 \begin_layout Enumerate
-L' Utente Autenticato può modificare i propri dati.
+L' Utente Autenticato può modificare i propri dati
 \end_layout
 
 \begin_layout Subsubsection
@@ -190,6 +192,7 @@ L' Utente Autenticato può modificare i propri dati.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -197,7 +200,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCU 2 Esploso.png
+	filename UML/UCU 2 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -263,11 +267,11 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Utente fornisce le credenziali per la verifica della persona.
+L' Utente fornisce le credenziali per la verifica della persona
 \end_layout
 
 \begin_layout Enumerate
-L' Utente riceve nella propria mail la password.
+L' Utente riceve nella propria mail la password
 \end_layout
 
 \begin_layout Subsection
@@ -276,6 +280,7 @@ L' Utente riceve nella propria mail la password.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -284,6 +289,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Dipendente.png
+	scale 50
 
 \end_inset
 
@@ -352,18 +358,15 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può ricevere una domanda proposta dal sistema.
- 
+Il Dipendente può ricevere una domanda proposta dal sistema
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può richiedere al sistema di proporgli una domanda.
- 
+Il Dipendente può richiedere al sistema di proporgli una domanda
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può visualizzare i suoi punteggi.
- 
+Il Dipendente può visualizzare i suoi punteggi
 \end_layout
 
 \begin_layout Subsubsection
@@ -372,6 +375,7 @@ Il Dipendente può visualizzare i suoi punteggi.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -379,7 +383,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 1 Esploso.png
+	filename UML/UCD 1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -448,14 +453,12 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente riceve una segnalazione di domanda dal sistema.
- 
+Il Dipendente riceve una segnalazione di domanda dal sistema
 \end_layout
 
 \begin_layout Enumerate
 Il Dipendente può visualizzare la domanda proposta o posticiparla per visualizza
-rla in seguito.
- 
+rla in seguito
 \end_layout
 
 \begin_layout Subsubsection
@@ -464,6 +467,7 @@ rla in seguito.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -472,6 +476,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 1.1 esploso.png
+	scale 50
 
 \end_inset
 
@@ -539,11 +544,11 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente visualizza la domanda proposta.
+Il Dipendente visualizza la domanda proposta
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente risponde alla domanda.
+Il Dipendente risponde alla domanda
 \end_layout
 
 \begin_layout Subsubsection
@@ -552,6 +557,7 @@ Il Dipendente risponde alla domanda.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -559,7 +565,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 2 Esploso.png
+	filename UML/UCD 2 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -626,12 +633,11 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente richiede una domanda al sistema.
- 
+Il Dipendente richiede una domanda al sistema
 \end_layout
 
 \begin_layout Enumerate
-Il sistema visualizza una domanda.
+Il sistema visualizza una domanda
 \end_layout
 
 \begin_layout Subsubsection
@@ -640,6 +646,7 @@ Il sistema visualizza una domanda.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -647,7 +654,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 3 Esploso.png
+	filename UML/UCD 3 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -713,8 +721,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente prende visione di tutte le sue statistiche.
- 
+Il Dipendente prende visione di tutte le sue statistiche
 \end_layout
 
 \begin_layout Subsubsection
@@ -723,6 +730,7 @@ Il Dipendente prende visione di tutte le sue statistiche.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -730,7 +738,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCD 4 Esploso.png
+	filename UML/UCD 4 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -796,16 +805,16 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può modificare la propria password.
+Il Dipendente può modificare la propria password
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può modificare la propria email.
+Il Dipendente può modificare la propria email
 \end_layout
 
 \begin_layout Enumerate
 Il Dipendente, dopo aver modificato o la password, o l' email, riceve la
- comunicazione di comferma.
+ comunicazione di comferma
 \end_layout
 
 \begin_layout Subsection
@@ -814,6 +823,7 @@ Il Dipendente, dopo aver modificato o la password, o l' email, riceve la
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -821,7 +831,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Sicurezza.png
+	filename UML/Ambito Amministratore Sicurezza.png
+	scale 50
 
 \end_inset
 
@@ -888,82 +899,11 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può vedere il database di domande.
- 
+L' Amministratore Sicurezza può vedere il database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può modificare il database di domande.
-\end_layout
-
-\begin_layout Subsubsection
-3.3.1 UCAS 1: Ambito Amministratore Sicurezza, consultazione domande.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore Sicurezza, consultazione domande.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\series default
- Amministratore Sicurezza.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Scopo e Descrizione:
-\series default
- L' Amministratore Sicurezza può visualizzare con vari filtri le domande.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Precondizione:
-\series default
- Sistema funzionante con database di domande esistente.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Postcondizione:
-\series default
- Sistema funzionante con database di domande non modificato.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L' Amministratore Sicurezza può visualizzare le domande del database di
- domande.
+L' Amministratore Sicurezza può modificare il database di domande
 \end_layout
 
 \begin_layout Subsubsection
@@ -972,6 +912,7 @@ L' Amministratore Sicurezza può visualizzare le domande del database di
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -979,7 +920,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2 Esploso.png
+	filename UML/UCAS 2 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1045,17 +987,15 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può aggiungere una domanda al database di domande.
- 
+L' Amministratore Sicurezza può aggiungere una domanda al database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può modificare una domanda nel database di domande.
- 
+L' Amministratore Sicurezza può modificare una domanda nel database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può cancellare una domanda nel database di domande.
+L' Amministratore Sicurezza può cancellare una domanda nel database di domande
 \end_layout
 
 \begin_layout Subsubsection
@@ -1064,6 +1004,7 @@ L' Amministratore Sicurezza può cancellare una domanda nel database di domande.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1072,6 +1013,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2.1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1137,8 +1079,7 @@ Flusso principale degli eventi:
 
 \begin_layout Enumerate
 L' Amministratore Sicurezza aggiunge una domanda al database di domande
- specificandone i contenuti.
- 
+ specificandone i contenuti
 \end_layout
 
 \begin_layout Subsubsection
@@ -1147,6 +1088,7 @@ L' Amministratore Sicurezza aggiunge una domanda al database di domande
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1154,7 +1096,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAS 2.2 Esploso.png
+	filename UML/UCAS 2.2 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1219,46 +1162,43 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il tipo della domanda.
- 
+Si può modificare il tipo della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare i/l testi/o delle/a risposte/a della domanda.
- 
+Si può modificare i/l testi/o delle/a risposte/a della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il testo della domanda.
- 
+Si può modificare il testo della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare la/e risposta/e corretta/e.
+Si può modificare la/e risposta/e corretta/e
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il percorso per l' immagine o il video.
+Si può modificare il percorso per l' immagine o il video
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare la categoria ai quali sottoporre la domanda.
+Si può modificare la categoria ai quali sottoporre la domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare la piattaforma per la quale la domanda è stata progettata.
+Si può modificare la piattaforma per la quale la domanda è stata progettata
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare la temporizzazione della domanda.
+Si può modificare la temporizzazione della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il punteggio di risposta corretta.
+Si può modificare il punteggio di risposta corretta
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il punteggio di risposta errata.
+Si può modificare il punteggio di risposta errata
 \end_layout
 
 \begin_layout Subsection
@@ -1267,6 +1207,7 @@ Si può modificare il punteggio di risposta errata.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1274,7 +1215,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Azienda.png
+	filename UML/Ambito Amministratore Azienda.png
+	scale 50
 
 \end_inset
 
@@ -1343,17 +1285,15 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può gestire gli account dei Dipendenti.
- 
+L' Amministratore Azienda può gestire gli account dei Dipendenti
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può visualizzare i dati sensibili dei Dipendenti.
- 
+L' Amministratore Azienda può visualizzare i dati sensibili dei Dipendenti
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti.
+L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti
 \end_layout
 
 \begin_layout Subsubsection
@@ -1362,6 +1302,7 @@ L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1369,7 +1310,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1 Esploso.png
+	filename UML/UCAA 1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1441,18 +1383,16 @@ Flusso principale degli eventi:
 
 \begin_layout Enumerate
 L' Amministratore Azienda può aggiungere un nuovo account Dipendente o se
- eliminare o modificare i dati personali di un account Dipendente già esistente.
- 
+ eliminare o modificare i dati personali di un account Dipendente già esistente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può eliminare un account Dipendente già esistente.
- 
+L' Amministratore Azienda può eliminare un account Dipendente già esistente
 \end_layout
 
 \begin_layout Enumerate
 L' Amministratore Azienda può modificare i dati personali di un account
- Dipendente già esistente.
+ Dipendente già esistente
 \end_layout
 
 \begin_layout Subsubsection
@@ -1461,6 +1401,7 @@ L' Amministratore Azienda può modificare i dati personali di un account
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1469,6 +1410,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1.1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1534,7 +1476,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti.
+L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti
 \end_layout
 
 \begin_layout Subsubsection
@@ -1543,6 +1485,7 @@ L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1550,7 +1493,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAA 1.3 Esploso.png
+	filename UML/UCAA 1.3 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1615,95 +1559,23 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo nome del Dipendente.
+L' Amministratore Azienda può modificare il campo nome del Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo cognome del Dipendente.
+L' Amministratore Azienda può modificare il campo cognome del Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo impiego del Dipendente.
+L' Amministratore Azienda può modificare il campo impiego del Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo codice fiscale del Dipendente.
+L' Amministratore Azienda può modificare il campo codice fiscale del Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo badge del Dipendente.
-\end_layout
-
-\begin_layout Subsubsection
-3.4.2 UCAA 3: Ambito Amministratore Azienda, visione punteggi dipendenti
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore Azienda, visione punteggi dipendenti.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori Coinvolti:
-\series default
- Amministratore Azienda.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Scopo e Descrizione:
-\series default
- L' Amministratore Azienda può visualizzare le statistiche di tutti i Dipendenti
- dell' azienda tramite filtri.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Precondizione:
-\series default
- Il database dei Dipendenti esiste.
- Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Postcondizione:
-\series default
- L' Azienda ha un quadro completo della formazione dei suoi Dipendenti.
- Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Enumerate
-L' Amministratore Azienda può visualizzare le statistiche di tutti i Dipendenti.
+L' Amministratore Azienda può modificare il campo badge del Dipendente
 \end_layout
 
 \begin_layout Subsection
@@ -1712,6 +1584,7 @@ L' Amministratore Azienda può visualizzare le statistiche di tutti i Dipendenti
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1719,7 +1592,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/Ambito Amministratore Installazione.png
+	filename UML/Ambito Amministratore Installazione.png
+	scale 50
 
 \end_inset
 
@@ -1790,25 +1664,22 @@ Flusso principale degli eventi:
 
 \begin_layout Enumerate
 L' Amministratore Installatore può effettuare il login diventando Amministratore
- Installatore Autenticato.
- 
+ Installatore Autenticato
 \end_layout
 
 \begin_layout Enumerate
 L' Amministratore Installatore può installare il software recandosi nella
- azienda che lo ha richiesto.
- 
+ azienda che lo ha richiesto
 \end_layout
 
 \begin_layout Enumerate
 L' Amministratore Installatore Autenticato può effettuare il logout diventando
- Amministratore Installatore.
- 
+ Amministratore Installatore
 \end_layout
 
 \begin_layout Enumerate
 L' Amministratore Installatore Autenticato può gestire il server globale
- delle aziende.
+ delle aziende
 \end_layout
 
 \begin_layout Subsubsection
@@ -1817,11 +1688,20 @@ L' Amministratore Installatore Autenticato può gestire il server globale
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAI 2.png
+	scale 50
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1882,13 +1762,11 @@ Flusso principale degli eventi:
 
 \begin_layout Enumerate
 L' Amministratore Installatore può installare il software sui dispositivi
- mobili (tablet, smartphone …).
- 
+ mobili (tablet, smartphone …)
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore può installare il software sui computer.
- 
+L' Amministratore Installatore può installare il software sui computer
 \end_layout
 
 \begin_layout Subsubsection
@@ -1898,6 +1776,7 @@ L' Amministratore Installatore può installare il software sui computer.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1905,7 +1784,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAIA 1 Esploso.png
+	filename UML/UCAIA 1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -1972,18 +1852,16 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può aggiungere una azienda.
- 
+L' Amministratore Installatore Autenticato può aggiungere una azienda
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può eliminare una azienda.
- 
+L' Amministratore Installatore Autenticato può eliminare una azienda
 \end_layout
 
 \begin_layout Enumerate
 L' Amministratore Installatore Autenticato può modificare il link al database
- degli utenti di una azienda.
+ degli utenti di una azienda
 \end_layout
 
 \begin_layout Subsubsection
@@ -1993,6 +1871,7 @@ L' Amministratore Installatore Autenticato può modificare il link al database
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -2000,7 +1879,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename G:/uni/IS/git/Team-Committed---Documenti/RR/Esterni/Analisi dei Requisiti/UML/UCAIA 1.1 Esploso.png
+	filename UML/UCAIA 1.1 Esploso.png
+	scale 50
 
 \end_inset
 
@@ -2066,8 +1946,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'  Amministratore Installatore aggiunge i dati di una azienda.
- 
+L'  Amministratore Installatore aggiunge i dati di una azienda
 \end_layout
 
 \end_body
