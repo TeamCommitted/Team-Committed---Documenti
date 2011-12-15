@@ -49,12 +49,77 @@ Confronto con gli altri capitolati
 Capitolato C01 - Spectral Analysis for Kinetic Estimation 
 \end_layout
 
+\begin_layout Standard
+Il gruppo ha analizzato a fondo questo capitolato, in quanto e' molto utile
+ dal punto di vista etico e interessante per quanto riguarda la trasformazione
+ di immagini da due a quattro dimensioni.
+ In piu' il fatto che venivano date sia immagini di prova che gli algoritmi
+ ci aveva dato l'idea della concretezza del progetto.
+ Tuttavia, gli ostacoli per molti di noi sono stati: la redazione della
+ maggior parte dei documenti in inglese e lo studio approfondito da parte
+ di tutti della tecnologia per la renderizzazione di immagini mediche, le
+ quali sono non sono diffuse abbastanza.
+\end_layout
+
+\begin_layout Subsubsection
+Individuazione dei rischi
+\end_layout
+
+\begin_layout Standard
+La richiesta di studio approfondito della trasformazione di immagini, la
+ redazione in inglese dei testi e lo studio su come estrapolare i dati che
+ interessano al programma da delle immagini ci ha fatto scartare questo
+ capitolato, nonostante la sua concretezza applicativa.
+\end_layout
+
 \begin_layout Subsection
 Capitolato C02 - Password Wallet 
 \end_layout
 
+\begin_layout Standard
+Il gruppo ha ritenuto il concetto base di questo progetto profondamente
+ sbagliata, in quanto inviare in Internet le proprie password, anche se
+ crittografate, corrisponde a una sicurezza nella perdita di dati.
+\begin_inset Newline newline
+\end_inset
+
+Oltre al fatto che applicativi del genere esistono gia e normalmente sono
+ integrati all'interno del browser o comunque al sicuro all'interno del
+ pc e non alla merce' di chiunque all'interno della rete.
+\end_layout
+
+\begin_layout Subsubsection
+Individuazione dei rischi
+\end_layout
+
+\begin_layout Standard
+Data l'elevata presenza di software simili, sicuramente piu' sicuri e il
+ relativo ritorno economico troppo scarso, il rapporto tra rischi di produzione
+ e ricavi e' sfavorevole
+\end_layout
+
 \begin_layout Subsection
 Capitolato C04 - EQuery
+\end_layout
+
+\begin_layout Standard
+Il gruppo dopo attenta analisi ha constatato la realizzazione di una interfaccia
+ grafica intuitiva e' molto soggettiva e che l'obbligatorieta' a gestire
+ due database implica la traduzione delle query create tramite l'interfaccia
+ (che gia' e' stato valutato un rischio molto elevato) in almeno due linguaggi,
+ il che complica ulteriormente e inutilmente un progetto di cui non ne riconosci
+amo l'effettiva utilita'.
+\end_layout
+
+\begin_layout Subsubsection
+Individuazione dei rischi
+\end_layout
+
+\begin_layout Standard
+I requisiti composti da studio di una interfaccia semplice, la gestione
+ di due parser e il controllo dell'SQL generato automaticamente dall'interfaccia
+ ha reso il progetto non appetibile.
+ 
 \end_layout
 
 \end_body
