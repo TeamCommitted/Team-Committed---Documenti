@@ -73,8 +73,8 @@ Per poter effettuare un corretto processo di verifica si è scelto di effettuare
  raggiunto uno stadio tale per cui risulta presentare sostanziali modifiche
  rispetto alla precedente versione.
  Lo svolgimento di tale fase sarà aggevolato grazie all'apposito registro
- delle modifiche; inoltre, per garantire una migliore verifica si è adottato
- il 
+ delle modifiche.
+ Inoltre, per garantire una migliore verifica si è adottato il 
 \begin_inset Quotes eld
 \end_inset
 
@@ -88,9 +88,10 @@ Broken Window Theory
 
 \begin_layout Standard
 Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
- incrementale (vedi Piano di Progetto) e di conseguenza le operazioni di
- verifica verranno realizzate in modo tale da intervenire in maniera coerente
- nelle varie fasi del progetto come illustrato di seguito: 
+ incrementale (vedi Piano di Progetto per approfondimenti) e di conseguenza
+ le operazioni di verifica verranno realizzate in modo tale da intervenire
+ in maniera coerente nelle varie fasi del progetto come illustrato di seguito:
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -101,13 +102,14 @@ Analisi dei requisiti
 : ogni documento necessario alla RR, quando verrà completato, entrerà nella
  dedicata fase di revisione per controllare la presenza di eventuali inregolarit
 à lessico/grammaticali e nei contenuti esposti.
- Nel dettaglio il controllo grammaticale verrà effettuato con gli strumenti
- messi a disposizione da LyX (dobbiamo approfondire questo aspetto), mentre
- il controllo lessicale da un'accurata rilettura del testo.
+ Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti
+ messi a disposizione da LyX, per la precisione tramite il plugin Aspell,
+ mentre il controllo lessicale, grammaticale e sintattico da un'accurata
+ rilettura del testo.
  I contenuti verranno invece controllati in modo tale da verificare la copertura
  delle richieste del proponente e questo tramite un'accurata rilettura e
- confronto con il documento d'appalto (si chiama così???) e che ogni requisito
- abbia il suo caso d'uso corrispondente.
+ confronto con il capitolato d'appalto e che ogni requisito abbia il suo
+ caso d'uso corrispondente.
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
  Se durante la verifica saranno state rilevate inregolarità queste verranno
@@ -126,7 +128,7 @@ Progettazione
  nel verificare che tutti i requisiti descritti durante la fase di Analisi
  dei Requisiti rientrino nei componenti individuati.
  Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
- segnalate tramite Issue e successivamente risolte (chiarire questo punto).
+ segnalate tramite Issue e successivamente risolte.
 \end_layout
 
 \begin_layout Itemize
@@ -137,11 +139,9 @@ Realizzazione
 : la verifica in questa fase verrà effettuata sia da parte dei programmatori
  stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
  del codice.
- Un esempio di questi strumenti riguarda il sito web W3C per controllare
- la conformità delle pagine html realizzate agli standard o FireBug.
  La resenza di errori verrà segnalata da un apposita Issue che verrà presa
  in carico dai programmatori e chiusa una volta risolto il problema.
- (questa parte va sistemata e resa più precisa)
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -173,8 +173,8 @@ Broken Window Theory
  oltre che del cliente.
  Il responsabile di progetto avrà quindi il compito di coordinare e definire
  le attività volte alla verifica del materiale prodotto, sia esso software,
- documenti o materiale d'altro genere.
- (Da espandere)
+ documenti o materiale d'altro genere, oltre che a far rispettare le scadenze
+ previste.
 \end_layout
 
 \begin_layout Subsection
@@ -211,7 +211,7 @@ Risorse Umane
 \end_layout
 
 \begin_layout Standard
-L'organigramma relativo alla garanzia di qualità è:
+I ruoli necessari per garantire un'adeguata qualità sono i seguenti:
 \end_layout
 
 \begin_layout Itemize
@@ -301,6 +301,10 @@ Risorse Software
 \begin_layout Itemize
 Risorse messe a disposizione dal servizio web Github per gestire commenti
  o problemi a codice, documentazione e ticket.
+\end_layout
+
+\begin_layout Itemize
+Aspell per il controllo ortografico dei documenti.
 \end_layout
 
 \begin_layout Itemize
@@ -640,10 +644,10 @@ Questo tipo di analisi è usualmente fatta con due tecniche complementari.
 \begin_layout Enumerate
 
 \series bold
-Walkthrough 
+Walkthrough
 \series default
-consiste in un'ispezione generale del codice senza prerequisiti iniziali
- e pianificazione.
+: consiste in un'ispezione generale del codice o dei documenti senza prerequisit
+i iniziali e pianificazione.
  È utile nelle fasi iniziali di verifica quando va considerato il software
  nel suo intero senza sapere quali saranno le parti più critiche.
 \end_layout
@@ -651,11 +655,12 @@ consiste in un'ispezione generale del codice senza prerequisiti iniziali
 \begin_layout Enumerate
 
 \series bold
-Inspection 
+Inspection
 \series default
-consiste in una verifica mirata del codice, è possibile solo quando si è
- raggiunto un buon grado di conoscenze e si è già a conoscenza degli errori
- più comuni o delle aree più critiche.
+: consiste in una verifica mirata del codice o dei documenti, è possibile
+ solo quando si è raggiunto un buon grado di conoscenze e si è già consapevoli
+ degli errori più comuni o delle aree più critiche.
+ 
 \end_layout
 
 \begin_layout Standard

@@ -94,9 +94,13 @@ Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
 \end_layout
 
 \begin_layout Itemize
-Analisi dei requisiti: ogni documento necessario alla RR, quando verrà completat
-o, entrerà nella dedicata fase di revisione per controllare la presenza
- di eventuali inregolarità lessico/grammaticali e nei contenuti esposti.
+
+\series bold
+Analisi dei requisiti
+\series default
+: ogni documento necessario alla RR, quando verrà completato, entrerà nella
+ dedicata fase di revisione per controllare la presenza di eventuali inregolarit
+à lessico/grammaticali e nei contenuti esposti.
  Nel dettaglio il controllo grammaticale verrà effettuato con gli strumenti
  messi a disposizione da LyX (dobbiamo approfondire questo aspetto), mentre
  il controllo lessicale da un'accurata rilettura del testo.
@@ -114,17 +118,25 @@ o, entrerà nella dedicata fase di revisione per controllare la presenza
 \end_layout
 
 \begin_layout Itemize
-Progettazione: il processo di verifica riguardante la fase di Progettazione
- consisterà nel verificare che tutti i requisiti descritti durante la fase
- di Analisi dei Requisiti rientrino nei componenti individuati.
+
+\series bold
+Progettazione
+\series default
+: il processo di verifica riguardante la fase di Progettazione consisterà
+ nel verificare che tutti i requisiti descritti durante la fase di Analisi
+ dei Requisiti rientrino nei componenti individuati.
  Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
  segnalate tramite Issue e successivamente risolte (chiarire questo punto).
 \end_layout
 
 \begin_layout Itemize
-Realizzazione: la verifica in questa fase verrà effettuata sia da parte
- dei programmatori stessi che utilizzando appositi e specifici strumenti
- di verifica automatizzata del codice.
+
+\series bold
+Realizzazione
+\series default
+: la verifica in questa fase verrà effettuata sia da parte dei programmatori
+ stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
+ del codice.
  Un esempio di questi strumenti riguarda il sito web W3C per controllare
  la conformità delle pagine html realizzate agli standard o FireBug.
  La resenza di errori verrà segnalata da un apposita Issue che verrà presa
@@ -133,8 +145,11 @@ Realizzazione: la verifica in questa fase verrà effettuata sia da parte
 \end_layout
 
 \begin_layout Itemize
-Validazione: (questa sezione è particolare e dobbiamo discutere insieme
- cosa inserire)
+
+\series bold
+Validazione
+\series default
+: (questa sezione è particolare e dobbiamo discutere insieme cosa inserire)
 \end_layout
 
 \begin_layout Subsection
@@ -170,8 +185,8 @@ Responsabilità
 Al Responsabile di Progetto saranno affidate le responsabilità riguardanti
  tutte le attività di verifica e validazione, ponendosi quindi come garante
  del corretto svolgimento delle attività volte alla qualità del materiale
- prodotto.
- L'Amministratore di Progetto invece si occuperà di assicurare che l'ambiente
+ prodotto nei confronti del committente.
+ L'Amministratore di Progetto si occuperà invece di assicurare che l'ambiente
  in cui tutte le attività di realizzazione del prodotto si svolgeranno sia
  adeguato a tale scopo.
  
@@ -289,6 +304,10 @@ Risorse messe a disposizione dal servizio web Github per gestire commenti
 \end_layout
 
 \begin_layout Itemize
+Editor 
+\end_layout
+
+\begin_layout Itemize
 Eclipse con relativi strumenti già inclusi o aggiunti tramite plugin.
 \end_layout
 
@@ -324,5 +343,509 @@ Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
 Strumenti, tecniche e metodi
 \end_layout
 
+\begin_layout Subsubsection
+Strumenti
+\end_layout
+
+\begin_layout Standard
+Il gruppo potrà avvalersi dei seguenti strumenti per effettuare i processi
+ di verifica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aspell (>= 0.60.6)
+\series default
+: strumento per la correzione grammaticale dei documenti redatti.
+ L'utilizzo di Aspell avverrà tramite apposito plugin per LYX.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://aspell.net/
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eclipse (>= 3.7.1)
+\series default
+: IDE multi-linguaggio e multi-piattaforma che mette a disposizione alcune
+ funzionalità di debugging quali l'esecuzione step-by-step, l'impostazione
+ di beaking point ecc.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.eclipse.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+FindBugs (>=2.0.0)
+\series default
+: strumento utilizzato nell'analisi statica e volto ad individuare errori
+ nella scrittura di codice Java.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://findbugs/sourceforge.net/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+EclEmma (>=1.5.3)
+\series default
+: strumento in grado di determinare la copertura del codice Java prodotto
+ sia durante le fasi di esecuzione che testing e disponibile sotto forma
+ di plugin per Eclipse.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.eclemma.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metrics (>= 1.3.6)
+\series default
+: plugin per Eclipse che permette di effettuare analisi metrica del codice
+ prodotto.
+ Fornisce informazioni relative a misure statiche del codice:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complessità ciclomatica 
+\end_layout
+
+\begin_layout Itemize
+Peso delle classi 
+\end_layout
+
+\begin_layout Itemize
+Numero di parametri 
+\end_layout
+
+\begin_layout Itemize
+Numero di campi dati per classe 
+\end_layout
+
+\begin_layout Itemize
+Numero livelli di annidamento 
+\end_layout
+
+\begin_layout Itemize
+Indice di utilità - Indice di dipendenza
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://metrics.sourceforge.net
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+JUnit (>= 4.10)
+\series default
+: Framework utilizzato per effettuare test di unità per il linguaggio Java.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.junit.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Selenium IDE (>= 1.4.1)
+\series default
+: plugin per Firefox utilizzato per registrare ed eseguire test tramite
+ browser.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://seleniumhq.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ApacheBrench (>= 2.0)
+\series default
+: strumento a linea di comando utilizzato per misurare l'efficienza di un
+ server web ed in grado di simulare situazioni di sovraccarico della rete.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.apache.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+SpeedTracer (>= 2.4)
+\series default
+: plugin per Google Chrome che permette di verificare l'efficienza di un'applica
+zione web durante la sua esecuzione.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://code.google.com/intl/it-IT/webtoolkit/speedtracer/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strumenti di validazione W3C
+\series default
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Markup Validation Service
+\series default
+: per effettuare test sulle pagine di cui l'applicazione web è costituita
+ e verificarne l'aderenza agli standard HTML5.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://validator.w3.org/
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CSS Validation Service
+\series default
+: per effettuare test sui fogli di stile utilizzati nell'applicazione web
+ e verificarne l'aderenza allo standard CSS 2.1.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://jigsaw.w3.org/css-validator/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Tecniche
+\end_layout
+
+\begin_layout Paragraph
+Analisti statica
+\end_layout
+
+\begin_layout Standard
+L'analisi statica consisterà nella verifica critica del codice, controllandone
+ requisiti e la corretta progettazione.
+\end_layout
+
+\begin_layout Standard
+Questo tipo di analisi è usualmente fatta con due tecniche complementari.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Walkthrough 
+\series default
+consiste in un'ispezione generale del codice senza prerequisiti iniziali
+ e pianificazione.
+ È utile nelle fasi iniziali di verifica quando va considerato il software
+ nel suo intero senza sapere quali saranno le parti più critiche.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Inspection 
+\series default
+consiste in una verifica mirata del codice, è possibile solo quando si è
+ raggiunto un buon grado di conoscenze e si è già a conoscenza degli errori
+ più comuni o delle aree più critiche.
+\end_layout
+
+\begin_layout Standard
+Chiaramente la tecnica dell'Inspection è più efficace, ma sarà possibile
+ attuarla solo dopo aver appreso la consapevolezza iniziale del proprio
+ codice e delle proprie capacità.
+\end_layout
+
+\begin_layout Paragraph
+Metodi di Analisi Statica:
+\end_layout
+
+\begin_layout Itemize
+Analisi del flusso di controllo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ci si accerta che il codice segua il flusso aspettato, che non si possa
+ entrare in porzioni di codice che possono non terminare, che non esista
+ codice non raggiungibile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Analisi del flusso dei dati
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ci si accerta che il software non acceda mai a variabili non inizializzate,
+ o scriva inutilmente più volte prima di usare la variabile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Analisi del flusso di informazione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica che gli input e gli output di ogni unità di codice o di più unità
+ rientrino nelle specifiche del programma
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Analisi dinamica
+\end_layout
+
+\begin_layout Standard
+L'analisi dinamica consisterà nella verifica dei componenti del software
+ o del sistema in generale.
+ Verranno effettuati test mirati e ripetuti in diversi contesti.
+ Il programmatore durante i test dovrà essere coscente dello stato dell'ambiente
+, degli input, e dei risultati in ogni momento dell'esecuzione.
+ Questi risultati saranno utili solo nel caso vengano trovati errori da
+ correggere, nel caso non vengano trovati questo non significa necessariamente
+ l'assenza di anomalie.
+\end_layout
+
+\begin_layout Paragraph
+Metodi di Analisi Dinamica
+\end_layout
+
+\begin_layout Itemize
+Test di unità
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Test che si effettuano per ogni unità del software con il massimo grado
+ di parallelismo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di integrazione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica dei componenti formati dall'integrazione delle varie unità che
+ hanno passato il test di unità.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di sistema e di collaudo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verifica che il sistema in cui andrà installato il software rispetti i requisiti
+ richiesti, o che il software riesca ad adattarsi correttamente al contesto
+ dell'azienda proponente.
+\end_layout
+
+\begin_layout Itemize
+Collaudo del software installato, finito il quale avverrà il rilascio del
+ prodotto.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test di regressione
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nel caso di una modifica ad un singolo componente, andranno effettuati nuovament
+e tutti i test di unità e, se necessario, di integrazione riferiti a quel
+ componente.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Misure e Metriche
+\end_layout
+
+\begin_layout Standard
+Le misure e le metriche che adotteremo per la verifica della qualità del
+ software si ispiriranno alle indicazioni dello standard ISO-14598.
+ Sono misure spesso focalizzate al miglioramento della capacità di prevedere
+ e contenere il costo del software, noi le useremo per valutare la qualità
+ del prodotto sia nel processo di progettazione che di codifica.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Complessità ciclomatica:
+\series default
+ La complessità ciclomatica di un metodo è il numero di cammini linearmente
+ indipendenti attraverso il codice sorgente.
+ Per esempio, se il codice sorgente non contiene if o for, allora il livello
+ di complessità sarà 1, poiché esiste un solo cammino.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Misure nella progettazione 
+\series default
+permettono di stimare il costo di un software e la sua qualità.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Numero di classi, coesione tra di esse e peso.
+ Il peso di una classe è identificato dalla somma della complessità ciclomatica
+ di tutti i metodi appartenenti alla classe.
+ 
+\end_layout
+
+\begin_layout Itemize
+Complessità di flusso (misura la quantità di informazioni in entrata ed
+ uscita da una funzione [fan in e fan out] ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Misure sul codice 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linee di codice 
+\end_layout
+
+\begin_layout Itemize
+Misure di coesione funzionale – misurano le istanze di definione e utilizzo
+ di variabli e costanti (1994).
+ Un numero elevato di parametri può essere abbassato, e quindi migliorato,
+ raggruppando parametri tra loro correlati in classi diverse, aumentando
+ manutenibilità e astrazione del codice.
+\end_layout
+
+\begin_layout Itemize
+Livello di copertura di istruzioni, dei rami, dei percorsi base.
+ Una non buona copertura del codice è indice di scarsa qualità dello stesso,
+ inoltre vanno evitati eccessivi annidamenti  dei metodi.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
