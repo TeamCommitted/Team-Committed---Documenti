@@ -112,6 +112,165 @@ Il gruppo ha scarse competenze, ma, grazie ad uno dei membri interni che
 
 \end_deeper
 \begin_layout Itemize
+Conoscenza di linguaggi di programmazione per lo sviluppo di piattaforme
+ web (
+\series bold
+JSP
+\series default
+, 
+\series bold
+HTML5
+\series default
+ e 
+\series bold
+CSS2.1
+\series default
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Il gruppo ha competenze adeguate allo sviluppo di piattaforme web.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Dominio applicativo
+\end_layout
+
+\begin_layout Standard
+Per l'approfondimento del dominio applicativo, il gruppo si è documentato
+ sia con documenti forniti dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+, che con l'esperienza nell'ambito del 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gamification
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ maturata dai singoli membri del gruppo.
+ In particolare abbiamo letto i seguenti libri:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Christopher Cunningam (2011),
+\series bold
+\emph default
+ Gamification by Design, 
+\series default
+\emph on
+Canada, O'REILLY Ed.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Joselin Linder (2010), 
+\series bold
+\emph default
+Game-Based Marketing, 
+\series default
+\emph on
+Canada, John Wiley & Sons, Inc.
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda lo studio di realtà che applicano già il 
+\emph on
+Gamification
+\emph default
+, abbiamo studiato le seguenti realtà:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CriticalCity Upload
+\family typewriter
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://criticalcity.org
+\end_layout
+
+\end_inset
+
+
+\family default
+\series default
+ è un 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gioco urbano
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in cui il 
+\emph on
+gamification
+\emph default
+ è un elemento fondamentale, capace di mettere in campo la nostra creatività,
+ l'intelligenza, di competere per migliorare e poter condividere i risultati,
+ è la relazione che fonda la voglia di incontrarsi e fare un pezzo di strada
+ insieme.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ stato scelto come caso di studio sia per la sua ovvia applicazione dei
+ concetti di 
+\emph on
+gamification
+\emph default
+, sia per studiare un caso già concretamente realizzato e funzionante di
+ cooperazione esterna ad ogni ambito inteso come locazione fisica unitaria
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ad esempio uffici o comunque strutture che possono essere ricondotte ad
+ aziende
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
