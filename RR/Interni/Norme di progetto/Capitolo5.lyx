@@ -505,7 +505,18 @@ il carattere monospace dovrà indicare un passaggio utile alla definizione
 Maiuscolo:
 \series default
  una parola scritta maiuscola indicherà un acronimo.
- Non sono previsti ulteriori casi d'uso del carattere maiuscolo.
+ Non sono previsti ulteriori casi di parole scritte solo in maiuscolo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Fanno esclusione tutti i casi in cui la grammatica italiana preveda l'uso
+ della maiuscola
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
