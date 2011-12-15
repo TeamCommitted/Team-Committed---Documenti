@@ -597,7 +597,7 @@ Milestones
 \emph default
 ->
 \emph on
-Create a new milestone
+Create a new milestone.
 \end_layout
 
 \begin_layout Itemize
@@ -698,7 +698,7 @@ ticket
 \emph on
 ticket
 \emph default
-, lo si dovrà chiudere
+, lo si dovrà chiudere.
 \end_layout
 
 \begin_layout Itemize
@@ -710,25 +710,7 @@ Ticket di verifica:
 \series bold
 ticket di verifica
 \series default
- verranno creati secondo quanto scritto precedentemente
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Chiusura milestone:
-\series default
- una 
-\emph on
-milestone 
-\emph default
-verrà considerata conclusa una volta che tutti i ticket creati sono stati
- chiusi.
- Alla chiusura di una 
-\emph on
-milestone
-\emph default
-, il responsabile dovrà ripartire dal primo punto di questa procedura
+ verranno creati secondo 
 \end_layout
 
 \end_body
