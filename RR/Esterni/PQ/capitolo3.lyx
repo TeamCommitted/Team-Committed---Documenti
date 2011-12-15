@@ -68,8 +68,7 @@ Obbiettivi di qualità
 Team Committed ha ritenuto importante fissare, di comune accordo, alcuni
  obbiettivi di qualità da perseguire e raggiungere sia nei processi di realizzaz
 ione che del prodotto in se, questo per garantire una migliore e più efficace
- soddisfazione dei requisiti richiesti nel capitolato d'appalto (non sono
- sicuro del termine).
+ soddisfazione dei requisiti richiesti nel capitolato d'appalto.
 \end_layout
 
 \begin_layout Subsection
@@ -172,7 +171,7 @@ Process Measurement:
 \series default
 i risultati conseguiti e le misure rilevate durante l'attuazione di un processo
  sono utilizzati per assicurarsi che l'attuazione di tale processo supporti
- efficacemente il raggiungimebto di obiettivi specifici.
+ efficacemente il raggiungimento di obiettivi specifici.
 \end_layout
 
 \begin_layout Enumerate
@@ -210,29 +209,44 @@ La norma stabilisce poi quattro differenti livelli di possesso di ciascuno
 \end_layout
 
 \begin_layout Itemize
-N - Non posseduto (0 - 15% di possesso, non c'è evidenza oppure ce n'è poca
- del possesso di un attributo).
+
+\series bold
+N
+\series default
+ - Non posseduto (0 - 15% di possesso): non c'è evidenza oppure ce n'è poca
+ del possesso di un attributo.
 \end_layout
 
 \begin_layout Itemize
-P - Parzialmente posseduto (16 - 50% di possesso, c'è evidenza di approccio
+
+\series bold
+P
+\series default
+ - Parzialmente posseduto (16 - 50% di possesso): c'è evidenza di approccio
  sistematico al raggiungimento del possesso di un attributo e del raggiungimento
- di tale possesso, ma alcuni aspetti del possesso possono essere non prevedibili
-).
+ di tale possesso, ma alcuni aspetti del possesso possono essere non prevedibili.
 \end_layout
 
 \begin_layout Itemize
-L - Largamente posseduto (51 - 85% di possesso, vi è evidenza di approccio
+
+\series bold
+L
+\series default
+ - Largamente posseduto (51 - 85% di possesso): vi è evidenza di approccio
  sistematico al raggiungimento del possesso di un attributo e di un significativ
 o livello di possesso di tale attributo, ma l'attuazione del processo può
- variare nelle diverse unita operative della organizzazione).
+ variare nelle diverse unita operative della organizzazione.
 \end_layout
 
 \begin_layout Itemize
-F - (Fully) pienamente posseduto (86 - 100% di possesso, vi è evidenza di
+
+\series bold
+F
+\series default
+ - (Fully) Pienamente posseduto (86 - 100% di possesso): vi è evidenza di
  un totale e sistematico approccio e di un completo raggiungimento del possesso
  dell'attributo e non esistono significative differenze nel modo di attuare
- il processo tra le diverse unità operative).
+ il processo tra le diverse unità operative.
 \end_layout
 
 \begin_layout Standard
@@ -241,15 +255,23 @@ Vi sono poi vari livelli di maturità dei processi che sono dati dal diverso
 \end_layout
 
 \begin_layout Itemize
-Livello 0 - Processo incompleto: il processo non è implementato o non raggiunge
- gli obiettivi.
+
+\series bold
+Livello 0
+\series default
+ - Processo incompleto: il processo non è implementato o non raggiunge gli
+ obiettivi.
  Non vi è evidenza di approcci sistematici agli attributi definiti.
 \end_layout
 
 \begin_layout Itemize
-Livello 1 - Processo semplicemente attuato: il proesso viene messo in atto
- e raggiunge i suoi obiettivi.
- Non vi + evidenza di approcci sistematici agli attributi definiti.
+
+\series bold
+Livello 1
+\series default
+ - Processo semplicemente attuato: il proesso viene messo in atto e raggiunge
+ i suoi obiettivi.
+ Non vi è evidenza di approcci sistematici agli attributi definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -263,9 +285,12 @@ Process performance
 \end_layout
 
 \begin_layout Itemize
-Livello 2 - Processo gestito: il processo è attuato ma anche pianificato,
- tracciato, verificato ed aggiustato se necessario, sulla base di obiettivi
- ben definiti.
+
+\series bold
+Livello 2
+\series default
+ - Processo gestito: il processo è attuato ma anche pianificato, tracciato,
+ verificato ed aggiustato se necessario, sulla base di obiettivi ben definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possessi
  degli attributi di 
 \begin_inset Quotes eld
@@ -287,9 +312,12 @@ Work product management
 \end_layout
 
 \begin_layout Itemize
-Livello 3 - Processo definito: il processo è attuato, pianificato e controllato
- sulla base di procedure ben definite, basate sui principi del software
- engineering.
+
+\series bold
+Livello 3
+\series default
+ - Processo definito: il processo è attuato, pianificato e controllato sulla
+ base di procedure ben definite, basate sui principi del software engineering.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -311,9 +339,13 @@ Process resource
 \end_layout
 
 \begin_layout Itemize
-Livello 4 - Processo predicibile: il processo è stabilizzato ed è attuato
- all'interno di definiti limiti riguardo i risultati attesi, le performance,
- le risorse impiegate ecc.
+
+\series bold
+Livello 4
+\series default
+ - Processo predicibile: il processo è stabilizzato ed è attuato all'interno
+ di definiti limiti riguardo i risultati attesi, le performance, le risorse
+ impiegate ecc.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -335,9 +367,12 @@ Process control
 \end_layout
 
 \begin_layout Itemize
-Livello 5 - Processo ottimizzante: il processo è predicibile ed in grado
- di adattarsi per raggiungere obiettivi specifici e rilevanti per l'organizzazio
-ne.
+
+\series bold
+Livello 5
+\series default
+ - Processo ottimizzante: il processo è predicibile ed in grado di adattarsi
+ per raggiungere obiettivi specifici e rilevanti per l'organizzazione.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -359,10 +394,6 @@ Continuous integration
 \end_layout
 
 \begin_layout Standard
-(NOTA: Inserito anche i dettagli precisi per ognuno, li tengo?)
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
@@ -371,7 +402,7 @@ Continuous integration
 
 \begin_layout Standard
 L'applicazione dello standard ISO/IEC 15504 porta a benefici sia agli sviluppato
-di del software che ai suoi utilizzatori/acquirenti.
+di del software che ai suoi utilizzatori o acquirenti.
  Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
  risorse, un contenimento dei costi, una maggiore tempestività di consegna
  del prodotto ultimato, migliore stima dei rischi e degli impegni e la possibili
@@ -399,37 +430,56 @@ Funzionalità
 
 \begin_layout Standard
 Il prodotto software realizzato deve essere in grado di offrire apposite
- funzioni che siano in grado di soddisfare le esigenze stabilite, necessarie
+ funzionalità che siano in grado di soddisfare le esigenze stabilite, necessarie
  per operare sotto condizioni specifiche.
  
 \end_layout
 
 \begin_layout Itemize
-Appropiatezza: costituisce la capacità del software di offrire un insieme
- di funzioni per i compiti ed obbiettivi prefissati all'utente.
+
+\series bold
+Appropiatezza
+\series default
+: costituisce la capacità del software di offrire un insieme di funzioni
+ per i compiti ed obbiettivi prefissati all'utente.
 \end_layout
 
 \begin_layout Itemize
-Accuratezza: capacità del software di fornire i risultati concordati o i
- precisi effetti richiesti.
+
+\series bold
+Accuratezza
+\series default
+: capacità del software di fornire i risultati concordati o i precisi effetti
+ richiesti.
  
 \end_layout
 
 \begin_layout Itemize
-Interoperabilità: capacità del prodotto software di interagire ed operare
- con uno specifici sistemi.
+
+\series bold
+Interoperabilità
+\series default
+: capacità del prodotto software di interagire ed operare con specifici
+ sistemi.
 \end_layout
 
 \begin_layout Itemize
-Conformità: capacità del prodotto software di aderire a standard, convenzioni
- e regolamentazioni rilevanti al settore operativo a cui vengono applicate.
+
+\series bold
+Conformità
+\series default
+: capacità del prodotto software di aderire a standard, convenzioni e regolament
+azioni rilevanti al settore operativo a cui vengono applicate.
 \end_layout
 
 \begin_layout Itemize
-Sicurezza: la capacità del prodotto software di proteggere informazioni
- e dati impedendo che persone o sistemi non autorizzati possano accedervi
- o modificarli, mentre garantire queste operazioni a utenti o sistemi autorizzat
-i
+
+\series bold
+Sicurezza
+\series default
+: la capacità del prodotto software di proteggere informazioni e dati impedendo
+ che persone o sistemi non autorizzati possano accedervi o modificarli,
+ mentre garantire queste operazioni a utenti o sistemi autorizzati
 \end_layout
 
 \begin_layout Standard
@@ -451,34 +501,47 @@ L'affidabilità misura la capacità di un prodotto software di manterene un
 \end_layout
 
 \begin_layout Itemize
-Maturità: capacità del prodotto software di evitare che si verifichino errori,
- malfunzionamenti o siano prodotti risultati non coerenti.
+
+\series bold
+Maturità
+\series default
+: capacità del prodotto software di evitare che si verifichino errori, malfunzio
+namenti o siano prodotti risultati non coerenti.
 \end_layout
 
 \begin_layout Itemize
-Tolleranza agli errori: capacità di mantenere determinati livelli di prestazioni
- nonostante la presenza di errori, malfunzionamenti o usi scorretti del
- prodotto.
+
+\series bold
+Tolleranza agli errori
+\series default
+: capacità di mantenere determinati livelli di prestazioni nonostante la
+ presenza di errori, malfunzionamenti o usi scorretti del prodotto.
 \end_layout
 
 \begin_layout Itemize
-Recuperabilità: capacità di un prodotto di ripristinare il livello appropriato
- di prestazioni e di essere in grado di recuperare le informazioni rilevanti
- in seguito ad un malfunzionamento.
+
+\series bold
+Recuperabilità
+\series default
+: capacità di un prodotto di ripristinare il livello appropriato di prestazioni
+ e di essere in grado di recuperare le informazioni rilevanti in seguito
+ ad un malfunzionamento.
  
 \end_layout
 
 \begin_layout Itemize
-Aderenza: capacità di aderire a standard, regole e convenzioni inerenti
- l'affidabilità.
+
+\series bold
+Aderenza
+\series default
+: capacità di aderire a standard, regole e convenzioni inerenti l'affidabilità.
 \end_layout
 
 \begin_layout Standard
 La misurazione del raggiungimento di questo obiettivo si calcolerà confrontando
  il numero di esecuzioni totale con quelle andate a buon fine e che hanno
  mantenuto un livello di prestazioni tali da poter permettere l'utilizzo
- basilare del prodotto.
- (da rivedere)
+ previsto del prodotto.
 \end_layout
 
 \begin_layout Subsubsection
@@ -491,22 +554,34 @@ La capacità di fornire adeguate prestazioni in relazione alla quantità di
 \end_layout
 
 \begin_layout Itemize
-Comportamento rispetto al tempo: capacità di fornire adeguati tempi di risposta,
- elaborazione e velocità di attraversamento, sotto condizioni determinate.
+
+\series bold
+Comportamento rispetto al tempo
+\series default
+: capacità di fornire adeguati tempi di risposta, elaborazione e velocità,
+ sotto condizioni determinate.
 \end_layout
 
 \begin_layout Itemize
-Utilizzo delle risorse: capacità di utilizzare in maniera adeguata la giusta
- quantità e tipologia di risorse.
+
+\series bold
+Utilizzo delle risorse
+\series default
+: capacità di utilizzare in maniera adeguata la giusta quantità e tipologia
+ di risorse.
 \end_layout
 
 \begin_layout Itemize
-Conformità: capacità di aderire a standard e specifiche sull'efficienza.
+
+\series bold
+Conformità
+\series default
+: capacità di aderire a standard e specifiche sull'efficienza.
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo sarà determinato dal
- tempo necessario per ottenere una risposta dal programma sia in condizioni
+La misurazione del raggiungimento di questo obiettivo sarà determinata dal
+ tempo necessario per ottenere una risposta dal servizio sia in condizioni
  normali che in condizioni di sovraccarico.
 \end_layout
 
@@ -516,39 +591,59 @@ Usabilità
 
 \begin_layout Standard
 La capacità di un prodotto software di essere capito, appreso e usato dall'utent
-e in determinate condizioni determina determina la sua usabilità.
+e in certe condizioni determina la sua usabilità.
 \end_layout
 
 \begin_layout Itemize
-Comprensibilità: costituisce la facilità di comprensione dei concetti del
- prodotto, permettendo all'utente quindi di comprendere se il software è
- appropriato.
+
+\series bold
+Comprensibilità
+\series default
+: costituisce la facilità di comprensione dei concetti del prodotto, permettendo
+ all'utente quindi di comprendere se il software è appropriato.
 \end_layout
 
 \begin_layout Itemize
-Apprendibilità: capacità di diminuire l'impegno richiesto agli utenti per
- imparare ad utilizzare la' applicazione.
+
+\series bold
+Apprendibilità
+\series default
+: capacità di diminuire l'impegno richiesto agli utenti per imparare ad
+ utilizzare l'applicazione.
 \end_layout
 
 \begin_layout Itemize
-Operabilità: capacità di porre gli utenti in condizioni tali da utilizzarlo
+
+\series bold
+Operabilità
+\series default
+: capacità di porre gli utenti in condizioni tali da utilizzare il prodotto
  per i propri scopi e controllarne l'uso.
 \end_layout
 
 \begin_layout Itemize
-Attrattiva: capacità del software di essere piacevole per l'utente.
+
+\series bold
+Attrattiva
+\series default
+: capacità del software di essere piacevole per l'utente.
 \end_layout
 
 \begin_layout Itemize
-Conformità: capacità del software di aderire a standard o convenzioni relativi
- all'usabilità.
+
+\series bold
+Conformità
+\series default
+: capacità del software di aderire a standard o convenzioni relativi all'usabili
+tà.
 \end_layout
 
 \begin_layout Standard
 La misurazione del raggiungimento di questo obiettivo sarà costituita dalla
  capacità dell'applicativo di adattarsi ai vari tipi di ambienti in cui
  esso verrà eseguito come ambienti desktop o dispositivi mobili.
- L'usabilità sarà poi ritenuta raggiunta anche rendendo l'applicativo fruibile
+ L'usabilità sarà poi ritenuta raggiunta fordendo un'interfaccia il più
+ possibile chiara, semplice ed intuitiva e rendendo l'applicativo fruibile
  a quelle categorie di utenti affetti da disabilità come daltonici o ipovedenti.
 \end_layout
 
@@ -562,28 +657,44 @@ La manutenibilità rappresenta la capacità del software di essere modificato,
 \end_layout
 
 \begin_layout Itemize
-Analizzabilità: rappresenta la facilità con la quale è possibile analizzare
- il codice per localizzare un eventuale errore.
+
+\series bold
+Analizzabilità
+\series default
+: rappresenta la facilità con la quale è possibile analizzare il codice
+ per localizzare un eventuale errore.
 \end_layout
 
 \begin_layout Itemize
-Modificabilità: capacità del prodotto software di permettere l'implementazione
- di una specificata modifica.
+
+\series bold
+Modificabilità
+\series default
+: capacità del prodotto software di permettere l'implementazione di una
+ specificata modifica.
 \end_layout
 
 \begin_layout Itemize
-Stabilità: capacità del software di evitare effetti inaspettati derivanti
- da modifiche errate
+
+\series bold
+Stabilità
+\series default
+: capacità del software di evitare effetti inaspettati derivanti da modifiche
+ errate
 \end_layout
 
 \begin_layout Itemize
-Testabilità: capacità del software di essere facilmente testato per validare
- le modifiche apportate.
+
+\series bold
+Testabilità
+\series default
+: capacità del software di essere facilmente testato per validare le modifiche
+ apportate.
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo saranno legate alle
- misure già evidenziate nel capitolo 2.3.4.
+La misurazione del raggiungimento di questo obiettivo saranno legate al
+ rispetto delle misure metriche descritte nel capitolo 2.5.3
 \end_layout
 
 \begin_layout Subsubsection
@@ -622,6 +733,8 @@ L'applicazione desktop deve essere installabile in tutti i principali sistemi
  Il front-end deve essere compatibile e funzionante con tutti i browser
  che aderiscono al W3C e con i browser di dispositivi mobile di diverso
  tipo (iOS, Windows Phone, Android, Symbian).
+ Infine l'applicazione Android deve essere compatibile con il maggior numero
+ di distribuzioni possibile del sistema operativo.
 \end_layout
 
 \end_body

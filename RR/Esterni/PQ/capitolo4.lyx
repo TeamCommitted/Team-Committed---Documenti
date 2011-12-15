@@ -105,7 +105,9 @@ Appena un'anomalia viene trovata è opportuna una segnalazione tempestiva
 Struttura di un ticket
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
+
+\series medium
 La struttura di un ticket dovrà seguire le seguenti specifiche:
 \end_layout
 
@@ -131,7 +133,7 @@ Owner
 
 \begin_layout Standard
 A riguardo è possibile leggere in dettaglio le specifiche di un ticket nel
- documento Norme di Progetto capitolo xx //?
+ documento Norme di Progetto.
 \end_layout
 
 \begin_layout Paragraph
@@ -178,8 +180,8 @@ Una volta creato il ticket sarà compito del verificatore riconoscere quale
  Norme di Progetto provvederà a comnicare il problema all'Amministratore
  che prenderà provvedimenti.
  Se invece il problema riguarda un allontanamento dai requisiti, una volta
- identificata l'origine della discrepanza il Verificatore solleciterà l'Analista
- per valutare la gravità e i costi per risolverla.
+ identificata ldi 'origine della discrepanza il Verificatore solleciterà
+ l'Analista per valutare la gravità e i costi per risolverla.
 \end_layout
 
 \begin_layout Subsection

@@ -422,7 +422,7 @@ http://findbugs/sourceforge.net/
 EclEmma (>=1.5.3)
 \series default
 : strumento in grado di determinare la copertura del codice Java prodotto
- sia durante le fasi di esecuzione che testing e disponibile sotto forma
+ sia durante le fasi di esecuzione che di testing e disponibile sotto forma
  di plugin per Eclipse.
  (
 \begin_inset Flex URL
@@ -431,6 +431,27 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.eclemma.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Android Lint (>=16.0.0): 
+\series default
+strumento utilizzato per individuare i principali errori di programmazione
+ all'interno di applicazioni Android.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://tools.android.com/tips/lint
 \end_layout
 
 \end_inset
@@ -679,9 +700,9 @@ Analisi del flusso di controllo
 
 \begin_deeper
 \begin_layout Itemize
-Ci si accerta che il codice segua il flusso aspettato, che non si possa
- entrare in porzioni di codice che possono non terminare, che non esista
- codice non raggiungibile.
+Si accerta che il codice segua il flusso aspettato, che non si possa entrare
+ in porzioni di codice che possono non terminare, che non esista codice
+ non raggiungibile.
 \end_layout
 
 \end_deeper
@@ -691,7 +712,7 @@ Analisi del flusso dei dati
 
 \begin_deeper
 \begin_layout Itemize
-Ci si accerta che il software non acceda mai a variabili non inizializzate,
+Si accerta che il software non acceda mai a variabili non inizializzate
  o scriva inutilmente più volte prima di usare la variabile.
 \end_layout
 
@@ -715,8 +736,8 @@ Analisi dinamica
 L'analisi dinamica consisterà nella verifica dei componenti del software
  o del sistema in generale.
  Verranno effettuati test mirati e ripetuti in diversi contesti.
- Il programmatore durante i test dovrà essere coscente dello stato dell'ambiente
-, degli input, e dei risultati in ogni momento dell'esecuzione.
+ Il programmatore, durante i test, dovrà essere coscente dello stato dell'ambien
+te, degli input e dei risultati in ogni momento dell'esecuzione.
  Questi risultati saranno utili solo nel caso vengano trovati errori da
  correggere, nel caso non vengano trovati questo non significa necessariamente
  l'assenza di anomalie.
@@ -785,8 +806,9 @@ Misure e Metriche
 Le misure e le metriche che adotteremo per la verifica della qualità del
  software si ispiriranno alle indicazioni dello standard ISO-14598.
  Sono misure spesso focalizzate al miglioramento della capacità di prevedere
- e contenere il costo del software, noi le useremo per valutare la qualità
- del prodotto sia nel processo di progettazione che di codifica.
+ e contenere il costo del software, Il Team Committed le utilizzerà per
+ valutare la qualità del prodotto sia nel processo di progettazione che
+ di codifica.
 \end_layout
 
 \begin_layout Itemize
@@ -803,7 +825,7 @@ Complessità ciclomatica:
 \begin_layout Itemize
 
 \series bold
-Misure nella progettazione 
+Misure nella progettazione: 
 \series default
 permettono di stimare il costo di un software e la sua qualità.
 \end_layout
@@ -817,8 +839,8 @@ Numero di classi, coesione tra di esse e peso.
 \end_layout
 
 \begin_layout Itemize
-Complessità di flusso (misura la quantità di informazioni in entrata ed
- uscita da una funzione [fan in e fan out] ).
+Complessità di flusso: misura la quantità di informazioni in entrata ed
+ uscita da una funzione (fan in e fan out).
 \end_layout
 
 \end_deeper
@@ -834,7 +856,7 @@ Linee di codice
 \end_layout
 
 \begin_layout Itemize
-Misure di coesione funzionale – misurano le istanze di definione e utilizzo
+Misure di coesione funzionale: misurano le istanze di definione e utilizzo
  di variabli e costanti (1994).
  Un numero elevato di parametri può essere abbassato, e quindi migliorato,
  raggruppando parametri tra loro correlati in classi diverse, aumentando

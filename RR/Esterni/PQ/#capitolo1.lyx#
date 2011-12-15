@@ -111,7 +111,8 @@ name "sub:Glossario"
 \end_layout
 
 \begin_layout Standard
-
+Tutti i termini marcati da apposita sottolineatura saranno approfonditi
+ e descritti all'interno del file Glossario_v1.0.0.pdf al fine di evitare ambiguità.
 \end_layout
 
 \begin_layout Subsection
@@ -183,6 +184,10 @@ http://it.wikipedia.org/wiki/ISO/IEC_9126
 \end_inset
 
 )
+\end_layout
+
+\begin_layout Itemize
+ISO 145
 \end_layout
 
 \end_body

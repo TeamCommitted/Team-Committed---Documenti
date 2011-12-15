@@ -159,7 +159,7 @@ Informativi
 \begin_layout Itemize
 ISO/IEC 15504:1998 (
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -174,7 +174,7 @@ www2.cnipa.gov.it/site/_contentfiles/00310300/310320_15504.pdf
 \begin_layout Itemize
 ISO/IEC 9126 (
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -184,6 +184,10 @@ http://it.wikipedia.org/wiki/ISO/IEC_9126
 \end_inset
 
 )
+\end_layout
+
+\begin_layout Itemize
+ISO 14598
 \end_layout
 
 \end_body
