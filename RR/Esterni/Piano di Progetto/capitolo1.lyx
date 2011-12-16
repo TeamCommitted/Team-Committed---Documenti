@@ -135,7 +135,7 @@ end{longtable}
 \end_layout
 
 \begin_layout Subsection
-Verifica
+Approvazione
 \end_layout
 
 \begin_layout Standard
@@ -184,6 +184,280 @@ emph{XX/YY/ZZZZ} &
 	
 \backslash
 emph{Vardanega Tullio} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Accettazione componenti
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{ c | c | c }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Nome} & 
+\backslash
+textbf{Data} & 
+\backslash
+textbf{Firma} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Begolo Marco} & 
+\backslash
+emph{XX/YY/ZZZZ} &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Braghetto Lorenzo} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Cornaglia Alessandro} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Dalla Piet
+\backslash
+'a Massimo} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Facchin Gabriele} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Maggiolo Giorgio} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Quadrio Giacomo} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Componenti
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{ c | c | c }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Nome} & 
+\backslash
+textbf{Matricola} & 
+\backslash
+textbf{email} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Begolo Marco} & 
+\backslash
+emph{XX/YY/ZZZZ} &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Braghetto Lorenzo} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Cornaglia Alessandro} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Dalla Piet
+\backslash
+'a Massimo} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Facchin Gabriele} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Maggiolo Giorgio} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Quadrio Giacomo} & 
 \backslash
 emph{XX/YY/ZZZZ} & 
 \backslash

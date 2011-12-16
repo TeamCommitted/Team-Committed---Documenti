@@ -62,10 +62,24 @@
 
 \begin_layout Section
 Pianificazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Pianificazione"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Introduzione e Ciclo di vita
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Introduzione-e-Ciclo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -152,11 +166,19 @@ e Responsabile, Amministratore, Analista e Verificatore.
 \end_layout
 
 \begin_layout Itemize
-I periodo dal 05/12/2011 al 12/12/2011
+
+\series bold
+I periodo:
+\series default
+ dal 05/12/2011 al 12/12/2011
 \end_layout
 
 \begin_layout Itemize
-II periodo dal 13/12/2011 al 20/12/2011.
+
+\series bold
+II periodo:
+\series default
+ dal 13/12/2011 al 20/12/2011.
  
 \end_layout
 
@@ -167,6 +189,17 @@ Ogni membro del gruppo non può ricoprire il medesimo ruolo in entrambi i
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -186,7 +219,7 @@ hline
 
 \begin_layout Plain Layout
 
-	Membro gruppo & Ruolo1 & Ruolo2 
+	Membro gruppo & Ruolo 1 & Ruolo 2 
 \backslash
 
 \backslash
@@ -210,7 +243,103 @@ hline
 
 \begin_layout Plain Layout
 
-	
+	Braghetto Lorenzo & Verificatore & Analista 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Cornaglia Alessandro & Analista & Amministratore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Dalla Piet
+\backslash
+'a Massimo & Analista & Verificatore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Facchin Gabriele & Analista & Verificatore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Maggiolo Giorgio & Amministratore & Responsabile 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Quadrio Giacomo & Verificatore & Analista 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Schema-di-rotazione-RR"
+
+\end_inset
+
+Schema di rotazione dei ruoli nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -225,7 +354,46 @@ La tabella seguente riassume il numero totale di ore di lavoro per ogni
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.1b: riassuntivo delle ore totali per ogni membro****
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Ruolipersona-RR.jpg
+	scale 57
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RR"
+
+\end_inset
+
+Riassuntivo delle ore totali per ogni membro nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -261,7 +429,7 @@ reference "fig:Diagramma-di-Gantt-RR"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -296,7 +464,97 @@ Analisi
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.1c: dettaglio delle ore per ruolo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RR.jpg
+	scale 57
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RR"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/oreruolosomm-RR.jpg
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-ruolo-RR-1"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -334,11 +592,7 @@ Seguono la ripartizione dettagliata dei ruoli secondo il diagramma di Gantt
 placement H
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -351,6 +605,12 @@ status collapsed
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RQ"
+
+\end_inset
+
 Diagramma di Gantt per la 
 \emph on
 Progettazione Architetturale
@@ -371,11 +631,82 @@ Progettazione Architetturale
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3a: dettaglio delle ore per ruolo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RQ.jpg
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RQ"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3b: riassuntivo delle ore per ruolo e relativo costo****
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RQ"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -388,11 +719,75 @@ Ogni componente del gruppo deve cercare di ricoprire un ruolo diverso per
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.2c: ripartizione dei ruoli****
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RQ"
+
+\end_inset
+
+Ripartizione dei ruoli nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.2d: riassuntivo delle ore totali per ogni membro**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-ruolo-RQ"
+
+\end_inset
+
+Riassuntivo delle ore totali di ogni membro per la fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -448,11 +843,7 @@ Per mantenere la coerenza con il modello di ciclo di vita scelto (sezione
 placement H
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -465,6 +856,12 @@ status collapsed
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RP"
+
+\end_inset
+
 Diagramma di Gantt per la 
 \emph on
 Progettazione di Dettaglio e Codifica
@@ -487,11 +884,75 @@ A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3a: dettaglio delle ore per ruolo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RP"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3b: riassuntivo delle ore per ruolo e relativo costo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RP"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazioen di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -501,11 +962,75 @@ Infine, si riporta la ripartizione dei ruoli fra i 1membri e il riassuntivo
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3c: ripartizione dei ruoli**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RP"
+
+\end_inset
+
+Ripartizione dei ruoli nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.3d: riassuntivo delle ore totali per membro**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-ruolo-RP"
+
+\end_inset
+
+Riassuntivo delle ore totali per membro nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -542,7 +1067,7 @@ Segue il diagramma di Gantt con la ripartizione dei compiti.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -555,6 +1080,12 @@ status collapsed
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RA"
+
+\end_inset
+
 Diagramma di Gantt per la fase di 
 \emph on
 Verifica e Validazione
@@ -576,11 +1107,75 @@ A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.4a, dettaglio delle ore per ruolo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RA"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****Tabella 3.4b, riassuntivo delle ore per ruolo e relativo costo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RA"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -590,12 +1185,75 @@ Infine, si riporta la ripartizione dei ruoli fra i membri e il riassuntivo
 \end_layout
 
 \begin_layout Standard
-****tabella 3.4c, ripartizione dei ruoli fra i membri del gruppo**** 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RA"
+
+\end_inset
+
+Ripartizione dei ruoli fra i membri del gruppo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-****tabella 3.4d, riassuntivo delle ore totali per membro del gruppo****
- 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-ruolo-RA"
+
+\end_inset
+
+Riassuntivo delle ore totali per membro del gruppo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
