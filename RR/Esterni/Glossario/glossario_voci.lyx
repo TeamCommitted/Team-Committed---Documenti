@@ -555,6 +555,41 @@ status open
 \backslash
 textbf{
 \backslash
+emph{Commit}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Nel contesto di scienza di computer e gestione di dati, commit si riferisce
+ all'idea di fare un set di cambi provvisori permanente
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Committente}} 
 \backslash
 

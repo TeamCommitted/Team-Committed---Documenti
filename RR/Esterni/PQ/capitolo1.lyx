@@ -76,8 +76,33 @@ Scopo del documento
 
 \begin_layout Standard
 Tale documento ha lo scopo di illustrare le strategie adottate per la verifica
- e validazione del lavoro svolto dal Team Committed relativamente al progetto
- SafetyGame e ai processi relativi alla sua produzione.
+ e validazione del lavoro svolto dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ relativamente al progetto 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ e ai processi relativi alla sua produzione.
 \end_layout
 
 \begin_layout Subsection
@@ -85,16 +110,19 @@ Scopo del prodotto
 \end_layout
 
 \begin_layout Standard
-Il prodotto SafetyGame si propone di offrire una piattaforma alle aziende
- per poter rendere alcuni contesti critici come l'apprendimento di norme
- relative alla sicurezza sul lavoro, parte integrante delle attività lavorative
- standard.
+Il prodotto 
+\emph on
+SafetyGame
+\emph default
+ si propone di offrire una piattaforma alle aziende per poter rendere alcuni
+ contesti critici come l'apprendimento di norme relative alla sicurezza
+ sul lavoro, parte integrante delle attività lavorative standard.
  Ad oggi infatti, le tematiche sono affrontate tramite attività di formazione
  statiche, basate su insegnamenti in aula che poco motivano ed interessano
  i partecipanti.
- Gamification si prefigge quindi di aumentare l'interesse dei dipendenti
- di un'azienda tramite l'utilizzo di sfide e compiti da portare a termine
- che si andranno ad integrare con le attività lavorative reali.
+ SafetyGame si prefigge quindi di aumentare l'interesse dei dipendenti di
+ un'azienda tramite l'utilizzo di sfide e compiti da portare a termine che
+ si andranno ad integrare con le attività lavorative reali.
  Tale scopo si raggiungerà tramite la somministrazione di sfide attraverso
  apposite applicazioni desktop, browser e mobile.
 \end_layout
@@ -112,7 +140,11 @@ name "sub:Glossario"
 
 \begin_layout Standard
 Tutti i termini marcati da apposita sottolineatura saranno approfonditi
- e descritti all'interno del file Glossario_v1.0.0.pdf al fine di evitare ambiguità.
+ e descritti all'interno del file 
+\family typewriter
+Glossario_v1.0.pdf
+\family default
+ al fine di evitare ambiguità.
 \end_layout
 
 \begin_layout Subsection

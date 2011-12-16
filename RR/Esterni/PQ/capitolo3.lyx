@@ -65,10 +65,23 @@ Obbiettivi di qualità
 \end_layout
 
 \begin_layout Standard
-Team Committed ha ritenuto importante fissare, di comune accordo, alcuni
- obbiettivi di qualità da perseguire e raggiungere sia nei processi di realizzaz
-ione che del prodotto in se, questo per garantire una migliore e più efficace
- soddisfazione dei requisiti richiesti nel capitolato d'appalto.
+Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha ritenuto importante fissare, di comune accordo, alcuni obbiettivi di
+ qualità da perseguire e raggiungere sia nei processi di realizzazione che
+ del prodotto in se, questo per garantire una migliore e più efficace soddisfazi
+one dei requisiti richiesti nel capitolato d'appalto.
 \end_layout
 
 \begin_layout Subsection
@@ -78,10 +91,36 @@ Qualità dei processi
 \begin_layout Standard
 La realizzazione di prodotti di buona qualità richiede che vi sia qualità
  anche nei processi necessari.
- Team Committed ha quindi deciso di adottare lo standard ISO/IEC 15504:1998
- SPICE (Software Process Improvement and Capability dEtermination) che definisce
- il modello denominato SPA-I (Software Process Assessment & Improvement)
- che offre metodi per la valutazione ed aumento di qualità dei processi.
+ Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha quindi deciso di adottare lo standard 
+\series bold
+ISO/IEC 15504:1998 SPICE 
+\series default
+(
+\emph on
+Software Process Improvement and Capability Determination
+\emph default
+) che definisce il modello denominato 
+\series bold
+SPA-I 
+\series default
+(
+\emph on
+Software Process Assessment & Improvement
+\emph default
+) che offre metodi per la valutazione ed aumento di qualità dei processi.
 \begin_inset VSpace defskip
 \end_inset
 
@@ -115,8 +154,11 @@ Figura 1: modello SPA-I
 \begin_layout Standard
 Tutti i processi dovranno quindi essere sottoposti a valutazione in modo
  da verificarne la qualità ed eventualmente facilitarne il miglioramento.
- A tale scopo lo SPICE definisce nove attributi di processo per effettuare
- una migliore valutazione:
+ A tale scopo lo 
+\emph on
+SPICE
+\emph default
+ definisce nove attributi di processo per effettuare una migliore valutazione:
 \end_layout
 
 \begin_layout Enumerate
@@ -125,7 +167,7 @@ Tutti i processi dovranno quindi essere sottoposti a valutazione in modo
 Process performance
 \series default
 : un processo raggiunge i suoi obiettivi nel momento in cui trasforma dell'input
- identificabile in output identificabile.
+ identificabile in output identificabile
 \end_layout
 
 \begin_layout Enumerate
@@ -134,7 +176,7 @@ Process performance
 Performance Management
 \series default
 : l'attuazione di un processo è pianificata e controllata al fine di generare
- risultati che rispondono agli obiettivi attesi.
+ risultati che rispondono agli obiettivi attesi
 \end_layout
 
 \begin_layout Enumerate
@@ -143,7 +185,7 @@ Performance Management
 Work Product Management
 \series default
 : l'attuazione di un processo è pianificata e controllata al fine di generare
- risultati che siano adeguatamente documentati, controllati e verificati.
+ risultati che siano adeguatamente documentati, controllati e verificati
 \end_layout
 
 \begin_layout Enumerate
@@ -151,7 +193,7 @@ Work Product Management
 \series bold
 Process Definition
 \series default
-: l'attuazione di un processo si basa su approcci standardizzati.
+: l'attuazione di un processo si basa su approcci standardizzati
 \end_layout
 
 \begin_layout Enumerate
@@ -161,7 +203,7 @@ Process Resource
 \series default
 : il processo può contare sulle adeguate risorse umane, d'infrastrutture
  ecc.
- per essere attuato.
+ per essere attuato
 \end_layout
 
 \begin_layout Enumerate
@@ -171,7 +213,7 @@ Process Measurement:
 \series default
 i risultati conseguiti e le misure rilevate durante l'attuazione di un processo
  sono utilizzati per assicurarsi che l'attuazione di tale processo supporti
- efficacemente il raggiungimento di obiettivi specifici.
+ efficacemente il raggiungimento di obiettivi specifici
 \end_layout
 
 \begin_layout Enumerate
@@ -181,7 +223,7 @@ Process Control
 \series default
 : un processo è controllato tramite la raccolta, analisi ed utilizzo delle
  misure di prodotto e di processo rilevate, con l'obbiettivo di correggere,
- se necessario, le sue modalità di attuazione.
+ se necessario, le sue modalità di attuazione
 \end_layout
 
 \begin_layout Enumerate
@@ -190,7 +232,7 @@ Process Control
 Process Change
 \series default
 : le modifiche alla definizione, gestione e attuazione di un processo sono
- controllate.
+ controllate
 \end_layout
 
 \begin_layout Enumerate
@@ -200,7 +242,7 @@ Continuous Integration
 \series default
 : Le modifiche ad un processo sono identificate ed implementate con lo scopo
  di assicurare il continuo miglioramento nel raggiungere gli obbiettivi
- rilevati per l'organizzazione.
+ rilevati per l'organizzazione
 \end_layout
 
 \begin_layout Standard
@@ -213,8 +255,12 @@ La norma stabilisce poi quattro differenti livelli di possesso di ciascuno
 \series bold
 N
 \series default
- - Non posseduto (0 - 15% di possesso): non c'è evidenza oppure ce n'è poca
- del possesso di un attributo.
+ -
+\series bold
+ Non posseduto
+\series default
+ (0 - 15% di possesso): non c'è evidenza oppure ce n'è poca del possesso
+ di un attributo
 \end_layout
 
 \begin_layout Itemize
@@ -222,9 +268,13 @@ N
 \series bold
 P
 \series default
- - Parzialmente posseduto (16 - 50% di possesso): c'è evidenza di approccio
- sistematico al raggiungimento del possesso di un attributo e del raggiungimento
- di tale possesso, ma alcuni aspetti del possesso possono essere non prevedibili.
+ -
+\series bold
+ Parzialmente posseduto
+\series default
+ (16 - 50% di possesso): c'è evidenza di approccio sistematico al raggiungimento
+ del possesso di un attributo e del raggiungimento di tale possesso, ma
+ alcuni aspetti del possesso possono essere non prevedibili
 \end_layout
 
 \begin_layout Itemize
@@ -232,10 +282,14 @@ P
 \series bold
 L
 \series default
- - Largamente posseduto (51 - 85% di possesso): vi è evidenza di approccio
- sistematico al raggiungimento del possesso di un attributo e di un significativ
-o livello di possesso di tale attributo, ma l'attuazione del processo può
- variare nelle diverse unita operative della organizzazione.
+ -
+\series bold
+ Largamente posseduto
+\series default
+ (51 - 85% di possesso): vi è evidenza di approccio sistematico al raggiungiment
+o del possesso di un attributo e di un significativo livello di possesso
+ di tale attributo, ma l'attuazione del processo può variare nelle diverse
+ unita operative della organizzazione
 \end_layout
 
 \begin_layout Itemize
@@ -243,10 +297,14 @@ o livello di possesso di tale attributo, ma l'attuazione del processo può
 \series bold
 F
 \series default
- - (Fully) Pienamente posseduto (86 - 100% di possesso): vi è evidenza di
- un totale e sistematico approccio e di un completo raggiungimento del possesso
- dell'attributo e non esistono significative differenze nel modo di attuare
- il processo tra le diverse unità operative.
+ -
+\series bold
+ (Fully) Pienamente posseduto
+\series default
+ (86 - 100% di possesso): vi è evidenza di un totale e sistematico approccio
+ e di un completo raggiungimento del possesso dell'attributo e non esistono
+ significative differenze nel modo di attuare il processo tra le diverse
+ unità operative
 \end_layout
 
 \begin_layout Standard
@@ -259,9 +317,12 @@ Vi sono poi vari livelli di maturità dei processi che sono dati dal diverso
 \series bold
 Livello 0
 \series default
- - Processo incompleto: il processo non è implementato o non raggiunge gli
- obiettivi.
- Non vi è evidenza di approcci sistematici agli attributi definiti.
+ -
+\series bold
+ Processo incompleto
+\series default
+: il processo non è implementato o non raggiunge gli obiettivi.
+ Non vi è evidenza di approcci sistematici agli attributi definiti
 \end_layout
 
 \begin_layout Itemize
@@ -269,8 +330,11 @@ Livello 0
 \series bold
 Livello 1
 \series default
- - Processo semplicemente attuato: il proesso viene messo in atto e raggiunge
- i suoi obiettivi.
+ - 
+\series bold
+Processo semplicemente attuato
+\series default
+: il proesso viene messo in atto e raggiunge i suoi obiettivi.
  Non vi è evidenza di approcci sistematici agli attributi definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
@@ -281,7 +345,7 @@ Process performance
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Itemize
@@ -289,8 +353,12 @@ Process performance
 \series bold
 Livello 2
 \series default
- - Processo gestito: il processo è attuato ma anche pianificato, tracciato,
- verificato ed aggiustato se necessario, sulla base di obiettivi ben definiti.
+ -
+\series bold
+ Processo gestito
+\series default
+: il processo è attuato ma anche pianificato, tracciato, verificato ed aggiustat
+o se necessario, sulla base di obiettivi ben definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possessi
  degli attributi di 
 \begin_inset Quotes eld
@@ -316,8 +384,12 @@ Work product management
 \series bold
 Livello 3
 \series default
- - Processo definito: il processo è attuato, pianificato e controllato sulla
- base di procedure ben definite, basate sui principi del software engineering.
+ - 
+\series bold
+Processo definito
+\series default
+: il processo è attuato, pianificato e controllato sulla base di procedure
+ ben definite, basate sui principi del software engineering.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -335,7 +407,7 @@ Process resource
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Itemize
@@ -343,9 +415,12 @@ Process resource
 \series bold
 Livello 4
 \series default
- - Processo predicibile: il processo è stabilizzato ed è attuato all'interno
- di definiti limiti riguardo i risultati attesi, le performance, le risorse
- impiegate ecc.
+ - 
+\series bold
+Processo predicibile
+\series default
+: il processo è stabilizzato ed è attuato all'interno di definiti limiti
+ riguardo i risultati attesi, le performance, le risorse impiegate ecc.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -363,7 +438,7 @@ Process control
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Itemize
@@ -371,8 +446,12 @@ Process control
 \series bold
 Livello 5
 \series default
- - Processo ottimizzante: il processo è predicibile ed in grado di adattarsi
- per raggiungere obiettivi specifici e rilevanti per l'organizzazione.
+ - 
+\series bold
+Processo ottimizzante
+\series default
+: il processo è predicibile ed in grado di adattarsi per raggiungere obiettivi
+ specifici e rilevanti per l'organizzazione.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
 \begin_inset Quotes eld
@@ -390,7 +469,7 @@ Continuous integration
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -401,8 +480,12 @@ Continuous integration
 \end_layout
 
 \begin_layout Standard
-L'applicazione dello standard ISO/IEC 15504 porta a benefici sia agli sviluppato
-di del software che ai suoi utilizzatori o acquirenti.
+L'applicazione dello standard 
+\emph on
+ISO/IEC 15504 
+\emph default
+porta a benefici sia agli sviluppatori del software, che ai suoi utilizzatori
+ o acquirenti.
  Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
  risorse, un contenimento dei costi, una maggiore tempestività di consegna
  del prodotto ultimato, migliore stima dei rischi e degli impegni e la possibili
@@ -441,7 +524,7 @@ Il prodotto software realizzato deve essere in grado di offrire apposite
 Appropiatezza
 \series default
 : costituisce la capacità del software di offrire un insieme di funzioni
- per i compiti ed obbiettivi prefissati all'utente.
+ per i compiti ed obbiettivi prefissati all'utente
 \end_layout
 
 \begin_layout Itemize
@@ -450,8 +533,7 @@ Appropiatezza
 Accuratezza
 \series default
 : capacità del software di fornire i risultati concordati o i precisi effetti
- richiesti.
- 
+ richiesti
 \end_layout
 
 \begin_layout Itemize
@@ -460,7 +542,7 @@ Accuratezza
 Interoperabilità
 \series default
 : capacità del prodotto software di interagire ed operare con specifici
- sistemi.
+ sistemi
 \end_layout
 
 \begin_layout Itemize
@@ -469,7 +551,7 @@ Interoperabilità
 Conformità
 \series default
 : capacità del prodotto software di aderire a standard, convenzioni e regolament
-azioni rilevanti al settore operativo a cui vengono applicate.
+azioni rilevanti al settore operativo a cui vengono applicate
 \end_layout
 
 \begin_layout Itemize
@@ -506,7 +588,7 @@ L'affidabilità misura la capacità di un prodotto software di manterene un
 Maturità
 \series default
 : capacità del prodotto software di evitare che si verifichino errori, malfunzio
-namenti o siano prodotti risultati non coerenti.
+namenti o siano prodotti risultati non coerenti
 \end_layout
 
 \begin_layout Itemize
@@ -515,7 +597,7 @@ namenti o siano prodotti risultati non coerenti.
 Tolleranza agli errori
 \series default
 : capacità di mantenere determinati livelli di prestazioni nonostante la
- presenza di errori, malfunzionamenti o usi scorretti del prodotto.
+ presenza di errori, malfunzionamenti o usi scorretti del prodotto
 \end_layout
 
 \begin_layout Itemize
@@ -525,8 +607,7 @@ Recuperabilità
 \series default
 : capacità di un prodotto di ripristinare il livello appropriato di prestazioni
  e di essere in grado di recuperare le informazioni rilevanti in seguito
- ad un malfunzionamento.
- 
+ ad un malfunzionamento
 \end_layout
 
 \begin_layout Itemize
@@ -534,7 +615,7 @@ Recuperabilità
 \series bold
 Aderenza
 \series default
-: capacità di aderire a standard, regole e convenzioni inerenti l'affidabilità.
+: capacità di aderire a standard, regole e convenzioni inerenti l'affidabilità
 \end_layout
 
 \begin_layout Standard
@@ -559,7 +640,7 @@ La capacità di fornire adeguate prestazioni in relazione alla quantità di
 Comportamento rispetto al tempo
 \series default
 : capacità di fornire adeguati tempi di risposta, elaborazione e velocità,
- sotto condizioni determinate.
+ sotto condizioni determinate
 \end_layout
 
 \begin_layout Itemize
@@ -568,7 +649,7 @@ Comportamento rispetto al tempo
 Utilizzo delle risorse
 \series default
 : capacità di utilizzare in maniera adeguata la giusta quantità e tipologia
- di risorse.
+ di risorse
 \end_layout
 
 \begin_layout Itemize
@@ -576,7 +657,7 @@ Utilizzo delle risorse
 \series bold
 Conformità
 \series default
-: capacità di aderire a standard e specifiche sull'efficienza.
+: capacità di aderire a standard e specifiche sull'efficienza
 \end_layout
 
 \begin_layout Standard
@@ -600,7 +681,7 @@ e in certe condizioni determina la sua usabilità.
 Comprensibilità
 \series default
 : costituisce la facilità di comprensione dei concetti del prodotto, permettendo
- all'utente quindi di comprendere se il software è appropriato.
+ all'utente quindi di comprendere se il software è appropriato
 \end_layout
 
 \begin_layout Itemize
@@ -609,7 +690,7 @@ Comprensibilità
 Apprendibilità
 \series default
 : capacità di diminuire l'impegno richiesto agli utenti per imparare ad
- utilizzare l'applicazione.
+ utilizzare l'applicazione
 \end_layout
 
 \begin_layout Itemize
@@ -618,7 +699,7 @@ Apprendibilità
 Operabilità
 \series default
 : capacità di porre gli utenti in condizioni tali da utilizzare il prodotto
- per i propri scopi e controllarne l'uso.
+ per i propri scopi e controllarne l'uso
 \end_layout
 
 \begin_layout Itemize
@@ -626,7 +707,7 @@ Operabilità
 \series bold
 Attrattiva
 \series default
-: capacità del software di essere piacevole per l'utente.
+: capacità del software di essere piacevole per l'utente
 \end_layout
 
 \begin_layout Itemize
@@ -635,7 +716,7 @@ Attrattiva
 Conformità
 \series default
 : capacità del software di aderire a standard o convenzioni relativi all'usabili
-tà.
+tà
 \end_layout
 
 \begin_layout Standard
@@ -662,7 +743,7 @@ La manutenibilità rappresenta la capacità del software di essere modificato,
 Analizzabilità
 \series default
 : rappresenta la facilità con la quale è possibile analizzare il codice
- per localizzare un eventuale errore.
+ per localizzare un eventuale errore
 \end_layout
 
 \begin_layout Itemize
@@ -671,7 +752,7 @@ Analizzabilità
 Modificabilità
 \series default
 : capacità del prodotto software di permettere l'implementazione di una
- specificata modifica.
+ specificata modifica
 \end_layout
 
 \begin_layout Itemize
@@ -689,7 +770,7 @@ Stabilità
 Testabilità
 \series default
 : capacità del software di essere facilmente testato per validare le modifiche
- apportate.
+ apportate
 \end_layout
 
 \begin_layout Standard
@@ -707,34 +788,61 @@ La portabilità è la capacità di un software d'essere portato da un ambiente
 \end_layout
 
 \begin_layout Itemize
-Adattabilità: capacità del software di essere adattato per differenti ambienti
- operativi senza dover applicare modifiche diverde da quelle fornite per
- il software considerato.
+
+\series bold
+Adattabilità
+\series default
+: capacità del software di essere adattato per differenti ambienti operativi
+ senza dover applicare modifiche diverde da quelle fornite per il software
+ considerato
 \end_layout
 
 \begin_layout Itemize
-Installabilità: la capacità del software di essere installato in uno specifico
- ambiente
+
+\series bold
+Installabilità
+\series default
+: la capacità del software di essere installato in uno specifico ambiente
 \end_layout
 
 \begin_layout Itemize
-Conformità: capacità del software di aderire a standard e convenzioni relative
- alla portabilità
+
+\series bold
+Conformità
+\series default
+: capacità del software di aderire a standard e convenzioni relative alla
+ portabilità
 \end_layout
 
 \begin_layout Itemize
-Sostituibilità: capacità di essere utilizzato al posto di un altro software
- per svolgere gli stessi compiti.
+
+\series bold
+Sostituibilità
+\series default
+: capacità di essere utilizzato al posto di un altro software per svolgere
+ gli stessi compiti
 \end_layout
 
 \begin_layout Standard
 L'applicazione desktop deve essere installabile in tutti i principali sistemi
  operativi disponibili (Mac OSX, Windows, Linux).
  Il front-end deve essere compatibile e funzionante con tutti i browser
- che aderiscono al W3C e con i browser di dispositivi mobile di diverso
- tipo (iOS, Windows Phone, Android, Symbian).
- Infine l'applicazione Android deve essere compatibile con il maggior numero
- di distribuzioni possibile del sistema operativo.
+ che aderiscono al 
+\bar under
+W3C
+\bar default
+ e con i browser di dispositivi mobile di diverso tipo (iOS, Windows Phone,
+ 
+\bar under
+Android
+\bar default
+, Symbian).
+ Infine l'applicazione 
+\bar under
+Android
+\bar default
+ deve essere compatibile con il maggior numero di distribuzioni possibile
+ del sistema operativo.
 \end_layout
 
 \end_body

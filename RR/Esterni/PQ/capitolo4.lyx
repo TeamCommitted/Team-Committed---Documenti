@@ -81,7 +81,11 @@ Issues
 \begin_inset Quotes erd
 \end_inset
 
- messa a disposizione da Github.
+ messa a disposizione da 
+\bar under
+Github
+\bar default
+.
  Coerentemente con l'organizzazione generale delle strategie di verifica,
  nuove anomalie potranno essere scoperte in due modi:
 \end_layout
@@ -92,8 +96,12 @@ Al rilascio di ogni nuova versione con relativo registro delle modifiche,
 \end_layout
 
 \begin_layout Enumerate
-Grazie all'approccio “Broken Window Theory”, chiunque in qualunque momento
- è incentivato alla ricerca di possibili anomalie.
+Grazie all'approccio “
+\emph on
+Broken Window Theory
+\emph default
+”, chiunque in qualunque momento è incentivato alla ricerca di possibili
+ anomalie.
 \end_layout
 
 \begin_layout Standard
@@ -108,7 +116,11 @@ Struttura di un ticket
 \begin_layout Paragraph
 
 \series medium
-La struttura di un ticket dovrà seguire le seguenti specifiche:
+La struttura di un 
+\bar under
+ticket
+\bar default
+ dovrà seguire le seguenti specifiche:
 \end_layout
 
 \begin_layout Itemize
@@ -132,8 +144,15 @@ Owner
 \end_layout
 
 \begin_layout Standard
-A riguardo è possibile leggere in dettaglio le specifiche di un ticket nel
- documento Norme di Progetto.
+A riguardo è possibile leggere in dettaglio le specifiche di un 
+\bar under
+ticket
+\bar default
+ nelle 
+\family typewriter
+NdP-V1.0.pdf
+\family default
+.
 \end_layout
 
 \begin_layout Paragraph
@@ -141,9 +160,16 @@ Risoluzione di un ticket
 \end_layout
 
 \begin_layout Standard
-Quando un programmatore assegnato al ticket è pronto per inviare l'opportuna
- modifica al codice, dovrà preoccuparsi di inviare la modifica e segnalare
- il ticket come 
+Quando un programmatore assegnato al 
+\bar under
+ticket
+\bar default
+ è pronto per inviare l'opportuna modifica al codice, dovrà preoccuparsi
+ di inviare la modifica e segnalare il 
+\bar under
+ticket
+\bar default
+ come 
 \begin_inset Quotes eld
 \end_inset
 
@@ -151,9 +177,19 @@ fixed
 \begin_inset Quotes erd
 \end_inset
 
- attraverso la sintassi suggerita da Github nella descrizione del relativo
- commit.
- Sarà compito del Responsabile confermare l'effettiva chiusura del ticket
+ attraverso la sintassi suggerita da 
+\bar under
+Github
+\bar default
+ nella descrizione del relativo 
+\bar under
+commit
+\bar default
+.
+ Sarà compito del Responsabile confermare l'effettiva chiusura del 
+\bar under
+ticket
+\bar default
  solo se la modifica al codice ha risolto l'anomalia.
 \end_layout
 
@@ -162,10 +198,17 @@ Trattamento delle discrepanze
 \end_layout
 
 \begin_layout Standard
-Una discrepanza è un tipo di anomalia non grave, non concerne il corretto
- funzionamento del prodotto, ma può riguardare un allontanamento dai requisiti
- attesi specificati nel capitolato d'appalto oppure una violazione delle
- Norme di Progetto.
+Una 
+\series bold
+discrepanza
+\series default
+ è un tipo di anomalia non grave, non concerne il corretto funzionamento
+ del prodotto, ma può riguardare un allontanamento dai requisiti attesi
+ specificati nel capitolato d'appalto oppure una violazione delle 
+\emph on
+Norme di Progetto
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
@@ -175,13 +218,21 @@ Le modalità di ricerca e comunicazione delle discrepanze è del tutto simile
 \end_layout
 
 \begin_layout Standard
-Una volta creato il ticket sarà compito del verificatore riconoscere quale
- tipo di discrepanza si tratta e nel caso riguardi una violazione delle
- Norme di Progetto provvederà a comnicare il problema all'Amministratore
- che prenderà provvedimenti.
+Una volta creato il 
+\bar under
+ticket 
+\bar default
+sarà compito del verificatore riconoscere quale tipo di discrepanza si tratta
+ e nel caso riguardi una violazione delle 
+\emph on
+Norme di Progetto
+\emph default
+ provvederà a comnicare il problema all'Amministratore che prenderà provvediment
+i.
  Se invece il problema riguarda un allontanamento dai requisiti, una volta
- identificata ldi 'origine della discrepanza il Verificatore solleciterà
- l'Analista per valutare la gravità e i costi per risolverla.
+ identificata l'origine della discrepanza.
+ il Verificatore solleciterà l'Analista per valutare la gravità e i costi
+ per risolverla.
 \end_layout
 
 \begin_layout Subsection
@@ -189,37 +240,68 @@ Procedure di controllo di qualità di processo
 \end_layout
 
 \begin_layout Standard
-Le procedure di gestione della qualità che il gruppo TeamCommitted userà
- si basano sul concetto di 
+Le procedure di gestione della qualità che il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ userà si basano sul concetto di 
 \begin_inset Quotes eld
 \end_inset
 
+
+\series bold
 ciclo di Deming
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
- o PDCA, utili a garantire un continuo processo di miglioramento basandosi
- sulla comunicazione attiva da parte delle varie componenti del gruppo,
- una continua connessione fra le fasi di analisi, progettazione, produzione
- e verifica o collaudo.
+ o 
+\series bold
+PDCA
+\series default
+, utili a garantire un continuo processo di miglioramento basandosi sulla
+ comunicazione attiva da parte delle varie componenti del gruppo, una continua
+ connessione fra le fasi di analisi, progettazione, produzione e verifica
+ o collaudo.
  Lo scopo è un continuo miglioramento dei processi qualitativi unito ad
  una riduzione di costi e sprechi.
 \end_layout
 
 \begin_layout Standard
-Il concetto è molto vicino al termine Kaizen, comunemente tradotto con 
+Il concetto è molto vicino al termine 
+\series bold
+Kaizen
+\series default
+, comunemente tradotto con 
 \begin_inset Quotes eld
 \end_inset
 
+
+\emph on
 miglioramento continuo
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
 , si riferisce ai processi di miglioramento qualitativo che devono coinvolgere
  tutto il gruppo di persone al lavoro.
- Si basa sulla filosofia de "L'energia viene dal basso", ovvero sull'idea
- che il processo qualitativo non dipenda solo dall'organizzazione di un
- progetto, ma anche sul lavoro fatto sui singoli processi e prodotti.
+ Si basa sulla filosofia de "
+\emph on
+L'energia viene dal basso
+\emph default
+", ovvero sull'idea che il processo qualitativo non dipenda solo dall'organizzaz
+ione di un progetto, ma anche sul lavoro fatto sui singoli processi e prodotti.
 \end_layout
 
 \end_body
