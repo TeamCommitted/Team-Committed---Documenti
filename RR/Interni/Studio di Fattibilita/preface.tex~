@@ -1,0 +1,61 @@
+%% NON MODIFICARE QUESTE IMPOSTAZIONI
+\date{}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\usepackage{longtable}
+\usepackage{hyperref}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\fancyhead[RE, RO]{\doctitle \versiondoc - \TeamCommitted}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+
+%%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
+\newcommand{\TeamCommitted}{\emph{Team Committed }}
+\newcommand{\respProg}{\emph{Responsabile di Progetto }}
+\newcommand{\ammProg}{\emph{Amministratore di Progetto }}
+\newcommand{\analProg}{\emph{Analista }}
+\newcommand{\verifProg}{\emph{Verificatore }}
+\newcommand{\programProg}{\emph{Programmatore }}
+\newcommand{\progetProg}{\emph{Progettista }}
+\newcommand{\proponProg}{\emph{Proponente }}
+\newcommand{\commitProg}{\emph{Committente }}
+\newcommand{\propProg}{\emph{Dr. Amir Baldissera }}
+\newcommand{\commProg}{\emph{Prof. Tullio Vardanega }}
+\newcommand{\nameproject}{\emph{Progetto Gamification}}
+
+%%DA QUI IN POI POTETE MODIFICARE
+
+%% INSERIRE QUI IL NOME DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DEL NOME)
+\newcommand{\doctitle}{Studio di Fattibilita' }
+
+%% INSERIRE QUI LA VERSIONE ATTUALE DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DELLA VERSIONE)
+\newcommand{\versiondoc}{V0.1 }
+
+%%INSERITE QUI LA DATA DI COMPILAZIONE FINALE DEL DOCUMENTO
+\newcommand{\datared}{14/12/2011}
+
+%%INSERIRE QUI IL/I REDATTORI
+\newcommand{\redattore}{Gabriele Facchin}
+
+%%INSERIRE IL/I NOME DEI VERIFICATORI CHE HANNO VERIFICATO IL DOCUMENTO
+\newcommand{\verificatori}{xxxxxx}
+
+%%INSERIRE IL NOME DI CHI HA APPROVATO IL DOCUMENTO
+\newcommand{\approvazione}{xxxxxx}
+
+%%INSERIRE LA TIPOLOGIA DI USO DEL DOCUMENTO [Interno/Esterno]
+\newcommand{\usodoc}{Interno}
+
+%%INSERIRE LA LISTA DI DISTRIBUZIONE DEL DOCUMENTO
+\newcommand{\listadistr}{\begin{itemize}
+\item \TeamCommitted
+\item \commProg
+\end{itemize}}
+
+%%INSERIRE IL SOMMARIO DEL DOCUMENTO
+\newcommand{\testosommario}{Questo documento vuol definire lo studio di fattibilita' dei vari capitolati proposti che ha portato alla scelta del capitolato Piattaforma Mobile di Apprendimento Comportamentale}
+

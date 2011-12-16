@@ -1,0 +1,193 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+
+\emph on
+Diario delle modifiche
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%QUESTO SCHEMA E' DA COPIARE ED INCOLLARE.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+%!!ATTENZIONE!! Le note dovranno seguire questo rigido schema (escluse le
+ virgolette):
+\end_layout
+
+\begin_layout Plain Layout
+
+% "
+\backslash
+emph{COMMENTO ALLA MODIFICA} & NOME_COGNOME & DATA_MODIFICA & VERSIONE 
+\backslash
+
+\backslash
+ 
+\backslash
+hline"
+\end_layout
+
+\begin_layout Plain Layout
+
+%Quando copierete questo schema, togliete questa sezione che è di solo commento
+ (compilate per vedere il risultato)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ p{6cm} | c | c | r }
+\end_layout
+
+\begin_layout Plain Layout
+
+		Modifica & Autore & Data & Versione 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Sistemazione del file sorgente per fare in modo che includa tutti i
+ capitoli come file a parte, cos
+\backslash
+'i come la prima pagina.
+ Iniziata la stesura del capitolo 3pag} & Giorgio Maggiolo & 06/12/2011
+ & V0.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inizio creazione del documento.
+ Creato lo schema base e iniziato a scrivere l'introduzione e il capitolo
+ sulle comunicazioni.
+ Impostato inoltre lo schema grafico iniziale del documento stesso.} & Giorgio
+ Maggiolo & 05/12/2011 & V0.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,278 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Studio del Dominio
+\end_layout
+
+\begin_layout Standard
+Per lo sviluppo del capitolato scelto sono necessarie alcune competenze
+ di natura tecnologica e la conoscenza del contesto nel quale si inserisce
+ l'applicazione.
+ Di seguito vengono illustrati i domini tecnologici e applicativi ai quali
+ si riferisce il capitolato.
+\end_layout
+
+\begin_layout Subsection
+Dominio tecnologico
+\end_layout
+
+\begin_layout Itemize
+Conoscenza di linguaggi di programmazione multipiattaforma (
+\series bold
+Java
+\series default
+\emph on
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Il gruppo ha delle competenze sufficienti allo sviluppo di applicazioni
+ con i linguaggi di programmazione multipiattaforma.
+ Dovrà essere comunque aggiunto un bagaglio di conoscenze più approfondite
+ rispetto a quanto appreso fin'ora.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Conoscenza di piattaforme per lo sviluppo di applicazioni per 
+\emph on
+dispositivi mobili
+\emph default
+ (
+\series bold
+Android SDK)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Il gruppo ha scarse competenze, ma, grazie ad uno dei membri interni che
+ lavora con queste piattaforme, pensa che riuscirà ad ottenere facilmente
+ le conoscenze necessarie per lo sviluppo
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Conoscenza di linguaggi di programmazione per lo sviluppo di piattaforme
+ web (
+\series bold
+JSP
+\series default
+, 
+\series bold
+HTML5
+\series default
+ e 
+\series bold
+CSS2.1
+\series default
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Il gruppo ha competenze adeguate allo sviluppo di piattaforme web.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Dominio applicativo
+\end_layout
+
+\begin_layout Standard
+Per l'approfondimento del dominio applicativo, il gruppo si è documentato
+ sia con documenti forniti dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+, che con l'esperienza nell'ambito del 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gamification
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ maturata dai singoli membri del gruppo.
+ In particolare abbiamo letto i seguenti libri:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Christopher Cunningam (2011),
+\series bold
+\emph default
+ Gamification by Design, 
+\series default
+\emph on
+Canada, O'REILLY Ed.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Joselin Linder (2010), 
+\series bold
+\emph default
+Game-Based Marketing, 
+\series default
+\emph on
+Canada, John Wiley & Sons, Inc.
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda lo studio di realtà che applicano già il 
+\emph on
+Gamification
+\emph default
+, abbiamo studiato le seguenti realtà:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CriticalCity Upload
+\family typewriter
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://criticalcity.org
+\end_layout
+
+\end_inset
+
+
+\family default
+\series default
+ è un 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gioco urbano
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in cui il 
+\emph on
+gamification
+\emph default
+ è un elemento fondamentale, capace di mettere in campo la nostra creatività,
+ l'intelligenza, di competere per migliorare e poter condividere i risultati,
+ è la relazione che fonda la voglia di incontrarsi e fare un pezzo di strada
+ insieme.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ stato scelto come caso di studio sia per la sua ovvia applicazione dei
+ concetti di 
+\emph on
+gamification
+\emph default
+, sia per studiare un caso già concretamente realizzato e funzionante di
+ cooperazione esterna ad ogni ambito inteso come locazione fisica unitaria
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ad esempio uffici o comunque strutture che possono essere ricondotte ad
+ aziende
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

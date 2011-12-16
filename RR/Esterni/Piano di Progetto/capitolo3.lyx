@@ -1,0 +1,703 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Pianificazione
+\end_layout
+
+\begin_layout Subsection
+Introduzione e Ciclo di vita
+\end_layout
+
+\begin_layout Standard
+Lo sviluppo del software sarà diviso in quattro macro fasi, una per ogni
+ scadenza elencata nella sezione 2.6: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Analisi
+\series default
+ (AN) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Progettazione Architetturale
+\series default
+ (PA) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Progettazione di Dettaglio e Codifica
+\series default
+ (PDC) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Verifica e Validazione
+\series default
+ (VV) 
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda il Ciclo di Vita del software, si è deciso di utilizzare
+ il modello incrementale.
+ La scelta è stata determinata dalle caratteristiche del progetto e del
+ proponente.
+ In particolare, le caratteristiche sono le seguenti:
+\end_layout
+
+\begin_layout Itemize
+la scelta di realizzare l’Analisi dei Requisiti e la Progettazione Architettural
+e in maniera molto attenta e dettagliata, quindi non orientate ad una futura
+ modifica ma piuttosto ad un'implementazione
+\end_layout
+
+\begin_layout Itemize
+crediamo che la massima disponibilità del proponente all'incontro e alla
+ discussione sia essenziale nel determinare i punti fondamentali del progetto
+ ed a distinguerli dalle funzionalità opzionali e desiderabili
+\end_layout
+
+\begin_layout Standard
+Durante le prime due fasi (AN e PA) il lavoro sarà focalizzato sulla realizzazio
+ne il più possibile attenta e precisa dei documenti e della progettazione,
+ in modo da poter svolgere le due fasi seguenti (PDC e VV) nel modo più
+ lineare possibile.
+ Inoltre, vista la presenza di requisiti obbligatori ed opzionali cercheremo
+ di presentare una prima versione del prodotto in modo che soddisfi i requisiti
+ obbligatori ed una seconda versione (incremento) per i requisiti opzionali.
+ 
+\end_layout
+
+\begin_layout Subsection
+Analisi (AN)
+\end_layout
+
+\begin_layout Standard
+La fase di Analisi va dal 05/12/2011 al 10/10/2011.
+ Tuttavia il termine ultimo per la consegna dei documenti necessari alla
+ RR è fissato per il giorno 20/12/2011, perciò l'intero lavoro dovrà essere
+ completato entro tale data.
+ Durante questa fase saranno attivi solo quattro (di sei) ruoli, più precisament
+e Responsabile, Amministratore, Analista e Verificatore.
+ Per garantire una turnazione il più possibile equa la fase di Analisi sarà
+ divisa in due periodi:
+\end_layout
+
+\begin_layout Itemize
+I periodo dal 05/12/2011 al 12/12/2011
+\end_layout
+
+\begin_layout Itemize
+II periodo dal 13/12/2011 al 20/12/2011.
+ 
+\end_layout
+
+\begin_layout Standard
+Ogni membro del gruppo non può ricoprire il medesimo ruolo in entrambi i
+ periodi.
+ La copertura dei ruoli è riportata di seguito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{ l | c | r }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Membro gruppo & Ruolo 1 & Ruolo 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Begolo Marco & Responsabile & Analista 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Braghetto Lorenzo & Verificatore & Analista 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Cornaglia Alessandro & Analista & Amministratore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Dalla Piet
+\backslash
+'a Massimo & Analista & Verificatore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Facchin Gabriele & Analista & Verificatore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Maggiolo Giorgio & Amministratore & Responsabile 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Quadrio Giacomo & Verificatore & Analista 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schema di rotazione dei ruoli nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La tabella seguente riassume il numero totale di ore di lavoro per ogni
+ componente.
+ 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.1b: riassuntivo delle ore totali per ogni membro****
+\end_layout
+
+\begin_layout Standard
+Come si può vedere nella Tabella 3.1b per ogni componente e' previsto un
+ lavoro medio di X ore, per un totale di Y ore che non saranno incluse nel
+ preventivo poichè saranno a carico del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+.
+ Seguono la ripartizione dettagliata dei ruoli secondo il diagramma di Gantt
+ (figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RR"
+
+\end_inset
+
+) e la tabella con la ripartizione delle ore (tabella 3.1c) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RR.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RR"
+
+\end_inset
+
+Diagramma di Gantt per la fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.1c: dettaglio delle ore per ruolo**** 
+\end_layout
+
+\begin_layout Subsection
+Progettazione Architetturale (PA)
+\end_layout
+
+\begin_layout Standard
+La fase di Progettazione Architetturale occuperà il periodo che va dal 11/01/201
+2 al 07/02/2012.
+ Per garantire una turnazione il più possibile equa la fase di PDC sarà
+ suddivisa in tre periodi:
+\end_layout
+
+\begin_layout Itemize
+I periodo dal 11/01/2012 al 19/01/2012 (9 giorni)
+\end_layout
+
+\begin_layout Itemize
+II periodo dal 20/01/2012 al 29/01/2012 (9 giorni)
+\end_layout
+
+\begin_layout Itemize
+III periodo dal 30/01/2012 al 07/02/2012 (9 giorni)
+\end_layout
+
+\begin_layout Standard
+Seguono la ripartizione dettagliata dei ruoli secondo il diagramma di Gantt
+ (figura 3.2), la tabella con il dettaglio della ripartizione delle ore (tabella
+ 3.2a), coerente al precedente diagramma, e il riassuntivo delle ore divise
+ per ruolo con relativo costo preventivo (tabella 3.2b).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RQ.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di Gantt per la 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3a: dettaglio delle ore per ruolo**** 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3b: riassuntivo delle ore per ruolo e relativo costo****
+\end_layout
+
+\begin_layout Standard
+Ogni componente del gruppo deve cercare di ricoprire un ruolo diverso per
+ ogni fase.
+ In particolare i ruoli attivi in questa fase sono Amministratore, Analista,
+ Progettista, Responsabile e Verificatore.
+ Seguono dettaglio e riassuntivo della ripartizione dei ruoli fra i membri.
+ 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.2c: ripartizione dei ruoli****
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.2d: riassuntivo delle ore totali per ogni membro**** 
+\end_layout
+
+\begin_layout Standard
+Come si può vedere nella Tabella 3.2d per ogni elemento è previsto un lavoro
+ medio di X ore.
+ 
+\end_layout
+
+\begin_layout Subsection
+Progettazione di Dettaglio e Codifica (PDC)
+\end_layout
+
+\begin_layout Standard
+La fase di PDC occuperà il periodo dal 08/02/2012 al 07/02/2012.
+ Per garantire la turnazione dei ruoli all'interno di questa fase divideremo
+ quest'ultima in due periodi:
+\end_layout
+
+\begin_layout Itemize
+I periodo dal 08/02/2012 al 22/02/2012 (15 giorni)
+\end_layout
+
+\begin_layout Itemize
+II periodo dal 23/02/2012 al 07/02/2012 (13 giorni) 
+\end_layout
+
+\begin_layout Standard
+Il primo periodo è leggermente più lungo per via della maggiore mole di
+ lavoro.
+ Si è preferito suddividere questa fase in maniera naturale (ovvero al termine
+ della prima fase di codifica e relativa verifica), piuttosto che in un
+ numero equo di giorni, poichè il passaggio di affidamento di un compito
+ da un membro ad un'altro può generare incomprensioni che possono portare
+ ad un ritardo, anche sensibile, nello svolgimento dello stesso.
+ 
+\end_layout
+
+\begin_layout Standard
+Per mantenere la coerenza con il modello di ciclo di vita scelto (sezione
+ 3.1) i compiti di Progettazione di Dettaglio e di Codifica saranno suddivisi
+ in due parti.
+ La prima parte si occuperà di progettare e codificare quanto riguarda i
+ requisiti obbligatori, mentre la seconda parte sarà dedicata allo sviluppo
+ dei requisiti opzionali.
+ Le due parti sono leggermente sovrapposte poiché durante la codifica della
+ prima parte si procederà alla progettazione della seconda.
+ Si veda il diagramma di Gantt in figura 3.3 per maggior chiarezza.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RP.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di Gantt per la 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
+ della fase PDC.
+ 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3a: dettaglio delle ore per ruolo**** 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3b: riassuntivo delle ore per ruolo e relativo costo**** 
+\end_layout
+
+\begin_layout Standard
+Infine, si riporta la ripartizione dei ruoli fra i 1membri e il riassuntivo
+ delle ore di lavoro per ogni singolo membro.
+ 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3c: ripartizione dei ruoli**** 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.3d: riassuntivo delle ore totali per membro**** 
+\end_layout
+
+\begin_layout Subsection
+Verifica e Validazione (VV)
+\end_layout
+
+\begin_layout Standard
+La fase di Verifica e Validazione occuperà il periodo che va dal 07/03/2012
+ al giorno di scadenza della Revisione di Accettazione.
+ Poiché quest’ultima avrà luogo in data da destinarsi, faremo riferimento
+ ad una data fittizia posta al 07/04/2012.
+ 
+\end_layout
+
+\begin_layout Standard
+Come per le altre fasi, anche questa sarà suddivisa in due periodi: 
+\end_layout
+
+\begin_layout Itemize
+I periodo dal 07/03/2012 al 21/03/2012 
+\end_layout
+
+\begin_layout Itemize
+II periodo dal 22/03/2012 al 07/04/2012 
+\end_layout
+
+\begin_layout Standard
+Segue il diagramma di Gantt con la ripartizione dei compiti.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RA.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di Gantt per la fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seguire, il dettaglio delle ore di lavoro necessarie alla realizzazione
+ della fase VV: 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.4a, dettaglio delle ore per ruolo**** 
+\end_layout
+
+\begin_layout Standard
+****Tabella 3.4b, riassuntivo delle ore per ruolo e relativo costo**** 
+\end_layout
+
+\begin_layout Standard
+Infine, si riporta la ripartizione dei ruoli fra i membri e il riassuntivo
+ delle ore di lavoro per ogni singolo membro.
+ 
+\end_layout
+
+\begin_layout Standard
+****tabella 3.4c, ripartizione dei ruoli fra i membri del gruppo**** 
+\end_layout
+
+\begin_layout Standard
+****tabella 3.4d, riassuntivo delle ore totali per membro del gruppo****
+ 
+\end_layout
+
+\end_body
+\end_document
