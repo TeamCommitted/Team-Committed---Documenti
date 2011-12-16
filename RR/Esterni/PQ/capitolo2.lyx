@@ -144,7 +144,7 @@ proponente
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
  Se durante la verifica saranno state rilevate inregolarità queste verranno
- segnalate tramite apposita Issue dal verificatore e corrette dal redattore.
+ segnalate tramite un apposito Ticket dal verificatore e corrette dal redattore.
  Il processo di verifica si concluderà quindi con la validazione del documento
  da parte del verificatore e l'approvazione da parte del responsabile per
  la presentazione al committente
@@ -159,7 +159,7 @@ Progettazione
  nel verificare che tutti i requisiti descritti durante la fase di Analisi
  dei Requisiti rientrino nei componenti individuati.
  Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
- segnalate tramite Issue e successivamente risolte
+ segnalate tramite Ticket e successivamente risolte
 \end_layout
 
 \begin_layout Itemize
@@ -170,7 +170,7 @@ Realizzazione
 : la verifica in questa fase verrà effettuata sia da parte dei programmatori
  stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
  del codice.
- La resenza di errori verrà segnalata da un apposita Issue che verrà presa
+ La resenza di errori verrà segnalata da un apposita Ticket che verrà presa
  in carico dai programmatori e chiusa una volta risolto il problema.
  
 \end_layout
