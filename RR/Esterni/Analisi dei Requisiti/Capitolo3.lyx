@@ -71,7 +71,7 @@
 \begin_body
 
 \begin_layout Section
-3 Casi d' uso
+Casi d' uso
 \end_layout
 
 \begin_layout Standard
@@ -84,7 +84,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \end_layout
 
 \begin_layout Subsection
-3.1 Ambito Utente, caso d' uso generale
+Ambito Utente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -138,8 +138,8 @@ Scopo e Descrizione:
 \series default
 L' Utente può effettuare il login, diventando Utente Autenticato, o recuperare
  la password.
- L' Utente Autenticato può visualizzare i propri dati, modificarli o effetuare
- il logout.
+ L'Utente Autenticato può effettuare il logout e compiere le azioni proprie
+ del tipo di autenticazione effettuata.
 \end_layout
 
 \begin_layout Standard
@@ -178,16 +178,8 @@ L' Utente può recuperare la password dimenticata
 L' Utente Autenticato può effettuare il logout
 \end_layout
 
-\begin_layout Enumerate
-L' Utente Autenticato può visualizzare i propri dati
-\end_layout
-
-\begin_layout Enumerate
-L' Utente Autenticato può modificare i propri dati
-\end_layout
-
 \begin_layout Subsubsection
-3.1.1 UCU 2: Ambito Utente, recupero password dimenticata
+UCU 2: Ambito Utente, recupero password dimenticata
 \end_layout
 
 \begin_layout Standard
@@ -275,7 +267,7 @@ L' Utente riceve nella propria mail la password
 \end_layout
 
 \begin_layout Subsection
-3.2 Ambito Dipendente, caso d' uso generale
+Ambito Dipendente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -329,7 +321,7 @@ Scopo e Descrizione:
 Al Dipendente devono venire proposte delle domande dal sistema, deve poter
  richiedere che gliene venga proposta una in ogni momento e deve poter visualizz
 are i suoi punteggi in qualsiasi momento.
- 
+ Può inoltre modificare o visualizzare i propri dati personali.
 \end_layout
 
 \begin_layout Standard
@@ -369,8 +361,16 @@ Il Dipendente può richiedere al sistema di proporgli una domanda
 Il Dipendente può visualizzare i suoi punteggi
 \end_layout
 
+\begin_layout Enumerate
+Il Dipendente può modificare i propri dati personali
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente può visualizzare i propri dati personali
+\end_layout
+
 \begin_layout Subsubsection
-3.2.1 UCD 1 Ambito Dipendente, domanda proposta
+UCD 1 Ambito Dipendente, domanda proposta
 \end_layout
 
 \begin_layout Standard
@@ -462,7 +462,7 @@ rla in seguito
 \end_layout
 
 \begin_layout Subsubsection
-3.2.1.1 UCD 1.1 Ambito Dipendente, mostra domanda
+UCD 1.1 Ambito Dipendente, mostra domanda
 \end_layout
 
 \begin_layout Standard
@@ -515,9 +515,9 @@ Attori Coinvolti:
 Scopo e Descrizione: 
 \series default
 La domanda mostrata al Dipendente può essere o una domanda mai vista che
- può essere stata posticipata precedentemente o una domanda già vista ma
- risposta erroneamente dal Dipendente, il Dipendente deve rispondere alla
- domanda mostrata.
+ può essere stata posticipata precedentemente o una domanda già vista a
+ cui ha risposto erroneamente, il Dipendente deve rispondere alla domanda
+ mostrata.
  
 \end_layout
 
@@ -552,7 +552,7 @@ Il Dipendente risponde alla domanda
 \end_layout
 
 \begin_layout Subsubsection
-3.2.2 UCD 2 Ambito Dipendente, richiesta domanda
+UCD 2 Ambito Dipendente, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -605,7 +605,7 @@ Attori Coinvolti:
 Scopo e Descrizione:
 \series default
  Il sistema deve proporre una domanda al Dipendente ogni qualvolta esso
- lo richieda.
+ lo richieda se il Dipendente non ne ha già richiesta una da poco.
 \end_layout
 
 \begin_layout Standard
@@ -641,7 +641,7 @@ Il sistema visualizza una domanda
 \end_layout
 
 \begin_layout Subsubsection
-3.2.3 UCD 3 Ambito Dipendente, visione punteggi personali
+UCD 3 Ambito Dipendente, visione punteggi personali
 \end_layout
 
 \begin_layout Standard
@@ -725,7 +725,7 @@ Il Dipendente prende visione di tutte le sue statistiche
 \end_layout
 
 \begin_layout Subsubsection
-3.2.4 UCD 4: Ambito Dipendente, modifica dati account
+UCD 4: Ambito Dipendente, modifica dati account
 \end_layout
 
 \begin_layout Standard
@@ -818,7 +818,7 @@ Il Dipendente, dopo aver modificato o la password, o l' email, riceve la
 \end_layout
 
 \begin_layout Subsection
-3.3 Ambito Amministratore Sicurezza, caso d' uso generale.
+Ambito Amministratore Sicurezza, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -907,7 +907,7 @@ L' Amministratore Sicurezza può modificare il database di domande
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2 UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+UCAS 2: Ambito Amministratore Sicurezza, modifica database.
 \end_layout
 
 \begin_layout Standard
@@ -999,7 +999,7 @@ L' Amministratore Sicurezza può cancellare una domanda nel database di domande
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2.1 UCAS 2.1: Ambito Amministratore Sicurezza, aggiunta domanda.
+UCAS 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1025,7 +1025,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Sicurezza, aggiunta domanda.
+Ambito Amministratore Sicurezza, aggiungi domanda.
 \end_layout
 
 \end_inset
@@ -1083,7 +1083,7 @@ L' Amministratore Sicurezza aggiunge una domanda al database di domande
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2.2 UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1166,7 +1166,7 @@ Si può modificare il tipo della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare i/l testi/o delle/a risposte/a della domanda
+Si può modificare i testi delle risposte della domanda
 \end_layout
 
 \begin_layout Enumerate
@@ -1194,15 +1194,11 @@ Si può modificare la temporizzazione della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il punteggio di risposta corretta
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il punteggio di risposta errata
+Si può modificare il punteggio della risposta
 \end_layout
 
 \begin_layout Subsection
-3.4 Ambito Amministratore Azienda, caso d' uso generale
+Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1297,7 +1293,7 @@ L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1 UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
 \end_layout
 
 \begin_layout Standard
@@ -1396,7 +1392,7 @@ L' Amministratore Azienda può modificare i dati personali di un account
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1.1 UCAA 1.1: Ambito Amministratore Azienda, aggiungi dipendente
+UCAA 1.1: Ambito Amministratore Azienda, aggiungi dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1480,7 +1476,7 @@ L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1.2 UCAA 1.3: Ambito Amministratore Azienda, modifica dati dipendente
+UCAA 1.3: Ambito Amministratore Azienda, modifica dati dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1567,6 +1563,10 @@ L' Amministratore Azienda può modificare il campo cognome del Dipendente
 \end_layout
 
 \begin_layout Enumerate
+L' Amministratore Azienda può modificare il campo email del Dipendente
+\end_layout
+
+\begin_layout Enumerate
 L' Amministratore Azienda può modificare il campo impiego del Dipendente
 \end_layout
 
@@ -1574,12 +1574,8 @@ L' Amministratore Azienda può modificare il campo impiego del Dipendente
 L' Amministratore Azienda può modificare il campo codice fiscale del Dipendente
 \end_layout
 
-\begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo badge del Dipendente
-\end_layout
-
 \begin_layout Subsection
-3.5 Ambito Amministratore Installatore, caso d' uso generale.
+Ambito Amministratore Installatore, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -1683,7 +1679,7 @@ L' Amministratore Installatore Autenticato può gestire il server globale
 \end_layout
 
 \begin_layout Subsubsection
-3.5.1 UCAI 2: Ambito Amministratore Installatore, installazione software.
+UCAI 2: Ambito Amministratore Installatore, installazione software.
 \end_layout
 
 \begin_layout Standard
@@ -1762,7 +1758,7 @@ Flusso principale degli eventi:
 
 \begin_layout Enumerate
 L' Amministratore Installatore può installare il software sui dispositivi
- mobili (tablet, smartphone …)
+ mobili
 \end_layout
 
 \begin_layout Enumerate
@@ -1770,7 +1766,7 @@ L' Amministratore Installatore può installare il software sui computer
 \end_layout
 
 \begin_layout Subsubsection
-3.5.2 UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
+UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
  aziende.
 \end_layout
 
@@ -1865,8 +1861,7 @@ L' Amministratore Installatore Autenticato può modificare il link al database
 \end_layout
 
 \begin_layout Subsubsection
-3.5.2.1 UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi
- azienda
+UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
 \end_layout
 
 \begin_layout Standard

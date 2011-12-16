@@ -80,12 +80,6 @@ Il presente documento intende descrivere le motivazioni che hanno portato
  del prodotto richiesto dal capitolato e al confronto con le altre tre proposte.
 \end_layout
 
-\begin_layout Standard
-
-\lang english
-Il presente documento
-\end_layout
-
 \begin_layout Subsection
 
 \lang english
@@ -101,13 +95,19 @@ C03
 \series default
 - 
 \emph on
+\bar under
 Piattaforma Mobile di Apprendimento Comportamentale
 \emph default
+\bar default
 
 \begin_inset Newline newline
 \end_inset
 
-Proponente: 
+
+\bar under
+Proponente
+\bar default
+: 
 \begin_inset ERT
 status open
 
@@ -124,7 +124,11 @@ propProg
 \begin_inset Newline newline
 \end_inset
 
-Committente: 
+
+\bar under
+Committente
+\bar default
+: 
 \begin_inset ERT
 status open
 
