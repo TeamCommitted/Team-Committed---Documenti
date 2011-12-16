@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -61,6 +62,146 @@
 
 \begin_layout Section
 Organigramma
+\end_layout
+
+\begin_layout Subsection
+Redazione
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{ c | c | c }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Nome} & 
+\backslash
+textbf{Data} & 
+\backslash
+textbf{Firma} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Begolo Marco} & 
+\backslash
+emph{XX/YY/ZZZZ} &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Maggiolo Giorgio} & 
+\backslash
+emph{XX/YY/ZZZZ} &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Verifica
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{ c | c | c }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Nome} & 
+\backslash
+textbf{Data} & 
+\backslash
+textbf{Firma} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Maggiolo Giorgio} & 
+\backslash
+emph{XX/YY/ZZZZ} &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Vardanega Tullio} & 
+\backslash
+emph{XX/YY/ZZZZ} & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

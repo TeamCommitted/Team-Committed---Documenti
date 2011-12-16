@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -61,10 +62,24 @@
 
 \begin_layout Section
 Introduzione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduzione"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Scopo del documento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scopo-del-documento"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -77,6 +92,13 @@ Con il presente documento si intende specificare la pianificazione del lavoro
 
 \begin_layout Subsection
 Glossario
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Glossario"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -88,58 +110,133 @@ Il Glossario è un documento a parte necessario a evitare ambiguità nell'utiliz
 
 \begin_layout Subsection
 Riferimenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Riferimenti normativi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-normativi"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Capitolato d’Appalto: Piattaforma Mobile di Apprendimento Comportamentale,
- v 1.0, rilasciato dal proponente Mentis s.r.l., reperibile all’indirizzo: http://ww
-w.math.unipd.it/~tullio/IS-1/2011/Progetto/C3.pdf
+
+\series bold
+Capitolato d’Appalto
+\series default
+: Piattaforma Mobile di Apprendimento Comportamentale, v 1.0, rilasciato
+ dal proponente Mentis s.r.l., reperibile all’indirizzo: http://www.math.unipd.it/~tul
+lio/IS-1/2011/Progetto/C3.pdf
 \end_layout
 
 \begin_layout Itemize
-Vincoli di Organigramma: http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.h
-tml
+
+\series bold
+Vincoli di Organigramma
+\series default
+: http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.html
 \end_layout
 
 \begin_layout Itemize
-Norme di Progetto, v 1.0 (NormeDiProgetto v1.0.pdf) 
+
+\series bold
+Norme di Progetto
+\series default
+, v 1.0 
+\family typewriter
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+NormeDiProgetto-v1.0.pdf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Riferimenti informativi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-informativi"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Software Engineering - Part 4: Software processes - Ian Sommerville – 8th
- ed.
+
+\series bold
+Software Engineering - Part 4
+\series default
+: Software processes - Ian Sommerville – 8th ed.
  (2006)
 \end_layout
 
 \begin_layout Subsection
 Ruoli e costi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ruoli-e-costi"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Per il corretto sviluppo di un progetto è fondamentale la pianificazione
  dei ruoli che i membri del progetto dovranno ricoprire.
  In particolare, il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-TeamCommitted eseguirà una rotazione il più possibile omogenea dei ruoli.
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ eseguirà una rotazione il più possibile omogenea dei ruoli.
  Tale rotazione seguirà le norme specificate dai Vincoli di organigramma
- (vedi sezione 2.3.1 del presente documento).
+ (vedi sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Riferimenti-normativi"
+
+\end_inset
+
+ del presente documento).
  Di seguito sono riportati i costi orari dei singoli ruoli (tabella 2.5).
  
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -182,7 +279,19 @@ Responsabile
 \begin_inset Text
 
 \begin_layout Plain Layout
-€30
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+30
 \end_layout
 
 \end_inset
@@ -202,7 +311,19 @@ Amministratore
 \begin_inset Text
 
 \begin_layout Plain Layout
-€20
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+20
 \end_layout
 
 \end_inset
@@ -222,7 +343,19 @@ Analista
 \begin_inset Text
 
 \begin_layout Plain Layout
-€25
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+25
 \end_layout
 
 \end_inset
@@ -242,7 +375,19 @@ Progettista
 \begin_inset Text
 
 \begin_layout Plain Layout
-€22
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+22
 \end_layout
 
 \end_inset
@@ -262,7 +407,19 @@ Programmatore
 \begin_inset Text
 
 \begin_layout Plain Layout
-€15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+15
 \end_layout
 
 \end_inset
@@ -282,7 +439,19 @@ Verificatore
 \begin_inset Text
 
 \begin_layout Plain Layout
-€15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+15
 \end_layout
 
 \end_inset
@@ -318,8 +487,19 @@ Scadenze
 
 \begin_layout Standard
 Seguono le scadenze che il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-TeamCommitted ha scelto di rispettare: 
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha scelto di rispettare: 
 \end_layout
 
 \begin_layout Itemize
