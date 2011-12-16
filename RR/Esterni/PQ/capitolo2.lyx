@@ -131,9 +131,12 @@ Aspell
 , mentre il controllo lessicale, grammaticale e sintattico da un'accurata
  rilettura del testo.
  I contenuti verranno invece controllati in modo tale da verificare la copertura
- delle richieste del proponente e questo tramite un'accurata rilettura e
- confronto con il capitolato d'appalto e che ogni requisito abbia il suo
- caso d'uso corrispondente.
+ delle richieste del 
+\bar under
+proponente
+\bar default
+ e questo tramite un'accurata rilettura e confronto con il capitolato d'appalto
+ e che ogni requisito abbia il suo caso d'uso corrispondente.
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
  Se durante la verifica saranno state rilevate inregolarità queste verranno
@@ -327,7 +330,9 @@ Verificatore
 Programamtore 
 \series default
 è incentivato a eseguire attività di debugging quando ne riterrà necessario
- ed è coinvolto dai verificatori nella risoluzione dei ticket
+ ed è coinvolto dai verificatori nella risoluzione dei 
+\bar under
+ticket
 \end_layout
 
 \begin_layout Standard
@@ -341,7 +346,11 @@ Software per la verifica dei requisiti richiesti
 \end_layout
 
 \begin_layout Itemize
-Software di gestione e commento di ticket, codice e documentazione
+Software di gestione e commento di 
+\bar under
+ticket
+\bar default
+, codice e documentazione
 \end_layout
 
 \begin_layout Itemize
@@ -377,8 +386,13 @@ Risorse Software
 \end_layout
 
 \begin_layout Itemize
-Risorse messe a disposizione dal servizio web Github per gestire commenti
- o problemi a codice, documentazione e ticket
+Risorse messe a disposizione dal servizio 
+\bar under
+web
+\bar default
+ Github per gestire commenti o problemi a codice, documentazione e 
+\bar under
+ticket
 \end_layout
 
 \begin_layout Itemize
@@ -390,7 +404,13 @@ Eclipse con relativi strumenti già inclusi o aggiunti tramite plugin
 \end_layout
 
 \begin_layout Itemize
-Strumenti W3C per validazione web
+Strumenti 
+\bar under
+W3C
+\bar default
+ per validazione 
+\bar under
+web
 \end_layout
 
 \begin_layout Itemize
@@ -537,7 +557,11 @@ FindBugs (
 )
 \series default
 : strumento utilizzato nell'analisi statica e volto ad individuare errori
- nella scrittura di codice Java (
+ nella scrittura di codice
+\bar under
+ Java
+\bar default
+ (
 \begin_inset Flex URL
 status collapsed
 
@@ -560,9 +584,12 @@ EclEmma (
 
 )
 \series default
-: strumento in grado di determinare la copertura del codice Java prodotto
- sia durante le fasi di esecuzione che di testing e disponibile sotto forma
- di plugin per Eclipse (
+: strumento in grado di determinare la copertura del codice 
+\bar under
+Java
+\bar default
+ prodotto sia durante le fasi di esecuzione che di testing e disponibile
+ sotto forma di plugin per Eclipse (
 \begin_inset Flex URL
 status collapsed
 
@@ -586,7 +613,11 @@ Android Lint (
 ): 
 \series default
 strumento utilizzato per individuare i principali errori di programmazione
- all'interno di applicazioni Android (
+ all'interno di applicazioni 
+\bar under
+Android
+\bar default
+ (
 \begin_inset Flex URL
 status collapsed
 
@@ -664,7 +695,10 @@ JUnit (
 
 )
 \series default
-: Framework utilizzato per effettuare test di unità per il linguaggio Java
+: Framework utilizzato per effettuare test di unità per il linguaggio 
+\bar under
+Java
+\bar default
  (
 \begin_inset Flex URL
 status collapsed
@@ -713,8 +747,11 @@ ApacheBrench (
 )
 \series default
 : strumento a linea di comando utilizzato per misurare l'efficienza di un
- server web ed in grado di simulare situazioni di sovraccarico della rete
- (
+ server 
+\bar under
+web
+\bar default
+ ed in grado di simulare situazioni di sovraccarico della rete (
 \begin_inset Flex URL
 status collapsed
 
@@ -738,7 +775,11 @@ SpeedTracer (
 )
 \series default
 : plugin per Google Chrome che permette di verificare l'efficienza di un'applica
-zione web durante la sua esecuzione (
+zione 
+\bar under
+web
+\bar default
+ durante la sua esecuzione (
 \begin_inset Flex URL
 status collapsed
 
@@ -766,8 +807,11 @@ Strumenti di validazione W3C
 \series bold
 Markup Validation Service
 \series default
-: per effettuare test sulle pagine di cui l'applicazione web è costituita
- e verificarne l'aderenza agli standard HTML5 (
+: per effettuare test sulle pagine di cui l'applicazione 
+\bar under
+web
+\bar default
+ è costituita e verificarne l'aderenza agli standard HTML5 (
 \begin_inset Flex URL
 status collapsed
 
@@ -786,7 +830,10 @@ http://validator.w3.org/
 \series bold
 CSS Validation Service
 \series default
-: per effettuare test sui fogli di stile utilizzati nell'applicazione web
+: per effettuare test sui fogli di stile utilizzati nell'applicazione 
+\bar under
+web
+\bar default
  e verificarne l'aderenza allo standard CSS 2.1 (
 \begin_inset Flex URL
 status collapsed
@@ -922,7 +969,11 @@ Test di sistema e di collaudo
 \series default
 : verifica che il sistema in cui andrà installato il software rispetti i
  requisiti richiesti, o che il software riesca ad adattarsi correttamente
- al contesto dell'azienda proponente.
+ al contesto dell'azienda 
+\bar under
+proponente
+\bar default
+.
  Il collaudo sarà sul software installato, finito il quale avverrà il rilascio
  del prodotto
 \end_layout

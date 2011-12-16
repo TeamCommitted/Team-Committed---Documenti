@@ -112,17 +112,25 @@ Scopo del prodotto
 \begin_layout Standard
 Il prodotto 
 \emph on
+\bar under
 SafetyGame
 \emph default
+\bar default
  si propone di offrire una piattaforma alle aziende per poter rendere alcuni
  contesti critici come l'apprendimento di norme relative alla sicurezza
  sul lavoro, parte integrante delle attività lavorative standard.
  Ad oggi infatti, le tematiche sono affrontate tramite attività di formazione
  statiche, basate su insegnamenti in aula che poco motivano ed interessano
  i partecipanti.
- SafetyGame si prefigge quindi di aumentare l'interesse dei dipendenti di
- un'azienda tramite l'utilizzo di sfide e compiti da portare a termine che
- si andranno ad integrare con le attività lavorative reali.
+ 
+\emph on
+\bar under
+SafetyGame
+\emph default
+\bar default
+ si prefigge quindi di aumentare l'interesse dei dipendenti di un'azienda
+ tramite l'utilizzo di sfide e compiti da portare a termine che si andranno
+ ad integrare con le attività lavorative reali.
  Tale scopo si raggiungerà tramite la somministrazione di sfide attraverso
  apposite applicazioni desktop, browser e mobile.
 \end_layout
@@ -156,8 +164,15 @@ Normativi
 \end_layout
 
 \begin_layout Itemize
-Capitolato d'appalto: Piattaforma mobile di apprendimento comportamentale,
- rilasciato dal proponente Mentis s.r.l.
+Capitolato d'appalto: 
+\bar under
+Piattaforma mobile di apprendimento comportamentale
+\bar default
+, rilasciato dal 
+\bar under
+proponente
+\bar default
+ Mentis s.r.l.
  reperibile all'indirizzo 
 \begin_inset Flex URL
 status open
@@ -181,7 +196,11 @@ Norme di progetto (Allegato NormeDiProgetto_v1.0.0.pdf)
 \end_layout
 
 \begin_layout Itemize
-Verbale incontro proponente 2011-12-05 (Allegato Verbale05.12.2011.pdf)
+Verbale incontro 
+\bar under
+proponente
+\bar default
+ 2011-12-05 (Allegato Verbale05.12.2011.pdf)
 \end_layout
 
 \begin_layout Subsubsection
@@ -189,7 +208,11 @@ Informativi
 \end_layout
 
 \begin_layout Itemize
-ISO/IEC 15504:1998 (
+
+\bar under
+ISO/IEC 15504:1998
+\bar default
+ (
 \begin_inset Flex URL
 status open
 
@@ -204,7 +227,11 @@ www2.cnipa.gov.it/site/_contentfiles/00310300/310320_15504.pdf
 \end_layout
 
 \begin_layout Itemize
-ISO/IEC 9126 (
+
+\bar under
+ISO/IEC
+\bar default
+ 9126 (
 \begin_inset Flex URL
 status open
 
@@ -219,7 +246,11 @@ http://it.wikipedia.org/wiki/ISO/IEC_9126
 \end_layout
 
 \begin_layout Itemize
-ISO 14598
+
+\bar under
+ISO
+\bar default
+ 14598s
 \end_layout
 
 \end_body

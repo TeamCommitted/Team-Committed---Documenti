@@ -106,7 +106,11 @@ TeamCommitted
 
  ha quindi deciso di adottare lo standard 
 \series bold
-ISO/IEC 15504:1998 SPICE 
+ISO/IEC 15504:1998 
+\bar under
+SPICE
+\bar default
+ 
 \series default
 (
 \emph on
@@ -181,8 +185,10 @@ Tutti i processi dovranno quindi essere sottoposti a valutazione in modo
  da verificarne la qualità ed eventualmente facilitarne il miglioramento.
  A tale scopo lo 
 \emph on
+\bar under
 SPICE
 \emph default
+\bar default
  definisce nove attributi di processo per effettuare una migliore valutazione:
 \end_layout
 
@@ -514,7 +520,11 @@ porta a benefici sia agli sviluppatori del software, che ai suoi utilizzatori
  Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
  risorse, un contenimento dei costi, una maggiore tempestività di consegna
  del prodotto ultimato, migliore stima dei rischi e degli impegni e la possibili
-tà di confrontarsi con delle best practise.
+tà di confrontarsi con delle 
+\bar under
+best practice
+\bar default
+.
  Per gli utenti invece abbiamo una maggior facilità nella selezione dei
  fornitori, una migliore valutazione dei rischi di progetto, controllo dello
  stato di avanzamento in corso d'opera, riduzione dei costi di correzione
