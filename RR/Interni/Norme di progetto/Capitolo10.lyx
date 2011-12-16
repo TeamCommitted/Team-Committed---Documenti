@@ -636,7 +636,21 @@ TeamCommitted
 
 \end_inset
 
-, definendo obbligatoriamente i seguenti campi:
+.
+ Altri casi previsti per la creazione di un 
+\series bold
+ticket 
+\series default
+sono le segnalazioni di 
+\emph on
+Anomalie e Discrepanze 
+\emph default
+da parte di un qualsiasi membro del gruppo come indicato nel documento PdQ-V1.0.
+ La creazione di un 
+\series bold
+ticket 
+\series default
+va fatta definendo obbligatoriamente i seguenti campi:
 \end_layout
 
 \begin_deeper
@@ -673,6 +687,16 @@ milestone
 \begin_layout Itemize
 
 \series bold
+Label
+\series default
+: le label verranno impostate a seconda di precisi argomenti nella fase
+ di progettazione e alla creazione del ticket andrà scelta la label più
+ appropriata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Text:
 \series default
  il testo riassuntivo del compito
@@ -682,23 +706,105 @@ Text:
 \begin_layout Itemize
 
 \series bold
-Esecuzione compito:
+Esecuzione compito e risoluzione di un ticket:
 \series default
  ogni membro del gruppo dovrà visionare i 
-\emph on
-ticket 
-\emph default
-a lui assegnati e inserire un nuovo ticket per ogni aggiornamento sullo
- stato del 
-\emph on
+\bar under
 ticket
+\emph on
+\bar default
+ 
+\emph default
+a lui assegnati e inserire un nuovo commento per ogni aggiornamento sullo
+ stato del 
+\bar under
+ticket
+\bar default
+.
+ Una volta completato il compito o risolta l'
+\emph on
+Anomalia
+\emph default
+ descritti nel 
+\bar under
+ticket
+\bar default
+, dovrà aggiungere l'apposita 
+\bar under
+label
+\bar default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+fixed
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+e, se lo ritiene necessario, menzionare il ticket dal relativo 
+\bar under
+commit
+\emph on
+\bar default
+.
+ 
+\emph default
+\lang english
+Sarà compito del 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+
+\emph default
+ confermare l'effettiva chiusura del 
+\bar under
+ticket
+\bar default
+ solo se il compito è stato eseguito o la modifica al codice ha risolto
+ l'
+\emph on
+anomalia
 \emph default
 .
- Una volta completato il compito scritto nel 
-\emph on
-ticket
-\emph default
-, lo si dovrà chiudere
+ L'utilizzo della 
+\bar under
+label 
+\bar default
+aiuta il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ a individuare i 
+\series medium
+\bar under
+ticket 
+\series default
+\bar default
+presumibilmente da chiudere.
 \end_layout
 
 \begin_layout Itemize

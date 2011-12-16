@@ -77,7 +77,11 @@ Lo strumento scelto per la gestione delle anomalie è la sezione
 \begin_inset Quotes eld
 \end_inset
 
-Issues
+
+\emph on
+Issue
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -128,29 +132,36 @@ ticket
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Nome
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Descrizione
 \end_layout
 
 \begin_layout Itemize
 
+\series bold
 \bar under
-Tag
+Label
 \end_layout
 
 \begin_layout Itemize
 
+\series bold
 \bar under
 Milestone
 \end_layout
 
 \begin_layout Itemize
 
+\series bold
 \bar under
-Owner
+Assegnee
 \end_layout
 
 \begin_layout Standard
@@ -160,7 +171,7 @@ ticket
 \bar default
  nelle 
 \family typewriter
-NdP-V1.0.pdf
+NdP-V1.0
 \family default
 .
 \end_layout
@@ -170,37 +181,13 @@ Risoluzione di un ticket
 \end_layout
 
 \begin_layout Standard
-Quando un programmatore assegnato al 
-\bar under
-ticket
-\bar default
- è pronto per inviare l'opportuna modifica al codice, dovrà preoccuparsi
- di inviare la modifica e segnalare il 
-\bar under
-ticket
-\bar default
- come 
-\begin_inset Quotes eld
-\end_inset
-
-fixed
-\begin_inset Quotes erd
-\end_inset
-
- attraverso la sintassi suggerita da 
-\bar under
-Github
-\bar default
- nella descrizione del relativo 
-\bar under
-commit
-\bar default
-.
- Sarà compito del Responsabile confermare l'effettiva chiusura del 
-\bar under
-ticket
-\bar default
- solo se la modifica al codice ha risolto l'anomalia.
+Le modalità di risoluzione e chiusura di un ticket sono descritte nelle
+ 
+\family typewriter
+NdP-V1.0
+\family default
+, sono volte a garantire la massima capacità di coordinamento fra i vari
+ membri del gruppo garantendo un'attenzione alla qualità generale.
 \end_layout
 
 \begin_layout Subsection
@@ -230,10 +217,10 @@ Le modalità di ricerca e comunicazione delle discrepanze è del tutto simile
 \begin_layout Standard
 Una volta creato il 
 \bar under
-ticket 
+ticket
 \bar default
-sarà compito del verificatore riconoscere quale tipo di discrepanza si tratta
- e nel caso riguardi una violazione delle 
+ sarà compito del verificatore riconoscere quale tipo di discrepanza si
+ tratta e nel caso riguardi una violazione delle 
 \emph on
 Norme di Progetto
 \emph default

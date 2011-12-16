@@ -506,8 +506,6 @@ PNG
  o 
 \family typewriter
 SVG
-\family default
-.
 \end_layout
 
 \begin_layout Itemize
@@ -515,42 +513,7 @@ Una volta rilasciato un documento, si dovrà allegare il file
 \family typewriter
 PDF
 \family default
- del documento all'interno della stessa cartella del documento, anteponendo
- al nome del file 
-\family typewriter
-PDF
-\family default
- la sigla:
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\family typewriter
-APPR_
-\family default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
+ del documento all'interno della stessa cartella del documento
 \end_layout
 
 \begin_layout Subsubsection
