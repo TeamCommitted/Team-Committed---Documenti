@@ -130,6 +130,26 @@ begin{longtable}{ p{6cm} | c | c | r }
 
 \begin_layout Plain Layout
 
+
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inserite nuove voci.} & Giacomo Quadrio & 16/12/2011 & V0.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		
 \backslash
 hline 

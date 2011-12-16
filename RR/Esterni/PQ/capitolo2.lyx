@@ -120,9 +120,13 @@ PdP-V1.0
 \series bold
 Analisi dei requisiti
 \series default
-: ogni documento necessario alla RR, quando verrà completato, entrerà nella
- dedicata fase di revisione per controllare la presenza di eventuali inregolarit
-à lessico/grammaticali e nei contenuti esposti.
+: ogni documento necessario alla 
+\bar under
+RR
+\bar default
+, quando verrà completato, entrerà nella dedicata fase di revisione per
+ controllare la presenza di eventuali inregolarità lessico/grammaticali
+ e nei contenuti esposti.
  Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti
  messi a disposizione da LyX, per la precisione tramite il plugin 
 \series bold
@@ -846,7 +850,11 @@ applicativo
 \bar under
 web
 \bar default
- e verificarne l'aderenza allo standard CSS 2.1 (
+ e verificarne l'aderenza allo standard 
+\bar under
+CSS
+\bar default
+ 2.1 (
 \begin_inset Flex URL
 status collapsed
 
