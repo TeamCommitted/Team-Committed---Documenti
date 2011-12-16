@@ -77,10 +77,10 @@ Dominio tecnologico
 
 \begin_layout Itemize
 Conoscenza di linguaggi di programmazione multipiattaforma (
-\series bold
+\bar under
 Java
-\series default
 \emph on
+\bar default
 )
 \end_layout
 
@@ -95,12 +95,15 @@ Il gruppo ha delle competenze sufficienti allo sviluppo di applicazioni
 \end_deeper
 \begin_layout Itemize
 Conoscenza di piattaforme per lo sviluppo di applicazioni per 
-\emph on
+\bar under
 dispositivi mobili
-\emph default
+\bar default
  (
+\bar under
+Android SDK
 \series bold
-Android SDK)
+\bar default
+)
 \end_layout
 
 \begin_deeper
@@ -114,17 +117,23 @@ Il gruppo ha scarse competenze, ma, grazie ad uno dei membri interni che
 \begin_layout Itemize
 Conoscenza di linguaggi di programmazione per lo sviluppo di piattaforme
  web (
-\series bold
+\bar under
 JSP
-\series default
+\series bold
 , 
-\series bold
+\series default
 HTML5
-\series default
- e 
 \series bold
-CSS2.1
+ 
 \series default
+\bar default
+e
+\series bold
+\bar under
+ 
+\series default
+CSS2.1
+\bar default
 )
 \end_layout
 
@@ -154,17 +163,9 @@ proponProg
 \end_inset
 
 , che con l'esperienza nell'ambito del 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
+\bar under
 Gamification
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
+\bar default
  maturata dai singoli membri del gruppo.
  In particolare abbiamo letto i seguenti libri:
 \end_layout
@@ -195,9 +196,9 @@ Canada, John Wiley & Sons, Inc.
 
 \begin_layout Standard
 Per quanto riguarda lo studio di realtà che applicano già il 
-\emph on
+\bar under
 Gamification
-\emph default
+\bar default
 , abbiamo studiato le seguenti realtà:
 \end_layout
 
@@ -234,9 +235,9 @@ Gioco urbano
 \end_inset
 
  in cui il 
-\emph on
+\bar under
 gamification
-\emph default
+\bar default
  è un elemento fondamentale, capace di mettere in campo la nostra creatività,
  l'intelligenza, di competere per migliorare e poter condividere i risultati,
  è la relazione che fonda la voglia di incontrarsi e fare un pezzo di strada
@@ -256,9 +257,9 @@ status open
 
  stato scelto come caso di studio sia per la sua ovvia applicazione dei
  concetti di 
-\emph on
+\bar under
 gamification
-\emph default
+\bar default
 , sia per studiare un caso già concretamente realizzato e funzionante di
  cooperazione esterna ad ogni ambito inteso come locazione fisica unitaria
 \begin_inset Foot
@@ -266,7 +267,9 @@ status open
 
 \begin_layout Plain Layout
 Ad esempio uffici o comunque strutture che possono essere ricondotte ad
- aziende
+ 
+\bar under
+aziende
 \end_layout
 
 \end_inset
