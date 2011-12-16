@@ -757,7 +757,15 @@ tà
 \begin_layout Standard
 La misurazione del raggiungimento di questo obiettivo sarà costituita dalla
  capacità dell'applicativo di adattarsi ai vari tipi di ambienti in cui
- esso verrà eseguito come ambienti desktop o dispositivi mobili.
+ esso verrà eseguito come ambienti 
+\bar under
+desktop
+\bar default
+ o dispositivi 
+\bar under
+mobile
+\bar default
+.
  L'usabilità sarà poi ritenuta raggiunta fordendo un'interfaccia il più
  possibile chiara, semplice ed intuitiva e rendendo l'applicativo fruibile
  a quelle categorie di utenti affetti da disabilità come daltonici o ipovedenti.
@@ -837,7 +845,7 @@ Adattabilità
 \series bold
 Installabilità
 \series default
-: la capacità del software di essere installato in uno specifico ambiente
+: capacità del software di essere installato in uno specifico ambiente
 \end_layout
 
 \begin_layout Itemize
@@ -859,19 +867,61 @@ Sostituibilità
 \end_layout
 
 \begin_layout Standard
-L'applicazione desktop deve essere installabile in tutti i principali sistemi
- operativi disponibili (Mac OSX, Windows, Linux).
- Il front-end deve essere compatibile e funzionante con tutti i browser
+L'applicazione 
+\bar under
+desktop
+\bar default
+ deve essere installabile in tutti i principali sistemi operativi disponibili
+ (
+\bar under
+Mac OSX
+\bar default
+, 
+\bar under
+Windows
+\bar default
+, 
+\bar under
+GNU Linux
+\bar default
+).
+ Il 
+\bar under
+front-end
+\bar default
+ deve essere compatibile e funzionante con tutti i 
+\bar under
+browser
+\bar default
  che aderiscono al 
 \bar under
 W3C
 \bar default
- e con i browser di dispositivi mobile di diverso tipo (iOS, Windows Phone,
- 
+ e con i 
+\bar under
+browser
+\bar default
+ di dispositivi 
+\bar under
+mobile
+\bar default
+ di diverso tipo (
+\bar under
+iOS
+\bar default
+, 
+\bar under
+Windows Phone
+\bar default
+, 
 \bar under
 Android
 \bar default
-, Symbian).
+, 
+\bar under
+Symbian
+\bar default
+).
  Infine l'applicazione 
 \bar under
 Android

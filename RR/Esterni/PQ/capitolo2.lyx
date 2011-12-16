@@ -723,7 +723,11 @@ Selenium IDE (
 )
 \series default
 : plugin per Firefox utilizzato per registrare ed eseguire test tramite
- browser (
+ 
+\bar under
+browser
+\bar default
+ (
 \begin_inset Flex URL
 status collapsed
 
@@ -807,7 +811,11 @@ Strumenti di validazione W3C
 \series bold
 Markup Validation Service
 \series default
-: per effettuare test sulle pagine di cui l'applicazione 
+: per effettuare test sulle pagine di cui l'
+\bar under
+applicativo
+\bar default
+ 
 \bar under
 web
 \bar default
@@ -830,7 +838,11 @@ http://validator.w3.org/
 \series bold
 CSS Validation Service
 \series default
-: per effettuare test sui fogli di stile utilizzati nell'applicazione 
+: per effettuare test sui fogli di stile utilizzati nell'
+\bar under
+applicativo
+\bar default
+ 
 \bar under
 web
 \bar default

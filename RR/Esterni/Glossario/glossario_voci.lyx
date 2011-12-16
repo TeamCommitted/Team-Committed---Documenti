@@ -529,6 +529,41 @@ underline{worst practice} e rappresenta l'insieme di esperienze relative
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Browser}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Un browser è un programma che consente di usufruire dei servizi di connettività
+ in Rete e di navigare sul World Wide Web.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
 \end_inset
 
 
@@ -639,6 +674,43 @@ D
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Desktop}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Si intende tipologia di computer contraddistinto dall'essere general purpose,
+ monoutente, destinato ad un utilizzo non in mobilità e principalmente produttiv
+o e di dimensioni tali per cui l'installazione in una scrivania risulta
+ la più appropriata per un comodo utilizzo.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -871,6 +943,41 @@ begin{flushright}
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{GNU Linux}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Famiglia di Sistemi Operativi di tipo Unix-like open source.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
 \end_inset
 
 
@@ -920,6 +1027,41 @@ begin{flushright}
  Molti dei suoi standard sono definiti in collaborazione con l'
 \backslash
 underline{ISO}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{iOS}}
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sistema operativo per dispositivi mobile di Apple.
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1175,6 +1317,40 @@ status open
 \backslash
 textbf{
 \backslash
+emph{Mac OSX}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sistema operativo per computer desktop di Apple.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Milestone}} 
 \backslash
 
@@ -1211,6 +1387,41 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{Mobile}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Tutti quei dispositivi pensati per essere utilizzati in mobilità come smartphon
+e o tablet.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{MSDNAA - Microsoft Developer Network Academic Alliance}} 
 \backslash
 
@@ -1232,6 +1443,60 @@ begin{flushright}
 	Programma che prevede un pagamento annuale da parte delle Universita associate,
  in cambio delle licenze gratuite su una serie di prodotti Microsoft per
  gli studenti iscritti
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+O
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Owner}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Componente del team a cui è stato assegnato un ticket.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1483,7 +1748,7 @@ status open
 \backslash
 textbf{
 \backslash
-emph{SecureGame}} 
+emph{SefetyGame}} 
 \backslash
 
 \backslash
@@ -1585,6 +1850,40 @@ begin{flushright}
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Symbian}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sistema operativo per dispositivi mobile di Nokia.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
 \end_inset
 
 
@@ -1634,6 +1933,40 @@ begin{flushright}
 underline{Dispositivo mobile} equipaggiato con uno schermo tattile come
  principale fonte di input e output, escluse eventuali altre porte di comunicazi
 one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Tag}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Identificativo dell'argomento di un ticket.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1921,6 +2254,75 @@ begin{flushright}
 \begin_layout Plain Layout
 
 	Uno dei servizi principali di internet
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Windows}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sistema operative per comuper desktop di Microsoft.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Windows Phone}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sistema operativo per dispositivi mobile di Microsoft.
 \end_layout
 
 \begin_layout Plain Layout
