@@ -85,13 +85,18 @@ Il presente documento si prefigge lo scopo di presentare al committente
 \begin_inset Quotes erd
 \end_inset
 
+
+\bar under
 Piattaforma Mobile di Apprendimento Comportamentale
+\bar default
+
 \begin_inset Quotes erd
 \end_inset
 
  (C3).
  Questo per documentare tutti i bisogni identificati dal proponente MENTIS
- S.r.l .
+ S.r.l.
+ .
 \end_layout
 
 \begin_layout Subsection
@@ -99,16 +104,23 @@ Scopo del prodotto
 \end_layout
 
 \begin_layout Standard
-Il prodotto denominato SafetyGame si propone di fornire uno strumento informatic
-o per la gestione delle pratiche di sicurezza sul lavoro in modo dinamico,
- evitando corsi di formazione che spesso si dimostrano inutili per la poca
- attenzione prestata dai partecipanti.
+Il prodotto denominato 
+\bar under
+SafetyGame
+\bar default
+ si propone di fornire uno strumento informatico per la gestione delle pratiche
+ di sicurezza sul lavoro in modo dinamico, evitando corsi di formazione
+ che spesso si dimostrano inutili per la poca attenzione prestata dai partecipan
+ti.
 \end_layout
 
 \begin_layout Standard
 Lo strumento si basa sul concetto di 
+\bar under
+gamification
 \series bold
-gamification 
+\bar default
+ 
 \series default
 che comporta competizione tra i dipendenti all'interno delle aziende creando
  un sano interesse per un argomento delicato come la sicurezza sul luogo
@@ -117,11 +129,23 @@ che comporta competizione tra i dipendenti all'interno delle aziende creando
 
 \begin_layout Standard
 Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
- di PC, sia per quelli che hanno la necessità 
+ di 
+\bar under
+PC
+\bar default
+, sia per quelli che hanno la necessità 
 \begin_inset space \space{}
 \end_inset
 
-di spostarsi e che quindi sono forniti di tablet/smartphone.
+di spostarsi e che quindi sono forniti di 
+\bar under
+tablet
+\bar default
+/
+\bar under
+smartphone
+\bar default
+.
  Ad essi verrano poste periodicamente domande, di varia tipologia, le cui
  risposte comporteranno l'assegnazione di un punteggio generando una classifica
  aziendale.
@@ -132,9 +156,11 @@ Glossario
 \end_layout
 
 \begin_layout Standard
-I termini marcati come ???? che compaiono nei documenti formali sono tutti
- riportati e descritti nel glossario presente nel file Glossario??? con
- l'intento di eliminare le ambiguità e aumentare la chiarezza dell'esposizione.
+
+\lang english
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, viene redatto un glossario di documento, dove vengono
+ definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
 
 \begin_layout Subsection
@@ -148,13 +174,16 @@ Normativi
 \begin_layout Itemize
 Capitolato d'Appalto: 
 \series bold
+\bar under
 Piattaforma Mobile di Apprendimento Comportamentale
 \series default
-, v?.?, rilasciato dal proponente MENTIS S.r.l 
+\bar default
+, v1.1, rilasciato dal proponente MENTIS S.r.l.
+ 
 \begin_inset space \space{}
 \end_inset
 
-e reperibile all'indirizzo : http://www.math.unipd.it/
+e reperibile all'indirizzo: http://www.math.unipd.it/
 \begin_inset ERT
 status open
 
