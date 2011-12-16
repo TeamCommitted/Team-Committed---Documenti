@@ -8,7 +8,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -104,18 +104,6 @@ LatexCommand tableofcontents
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\noun on
 \begin_inset CommandInset include
 LatexCommand include
 filename "Capitolo1.lyx"

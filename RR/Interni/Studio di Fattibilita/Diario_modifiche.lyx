@@ -141,12 +141,24 @@ hline
 
 		
 \backslash
+emph{Finita la prima stesura del documento.} & Gabriele Facchin & 07/12/2011
+ & V0.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
 emph{Sistemazione del file sorgente per fare in modo che includa tutti i
  capitoli come file a parte, cos
 \backslash
-'i come la prima pagina.
- Iniziata la stesura del capitolo 3pag} & Giorgio Maggiolo & 06/12/2011
- & V0.2 
+'i come la prima pagina.} & Giorgio Maggiolo & 06/12/2011 & V0.2 
 \backslash
 
 \backslash
@@ -163,7 +175,7 @@ emph{Inizio creazione del documento.
  Creato lo schema base e iniziato a scrivere l'introduzione e il capitolo
  sulle comunicazioni.
  Impostato inoltre lo schema grafico iniziale del documento stesso.} & Giorgio
- Maggiolo & 05/12/2011 & V0.1 
+ Maggiolo & 06/12/2011 & V0.1 
 \backslash
 
 \backslash

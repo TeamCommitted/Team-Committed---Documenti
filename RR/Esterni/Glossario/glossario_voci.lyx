@@ -1012,7 +1012,9 @@ begin{flushright}
 	Linguaggio di programmazione orientato agli oggetti, crea- to da James
  Gosling e altri ingegneri di Sun Microsystem all'inizio degli anni Novanta.
  Esso fa parte della piattafor- ma Java, che comprende anche la macchina
- virtuale Java (JVM) e le API Java
+ virtuale Java (
+\backslash
+underline{JVM}) e le API Java
 \end_layout
 
 \begin_layout Plain Layout
@@ -1046,7 +1048,7 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Strumento per la creazione semi-automatica di documenta- zione del codice
+	Strumento per la creazione semi-automatica di documentazione del codice
  in formato HTML a partire da commenti scritti secondo una particolare sintassi
 \end_layout
 
@@ -1081,7 +1083,9 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Componente della piattaforma Java che esegue i programmi scritti in bytecode
+	Componente della piattaforma 
+\backslash
+underline{Java}che esegue i programmi scritti in bytecode
 \end_layout
 
 \begin_layout Plain Layout
@@ -1189,8 +1193,8 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Letteralmente "pietra miliare", il termine viene utilizza- to nella pianicazion
-e e gestione di progetti complessi per indicare il punto nale di una attivita
+	Letteralmente "pietra miliare", il termine viene utilizzato nella pianicazione
+ e gestione di progetti complessi per indicare il punto nale di una attivita
  di processo
 \end_layout
 
@@ -1441,9 +1445,9 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Luogo di stoccaggio dati centralizzato in cui risiedono i com- ponenti
- software, ed e in grado, inoltre, di fornire funziona- lita di versionamento
- per tener traccia della "storia" dei prodotti.
+	Luogo di stoccaggio dati centralizzato in cui risiedono i componenti software,
+ ed e in grado, inoltre, di fornire funzionalita di versionamento per tener
+ traccia della "storia" dei prodotti.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1531,8 +1535,10 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Uno smartphone è un dispositivo portatile che abbina funzionalità di telefono
- cellulare a quelle di gestione di dati personali.
+	Uno smartphone è un 
+\backslash
+underline{dispositivo portatile} che abbina funzionalità di telefono cellulare
+ a quelle di gestione di dati personali.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1623,8 +1629,11 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Dispositivo equipaggiato con uno schermo tattile come principale fonte
- di input e output, escluse eventuali altre porte di comunicazione
+	
+\backslash
+underline{Dispositivo mobile} equipaggiato con uno schermo tattile come
+ principale fonte di input e output, escluse eventuali altre porte di comunicazi
+one
 \end_layout
 
 \begin_layout Plain Layout
@@ -1945,14 +1954,11 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Letteralmente 
+	Letteralmente "peggior prassi", e un concetto antitetico alla 
 \backslash
-peggior prassi", e un concetto antitetico alla 
-\backslash
-underline{best practice}, e rappresenta l'insieme di esperienze, relati-
- ve a contesti diversi, che sono risapute essere contropro- ducenti, le
- quali sottraggono tempo, energia e produttivita all'attivita a cui si riferisco
-no.
+underline{best practice}, e rappresenta l'insieme di esperienze, relative
+ a contesti diversi, che sono risapute essere controproducenti, le quali
+ sottraggono tempo, energia e produttivita all'attivita a cui si riferiscono.
 \end_layout
 
 \begin_layout Plain Layout
