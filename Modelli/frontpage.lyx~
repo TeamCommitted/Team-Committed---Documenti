@@ -77,6 +77,16 @@ begin{titlepage}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename IMG/Logo_team_Label.jpg
+	scale 33
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \shape smallcaps
@@ -101,7 +111,7 @@ status collapsed
  
 \shape smallcaps
 \size larger
-Team Committed SET
+Team Committed 
 \shape default
 
 \begin_inset ERT
@@ -294,7 +304,7 @@ Large Informazioni sul documento}
 
 	
 \backslash
-begin{tabular}{ l | p{5cm} }
+begin{longtable}{ l | p{5cm} }
 \end_layout
 
 \begin_layout Plain Layout
@@ -342,7 +352,11 @@ datared
 \backslash
 textbf{Redattori} & 
 \backslash
-redattore 
+parbox{
+\backslash
+textwidth}{
+\backslash
+redattore} 
 \backslash
 
 \backslash
@@ -409,11 +423,7 @@ listadistr}
 
 	
 \backslash
-end{tabular} 
-\backslash
-
-\backslash
-[1cm]
+end{longtable}
 \end_layout
 
 \begin_layout Plain Layout
