@@ -167,17 +167,6 @@ Ogni membro del gruppo non può ricoprire il medesimo ruolo in entrambi i
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -197,7 +186,7 @@ hline
 
 \begin_layout Plain Layout
 
-	Membro gruppo & Ruolo 1 & Ruolo 2 
+	Membro gruppo & Ruolo1 & Ruolo2 
 \backslash
 
 \backslash
@@ -221,97 +210,7 @@ hline
 
 \begin_layout Plain Layout
 
-	Braghetto Lorenzo & Verificatore & Analista 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	Cornaglia Alessandro & Analista & Amministratore 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	Dalla Piet
-\backslash
-'a Massimo & Analista & Verificatore 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	Facchin Gabriele & Analista & Verificatore 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	Maggiolo Giorgio & Amministratore & Responsabile 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	Quadrio Giacomo & Verificatore & Analista 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{longtable}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Schema di rotazione dei ruoli nella fase di 
-\emph on
-Analisi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
+	
 \end_layout
 
 \end_inset
