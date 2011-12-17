@@ -77,22 +77,32 @@ Dopo aver specificato la suddivisione del lavoro e dei ruoli, è necessario
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Grado di probabilità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Grado di pericolosità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Natura
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Strategie per il rilevamento e la prevenzione
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Eventuali contromisure di correzione
 \end_layout
 
@@ -101,39 +111,58 @@ Strumenti software
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: medio 
+
+\series bold
+Grado di probabilità
+\series default
+: medio 
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: alto
+
+\series bold
+Grado di pericolosità
+\series default
+: alto
 \end_layout
 
 \begin_layout Itemize
-Natura: il software utilizzato per l'intera gestione del progetto è stato
- scelto e accettato preventivamente dai tutti i componenti del gruppo.
+
+\series bold
+Natura
+\series default
+: il software utilizzato per l'intera gestione del progetto è stato scelto
+ e accettato preventivamente dai tutti i componenti del gruppo.
  In particolare si fa riferimento al software di sviluppo specificato nelle
  sezioni 2.4 e 2.5 del Piano di Qualifica.
  I software scelti resteranno, in linea di massima, alla stessa versione
  decisa all'inizio della fase di analisi per evitare problemi dovuti alla
  compatibilità.
  Eventuali lacune nell'utilizzo del software saranno influenti esclusivamente
- sul singolo membro, il quale dovrà preoccuparsi di colmarle.
+ sul singolo membro, il quale dovrà preoccuparsi di colmarle
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e laprevenzione: all'inizio della fase di analisi,
- ogni membro ha accettato di usare la medesima versione di ogni software
- e di preoccuparsi eautonomamente di documentarsi in caso di lacune.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: all'inizio della fase di analisi, ogni membro ha accettato di usare la
+ medesima versione di ogni software e di preoccuparsi eautonomamente di
+ documentarsi in caso di lacune.
  In questo modo non vi saranno problemi legati all'incompatibilità fra versioni
- diverse del software o dall'utilizzo errato di alcuni strumenti.
+ diverse del software o dall'utilizzo errato di alcuni strumenti
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: Nel caso i due principi di cui sopra non vengano
- rispettati, sarà il singolo membro a non rispettarli, di conseguenza sarà
- compito suo risolvere il problema riadattando il lavoro svolto alla versione
- corretta del software, e documentandosi adeguatamente nel caso di cattivo
- utilizzo dello strumento.
+
+\series bold
+Contromisure di correzione
+\series default
+: Nel caso i due principi di cui sopra non vengano rispettati, sarà il singolo
+ membro a non rispettarli, di conseguenza sarà compito suo risolvere il
+ problema riadattando il lavoro svolto alla versione corretta del software,
+ e documentandosi adeguatamente nel caso di cattivo utilizzo dello strumento
 \end_layout
 
 \begin_layout Subsection
@@ -141,55 +170,76 @@ Strumenti hardware
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: molto basso
+
+\series bold
+Grado di probabilità
+\series default
+: molto basso
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: basso
+
+\series bold
+Grado di pericolosità
+\series default
+: basso
 \end_layout
 
 \begin_layout Itemize
-Natura: l'intero progetto, dalla realizzaione dei documenti al codice, sarà
- sviluppato su calcolatore.
+
+\series bold
+Natura
+\series default
+: l'intero progetto, dalla realizzaione dei documenti al codice, sarà sviluppato
+ su calcolatore.
  Ogni membro del gruppo possiede l'hardware necessario, e molti possono
  servirsi di computer notebook.
  Inoltre, sono disponibili tre laboratori forniti di hardware adeguato,
  nonostante il software non sia perfettamente conforme agli standard scelti.
  E' possibile che si verifichino problemi che portino all'inutilizzo totale
- o parziale di alcuni calcolatori.
- 
+ o parziale di alcuni calcolatori
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: ogni membro utilizza principalmen
-te hardware personale per via della maggiore facilità di utilizzo del software
- scelto.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: ogni membro utilizza principalmente hardware personale per via della maggiore
+ facilità di utilizzo del software scelto.
  Tuttavia, la presenza di tre laboratori garanrisce una risorsa importante,
  in quanto sarà molto difficile che un membro del gruppo sia impossibilitato
  ad avere accesso ad un pc.
  Tuttavia, nel caso di guasti improvvisi delle macchine c'è il rischio di
  perdita o inacessibilità ai dati.
  Per questo motivo tutto il materiale è presente in triplice copia, ovvero
- in locale e su due diverse piattaforme di cloud data.
+ in locale e su due diverse piattaforme di cloud data
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: in caso di perdita dei dati, sarà necessario
- recuperarli dai backup il prima possibile.
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di perdita dei dati, sarà necessario recuperarli dai backup il
+ prima possibile.
  Nel caso di backup obsoleti, il frequente salvataggio garantisce una perdita
  di lavoro ammortizzabile.
  In caso di impossibilità da parte in un membro ad accedere ad un calcolatore,
  sarà necessario individuare una soluzione in modo da fronire dell'hardware
- sostitutivo il prima possibile.
- 
+ sostitutivo il prima possibile
 \end_layout
 
 \begin_layout Itemize
-Casi riscontrati: nei primi giorni della fase di analisi in uno dei notebook
- impegati si è rotto il disco fisso.
+
+\series bold
+Casi riscontrati
+\series default
+: nei primi giorni della fase di analisi in uno dei notebook impegati si
+ è rotto il disco fisso.
  Invece di cercare di recuperare i dati privi di backup si è preferito ricrearli
 , in quanto la differenza di lavoro non era paragonabile grazie ai frequenti
- backup.
+ backup
 \end_layout
 
 \begin_layout Subsection
@@ -197,39 +247,62 @@ Aumento dei costi
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: medio
+
+\series bold
+Grado di probabilità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: medio
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Natura: in caso di ritardi sensibili nello sviluppo di alcuni compiti, si
- potrebbe incorrere in aumenti sostanziali dei costi.
+
+\series bold
+Natura
+\series default
+: in caso di ritardi sensibili nello sviluppo di alcuni compiti, si potrebbe
+ incorrere in aumenti sostanziali dei costi.
  Inoltre, alcuni compiti hanno un'influenza maggiore, rispetto ad altri,
  sulle tempistiche dell'intero progetto; questo significa che il grado di
- pericolosità può variare molto da un compito ad un altro.
+ pericolosità può variare molto da un compito ad un altro
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: il presente documento ha
- lo scopo di pianificare il lavoro a lungo termine tenendo conto anche dei
- rischi in cui si può incorrere.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: il presente documento ha lo scopo di pianificare il lavoro a lungo termine
+ tenendo conto anche dei rischi in cui si può incorrere.
  Tuttavia, lo sviluppo parallelo di più compiti porta ad una sincronizzazione
  fra gli stessi piuttosto dinamica.
  Una sincronizzazione errata può quindi portare a ritardi sensibili indipendente
 mente da altri rischi.
  Per evitare ciò si è deciso di utilizzare uno strumento per il versionamento
- e la condivisione di tutto il materiale (si vedano le sezioni 2.4.1 e 2.4.1
- del Piano di Qualifica per maggiori dettagli).
+ e la condivisione di tutto il materiale (si vedano le sezioni 2.4.1 e 2.4.2
+ del 
+\family typewriter
+Piano di Qualifica-v1.0
+\family default
+ per maggiori dettagli)
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: in caso di ritardi sensibili si procederà analizzand
-o caso per caso la soluzione migliore.
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di ritardi sensibili si procederà analizzando caso per caso la
+ soluzione migliore.
  Generalmente si dovrà scegliere se accreditare le ore di lavoro aggiuntive
- o se limitare le funzionalità desiderabili e opzionali (nell'ordine).
+ o se limitare le funzionalità desiderabili e opzionali (nell'ordine)
 \end_layout
 
 \begin_layout Subsection
@@ -237,33 +310,52 @@ Cambio radicale dei requisiti
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: basso
+
+\series bold
+Grado di probabilità
+\series default
+: basso
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: alto
+
+\series bold
+Grado di pericolosità
+\series default
+: alto
 \end_layout
 
 \begin_layout Itemize
-Natura: nonostante il proponente abbia fornito una prima descrizione del
- prodotto, è necessario mantenere una comunicazione per far fronte ad eventuali
- cambiamenti.
+
+\series bold
+Natura
+\series default
+: nonostante il proponente abbia fornito una prima descrizione del prodotto,
+ è necessario mantenere una comunicazione per far fronte ad eventuali cambiament
+i.
  Il proponente potrebbe decidere di cambiare i requisiti del prodotto fino
  a dover eseguire un'analisi molto diversada quella in corso
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: una adeguata comunicazione
- con il proponente permetterà di evitare incomprensioni e di venire a conoscenza
- il prima possibile di eventuali cambi radicali dei requisiti.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: una adeguata comunicazione con il proponente permetterà di evitare incomprensi
+oni e di venire a conoscenza il prima possibile di eventuali cambi radicali
+ dei requisiti
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: si discuterà con il proponente la possibilità
- di applicare certe modifiche.
+
+\series bold
+Contromisure di correzione
+\series default
+: si discuterà con il proponente la possibilità di applicare certe modifiche.
  Si potrebbe rendere necessaria una rivalutaione profonda del lavoro svolto,
  inoltre si dovranno rivalutare tempi di sviluppo, preventivo e la possibilità
- di soddisfare i requisiti desiderabili e opzionali.
+ di soddisfare i requisiti desiderabili e opzionali
 \end_layout
 
 \begin_layout Subsection
@@ -271,38 +363,57 @@ Indisposizione di uno o più membri
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: alto
+
+\series bold
+Grado di probabilità
+\series default
+: alto
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: medio
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Natura: un membro del gruppo potrebbe trovarsi indisposto a lavorare per
- un certo periodo di tempo.
+
+\series bold
+Natura
+\series default
+: un membro del gruppo potrebbe trovarsi indisposto a lavorare per un certo
+ periodo di tempo.
  Considerando che il gruppo è composto da sette persone e che il periodo
  di lavoro compre circa quattro mesi, è piuttosto probabile che almeno un
  membro sarà inisposto a lavorare.
  Tuttavia, l'eventualita che si presentino lunghi periodi di assenza o impossibi
-lità totale di lavoro anche da casa è piuttosto remota.
+lità totale di lavoro anche da casa è piuttosto remota
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: oltre alle comuni norme per
- la salvaguardia della propia salute, è opportuno avvisare tempestivamente
- il resto del gruppo in modo da permettere una rapida riorganizzazione del
- lavoro a breve termine.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: oltre alle comuni norme per la salvaguardia della propia salute, è opportuno
+ avvisare tempestivamente il resto del gruppo in modo da permettere una
+ rapida riorganizzazione del lavoro a breve termine
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: riorganizzazione il più possibile tempestiva
- del lavoro a breve termine, ed eventualmente disponibilità del mebro assente
- di lavorare anche fuori sede (quando possibile).
+
+\series bold
+Contromisure di correzione
+\series default
+: riorganizzazione il più possibile tempestiva del lavoro a breve termine,
+ ed eventualmente disponibilità del mebro assente di lavorare anche fuori
+ sede (quando possibile).
  In caso di periodi di assenza particolarmente lunghi, si potranno discutere
  con il proponente e con il committente eventuali provvedimenti, come la
  limitazione delle funzionalità desiderabili e opzionali o di un aumento
- dei tempi e quindi dei costi.
+ dei tempi e quindi dei costi
 \end_layout
 
 \begin_layout Subsection

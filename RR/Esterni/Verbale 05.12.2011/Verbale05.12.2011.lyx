@@ -212,6 +212,12 @@ hline
 
 		Marco Begolo & 05/12/2011 & 
 \backslash
+begin{center} 
+\backslash
+includegraphics[scale=0.075]{Marco.jpg} 
+\backslash
+end{center}
+\backslash
 
 \backslash
 [0.5cm] 
@@ -221,7 +227,7 @@ hline
 
 \begin_layout Plain Layout
 
-		Amir Baldissera & 05/12/2011 
+		Amir Baldissera & 05/12/2011 &
 \backslash
 
 \backslash
