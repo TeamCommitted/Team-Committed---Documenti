@@ -102,10 +102,14 @@ name "sub:Glossario"
 \end_layout
 
 \begin_layout Standard
-Il Glossario è un documento a parte necessario a evitare ambiguità nell'utilizzo
- e nella comprensione dei termini specifici.
- Si è scelto di redarlo come documento a parte per una maggiore semplicità
- di consultazione.
+
+\lang english
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario_V1.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
 
 \begin_layout Subsection

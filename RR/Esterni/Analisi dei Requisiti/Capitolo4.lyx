@@ -1178,8 +1178,30 @@ end{center}
 Interfacciamento con gli ambienti di installazione e d'uso
 \end_layout
 
+\begin_layout Standard
+Il prodotto sarà utilizzabile da una qualsiasi piattaforma fissa, connsessa
+ alla rete, su cui sia stata installata una JVM, e da dispositivi mobili
+ basati sul sistema operativo Android su cui verrà scaricata gratuitamente
+ la relativa applicazione da Android Market.
+\end_layout
+
 \begin_layout Subsubsection
 Norme vigenti nel dominio applicativo
+\end_layout
+
+\begin_layout Standard
+Per poter sfruttare appieno tutte le funzionalità intrinseche del prodotto
+ SafetyGame è necessario disporre di una connessione internet, di una JVM,
+ di ambienti dotati di interfacce grafiche, di un browser di ultima generazione,
+ e per quanto riguarda la parte mobile di un dispositivo mobile con sistema
+ operativo Android e applicazione SafetyGame installata.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Inoltre il sistema assicura di mantenere integri e sicuri i dati al suo
+ interno e che il suo funzionamento non verrà condizionato dallo stato di
+ traffico nella rete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1213,12 +1235,19 @@ reppresenta l'utente che fisicamente gestirà le domande, complete di risposte
  e punteggi, all'interno dell'applicazione.
  Si tiene in considerazione l'idea che questa persona possa avere ridotte,
  se non nulle, conoscenze informatiche quindi le operazioni che potrà eseguire
- dovranno risultare semplici e guidate.
+ dovranno risultare semplici, intuitive ed all'occorrenza guidate.
  
 \end_layout
 
 \begin_layout Itemize
-Amministratore Installatore
+Amministratore Installatore:
+\begin_inset Newline newline
+\end_inset
+
+è l'utente che andrà fisicamente ad installare il prodotto nelle aziende.
+ Si presuppone che tale persona possieda sufficienti conoscenze informatiche
+ di base, ma nononostante ciò tutte le operazioni che potrà eseguire saranno
+ progettate per risultare il più semplice e intuitive possibile.
 \end_layout
 
 \begin_layout Itemize
@@ -1227,7 +1256,10 @@ Amministratore Azienda:
 \end_inset
 
 è un utente che gestice i Dipendenti di un'azienda all'interno del sistema.
- 
+ Il suo interesse sarà rivolto a conoscere, e quindi analizzare, statistiche
+ aziendali ed i punteggi dei singoli dipendenti .Anche per questo tipo di
+ utente non è richiesta alcuna conoscenza informatica per poter utilizzare
+ l'applicativo.
 \end_layout
 
 \end_body
