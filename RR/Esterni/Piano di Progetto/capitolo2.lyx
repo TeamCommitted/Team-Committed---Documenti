@@ -102,10 +102,14 @@ name "sub:Glossario"
 \end_layout
 
 \begin_layout Standard
-Il Glossario è un documento a parte necessario a evitare ambiguità nell'utilizzo
- e nella comprensione dei termini specifici.
- Si è scelto di redarlo come documento a parte per una maggiore semplicità
- di consultazione.
+
+\lang english
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario_V1.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
 
 \begin_layout Subsection
@@ -219,15 +223,39 @@ TeamCommitted
 
  eseguirà una rotazione il più possibile omogenea dei ruoli.
  Tale rotazione seguirà le norme specificate dai Vincoli di organigramma
- (vedi sezione 
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+vedi sezione 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Riferimenti-normativi"
 
 \end_inset
 
- del presente documento).
- Di seguito sono riportati i costi orari dei singoli ruoli (tabella 2.5).
+ del presente documento
+\end_layout
+
+\end_inset
+
+.
+ Di seguito sono riportati i costi orari dei singoli ruoli (tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Costi-per-ruolo"
+
+\end_inset
+
+) e le abbreviazioni che verranno utilizzate nel capitolo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Pianificazione"
+
+\end_inset
+
+ per la ripartizione dei ruoli.
  
 \end_layout
 
@@ -270,7 +298,7 @@ Costo orario
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsabile
+Responsabile (RE)
 \end_layout
 
 \end_inset
@@ -291,7 +319,7 @@ euro
 
 \end_inset
 
-30
+ 30
 \end_layout
 
 \end_inset
@@ -302,7 +330,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Amministratore
+Amministratore (AM)
 \end_layout
 
 \end_inset
@@ -323,7 +351,7 @@ euro
 
 \end_inset
 
-20
+ 20
 \end_layout
 
 \end_inset
@@ -334,7 +362,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Analista
+Analista (AN)
 \end_layout
 
 \end_inset
@@ -355,7 +383,7 @@ euro
 
 \end_inset
 
-25
+ 25
 \end_layout
 
 \end_inset
@@ -366,7 +394,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Progettista
+Progettista (PR)
 \end_layout
 
 \end_inset
@@ -387,7 +415,7 @@ euro
 
 \end_inset
 
-22
+ 22
 \end_layout
 
 \end_inset
@@ -398,7 +426,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Programmatore
+Programmatore (PROG)
 \end_layout
 
 \end_inset
@@ -419,7 +447,7 @@ euro
 
 \end_inset
 
-15
+ 15
 \end_layout
 
 \end_inset
@@ -430,7 +458,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Verificatore
+Verificatore (VE)
 \end_layout
 
 \end_inset
@@ -451,7 +479,7 @@ euro
 
 \end_inset
 
-15
+ 15
 \end_layout
 
 \end_inset
@@ -468,7 +496,13 @@ euro
 \begin_inset Caption
 
 \begin_layout Plain Layout
-costi per ruolo
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Costi-per-ruolo"
+
+\end_inset
+
+Costi per ruolo
 \end_layout
 
 \end_inset
@@ -483,6 +517,13 @@ costi per ruolo
 
 \begin_layout Subsection
 Scadenze
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scadenze"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -503,19 +544,35 @@ TeamCommitted
 \end_layout
 
 \begin_layout Itemize
-Revisione Requisiti (RR): 10/12/2012
+
+\series bold
+Revisione Requisiti
+\series default
+ (RR): 10/12/2012
 \end_layout
 
 \begin_layout Itemize
-Revisione di Progetto (RP): 7/02/2012
+
+\series bold
+Revisione di Progetto
+\series default
+ (RP): 7/02/2012
 \end_layout
 
 \begin_layout Itemize
-Revisione di Qualifica (RQ): 07/03/2012
+
+\series bold
+Revisione di Qualifica
+\series default
+ (RQ): 07/03/2012
 \end_layout
 
 \begin_layout Itemize
-Revisione di Accettazione (RA): *da verificare 
+
+\series bold
+Revisione di Accettazione
+\series default
+ (RA): *da verificare 
 \end_layout
 
 \end_body

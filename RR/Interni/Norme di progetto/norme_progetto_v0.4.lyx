@@ -138,8 +138,7 @@ hline
 
 		
 \backslash
-emph{Corretto sezione 8.6 "gestione attività"} & Lorenzo Braghetto & 16/09/2011
- & V0.14 
+emph{Approvato} & Giorgio Maggiolo & 18/12/2011 & V1.0 
 \backslash
 
 \backslash
@@ -152,8 +151,22 @@ hline
 
 		
 \backslash
-emph{Completata la prima stesura delle Norme di Progetto} & Alessandro Cornaglia
- & 15/09/2011 & V0.13 
+emph{Corretto sezione 8.6 "gestione attività".
+ Verifica effettuata} & Lorenzo Braghetto & 11/09/2011 & V0.14 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Completata la prima stesura delle Norme di Progetto} & Giorgio Maggiolo
+ & 11/09/2011 & V0.13 
 \backslash
 
 \backslash
@@ -167,7 +180,7 @@ hline
 		
 \backslash
 emph{Modificato quanto scritto per i casi d'uso e il versionamento dei requisiti.
-} & Alessandro Cornaglia & 14/09/2011 & V0.12 
+} & Giorgio Maggiolo & 11/09/2011 & V0.12 
 \backslash
 
 \backslash
@@ -180,8 +193,8 @@ hline
 
 		
 \backslash
-emph{Inserite le versioni degli strumenti di lavoro} & Alessandro Cornaglia
- & 12/09/2011 & V0.11 
+emph{Inserite le versioni degli strumenti di lavoro} & Giorgio Maggiolo
+ & 10/09/2011 & V0.11 
 \backslash
 
 \backslash
@@ -195,7 +208,7 @@ hline
 		
 \backslash
 emph{Inseriti gli strumenti di lavoro nel capitolo sugli strumenti.
- Da scrivere "in lungo"} & Alessandro Cornaglia & 12/09/2011 & V0.10 
+ Da scrivere "in lungo"} & Giorgio Maggiolo & 10/09/2011 & V0.10 
 \backslash
 
 \backslash
@@ -295,7 +308,7 @@ hline
 \backslash
 emph{Iniziata la scrittura del capitolo 5.
  Il capitolo 4 deve ancora essere finito.
- Dall'1 al 3 sono finiti.} & Giorgio Maggiolo & 06/12/2011 & V0.3 
+ Dall'1 al 3 sono finiti.} & Giorgio Maggiolo & 07/12/2011 & V0.3 
 \backslash
 
 \backslash
@@ -312,7 +325,7 @@ emph{Sistemazione del file sorgente per fare in modo che includa tutti i
  capitoli come file a parte, cos
 \backslash
 'i come la prima pagina.
- Iniziata la stesura del capitolo 3.} & Giorgio Maggiolo & 06/12/2011 & V0.2
+ Iniziata la stesura del capitolo 3.} & Giorgio Maggiolo & 07/12/2011 & V0.2
  
 \backslash
 
@@ -330,7 +343,7 @@ emph{Inizio creazione del documento.
  Creato lo schema base e iniziato a scrivere l'introduzione e il capitolo
  sulle comunicazioni.
  Impostato inoltre lo schema grafico iniziale del documento stesso.} & Giorgio
- Maggiolo & 05/12/2011 & V0.1 
+ Maggiolo & 7/12/2011 & V0.1 
 \backslash
 
 \backslash

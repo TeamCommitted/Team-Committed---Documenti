@@ -419,10 +419,92 @@ Domanda: Chi e quali operazioni dobbiamo prevedere?
 \end_layout
 
 \begin_layout Description
-Risposta: 
+Risposta: Dovrete prevedere due tipologie di 
+\begin_inset Quotes eld
+\end_inset
+
+operazioni
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+L'amministratore dell'azienda dovrà poter verificare ogni singola operazione
+ effettuata da ogni utente, vedendo, ad esempio, se ha deciso di saltare
+ qualche domanda, piuttosto che vedere i punteggi per aree di interessi,
+ etc...
+ 
+\end_layout
+
+\begin_layout Itemize
+L'utente finale dovrà avere un accesso limitato alle funzioni.
+ Dovrà quindi poter verificare tutti i suoi risultati, vedere la classifica
+ e le statistiche generali.
+ 
+\end_layout
+
+\begin_layout Standard
+Queste sono solamente alcune opzioni che potete prendere in considerazioni,
+ ma dovrà essere di questo tipo la gerarchia di operazioni ammesse.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
+Domanda: Come vorrebbe che fosse segnalata la presenza, nel desktop, di
+ una nuova domanda a cui rispondere? Potrebbe essere un pop-up simil Windows
+ Live Messenger?
+\end_layout
+
+\begin_layout Description
+Risposta: Si potrebbe andare.
+ Ricordate però che una delle questioni fondamentali è che deve essere accattiva
+nte, perchè deve invogliare a rispondere alla domanda proposta.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Leggendo la richiesta di portabilità del prodotto su più piattaforme,
+ avevamo pensato all'utilizzo di Java.
+\end_layout
+
+\begin_layout Description
+Risposta: Java? Perfetto!
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
 
 \end_layout
 

@@ -94,10 +94,8 @@ Capitolato:
 C03 
 \series default
 - 
-\emph on
 \bar under
 Piattaforma Mobile di Apprendimento Comportamentale
-\emph default
 \bar default
 
 \begin_inset Newline newline
@@ -154,8 +152,11 @@ Glossario
 
 \lang english
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
- nei documenti formali, viene redatto un glossario di documento, dove vengono
- definiti e descritti i termini marcati da una sottolineatura.
+ nei documenti formali, viene incluso il glossario nel file 
+\family typewriter
+Glossario_V1.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
 
 \end_body
