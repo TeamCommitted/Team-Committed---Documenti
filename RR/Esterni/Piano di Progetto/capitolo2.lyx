@@ -231,7 +231,9 @@ reference "sub:Riferimenti-normativi"
 \end_inset
 
  del presente documento).
- Di seguito sono riportati i costi orari dei singoli ruoli (tabella 2.5).
+ Di seguito sono riportati i costi orari dei singoli ruoli (tabella 2.5)
+ e le abbreviazioni che verranno utilizzate nel capitolo 3 per la ripartizione
+ dei ruoli.
  
 \end_layout
 
@@ -274,7 +276,7 @@ Costo orario
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsabile
+Responsabile (RE)
 \end_layout
 
 \end_inset
@@ -295,7 +297,7 @@ euro
 
 \end_inset
 
-30
+ 30
 \end_layout
 
 \end_inset
@@ -306,7 +308,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Amministratore
+Amministratore (AM)
 \end_layout
 
 \end_inset
@@ -327,7 +329,7 @@ euro
 
 \end_inset
 
-20
+ 20
 \end_layout
 
 \end_inset
@@ -338,7 +340,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Analista
+Analista (AN)
 \end_layout
 
 \end_inset
@@ -359,7 +361,7 @@ euro
 
 \end_inset
 
-25
+ 25
 \end_layout
 
 \end_inset
@@ -370,7 +372,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Progettista
+Progettista (PR)
 \end_layout
 
 \end_inset
@@ -391,7 +393,7 @@ euro
 
 \end_inset
 
-22
+ 22
 \end_layout
 
 \end_inset
@@ -402,7 +404,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Programmatore
+Programmatore (PROG)
 \end_layout
 
 \end_inset
@@ -423,7 +425,7 @@ euro
 
 \end_inset
 
-15
+ 15
 \end_layout
 
 \end_inset
@@ -434,7 +436,7 @@ euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-Verificatore
+Verificatore (VE)
 \end_layout
 
 \end_inset
@@ -455,7 +457,7 @@ euro
 
 \end_inset
 
-15
+ 15
 \end_layout
 
 \end_inset
