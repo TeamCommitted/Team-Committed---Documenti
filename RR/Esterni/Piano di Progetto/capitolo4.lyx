@@ -421,17 +421,28 @@ Conflitti interni al gruppo
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: medio
+
+\series bold
+Grado di probabilità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: medio alto
+
+\series bold
+Grado di pericolosità
+\series default
+: medio alto
 \end_layout
 
 \begin_layout Itemize
-Natura: il gruppo TeamCommitted si trova per la prima volta a lavorare su
- un progetto di queste dimensioni, e solo alcuni di loro hanno già lavorato
- assieme.
+
+\series bold
+Natura
+\series default
+: il gruppo TeamCommitted si trova per la prima volta a lavorare su un progetto
+ di queste dimensioni, e solo alcuni di loro hanno già lavorato assieme.
  E' possibile che ci siano dei contrasti fra due o più membri, a causa di
  diversi motivi, e in questi casi può esserci un alto rischio di ritardo.
  La probabilità che si verifichino conflitti fra i membri aumenta sensibilmente
@@ -440,9 +451,12 @@ Natura: il gruppo TeamCommitted si trova per la prima volta a lavorare su
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: sarà responsabilità di ogni
- membro cercare di mantenere un comportamento il più possibile adeguato
- al corretto svolgimento del progetto.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: sarà responsabilità di ogni membro cercare di mantenere un comportamento
+ il più possibile adeguato al corretto svolgimento del progetto.
  In caso di problemi inespressi, ogni componente dovrà cercare di evidenziare
  errori e inefficienze degli altri compagni in maniera costruttiva, in modo
  da correggere eventuali comportamenti errati o controproducenti.
@@ -450,8 +464,11 @@ Strategie per il rilevamento e la prevenzione: sarà responsabilità di ogni
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: sarà compito del responsabile mediare in caso
- di gravi contrasti.
+
+\series bold
+Contromisure di correzione
+\series default
+: sarà compito del responsabile mediare in caso di gravi contrasti.
  Se si dovessero verificare frequenti conflitti fra due membri in particolare,
  si cercherà di riorganizzare il lavoro in modo da minimizzare l'interazione
  fra i due.
@@ -462,31 +479,49 @@ Inesperienza del gruppo
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: medio
+
+\series bold
+Grado di probabilità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: medio
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Natura: l'intero gruppo è estraneo a progetti di questa entità, per questo
- è possibile che la mole di lavoro rischi di degenerare a causa dell'incapacità
- dei mebri di gestirla.
+
+\series bold
+Natura
+\series default
+: l'intero gruppo è estraneo a progetti di questa entità, per questo è possibile
+ che la mole di lavoro rischi di degenerare a causa dell'incapacità dei
+ mebri di gestirla.
 \end_layout
 
 \begin_layout Itemize
-Strategie per il rilevamento e la prevenzione: la suddivisione dei compiti
- dovrebbe garantire un livello di dettaglio delle singole mansioni tale
- da rendere il lavoro il più possibile specializzato, quindi poco dispersivo
- e più semplice da eseguire indipendentemente.
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: la suddivisione dei compiti dovrebbe garantire un livello di dettaglio
+ delle singole mansioni tale da rendere il lavoro il più possibile specializzato
+, quindi poco dispersivo e più semplice da eseguire indipendentemente.
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: in caso di ritardi sensibili dovuti all'erratagestio
-ne delle amnsioni, si dovrà intervenire rivalutando la suddivisione del
- lavoro e analizzando le cause che hanno portato alla dispersione delle
- risorse.
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di ritardi sensibili dovuti all'erratagestione delle amnsioni,
+ si dovrà intervenire rivalutando la suddivisione del lavoro e analizzando
+ le cause che hanno portato alla dispersione delle risorse.
 \end_layout
 
 \begin_layout Subsection
@@ -494,23 +529,38 @@ Impossibilità di incontrarsi periodicamente e in uno stesso luogo
 \end_layout
 
 \begin_layout Itemize
-Grado di probabilità: medio
+
+\series bold
+Grado di probabilità
+\series default
+: medio
 \end_layout
 
 \begin_layout Itemize
-Grado di pericolosità: basso
+
+\series bold
+Grado di pericolosità
+\series default
+: basso
 \end_layout
 
 \begin_layout Itemize
-Natura: i membri del gruppo vivono in luoghi relativamente distanti fra
- loro.
+
+\series bold
+Natura
+\series default
+: i membri del gruppo vivono in luoghi relativamente distanti fra loro.
  Inoltre, le sedi universitarie potrebbero essere irraggiungibili a causa
  della chiusura dell'ateneo o a causa di disservizi dei mezzi di trasporto.
 \end_layout
 
 \begin_layout Itemize
-Strategie di rilevamento e prevenzione: in caso di impossibilità di un singolo
- membro è necessario avvertire l'intero gruppo il prima possibile.
+
+\series bold
+Strategie di rilevamento e prevenzione
+\series default
+: in caso di impossibilità di un singolo membro è necessario avvertire l'intero
+ gruppo il prima possibile.
  Inoltre, è necessario pianificare il lavoro basandosi anche sull'apertura
  programmata delle sedi universitarie, valutando con attenzione giorni di
  festività.
@@ -523,9 +573,13 @@ nto del materiale, oltre ai vari strumenti di chat, permetteranno, nel limite
 \end_layout
 
 \begin_layout Itemize
-Contromisure di correzione: nel caso di lunghi periodi di chiusura dell'ateneo
- e necessità di lavoro di gruppo si dovrà trovare un luogo di ritrovo alternativ
-o e raggiungibile da tutti tramite mezzi pubblici o privati.
+
+\series bold
+Contromisure di correzione
+\series default
+: nel caso di lunghi periodi di chiusura dell'ateneo e necessità di lavoro
+ di gruppo si dovrà trovare un luogo di ritrovo alternativo e raggiungibile
+ da tutti tramite mezzi pubblici o privati.
 \end_layout
 
 \end_body
