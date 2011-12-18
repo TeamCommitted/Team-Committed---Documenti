@@ -102,7 +102,9 @@ hline
 \backslash
 emph{Begolo Marco} & 
 \backslash
-emph{XX/YY/ZZZZ} &  
+emph{19/12/2011} &  
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Marco.jpg}
 \backslash
 
 \backslash
@@ -115,7 +117,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Maggiolo Giorgio} & 
 \backslash
-emph{XX/YY/ZZZZ} &  
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Giorgio.jpg} 
 \backslash
 
 \backslash
@@ -172,7 +176,9 @@ hline
 \backslash
 emph{Maggiolo Giorgio} & 
 \backslash
-emph{XX/YY/ZZZZ} &  
+emph{20/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Giorgio.jpg} 
 \backslash
 
 \backslash
@@ -185,7 +191,7 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Vardanega Tullio} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{10/01/2012} & 
 \backslash
 
 \backslash
@@ -242,7 +248,9 @@ hline
 \backslash
 emph{Begolo Marco} & 
 \backslash
-emph{XX/YY/ZZZZ} &  
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Marco.jpg} 
 \backslash
 
 \backslash
@@ -255,7 +263,7 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Braghetto Lorenzo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
 \backslash
 
 \backslash
@@ -268,7 +276,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Cornaglia Alessandro} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Corni.jpg} 
 \backslash
 
 \backslash
@@ -283,7 +293,9 @@ emph{Dalla Piet
 \backslash
 'a Massimo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Cetto.jpg} 
 \backslash
 
 \backslash
@@ -296,7 +308,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Facchin Gabriele} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Facco.jpg} 
 \backslash
 
 \backslash
@@ -309,7 +323,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Maggiolo Giorgio} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Giorgio.jpg} 
 \backslash
 
 \backslash
@@ -322,7 +338,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Quadrio Giacomo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{19/12/2011} & 
+\backslash
+includegraphics[scale=0.025]{Img/Firme/Giacomo.jpg} 
 \backslash
 
 \backslash
@@ -379,7 +397,9 @@ hline
 \backslash
 emph{Begolo Marco} & 
 \backslash
-emph{XX/YY/ZZZZ} &  
+emph{610917} &  
+\backslash
+emph{marco.begolo@gmail.com} 
 \backslash
 
 \backslash
@@ -392,7 +412,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Braghetto Lorenzo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{541074} & 
+\backslash
+emph{racing.inside@gmail.com} 
 \backslash
 
 \backslash
@@ -405,7 +427,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Cornaglia Alessandro} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{592764} & 
+\backslash
+emph{ale.corny@gmail.com} 
 \backslash
 
 \backslash
@@ -420,7 +444,9 @@ emph{Dalla Piet
 \backslash
 'a Massimo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{592334} & 
+\backslash
+emph{massimo.dallapieta@hotmail.it} 
 \backslash
 
 \backslash
@@ -433,7 +459,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Facchin Gabriele} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{610884} & 
+\backslash
+emph{neoeden89@gmail.com} 
 \backslash
 
 \backslash
@@ -446,7 +474,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Maggiolo Giorgio} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{610338} & 
+\backslash
+emph{maggiolo.giorgio@gmail.com} 
 \backslash
 
 \backslash
@@ -459,7 +489,9 @@ emph{XX/YY/ZZZZ} &
 \backslash
 emph{Quadrio Giacomo} & 
 \backslash
-emph{XX/YY/ZZZZ} & 
+emph{598571} & 
+\backslash
+emph{gquadrio@gmail.com} 
 \backslash
 
 \backslash

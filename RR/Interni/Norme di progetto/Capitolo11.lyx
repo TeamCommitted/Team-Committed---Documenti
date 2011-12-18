@@ -119,23 +119,35 @@ Sistema operativo
 Tutte le attività legate allo sviluppo del progetto verranno svolte su ambienti
  
 \series bold
-Windows 7
+\bar under
+Windows
+\bar default
+ 7
 \series default
 , 
 \series bold
+\bar under
 Mac OsX
 \series default
+\bar default
  e 
 \series bold
+\bar under
 GNU/Linux
-\series default
+\bar default
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Con GNU/Linux intendiamo Ubuntu 10.04, 
+Con 
+\bar under
+GNU/Linux
+\bar default
+ intendiamo Ubuntu 10.04,
 \series bold
+ 
+\series default
 ETC....
 \end_layout
 
@@ -255,7 +267,9 @@ PDF
 \emph on
 LyX
 \emph default
-.
+, tramite 
+\emph on
+File -> Esporta -> PDF(pdflatex)
 \end_layout
 
 \begin_layout Subsubsection
@@ -317,8 +331,10 @@ Microsoft Project
 \series default
 , strumento fornito dal servizio 
 \emph on
+\bar under
 MSDNAA
 \emph default
+\bar default
  di Microsoft in collaborazione con la facoltà di Matematica pura e applicata
  dell'Università degli Studi di Padova.
  
@@ -337,8 +353,10 @@ Project
  Per questo motivo l'amministratore ha predisposto una macchina virtuale
  Windows XP (anch'esso fornito dal 
 \emph on
+\bar under
 MSDNAA
 \emph default
+\bar default
 ) con installato il programma.
 \end_layout
 
@@ -374,8 +392,12 @@ Javadoc
 \begin_inset Formula $\geqslant1.5$
 \end_inset
 
-), funzionalità di Java che permette di creare tutta la documentazione relativa
- ad una porzione di codice a partire dai commenti.
+), funzionalità di 
+\bar under
+Java
+\bar default
+ che permette di creare tutta la documentazione relativa ad una porzione
+ di codice a partire dai commenti.
 \end_layout
 
 \begin_layout Subsection
@@ -405,7 +427,10 @@ ta uno dei migliori strumenti attualmente esistenti.
  Per lo sviluppo collaborativo abbiamo deciso di appoggiarci al servizio
  
 \series bold
+\bar under
 Github
+\bar default
+
 \begin_inset Foot
 status open
 
@@ -481,12 +506,16 @@ BlueJ
 
 ) per la codifica in 
 \emph on
+\bar under
 Java
 \emph default
+\bar default
  e per lo sviluppo di applicazioni 
 \emph on
+\bar under
 Android
 \emph default
+\bar default
 , mentre 
 \series bold
 Geany 
@@ -511,8 +540,10 @@ API native
 \series default
 di 
 \emph on
+\bar under
 Android
 \emph default
+\bar default
 , abbiamo deciso di utilizzare 
 \series bold
 Swing
@@ -523,7 +554,10 @@ AWT
 \series default
  per il front-end grafico dell'applicazione 
 \emph on
-Java.
+\bar under
+Java
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -533,8 +567,10 @@ Ambiente mobile
 \begin_layout Standard
 Per sviluppare l'applicazione mobile useremo il 
 \series bold
+\bar under
 Android SDK
 \series default
+\bar default
 , con il plugin per 
 \emph on
 Eclipse
@@ -558,7 +594,7 @@ Ambiente di verifica e validazione
 Di seguito vengono elencati gli strumenti scelti per le verifiche e la validazio
 ne
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Per maggiori dettagli si rimanda al documento Piano di Qualica v1.0
@@ -693,8 +729,10 @@ HTML
 \emph default
  e 
 \emph on
+\bar under
 CSS
 \emph default
+\bar default
  dell'applicazione da noi sviluppata verrà fatta tramite il servizio 
 \series bold
 W3C Validator

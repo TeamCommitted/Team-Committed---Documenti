@@ -616,14 +616,14 @@ name "sub:Formati-ricorrenti"
 \series bold
 Path:
 \series default
- gli indirizzi web ed e-mail dovranno essere scritti utilizzando il relativo
- .
- Non sono ammessi indirizzi web relativi (a meno dell'uso di convenzioni
- [per un esempio v.d.
+ gli indirizzi web ed e-mail dovranno essere scritti utilizzando il percorso
+ assoluto.
+ Non sono ammessi percorsi relativi (a meno dell'uso di convenzioni [per
+ un esempio v.d.
  
 \begin_inset CommandInset ref
 LatexCommand vref
-reference "sec:Documenti"
+reference "sub:Documentazione"
 
 \end_inset
 
