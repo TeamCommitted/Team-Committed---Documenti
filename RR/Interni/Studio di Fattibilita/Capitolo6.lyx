@@ -69,10 +69,10 @@ Capitolato C01 - Spectral Analysis for Kinetic Estimation
 
 \begin_layout Standard
 Il gruppo ha analizzato a fondo questo capitolato, in quanto molto interessante
- dal punto di vista etico e stimolante per quanto riguarda la trasformazione
- di immagini da due a quattro dimensioni.
- In più il fatto che venivano date sia immagini di prova che gli algoritmi
- ci aveva dato l'idea della concretezza del progetto.
+ dal punto di vista sociale e stimolante riguardo alla trasformazione di
+ immagini da due a quattro dimensioni.
+ Inoltre gli strumenti ed il materiale forniti dal proponente erano tali
+ da rendere molto concreto e definito il progetto da sviluppare.
  Tuttavia, gli ostacoli per molti di noi sono stati: 
 \end_layout
 
@@ -114,9 +114,9 @@ Il gruppo ha ritenuto questo capitolato molto interessante dal punto di
 \bar under
 l'HTML5
 \bar default
- e lo sviluppo per dispositivi mobile risultano infatti molto allettanti.
+ e lo sviluppo per dispositivi mobile risultano infatti molto attuali.
  Tuttavia la creazione di un password wallet in rete non è stato ritenuto
- sufficientemente interessante a noi membri del gruppo in quanto:
+ sufficientemente stimolante a noi membri del gruppo in quanto:
 \end_layout
 
 \begin_layout Itemize
@@ -143,7 +143,7 @@ Tecnologie
 Sicurezza
 \series default
 : il capotolato richiede un elevato studio della sicurezza in rete, tema
- molto delicato e a cui non titti i membri del gruppo erano interessati
+ molto delicato e a cui non tutti i membri del gruppo erano interessati
 \end_layout
 
 \begin_layout Subsubsection
@@ -195,7 +195,7 @@ Individuazione dei rischi
 \begin_layout Standard
 I requisiti composti dallo studio di una interfaccia semplice, la gestione
  di due parser e il controllo dell'SQL generato automaticamente dall'interfaccia
- ha reso il progetto non appetibile.
+, ha reso il progetto non appetibile.
  
 \end_layout
 

@@ -90,18 +90,11 @@ TeamCommitted
 \end_inset
 
  relativamente al progetto 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-nameproject
-\end_layout
-
-\end_inset
-
+\emph on
+\bar under
+SafetyGame
+\emph default
+\bar default
  e ai processi relativi alla sua produzione.
 \end_layout
 
@@ -262,7 +255,7 @@ http://it.wikipedia.org/wiki/ISO/IEC_9126
 \bar under
 ISO
 \bar default
- 14598s
+ 14598
 \end_layout
 
 \end_body
