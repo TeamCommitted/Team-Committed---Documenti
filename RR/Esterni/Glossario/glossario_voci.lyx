@@ -153,6 +153,42 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{Amministratore Installazione}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Persona che deve ancora effettuare il login per gestire il database delle
+ Aziende, puo' recarsi nella sede dell' Azienda a installare il software
+ se lo spazio relativo e' stato creato
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Amministratore Installazione Autenticato}} 
 \backslash
 
@@ -176,42 +212,6 @@ begin{flushright}
 underline{Amministratore Installazione} che ha effettuato il login nel server
  principale, puo` Aggiungere ed Eliminare i dati di un'azienda, non puo`
  recarsi dalle aziende clienti finche` non effettua il Logout
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{flushright}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textbf{
-\backslash
-emph{Amministratore Installazione}} 
-\backslash
-
-\backslash
- 
-\backslash
-rule[-0.1cm]{12cm}{0.01cm}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{flushright}
-\end_layout
-
-\begin_layout Plain Layout
-
-	Persona che deve ancora effettuare il login per gestire il database delle
- Aziende, puo' recarsi nella sede dell' Azienda a installare il software
- se lo spazio relativo e' stato creato
 \end_layout
 
 \begin_layout Plain Layout
@@ -285,6 +285,48 @@ begin{flushright}
 	Android è un sistema operativo open-source per 
 \backslash
 underline{dispositivi mobili} sviluppato e mantenuto da Google.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Android Market}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Android Market è uno store di software online sviluppato da Google per
+ i dispositivi 
+\backslash
+underline{Android}.
+ Un programma applicativo chiamato "Market" viene preinstallato sulla maggior
+ parte dei dispositivi 
+\backslash
+underline{Android} e permette agli utenti di cercare e scaricare le applicazioni
+ pubblicate da sviluppatori di terze-parti, ospitate sull'Android Market.
 \end_layout
 
 \begin_layout Plain Layout
