@@ -475,31 +475,18 @@ name "sub:Documentazione-1"
 \end_layout
 
 \begin_layout Itemize
-Il repository della documentazione dovrà contenere solamente file di testo
+
+\series bold
+Formati file
+\series default
+: il repository della documentazione dovrà contenere solamente file di testo
  in formato 
 \family typewriter
 LyX
 \family default
- o 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
-, oltre che alla versione pronta per il rilascio di ogni documento in formato
- 
-\family typewriter
-PDF
-\family default
-.
- Le immagini dovranno essere in formato 
+; l
+\lang english
+e immagini dovranno essere in formato 
 \family typewriter
 PNG
 \family default
@@ -509,7 +496,11 @@ SVG
 \end_layout
 
 \begin_layout Itemize
-Una volta rilasciato un documento, si dovrà allegare il file 
+
+\series bold
+Documenti rilasciati
+\series default
+: una volta rilasciato un documento, si dovrà allegare il file 
 \family typewriter
 PDF
 \family default

@@ -267,8 +267,11 @@ locale
 \end_inset
 
 ) secondo quanto scritto al suo interno.
- All'interno di LyX, invece, si dovrà andare in Documento->Impostazioni,
- selezionare nell'elenco di sinistra la voce 
+ All'interno di LyX, invece, si dovrà andare in 
+\emph on
+Documento->Impostazioni
+\emph default
+, selezionare nell'elenco di sinistra la voce 
 \emph on
 Preambolo di 
 \begin_inset ERT
@@ -290,6 +293,58 @@ LaTeX
 
 \backslash
 include{preface}
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Loghi:
+\series default
+ all'interno della cartella 
+\family typewriter
+/root/Modelli/img
+\family default
+ si troveranno i file 
+\family typewriter
+Logo_team_Label.jpg
+\family default
+ e 
+\family typewriter
+LogoTeam.jpg
+\family default
+, rispettivamente indicati come 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo grande
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo piccolo
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Si dovrà creare all'interno della cartella del documento in lavorazione
+ una nuova cartella chiamata 
+\emph on
+img
+\emph default
+ e copiarvi all'interno il 
+\emph on
+logo piccolo
 \end_layout
 
 \begin_layout Standard
@@ -486,7 +541,7 @@ status collapsed
 
 \begin_layout Plain Layout
 Non si considerano valide come occorrenze le parole all'interno dei titoli
- delle sezione, all'interno dei percorsi o all'interno di definizioni
+ delle sezione o all'interno dei percorsi
 \end_layout
 
 \end_inset
@@ -1256,6 +1311,23 @@ NomeDocumento V{X}.{Y} - Team Committed
 \emph default
 
 \begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Logo del Team
+\series default
+: posizionato nel frontespizio sulla sinistra.
+ Dovrà essere la versione ridotta del logo, come specificato in sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formattazione-e-copertina"
+
 \end_inset
 
 
