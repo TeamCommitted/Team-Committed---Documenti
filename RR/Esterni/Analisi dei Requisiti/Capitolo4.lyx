@@ -316,7 +316,7 @@ hline
 
 		RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
-uline{utenti}, nel tempo, devono venir registrate nel sistema & Capitolato
+uline{utenti}, nel tempo, devono essere registrate nel sistema & Capitolato
  
 \backslash
 
@@ -750,8 +750,8 @@ hline
 
 		RFOB 16.2 & Un 
 \backslash
-uline{Amministratore Sicurezza} può modificare una domanda caricata antecedentem
-ente & UCAS2.2 
+uline{Amministratore Sicurezza} può modificare una domanda gia' presente
+ nel database & UCAS2.2 
 \backslash
 
 \backslash
@@ -782,7 +782,7 @@ hline
 		RFOB 16.3 & Un 
 \backslash
 uline{Amministratore Sicurezza} ha la possibilità di rimuovere una domanda
- fra quellepresenti nel sistema & UCAS2.1 
+ fra quelle  presenti nel sistema & UCAS2.1 
 \backslash
 
 \backslash
@@ -1413,7 +1413,11 @@ Android
 \bar under
 Android
 \bar default
- Market.
+ 
+\bar under
+Market
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection

@@ -96,8 +96,8 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \end_inset
 
  (C3).
- Questo per documentare tutti i bisogni identificati dal proponente MENTIS
- S.r.l.
+ Questo serve per documentare tutti i bisogni identificati dal proponente
+ MENTIS S.r.l.
  .
 \end_layout
 
@@ -116,9 +116,9 @@ SafetyGame
  di sicurezza sul lavoro in modo dinamico, evitando corsi di formazione
  che spesso si dimostrano inutili per la poca attenzione prestata dai partecipan
 ti.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 Lo strumento si basa sul concetto di 
 \series bold
 \bar under
@@ -129,9 +129,9 @@ gamification
 che comporta competizione tra i dipendenti all'interno delle aziende creando
  un sano interesse per un argomento delicato come la sicurezza sul luogo
  di lavoro.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
  di 
 \bar under
