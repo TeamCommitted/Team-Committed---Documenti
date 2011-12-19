@@ -140,8 +140,12 @@ name "sub:Riferimenti-normativi"
 Capitolato d’Appalto
 \series default
 : Piattaforma Mobile di Apprendimento Comportamentale, v 1.0, rilasciato
- dal proponente Mentis s.r.l., reperibile all’indirizzo: http://www.math.unipd.it/~tul
-lio/IS-1/2011/Progetto/C3.pdf
+ dal 
+\bar under
+proponente
+\bar default
+ Mentis s.r.l., reperibile all’indirizzo: http://www.math.unipd.it/~tullio/IS-1/2011/P
+rogetto/C3.pdf
 \end_layout
 
 \begin_layout Itemize
@@ -548,7 +552,11 @@ TeamCommitted
 \series bold
 Revisione Requisiti
 \series default
- (RR): 10/12/2012
+ (
+\bar under
+RR
+\bar default
+): 10/12/2012
 \end_layout
 
 \begin_layout Itemize
@@ -556,7 +564,11 @@ Revisione Requisiti
 \series bold
 Revisione di Progetto
 \series default
- (RP): 7/02/2012
+ (
+\bar under
+RP
+\bar default
+): 7/02/2012
 \end_layout
 
 \begin_layout Itemize
@@ -564,7 +576,11 @@ Revisione di Progetto
 \series bold
 Revisione di Qualifica
 \series default
- (RQ): 07/03/2012
+ (
+\bar under
+RQ
+\bar default
+): 07/03/2012
 \end_layout
 
 \begin_layout Itemize
@@ -572,7 +588,11 @@ Revisione di Qualifica
 \series bold
 Revisione di Accettazione
 \series default
- (RA): *da verificare 
+ (
+\bar under
+RA
+\bar default
+): *da verificare 
 \end_layout
 
 \end_body

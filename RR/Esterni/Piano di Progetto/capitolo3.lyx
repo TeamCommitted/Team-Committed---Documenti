@@ -137,7 +137,11 @@ modello incrementale
 \series default
 .
  La scelta è stata determinata dalle caratteristiche del progetto e del
- proponente.
+ 
+\bar under
+proponente
+\bar default
+.
  In particolare, le caratteristiche sono le seguenti:
 \end_layout
 
@@ -163,9 +167,13 @@ Progettazione Architetturale
 \series bold
 Incontro proponente-gruppo
 \series default
-: crediamo che la massima disponibilità del proponente all'incontro e alla
- discussione sia essenziale nel determinare i punti fondamentali del progetto
- ed a distinguerli dalle funzionalità opzionali e desiderabili
+: crediamo che la massima disponibilità del 
+\bar under
+proponente
+\bar default
+ all'incontro e alla discussione sia essenziale nel determinare i punti
+ fondamentali del progetto ed a distinguerli dalle funzionalità opzionali
+ e desiderabili
 \end_layout
 
 \begin_layout Standard
@@ -422,8 +430,12 @@ Dal momento che la fase di
 \emph on
 Analisi
 \emph default
- non è a carico del committente, le ore sopra esposte non verranno monetizzate
- e, conseguentemente, non saranno messe a preventivo.
+ non è a carico del 
+\bar under
+committente
+\bar default
+, le ore sopra esposte non verranno monetizzate e, conseguentemente, non
+ saranno messe a preventivo.
 \end_layout
 
 \begin_layout Standard

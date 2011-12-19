@@ -209,7 +209,11 @@ Strategie per il rilevamento e la prevenzione
  facilità di utilizzo del software scelto.
  Tuttavia, la presenza di tre laboratori garanrisce una risorsa importante,
  in quanto sarà molto difficile che un membro del gruppo sia impossibilitato
- ad avere accesso ad un pc.
+ ad avere accesso ad un 
+\bar under
+pc
+\bar default
+.
  Tuttavia, nel caso di guasti improvvisi delle macchine c'è il rischio di
  perdita o inacessibilità ai dati.
  Per questo motivo tutto il materiale è presente in triplice copia, ovvero
@@ -330,11 +334,18 @@ Grado di pericolosità
 \series bold
 Natura
 \series default
-: nonostante il proponente abbia fornito una prima descrizione del prodotto,
- è necessario mantenere una comunicazione per far fronte ad eventuali cambiament
-i.
- Il proponente potrebbe decidere di cambiare i requisiti del prodotto fino
- a dover eseguire un'analisi molto diversada quella in corso
+: nonostante il 
+\bar under
+proponente
+\bar default
+ abbia fornito una prima descrizione del prodotto, è necessario mantenere
+ una comunicazione per far fronte ad eventuali cambiamenti.
+ Il 
+\bar under
+proponente
+\bar default
+ potrebbe decidere di cambiare i requisiti del prodotto fino a dover eseguire
+ un'analisi molto diversada quella in corso
 \end_layout
 
 \begin_layout Itemize
@@ -342,9 +353,12 @@ i.
 \series bold
 Strategie per il rilevamento e la prevenzione
 \series default
-: una adeguata comunicazione con il proponente permetterà di evitare incomprensi
-oni e di venire a conoscenza il prima possibile di eventuali cambi radicali
- dei requisiti
+: una adeguata comunicazione con il 
+\bar under
+proponente
+\bar default
+ permetterà di evitare incomprensioni e di venire a conoscenza il prima
+ possibile di eventuali cambi radicali dei requisiti
 \end_layout
 
 \begin_layout Itemize
@@ -352,7 +366,11 @@ oni e di venire a conoscenza il prima possibile di eventuali cambi radicali
 \series bold
 Contromisure di correzione
 \series default
-: si discuterà con il proponente la possibilità di applicare certe modifiche.
+: si discuterà con il 
+\bar under
+proponente
+\bar default
+ la possibilità di applicare certe modifiche.
  Si potrebbe rendere necessaria una rivalutaione profonda del lavoro svolto,
  inoltre si dovranno rivalutare tempi di sviluppo, preventivo e la possibilità
  di soddisfare i requisiti desiderabili e opzionali
@@ -411,9 +429,16 @@ Contromisure di correzione
  ed eventualmente disponibilità del mebro assente di lavorare anche fuori
  sede (quando possibile).
  In caso di periodi di assenza particolarmente lunghi, si potranno discutere
- con il proponente e con il committente eventuali provvedimenti, come la
- limitazione delle funzionalità desiderabili e opzionali o di un aumento
- dei tempi e quindi dei costi
+ con il 
+\bar under
+proponente
+\bar default
+ e con il 
+\bar under
+committente
+\bar default
+ eventuali provvedimenti, come la limitazione delle funzionalità desiderabili
+ e opzionali o di un aumento dei tempi e quindi dei costi
 \end_layout
 
 \begin_layout Subsection
