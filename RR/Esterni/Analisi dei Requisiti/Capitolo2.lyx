@@ -79,27 +79,69 @@ Contesto d'uso del prodotto
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-Il sistema XXX si propone ai proprietari di aziende come integrazione ai
- vari corsi formativi nell'ambito della sicurezza sul posto di lavoro, che
- spesso si dimostrano poco efficaci, a cui devono essere sottoposti periodicamen
-te i propri dipendenti.
+Il sistema 
+\bar under
+SafetyGame
+\bar default
+ si propone ai proprietari di aziende come integrazione ai vari corsi formativi
+ nell'ambito della sicurezza sul posto di lavoro, che spesso si dimostrano
+ poco efficaci, a cui devono essere sottoposti periodicamente i propri dipendent
+i.
 \end_layout
 
 \begin_layout Standard
 Il sistema non si limita ad essere funzionale solo per lavoratori interni
- all'azienda ma anche per quelli esterni grazie a dispositivi portatili
- come tablet e smartphone.
+ all'azienda ma anche per quelli esterni grazie a 
+\bar under
+dispositivi portatili
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
 Processi produttivi e modalità d'uso
+\end_layout
+
+\begin_layout Standard
+A processo produttivo concluso, il sistema 
+\bar under
+SafetyGame
+\bar default
+ prevede che un 
+\bar under
+dipendente
+\bar default
+ venga sottoposto periodicamente a domande inerenti alla sicurezza sul luogo
+ di lavoro, inserite da autorità competenti.
+ Sfruttando il concetto di 
+\bar under
+gamification
+\bar default
+, ogni utente dovrebbe essere invogliato a rispondere correttamente e di
+ conseguenza essere sempre informato sulle tematiche.
+ L'azienda in ogni momento potrà controllare lo stato delle risposte dei
+ dipendenti e le rispettive classifiche per procedere con attività di analisi.
+ Le domande caricate nel prodotto saranno differenti per ogni azienda, che
+ potrà gestirle autonomamente.
+\begin_inset Newline newline
+\end_inset
+
+Il prodotto sarà utlizzabile da utenti con postazioni di lavoro fisse che
+ utilizzano macchine con un qualsiasi sistema operativo, purchè connsse
+ alla rete, mediante interfaccia 
+\bar under
+web
+\bar default
+.
+ Per i lavoratori esterni invece sarà disponibile un'applicazione per 
+\bar under
+dispositivi mobili
+\bar default
+ con sistema 
+\bar under
+Android
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -109,13 +151,27 @@ Piattaforma d'esecuzione e interfacciamento con l'ambiente di installazione
 
 \begin_layout Standard
 Il prodotto è utilizzabile da qualsiasi piattaforma fissa connessa alla
- rete, con una java virtual machine precedentemente installata e che disponga
- di almeno un browser per la visualizzazione di pagine web.
+ rete, con una 
+\bar under
+java virtual machine
+\bar default
+ precedentemente installata e che disponga di almeno un 
+\bar under
+browser
+\bar default
+ per la visualizzazione di pagine 
+\bar under
+web
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
-Invece per quanto riguarda i dispositivi portatili basta che questi abbiano
- la possibilità di connettersi alla rete.
+Invece per quanto riguarda i 
+\bar under
+dispositivi portatili
+\bar default
+ basta che questi abbiano la possibilità di connettersi alla rete.
 \end_layout
 
 \begin_layout Subsection
@@ -134,10 +190,14 @@ conclusioni.
 \end_layout
 
 \begin_layout Standard
-Un dipendente a cui viene proposta una domanda, in modo completamente non
- invasivo, ha la possibilità di rispondere subito oppure rinviare la risposta
- ad un altro momento così che non venga disturbato o bloccato durante l'esecuzio
-ne del proprio lavoro.
+Un 
+\bar under
+dipendente
+\bar default
+ a cui viene proposta una domanda, in modo completamente non invasivo, ha
+ la possibilità di rispondere subito oppure rinviare la risposta ad un altro
+ momento così che non venga disturbato o bloccato durante l'esecuzione del
+ proprio lavoro.
 \end_layout
 
 \begin_layout Standard
@@ -152,14 +212,22 @@ Il prodotto sarà composto da:
 \end_layout
 
 \begin_layout Itemize
-Un'applicazione per PC contenente un'area pubblica dove qualsiasi operatore
- inserisce le proprie credenziali per potersi autenticare nel sistema ed
- a seconda dell'identità avrà acceso ad una delle seguenti aree:
+Un'applicazione per 
+\bar under
+PC
+\bar default
+ contenente un'area pubblica dove qualsiasi operatore inserisce le proprie
+ credenziali per potersi autenticare nel sistema e, a seconda della sua
+ identità, avrà acceso ad una delle seguenti aree:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Un'area riservata ai 
+
+\series bold
+Area Dipendente
+\series default
+: area riservata ai 
 \bar under
 dipendenti
 \bar default
@@ -168,7 +236,11 @@ dipendenti
 \end_layout
 
 \begin_layout Itemize
-Un'area riservata ad un 
+
+\series bold
+Area Amministratore Sicurezza
+\series default
+: area riservata ad un 
 \bar under
 amministratore della sicurezza
 \bar default
@@ -176,7 +248,11 @@ amministratore della sicurezza
 \end_layout
 
 \begin_layout Itemize
-Un'area riservata ad un 
+
+\series bold
+Area Amministratore Azienda
+\series default
+: area riservata ad un 
 \bar under
 amministratore azienda
 \bar default
@@ -186,18 +262,36 @@ amministratore azienda
 
 \end_deeper
 \begin_layout Itemize
-Un applicativo per dispositivi mobili che consentirà ai dipendenti autenticati
- di:
+Un applicativo per 
+\bar under
+dispositivi mobili
+\bar default
+ che consentirà ai 
+\bar under
+dipendenti
+\bar default
+ autenticati di risponde a domande:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-rispondere alle domande che gli vengono proposte come ad un lavoratore che
- ha a disposizione una postazione fissa 
+
+\series bold
+Statiche:
+\series default
+ le stesse domande che verrebbero sottoposte agli utenti di postazioni fisse(
+\bar under
+PC
+\bar default
+)
 \end_layout
 
 \begin_layout Itemize
-rispondere a domande di tipo dinamico, come seguire percorsi e varie 
+
+\series bold
+Dinamiche: 
+\series default
+domande che prevedono l'interazione con l'ambiente esterno
 \end_layout
 
 \end_deeper
@@ -215,27 +309,62 @@ Inoltre elementi fondamentali per il suo funzionamento sono:
 \end_layout
 
 \begin_layout Itemize
-connessione alla rete 
+
+\series bold
+Connessione 
+\series default
+al 
+\bar under
+web
 \end_layout
 
 \begin_layout Itemize
-presenza nel PC di una java virtual machine 
+
+\series bold
+\bar under
+Java Virtual Machine 
+\series default
+\bar default
+presente sul 
+\emph on
+\bar under
+PC
+\emph default
+\bar default
+ o sul 
+\emph on
+\bar under
+dispositivo mobile
 \end_layout
 
 \begin_layout Itemize
-presenza nel PC di un browser di ultima generazione
+
+\series bold
+\bar under
+Browser 
+\series default
+\bar default
+di ultima generazione
 \end_layout
 
 \begin_layout Standard
-Durante il suo funzionamento il software assicura:
+Durante il suo funzionamento il software assicurerà:
 \end_layout
 
 \begin_layout Itemize
-Il mantenimento integro e sicuro dei dati
+
+\series bold
+Mantenimento 
+\series default
+integro e sicuro dei dati
 \end_layout
 
 \begin_layout Itemize
-L'efficienza durante qualsiasi condizione di traffico nella rete
+
+\series bold
+Efficienza 
+\series default
+durante qualsiasi condizione di traffico nella rete
 \end_layout
 
 \begin_layout Standard
