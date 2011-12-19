@@ -2097,11 +2097,18 @@ Amministratore
 \bar under
 Azienda
 \bar default
- aggiunge un 
+ aggiunge un account 
 \bar under
 Dipendente
 \bar default
- riempiendo i campi richiesti
+ riempiendo i campi richiesti: nome, cognome, codice fiscale, indirizzo
+ email e impiego.
+ In seguito verranno autogenerate le username e le password che verranno
+ inviate al 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
