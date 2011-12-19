@@ -310,7 +310,7 @@ Progettista
 \begin_inset Text
 
 \begin_layout Plain Layout
-233
+217
 \end_layout
 
 \end_inset
@@ -333,7 +333,7 @@ euro
 
 \end_inset
 
-5126,00
+4774,00
 \end_layout
 
 \end_inset
@@ -353,7 +353,7 @@ Programmatore
 \begin_inset Text
 
 \begin_layout Plain Layout
-120
+136
 \end_layout
 
 \end_inset
@@ -376,7 +376,7 @@ euro
 
 \end_inset
 
-1800,00
+2040,00
 \end_layout
 
 \end_inset
@@ -419,7 +419,7 @@ euro
 
 \end_inset
 
-13.411,00
+13.299,00
 \end_layout
 
 \end_inset
@@ -454,6 +454,10 @@ preventivo distribuito per ore di lavoro
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -480,7 +484,7 @@ reference "fig:ripartizione_costi_totali_per_ruolo"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
