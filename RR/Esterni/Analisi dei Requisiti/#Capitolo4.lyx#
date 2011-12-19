@@ -853,7 +853,7 @@ hline
 
 		RFOB 19.1 & Le informazioni che un 
 \backslash
-uline{Dipendente} potrà consultare  sono: storico delle risposte(sia corrette
+uline{Dipendente} po consultare  sono: storico delle risposte(sia corrette
  che errate), classifica aziendale, trofei/badge raccolti, statistiche derivanti
  dalle risposte.
  & UCD3 
@@ -869,8 +869,8 @@ hline
 
 		RFOB 20 & Un 
 \backslash
-uline{Dipendente} dovrà avere la possibilità di modificare tra i suoi dati
- personali password e indirizzo mail & Interno 
+uline{Dipendente} deve avere la possibilità di modificare tra i suoi dati
+ personali: la password e l'indirizzo mail & Interno 
 \backslash
 
 \backslash
@@ -884,7 +884,7 @@ hline
 		RFOB 20.1 & Un 
 \backslash
 uline{Dipendente} che ha modificato almeno uno dei propri dati personali
- riceverà una mail di conferma & UC2.1 
+ riceve una mail di conferma & UC2.1 
 \backslash
 
 \backslash
@@ -897,7 +897,7 @@ hline
 
 		RFOB 21 & Un 
 \backslash
-uline{Amministratore Azienda} avrà la possibiltà di modificare i dati personali
+uline{Amministratore Azienda} ha la possibiltà di modificare i dati personali
  dei Dipendenti & Interno 
 \backslash
 
@@ -909,14 +909,24 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome,
+		RFOB 21.1 & I campi che possono essere modificati sono: nome, cognome,
  indirizzo email, impiego, codice fiscale & UC1.3 
 \backslash
 
 \backslash
  
 \backslash
-hline				
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+				
 \end_layout
 
 \begin_layout Plain Layout
@@ -975,7 +985,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RPOB 1 & Il prodotto dovrà essere prestazionale anche nelle ore di traffico
+		RPOB 1 & Il prodotto deve essere prestazionale anche nelle ore di traffico
  massimo della rete & Interno 
 \backslash
 
@@ -987,8 +997,8 @@ hline
 
 \begin_layout Plain Layout
 
-		RPOB 2 & Il prodotto dovrà essere prestazionale sia se il server delle
- domande sia interno all'azienda che esterno & Interno 
+		RPOB 2 & Il prodotto deve essere prestazionale sia se il server delle
+ domande si trova interno all'azienda sia se è esterno & Interno 
 \backslash
 
 \backslash
