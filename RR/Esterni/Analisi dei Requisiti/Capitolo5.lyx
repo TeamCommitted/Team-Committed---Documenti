@@ -105,525 +105,525 @@ hline
 
 \begin_layout Plain Layout
 
-		UCU 1 &  & 
+		UCU 1 & login & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCU 2 &  & 
+		UCU 2 & recupero password dimenticata & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCU 2.1 &  & 
+		UCU 2.1 & arrivo mail di conferma & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCU 3 &  & 
+		UCU 3 & applicazione & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-        UCU 4 &  & 
+        UCU 4 & web & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCUA 1 &  & 
+		UCUA 1 & logout & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1 &  & 
+		UCD 1 & domanda proposta & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1.1 &  & 
+		UCD 1.1 & mostra domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1.1.1 &  & 
+		UCD 1.1.1 & domanda nuova/posticipata & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1.1.2 &  & 
+		UCD 1.1.2 & domanda risposta sbagliata & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1.1.3 &  & 
+		UCD 1.1.3 & domadna risposta & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 1.2 &  & 
+		UCD 1.2 & proposta domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 2 &  & 
+		UCD 2 & richiesta domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3 &  & 
+		UCD 3 & visione punteggi personali & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.1 &  & 
+		UCD 3.1 & visione domande corrette/errate & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.2 &  & 
+		UCD 3.2 & visione classifica & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.3 &  & 
+		UCD 3.3 & visione trofei/badge & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.4 &  & 
+		UCD 3.4 & visione statistiche risposte & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4 &  & 
+		UCD 4 & modifica dati account & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4.1 &  & 
+		UCD 4.1 & modifica password & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4.2 &  & 
+		UCD 4.2 & modifica indirizzo email & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 5 &  & 
+		UCD 5 & visualizza dati account & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 1 &  & 
+		UCAS 1 & consultazione domande & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2 &  & 
+		UCAS 2 & modifca database & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1 &  & 
+		UCAS 2.1 & aggiunta domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.1 &  & 
+		UCAS 2.1.1 & inserisci tipo domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.2 &  & 
+		UCAS 2.1.2 & inserisci testo domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.3 &  & 
+		UCAS 2.1.3 & inserisci risposte & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.4 &  & 
+		UCAS 2.1.4 & assegna risposte corrette & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.5 &  & 
+		UCAS 2.1.5 & inserisci percorso immagine/video & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.6 &  & 
+		UCAS 2.1.6 & inserisci categoria utenti & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.7 &  & 
+		UCAS 2.1.7 & inserisci piattaforma & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.8 &  & 
+		UCAS 2.1.8 & inserisci temporizzazione & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.9 &  & 
+		UCAS 2.1.9 & inserisci punteggi & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2 &  & 
+		UCAS 2.2 & modifica domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.1 &  & 
+		UCAS 2.2.1 & modifica tipo domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.2 &  & 
+		UCAS 2.2.2 & modifica testo domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.3 &  & 
+		UCAS 2.2.3 & modifica inserimento risposte & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.4 &  & 
+		UCAS 2.2.4 & modifica risposte corrette & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.5 &  & 
+		UCAS 2.2.5 & modifica percorso immagine/video & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.6 &  & 
+		UCAS 2.2.6 & modifica categoria utenti & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.7 &  & 
+		UCAS 2.2.7 & modifica piattaforma & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.8 &  & 
+		UCAS 2.2.8 & modifica temporizzazione & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.9 &  & 
+		UCAS 2.2.9 & modifica punteggi & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.3 &  & 
+		UCAS 2.3 & cancella domanda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1 &  & 
+		UCAA 1 & gestione dipendenti & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1 &  & 
+		UCAA 1.1 & aggiungi dipendente & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.1 &  & 
+		UCAA 1.1.1 & inserisci nome & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.2 &  & 
+		UCAA 1.1.2 & inserisci cognome & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.3 &  & 
+		UCAA 1.1.3 & inserisci codice fiscale & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.4 &  & 
+		UCAA 1.1.4 & inserisci indirizzo email & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.5 &  & 
+		UCAA 1.1.5 & inserisci impiego & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.6 &  & 
+		UCAA 1.1.6 & invio username/password autogenerate & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.2 &  & 
+		UCAA 1.2 & elimina dipendente & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3 &  & 
+		UCAA 1.3 & modifica dati dipendente & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.1 &  & 
+		UCAA 1.3.1 & modifica nome & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.2 &  & 
+		UCAA 1.3.2 & modifica cognome & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.3 &  & 
+		UCAA 1.3.3 & modifica indirizzo email & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.4 &  & 
+		UCAA 1.3.4 & modifica impiego & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.5 &  & 
+		UCAA 1.3.5 & modifica codice fiscale & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 2 &  & 
+		UCAA 2 & visualizza dati dipendente & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 3 &  & 
+		UCAA 3 & visualizza punteggi dipendenti & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 1 &  & 
+		UCAI 1 & login & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2 &  & 
+		UCAI 2 & installazione software & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2.1 &  & 
+		UCAI 2.1 & dispositivi mobili & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2.2 &  & 
+		UCAI 2.2 & computer & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1 &  & 
+		UCAIA 1 & gestione server aziende & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1 &  & 
+		UCAIA 1.1 & aggiungi azienda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.1 &  & 
+		UCAIA 1.1.1 & inserisci nome & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.2 &  & 
+		UCAIA 1.1.2 & inserisci recapito server dati & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.3 &  & 
+		UCAIA 1.1.3 & inserisci username & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.4 &  & 
+		UCAIA 1.1.4 & inserisci password & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.2 &  & 
+		UCAIA 1.2 & cancella azienda & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.3 &  & 
+		UCAIA 1.3 & modifica link database & 
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 2 &  & 
+		UCAIA 2 & logout & 
 \backslash
 hline
 \end_layout
