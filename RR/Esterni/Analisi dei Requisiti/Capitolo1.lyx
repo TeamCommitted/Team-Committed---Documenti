@@ -80,7 +80,19 @@ Scopo del documento
 
 \begin_layout Standard
 Il presente documento si prefigge lo scopo di presentare al committente
- l'analisi dei requisiti effettuata dagli analisti del gruppo Team Committed
+ l'analisi dei requisiti effettuata dagli analisti del gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
  sul capitolato 
 \begin_inset Quotes erd
 \end_inset
@@ -137,17 +149,10 @@ Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
 \bar under
 PC
 \bar default
-, sia per quelli che hanno la necessità 
-\begin_inset space \space{}
-\end_inset
-
-di spostarsi e che quindi sono forniti di 
+, sia per quelli che hanno la necessità di spostarsi e che quindi sono forniti
+ di 
 \bar under
-tablet
-\bar default
-/
-\bar under
-smartphone
+dispositivi mobili
 \bar default
 .
  Ad essi verrano poste periodicamente domande, di varia tipologia, le cui
@@ -160,12 +165,10 @@ Glossario
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario_V1.0.pdf
+Glossario-V1.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -190,11 +193,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 proponente
 \bar default
  MENTIS S.r.l.
- 
-\begin_inset space \space{}
-\end_inset
-
-e reperibile all'indirizzo: http://www.math.unipd.it/
+ e reperibile all'indirizzo: http://www.math.unipd.it/
 \begin_inset ERT
 status open
 
@@ -211,7 +210,7 @@ tullio/IS-1/2011/Progetto/pC3.pdf
 \end_layout
 
 \begin_layout Itemize
-Norme di progetto-v1.0 che regola e accompagna tutti i file ufficiali del
+Norme di Progetto - V1.0 che regola e accompagna tutti i file ufficiali del
  progetto.
 \end_layout
 
@@ -222,7 +221,6 @@ Informativi
 \begin_layout Itemize
 
 \emph on
-\lang english
 Gabe Zichermann & Christopher Cunningam (2011),
 \series bold
 \emph default
@@ -235,7 +233,6 @@ Canada, O'REILLY Ed.
 \begin_layout Itemize
 
 \emph on
-\lang english
 Gabe Zichermann & Joselin Linder (2010), 
 \series bold
 \emph default

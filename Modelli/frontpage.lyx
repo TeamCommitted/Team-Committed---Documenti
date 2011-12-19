@@ -94,7 +94,7 @@ begin{center}
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename IMG/Logo_team_Label.jpg
+	filename img/Logo_team_Label.jpg
 	scale 33
 
 \end_inset
@@ -124,26 +124,8 @@ end{center}
 \shape smallcaps
 \size largest
 Universitá degli Studi di Padova
-\shape default
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-[1cm]
-\end_layout
-
-\end_inset
-
- 
-\shape smallcaps
 \size larger
-Team Committed 
+ 
 \shape default
 
 \begin_inset ERT

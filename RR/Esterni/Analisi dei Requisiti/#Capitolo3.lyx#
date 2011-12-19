@@ -75,7 +75,7 @@ Casi d' uso
 \end_layout
 
 \begin_layout Standard
-Di seguito sono presenti i casi d'uso identificati dal capitolato d'appalto
+Di seguito sono presenti i casi d' uso identificati dal capitolato d' appalto
  
 \series bold
 \bar under
@@ -111,7 +111,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Utente, caso d'uso generale.
+Ambito Utente, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -168,7 +168,7 @@ Azienda
 \series bold
 Scopo e Descrizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -206,7 +206,7 @@ Il sistema è funzionante, è stato creato un account sul database.
 
 Postcondizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -222,7 +222,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -230,7 +230,7 @@ Utente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -238,7 +238,7 @@ Utente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -304,12 +304,12 @@ Utente
 
 Scopo e Descrizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
- può recuperare la propria password (se non ha mai avuto accesso prima)
- oppure ottenerne una nuova.
+ può recuperare la propria password (se ha già effettuato almeno un accesso
+ corretto) oppure ottenerne una nuova.
 \series bold
 
 \begin_inset Newline newline
@@ -317,7 +317,7 @@ Utente
 
 Precondizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -330,7 +330,7 @@ Utente
 
 Postcondizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -345,7 +345,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -353,7 +353,7 @@ Utente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -430,7 +430,7 @@ Dipendente
 
 Precondizione:
 \series default
- Applicazione funzionante, l'
+ Applicazione funzionante, l' 
 \bar under
 Utente
 \bar default
@@ -446,7 +446,7 @@ Dipendente
 
 Postcondizione:
 \series default
- L'
+ L' 
 \bar under
 Utente
 \bar default
@@ -574,7 +574,7 @@ re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
 
 Precondizione: 
 \series default
-Applicazione funzionante, l'
+Applicazione funzionante, l' 
 \bar under
 Utente
 \bar default
@@ -590,7 +590,7 @@ Dipendente
 
 Postcondizione: 
 \series default
-L'
+L' 
 \bar under
 Utente
 \bar default
@@ -817,7 +817,7 @@ Dipendente
 \series bold
 Precondizione:
 \series default
- Applicazione funzionante, il 
+ applicazione funzionante, il 
 \bar under
 Dipendente
 \bar default
@@ -834,7 +834,7 @@ Il sistema visualizza una domanda come richiesto dal
 Dipendente
 \bar default
 .
- L'applicazione continua a funzionare.
+ L' applicazione continua a funzionare.
 \begin_inset Newline newline
 \end_inset
 
@@ -954,7 +954,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può vedere le domande a cui ha risposto e la/e risposta/e che ha dato
+ puo' vedere le domande a cui ha risposto e la/e risposta/e che ha dato
 \end_layout
 
 \begin_layout Enumerate
@@ -962,7 +962,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può vedere la propria posizione in classifica
+ puo' vedere la propria posizione in classifica
 \end_layout
 
 \begin_layout Enumerate
@@ -970,7 +970,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può vedere i propri trofei e badge
+ puo' vedere i propri trofei e badge
 \end_layout
 
 \begin_layout Enumerate
@@ -978,7 +978,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può vedere le proprie statistiche in base alle risposte date
+ puo' vedere le proprie statistiche in base alle risposte date
 \end_layout
 
 \begin_layout Subsubsection
@@ -1093,7 +1093,7 @@ Il
 \bar under
 Dipendente
 \bar default
-, dopo aver modificato o la password, o l'email, riceve la comunicazione
+, dopo aver modificato o la password, o l' email, riceve la comunicazione
  di conferma
 \end_layout
 
@@ -1162,7 +1162,7 @@ Sicurezza
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1178,7 +1178,7 @@ Sicurezza
 
 Precondizione:
 \series default
- Sistema funzionante con database di domande esistente e l'
+ Sistema funzionante con database di domande esistente e l' 
 \bar under
 Amministratore
 \bar default
@@ -1205,7 +1205,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1217,7 +1217,7 @@ Sicurezza
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1293,7 +1293,7 @@ Sicurezza
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1328,7 +1328,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1340,7 +1340,7 @@ Sicurezza
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1352,7 +1352,7 @@ Sicurezza
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1428,7 +1428,7 @@ Sicurezza
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1445,7 +1445,7 @@ Sicurezza
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1471,7 +1471,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1482,7 +1482,7 @@ Sicurezza
  aggiunge una domanda al database di domande specificando sempre il tipo
  della domanda, il testo della domanda, i testi delle rispsote, le risposte
  corrette, la categoria degli utenti, la pittaforma e il punteggio.
- Inoltre può specificare anche il percorso all'eventuale immagine o video
+ Inoltre puo' specificare anche il percorso all'eventuale immagine o video
  e il tempo per rispondere alla domanda
 \end_layout
 
@@ -1551,7 +1551,7 @@ Sicurezza
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1575,7 +1575,7 @@ Precondizione:
 
 Postcondizione:
 \series default
- La domanda è stata correttamente modificata secondo la scelta dell'
+ La domanda è stata correttamente modificata secondo la scelta dell' 
 \bar under
 Amministratore
 \bar default
@@ -1609,7 +1609,7 @@ Si può modificare la/e risposta/e corretta/e
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il percorso per l'immagine o il video
+Si può modificare il percorso per l' immagine o il video
 \end_layout
 
 \begin_layout Enumerate
@@ -1714,7 +1714,7 @@ Dipendente
 
 Precondizione:
 \series default
- Sistema funzionante con database di utenti funzionante, l'
+ Sistema funzionante con database di utenti funzionante, l' 
 \bar under
 Utente
 \bar default
@@ -1734,7 +1734,7 @@ Azienda
 
 Postcondizione:
 \series default
- L'
+ L' 
 \bar under
 Utente
 \bar default
@@ -1758,7 +1758,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1770,7 +1770,7 @@ Azienda
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1782,7 +1782,7 @@ Azienda
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1858,7 +1858,7 @@ Azienda
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1875,7 +1875,7 @@ Azienda
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -1917,7 +1917,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1937,7 +1937,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -1953,7 +1953,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2033,7 +2033,7 @@ Azienda
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2053,7 +2053,7 @@ Dipendente
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2091,7 +2091,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2178,7 +2178,7 @@ Azienda
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2220,7 +2220,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2234,7 +2234,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2248,7 +2248,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2262,7 +2262,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2276,7 +2276,7 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2366,7 +2366,7 @@ Autenticato
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2383,7 +2383,7 @@ Installatore
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2400,7 +2400,7 @@ Installatore
 
 Postcondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2408,9 +2408,9 @@ Amministratore
 \bar under
 Installatore
 \bar default
- ha effettuato il login o si è recato nell'azienda e ha installato il software
+ ha effettuato il login o si è recato nell' azienda e ha installato il software
  su ogni dispositivo richiesto.
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2433,7 +2433,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2455,7 +2455,7 @@ Autenticato
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2467,7 +2467,7 @@ Installatore
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2489,7 +2489,7 @@ Installatore
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2565,7 +2565,7 @@ Installatore
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2581,7 +2581,7 @@ Installatore
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2598,7 +2598,7 @@ Installatore
 
 Postcondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2606,7 +2606,7 @@ Amministratore
 \bar under
 Installatore
 \bar default
- si è recato nell'azienda e ha installato il software su ogni dispositivo
+ si è recato nell' azienda e ha installato il software su ogni dispositivo
  richiesto.
  Sistema funzionante.
 \series bold
@@ -2618,7 +2618,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2632,7 +2632,7 @@ dispositivi mobili
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2717,7 +2717,7 @@ Autenticato
 
 Scopo e Descrizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2737,7 +2737,7 @@ Autenticato
 
 Precondizione:
 \series default
- L'
+ L' 
 \bar under
 Amministratore
 \bar default
@@ -2769,7 +2769,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2785,7 +2785,7 @@ Autenticato
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2801,7 +2801,7 @@ Autenticato
 \end_layout
 
 \begin_layout Enumerate
-L'
+L' 
 \bar under
 Amministratore
 \bar default
@@ -2889,7 +2889,7 @@ Autenticato
 
 Scopo e Descrizione:
 \series default
- L'
+ L'  
 \bar under
 Amministratore
 \bar default
@@ -2909,7 +2909,7 @@ Autenticato
 
 Precondizione:
 \series default
- L'
+ L'  
 \bar under
 Amministratore
 \bar default
@@ -2941,7 +2941,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'
+L'  
 \bar under
 Amministratore
 \bar default

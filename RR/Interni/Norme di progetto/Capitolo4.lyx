@@ -73,7 +73,11 @@ name "sec:Repository"
 
 \begin_layout Standard
 Per un corretto e più rapido sviluppo delle risorse, sono inserite qui le
- specifiche del repository.
+ specifiche del 
+\bar under
+repository
+\bar default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -99,7 +103,11 @@ name "sub:Progetto"
 \end_layout
 
 \begin_layout Standard
-Il repository dell'intero progetto è possibile trovarlo all'indirizzo:
+Il
+\bar under
+ repository
+\bar default
+ dell'intero progetto è possibile trovarlo all'indirizzo:
 \begin_inset Newline newline
 \end_inset
 
@@ -140,7 +148,10 @@ end{center}
 
 \end_inset
 
-A questo indirizzo sarà possibile trovare una lista di tutti i repository
+A questo indirizzo sarà possibile trovare una lista di tutti i 
+\bar under
+repository
+\bar default
  creati.
 \end_layout
 
@@ -156,7 +167,11 @@ name "sub:Documentazione"
 \end_layout
 
 \begin_layout Standard
-L'indirizzo root del repository è: 
+L'indirizzo root del 
+\bar under
+repository
+\bar default
+ è: 
 \begin_inset Newline newline
 \end_inset
 
@@ -197,8 +212,12 @@ end{center}
 
 \end_inset
 
-Il repository è organizzato in maniera gerarchica per revisione ed è strutturato
- con la seguente struttura
+Il 
+\bar under
+repository
+\bar default
+ è organizzato in maniera gerarchica per revisione ed è strutturato con
+ la seguente struttura
 \begin_inset Foot
 status collapsed
 
@@ -299,7 +318,7 @@ frontpage.lyx
 \family default
 \series default
  è la pagina che genera in automatico la copertina di ogni documento.
- Dovrà essere inclusa come documento figlio.
+ Dovrà essere inclusa come documento figlio
 \end_layout
 
 \begin_layout Itemize
@@ -379,10 +398,20 @@ LaTeX
 Diario delle modifiche.
  
 \emph default
-La documentazione per il suo uso è all'interno del documento stesso.
+La documentazione per il suo uso è all'interno del documento stesso
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/Modelli/img/
+\family default
+\series default
+ contiene le immagini che tutti i documenti dovranno avere
+\end_layout
+
 \begin_layout Itemize
 
 \family typewriter
@@ -433,7 +462,7 @@ esterni
 \series default
  (questa differenziazione dovrà ripercuotersi a livello di cartella) e ogni
  documento dovrà essere inserito in una sua cartella dedicata, che conterrà
- anche le immagini specifiche di quel documento.
+ anche le immagini specifiche di quel documento
 \end_layout
 
 \begin_layout Subsubsection
@@ -448,8 +477,11 @@ name "sub:Codice"
 \end_layout
 
 \begin_layout Standard
-La struttura del repository del codice sorgente verrà decisa in fase di
- progettazione.
+La struttura del 
+\bar under
+repository
+\bar default
+ del codice sorgente verrà decisa in fase di progettazione.
 \end_layout
 
 \begin_layout Subsection
@@ -475,31 +507,22 @@ name "sub:Documentazione-1"
 \end_layout
 
 \begin_layout Itemize
-Il repository della documentazione dovrà contenere solamente file di testo
- in formato 
+
+\series bold
+Formati file
+\series default
+: il 
+\bar under
+repository
+\bar default
+ della documentazione dovrà contenere solamente file di testo in formato
+ 
 \family typewriter
 LyX
 \family default
- o 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
-, oltre che alla versione pronta per il rilascio di ogni documento in formato
- 
-\family typewriter
-PDF
-\family default
-.
- Le immagini dovranno essere in formato 
+; l
+\lang english
+e immagini dovranno essere in formato 
 \family typewriter
 PNG
 \family default
@@ -509,7 +532,11 @@ SVG
 \end_layout
 
 \begin_layout Itemize
-Una volta rilasciato un documento, si dovrà allegare il file 
+
+\series bold
+Documenti rilasciati
+\series default
+: una volta rilasciato un documento, si dovrà allegare il file 
 \family typewriter
 PDF
 \family default
@@ -528,7 +555,11 @@ name "sub:Codice-1"
 \end_layout
 
 \begin_layout Standard
-L'uso del repository del codice sorgente verrà decisa in fase di progettazione.
+L'uso del 
+\bar under
+repository
+\bar default
+ del codice sorgente verrà decisa in fase di progettazione.
 \end_layout
 
 \end_body

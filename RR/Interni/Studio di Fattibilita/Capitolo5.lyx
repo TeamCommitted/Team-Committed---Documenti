@@ -85,9 +85,21 @@ pc
 \bar under
 dispositivi mobili
 \bar default
- che utilizzino come sistema operativo Android, rispettando tutti i requisiti
- obbligatori e parte degli opzionali, rimanendo all'interno delle tempistiche
- e dei costi previsti.
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Che montino sistema operativo 
+\emph on
+\bar under
+Android
+\end_layout
+
+\end_inset
+
+, rispettando tutti i requisiti obbligatori e parte degli opzionali, rimanendo
+ all'interno delle tempistiche e dei costi preventivati.
  Le conoscenze possedute dal gruppo sono sufficienti alla comprensione e
  corretta risoluzione delle problematiche principali.
  Tuttavia, per alcuni particolari aspetti è richiesto un approfondimento,

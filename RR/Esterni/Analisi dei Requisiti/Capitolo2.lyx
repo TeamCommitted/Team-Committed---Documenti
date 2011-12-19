@@ -118,16 +118,18 @@ dipendente
 gamification
 \bar default
 , ogni utente dovrebbe essere invogliato a rispondere correttamente e di
- conseguenza essere sempre informato sulle tematiche.
- L'azienda in ogni momento potrà controllare lo stato delle risposte dei
- dipendenti e le rispettive classifiche per procedere con attività di analisi.
+ conseguenza essere sempre informato e aggiornato sulle tematiche riguardanti
+ la sicurezza sul lavoro.
+ L'azienda, in ogni momento, dovrà poter controllare lo stato delle risposte
+ dei dipendenti e le rispettive classifiche per procedere con attività di
+ analisi.
  Le domande caricate nel prodotto saranno differenti per ogni azienda, che
  potrà gestirle autonomamente.
 \begin_inset Newline newline
 \end_inset
 
-Il prodotto sarà utlizzabile da utenti con postazioni di lavoro fisse che
- utilizzano macchine con un qualsiasi sistema operativo, purchè connsse
+Il prodotto sarà utlizzabile da utenti sia con postazioni di lavoro fisse
+ che utilizzino dispositivi con un qualsiasi sistema operativo, purchè connsse
  alla rete, mediante interfaccia 
 \bar under
 web
@@ -153,7 +155,7 @@ Piattaforma d'esecuzione e interfacciamento con l'ambiente di installazione
 Il prodotto è utilizzabile da qualsiasi piattaforma fissa connessa alla
  rete, con una 
 \bar under
-java virtual machine
+Java Virtual Machine
 \bar default
  precedentemente installata e che disponga di almeno un 
 \bar under
@@ -171,7 +173,7 @@ Invece per quanto riguarda i
 \bar under
 dispositivi portatili
 \bar default
- basta che questi abbiano la possibilità di connettersi alla rete.
+ è sufficiente la possibilità di connessione alla rete Internet.
 \end_layout
 
 \begin_layout Subsection
@@ -182,11 +184,11 @@ Funzioni del prodotto
 Il prodotto fornirà ad un datore di lavoro la possibilità di definire delle
  domande relative alla sicurezza, di tipo teorico e pratico consigliate
  da esperti nel settore, che verranno somministrate periodicamente ai propri
- dipendenti per poi poterne analizzare le risposte e quindi trarne 
-\begin_inset space \space{}
-\end_inset
-
-conclusioni.
+ 
+\bar under
+dipendenti
+\bar default
+ per poi poterne analizzare le risposte.
 \begin_inset Newline newline
 \end_inset
 
@@ -194,17 +196,21 @@ Un
 \bar under
 dipendente
 \bar default
- a cui viene proposta una domanda, in modo completamente non invasivo, ha
- la possibilità di rispondere subito oppure rinviare la risposta ad un altro
- momento così che non venga disturbato o bloccato durante l'esecuzione del
- proprio lavoro.
+ a cui venga sottoposta una domanda, in modo completamente non invasivo,
+ avrà la possibilità di rispondere subito oppure rinviare la risposta ad
+ un altro momento così che non venga disturbato o bloccato durante lo svolgiment
+o del proprio lavoro.
 \begin_inset Newline newline
 \end_inset
 
-La risposta fornita ad una domanda comporta l'attribuzione di un punteggio
- che aggiorna la classifica aziendale, la quale dovrebbe funzionare da incentivo
- per ogni dipendente per rispondere in modo corretto e di conseguenza essere
- aggiornato sull'argomento.
+La risposta fornita ad una domanda comporerà l'attribuzione di un punteggio
+ che aggiornerà la classifica aziendale, la quale farà da incentivo per
+ ogni 
+\bar under
+dipendente
+\bar default
+ per rispondere in modo corretto e di conseguenza essere aggiornato sull'argomen
+to.
 \end_layout
 
 \begin_layout Standard

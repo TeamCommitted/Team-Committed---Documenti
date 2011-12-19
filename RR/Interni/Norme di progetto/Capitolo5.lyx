@@ -267,8 +267,11 @@ locale
 \end_inset
 
 ) secondo quanto scritto al suo interno.
- All'interno di LyX, invece, si dovrà andare in Documento->Impostazioni,
- selezionare nell'elenco di sinistra la voce 
+ All'interno di LyX, invece, si dovrà andare in 
+\emph on
+Documento->Impostazioni
+\emph default
+, selezionare nell'elenco di sinistra la voce 
 \emph on
 Preambolo di 
 \begin_inset ERT
@@ -292,6 +295,68 @@ LaTeX
 include{preface}
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Loghi:
+\series default
+ all'interno della cartella 
+\family typewriter
+/root/Modelli/img
+\family default
+ si troveranno i file 
+\family typewriter
+Logo_team_Label.jpg
+\family default
+ e 
+\family typewriter
+LogoTeam.jpg
+\family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+ rispettivamente indicati come 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo grande
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo piccolo
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Si dovrà creare all'interno della cartella del documento in lavorazione
+ una nuova cartella chiamata 
+\emph on
+img
+\emph default
+ e copiarvi all'interno il 
+\emph on
+logo piccolo
+\end_layout
+
 \begin_layout Standard
 Nel caso si rendessero necessarie delle modifiche al codice di uno di questi
  due file, si dovranno seguire le indicazioni descritte nella Sezione 
@@ -301,7 +366,11 @@ reference "sub:Comunicazioni-interne"
 
 \end_inset
 
-, con destinatario del ticket l'
+, con destinatario del
+\bar under
+ ticket
+\bar default
+ l'
 \begin_inset ERT
 status open
 
@@ -333,10 +402,14 @@ Allo scopo di uniformare lo stile tipografico utilizzato dai vari redattori
  nei vari documenti, si elencano qui una serie di regole riguardanti lo
  stile ortografico, tipografico e le varie assunzioni che possono essere
  riassunte in uno 
+\emph on
+
 \begin_inset Quotes eld
 \end_inset
 
 stile uniformato applicato ai vari documenti
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -419,9 +492,18 @@ il corsivo deve essere utilizzato nei seguenti casi:
 Citazioni:
 \series default
  quando si deve citare una o più frasi, queste devono essere scritte in
- corsivo.
- (ATTENZIONE! Le virgolette che contrassegnano una citazione non devono
- essere anch'esse in corsivo, ma in stile standard)
+ corsivo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Attenzione! Le virgolette che contrassegnano una citazione non devono essere
+ anch'esse in corsivo, ma in stile standard
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -452,12 +534,12 @@ status open
 
 
 \backslash
-ammProg)
+ammProg
 \end_layout
 
 \end_inset
 
-
+)
 \end_layout
 
 \begin_layout Itemize
@@ -486,7 +568,7 @@ status collapsed
 
 \begin_layout Plain Layout
 Non si considerano valide come occorrenze le parole all'interno dei titoli
- delle sezione, all'interno dei percorsi o all'interno di definizioni
+ delle sezione o all'interno dei percorsi
 \end_layout
 
 \end_inset
@@ -541,8 +623,7 @@ name "sub:Punteggiatura"
 Punteggiatura:
 \series default
  qualsiasi segno di punteggiatura non deve seguire un carattere di spaziatura,
- ma deve essere seguito da un carattere di spazio.
- 
+ ma deve essere seguito da un carattere di spazio
 \end_layout
 
 \begin_layout Itemize
@@ -551,7 +632,7 @@ Punteggiatura:
 Lettera maiuscola:
 \series default
  una lettera maiuscola deve seguire esclusivamente un punto, un punto esclamativ
-o o un punto interrogativo.
+o o un punto interrogativo
 \end_layout
 
 \begin_layout Itemize
@@ -899,7 +980,7 @@ nameproject
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_deeper
@@ -1022,7 +1103,9 @@ Tutte le immagini dovranno rigorosamente essere in formato
 \family typewriter
 PNG
 \family default
-.
+ o 
+\family typewriter
+JPG.
 \end_layout
 
 \begin_layout Standard
@@ -1189,27 +1272,10 @@ Utilizzo:
 \series bold
 Citazione di un documento:
 \series default
- ogni volta che si cita un documento, bisognerà inserire il suo acronimo
+ ogni volta che si cita un documento, bisognerà inserire il suo nome completo
  seguito dalla sua versione: 
 \family typewriter
-AD - V{X}.{Y}
-\family default
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-
-\series bold
-\size normal
-AD
-\series default
- = Acronimo Documento
-\end_layout
-
-\end_inset
-
-
+Documento di Esempio - V{X}.{Y}
 \end_layout
 
 \begin_layout Itemize
@@ -1256,6 +1322,23 @@ NomeDocumento V{X}.{Y} - Team Committed
 \emph default
 
 \begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Logo del Team
+\series default
+: posizionato nel frontespizio sulla sinistra.
+ Dovrà essere la versione ridotta del logo, come specificato in sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formattazione-e-copertina"
+
 \end_inset
 
 
@@ -1361,9 +1444,9 @@ Data redazione
 \series bold
 Redattori
 \series default
-, ovvero quali membri del gruppo hanno collaborato alla redazione del documento
+, ovvero coloro che hanno collaborato alla redazione del documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
@@ -1386,9 +1469,10 @@ Nel caso di più persone si dovrà utilizzare un elenco puntato per elencarle
 \series bold
 Verificatori
 \series default
-, ovvero quali membri del gruppo hanno collaborato alla verifica del documento
+, ovvero i nomi dei membri del gruppo hanno collaborato alla verifica del
+ documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 v.d.
@@ -1414,7 +1498,7 @@ Approvatori
 \series default
 , ovvero chi ha approvato la versione finale del documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 v.d.
@@ -1448,7 +1532,7 @@ Distribuzione
 \series default
 , ovvero la lista di persone che dovranno ricevere il documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 v.d.
@@ -1569,8 +1653,11 @@ documenti informali
 sempre
 \series default
  ad uso interno.
- Dovranno essere depositati nel repository dei documenti seguendo le norme
- descritte nella sezione 
+ Dovranno essere depositati nel 
+\bar under
+repository
+\bar default
+ dei documenti seguendo le norme descritte nella sezione 
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sub:Documentazione-1"
