@@ -141,8 +141,8 @@ hline
 
 		
 \backslash
-emph{Documento revisionato e approvato.} & Giorgio Maggiolo & 19/12/2011
- & 1.0 
+emph{COMMENTO ALLA MODIFICA} & Giorgio Maggiolo & DATA_MODIFICA & VERSIONE
+ 
 \backslash
 
 \backslash
@@ -153,10 +153,9 @@ hline
 
 \begin_layout Plain Layout
 
-       
+
 \backslash
-emph{Aggiornamento delle ore cadauno e totali.
- Revisione dell intero documento.} & Marco Begolo & 18/12/2011 & 0.8 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & DATA_MODIFICA & VERSIONE 
 \backslash
 
 \backslash
@@ -167,11 +166,9 @@ hline
 
 \begin_layout Plain Layout
 
-       
+
 \backslash
-emph{Creazione grafici.
- Scrittura capitolo 5 (preventivo) e sezione 3.6.} & Marco Begolo & 17/12/2011
- & 0.7 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & DATA_MODIFICA & VERSIONE 
 \backslash
 
 \backslash
@@ -182,10 +179,9 @@ hline
 
 \begin_layout Plain Layout
 
-       
+
 \backslash
-emph{Completato il capitolo 4 (Analisi dei rischi)} & Marco Begolo & 16/12/2011
- & 0.6 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & DATA_MODIFICA & VERSIONE 
 \backslash
 
 \backslash
@@ -196,10 +192,9 @@ hline
 
 \begin_layout Plain Layout
 
-       
+
 \backslash
-emph{Completate tutte le tabella per la ripartizione dei ruoli e la distribuzion
-e delle ore} & Marco Begolo & 13/12/2011 & 0.5 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & 13/12/2011 & VERSIONE 
 \backslash
 
 \backslash
@@ -210,9 +205,9 @@ hline
 
 \begin_layout Plain Layout
 
-       
+
 \backslash
-emph{Scrittura capitolo 1} & Marco Begolo & 12/12/2011 & 0.4 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & 12/12/2011 & VERSIONE 
 \backslash
 
 \backslash
@@ -223,10 +218,9 @@ hline
 
 \begin_layout Plain Layout
 
-      
+
 \backslash
-emph{Stesura di tutti i diagrammi di Gantt} & Marco Begolo & 10/12/2011
- & 0.3 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & 10/12/2011 & VERSIONE 
 \backslash
 
 \backslash
@@ -237,11 +231,9 @@ hline
 
 \begin_layout Plain Layout
 
-      
+
 \backslash
-emph{Eliminazione della sezione 2.4,  implementazione del ciclo di vita (sezione
- 3.1), avanzamento della sezione 3 fino al punto 3.3 incluso } & Marco Begolo
- & 07/12/2011 & 0.2 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & 07/12/2011 & VERSIONE 
 \backslash
 
 \backslash
@@ -252,14 +244,15 @@ hline
 
 \begin_layout Plain Layout
 
-     
+
 \backslash
-emph{Creazione documento, scrittura del documento fino dalla sezione 2 alla
- sezione 3.1 inclusa.} & Marco Begolo & 06/12/2011 & 0.1 
+emph{COMMENTO ALLA MODIFICA} & Marco Begolo & 06/12/2011 & VERSIONE 
 \backslash
 
 \backslash
  
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout

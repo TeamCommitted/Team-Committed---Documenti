@@ -1,6 +1,7 @@
 %% NON MODIFICARE QUESTE IMPOSTAZIONI
 \date{}
 \usepackage[latin9]{inputenc}
+\usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{ucs}
 \usepackage{lastpage}
@@ -10,8 +11,12 @@
 \fancyhead{}
 \fancyfoot{}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\fancyhead[RE, RO]{\doctitle \versiondoc - \TeamCommitted}
-\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\rhead{\doctitle \versiondoc - \TeamCommitted}
+\lhead{\setlength{\unitlength}{1mm}
+	\begin{picture}(0,0)
+		\put(5,0){\includegraphics[scale=0.05]{img/LogoTeam.jpg}}
+	\end{picture}}
+\cfoot{\thepage\ di \pageref{LastPage}}
 
 %%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
 \newcommand{\TeamCommitted}{\emph{Team Committed }}

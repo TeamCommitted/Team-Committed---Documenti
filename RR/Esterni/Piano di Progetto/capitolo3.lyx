@@ -137,7 +137,11 @@ modello incrementale
 \series default
 .
  La scelta è stata determinata dalle caratteristiche del progetto e del
- proponente.
+ 
+\bar under
+proponente
+\bar default
+.
  In particolare, le caratteristiche sono le seguenti:
 \end_layout
 
@@ -163,9 +167,13 @@ Progettazione Architetturale
 \series bold
 Incontro proponente-gruppo
 \series default
-: crediamo che la massima disponibilità del proponente all'incontro e alla
- discussione sia essenziale nel determinare i punti fondamentali del progetto
- ed a distinguerli dalle funzionalità opzionali e desiderabili
+: crediamo che la massima disponibilità del 
+\bar under
+proponente
+\bar default
+ all'incontro e alla discussione sia essenziale nel determinare i punti
+ fondamentali del progetto ed a distinguerli dalle funzionalità opzionali
+ e desiderabili
 \end_layout
 
 \begin_layout Standard
@@ -413,8 +421,8 @@ reference "tab:Riassuntivo-delle-ore-RR"
 
 \end_inset
 
- per ogni componente e' previsto un lavoro medio di 20,3 ore, per un totale
- di 142 ore.
+ per ogni componente e' previsto un lavoro medio di 19,7 ore, per un totale
+ di 138 ore.
 \end_layout
 
 \begin_layout Standard
@@ -422,8 +430,12 @@ Dal momento che la fase di
 \emph on
 Analisi
 \emph default
- non è a carico del committente, le ore sopra esposte non verranno monetizzate
- e, conseguentemente, non saranno messe a preventivo.
+ non è a carico del 
+\bar under
+committente
+\bar default
+, le ore sopra esposte non verranno monetizzate e, conseguentemente, non
+ saranno messe a preventivo.
 \end_layout
 
 \begin_layout Standard
@@ -718,8 +730,8 @@ reference "tab:Ripartizione-dei-ruoli-RP"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 25.1 ore, per un totale di
- 176 ore di lavoro.
+ per ogni membro è previsto un lavoro medio di 27,6 ore, per un totale di
+ 193 ore di lavoro.
 \end_layout
 
 \begin_layout Subsection
@@ -995,8 +1007,8 @@ reference "tab:Ripartizione-dei-ruoli-RQ"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 51.3 ore, per un totale di
- 359 ore di lavoro.
+ per ogni membro è previsto un lavoro medio di 53,3 ore, per un totale di
+ 373 ore di lavoro.
 \end_layout
 
 \begin_layout Subsection
@@ -1247,8 +1259,8 @@ reference "tab:Ripartizione-dei-ruoli-RA"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 17,2 ore cadauno, per un
- totale di 120 ore di lavoro.
+ per ogni membro è previsto un lavoro medio di 17,7 ore cadauno, per un
+ totale di 124 ore di lavoro.
 \end_layout
 
 \begin_layout Subsection
@@ -1266,6 +1278,21 @@ reference "tab:Ripartizione-dei-ruoli-finale"
 \end_inset
 
 , nonostante ci si avvicini di molto.
+ Chiaramente, il limite fa riferimento alle sole fasi di 
+\emph on
+Progettazione Architetturale
+\emph default
+, 
+\emph on
+Progettazione di Dettaglio
+\emph default
+ e Codifica e 
+\emph on
+Verifica e Validazione
+\emph default
+.
+ La fase di Analisi non è inclusa in quanto non verrà valutata per il calcolo
+ del preventivo.
  Segue la tabella 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1274,6 +1301,7 @@ reference "tab:Ripartizione-dei-ruoli-finale"
 \end_inset
 
  con il riassuntivo delle ore svolte da ogni membro per ogni ruolo.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1308,41 +1336,81 @@ scalebox{0.6}{
 begin{tabular}{|c|c|c|c|c|c|c|c|} 
 \backslash
 hline  Membro & Responsabile & Amministratore & Analista & Verificatore
- & Progettista & Programmatore & Totale
+ & Progettista & Programmatore & Totale 
 \backslash
 tabularnewline 
 \backslash
 hline  
 \backslash
-hline  Begolo Marco & 13 & 3 & 18 & 25 & 32 & 12 & 103
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+Begolo Marco & 4 & 10 & 12 & 10 & 57 & 4 & 97
 \backslash
 tabularnewline 
 \backslash
-hline  Braghetto Lorenzo & 4 & 11 & 10 & 28 & 31 & 19 & 103
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+Braghetto Lorenzo & 9 & 11 & 0 & 20 & 36 & 23 & 99
 \backslash
 tabularnewline 
 \backslash
-hline  Cornaglia Alessandro & 16  & 10  & 17  & 25  & 12  & 23 & 103
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Cornaglia Alessandro & 10 & 4 & 6 & 27 & 24 & 28 & 99
 \backslash
 tabularnewline 
 \backslash
-hline  Dalla Pietà Massimo & 15 & 5 & 11 & 31 & 24 & 18 & 104
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Dalla Pietà Massimo & 15 & 4 & 0 & 31 & 34 & 18 & 102
 \backslash
 tabularnewline 
 \backslash
-hline  Facchin Gabriele & 9 & 10 & 11 & 34 & 27 & 12 & 103
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Facchin Gabriele & 13 & 10 & 0 & 33 & 29 & 12 & 97
 \backslash
 tabularnewline 
 \backslash
-hline  Maggiolo Giorgio & 12 & 10 & 12 & 31 & 21 & 18 & 104
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Maggiolo Giorgio & 2 & 8 & 12 & 51 & 6 & 18 & 97
 \backslash
 tabularnewline 
 \backslash
-hline  Quadrio Gacomo & 4 & 5 & 10 & 29 & 31 & 24 & 103
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Quadrio Gacomo & 6 & 2 & 0 & 27 & 31 & 33 & 99
 \backslash
 tabularnewline 
 \backslash
-hline  Totale & 73 & 54 & 89 & 203 & 178 & 126 & 723
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Totale & 59 & 49 & 30 & 199 & 233 & 120 & 690
 \backslash
 tabularnewline 
 \backslash
@@ -1387,8 +1455,8 @@ Riassuntivo orario per componente
 \end_layout
 
 \begin_layout Standard
-L'intero progetto richiederà quindi un totale di 723 ore di lavoro, con
- una media di 103,3 ore a testa.
+L'intero progetto richiederà quindi un totale di 690 ore di lavoro, con
+ una media di 98,6 ore a testa.
  La tabella viene riassunta nel grafico in figura 
 \begin_inset CommandInset ref
 LatexCommand ref
