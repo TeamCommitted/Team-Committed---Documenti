@@ -111,11 +111,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Utente
-\bar default
-, caso d' uso generale.
+Ambito Utente, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -165,9 +161,9 @@ Amministratore
 Azienda
 \bar default
 .
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Scopo e Descrizione: 
@@ -195,19 +191,19 @@ Autenticato
 \bar default
  può effettuare il logout e compiere le azioni proprie del tipo di autenticazion
 e effettuata.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione: 
 \series default
 Il sistema è funzionante, è stato creato un account sul database.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione: 
 \series default
 L' 
@@ -217,11 +213,11 @@ Utente
  è operativo a seconda dei suoi poteri, le modifiche vengono salvate in
  modo corretto.
  Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -279,11 +275,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Utente
-\bar default
-, recupero password dimenticata.
+Ambito Utente, recupero password dimenticata.
 \end_layout
 
 \end_inset
@@ -305,11 +297,11 @@ Attori coinvolti:
 Utente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione: 
 \series default
 L' 
@@ -318,11 +310,11 @@ Utente
 \bar default
  può recuperare la propria password (se non ha mai fatto un accesso) o ottenerne
  una nuova.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione: 
 \series default
 L' 
@@ -331,11 +323,11 @@ Utente
 \bar default
  ha dimenticato la propria password e non ha effettuato il login.
  Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione: 
 \series default
 L' 
@@ -344,9 +336,9 @@ Utente
 \bar default
  riceve una mail con la propria password.
  Il sistema è funzionante.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Flusso principale degli eventi: 
@@ -394,11 +386,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, caso d' uso generale.
+Ambito Dipendente, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -420,11 +408,11 @@ Attori Coinvolti:
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione: 
 \series default
 Al 
@@ -435,11 +423,11 @@ Dipendente
  che gliene venga proposta una in ogni momento e deve poter visualizzare
  i suoi punteggi in qualsiasi momento.
  Può inoltre modificare o visualizzare i propri dati personali.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Applicazione funzionante, l' 
@@ -451,11 +439,11 @@ Utente
 Dipendente
 \bar default
  nel sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  L' 
@@ -469,11 +457,11 @@ Dipendente
  ed ha effettuato una o più delle operazioni consentite rimanendo in uno
  stato consistente.
  L' applicazione continua a funzionare.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -544,11 +532,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, domanda proposta.
+Ambito Dipendente, domanda proposta.
 \end_layout
 
 \end_inset
@@ -570,11 +554,11 @@ Attori Coinvolti:
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  Al 
@@ -583,11 +567,11 @@ Dipendente
 \bar default
  viene segnalata una domanda dal sistema e lui deve poter decidere se visualizza
 re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione: 
 \series default
 Applicazione funzionante, l' 
@@ -599,11 +583,11 @@ Utente
 Dipendente
 \bar default
  nel sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione: 
 \series default
 L' 
@@ -616,11 +600,11 @@ Dipendente
 \bar default
  ed ha visualizzato o posticipato la domanda proposta.
  L' applicazione continua a funzionare.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -668,11 +652,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, mostra domanda.
+Ambito Dipendente, mostra domanda.
 \end_layout
 
 \end_inset
@@ -695,11 +675,11 @@ Attori Coinvolti:
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione: 
 \series default
 La domanda mostrata al 
@@ -713,11 +693,11 @@ Dipendente
 \bar default
  deve rispondere alla domanda mostrata.
  
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Il 
@@ -725,11 +705,11 @@ Precondizione:
 Dipendente
 \bar default
  ha scelto di visualizzare la domanda proposta dal sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Il 
@@ -737,11 +717,11 @@ Postcondizione:
 Dipendente
 \bar default
  ha risposto alla domanda proposta dal sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -788,11 +768,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, richiesta domanda.
+Ambito Dipendente, richiesta domanda.
 \end_layout
 
 \end_inset
@@ -815,9 +791,9 @@ Attori Coinvolti:
 Dipendente
 \bar default
 .
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Scopo e Descrizione:
@@ -826,14 +802,15 @@ Scopo e Descrizione:
 \bar under
 Dipendente
 \bar default
- ogni qualvolta esso lo richieda se il 
+ ogni qualvolta esso lo richieda.
+ Prima che il 
 \bar under
 Dipendente
 \bar default
- non ne ha già richiesta una da poco.
-\end_layout
+ possa richiedere un'altra domand deve passare una data quantita' di tempo
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Precondizione:
@@ -843,9 +820,9 @@ Precondizione:
 Dipendente
 \bar default
  ha richiesto che gli venga proposta una domanda dal sistema.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Postcondizione: 
@@ -856,9 +833,9 @@ Dipendente
 \bar default
 .
  L' Applicazione continua a funzionare.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Flusso principale degli eventi: 
@@ -903,11 +880,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, visione punteggi personali.
+Ambito Dipendente, visione punteggi personali.
 \end_layout
 
 \end_inset
@@ -930,11 +903,11 @@ Attori Coinvolti:
 Dipendente
 \bar default
 .Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  Il 
@@ -942,11 +915,11 @@ Scopo e Descrizione:
 Dipendente
 \bar default
  controlla i propri punteggi (punti, badge, domande).
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Il 
@@ -954,11 +927,11 @@ Precondizione:
 Dipendente
 \bar default
  vuole controllare i propri punteggi, l' applicazione è funzionante
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Il sistema visualizza tutte le statistiche di un 
@@ -966,11 +939,11 @@ Postcondizione:
 Dipendente
 \bar default
 , l'applicazione continua a funzionare.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -979,7 +952,31 @@ Il
 \bar under
 Dipendente
 \bar default
- prende visione di tutte le sue statistiche
+ puo' vedere le domande a cui ha risposto e la/e risposta/e che ha dato
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ puo' vedere la propria posizione in classifica
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ puo' vedere i propri trofei e badge
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ puo' vedere le proprie statistiche in base alle risposte date
 \end_layout
 
 \begin_layout Subsubsection
@@ -1009,11 +1006,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
-\bar under
-Dipendente
-\bar default
-, modifica dati account.
+Ambito Dipendente, modifica dati account.
 \end_layout
 
 \end_inset
@@ -1035,11 +1028,11 @@ Attori coinvolti:
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione: 
 \series default
 Il 
@@ -1047,11 +1040,11 @@ Il
 Dipendente
 \bar default
  può modificare la propria password o la propria email.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Il 
@@ -1060,20 +1053,20 @@ Dipendente
 \bar default
  ha effettuato il login.
  Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione: 
 \series default
 Le modifiche sono state salvate in modo corretto.
  Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -1099,7 +1092,7 @@ Il
 Dipendente
 \bar default
 , dopo aver modificato o la password, o l' email, riceve la comunicazione
- di comferma
+ di conferma
 \end_layout
 
 \begin_layout Subsection
@@ -1129,15 +1122,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Sicurezza
 \bar default
-, caso d' uso generale.
+Sicurezza, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -1164,11 +1153,11 @@ Amministratore
 Sicurezza
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -1180,11 +1169,11 @@ Amministratore
 Sicurezza
 \bar default
  può modificare il database di domande o consultare le domande.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Sistema funzionante con database di domande esistente e l' 
@@ -1196,20 +1185,20 @@ Amministratore
 Sicurezza
 \bar default
  ha effettuato il login.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Sistema funzionante con database di domande consistente per i requisiti
  di sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -1264,15 +1253,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Sicurezza
 \bar default
-, modifica database.
+Sicurezza, modifica database.
 \end_layout
 
 \end_inset
@@ -1299,11 +1284,11 @@ Amministratore
 Sicurezza
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -1315,28 +1300,28 @@ Amministratore
 Sicurezza
 \bar default
  può modificare il database di domande tramite operazioni fondamentali.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Sistema funzionante con database di domande esistente.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
 \series bold
 Postcondizione:
 \series default
  Sistema funzionante con database di domande consistente per i requisiti
  di sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -1403,15 +1388,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Sicurezza
 \bar default
-, aggiungi domanda.
+Sicurezza, aggiungi domanda.
 \end_layout
 
 \end_inset
@@ -1438,11 +1419,11 @@ Amministratore
 Sicurezza
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -1455,11 +1436,11 @@ Sicurezza
 \bar default
  può aggiungere una domanda specificando i vari parametri propri per la
  domanda in questione.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -1471,19 +1452,19 @@ Amministratore
 Sicurezza
 \bar default
  conosce tutti i parametri per la nuova domanda.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Vi è una domanda in più nel database di domande.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -1496,7 +1477,11 @@ Amministratore
 \bar under
 Sicurezza
 \bar default
- aggiunge una domanda al database di domande specificandone i contenuti
+ aggiunge una domanda al database di domande specificando sempre il tipo
+ della domanda, il testo della domanda, i testi delle rispsote, le risposte
+ corrette, la categoria degli utenti, la pittaforma e il punteggio.
+ Inoltre puo' specificare anche il percorso all'eventuale immagine o video
+ e il tempo per rispondere alla domanda
 \end_layout
 
 \begin_layout Subsubsection
@@ -1526,15 +1511,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Sicurezza
 \bar default
-, modifica domanda.
+Sicurezza, modifica domanda.
 \end_layout
 
 \end_inset
@@ -1561,11 +1542,11 @@ Amministratore
 Sicurezza
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -1577,19 +1558,19 @@ Amministratore
 Sicurezza
 \bar default
  può modificare la domanda in ogni sua parte.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Esiste la domanda nel database di domande.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  La domanda è stata correttamente modificata secondo la scelta dell' 
@@ -1601,11 +1582,11 @@ Amministratore
 Sicurezza
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -1672,15 +1653,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Azienda
 \bar default
-, caso d' uso generale.
+Azienda, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -1707,11 +1684,11 @@ Amministratore
 Azienda
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  Un 
@@ -1728,11 +1705,11 @@ Dipendente
 \bar default
  della sua azienda, inoltre ha la possibilità di gestire gli account dei
  Dipendenti.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Sistema funzionante con database di utenti funzionante, l' 
@@ -1748,11 +1725,11 @@ Amministratore
 Azienda
 \bar default
  nel sistema.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  L' 
@@ -1770,11 +1747,11 @@ Azienda
  ed ha effettuato una delle operazioni consentite rimanendo in uno stato
  consistente.
  Il sistema è funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi:
 \end_layout
 
@@ -1841,15 +1818,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Azienda
 \bar default
-, gestione dipendenti.
+Azienda, gestione dipendenti.
 \end_layout
 
 \end_inset
@@ -1876,11 +1849,11 @@ Amministratore
 Azienda
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -1893,11 +1866,11 @@ Azienda
 \bar default
  può aggiungere od eliminare account Dipendenti nel database, inoltre può
  modificare i dati personali contenuti negli account.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -1915,11 +1888,11 @@ Dipendente
 , è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
  database.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Nel database di Dipendenti è presente un nuovo account 
@@ -1933,11 +1906,11 @@ Dipendente
  già presente è stato eliminato oppure i dati di un account già presente
  è stato modificato.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi:
 \end_layout
 
@@ -2020,19 +1993,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Azienda
 \bar default
-, aggiungi 
-\bar under
-Dipendente
-\bar default
-.
+Azienda, aggiungi Dipendente.
 \end_layout
 
 \end_inset
@@ -2059,11 +2024,11 @@ Amministratore
 Azienda
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -2079,11 +2044,11 @@ Azienda
 Dipendente
 \bar default
  al database dei Dipendenti.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -2103,11 +2068,11 @@ Dipendente
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Nel database di Dipendenti è presente un nuovo account 
@@ -2115,11 +2080,11 @@ Postcondizione:
 Dipendente
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi:
 \end_layout
 
@@ -2166,19 +2131,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Azienda
 \bar default
-, modifica dati 
-\bar under
-Dipendente
-\bar default
-.
+Azienda, modifica dati Dipendente.
 \end_layout
 
 \end_inset
@@ -2205,11 +2162,11 @@ Amministratore
 Azienda
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -2225,11 +2182,11 @@ Azienda
 Dipendente
 \bar default
  che lui stesso non può modificare.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  Il 
@@ -2237,19 +2194,19 @@ Precondizione:
 Dipendente
 \bar default
  esiste nel database dei Dipendenti.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Il database dei Dipendenti è stato correttamente aggiornato.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi:
 \end_layout
 
@@ -2350,15 +2307,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Installatore
 \bar default
-, caso d' uso generale.
+Installatore, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -2397,11 +2350,11 @@ Installatore
 Autenticato
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -2414,11 +2367,11 @@ Installatore
 \bar default
  può effettuare il login e gestire il server globale delle aziende oppure
  installare il software nella azienda relativa.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -2431,11 +2384,11 @@ Installatore
 \bar default
  effettua il lavoro solo sotto incarico.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  L' 
@@ -2462,11 +2415,11 @@ Autenticato
 \bar default
  ha effettuato il logout o ha gestito il server globale delle aziende.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -2565,15 +2518,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
-Installatore
 \bar default
-, installazione software.
+Installatore, installazione software.
 \end_layout
 
 \end_inset
@@ -2600,11 +2549,11 @@ Amministratore
 Installatore
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -2616,11 +2565,11 @@ Amministratore
 Installatore
 \bar default
  si reca nella azienda richiedente ad installare il software.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -2633,11 +2582,11 @@ Installatore
 \bar default
  effettua il lavoro solo sotto incarico.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  L' 
@@ -2651,11 +2600,11 @@ Installatore
  si è recato nell' azienda e ha installato il software su ogni dispositivo
  richiesto.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -2668,7 +2617,9 @@ Amministratore
 \bar under
 Installatore
 \bar default
- può installare il software sui dispositivi mobili
+ può installare il software sui 
+\bar under
+dispositivi mobili
 \end_layout
 
 \begin_layout Enumerate
@@ -2711,19 +2662,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
+\bar default
 Installatore
-\bar default
- 
 \bar under
-Autenticato
+ 
 \bar default
-, gestione server aziende.
+Autenticato, gestione server aziende.
 \end_layout
 
 \end_inset
@@ -2754,11 +2701,11 @@ Installatore
 Autenticato
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L' 
@@ -2774,11 +2721,11 @@ Installatore
 Autenticato
 \bar default
  può gestire il server aziende.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L' 
@@ -2795,20 +2742,20 @@ Autenticato
 \bar default
  effettua il lavoro solo sotto incarico, esiste il database delle aziende.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Il database delle aziende esiste ed è consistente.
  Sistema funzionante.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -2887,19 +2834,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito 
+Ambito Amministratore
 \bar under
-Amministratore
-\bar default
  
-\bar under
+\bar default
 Installatore
-\bar default
- 
 \bar under
-Autenticato
+ 
 \bar default
-, aggiungi azienda.
+Autenticato, aggiungi azienda.
 \end_layout
 
 \end_inset
@@ -2930,11 +2873,11 @@ Installatore
 Autenticato
 \bar default
 .
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Scopo e Descrizione:
 \series default
  L'  
@@ -2950,11 +2893,11 @@ Installatore
 Autenticato
 \bar default
  può aggiungere una azienda.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Precondizione:
 \series default
  L'  
@@ -2972,19 +2915,19 @@ Autenticato
  effettua il lavoro solo sotto incarico, esiste il database delle aziende,
  conosce i dati della azienda.
  
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Postcondizione:
 \series default
  Il database delle aziende esiste ed è consistente.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Flusso principale degli eventi: 
 \end_layout
 
@@ -2997,7 +2940,8 @@ Amministratore
 \bar under
 Installatore
 \bar default
- aggiunge i dati di una azienda
+ aggiunge i dati di una azienda che sono composti da: nome dell'azienda,
+ l'indirizzo al server dati, l'username dell'azienda e la password
 \end_layout
 
 \end_body
