@@ -1159,7 +1159,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RQO 4 & Le interfacce che saranno visibili ai 
+		RQOB 4 & Le interfacce che saranno visibili ai 
 \backslash
 uline{dipendenti} dovranno essere accattivanti e le funzionalità quanto
  più intuitive, così da invogliare l'utilizzo & Interno 
@@ -1354,7 +1354,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RVO 4 & Le funzioni del sistema offerte al 
+		RVOB 4 & Le funzioni del sistema offerte al 
 \backslash
 uline{Dipendente} devono essere fruibili tramite interfaccia 
 \backslash
