@@ -86,8 +86,10 @@ Il presente documento si prefigge lo scopo di presentare al committente
 \end_inset
 
 
+\series bold
 \bar under
 Piattaforma Mobile di Apprendimento Comportamentale
+\series default
 \bar default
 
 \begin_inset Quotes erd
@@ -105,8 +107,10 @@ Scopo del prodotto
 
 \begin_layout Standard
 Il prodotto denominato 
+\series bold
 \bar under
 SafetyGame
+\series default
 \bar default
  si propone di fornire uno strumento informatico per la gestione delle pratiche
  di sicurezza sul lavoro in modo dinamico, evitando corsi di formazione
@@ -116,9 +120,9 @@ ti.
 
 \begin_layout Standard
 Lo strumento si basa sul concetto di 
+\series bold
 \bar under
 gamification
-\series bold
 \bar default
  
 \series default
@@ -181,7 +185,11 @@ Capitolato d'Appalto:
 Piattaforma Mobile di Apprendimento Comportamentale
 \series default
 \bar default
-, v1.1, rilasciato dal proponente MENTIS S.r.l.
+, v1.1, rilasciato dal 
+\bar under
+proponente
+\bar default
+ MENTIS S.r.l.
  
 \begin_inset space \space{}
 \end_inset
