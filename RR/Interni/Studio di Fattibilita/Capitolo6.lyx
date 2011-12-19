@@ -1,42 +1,60 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass article
 \use_default_options true
+\maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding auto
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize default
 \use_hyperref false
 \papersize default
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -50,15 +68,29 @@ Capitolato C01 - Spectral Analysis for Kinetic Estimation
 \end_layout
 
 \begin_layout Standard
-Il gruppo ha analizzato a fondo questo capitolato, in quanto e' molto utile
- dal punto di vista etico e interessante per quanto riguarda la trasformazione
+Il gruppo ha analizzato a fondo questo capitolato, in quanto molto interessante
+ dal punto di vista etico e stimolante per quanto riguarda la trasformazione
  di immagini da due a quattro dimensioni.
- In piu' il fatto che venivano date sia immagini di prova che gli algoritmi
+ In più il fatto che venivano date sia immagini di prova che gli algoritmi
  ci aveva dato l'idea della concretezza del progetto.
- Tuttavia, gli ostacoli per molti di noi sono stati: la redazione della
- maggior parte dei documenti in inglese e lo studio approfondito da parte
- di tutti della tecnologia per la renderizzazione di immagini mediche, le
- quali sono non sono diffuse abbastanza.
+ Tuttavia, gli ostacoli per molti di noi sono stati: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lingua
+\series default
+: la redazione della maggior parte dei documenti in inglese
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tecnologie
+\series default
+: lo studio approfondito da parte di tutti della tecnologia per la renderizzazio
+ne di immagini mediche, la cui documentazione non è facilmente reperibile
 \end_layout
 
 \begin_layout Subsubsection
@@ -68,8 +100,8 @@ Individuazione dei rischi
 \begin_layout Standard
 La richiesta di studio approfondito della trasformazione di immagini, la
  redazione in inglese dei testi e lo studio su come estrapolare i dati che
- interessano al programma da delle immagini ci ha fatto scartare questo
- capitolato, nonostante la sua concretezza applicativa.
+ interessano al programma da immagini ci ha fatto scartare questo capitolato,
+ nonostante la sua concretezza applicativa.
 \end_layout
 
 \begin_layout Subsection
@@ -77,15 +109,41 @@ Capitolato C02 - Password Wallet
 \end_layout
 
 \begin_layout Standard
-Il gruppo ha ritenuto il concetto base di questo progetto profondamente
- sbagliata, in quanto inviare in Internet le proprie password, anche se
- crittografate, corrisponde a una sicurezza nella perdita di dati.
-\begin_inset Newline newline
-\end_inset
+Il gruppo ha ritenuto questo capitolato molto interessante dal punto di
+ vista delle tecnologie da utilizzare: il cloud computing, 
+\bar under
+l'HTML5
+\bar default
+ e lo sviluppo per dispositivi mobile risultano infatti molto allettanti.
+ Tuttavia la creazione di un password wallet in rete non è stato ritenuto
+ sufficientemente interessante a noi membri del gruppo in quanto:
+\end_layout
 
-Oltre al fatto che applicativi del genere esistono gia e normalmente sono
- integrati all'interno del browser o comunque al sicuro all'interno del
- pc e non alla merce' di chiunque all'interno della rete.
+\begin_layout Itemize
+
+\series bold
+Software già disponibili
+\series default
+: esistono già strumenti che offrono funzionalità simili.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tecnologie
+\series default
+: l'utilizzo di nuove ed interessanti tecnologie è previsto anche da altri
+ capitolati
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sicurezza
+\series default
+: il capotolato richiede un elevato studio della sicurezza in rete, tema
+ molto delicato e a cui non titti i membri del gruppo erano interessati
 \end_layout
 
 \begin_layout Subsubsection
@@ -93,9 +151,9 @@ Individuazione dei rischi
 \end_layout
 
 \begin_layout Standard
-Data l'elevata presenza di software simili, sicuramente piu' sicuri e il
- relativo ritorno economico troppo scarso, il rapporto tra rischi di produzione
- e ricavi e' sfavorevole
+Data l'elevata presenza di software simili e l'elevata attenzione verso
+ la sicurezza dei dati trattati ha fatto emergere un rapporto tra rischi
+ di produzione e ricavi sfavorevole.
 \end_layout
 
 \begin_layout Subsection
@@ -103,12 +161,31 @@ Capitolato C04 - EQuery
 \end_layout
 
 \begin_layout Standard
-Il gruppo dopo attenta analisi ha constatato la realizzazione di una interfaccia
- grafica intuitiva e' molto soggettiva e che l'obbligatorieta' a gestire
- due database implica la traduzione delle query create tramite l'interfaccia
- (che gia' e' stato valutato un rischio molto elevato) in almeno due linguaggi,
- il che complica ulteriormente e inutilmente un progetto di cui non ne riconosci
-amo l'effettiva utilita'.
+Il gruppo, dopo attenta analisi del capitolato, ha trovato interessante
+ la richiesta di dover sviluppare il software con tecniche agile e l'impiego
+ di nuove tecnologie.
+ Nonostante ciò, gli svantaggi rilevati sono stati tali da non farci propendere
+ verso EQuery.
+ Nel dettaglio:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfaccia
+\series default
+: la realizzazione di una interfaccia grafica intuitiva è molto soggettiva
+ e quindi di difficile realizzazione 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Database
+\series default
+: l'obbligatorietà di gestire due tipologie di database implica la traduzione
+ delle query create tramite l'interfaccia in almeno due linguaggi, elemento
+ che complica parecchio il lavoro da svolgere
 \end_layout
 
 \begin_layout Subsubsection
@@ -116,7 +193,7 @@ Individuazione dei rischi
 \end_layout
 
 \begin_layout Standard
-I requisiti composti da studio di una interfaccia semplice, la gestione
+I requisiti composti dallo studio di una interfaccia semplice, la gestione
  di due parser e il controllo dell'SQL generato automaticamente dall'interfaccia
  ha reso il progetto non appetibile.
  
