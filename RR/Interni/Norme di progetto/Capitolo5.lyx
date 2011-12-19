@@ -366,10 +366,15 @@ il grassetto può essere usato in differenti situazioni:
 \begin_layout Itemize
 
 \series bold
-Elenchi (puntati o meno): 
+Elenchi puntati: 
 \series default
 in questi casi è d'obbligo usare il grassetto per evidenziare il concetto
- esplicato poi nella continuazione del punto trattato
+ esplicato poi nella continuazione del punto trattato.
+ Gli 
+\emph on
+elenchi numerati
+\emph default
+ non sono soggetti a questa norma
 \end_layout
 
 \begin_layout Itemize

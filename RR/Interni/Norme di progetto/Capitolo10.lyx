@@ -275,7 +275,7 @@ indica la classe del requisito.
 \begin_layout Itemize
 
 \series bold
-Ob: 
+OB: 
 \series default
 requisito obbligatorio
 \end_layout
@@ -291,7 +291,7 @@ requisito desiderabile
 \begin_layout Itemize
 
 \series bold
-Op:
+OP:
 \series default
  requisito opzionale
 \end_layout

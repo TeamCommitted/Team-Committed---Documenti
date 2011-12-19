@@ -71,20 +71,22 @@
 \begin_body
 
 \begin_layout Section
-3 Casi d' uso
+Casi d' uso
 \end_layout
 
 \begin_layout Standard
 Di seguito sono presenti i casi d' uso identificati dal capitolato d' appalto
  
 \series bold
+\bar under
 Piattaforma Mobile di Apprendimento Comportamentale
 \series default
+\bar default
 .
 \end_layout
 
 \begin_layout Subsection
-3.1 Ambito Utente, caso d' uso generale
+Ambito Utente, caso d'uso generale
 \end_layout
 
 \begin_layout Standard
@@ -109,7 +111,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Utente, caso d' uso generale.
+Ambito 
+\bar under
+Utente
+\bar default
+, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -127,8 +133,38 @@ Ambito Utente, caso d' uso generale.
 \series bold
 Attori coinvolti: 
 \series default
-Utente, Utente Autenticato, Dipendente, Amministratore Sicurezza, Amministratore
- Azienda.
+\bar under
+Utente
+\bar default
+, 
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -136,10 +172,29 @@ Utente, Utente Autenticato, Dipendente, Amministratore Sicurezza, Amministratore
 \series bold
 Scopo e Descrizione: 
 \series default
-L' Utente può effettuare il login, diventando Utente Autenticato, o recuperare
- la password.
- L' Utente Autenticato può visualizzare i propri dati, modificarli o effetuare
- il logout.
+L' 
+\bar under
+Utente
+\bar default
+ può effettuare il login, diventando 
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, o recuperare la password.
+ L'
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout e compiere le azioni proprie del tipo di autenticazion
+e effettuata.
 \end_layout
 
 \begin_layout Standard
@@ -155,8 +210,12 @@ Il sistema è funzionante, è stato creato un account sul database.
 \series bold
 Postcondizione: 
 \series default
-L' Utente è operativo a seconda dei suoi poteri, le modifiche vengono salvate
- in modo corretto.
+L' 
+\bar under
+Utente
+\bar default
+ è operativo a seconda dei suoi poteri, le modifiche vengono salvate in
+ modo corretto.
  Il sistema è funzionante.
 \end_layout
 
@@ -167,27 +226,35 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Utente può effettuare il login
+L' 
+\bar under
+Utente
+\bar default
+ può effettuare il login
 \end_layout
 
 \begin_layout Enumerate
-L' Utente può recuperare la password dimenticata
+L' 
+\bar under
+Utente
+\bar default
+ può recuperare la password dimenticata
 \end_layout
 
 \begin_layout Enumerate
-L' Utente Autenticato può effettuare il logout
-\end_layout
-
-\begin_layout Enumerate
-L' Utente Autenticato può visualizzare i propri dati
-\end_layout
-
-\begin_layout Enumerate
-L' Utente Autenticato può modificare i propri dati
+L' 
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout
 \end_layout
 
 \begin_layout Subsubsection
-3.1.1 UCU 2: Ambito Utente, recupero password dimenticata
+UCU 2: Ambito Utente, recupero password dimenticata
 \end_layout
 
 \begin_layout Standard
@@ -212,7 +279,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Utente, recupero password dimenticata.
+Ambito 
+\bar under
+Utente
+\bar default
+, recupero password dimenticata.
 \end_layout
 
 \end_inset
@@ -230,7 +301,10 @@ Ambito Utente, recupero password dimenticata.
 \series bold
 Attori coinvolti: 
 \series default
-Utente.
+\bar under
+Utente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -238,8 +312,12 @@ Utente.
 \series bold
 Scopo e Descrizione: 
 \series default
-L' Utente può recuperare la propria password (se non ha mai fatto un accesso)
- o ottenerne una nuova.
+L' 
+\bar under
+Utente
+\bar default
+ può recuperare la propria password (se non ha mai fatto un accesso) o ottenerne
+ una nuova.
 \end_layout
 
 \begin_layout Standard
@@ -247,7 +325,11 @@ L' Utente può recuperare la propria password (se non ha mai fatto un accesso)
 \series bold
 Precondizione: 
 \series default
-L' Utente ha dimenticato la propria password e non ha effettuato il login.
+L' 
+\bar under
+Utente
+\bar default
+ ha dimenticato la propria password e non ha effettuato il login.
  Il sistema è funzionante.
 \end_layout
 
@@ -256,7 +338,11 @@ L' Utente ha dimenticato la propria password e non ha effettuato il login.
 \series bold
 Postcondizione: 
 \series default
-L' Utente riceve una mail con la propria password.
+L' 
+\bar under
+Utente
+\bar default
+ riceve una mail con la propria password.
  Il sistema è funzionante.
 \end_layout
 
@@ -267,15 +353,23 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Utente fornisce le credenziali per la verifica della persona
+L' 
+\bar under
+Utente
+\bar default
+ fornisce le credenziali per la verifica della persona
 \end_layout
 
 \begin_layout Enumerate
-L' Utente riceve nella propria mail la password
+L' 
+\bar under
+Utente
+\bar default
+ riceve nella propria mail la password
 \end_layout
 
 \begin_layout Subsection
-3.2 Ambito Dipendente, caso d' uso generale
+Ambito Dipendente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -300,7 +394,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, caso d' uso generale.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -318,7 +416,10 @@ Ambito Dipendente, caso d' uso generale.
 \series bold
 Attori Coinvolti: 
 \series default
-Dipendente.
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -326,10 +427,14 @@ Dipendente.
 \series bold
 Scopo e Descrizione: 
 \series default
-Al Dipendente devono venire proposte delle domande dal sistema, deve poter
- richiedere che gliene venga proposta una in ogni momento e deve poter visualizz
-are i suoi punteggi in qualsiasi momento.
- 
+Al 
+\bar under
+Dipendente
+\bar default
+ devono venire proposte delle domande dal sistema, deve poter richiedere
+ che gliene venga proposta una in ogni momento e deve poter visualizzare
+ i suoi punteggi in qualsiasi momento.
+ Può inoltre modificare o visualizzare i propri dati personali.
 \end_layout
 
 \begin_layout Standard
@@ -337,7 +442,14 @@ are i suoi punteggi in qualsiasi momento.
 \series bold
 Precondizione:
 \series default
- Applicazione funzionante, l' Utente ha effettuato il login come Dipendente
+ Applicazione funzionante, l' 
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Dipendente
+\bar default
  nel sistema.
 \end_layout
 
@@ -346,8 +458,16 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- L' Utente è ancora loggato come Dipendente ed ha effettuato una o più delle
- operazioni consentite rimanendo in uno stato consistente.
+ L' 
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Dipendente
+\bar default
+ ed ha effettuato una o più delle operazioni consentite rimanendo in uno
+ stato consistente.
  L' applicazione continua a funzionare.
 \end_layout
 
@@ -358,19 +478,47 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può ricevere una domanda proposta dal sistema
+Il 
+\bar under
+Dipendente
+\bar default
+ può ricevere una domanda proposta dal sistema
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può richiedere al sistema di proporgli una domanda
+Il 
+\bar under
+Dipendente
+\bar default
+ può richiedere al sistema di proporgli una domanda
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può visualizzare i suoi punteggi
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare i suoi punteggi
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare i propri dati personali
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare i propri dati personali
 \end_layout
 
 \begin_layout Subsubsection
-3.2.1 UCD 1 Ambito Dipendente, domanda proposta
+UCD 1: Ambito Dipendente, domanda proposta
 \end_layout
 
 \begin_layout Standard
@@ -396,7 +544,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, domanda proposta.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, domanda proposta.
 \end_layout
 
 \end_inset
@@ -414,7 +566,10 @@ Ambito Dipendente, domanda proposta.
 \series bold
 Attori Coinvolti: 
 \series default
-Dipendente.
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -422,9 +577,12 @@ Dipendente.
 \series bold
 Scopo e Descrizione:
 \series default
- Al Dipendente viene segnalata una domanda dal sistema e lui deve poter
- decidere se visualizzare la domanda per rispondere o se posticipare la
- visualizzazione a più tardi.
+ Al 
+\bar under
+Dipendente
+\bar default
+ viene segnalata una domanda dal sistema e lui deve poter decidere se visualizza
+re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
 \end_layout
 
 \begin_layout Standard
@@ -432,7 +590,14 @@ Scopo e Descrizione:
 \series bold
 Precondizione: 
 \series default
-Applicazione funzionante, l' Utente ha effettuato il login come Dipendente
+Applicazione funzionante, l' 
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Dipendente
+\bar default
  nel sistema.
 \end_layout
 
@@ -441,8 +606,15 @@ Applicazione funzionante, l' Utente ha effettuato il login come Dipendente
 \series bold
 Postcondizione: 
 \series default
-L' Utente è ancora loggato come Dipendente ed ha visualizzato o posticipato
- la domanda proposta.
+L' 
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Dipendente
+\bar default
+ ed ha visualizzato o posticipato la domanda proposta.
  L' applicazione continua a funzionare.
 \end_layout
 
@@ -453,16 +625,24 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente riceve una segnalazione di domanda dal sistema
+Il 
+\bar under
+Dipendente
+\bar default
+ riceve una segnalazione di domanda dal sistema
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può visualizzare la domanda proposta o posticiparla per visualizza
-rla in seguito
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare la domanda proposta o posticiparla per visualizzarla in
+ seguito
 \end_layout
 
 \begin_layout Subsubsection
-3.2.1.1 UCD 1.1 Ambito Dipendente, mostra domanda
+UCD 1.1: Ambito Dipendente, mostra domanda
 \end_layout
 
 \begin_layout Standard
@@ -488,7 +668,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, mostra domanda.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, mostra domanda.
 \end_layout
 
 \end_inset
@@ -506,7 +690,11 @@ Ambito Dipendente, mostra domanda.
 \series bold
 Attori Coinvolti:
 \series default
- Dipendente.
+ 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -514,10 +702,16 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione: 
 \series default
-La domanda mostrata al Dipendente può essere o una domanda mai vista che
- può essere stata posticipata precedentemente o una domanda già vista ma
- risposta erroneamente dal Dipendente, il Dipendente deve rispondere alla
- domanda mostrata.
+La domanda mostrata al 
+\bar under
+Dipendente
+\bar default
+ può essere o una domanda mai vista che può essere stata posticipata precedentem
+ente o una domanda già vista a cui ha risposto erroneamente, il 
+\bar under
+Dipendente
+\bar default
+ deve rispondere alla domanda mostrata.
  
 \end_layout
 
@@ -526,7 +720,11 @@ La domanda mostrata al Dipendente può essere o una domanda mai vista che
 \series bold
 Precondizione:
 \series default
- Il Dipendente ha scelto di visualizzare la domanda proposta dal sistema.
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha scelto di visualizzare la domanda proposta dal sistema.
 \end_layout
 
 \begin_layout Standard
@@ -534,7 +732,11 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- Il Dipendente ha risposto alla domanda proposta dal sistema.
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha risposto alla domanda proposta dal sistema.
 \end_layout
 
 \begin_layout Standard
@@ -544,15 +746,23 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente visualizza la domanda proposta
+Il 
+\bar under
+Dipendente
+\bar default
+ visualizza la domanda proposta
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente risponde alla domanda
+Il 
+\bar under
+Dipendente
+\bar default
+ risponde alla domanda
 \end_layout
 
 \begin_layout Subsubsection
-3.2.2 UCD 2 Ambito Dipendente, richiesta domanda
+UCD 2: Ambito Dipendente, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -578,7 +788,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, richiesta domanda.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, richiesta domanda.
 \end_layout
 
 \end_inset
@@ -596,7 +810,11 @@ Ambito Dipendente, richiesta domanda.
 \series bold
 Attori Coinvolti:
 \series default
- Dipendente.
+ 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -604,8 +822,15 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- Il sistema deve proporre una domanda al Dipendente ogni qualvolta esso
- lo richieda.
+ Il sistema deve proporre una domanda al 
+\bar under
+Dipendente
+\bar default
+ ogni qualvolta esso lo richieda se il 
+\bar under
+Dipendente
+\bar default
+ non ne ha già richiesta una da poco.
 \end_layout
 
 \begin_layout Standard
@@ -613,8 +838,11 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- Applicazione funzionante, il Dipendente ha richiesto che gli venga proposta
- una domanda dal sistema.
+ Applicazione funzionante, il 
+\bar under
+Dipendente
+\bar default
+ ha richiesto che gli venga proposta una domanda dal sistema.
 \end_layout
 
 \begin_layout Standard
@@ -622,7 +850,11 @@ Precondizione:
 \series bold
 Postcondizione: 
 \series default
-Il sistema visualizza una domanda come richiesto dal Dipendente.
+Il sistema visualizza una domanda come richiesto dal 
+\bar under
+Dipendente
+\bar default
+.
  L' Applicazione continua a funzionare.
 \end_layout
 
@@ -633,7 +865,11 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente richiede una domanda al sistema
+Il 
+\bar under
+Dipendente
+\bar default
+ richiede una domanda al sistema
 \end_layout
 
 \begin_layout Enumerate
@@ -641,7 +877,7 @@ Il sistema visualizza una domanda
 \end_layout
 
 \begin_layout Subsubsection
-3.2.3 UCD 3 Ambito Dipendente, visione punteggi personali
+UCD 3: Ambito Dipendente, visione punteggi personali
 \end_layout
 
 \begin_layout Standard
@@ -667,7 +903,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, visione punteggi personali.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, visione punteggi personali.
 \end_layout
 
 \end_inset
@@ -685,7 +925,11 @@ Ambito Dipendente, visione punteggi personali.
 \series bold
 Attori Coinvolti:
 \series default
- Dipendente.Il sistema è funzionante.
+ 
+\bar under
+Dipendente
+\bar default
+.Il sistema è funzionante.
 \end_layout
 
 \begin_layout Standard
@@ -693,7 +937,11 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- Il Dipendente controlla i propri punteggi (punti, badge, domande).
+ Il 
+\bar under
+Dipendente
+\bar default
+ controlla i propri punteggi (punti, badge, domande).
 \end_layout
 
 \begin_layout Standard
@@ -701,8 +949,11 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- Il Dipendente vuole controllare i propri punteggi, l' applicazione è funzionant
-e
+ Il 
+\bar under
+Dipendente
+\bar default
+ vuole controllare i propri punteggi, l' applicazione è funzionante
 \end_layout
 
 \begin_layout Standard
@@ -710,8 +961,11 @@ e
 \series bold
 Postcondizione:
 \series default
- Il sistema visualizza tutte le statistiche di un Dipendente, l'applicazione
- continua a funzionare.
+ Il sistema visualizza tutte le statistiche di un 
+\bar under
+Dipendente
+\bar default
+, l'applicazione continua a funzionare.
 \end_layout
 
 \begin_layout Standard
@@ -721,11 +975,15 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente prende visione di tutte le sue statistiche
+Il 
+\bar under
+Dipendente
+\bar default
+ prende visione di tutte le sue statistiche
 \end_layout
 
 \begin_layout Subsubsection
-3.2.4 UCD 4: Ambito Dipendente, modifica dati account
+UCD 4: Ambito Dipendente, modifica dati account
 \end_layout
 
 \begin_layout Standard
@@ -751,7 +1009,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, modifica dati account.
+Ambito 
+\bar under
+Dipendente
+\bar default
+, modifica dati account.
 \end_layout
 
 \end_inset
@@ -769,7 +1031,10 @@ Ambito Dipendente, modifica dati account.
 \series bold
 Attori coinvolti: 
 \series default
-Dipendente.
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -777,7 +1042,11 @@ Dipendente.
 \series bold
 Scopo e Descrizione: 
 \series default
-Il Dipendente può modificare la propria password o la propria email.
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria password o la propria email.
 \end_layout
 
 \begin_layout Standard
@@ -785,7 +1054,11 @@ Il Dipendente può modificare la propria password o la propria email.
 \series bold
 Precondizione:
 \series default
- Il Dipendente ha effettuato il login.
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha effettuato il login.
  Il sistema è funzionante.
 \end_layout
 
@@ -805,20 +1078,32 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può modificare la propria password
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria password
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente può modificare la propria email
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria email
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente, dopo aver modificato o la password, o l' email, riceve la
- comunicazione di comferma
+Il 
+\bar under
+Dipendente
+\bar default
+, dopo aver modificato o la password, o l' email, riceve la comunicazione
+ di comferma
 \end_layout
 
 \begin_layout Subsection
-3.3 Ambito Amministratore Sicurezza, caso d' uso generale.
+Ambito Amministratore Sicurezza, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -844,7 +1129,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Sicurezza, caso d' uso generale.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -862,7 +1155,15 @@ Ambito Amministratore Sicurezza, caso d' uso generale.
 \series bold
 Attori coinvolti:
 \series default
- Amministratore Sicurezza.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -870,8 +1171,15 @@ Attori coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Sicurezza può modificare il database di domande o consultare
- le domande.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande o consultare le domande.
 \end_layout
 
 \begin_layout Standard
@@ -879,8 +1187,15 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- Sistema funzionante con database di domande esistente e l' Amministratore
- Sicurezza ha effettuato il login.
+ Sistema funzionante con database di domande esistente e l' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ ha effettuato il login.
 \end_layout
 
 \begin_layout Standard
@@ -899,15 +1214,31 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può vedere il database di domande
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può vedere il database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può modificare il database di domande
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2 UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+UCAS 2: Ambito Amministratore Sicurezza, modifica database.
 \end_layout
 
 \begin_layout Standard
@@ -933,7 +1264,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Sicurezza, modifica database.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, modifica database.
 \end_layout
 
 \end_inset
@@ -951,7 +1290,15 @@ Ambito Amministratore Sicurezza, modifica database.
 \series bold
 Attori coinvolti:
 \series default
- Amministratore Sicurezza.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -959,8 +1306,15 @@ Attori coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Sicurezza può modificare il database di domande tramite
- operazioni fondamentali.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande tramite operazioni fondamentali.
 \end_layout
 
 \begin_layout Standard
@@ -987,19 +1341,43 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può aggiungere una domanda al database di domande
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può aggiungere una domanda al database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può modificare una domanda nel database di domande
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare una domanda nel database di domande
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza può cancellare una domanda nel database di domande
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può cancellare una domanda nel database di domande
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2.1 UCAS 2.1: Ambito Amministratore Sicurezza, aggiunta domanda.
+UCAS 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1025,7 +1403,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Sicurezza, aggiunta domanda.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, aggiungi domanda.
 \end_layout
 
 \end_inset
@@ -1043,7 +1429,15 @@ Ambito Amministratore Sicurezza, aggiunta domanda.
 \series bold
 Attori coinvolti:
 \series default
- Amministratore Sicurezza.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1051,8 +1445,16 @@ Attori coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Sicurezza può aggiungere una domanda specificando i vari
- parametri propri per la domanda in questione.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può aggiungere una domanda specificando i vari parametri propri per la
+ domanda in questione.
 \end_layout
 
 \begin_layout Standard
@@ -1060,7 +1462,15 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Sicurezza conosce tutti i parametri per la nuova domanda.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ conosce tutti i parametri per la nuova domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1078,12 +1488,19 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Sicurezza aggiunge una domanda al database di domande
- specificandone i contenuti
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ aggiunge una domanda al database di domande specificandone i contenuti
 \end_layout
 
 \begin_layout Subsubsection
-3.3.2.2 UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1109,7 +1526,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Sicurezza, modifica domanda.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, modifica domanda.
 \end_layout
 
 \end_inset
@@ -1127,7 +1552,15 @@ Ambito Amministratore Sicurezza, modifica domanda.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Sicurezza.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1135,7 +1568,15 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Sicurezza può modificare la domanda in ogni sua parte.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare la domanda in ogni sua parte.
 \end_layout
 
 \begin_layout Standard
@@ -1151,8 +1592,15 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- La domanda è stata correttamente modificata secondo la scelta dell' Amministrat
-ore Sicurezza.
+ La domanda è stata correttamente modificata secondo la scelta dell' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1166,7 +1614,7 @@ Si può modificare il tipo della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare i/l testi/o delle/a risposte/a della domanda
+Si può modificare i testi delle risposte della domanda
 \end_layout
 
 \begin_layout Enumerate
@@ -1194,15 +1642,11 @@ Si può modificare la temporizzazione della domanda
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il punteggio di risposta corretta
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il punteggio di risposta errata
+Si può modificare il punteggio della risposta
 \end_layout
 
 \begin_layout Subsection
-3.4 Ambito Amministratore Azienda, caso d' uso generale
+Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1228,7 +1672,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Azienda, caso d' uso generale.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -1246,7 +1698,15 @@ Ambito Amministratore Azienda, caso d' uso generale.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Azienda.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1254,9 +1714,20 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- Un Amministratore Azienda può visualizzare i dati sensibili ed i punteggi
- relativi ad ogni Dipendente della sua azienda, inoltre ha la possibilità
- di gestire gli account dei Dipendenti.
+ Un 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i dati sensibili ed i punteggi relativi ad ogni 
+\bar under
+Dipendente
+\bar default
+ della sua azienda, inoltre ha la possibilità di gestire gli account dei
+ Dipendenti.
 \end_layout
 
 \begin_layout Standard
@@ -1264,8 +1735,19 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- Sistema funzionante con database di utenti funzionante, l' Utente ha effettuato
- il login come Amministratore Azienda nel sistema.
+ Sistema funzionante con database di utenti funzionante, l' 
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ nel sistema.
 \end_layout
 
 \begin_layout Standard
@@ -1273,8 +1755,20 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- L' Utente è ancora loggato come Amministratore Azienda ed ha effettuato
- una delle operazioni consentite rimanendo in uno stato consistente.
+ L' 
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ ed ha effettuato una delle operazioni consentite rimanendo in uno stato
+ consistente.
  Il sistema è funzionante.
 \end_layout
 
@@ -1285,19 +1779,43 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può gestire gli account dei Dipendenti
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può gestire gli account dei Dipendenti
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può visualizzare i dati sensibili dei Dipendenti
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i dati sensibili dei Dipendenti
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può visualizzare i punteggi dei Dipendenti
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i punteggi dei Dipendenti
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1 UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
 \end_layout
 
 \begin_layout Standard
@@ -1323,7 +1841,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Azienda, gestione dipendenti.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+, gestione dipendenti.
 \end_layout
 
 \end_inset
@@ -1341,7 +1867,15 @@ Ambito Amministratore Azienda, gestione dipendenti.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Azienda.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1349,8 +1883,16 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Azienda può aggiungere od eliminare account Dipendenti
- nel database, inoltre può modificare i dati personali contenuti negli account.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere od eliminare account Dipendenti nel database, inoltre può
+ modificare i dati personali contenuti negli account.
 \end_layout
 
 \begin_layout Standard
@@ -1358,9 +1900,20 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Azienda vuole aggiungere, eliminare o modificare i dati
- di un account Dipendente, è a conoscenza dei dati di eventuali nuovi Dipendenti
- non presenti nel database.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ vuole aggiungere, eliminare o modificare i dati di un account 
+\bar under
+Dipendente
+\bar default
+, è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
+ database.
  Sistema funzionante.
 \end_layout
 
@@ -1369,9 +1922,16 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- Nel database di Dipendenti è presente un nuovo account Dipendente, un account
- Dipendente già presente è stato eliminato oppure i dati di un account già
- presente è stato modificato.
+ Nel database di Dipendenti è presente un nuovo account 
+\bar under
+Dipendente
+\bar default
+, un account 
+\bar under
+Dipendente
+\bar default
+ già presente è stato eliminato oppure i dati di un account già presente
+ è stato modificato.
  Sistema funzionante.
 \end_layout
 
@@ -1382,21 +1942,59 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può aggiungere un nuovo account Dipendente o se
- eliminare o modificare i dati personali di un account Dipendente già esistente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere un nuovo account 
+\bar under
+Dipendente
+\bar default
+ o se eliminare o modificare i dati personali di un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può eliminare un account Dipendente già esistente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può eliminare un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare i dati personali di un account
- Dipendente già esistente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare i dati personali di un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1.1 UCAA 1.1: Ambito Amministratore Azienda, aggiungi dipendente
+UCAA 1.1: Ambito Amministratore Azienda, aggiungi Dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1422,7 +2020,19 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Azienda, aggiungi dipendente.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+, aggiungi 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \end_inset
@@ -1440,7 +2050,15 @@ Ambito Amministratore Azienda, aggiungi dipendente.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Azienda.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1448,8 +2066,19 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Azienda può aggiungere un account Dipendente al database
- dei Dipendenti.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere un account 
+\bar under
+Dipendente
+\bar default
+ al database dei Dipendenti.
 \end_layout
 
 \begin_layout Standard
@@ -1457,8 +2086,23 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Azienda vuole aggiungere un account Dipendente, è a conoscenz
-a dei dati del nuovo Dipendente.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ vuole aggiungere un account 
+\bar under
+Dipendente
+\bar default
+, è a conoscenza dei dati del nuovo 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1466,7 +2110,11 @@ a dei dati del nuovo Dipendente.
 \series bold
 Postcondizione:
 \series default
- Nel database di Dipendenti è presente un nuovo account Dipendente.
+ Nel database di Dipendenti è presente un nuovo account 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1476,11 +2124,23 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda aggiunge un Dipendente riempiendo i campi richiesti
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ aggiunge un 
+\bar under
+Dipendente
+\bar default
+ riempiendo i campi richiesti
 \end_layout
 
 \begin_layout Subsubsection
-3.4.1.2 UCAA 1.3: Ambito Amministratore Azienda, modifica dati dipendente
+UCAA 1.3: Ambito Amministratore Azienda, modifica dati Dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1506,7 +2166,19 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Azienda, modifica dati dipendente.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+, modifica dati 
+\bar under
+Dipendente
+\bar default
+.
 \end_layout
 
 \end_inset
@@ -1524,7 +2196,15 @@ Ambito Amministratore Azienda, modifica dati dipendente.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Azienda.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1532,7 +2212,18 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Azienda può aggiungere modificare i dati del Dipendente
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere modificare i dati del 
+\bar under
+Dipendente
+\bar default
  che lui stesso non può modificare.
 \end_layout
 
@@ -1541,7 +2232,11 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- Il Dipendente esiste nel database dei Dipendenti.
+ Il 
+\bar under
+Dipendente
+\bar default
+ esiste nel database dei Dipendenti.
 \end_layout
 
 \begin_layout Standard
@@ -1559,27 +2254,77 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo nome del Dipendente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo nome del 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo cognome del Dipendente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo cognome del 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo impiego del Dipendente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo email del 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo codice fiscale del Dipendente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo impiego del 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Azienda può modificare il campo badge del Dipendente
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo codice fiscale del 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Subsection
-3.5 Ambito Amministratore Installatore, caso d' uso generale.
+Ambito Amministratore Installatore, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -1605,7 +2350,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Installatore, caso d' uso generale.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -1623,7 +2376,27 @@ Ambito Amministratore Installatore, caso d' uso generale.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Installatore, Amministratore Installatore Autenticato.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1631,8 +2404,16 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Installatore può effettuare il login e gestire il server
- globale delle aziende oppure installare il software nella azienda relativa.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può effettuare il login e gestire il server globale delle aziende oppure
+ installare il software nella azienda relativa.
 \end_layout
 
 \begin_layout Standard
@@ -1640,7 +2421,15 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Installatore effettua il lavoro solo sotto incarico.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ effettua il lavoro solo sotto incarico.
  Sistema funzionante.
 \end_layout
 
@@ -1649,10 +2438,29 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- L' Amministratore Installatore ha effettuato il login o si è recato nell'
- azienda e ha installato il software su ogni dispositivo richiesto.
- L' Amministratore Installatore Autenticato ha effettuato il logout o ha
- gestito il server globale delle aziende.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ ha effettuato il login o si è recato nell' azienda e ha installato il software
+ su ogni dispositivo richiesto.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ ha effettuato il logout o ha gestito il server globale delle aziende.
  Sistema funzionante.
 \end_layout
 
@@ -1663,27 +2471,79 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore può effettuare il login diventando Amministratore
- Installatore Autenticato
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può effettuare il login diventando 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore può installare il software recandosi nella
- azienda che lo ha richiesto
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software recandosi nella azienda che lo ha richiesto
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può effettuare il logout diventando
- Amministratore Installatore
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout diventando 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può gestire il server globale
- delle aziende
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può gestire il server globale delle aziende
 \end_layout
 
 \begin_layout Subsubsection
-3.5.1 UCAI 2: Ambito Amministratore Installatore, installazione software.
+UCAI 2: Ambito Amministratore Installatore, installazione software.
 \end_layout
 
 \begin_layout Standard
@@ -1705,7 +2565,15 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Installatore, installazione software.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+, installazione software.
 \end_layout
 
 \end_inset
@@ -1723,7 +2591,15 @@ Ambito Amministratore Installatore, installazione software.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Installatore.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1731,8 +2607,15 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Installatore si reca nella azienda richiedente ad installare
- il software.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ si reca nella azienda richiedente ad installare il software.
 \end_layout
 
 \begin_layout Standard
@@ -1740,7 +2623,15 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Installatore effettua il lavoro solo sotto incarico.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ effettua il lavoro solo sotto incarico.
  Sistema funzionante.
 \end_layout
 
@@ -1749,8 +2640,16 @@ Precondizione:
 \series bold
 Postcondizione:
 \series default
- L' Amministratore Installatore si è recato nell' azienda e ha installato
- il software su ogni dispositivo richiesto.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ si è recato nell' azienda e ha installato il software su ogni dispositivo
+ richiesto.
  Sistema funzionante.
 \end_layout
 
@@ -1761,16 +2660,31 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore può installare il software sui dispositivi
- mobili (tablet, smartphone …)
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software sui dispositivi mobili
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore può installare il software sui computer
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software sui computer
 \end_layout
 
 \begin_layout Subsubsection
-3.5.2 UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
+UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
  aziende.
 \end_layout
 
@@ -1797,7 +2711,19 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Installatore Autenticato, gestione server aziende.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, gestione server aziende.
 \end_layout
 
 \end_inset
@@ -1815,7 +2741,19 @@ Ambito Amministratore Installatore Autenticato, gestione server aziende.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Installatore Autenticato.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1823,7 +2761,19 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L' Amministratore Installatore Autenticato può gestire il server aziende.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può gestire il server aziende.
 \end_layout
 
 \begin_layout Standard
@@ -1831,8 +2781,19 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L' Amministratore Installatore Autenticato effettua il lavoro solo sotto
- incarico, esiste il database delle aziende.
+ L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ effettua il lavoro solo sotto incarico, esiste il database delle aziende.
  Sistema funzionante.
 \end_layout
 
@@ -1852,21 +2813,55 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può aggiungere una azienda
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può aggiungere una azienda
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può eliminare una azienda
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può eliminare una azienda
 \end_layout
 
 \begin_layout Enumerate
-L' Amministratore Installatore Autenticato può modificare il link al database
- degli utenti di una azienda
+L' 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può modificare il link al database degli utenti di una azienda
 \end_layout
 
 \begin_layout Subsubsection
-3.5.2.1 UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi
- azienda
+UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
 \end_layout
 
 \begin_layout Standard
@@ -1892,7 +2887,19 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore Installatore Autenticato, aggiungi azienda.
+Ambito 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, aggiungi azienda.
 \end_layout
 
 \end_inset
@@ -1910,7 +2917,19 @@ Ambito Amministratore Installatore Autenticato, aggiungi azienda.
 \series bold
 Attori Coinvolti:
 \series default
- Amministratore Installatore Autenticato.
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
@@ -1918,7 +2937,19 @@ Attori Coinvolti:
 \series bold
 Scopo e Descrizione:
 \series default
- L'  Amministratore Installatore Autenticato può aggiungere una azienda.
+ L'  
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può aggiungere una azienda.
 \end_layout
 
 \begin_layout Standard
@@ -1926,8 +2957,20 @@ Scopo e Descrizione:
 \series bold
 Precondizione:
 \series default
- L'  Amministratore Installatore Autenticato effettua il lavoro solo sotto
- incarico, esiste il database delle aziende, conosce i dati della azienda.
+ L'  
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ effettua il lavoro solo sotto incarico, esiste il database delle aziende,
+ conosce i dati della azienda.
  
 \end_layout
 
@@ -1946,7 +2989,15 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-L'  Amministratore Installatore aggiunge i dati di una azienda
+L'  
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ aggiunge i dati di una azienda
 \end_layout
 
 \end_body

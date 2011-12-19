@@ -159,20 +159,29 @@ Un'applicazione per PC contenente un'area pubblica dove qualsiasi operatore
 
 \begin_deeper
 \begin_layout Itemize
-Un'area riservata ai dipendenti aziendali che consentirà di rispondere alle
- domande che verranno proposte e visualizzare le statistiche a loro riservate
- 
+Un'area riservata ai 
+\bar under
+dipendenti
+\bar default
+ aziendali che consentirà di rispondere alle domande che verranno proposte
+ e visualizzare le statistiche a loro riservate 
 \end_layout
 
 \begin_layout Itemize
-Un'area riservata ad un amministratore della sicurezza da cui sarà possibile
- gestire le domande interne ad un'azienda 
+Un'area riservata ad un 
+\bar under
+amministratore della sicurezza
+\bar default
+ da cui sarà possibile gestire le domande interne ad un'azienda 
 \end_layout
 
 \begin_layout Itemize
-Un'area riservata ad un amministratore azienda che consentirà ad una persona
- incaricata dall'azienda, da cui si avrà accesso a tutte le statistiche
- di tutti i dipendenti 
+Un'area riservata ad un 
+\bar under
+amministratore azienda
+\bar default
+ che consentirà ad una persona incaricata dall'azienda, da cui si avrà accesso
+ a tutte le statistiche di tutti i dipendenti 
 \end_layout
 
 \end_deeper

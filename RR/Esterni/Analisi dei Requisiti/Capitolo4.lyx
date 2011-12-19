@@ -80,29 +80,148 @@ Dettaglio requisiti
 
 \begin_layout Standard
 Viene riportata di seguito la lista completa dei requisiti individuati e
- suddivisi in base al tipo della loro rilevanza strategica (obbligatori,
- desiderabili, opzionali).
+ suddivisi in base al tipo della loro rilevanza strategica (
+\emph on
+obbligatori
+\emph default
+, 
+\emph on
+desiderabili
+\emph default
+, 
+\emph on
+opzionali
+\emph default
+).
+\begin_inset Newline newline
+\end_inset
+
+Ogni requisito descritto viene univocamente identificato secondo lo schema
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Per maggiori informazioni fare riferimento alle 
+\emph on
+Norme di Progetto V1.0
+\end_layout
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
-Ogni requisito descritto viene univocamente identificato con una sigla del
- tipo:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
 \end_layout
 
-\begin_layout Standard
-RXY con:
+\end_inset
+
+
+\family typewriter
+R{X}{Y}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
 \end_layout
 
 \begin_layout Itemize
-X: indica il dettaglio del vincolo a cui si riferisce, F se funzionale,
- P se prestazionale, Q se di qualità, V se di vincolo 
+
+\series bold
+{X}: 
+\series default
+indica la categoria del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+F: 
+\series default
+requisito funzionale
 \end_layout
 
 \begin_layout Itemize
-Y: indica la rilevanza strategica, OB se obbligatorio, D se desiderabile,
- OP se opzionale 
+
+\series bold
+Q: 
+\series default
+requisito di qualità
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+P: 
+\series default
+requisito di prestazionale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+V:
+\series default
+ requisito di vincolo
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+{Y}: 
+\series default
+indica la classe del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+OB: 
+\series default
+requisito obbligatorio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+D: 
+\series default
+requisito desiderabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+OP:
+\series default
+ requisito opzionale
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 
 \family roman
@@ -124,7 +243,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ l | p{8cm} | r}
+begin{longtable}{ l | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -775,7 +894,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ l | p{10cm} | r}
+begin{longtable}{ l | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -853,7 +972,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ l | p{10cm} | r}
+begin{longtable}{ l | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1062,7 +1181,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ l | p{10cm} | r}
+begin{longtable}{ l | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1214,12 +1333,12 @@ Si prevedono quattro tipi di utenti che nei vari ruoli utilizzeranno il
 \end_layout
 
 \begin_layout Itemize
-Dipendente :
-\begin_inset Newline newline
-\end_inset
 
-dal punto di vista del sistema rappresenta un semplice lavoratore con un
- determinato ruolo nell'azienda.
+\series bold
+Dipendente
+\series default
+: dal punto di vista del sistema rappresenta un semplice lavoratore con
+ un determinato ruolo nell'azienda.
  È a questo utente che il sistema somministrerà periodicamente le domande
  per poi analizzarne i risultati delle risposte.
  Ad un Dipendente non è richiesta alcuna conoscenza informatica per poter
@@ -1227,11 +1346,11 @@ dal punto di vista del sistema rappresenta un semplice lavoratore con un
 \end_layout
 
 \begin_layout Itemize
-Amministratore Sicurezza:
-\begin_inset Newline newline
-\end_inset
 
-reppresenta l'utente che fisicamente gestirà le domande, complete di risposte
+\series bold
+Amministratore Sicurezza
+\series default
+: rappresenta l'utente che fisicamente gestirà le domande, complete di risposte
  e punteggi, all'interno dell'applicazione.
  Si tiene in considerazione l'idea che questa persona possa avere ridotte,
  se non nulle, conoscenze informatiche quindi le operazioni che potrà eseguire
@@ -1240,22 +1359,22 @@ reppresenta l'utente che fisicamente gestirà le domande, complete di risposte
 \end_layout
 
 \begin_layout Itemize
-Amministratore Installatore:
-\begin_inset Newline newline
-\end_inset
 
-è l'utente che andrà fisicamente ad installare il prodotto nelle aziende.
+\series bold
+Amministratore Installatore
+\series default
+: è l'utente che andrà fisicamente ad installare il prodotto nelle aziende.
  Si presuppone che tale persona possieda sufficienti conoscenze informatiche
  di base, ma nononostante ciò tutte le operazioni che potrà eseguire saranno
  progettate per risultare il più semplice e intuitive possibile.
 \end_layout
 
 \begin_layout Itemize
-Amministratore Azienda:
-\begin_inset Newline newline
-\end_inset
 
-è un utente che gestice i Dipendenti di un'azienda all'interno del sistema.
+\series bold
+Amministratore Azienda
+\series default
+: è un utente che gestice i Dipendenti di un'azienda all'interno del sistema.
  Il suo interesse sarà rivolto a conoscere, e quindi analizzare, statistiche
  aziendali ed i punteggi dei singoli dipendenti .Anche per questo tipo di
  utente non è richiesta alcuna conoscenza informatica per poter utilizzare
