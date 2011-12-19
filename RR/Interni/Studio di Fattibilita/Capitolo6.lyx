@@ -142,8 +142,8 @@ Tecnologie
 \series bold
 Sicurezza
 \series default
-: il capotolato richiede un elevato studio della sicurezza in rete, tema
- molto delicato e a cui non tutti i membri del gruppo erano interessati
+: il capitolato richiede un elevato studio della sicurezza in rete, tema
+ molto delicato e cui non tutti i membri del gruppo erano interessati
 \end_layout
 
 \begin_layout Subsubsection
@@ -162,8 +162,19 @@ Capitolato C04 - EQuery
 
 \begin_layout Standard
 Il gruppo, dopo attenta analisi del capitolato, ha trovato interessante
- la richiesta di dover sviluppare il software con tecniche agile e l'impiego
- di nuove tecnologie.
+ la richiesta di dover sviluppare il software con 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+modello agile
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ e l'impiego di nuove tecnologie.
  Nonostante ciò, gli svantaggi rilevati sono stati tali da non farci propendere
  verso EQuery.
  Nel dettaglio:
@@ -185,7 +196,7 @@ Database
 \series default
 : l'obbligatorietà di gestire due tipologie di database implica la traduzione
  delle query create tramite l'interfaccia in almeno due linguaggi, elemento
- che complica parecchio il lavoro da svolgere
+ che complica di gran lunga il lavoro da svolgere
 \end_layout
 
 \begin_layout Subsubsection

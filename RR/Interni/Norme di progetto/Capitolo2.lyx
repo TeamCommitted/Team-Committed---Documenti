@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options false
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package none
 \inputencoding auto
 \fontencoding default
@@ -61,8 +61,6 @@
 \begin_body
 
 \begin_layout Section
-
-\lang italian
 Comunicazioni
 \begin_inset CommandInset label
 LatexCommand label
@@ -74,8 +72,6 @@ name "sec:Comunicazioni"
 \end_layout
 
 \begin_layout Subsection
-
-\lang italian
 Comunicazioni interne
 \begin_inset CommandInset label
 LatexCommand label
@@ -87,8 +83,6 @@ name "sub:Comunicazioni-interne"
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Le comunicazioni interne dovranno passare attraverso i canali Facebook o
  tramite il servizio di 
 \bar under
@@ -105,7 +99,6 @@ Github
 \begin_layout Itemize
 
 \series bold
-\lang italian
 Nota su Facebook: 
 \series default
 le note su Facebook dovranno essere solo ed esclusivamente per comunicare
@@ -120,7 +113,6 @@ le note su Facebook dovranno essere solo ed esclusivamente per comunicare
 \begin_layout Itemize
 
 \series bold
-\lang italian
 Ticket:
 \series default
  il servizio di 
@@ -167,8 +159,6 @@ milestone
 \end_layout
 
 \begin_layout Subsection
-
-\lang italian
 Comunicazioni esterne
 \begin_inset CommandInset label
 LatexCommand label
@@ -180,8 +170,6 @@ name "sub:Comunicazioni-esterne"
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Il Responsabile di Progetto sarà colui dovrà mantenere i contatti con 
 \bar under
 Committente
@@ -194,8 +182,6 @@ Proponente
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 A tale proposito é stato creato un indirizzo e-mail tramite il quale il
  Responsabile potrà parlare per conto e nel nome dell'intero gruppo di progetto.
  
@@ -209,13 +195,10 @@ A tale proposito é stato creato un indirizzo e-mail tramite il quale il
 \align center
 
 \emph on
-\lang italian
 teamcommitted@gmail.com
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Il Responsabile dovrà tenere informato il gruppo rispetto ad eventuali comunicaz
 ioni da e per gli esterni tramite quanto scritto nella sezione 
 \begin_inset CommandInset ref

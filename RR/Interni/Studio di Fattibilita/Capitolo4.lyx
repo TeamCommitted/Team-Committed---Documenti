@@ -82,8 +82,12 @@ Scopo
 \series bold
 Mercato
 \series default
-: l'applicazione del concetto di gamification nell'ambito della sicurezza
- sul lavoro è ancora un campo inesplorato e quindi aperto a nuove idee
+: l'applicazione del concetto di 
+\bar under
+gamification
+\bar default
+ nell'ambito della sicurezza sul lavoro è ancora un campo inesplorato e
+ quindi aperto a nuove idee
 \end_layout
 
 \begin_layout Itemize
@@ -110,7 +114,22 @@ dispositivi mobili
 \series bold
 Interesse
 \series default
-: forte interesse nel concetto di imparare giocando
+: forte interesse nel concetto di 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+imparare giocando
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, concetto base del 
+\emph on
+\bar under
+gamification
 \end_layout
 
 \begin_layout Standard
@@ -123,8 +142,8 @@ In egual modo si riconoscono anche degli aspetti negativi sulla realizzazione
 \series bold
 Database
 \series default
-: difficoltà logistica nella gestione centralizzata dei database, i quali,
- possono anche non essere nello stesso server centrale
+: difficoltà logistica nella gestione centralizzata dei database, i quali
+ possono anche non essere residenti sul server centrale
 \end_layout
 
 \begin_layout Itemize
@@ -132,7 +151,8 @@ Database
 \series bold
 Interfaccia
 \series default
-: realizzazione di interfaccie intuitive e accatttivanti
+: realizzazione di interfaccie intuitive e accatttivanti, poichè la definizione
+ di interfaccia accattivante è soggettiva
 \end_layout
 
 \end_body

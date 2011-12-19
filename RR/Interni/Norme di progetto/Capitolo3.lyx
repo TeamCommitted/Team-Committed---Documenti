@@ -118,7 +118,11 @@ respProg
 \end_layout
 
 \begin_layout Itemize
-Su richiesta di un membro del gruppo (via ticket indirizzato al 
+Su richiesta di un membro del gruppo (via 
+\bar under
+ticket
+\bar default
+ indirizzato al 
 \begin_inset ERT
 status open
 
@@ -434,7 +438,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-La richiesta di riunione dovrà pervenire attraverso il servizio di ticket
+La richiesta di riunione dovrà pervenire attraverso il servizio di 
+\bar under
+ticket
+\bar default
  con le stesse modalità indicate nella sezione 
 \begin_inset CommandInset ref
 LatexCommand ref

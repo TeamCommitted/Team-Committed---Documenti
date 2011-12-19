@@ -103,7 +103,7 @@ e/o
 free software
 \emph default
 , è una motivazione ricorrente sulla scelta delle applicazioni sotto esposte.
- Per questo motivo le seguenti motivazioni vengono omesse dalla descrizione
+ Per questo motivo le motivazioni sopra esposte verranno omesse
 \end_layout
 
 \end_inset
@@ -137,7 +137,7 @@ GNU/Linux
 \bar default
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Con 
@@ -409,10 +409,13 @@ Strumento di versionamento
 \end_layout
 
 \begin_layout Standard
-Come strumento di versionamento si è deciso di utilizzare 
+Come strumento di versionamento si è deciso di utilizzare
+\bar under
+ 
 \series bold
 git
 \series default
+\bar default
 .
  
 \end_layout
@@ -420,8 +423,10 @@ git
 \begin_layout Standard
 
 \emph on
+\bar under
 git
 \emph default
+\bar default
  è uno strumento di versionamento veloce e di facile apprendimento che rappresen
 ta uno dei migliori strumenti attualmente esistenti.
  Per lo sviluppo collaborativo abbiamo deciso di appoggiarci al servizio
@@ -446,26 +451,37 @@ http://www.github.com
 \series default
  che fornisce non solo un repository 
 \emph on
+\bar under
 git
 \emph default
+\bar default
 , ma anche strumenti utili alla collaborazione fra più persone, come il
  servizio di 
 \emph on
+\bar under
 ticket
 \emph default
+\bar default
 , 
 \emph on
 wiki 
 \emph default
 e 
 \emph on
-milestone.
+\bar under
+milestone
+\bar default
+.
 \end_layout
 
 \begin_layout Standard
-Per quanto riguarda l'uso di 
+Per quanto riguarda l'uso di
+\bar under
+ 
 \emph on
-git 
+git
+\bar default
+ 
 \emph default
 sui computer di sviluppo, si è deciso l'uso della versione ufficiale rilasciata
  dal team di sviluppo di 
@@ -597,7 +613,7 @@ ne
 status collapsed
 
 \begin_layout Plain Layout
-Per maggiori dettagli si rimanda al documento Piano di Qualica v1.0
+Per maggiori dettagli si rimanda al documento Piano di Qualica - V1.0
 \end_layout
 
 \end_inset

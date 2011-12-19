@@ -61,34 +61,24 @@
 \begin_body
 
 \begin_layout Section
-
-\lang english
 Introduzione
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Scopo del documento
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Il presente documento intende descrivere le motivazioni che hanno portato
  alla scelta del capitolato C03, rispetto alle caratteristiche speciche
  del prodotto richiesto dal capitolato e al confronto con le altre tre proposte.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Capitolato scelto
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Capitolato: 
 \series bold
 C03 
@@ -143,18 +133,14 @@ commProg
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Glossario
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, viene incluso il glossario nel file 
 \family typewriter
-Glossario_V1.0.pdf
+Glossario-V1.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout

@@ -728,11 +728,8 @@ milestone
 Label
 \series default
 : le label verranno impostate a seconda di precisi argomenti nella fase
- di progettazione e alla creazione del
-\bar under
- ticket
-\bar default
- andrà scelta la label più appropriata
+ di progettazione e alla creazione del ticket andrà scelta la label più
+ appropriata
 \end_layout
 
 \begin_layout Itemize
@@ -770,7 +767,11 @@ Anomalia
 \bar under
 ticket
 \bar default
-, dovrà aggiungere l'apposita label 
+, dovrà aggiungere l'apposita 
+\bar under
+label
+\bar default
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -782,11 +783,7 @@ fixed
 
  
 \emph default
-e, se lo ritiene necessario, menzionare il 
-\bar under
-ticket
-\bar default
- dal relativo 
+e, se lo ritiene necessario, menzionare il ticket dal relativo 
 \bar under
 commit
 \emph on
@@ -822,9 +819,9 @@ ticket
 anomalia
 \emph default
 .
- L'utilizzo della label
+ L'utilizzo della 
 \bar under
- 
+label 
 \bar default
 aiuta il 
 \begin_inset ERT
@@ -855,10 +852,7 @@ Ticket di verifica:
 \series default
  i 
 \series bold
-\bar under
-ticket
-\bar default
- di verifica
+ticket di verifica
 \series default
  verranno creati secondo quanto scritto precedentemente
 \end_layout
@@ -870,22 +864,14 @@ Chiusura milestone:
 \series default
  una 
 \emph on
-\bar under
-milestone
-\bar default
- 
+milestone 
 \emph default
-verrà considerata conclusa una volta che tutti i
-\bar under
- ticket 
-\bar default
-creati sono stati chiusi.
+verrà considerata conclusa una volta che tutti i ticket creati sono stati
+ chiusi.
  Alla chiusura di una 
 \emph on
-\bar under
 milestone
 \emph default
-\bar default
 , il responsabile dovrà ripartire dal primo punto di questa procedura
 \end_layout
 
