@@ -274,7 +274,7 @@ hline
 
 \begin_layout Plain Layout
 
-  	  RFOB 2.2 & Un 
+  	  RFOB 2.1 & Un 
 \backslash
 uline{Dipendente} potrà richiedere al sistema di venire sottoposto ad una
  domanda & Capitolato 
@@ -288,7 +288,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 2.3 & Una proposta di domanda dovrà essere completamente non invasiva
+		RFOB 2.2 & Una proposta di domanda dovrà essere completamente non invasiva
  & Capitolato 
 \backslash
 
@@ -401,7 +401,7 @@ hline
 		RFOB 5.2 & Ad ogni 
 \backslash
 uline{Dipendente} che verrà creato, il sistema dovrà inviargli, all'indirizzo
- email dichiarato, username e password per connettersi al sistema & UCA
+ email dichiarato, username e password per connettersi al sistema & UCAA
  1.1.6 
 \backslash
 
@@ -550,20 +550,6 @@ hline
 \backslash
 uline{Utenti} che hanno effettuato il login di uscire dalla sessione autenticata
 , ma non di terminare l'applicazione & Interno 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 22 & Un 
-\backslash
-uline{Amministratore Installatore} dovrà potersi autenticare nel sistema
- inserendo le proprie credenziali & UCAI 1 
 \backslash
 
 \backslash
@@ -873,7 +859,30 @@ hline
 \backslash
  
 \backslash
-hline				
+hline		
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & Un 
+\backslash
+uline{Amministratore Installatore} dovrà potersi autenticare nel sistema
+ inserendo le proprie credenziali & UCAI 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & L'
+\backslash
+uline{Amministratore Azienda}  puo' eliminare un account 
+\backslash
+uline{Dipendente}
 \end_layout
 
 \begin_layout Plain Layout
