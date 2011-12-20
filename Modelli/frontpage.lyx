@@ -338,19 +338,6 @@ doctitle
 
 		
 \backslash
-textbf{Versione documento} & 
-\backslash
-versiondoc 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
 textbf{Data documento} & 
 \backslash
 datared 
