@@ -8,7 +8,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -64,8 +64,6 @@
 \begin_body
 
 \begin_layout Standard
-
-\lang italian
 \begin_inset CommandInset include
 LatexCommand include
 filename "../../../Modelli/frontpage.lyx"
@@ -76,8 +74,6 @@ filename "../../../Modelli/frontpage.lyx"
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 \begin_inset Newpage newpage
 \end_inset
 
@@ -97,7 +93,7 @@ Data:
 \series bold
 Luogo: 
 \series default
-Padova(PD), via Treiste 63, Dipartimento di Matematica Pura ed Applicata
+Padova(PD), via Trieste 63, Dipartimento di Matematica Pura ed Applicata
  dell'Università di Padova, aula 1C/150 della Torre Archimede
 \end_layout
 
@@ -176,7 +172,7 @@ Dr.
 \begin_layout Itemize
 
 \series bold
-Accetazione:
+Accettazione:
 \end_layout
 
 \begin_layout Standard
@@ -260,7 +256,7 @@ Domande e risposte
 \end_layout
 
 \begin_layout Description
-Domanda: Poichè Lei ha detto che il prodotto che noi andremo a realizzare
+Domanda: Poiché Lei ha detto che il prodotto che noi andremo a realizzare
  è uno studio di fattibilità che verrà poi presentato alla Vostra azienda
  committente, il prodotto dovrà essere già perfettamente funzionante? Dovrà
  quindi, ad esempio, avere una grafica accattivante?
@@ -268,7 +264,7 @@ Domanda: Poichè Lei ha detto che il prodotto che noi andremo a realizzare
 
 \begin_layout Description
 Risposta: Si, certamente.
- Poichè vogliamo dimostrare che questo prodotto può funzionare, dovremo
+ Poiché vogliamo dimostrare che questo prodotto può funzionare, dovremo
  presentare una soluzione che sia già direttamente vendibile presso una
  qualsiasi azienda (nel nostro particolare caso l'azienda che ci ha commissionat
 o il progetto).
@@ -290,16 +286,16 @@ height "1pt"
 \begin_layout Description
 Domanda: Durante una nostra discussione interna abbiamo considerato varie
  opzioni di realizzazione del Suo capitolato, fra cui utilizzare un framework
- web che permette molto facilmente di realizzare interfaccie per i vari
- sistemi operativi mobili.
+ web che permette molto facilmente di realizzare interfacce per i vari sistemi
+ operativi mobili.
 \end_layout
 
 \begin_layout Description
-Risposta: Poichè credo che questo sistema riduca i costi di realizzazione,
+Risposta: Poiché credo che questo sistema riduca i costi di realizzazione,
  ma sopratutto quelli di manutenzione, questa potrebbe essere una via avvantaggi
 ata.
  Ricordate che noi puntiamo si alla realizzazione di questo progetto, però
- deve avere dei costi controllati perchè deve essere un progetto remunerativo.
+ deve avere dei costi controllati perché deve essere un progetto remunerativo.
 \end_layout
 
 \begin_layout Description
@@ -478,7 +474,7 @@ Domanda: Come vorrebbe che fosse segnalata la presenza, nel desktop, di
 \begin_layout Description
 Risposta: Si potrebbe andare.
  Ricordate però che una delle questioni fondamentali è che deve essere accattiva
-nte, perchè deve invogliare a rispondere alla domanda proposta.
+nte, perché deve invogliare a rispondere alla domanda proposta.
 \end_layout
 
 \begin_layout Description
