@@ -93,9 +93,9 @@ desiderabili
 opzionali
 \emph default
 ).
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Ogni requisito descritto sarà univocamente identificato secondo lo schema:
 \end_layout
 
@@ -880,7 +880,7 @@ hline
 
 		RFOB 22 & L'
 \backslash
-uline{Amministratore Azienda} potra` eliminare un account 
+uline{Amministratore Azienda} potrà eliminare un account 
 \backslash
 uline{Dipendente} & UCAA 1.2 
 \backslash
@@ -1079,7 +1079,7 @@ hline
 \backslash
 uline{Amministratore Azienda}  riguardo tutte le azioni che tale 
 \backslash
-uline{Utente} può compiere & Interno 
+uline{Utente} potrà compiere & Interno 
 \backslash
 
 \backslash
@@ -1106,7 +1106,7 @@ hline
 
 		RQOB 3.4 & Sarà fornito un manuale ad uso 
 \backslash
-uline{Amministratore Sicurezza} riguardo le azioni che può compiere tale
+uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere tale
  
 \backslash
 uline{Utente} & Interno 
@@ -1178,7 +1178,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RQOB 6 & Tutti i processi di sviluppo aderiscono allo standard 
+		RQOB 6 & Tutti i processi di sviluppo aderiranno allo standard 
 \backslash
 uline{ISO/IEC} 15504:1998 SPICE & Interno 
 \backslash
@@ -1255,8 +1255,8 @@ hline
 
 \begin_layout Plain Layout
 
-		RVOB 1 & Il sistema deve poter essere funzionale presso aziende diverse,
- anche con caratteristiche molto differenti fra di loro & Capitolato 
+		RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
+ con caratteristiche molto differenti fra di loro & Capitolato 
 \backslash
 
 \backslash
@@ -1267,7 +1267,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RVOB 1.1 & Il sistema deve essere multipiattaforma & Capitolato 
+		RVOB 1.1 & Il sistema dovrà essere multipiattaforma & Capitolato 
 \backslash
 
 \backslash
@@ -1278,8 +1278,9 @@ hline
 
 \begin_layout Plain Layout
 
-		RVOB 1.2 & Il sistema deve poter funzionare su qualsiasi tipologia di strumento
- portatile & Capitolato 
+		RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi 
+\backslash
+uline{dispositivo mobile} & Capitolato 
 \backslash
 
 \backslash
@@ -1290,9 +1291,11 @@ hline
 
 \begin_layout Plain Layout
 
-		RVD 2 & L'inserimento delle domande all'interno del sistema deve essere
- particolarmente user-friendly così da non richiedere conoscenze specifiche
- & Verbale 
+		RVD 2 & L'inserimento delle domande all'interno del sistema dovrà essere
+ particolarmente 
+\backslash
+emph{user-friendly} così da non richiedere conoscenze specifiche & Verbale
+ 
 \backslash
 
 \backslash
@@ -1303,7 +1306,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RVOB 3 & Non si devono fare assunzioni su dove sono situati i database
+		RVOB 3 & Non si dovranno fare assunzioni sulla locazione dei database
  delle aziende & Verbale 
 \backslash
 
@@ -1317,7 +1320,7 @@ hline
 
 		RVOB 4 & Le funzioni del sistema offerte al 
 \backslash
-uline{Dipendente} devono essere fruibili tramite interfaccia 
+uline{Dipendente} dovranno essere fruibili tramite interfaccia 
 \backslash
 uline{web} & Interno 
 \backslash
@@ -1482,7 +1485,7 @@ Utente
 \bar default
  che andrà fisicamente ad installare il prodotto nelle aziende.
  Si presuppone che tale persona possieda sufficienti conoscenze informatiche
- di base, ma nononostante ciò tutte le operazioni che potrà eseguire saranno
+ di base, ma nonostante ciò tutte le operazioni che potrà eseguire saranno
  progettate per risultare il più semplice e intuitive possibile.
 \end_layout
 
@@ -1495,7 +1498,7 @@ Amministratore Azienda
 \bar under
 Utente
 \bar default
- che gestice i Dipendenti di un'azienda all'interno del sistema.
+ che gestisce i Dipendenti di un'azienda all'interno del sistema.
  Il suo interesse sarà rivolto a conoscere, e quindi analizzare, statistiche
  aziendali ed i punteggi dei singoli Dipendenti .Anche per questo tipo di
  

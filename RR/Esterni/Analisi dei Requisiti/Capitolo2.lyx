@@ -87,9 +87,9 @@ SafetyGame
  nell'ambito della sicurezza sul posto di lavoro, che spesso si dimostrano
  poco efficaci, a cui devono essere sottoposti periodicamente i propri dipendent
 i.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Il sistema non si limita ad essere funzionale solo per lavoratori interni
  all'azienda ma anche per quelli esterni grazie a 
 \bar under
@@ -125,11 +125,11 @@ gamification
  analisi.
  Le domande caricate nel prodotto saranno differenti per ogni azienda, che
  potrà gestirle autonomamente.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-Il prodotto sarà utlizzabile da utenti sia con postazioni di lavoro fisse
- che utilizzino dispositivi con un qualsiasi sistema operativo, purchè connsse
+\begin_layout Standard
+Il prodotto sarà utilizzabile da utenti sia con postazioni di lavoro fisse
+ che utilizzino dispositivi con un qualsiasi sistema operativo, purché connesse
  alla rete, mediante interfaccia 
 \bar under
 web
@@ -166,9 +166,9 @@ browser
 web
 \bar default
 .
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Invece per quanto riguarda i 
 \bar under
 dispositivi portatili
@@ -189,9 +189,9 @@ Il prodotto fornirà ad un datore di lavoro la possibilità di definire delle
 dipendenti
 \bar default
  per poi poterne analizzare le risposte.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Un 
 \bar under
 dipendente
@@ -200,10 +200,10 @@ dipendente
  avrà la possibilità di rispondere subito oppure rinviare la risposta ad
  un altro momento così che non venga disturbato o bloccato durante lo svolgiment
 o del proprio lavoro.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-La risposta fornita ad una domanda comporerà l'attribuzione di un punteggio
+\begin_layout Standard
+La risposta fornita ad una domanda comporterà l'attribuzione di un punteggio
  che aggiornerà la classifica aziendale, la quale farà da incentivo per
  ogni 
 \bar under

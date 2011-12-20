@@ -63,6 +63,16 @@
 
 \begin_body
 
+\begin_layout My Address
+\begin_inset Graphics
+	filename img/LogoTeam.jpg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Send To Address
 Prof.
  Vardanega, Tullio
@@ -101,8 +111,11 @@ TeamCommitted}
 
 \end_inset
 
- come candidato per lo svolgimento del capitolato C03: Piattaforma Mobile
- di Apprendimento Comportamentale.
+ come candidato per lo svolgimento del capitolato 
+\series bold
+C03: Piattaforma Mobile di Apprendimento Comportamentale.
+\series default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -274,7 +287,7 @@ Analisi dei Requisiti - V1.0
 \series default
 (allegato 
 \family typewriter
-Analisi_dei_Requisiti-V1.0.pdf
+Analisi_dei_Requisiti_V1.0.pdf
 \family default
 )
 \end_layout
@@ -286,7 +299,7 @@ Glossario - V1.0
 \series default
 (allegato 
 \family typewriter
-Glossario-V1.0.pdf
+Glossario_V1.0.pdf
 \family default
 )
 \end_layout
@@ -298,7 +311,7 @@ Norme di Progetto - V1.0
 \series default
  (allegato 
 \family typewriter
-Norme_di_Progetto-V1.0.pdf
+Norme_di_Progetto_V1.0.pdf
 \family default
 )
 \end_layout
@@ -310,7 +323,7 @@ Piano di Progetto - V1.0
 \series default
 (allegato 
 \family typewriter
-Piano_di_Progetto-V1.0.pdf
+Piano_di_Progetto_V1.0.pdf
 \family default
 )
 \end_layout
@@ -322,7 +335,7 @@ Piano di Qualifica - V1.0
 \series default
  (allegato 
 \family typewriter
-Piano_di_Qualifica-V1.0.pdf
+Piano_di_Qualifica_V1.0.pdf
 \family default
 )
 \end_layout
@@ -334,7 +347,7 @@ Studio di Fattibilità - V1.0
 \series default
 (allegato 
 \family typewriter
-Studio_di_Fattibilita-V1.0.pdf
+Studio_di_Fattibilita_V1.0.pdf
 \family default
 )
 \end_layout
@@ -385,10 +398,6 @@ RingraziandoLa per la cortese attenzione, Le auguro un buon proseguimento
 \emph on
 
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newpage newpage
 \end_inset
 
 
@@ -448,19 +457,19 @@ status open
 \begin_layout encl
 
 \family typewriter
-Analisi_dei_Requisiti-V1.0.pdf, Glossario-V1.0.pdf, Norme_di_Progetto-V1.0.pdf,
+Analisi_dei_Requisiti_V1.0.pdf, Glossario_V1.0.pdf, Norme_di_Progetto_V1.0.pdf,
 \series bold
  
 \series default
-Piano_di_Progetto-V1.0.pdf
+Piano_di_Progetto_V1.0.pdf
 \series bold
 , 
 \series default
-Piano_di_Qualifica-V1.0.pdf
+Piano_di_Qualifica_V1.0.pdf
 \series bold
 , 
 \series default
-Studio_di_Fattibilita-V1.0.pdf
+Studio_di_Fattibilita_V1.0.pdf
 \series bold
 , 
 \series default

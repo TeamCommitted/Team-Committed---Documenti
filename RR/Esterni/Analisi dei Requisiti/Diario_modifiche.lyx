@@ -153,7 +153,20 @@ hline
 		
 \backslash
 emph{Approvazione Analisi dei Requisiti} & Giorgio Maggiolo & 19/12/2011
- & V0.11 
+ & V1.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Revisione completata.} & Gabriele Facchin & 19/12/2011 & V0.11 
 \backslash
 
 \backslash
@@ -219,8 +232,8 @@ hline
 
 		
 \backslash
-emph{Termine stesura capitoli 1 e 2} & Alessandro Cornaglia & 12/12/2011
- & V0.6 
+emph{Termine stesura capitoli 1 e 2} & Lorenzo Braghetto & 12/12/2011 &
+ V0.6 
 \backslash
 
 \backslash
@@ -233,8 +246,9 @@ hline
 
 		
 \backslash
-emph{Completati grafici dei casi d'uso} & Massimo Dalla Pieta' & 11/12/2011
- & V0.5 
+emph{Completati grafici dei casi d'uso} & Massimo Dalla Piet
+\backslash
+'a & 11/12/2011 & V0.5 
 \backslash
 
 \backslash
@@ -274,8 +288,9 @@ hline
 
 		
 \backslash
-emph{Inizio stesura dei casi d'uso} & Massimo Dalla Pieta' & 06/12/2011
- & V0.2 
+emph{Inizio stesura dei casi d'uso} & Massimo Dalla Piet
+\backslash
+'a & 06/12/2011 & V0.2 
 \backslash
 
 \backslash

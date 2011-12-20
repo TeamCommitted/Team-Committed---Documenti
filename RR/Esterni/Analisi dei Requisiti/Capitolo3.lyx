@@ -100,7 +100,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/Ambito Utente.png
-	scale 70
+	scale 45
 
 \end_inset
 
@@ -1480,8 +1480,8 @@ Amministratore
 Sicurezza
 \bar default
  aggiunge una domanda al database di domande specificando sempre il tipo
- della domanda, il testo della domanda, i testi delle rispsote, le risposte
- corrette, la categoria degli utenti, la pittaforma e il punteggio.
+ della domanda, il testo della domanda, i testi delle risposte, le risposte
+ corrette, la categoria degli utenti, la piattaforma e il punteggio.
  Inoltre può specificare anche il percorso all'eventuale immagine o video
  e il tempo per rispondere alla domanda
 \end_layout
