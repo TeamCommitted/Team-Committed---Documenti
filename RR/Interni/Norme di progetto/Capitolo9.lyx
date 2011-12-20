@@ -83,7 +83,7 @@ Glossario
 \end_layout
 
 \begin_layout Standard
-Il Glossario dovrà essere formattao come definito in sezione 
+Il Glossario dovrà essere formattato come definito in sezione 
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sub:Comunicazioni-interne"

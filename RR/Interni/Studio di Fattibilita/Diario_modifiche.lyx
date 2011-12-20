@@ -141,8 +141,21 @@ hline
 
 		
 \backslash
+emph{Documento approvato} & Marco Begolo & 07/12/2011 & V1.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
 emph{Ritoccato il documento inserendo i termini del glossario.
- Stesura completata.} & Lorenzo Braghetto & 15/12/2011 & V0.4 
+ Stesura completata.} & Lorenzo Braghetto & 07/12/2011 & V0.4 
 \backslash
 
 \backslash
@@ -155,7 +168,9 @@ hline
 
 		
 \backslash
-emph{Terminata capitolo 3.} & Lorenzo Braghetto & 13/12/2011 & V0.3 
+emph{Terminata capitolo 3.} & Massimo Dalla Piet
+\backslash
+'a & 07/12/2011 & V0.3 
 \backslash
 
 \backslash
@@ -168,7 +183,7 @@ hline
 
 		
 \backslash
-emph{Terminata stesura capitoli 5,6.} & Gabriele Facchin & 09/12/2011 & V0.2
+emph{Terminata stesura capitoli 5,6.} & Gabriele Facchin & 06/12/2011 & V0.2
  
 \backslash
 
@@ -183,7 +198,7 @@ hline
 		
 \backslash
 emph{Inizio creazione del documento.
- Completati capitoli 1,2.} & Gabriele Facchin & 08/12/2011 & V0.1 
+ Completati capitoli 1,2.} & Gabriele Facchin & 06/12/2011 & V0.1 
 \backslash
 
 \backslash

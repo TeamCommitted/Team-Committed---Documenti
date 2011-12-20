@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options false
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package none
 \inputencoding auto
 \fontencoding default
@@ -520,15 +520,13 @@ repository
 \family typewriter
 LyX
 \family default
-; l
-\lang english
-e immagini dovranno essere in formato 
+; le immagini dovranno essere in formato 
 \family typewriter
 PNG
 \family default
  o 
 \family typewriter
-SVG
+JPG
 \end_layout
 
 \begin_layout Itemize

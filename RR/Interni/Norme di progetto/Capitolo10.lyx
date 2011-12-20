@@ -300,7 +300,7 @@ OP:
 \begin_layout Standard
 Queste sigle dovranno essere seguite dal numero del requisito.
  Qualora si trattasse di un sottorequisito, si dovrà usare il sistema di
- numerazione per indici/sottoindici.
+ numerazione per indici/sotto-indici.
 \end_layout
 
 \begin_layout Subsection
@@ -353,8 +353,8 @@ use case
 \series bold
 Attori: 
 \series default
-gli attori dovranno essere scriti con l'iniziale maiuscola e, nel caso di
- composizione di più parole, dovranno essere concatenate da un carattere
+gli attori dovranno essere scritti con l'iniziale maiuscola e, nel caso
+ di composizione di più parole, dovranno essere concatenate da un carattere
  di spaziatura, seguito da una maiuscola.
  Per gli acronimi vale quanto scritto nella sezione 
 \begin_inset CommandInset ref
@@ -386,7 +386,7 @@ Ovvero inserendo il minor numero di termini possibili
 \end_inset
 
 , senza però lasciare spazio ad interpretazione al nome della funzione.
- Inoltre i verbi, se presenti, dovrano essere sostantivizzati
+ Inoltre i verbi, se presenti, dovranno essere sostantivatizzati
 \end_layout
 
 \begin_layout Itemize
@@ -794,7 +794,6 @@ commit
 .
  
 \emph default
-\lang english
 Sarà compito del 
 \emph on
 
@@ -840,10 +839,8 @@ respProg
 \end_inset
 
  a individuare i 
-\series medium
 \bar under
 ticket 
-\series default
 \bar default
 presumibilmente da chiudere.
 \end_layout

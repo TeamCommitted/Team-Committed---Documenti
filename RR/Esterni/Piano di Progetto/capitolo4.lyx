@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -148,8 +149,8 @@ Natura
 Strategie per il rilevamento e la prevenzione
 \series default
 : all'inizio della fase di analisi, ogni membro ha accettato di usare la
- medesima versione di ogni software e di preoccuparsi eautonomamente di
- documentarsi in caso di lacune.
+ medesima versione di ogni software e di preoccuparsi autonomamente di documenta
+rsi in caso di lacune.
  In questo modo non vi saranno problemi legati all'incompatibilità fra versioni
  diverse del software o dall'utilizzo errato di alcuni strumenti
 \end_layout
@@ -190,8 +191,8 @@ Grado di pericolosità
 \series bold
 Natura
 \series default
-: l'intero progetto, dalla realizzaione dei documenti al codice, sarà sviluppato
- su calcolatore.
+: l'intero progetto, dalla realizzazione dei documenti al codice, sarà sviluppat
+o su calcolatore.
  Ogni membro del gruppo possiede l'hardware necessario, e molti possono
  servirsi di computer notebook.
  Inoltre, sono disponibili tre laboratori forniti di hardware adeguato,
@@ -207,7 +208,7 @@ Strategie per il rilevamento e la prevenzione
 \series default
 : ogni membro utilizza principalmente hardware personale per via della maggiore
  facilità di utilizzo del software scelto.
- Tuttavia, la presenza di tre laboratori garanrisce una risorsa importante,
+ Tuttavia, la presenza di tre laboratori garantisce una risorsa importante,
  in quanto sarà molto difficile che un membro del gruppo sia impossibilitato
  ad avere accesso ad un 
 \bar under
@@ -230,7 +231,7 @@ Contromisure di correzione
  Nel caso di backup obsoleti, il frequente salvataggio garantisce una perdita
  di lavoro ammortizzabile.
  In caso di impossibilità da parte in un membro ad accedere ad un calcolatore,
- sarà necessario individuare una soluzione in modo da fronire dell'hardware
+ sarà necessario individuare una soluzione in modo da fornire dell'hardware
  sostitutivo il prima possibile
 \end_layout
 
@@ -239,7 +240,7 @@ Contromisure di correzione
 \series bold
 Casi riscontrati
 \series default
-: nei primi giorni della fase di analisi in uno dei notebook impegati si
+: nei primi giorni della fase di analisi ad uno dei notebook impiegati si
  è rotto il disco fisso.
  Invece di cercare di recuperare i dati privi di backup si è preferito ricrearli
 , in quanto la differenza di lavoro non era paragonabile grazie ai frequenti
@@ -345,7 +346,7 @@ proponente
 proponente
 \bar default
  potrebbe decidere di cambiare i requisiti del prodotto fino a dover eseguire
- un'analisi molto diversada quella in corso
+ un'analisi molto diversa da quella in corso
 \end_layout
 
 \begin_layout Itemize
@@ -371,7 +372,7 @@ Contromisure di correzione
 proponente
 \bar default
  la possibilità di applicare certe modifiche.
- Si potrebbe rendere necessaria una rivalutaione profonda del lavoro svolto,
+ Si potrebbe rendere necessaria una rivalutazione profonda del lavoro svolto,
  inoltre si dovranno rivalutare tempi di sviluppo, preventivo e la possibilità
  di soddisfare i requisiti desiderabili e opzionali
 \end_layout
@@ -405,8 +406,8 @@ Natura
  periodo di tempo.
  Considerando che il gruppo è composto da sette persone e che il periodo
  di lavoro compre circa quattro mesi, è piuttosto probabile che almeno un
- membro sarà inisposto a lavorare.
- Tuttavia, l'eventualita che si presentino lunghi periodi di assenza o impossibi
+ membro sarà indisposto a lavorare.
+ Tuttavia, l'eventualità che si presentino lunghi periodi di assenza o impossibi
 lità totale di lavoro anche da casa è piuttosto remota
 \end_layout
 
@@ -415,7 +416,7 @@ lità totale di lavoro anche da casa è piuttosto remota
 \series bold
 Strategie per il rilevamento e la prevenzione
 \series default
-: oltre alle comuni norme per la salvaguardia della propia salute, è opportuno
+: oltre alle comuni norme per la salvaguardia della propria salute, è opportuno
  avvisare tempestivamente il resto del gruppo in modo da permettere una
  rapida riorganizzazione del lavoro a breve termine
 \end_layout
@@ -426,7 +427,7 @@ Strategie per il rilevamento e la prevenzione
 Contromisure di correzione
 \series default
 : riorganizzazione il più possibile tempestiva del lavoro a breve termine,
- ed eventualmente disponibilità del mebro assente di lavorare anche fuori
+ ed eventualmente disponibilità del membro assente di lavorare anche fuori
  sede (quando possibile).
  In caso di periodi di assenza particolarmente lunghi, si potranno discutere
  con il 
@@ -526,7 +527,7 @@ Natura
 \series default
 : l'intero gruppo è estraneo a progetti di questa entità, per questo è possibile
  che la mole di lavoro rischi di degenerare a causa dell'incapacità dei
- mebri di gestirla.
+ membri di gestirla.
 \end_layout
 
 \begin_layout Itemize
@@ -544,7 +545,7 @@ Strategie per il rilevamento e la prevenzione
 \series bold
 Contromisure di correzione
 \series default
-: in caso di ritardi sensibili dovuti all'erratagestione delle amnsioni,
+: in caso di ritardi sensibili dovuti all'errata gestione delle mansioni,
  si dovrà intervenire rivalutando la suddivisione del lavoro e analizzando
  le cause che hanno portato alla dispersione delle risorse.
 \end_layout
@@ -593,7 +594,7 @@ Strategie di rilevamento e prevenzione
  di sviluppo individuale indipendente dal lavoro degli altri componenti.
  Nei casi in cui questo non sia possibile, le piattaforme di backup e versioname
 nto del materiale, oltre ai vari strumenti di chat, permetteranno, nel limite
- del possibile, di ovviare al problema mantenedo una comunicazione affidabile
+ del possibile, di ovviare al problema mantenendo una comunicazione affidabile
  ed efficiente.
 \end_layout
 

@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -65,7 +66,7 @@ Valutazione del capitolato
 
 \begin_layout Standard
 Il capitolato scelto presenta degli aspetti ritenuti positivi di comune
- accordo, che vengono quì riportati:
+ accordo, che vengono qui riportati:
 \end_layout
 
 \begin_layout Itemize
@@ -151,7 +152,7 @@ Database
 \series bold
 Interfaccia
 \series default
-: realizzazione di interfaccie intuitive e accatttivanti, poichè la definizione
+: realizzazione di interfacce intuitive e accattivanti, poiché la definizione
  di interfaccia accattivante è soggettiva
 \end_layout
 

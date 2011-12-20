@@ -549,7 +549,7 @@ Altre situazioni:
 \series default
  in altre situazioni, il corsivo va utilizzato per enfatizzare parole importanti
  all'interno della frase.
- Differisce dal corsivo perchè mentre il primo evidenzia parole o frasi
+ Differisce dal corsivo perché mentre il primo evidenzia parole o frasi
  chiavi del discorso, il secondo mette in luce delle parole o frasi importanti,
  ma non essenziali ai fini della frase stessa
 \end_layout
@@ -804,7 +804,7 @@ Nomi ricorrenti:
 Ruoli di progetto: 
 \series default
 vari ruoli di progetto dovranno essere formattati utilizzando la prima lettera
- maiscola di ogni parola che non sia una preposizione (ex.
+ maiuscola di ogni parola che non sia una preposizione (ex.
  
 \begin_inset ERT
 status open
@@ -827,7 +827,7 @@ respProg
 Nomi dei documenti: 
 \series default
 i nomi dei documenti dovranno essere formattati utilizzando la prima lettera
- maiscola di ogni parola che non sia una preposizione (ex.
+ maiuscola di ogni parola che non sia una preposizione (ex.
  
 \emph on
 Norme di Progetto
@@ -989,7 +989,7 @@ nameproject
 \series bold
 Sigle:
 \series default
- sono ammsse le sigle sia dei nomi dei documenti che dei nomi delle revisioni.
+ sono ammesse le sigle sia dei nomi dei documenti che dei nomi delle revisioni.
  Dovranno sottostare alle regole per gli acronimi descritte nella sezione
  
 \begin_inset CommandInset ref
@@ -1134,7 +1134,19 @@ Ogni tabella dovrà essere fornita di didascalia, in cui dovrà comparire
 status collapsed
 
 \begin_layout Plain Layout
-E' escluso il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ escluso il 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1563,7 +1575,7 @@ Diario delle modifiche
 \emph on
 Diario delle modifiche
 \emph default
- è una tabella ordinata in maniera decrescente, ovvero le prime righe conengono
+ è una tabella ordinata in maniera decrescente, ovvero le prime righe contengono
  informazioni sulle ultime modifiche, mentre l'ultima riga conterrà le informazi
 oni riguardanti le prime modifiche.
 \begin_inset Newline newline

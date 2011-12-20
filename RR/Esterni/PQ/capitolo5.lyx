@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -60,11 +61,7 @@
 \begin_body
 
 \begin_layout Section
-
-\lang italian
-Resoconto
-\lang english
- attività di verifica
+Resoconto attività di verifica
 \end_layout
 
 \begin_layout Subsection
@@ -78,66 +75,15 @@ Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
  sezione 2.5.2, effettuando le dovute procedure per la correzione degli errori
  rilevati.
  Si è effettuato quindi il controllo ortografico tramite Aspell, il plugin
- per LyX, mentre il controllo grammaticale, 
-\lang italian
-sintattico
-\lang english
- e 
-\lang italian
-lessicale
-\lang english
- è 
-\lang italian
-avvenuto
-\lang english
+ per LyX, mentre il controllo grammaticale, sintattico e lessicale è avvenuto
  tramite 
 \lang interlingua
 un'accurata
-\lang english
- rilettura 
 \lang italian
-da
-\lang english
- 
-\lang italian
-parte
-\lang english
- dei 
-\lang italian
-revisori
-\lang english
-.
- 
-\lang italian
-Sono
-\lang english
- stati poi 
-\lang italian
-controllati
-\lang english
- anche i 
-\lang italian
-contenuti
-\lang english
- tabellari e 
-\lang italian
-grafici
-\lang english
-.
- La 
-\lang italian
-segnalazione
-\lang english
- di 
-\lang italian
-irregolarità
-\lang english
- è 
-\lang italian
-avvenuta
-\lang english
- tramite Ticket che sono state prese in carico successivamente dal redattore
- e risolte.
+ rilettura da parte dei revisori.
+ Sono stati poi controllati anche i contenuti tabellari e grafici.
+ La segnalazione di irregolarità è avvenuta tramite Ticket che sono state
+ prese in carico successivamente dal redattore e risolte.
 \end_layout
 
 \end_body

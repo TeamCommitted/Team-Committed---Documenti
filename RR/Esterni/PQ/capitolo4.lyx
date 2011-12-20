@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -171,7 +172,7 @@ ticket
 \bar default
  nelle 
 \family typewriter
-NdP-V1.0
+Norme di Progetto - V1.0
 \family default
 .
 \end_layout
@@ -184,7 +185,7 @@ Risoluzione di un ticket
 Le modalità di risoluzione e chiusura di un ticket sono descritte nelle
  
 \family typewriter
-NdP-V1.0
+Norme di Progetto - V1.0
 \family default
 , sono volte a garantire la massima capacità di coordinamento fra i vari
  membri del gruppo garantendo un'attenzione alla qualità generale.
@@ -224,8 +225,8 @@ ticket
 \emph on
 Norme di Progetto
 \emph default
- provvederà a comnicare il problema all'Amministratore che prenderà provvediment
-i.
+ provvederà a comunicare il problema all'Amministratore che prenderà provvedimen
+ti.
  Se invece il problema riguarda un allontanamento dai requisiti, una volta
  identificata l'origine della discrepanza.
  il Verificatore solleciterà l'Analista per valutare la gravità e i costi

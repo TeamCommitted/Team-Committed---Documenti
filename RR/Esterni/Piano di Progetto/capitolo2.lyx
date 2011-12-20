@@ -102,8 +102,6 @@ name "sub:Glossario"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
@@ -161,21 +159,7 @@ Vincoli di Organigramma
 \series bold
 Norme di Progetto
 \series default
-, v 1.0 
-\family typewriter
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family typewriter
-NormeDiProgetto-v1.0.pdf
-\end_layout
-
-\end_inset
-
-
+ - v 1.0
 \end_layout
 
 \begin_layout Subsubsection
@@ -239,7 +223,7 @@ reference "sub:Riferimenti-normativi"
 
 \end_inset
 
- del presente documento
+
 \end_layout
 
 \end_inset
@@ -252,7 +236,7 @@ reference "tab:Costi-per-ruolo"
 
 \end_inset
 
-) e le abbreviazioni che verranno utilizzate nel capitolo 
+) e le abbreviazioni che verranno utilizzate nella sezione 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Pianificazione"

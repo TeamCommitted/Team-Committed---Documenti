@@ -142,7 +142,7 @@ modello incrementale
 proponente
 \bar default
 .
- In particolare, le caratteristiche sono le seguenti:
+ In particolare:
 \end_layout
 
 \begin_layout Itemize
@@ -150,7 +150,7 @@ proponente
 \series bold
 Incrementi
 \series default
-: la scelta di realizzare l
+: abbiamo scelto di realizzare l
 \emph on
 ’Analisi dei Requisiti
 \emph default
@@ -158,8 +158,8 @@ Incrementi
 \emph on
 Progettazione Architetturale
 \emph default
- in maniera molto attenta e dettagliata, quindi non orientate ad una futura
- modifica ma piuttosto ad un'implementazione
+ in maniera molto attenti e dettagliati, non orientati ad una futura iterazione
+ su di essi, ma piuttosto ad un incremento
 \end_layout
 
 \begin_layout Itemize
@@ -255,8 +255,8 @@ II periodo:
 \end_layout
 
 \begin_layout Standard
-Ogni membro del gruppo non può ricoprire il medesimo ruolo in entrambi i
- periodi.
+Ogni membro del gruppo non potrà ricoprire il medesimo ruolo in entrambi
+ i periodi.
  Nella figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -315,7 +315,7 @@ reference "fig:Diagramma-di-Gantt-RR"
 
 \end_inset
 
-, si fornise in tabella 
+, si fornisce in tabella 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Dettaglio-delle-ore-RR"
@@ -421,7 +421,7 @@ reference "tab:Riassuntivo-delle-ore-RR"
 
 \end_inset
 
- per ogni componente e' previsto un lavoro medio di 19,7 ore, per un totale
+, per ogni componente è previsto un lavoro medio di 19,7 ore per un totale
  di 138 ore.
 \end_layout
 
@@ -730,7 +730,7 @@ reference "tab:Ripartizione-dei-ruoli-RP"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 27,6 ore, per un totale di
+, per ogni membro è previsto un lavoro medio di 27,6 ore per un totale di
  193 ore di lavoro.
 \end_layout
 
@@ -769,15 +769,22 @@ Il primo periodo è leggermente più lungo per via della maggiore mole di
  lavoro.
  Si è preferito suddividere questa fase in maniera naturale (ovvero al termine
  della prima fase di codifica e relativa verifica), piuttosto che in un
- numero equo di giorni, poichè il passaggio di affidamento di un compito
- da un membro ad un'altro può generare incomprensioni che possono portare
+ numero equo di giorni, poiché il passaggio di affidamento di un compito
+ da un membro ad un altro può generare incomprensioni che possono portare
  ad un ritardo, anche sensibile, nello svolgimento dello stesso.
  
 \end_layout
 
 \begin_layout Standard
 Per mantenere la coerenza con il modello di ciclo di vita scelto (sezione
- 3.1) i compiti di 
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Introduzione-e-Ciclo"
+
+\end_inset
+
+) i compiti di 
 \emph on
 Progettazione di Dettaglio e di Codifica
 \emph default
@@ -843,7 +850,7 @@ A seguire, il dettaglio e il riassuntivo delle ore di lavoro necessarie
 \emph on
 Progettazione di Dettaglio e Codifica
 \emph default
- con realativo costo preventivo.
+ con relativo costo preventivo.
  
 \end_layout
 
@@ -923,7 +930,7 @@ name "tab:Riassuntivo-delle-ore-RQ"
 
 Riassuntivo delle ore per ruolo e relativo costo nella fase di 
 \emph on
-Progettazioen di Dettaglio e Codifica
+Progettazione di Dettaglio e Codifica
 \end_layout
 
 \end_inset
@@ -1007,7 +1014,7 @@ reference "tab:Ripartizione-dei-ruoli-RQ"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 53,3 ore, per un totale di
+, per ogni membro è previsto un lavoro medio di 53,3 ore per un totale di
  373 ore di lavoro.
 \end_layout
 
@@ -1096,7 +1103,7 @@ A seguire, il dettaglio e il riassuntivo delle ore di lavoro necessarie
 \emph on
 Verifica e Validazione
 \emph default
- con realativo costo preventivo: 
+ con relativo costo preventivo: 
 \end_layout
 
 \begin_layout Standard
@@ -1258,7 +1265,7 @@ reference "tab:Ripartizione-dei-ruoli-RA"
 
 \end_inset
 
- per ogni membro è previsto un lavoro medio di 17,7 ore cadauno, per un
+, per ogni membro è previsto un lavoro medio di 17,7 ore cadauno per un
  totale di 124 ore di lavoro.
 \end_layout
 
@@ -1276,7 +1283,7 @@ reference "tab:Ripartizione-dei-ruoli-finale"
 
 \end_inset
 
-, nonostante ci si avvicini di molto.
+.
  Chiaramente, il limite fa riferimento alle sole fasi di 
 \emph on
 Progettazione Architetturale
@@ -1290,8 +1297,11 @@ Progettazione di Dettaglio
 Verifica e Validazione
 \emph default
 .
- La fase di Analisi non è inclusa in quanto non verrà valutata per il calcolo
- del preventivo.
+ La fase di 
+\emph on
+Analisi
+\emph default
+ non è inclusa in quanto non calcolata nel preventivo.
  Segue la tabella 
 \begin_inset CommandInset ref
 LatexCommand ref

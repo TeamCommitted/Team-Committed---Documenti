@@ -106,7 +106,11 @@ TeamCommitted
 
  ha quindi deciso di adottare lo standard 
 \series bold
-ISO/IEC 15504:1998 SPICE 
+ISO/IEC 15504:1998 
+\bar under
+SPICE
+\bar default
+ 
 \series default
 (
 \emph on
@@ -128,9 +132,41 @@ Software Process Assessment & Improvement
 \end_layout
 
 \begin_layout Standard
-\begin_inset External
-	template Dia
-	filename SPA_I.dia
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SPA_I.jpeg
+	scale 67
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Schema SPA-I
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -149,8 +185,10 @@ Tutti i processi dovranno quindi essere sottoposti a valutazione in modo
  da verificarne la qualità ed eventualmente facilitarne il miglioramento.
  A tale scopo lo 
 \emph on
+\bar under
 SPICE
 \emph default
+\bar default
  definisce nove attributi di processo per effettuare una migliore valutazione:
 \end_layout
 
@@ -233,7 +271,7 @@ Process Change
 \series bold
 Continuous Integration
 \series default
-: Le modifiche ad un processo sono identificate ed implementate con lo scopo
+: le modifiche ad un processo sono identificate ed implementate con lo scopo
  di assicurare il continuo miglioramento nel raggiungere gli obbiettivi
  rilevati per l'organizzazione
 \end_layout
@@ -327,7 +365,7 @@ Livello 1
 \series bold
 Processo semplicemente attuato
 \series default
-: il proesso viene messo in atto e raggiunge i suoi obiettivi.
+: il processo viene messo in atto e raggiunge i suoi obiettivi.
  Non vi è evidenza di approcci sistematici agli attributi definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
@@ -350,8 +388,8 @@ Livello 2
 \series bold
  Processo gestito
 \series default
-: il processo è attuato ma anche pianificato, tracciato, verificato ed aggiustat
-o se necessario, sulla base di obiettivi ben definiti.
+: il processo è attuato, ma anche pianificato, tracciato, verificato ed
+ aggiustato se necessario, sulla base di obiettivi ben definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possessi
  degli attributi di 
 \begin_inset Quotes eld
@@ -477,12 +515,16 @@ L'applicazione dello standard
 \emph on
 ISO/IEC 15504 
 \emph default
-porta a benefici sia agli sviluppatori del software, che ai suoi utilizzatori
+porta a benefici sia agli sviluppatori del software che ai suoi utilizzatori
  o acquirenti.
  Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
  risorse, un contenimento dei costi, una maggiore tempestività di consegna
  del prodotto ultimato, migliore stima dei rischi e degli impegni e la possibili
-tà di confrontarsi con delle best practise.
+tà di confrontarsi con delle 
+\bar under
+best practice
+\bar default
+.
  Per gli utenti invece abbiamo una maggior facilità nella selezione dei
  fornitori, una migliore valutazione dei rischi di progetto, controllo dello
  stato di avanzamento in corso d'opera, riduzione dei costi di correzione
@@ -495,8 +537,11 @@ Qualità del prodotto
 
 \begin_layout Standard
 Per quanto concerne la qualità del prodotto si è scelto di seguire alcune
- linee guida dettate dallo standard ISO/IEC 9126, classificato da sei caratteris
-tiche generali e varie sottocaratteristiche.
+ linee guida dettate dallo standard 
+\emph on
+ISO/IEC 9126
+\emph default
+, classificato da sei caratteristiche generali e varie sottocaratteristiche.
  
 \end_layout
 
@@ -715,8 +760,16 @@ tà
 \begin_layout Standard
 La misurazione del raggiungimento di questo obiettivo sarà costituita dalla
  capacità dell'applicativo di adattarsi ai vari tipi di ambienti in cui
- esso verrà eseguito come ambienti desktop o dispositivi mobili.
- L'usabilità sarà poi ritenuta raggiunta fordendo un'interfaccia il più
+ esso verrà eseguito come ambienti 
+\bar under
+desktop
+\bar default
+ o dispositivi 
+\bar under
+mobile
+\bar default
+.
+ L'usabilità sarà poi ritenuta raggiunta fornendo un'interfaccia il più
  possibile chiara, semplice ed intuitiva e rendendo l'applicativo fruibile
  a quelle categorie di utenti affetti da disabilità come daltonici o ipovedenti.
 \end_layout
@@ -733,7 +786,7 @@ La manutenibilità rappresenta la capacità del software di essere modificato,
 \begin_layout Itemize
 
 \series bold
-Analizzabilità
+Facilità di analisi
 \series default
 : rappresenta la facilità con la quale è possibile analizzare il codice
  per localizzare un eventuale errore
@@ -786,7 +839,7 @@ La portabilità è la capacità di un software d'essere portato da un ambiente
 Adattabilità
 \series default
 : capacità del software di essere adattato per differenti ambienti operativi
- senza dover applicare modifiche diverde da quelle fornite per il software
+ senza dover applicare modifiche diverse da quelle fornite per il software
  considerato
 \end_layout
 
@@ -795,7 +848,7 @@ Adattabilità
 \series bold
 Installabilità
 \series default
-: la capacità del software di essere installato in uno specifico ambiente
+: capacità del software di essere installato in uno specifico ambiente
 \end_layout
 
 \begin_layout Itemize
@@ -817,19 +870,61 @@ Sostituibilità
 \end_layout
 
 \begin_layout Standard
-L'applicazione desktop deve essere installabile in tutti i principali sistemi
- operativi disponibili (Mac OSX, Windows, Linux).
- Il front-end deve essere compatibile e funzionante con tutti i browser
+L'applicazione 
+\bar under
+desktop
+\bar default
+ deve essere installabile in tutti i principali sistemi operativi disponibili
+ (
+\bar under
+Mac OSX
+\bar default
+, 
+\bar under
+Windows
+\bar default
+, 
+\bar under
+GNU Linux
+\bar default
+).
+ Il 
+\bar under
+front-end
+\bar default
+ deve essere compatibile e funzionante con tutti i 
+\bar under
+browser
+\bar default
  che aderiscono al 
 \bar under
 W3C
 \bar default
- e con i browser di dispositivi mobile di diverso tipo (iOS, Windows Phone,
- 
+ e con i 
+\bar under
+browser
+\bar default
+ di dispositivi 
+\bar under
+mobile
+\bar default
+ di diverso tipo (
+\bar under
+iOS
+\bar default
+, 
+\bar under
+Windows Phone
+\bar default
+, 
 \bar under
 Android
 \bar default
-, Symbian).
+, 
+\bar under
+Symbian
+\bar default
+).
  Infine l'applicazione 
 \bar under
 Android

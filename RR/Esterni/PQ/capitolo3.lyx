@@ -271,7 +271,7 @@ Process Change
 \series bold
 Continuous Integration
 \series default
-: Le modifiche ad un processo sono identificate ed implementate con lo scopo
+: le modifiche ad un processo sono identificate ed implementate con lo scopo
  di assicurare il continuo miglioramento nel raggiungere gli obbiettivi
  rilevati per l'organizzazione
 \end_layout
@@ -365,7 +365,7 @@ Livello 1
 \series bold
 Processo semplicemente attuato
 \series default
-: il proesso viene messo in atto e raggiunge i suoi obiettivi.
+: il processo viene messo in atto e raggiunge i suoi obiettivi.
  Non vi è evidenza di approcci sistematici agli attributi definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possesso
  degli attributi di 
@@ -388,8 +388,8 @@ Livello 2
 \series bold
  Processo gestito
 \series default
-: il processo è attuato ma anche pianificato, tracciato, verificato ed aggiustat
-o se necessario, sulla base di obiettivi ben definiti.
+: il processo è attuato, ma anche pianificato, tracciato, verificato ed
+ aggiustato se necessario, sulla base di obiettivi ben definiti.
  Il raggiungimento di questo livello è dimostrato attraverso il possessi
  degli attributi di 
 \begin_inset Quotes eld
@@ -515,7 +515,7 @@ L'applicazione dello standard
 \emph on
 ISO/IEC 15504 
 \emph default
-porta a benefici sia agli sviluppatori del software, che ai suoi utilizzatori
+porta a benefici sia agli sviluppatori del software che ai suoi utilizzatori
  o acquirenti.
  Per gli sviluppatori porta vantaggi nell'ottimizzazione dell'uso delle
  risorse, un contenimento dei costi, una maggiore tempestività di consegna
@@ -537,8 +537,11 @@ Qualità del prodotto
 
 \begin_layout Standard
 Per quanto concerne la qualità del prodotto si è scelto di seguire alcune
- linee guida dettate dallo standard ISO/IEC 9126, classificato da sei caratteris
-tiche generali e varie sottocaratteristiche.
+ linee guida dettate dallo standard 
+\emph on
+ISO/IEC 9126
+\emph default
+, classificato da sei caratteristiche generali e varie sotto-caratteristiche.
  
 \end_layout
 
@@ -612,7 +615,7 @@ Affidabilità
 \end_layout
 
 \begin_layout Standard
-L'affidabilità misura la capacità di un prodotto software di manterene un
+L'affidabilità misura la capacità di un prodotto software di mantenere un
  determinato livello di prestazioni se usato in determinate condizioni e
  per un certo periodo.
 \end_layout
@@ -766,7 +769,7 @@ desktop
 mobile
 \bar default
 .
- L'usabilità sarà poi ritenuta raggiunta fordendo un'interfaccia il più
+ L'usabilità sarà poi ritenuta raggiunta fornendo un'interfaccia il più
  possibile chiara, semplice ed intuitiva e rendendo l'applicativo fruibile
  a quelle categorie di utenti affetti da disabilità come daltonici o ipovedenti.
 \end_layout
@@ -783,7 +786,7 @@ La manutenibilità rappresenta la capacità del software di essere modificato,
 \begin_layout Itemize
 
 \series bold
-Analizzabilità
+Facilità di analisi
 \series default
 : rappresenta la facilità con la quale è possibile analizzare il codice
  per localizzare un eventuale errore
@@ -836,7 +839,7 @@ La portabilità è la capacità di un software d'essere portato da un ambiente
 Adattabilità
 \series default
 : capacità del software di essere adattato per differenti ambienti operativi
- senza dover applicare modifiche diverde da quelle fornite per il software
+ senza dover applicare modifiche diverse da quelle fornite per il software
  considerato
 \end_layout
 

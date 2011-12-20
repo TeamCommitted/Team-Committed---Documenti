@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -86,7 +87,7 @@ Per poter effettuare un corretto processo di verifica si è scelto di effettuare
  le dovute operazioni di controllo quando il prodotto sotto analisi avrà
  raggiunto uno stadio tale per cui risulta presentare sostanziali modifiche
  rispetto alla precedente versione.
- Lo svolgimento di tale fase sarà aggevolato grazie all'apposito registro
+ Lo svolgimento di tale fase sarà agevolato grazie all'apposito registro
  delle modifiche.
  Inoltre, per garantire una migliore verifica si è adottato il 
 \begin_inset Quotes eld
@@ -108,7 +109,7 @@ Broken Window Theory
 Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
  incrementale (vedi 
 \family typewriter
-PdP-V1.0
+Piano di Progetto - V1.0
 \family default
  per approfondimenti) e di conseguenza le operazioni di verifica verranno
  realizzate in modo tale da intervenire in maniera coerente nelle varie
@@ -125,7 +126,7 @@ Analisi dei requisiti
 RR
 \bar default
 , quando verrà completato, entrerà nella dedicata fase di revisione per
- controllare la presenza di eventuali inregolarità lessico/grammaticali
+ controllare la presenza di eventuali irregolarità lessico/grammaticali
  e nei contenuti esposti.
  Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti
  messi a disposizione da LyX, per la precisione tramite il plugin 
@@ -143,11 +144,17 @@ proponente
  e che ogni requisito abbia il suo caso d'uso corrispondente.
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
- Se durante la verifica saranno state rilevate inregolarità queste verranno
- segnalate tramite un apposito Ticket dal verificatore e corrette dal redattore.
+ Se durante la verifica saranno state rilevate irregolarità queste verranno
+ segnalate tramite un apposito 
+\bar under
+ticket 
+\bar default
+dal verificatore e corrette dal redattore.
  Il processo di verifica si concluderà quindi con la validazione del documento
  da parte del verificatore e l'approvazione da parte del responsabile per
- la presentazione al committente
+ la presentazione al 
+\bar under
+committente
 \end_layout
 
 \begin_layout Itemize
@@ -158,8 +165,12 @@ Progettazione
 : il processo di verifica riguardante la fase di Progettazione consisterà
  nel verificare che tutti i requisiti descritti durante la fase di Analisi
  dei Requisiti rientrino nei componenti individuati.
- Qual'ora dalla verifica sorgano incongruenze o mancanze, queste verranno
- segnalate tramite Ticket e successivamente risolte
+ Qualora dalla verifica sorgano incongruenze o mancanze, queste verranno
+ segnalate tramite 
+\bar under
+ticket 
+\bar default
+e successivamente risolte
 \end_layout
 
 \begin_layout Itemize
@@ -170,9 +181,12 @@ Realizzazione
 : la verifica in questa fase verrà effettuata sia da parte dei programmatori
  stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
  del codice.
- La resenza di errori verrà segnalata da un apposita Ticket che verrà presa
- in carico dai programmatori e chiusa una volta risolto il problema.
- 
+ La presenza di errori verrà segnalata da un apposito 
+\bar under
+ticket 
+\bar default
+che verrà preso in carico dai programmatori e chiuso una volta risolto il
+ problema
 \end_layout
 
 \begin_layout Itemize
@@ -182,8 +196,8 @@ Validazione
 \series default
 : il team si impegna a fornire al collaudo una versione funzionante e possibilme
 nte completa del prodotto.
- Eventuali difetti o incongruienze saranno corretti ed eliminati da Team
- Committed.
+ Eventuali difetti o incongruenze saranno corretti ed eliminati da Team
+ Committed
 \end_layout
 
 \begin_layout Subsection
@@ -315,7 +329,7 @@ a o migliorativa dei Verificatori
 \begin_layout Itemize
 
 \series bold
-Ammistratore
+Amministratore
 \series default
  definisce i piani per la gestione della qualità, come i processi di verifica,
  test e individuazione e risoluzione delle anomalie e discrepanze
@@ -334,7 +348,7 @@ Verificatore
 \begin_layout Itemize
 
 \series bold
-Programamtore 
+Programmatore 
 \series default
 è incentivato a eseguire attività di debugging quando ne riterrà necessario
  ed è coinvolto dai verificatori nella risoluzione dei 
@@ -349,10 +363,14 @@ Risorse Software
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Software per la verifica dei requisiti richiesti
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Software di gestione e commento di 
 \bar under
 ticket
@@ -361,10 +379,14 @@ ticket
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Software necessario alla corretta configurazione dell'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Software utile alla comunicazione fra i membri del team
 \end_layout
 
@@ -375,10 +397,14 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Computer su cui eseguire il software necessario all'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Luogo fisico per incontri fra i membri del team
 \end_layout
 
@@ -393,7 +419,11 @@ Risorse Software
 \end_layout
 
 \begin_layout Itemize
-Risorse messe a disposizione dal servizio 
+
+\series bold
+Github e correlati: 
+\series default
+risorse messe a disposizione dal servizio 
 \bar under
 web
 \bar default
@@ -403,25 +433,37 @@ ticket
 \end_layout
 
 \begin_layout Itemize
-Aspell per il controllo ortografico dei documenti
+
+\series bold
+Aspell
+\series default
+ per il controllo ortografico dei documenti
 \end_layout
 
 \begin_layout Itemize
-Eclipse con relativi strumenti già inclusi o aggiunti tramite plugin
+
+\series bold
+Eclipse
+\series default
+ con relativi strumenti già inclusi o aggiunti tramite plugin
 \end_layout
 
 \begin_layout Itemize
-Strumenti 
-\bar under
-W3C
-\bar default
- per validazione 
+
+\series bold
+Strumenti W3C 
+\series default
+per validazione 
 \bar under
 web
 \end_layout
 
 \begin_layout Itemize
-Gruppo Facebook per poter comunicare fra membri del team
+
+\series bold
+Gruppo Facebook
+\series default
+ per poter comunicare fra membri del team
 \end_layout
 
 \begin_layout Standard
@@ -431,15 +473,21 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Computer personali, portatili e fissi
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Computer messi a disposizione nei laboratori dal Dipartimento di Matematica
  Pura ed Applicata dell'Università di Padova
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
  di Padova
 \end_layout
@@ -472,7 +520,6 @@ Aspell (
 status collapsed
 
 \begin_layout Plain Layout
-
 http://aspell.net/
 \end_layout
 
@@ -485,33 +532,13 @@ http://aspell.net/
 
 \series bold
 Eclipse (
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\series default
 
 \begin_inset Formula $\geqslant3.7.1$
 \end_inset
 
 
-\family default
 \series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 )
 \series default
 : IDE multi-linguaggio e multi-piattaforma che mette a disposizione alcune
@@ -521,7 +548,6 @@ Eclipse (
 status collapsed
 
 \begin_layout Plain Layout
-
 http://www.eclipse.org/
 \end_layout
 
@@ -534,33 +560,13 @@ http://www.eclipse.org/
 
 \series bold
 FindBugs (
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\series default
 
 \begin_inset Formula $\geqslant2.0.0$
 \end_inset
 
 
-\family default
 \series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 )
 \series default
 : strumento utilizzato nell'analisi statica e volto ad individuare errori
@@ -573,7 +579,6 @@ FindBugs (
 status collapsed
 
 \begin_layout Plain Layout
-
 http://findbugs/sourceforge.net/
 \end_layout
 
@@ -596,12 +601,15 @@ EclEmma (
 Java
 \bar default
  prodotto sia durante le fasi di esecuzione che di testing e disponibile
- sotto forma di plugin per Eclipse (
+ sotto forma di plugin per 
+\emph on
+Eclipse
+\emph default
+ (
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
-
 http://www.eclemma.org/
 \end_layout
 
@@ -629,7 +637,6 @@ Android
 status collapsed
 
 \begin_layout Plain Layout
-
 http://tools.android.com/tips/lint
 \end_layout
 
@@ -647,33 +654,48 @@ Metrics (
 
 )
 \series default
-: plugin per Eclipse che permette di effettuare analisi metrica del codice
- prodotto.
+: plugin per 
+\emph on
+Eclipse
+\emph default
+ che permette di effettuare analisi metrica del codice prodotto.
  Fornisce informazioni relative a misure statiche del codice:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+
+\series bold
 Complessità ciclomatica 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Peso delle classi 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero di parametri 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero di campi dati per classe 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero livelli di annidamento 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Indice di utilità - Indice di dipendenza
 \end_layout
 
@@ -683,7 +705,6 @@ Indice di utilità - Indice di dipendenza
 status collapsed
 
 \begin_layout Plain Layout
-
 http://metrics.sourceforge.net
 \end_layout
 
@@ -711,7 +732,6 @@ Java
 status collapsed
 
 \begin_layout Plain Layout
-
 http://www.junit.org/
 \end_layout
 
@@ -729,8 +749,11 @@ Selenium IDE (
 
 )
 \series default
-: plugin per Firefox utilizzato per registrare ed eseguire test tramite
- 
+: plugin per 
+\emph on
+Firefox
+\emph default
+ utilizzato per registrare ed eseguire test tramite 
 \bar under
 browser
 \bar default
@@ -739,7 +762,6 @@ browser
 status collapsed
 
 \begin_layout Plain Layout
-
 http://seleniumhq.org/
 \end_layout
 
@@ -767,7 +789,6 @@ web
 status collapsed
 
 \begin_layout Plain Layout
-
 http://www.apache.org/
 \end_layout
 
@@ -785,8 +806,11 @@ SpeedTracer (
 
 )
 \series default
-: plugin per Google Chrome che permette di verificare l'efficienza di un'applica
-zione 
+: plugin per 
+\emph on
+Google Chrome
+\emph default
+ che permette di verificare l'efficienza di un'applicazione 
 \bar under
 web
 \bar default
@@ -795,7 +819,6 @@ web
 status collapsed
 
 \begin_layout Plain Layout
-
 http://code.google.com/intl/it-IT/webtoolkit/speedtracer/
 \end_layout
 
@@ -831,7 +854,6 @@ web
 status collapsed
 
 \begin_layout Plain Layout
-
 http://validator.w3.org/
 \end_layout
 
@@ -862,7 +884,6 @@ CSS
 status collapsed
 
 \begin_layout Plain Layout
-
 http://jigsaw.w3.org/css-validator/
 \end_layout
 
@@ -911,9 +932,12 @@ Inspection
 \end_layout
 
 \begin_layout Standard
-Chiaramente la tecnica dell'Inspection è più efficace, ma sarà possibile
- attuarla solo dopo aver appreso la consapevolezza iniziale del proprio
- codice e delle proprie capacità.
+Chiaramente la tecnica dell'
+\emph on
+inspection
+\emph default
+ è più efficace, ma sarà possibile attuarla solo dopo aver appreso la consapevol
+ezza iniziale del proprio codice e delle proprie capacità.
 \end_layout
 
 \begin_layout Paragraph
@@ -926,7 +950,7 @@ Metodi di Analisi Statica:
 Analisi del flusso di controllo
 \series default
 : si accerta che il codice segua il flusso aspettato, che non si possa entrare
- in porzioni di codice che possono non terminare, che non esista codice
+ in porzioni di codice che possano non terminare, che non esista codice
  non raggiungibile
 \end_layout
 
@@ -936,7 +960,7 @@ Analisi del flusso di controllo
 Analisi del flusso dei dati
 \series default
 : si accerta che il software non acceda mai a variabili non inizializzate
- o scriva inutilmente più volte prima di usare la variabile
+ o scriva inutilmente più volte prima di usare una variabile
 \end_layout
 
 \begin_layout Itemize
@@ -956,11 +980,11 @@ Analisi dinamica
 L'analisi dinamica consisterà nella verifica dei componenti del software
  o del sistema in generale.
  Verranno effettuati test mirati e ripetuti in diversi contesti.
- Il programmatore, durante i test, dovrà essere coscente dello stato dell'ambien
-te, degli input e dei risultati in ogni momento dell'esecuzione.
+ Il programmatore, durante i test, dovrà essere cosciente dello stato dell'ambie
+nte, degli input e dei risultati in ogni momento dell'esecuzione.
  Questi risultati saranno utili solo nel caso vengano trovati errori da
- correggere, nel caso non vengano trovati questo non significa necessariamente
- l'assenza di anomalie.
+ correggere, nel caso non vengano trovati, non significa necessariamente
+ che non ve ne siano.
 \end_layout
 
 \begin_layout Paragraph
@@ -1017,7 +1041,7 @@ Misure e Metriche
 
 \begin_layout Standard
 Le misure e le metriche che adotteremo per la verifica della qualità del
- software si ispiriranno alle indicazioni dello standard 
+ software si ispireranno alle indicazioni dello standard 
 \emph on
 ISO-14598
 \emph default
@@ -1098,7 +1122,8 @@ Linee di codice
 \series bold
 Misure di coesione funzionale
 \series default
-: misurano le istanze di definione e utilizzo di variabli e costanti (1994).
+: misurano le istanze di definizione e utilizzo di variabili e costanti
+ (1994).
  Un numero elevato di parametri può essere abbassato, e quindi migliorato,
  raggruppando parametri tra loro correlati in classi diverse, aumentando
  manutenibilità e astrazione del codice
