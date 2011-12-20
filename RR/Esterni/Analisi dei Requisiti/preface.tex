@@ -3,13 +3,15 @@
 %% NON MODIFICARE QUESTE IMPOSTAZIONI
 \date{}
 \usepackage[latin9]{inputenc}
+\usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{ucs}
 \usepackage{lastpage}
 \usepackage{longtable}
-\usepackage[colorlinks=true]{hyperref}
+\usepackage{multirow}
+\usepackage{hyperref}
 \hypersetup{
-    colorlinks,
+    colorlinks=true,
     citecolor=black,
     filecolor=black,
     linkcolor=black,
@@ -19,12 +21,12 @@
 \fancyhead{}
 \fancyfoot{}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\fancyhead[RE, RO]{\doctitle \versiondoc - \TeamCommitted}
+\rhead{\doctitle \versiondoc - \TeamCommitted}
 \lhead{\setlength{\unitlength}{1mm}
 	\begin{picture}(0,0)
 		\put(5,0){\includegraphics[scale=0.05]{img/LogoTeam.jpg}}
 	\end{picture}}
-\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\cfoot{\thepage\ di \pageref{LastPage}}
 
 %%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
 \newcommand{\TeamCommitted}{\emph{Team Committed }}
