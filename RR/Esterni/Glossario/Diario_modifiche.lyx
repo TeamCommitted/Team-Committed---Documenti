@@ -141,7 +141,35 @@ hline
 
 		
 \backslash
-emph{Inserite nuove voci.} & Giacomo Quadrio & 16/12/2011 & V0.2 
+emph{Approvato} & Giorgio Maggiolo & 19/12/2011 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Revisione completata} & Massimo Dalla Piet
+\backslash
+'a & 18/12/2011 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inserite nuove voci.} & Giorgio Maggiolo & 16/12/2011 & V0.2 
 \backslash
 
 \backslash
@@ -153,8 +181,6 @@ emph{Inserite nuove voci.} & Giacomo Quadrio & 16/12/2011 & V0.2
 		
 \backslash
 hline 
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -162,11 +188,13 @@ hline
 		
 \backslash
 emph{Inizio creazione del documento.
- Inserite le prime voci} & Giorgio Maggiolo & 06/12/2011 & V0.1 
+ Inserite le prime voci} & Marco Begolo & 06/12/2011 & V0.1 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
