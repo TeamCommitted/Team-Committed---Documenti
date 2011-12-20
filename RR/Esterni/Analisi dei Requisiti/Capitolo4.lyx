@@ -880,9 +880,15 @@ hline
 
 		RFOB 22 & L'
 \backslash
-uline{Amministratore Azienda}  può eliminare un account 
+uline{Amministratore Azienda} potra` eliminare un account 
 \backslash
-uline{Dipendente}
+uline{Dipendente} & UCAA 1.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
