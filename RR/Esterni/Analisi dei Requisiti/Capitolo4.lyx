@@ -269,26 +269,12 @@ uline{Dipendenti} delle domande precaricate & Capitolato
 \backslash
  
 \backslash
-hline
+hline		
 \end_layout
 
 \begin_layout Plain Layout
 
-		RFOB 2.1 & Il sistema dovrà concedere la possibilità ad un 
-\backslash
-uline{Dipendente} di non rispondere ad una domanda al momento della proposta
- di essa & Capitolato 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 2.2 & Un 
+  	  RFOB 2.2 & Un 
 \backslash
 uline{Dipendente} potrà richiedere al sistema di venire sottoposto ad una
  domanda & Capitolato 
@@ -415,8 +401,8 @@ hline
 		RFOB 5.2 & Ad ogni 
 \backslash
 uline{Dipendente} che verrà creato, il sistema dovrà inviargli, all'indirizzo
- email dichiarato, username e password per connettersi al sistema & UCA1.1.6
- 
+ email dichiarato, username e password per connettersi al sistema & UCA
+ 1.1.6 
 \backslash
 
 \backslash
@@ -432,7 +418,7 @@ hline
 uline{Amministratore Azienda} dovrà poter visualizzare i dati di ogni singolo
  
 \backslash
-uline{Dipendente} & UCAA2 
+uline{Dipendente} & UCAA 2 
 \backslash
 
 \backslash
@@ -448,7 +434,7 @@ hline
 uline{Amministratore Azienda} dovrà poter visionare le statistiche personali
  di ogni singolo 
 \backslash
-uline{Dipendente} & UCAA3 
+uline{Dipendente} & UCAA 3 
 \backslash
 
 \backslash
@@ -504,7 +490,7 @@ hline
 		RFOB 9 & Un 
 \backslash
 uline{Dipendente} potrà visualizzare i propri dati personali memorizzati
- nel sistema & UCUA 2 
+ nel sistema & UCD 5 
 \backslash
 
 \backslash
@@ -517,8 +503,8 @@ hline
 
 		RFOB 10 & Un 
 \backslash
-uline{Dipendente} che ha smarrito la propria password per accedere al sistema
- potrà recuperarla & UCU2 
+uline{Utente} che ha smarrito la propria password per accedere al sistema
+ potrà recuperarla & UCU 2 
 \backslash
 
 \backslash
@@ -531,9 +517,9 @@ hline
 
 		RFOB 10.1 & Un 
 \backslash
-uline{Dipendente} che ha smarrito la password ed ha eseguito la procedura
- di recupero e non ha ancora effettuato il primo login, la riceverà sulla
- propria casella di posta elettronica & UC2.1 
+uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
+ recupero e non ha ancora effettuato il primo login, la riceverà sulla propria
+ casella di posta elettronica & UCU 2.1 
 \backslash
 
 \backslash
@@ -546,9 +532,10 @@ hline
 
 		RFOB 10.2 & Un 
 \backslash
-uline{Dipendente} che ha smarrito la password ed ha eseguito la procedura
- di recupero ed ha avuto accesso al sistema almeno una volta, riceverà una
- mail contenente una nuova password ottenuta in modo randomico 
+uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
+ recupero ed ha avuto accesso al sistema almeno una volta, riceverà una
+ mail contenente una nuova password ottenuta in modo randomico & UCU 2.1
+ 
 \backslash
 
 \backslash
@@ -573,10 +560,10 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 11 & Un 
+		RFOB 22 & Un 
 \backslash
 uline{Amministratore Installatore} dovrà potersi autenticare nel sistema
- inserendo le proprie credenziali & UCAI1 
+ inserendo le proprie credenziali & UCAI 1 
 \backslash
 
 \backslash
@@ -590,7 +577,7 @@ hline
 		RFOB 12 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} dovrà avere la possibilità
- di terminare la propria sessione & UCAIA2 
+ di terminare la propria sessione & UCAIA 2 
 \backslash
 
 \backslash
@@ -604,7 +591,7 @@ hline
 		RFOB 13 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} potrà installare il sistema
- in un'azienda & UCAI2 
+ in un'azienda & UCAI 2 
 \backslash
 
 \backslash
@@ -632,7 +619,7 @@ hline
 		RFOB 14.1 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} potrà aggiungere i dati di
- un'azienda al server & UCAIA1.1 
+ un'azienda al server & UCAIA 1.1 
 \backslash
 
 \backslash
@@ -647,7 +634,7 @@ hline
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
  dovrà necessariamente inserire: nome azienda, recapito del server dati
- personale, username e password & UCAIA1.2 
+ personale, username e password & UCAIA 1.1 
 \backslash
 
 \backslash
@@ -661,7 +648,7 @@ hline
 		RFOB 14.2 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} potrà rimuovere un'azienda
- dal server & UCAIA1.2 
+ dal server & UCAIA 1.2 
 \backslash
 
 \backslash
@@ -675,7 +662,7 @@ hline
 		RFOB 14.3 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} avrà la possibilità di modificare
- il riferimento al database personale di un'azienda  & UCAIA1.3 
+ il riferimento al database personale di un'azienda  & UCAIA 1.3 
 \backslash
 
 \backslash
@@ -689,7 +676,7 @@ hline
 		RFOB 15 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di consultare le domande
- dell'azienda & UCAS1 
+ dell'azienda & UCAS 1 
 \backslash
 
 \backslash
@@ -703,7 +690,7 @@ hline
 		RFOB 16 & Un 
 \backslash
 uline{Amministratore Sicurezza} dovrà poter modificare l'insieme delle domande
- di un'azienda & UCAS2 
+ di un'azienda & UCAS 2 
 \backslash
 
 \backslash
@@ -717,7 +704,7 @@ hline
 		RFOB 16.1 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di aggiungere una domanda
- all'insieme di quelle già presenti & UCAS2.1 
+ all'insieme di quelle già presenti & UCAS 2.1 
 \backslash
 
 \backslash
@@ -736,7 +723,7 @@ uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
 \backslash
 uline{Utenti} a cui dovrà essere sottoposta, tipologia di piattaforma su
  cui dovrà essere visualizzata, eventuale tempo limite di risposta, punteggio
- corrispondente & Interno 
+ corrispondente & UCAS 2.1 
 \backslash
 
 \backslash
@@ -750,7 +737,7 @@ hline
 		RFOB 16.2 & Un 
 \backslash
 uline{Amministratore Sicurezza} potrà modificare una domanda gia' presente
- nel database & UCAS2.2 
+ nel database & UCAS 2.2 
 \backslash
 
 \backslash
@@ -767,7 +754,7 @@ uline{Amministratore Sicurezza} che ha scelto di modificare una domanda
  potrà variarne qualsiasi parametro tra: tipologia, testo, risposte possibili,
  risposte corrette, percorso immagine/video di supporto, categoria 
 \backslash
-uline{Utenti}, piattaforma, temporizzazione e punteggio & Interno 
+uline{Utenti}, piattaforma, temporizzazione e punteggio & UCAS 2.2 
 \backslash
 
 \backslash
@@ -781,7 +768,7 @@ hline
 		RFOB 16.3 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di rimuovere una domanda
- fra quelle  presenti nel sistema & UCAS2.1 
+ fra quelle  presenti nel sistema & UCAS 2.3 
 \backslash
 
 \backslash
@@ -796,7 +783,7 @@ hline
 \backslash
 uline{Dipendente} a cui viene proposta la possibilità di rispondere ad una
  domanda potrà scegliere di visualizzarla e quindi rispondere, oppure rimandarla
- e rispondere successivamente & UCD1 
+ e rispondere successivamente & UCD 1 
 \backslash
 
 \backslash
@@ -809,7 +796,7 @@ hline
 
 		RFOB 18 & Una volta che una domanda viene mostrata ad un 
 \backslash
-uline{Dipendente}, questo dovrà necessarimente fornirle risposta & UCD1.1
+uline{Dipendente}, questo dovrà necessarimente fornirle risposta & UCD 1.1
  
 \backslash
 
@@ -825,8 +812,7 @@ hline
  verrà sottoposto un 
 \backslash
 uline{Dipendente} è una nuova domanda, una domanda posticipata o una domanda
- sbagliata in precedenza.
- 
+ sbagliata in precedenza & UCD 1.1 
 \backslash
 
 \backslash
@@ -840,7 +826,7 @@ hline
 		RFOB 19 & Un 
 \backslash
 uline{Dipendente} dovrà avere la possibilità di consultare le informazioni
- conseguenti alla sua storia delle risposte & UCD3 
+ riguardanti i suoi punteggi & UCD3 
 \backslash
 
 \backslash
@@ -855,8 +841,7 @@ hline
 \backslash
 uline{Dipendente} potrà consultare  sono: storico delle risposte(sia corrette
  che errate), classifica aziendale, trofei/badge raccolti, statistiche derivanti
- dalle risposte.
- & UCD3 
+ dalle risposte & UCD 3 
 \backslash
 
 \backslash
@@ -869,36 +854,8 @@ hline
 
 		RFOB 20 & Un 
 \backslash
-uline{Dipendente} dovrà avere la possibilità di modificare tra i suoi dati
- personali password e indirizzo mail & Interno 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 20.1 & Un 
-\backslash
-uline{Dipendente} che ha modificato almeno uno dei propri dati personali
- riceverà una mail di conferma & UC2.1 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 21 & Un 
-\backslash
 uline{Amministratore Azienda} avrà la possibiltà di modificare i dati personali
- dei Dipendenti & Interno 
+ dei Dipendenti & UCAA 1.3 
 \backslash
 
 \backslash
@@ -909,8 +866,8 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome,
- indirizzo email, impiego, codice fiscale & UC1.3 
+		RFOB 20.1 & I campi che potranno essere modificati sono: nome, cognome,
+ indirizzo email, impiego, codice fiscale & UCAA 1.3 
 \backslash
 
 \backslash
