@@ -1,0 +1,1513 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+\usepackage{longtable}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding latin1
+\fontencoding T1
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue"
+\papersize a4paper
+\use_geometry false
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 0
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Dettaglio requisiti
+\end_layout
+
+\begin_layout Standard
+Viene di seguito riportata la lista completa dei requisiti individuati e
+ suddivisi in base al tipo della loro rilevanza strategica (
+\emph on
+obbligatori
+\emph default
+, 
+\emph on
+desiderabili
+\emph default
+, 
+\emph on
+opzionali
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+Ogni requisito descritto sarà univocamente identificato secondo lo schema:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+R{X}{Y}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{X}: 
+\series default
+indica la categoria del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+F: 
+\series default
+requisito funzionale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Q: 
+\series default
+requisito di qualità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+P: 
+\series default
+requisito di prestazionale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+V:
+\series default
+ requisito di vincolo
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+{Y}: 
+\series default
+indica la classe del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+OB: 
+\series default
+requisito obbligatorio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+D: 
+\series default
+requisito desiderabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+OP:
+\series default
+ requisito opzionale
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+
+\family roman
+Requisiti funzionali
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{6cm} | r}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Provenienza 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1 & Il sistema dovrà lavorare in rete, ogni azienda dovrà essere
+ in grado di accedervi mediante connessione internet & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 2 & Il sistema dovrà sottoporre periodicamente ai 
+\backslash
+uline{Dipendenti} delle domande precaricate & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline		
+\end_layout
+
+\begin_layout Plain Layout
+
+  	  RFOB 2.1 & Un 
+\backslash
+uline{Dipendente} potrà richiedere al sistema di venire sottoposto ad una
+ domanda & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 2.2 & Una proposta di domanda dovrà essere completamente non invasiva
+ & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 3 & Tutte le azioni di tutti gli 
+\backslash
+uline{Utenti}, nel tempo, dovranno essere registrate nel sistema & Capitolato
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4 & Le domande che verranno sottoposte ai 
+\backslash
+uline{Dipendenti} dovranno essere di tipologia diversa & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.1 & Le domande a cui verranno sottoposti i 
+\backslash
+uline{Dipendenti} prevederanno che questi possano rispondere direttamente
+ dalla propria postazione di lavoro & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.2 & Le domande a cui verranno sottoposti i 
+\backslash
+uline{Dipendenti} forniti di 
+\backslash
+uline{dispositivi mobili} aziendali prevederano anche prove pratiche & Capitolat
+o 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFD 4.3 & La natura delle domande a cui verranno sottoposti i 
+\backslash
+uline{Dipendenti} potrà variare a seconda dell'impiego dello stesso & Verbale
+ 05/12/2011 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter registrare i 
+\backslash
+uline{Dipendenti} inserendone i dati personali & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1 & Il modulo di registrazione richiederà nome, cognome, codice
+ fiscale, indirizzo email, impiego & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.2 & Ad ogni 
+\backslash
+uline{Dipendente} che verrà creato, il sistema dovrà inviargli, all'indirizzo
+ email dichiarato, username e password per connettersi al sistema & UCAA
+ 1.1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare i dati di ogni singolo
+ 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 7 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visionare le statistiche personali
+ di ogni singolo 
+\backslash
+uline{Dipendente} & UCAA 3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 8 & Un 
+\backslash
+uline{Dipendente} potrà modificare i propri dati personali, in seguito il
+ sistema si occuperà di inviargli una mail di conferma & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 8.1 & Quando un 
+\backslash
+uline{Dipendente} modifica la password di accesso alla sua area personale,
+ il sistema gli invierà una mail di conferma & Interno
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 8.2 &  Quando un 
+\backslash
+uline{Dipendente} modifica il suo indirizzo di posta elettronica, il sistema
+ gli invierà una mail di conferma al nuovo indirizzo & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare i propri dati personali memorizzati
+ nel sistema & UCD 5 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & Un 
+\backslash
+uline{Utente} che ha smarrito la propria password per accedere al sistema
+ potrà recuperarla & UCU 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10.1 & Un 
+\backslash
+uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
+ recupero e non ha ancora effettuato il primo login, la riceverà sulla propria
+ casella di posta elettronica & UCU 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10.2 & Un 
+\backslash
+uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
+ recupero ed ha avuto accesso al sistema almeno una volta, riceverà una
+ mail contenente una nuova password ottenuta in modo randomico & UCU 2.1
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11 & Il sistema permetterà agli 
+\backslash
+uline{Utenti} che hanno effettuato il login di uscire dalla sessione autenticata
+, ma non di terminare l'applicazione & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 12 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} dovrà avere la possibilità
+ di terminare la propria sessione & UCAIA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 13 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} potrà installare il sistema
+ in un'azienda & UCAI 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} avrà la possibilità di gestire
+ il server che raccoglie le informazioni delle aziende & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} potrà aggiungere i dati di
+ un'azienda al server & UCAIA 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1.1 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
+ dovrà necessariamente inserire: nome azienda, recapito del server dati
+ personale, username e password & UCAIA 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.2 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} potrà rimuovere un'azienda
+ dal server & UCAIA 1.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.3 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} avrà la possibilità di modificare
+ il riferimento al database personale di un'azienda  & UCAIA 1.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare le domande
+ dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16 & Un 
+\backslash
+uline{Amministratore Sicurezza} dovrà poter modificare l'insieme delle domande
+ di un'azienda & UCAS 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di aggiungere una domanda
+ all'insieme di quelle già presenti & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.1 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne: tipologia, testo, possibili risposte, risposta corretta,
+ eventuale percorso di immagine/video di supporto, categoria di 
+\backslash
+uline{Utenti} a cui dovrà essere sottoposta, tipologia di piattaforma su
+ cui dovrà essere visualizzata, eventuale tempo limite di risposta, punteggio
+ corrispondente & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.2 & Un 
+\backslash
+uline{Amministratore Sicurezza} potrà modificare una domanda gia' presente
+ nel database & UCAS 2.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.2.1 & Un 
+\backslash
+uline{Amministratore Sicurezza} che ha scelto di modificare una domanda
+ potrà variarne qualsiasi parametro tra: tipologia, testo, risposte possibili,
+ risposte corrette, percorso immagine/video di supporto, categoria 
+\backslash
+uline{Utenti}, piattaforma, temporizzazione e punteggio & UCAS 2.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.3 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di rimuovere una domanda
+ fra quelle  presenti nel sistema & UCAS 2.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 17 & Un 
+\backslash
+uline{Dipendente} a cui viene proposta la possibilità di rispondere ad una
+ domanda potrà scegliere di visualizzarla e quindi rispondere, oppure rimandarla
+ e rispondere successivamente & UCD 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 18 & Una volta che una domanda viene mostrata ad un 
+\backslash
+uline{Dipendente}, questo dovrà necessarimente fornirle risposta & UCD 1.1
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 18.1 & Il sistema sarà in grado di riconoscere se la domanda a cui
+ verrà sottoposto un 
+\backslash
+uline{Dipendente} è una nuova domanda, una domanda posticipata o una domanda
+ sbagliata in precedenza & UCD 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19 & Un 
+\backslash
+uline{Dipendente} dovrà avere la possibilità di consultare le informazioni
+ riguardanti i suoi punteggi & UCD3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19.1 & Le informazioni che un 
+\backslash
+uline{Dipendente} potrà consultare  sono: storico delle risposte(sia corrette
+ che errate), classifica aziendale, trofei/badge raccolti, statistiche derivanti
+ dalle risposte & UCD 3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20 & Un 
+\backslash
+uline{Amministratore Azienda} avrà la possibiltà di modificare i dati personali
+ dei Dipendenti & UCAA 1.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20.1 & I campi che potranno essere modificati sono: nome, cognome,
+ indirizzo email, impiego, codice fiscale & UCAA 1.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline		
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & Un 
+\backslash
+uline{Amministratore Installatore} dovrà potersi autenticare nel sistema
+ inserendo le proprie credenziali & UCAI 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & L'
+\backslash
+uline{Amministratore Azienda} potrà eliminare un account 
+\backslash
+uline{Dipendente} & UCAA 1.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Requisiti prestazionali
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{6cm} | r}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Provenienza 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 1 & Il prodotto dovrà essere prestazionale anche nelle ore di traffico
+ massimo della rete & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2 & Il prodotto dovrà essere prestazionale sia se il server delle
+ domande sia interno all'azienda che esterno & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Requisiti di qualità
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{6cm} | r}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Provenienza 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 1 & Sarà fornita documentazione esaustiva di tutte le classi chiave
+ ed interfacce del prodotto & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQD 2 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3 & Sarà fornita assieme al software documentazione adeguata riguardo
+ l'installazione e l'utilizzo del sistema & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.1 & Sarà fornito un manuale ad uso dei 
+\backslash
+uline{Dipendenti} che coprirà gli aspetti di utilizzo del software dal loro
+ punto di vista & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.2 & Sarà fornito un manuale ad uso 
+\backslash
+uline{Amministratore Azienda}  riguardo tutte le azioni che tale 
+\backslash
+uline{Utente} potrà compiere & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.3 & Sarà fornito un manuale ad uso 
+\backslash
+uline{Amministratore Installatore} riguardo l'installazione del prodotto
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 3.4 & Sarà fornito un manuale ad uso 
+\backslash
+uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere tale
+ 
+\backslash
+uline{Utente} & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 4 & Le interfacce che saranno visibili ai 
+\backslash
+uline{Dipendenti} dovranno essere accattivanti e le funzionalità quanto
+ più intuitive, così da invogliare l'utilizzo & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 4.1 & Ogni elemento di interazione fornirà all'
+\backslash
+uline{Utente} informazioni visive sulla possibile azione effettuabile &
+ Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 4.2 & Da ogni schermata sarà possibile raggiungere un'area di aiuto
+ che guiderà l'
+\backslash
+uline{Utente} spiegandogli le operazioni effettuabili nella pagina in cui
+ esso si trova & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQD 5 & Le applicazioni 
+\backslash
+uline{WEB} aderiranno allo stile 
+\backslash
+uline{W3C} & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOB 6 & Tutti i processi di sviluppo aderiranno allo standard 
+\backslash
+uline{ISO/IEC} 15504:1998 SPICE & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Requisiti di vincolo
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{6cm} | r}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Provenienza 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
+ con caratteristiche molto differenti fra di loro & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOB 1.1 & Il sistema dovrà essere multipiattaforma & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi 
+\backslash
+uline{dispositivo mobile} & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVD 2 & L'inserimento delle domande all'interno del sistema dovrà essere
+ particolarmente 
+\backslash
+emph{user-friendly} così da non richiedere conoscenze specifiche & Verbale
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOB 3 & Non si dovranno fare assunzioni sulla locazione dei database
+ delle aziende & Verbale 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOB 4 & Le funzioni del sistema offerte al 
+\backslash
+uline{Dipendente} dovranno essere fruibili tramite interfaccia 
+\backslash
+uline{web} & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Interfacciamento con gli ambienti di installazione e d'uso
+\end_layout
+
+\begin_layout Standard
+Il prodotto sarà utilizzabile da una qualsiasi piattaforma fissa, connessa
+ alla rete, su cui sia stata installata una 
+\bar under
+JVM
+\bar default
+, e da 
+\bar under
+dispositivi mobili
+\bar default
+ basati sul sistema operativo 
+\bar under
+Android
+\bar default
+ su cui verrà scaricata gratuitamente la relativa applicazione da 
+\bar under
+Android
+\bar default
+ 
+\bar under
+Market
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Norme vigenti nel dominio applicativo
+\end_layout
+
+\begin_layout Standard
+Per poter sfruttare appieno tutte le funzionalità intrinseche del prodotto
+ 
+\bar under
+SafetyGame
+\bar default
+ è necessario disporre di una connessione internet, di una 
+\bar under
+JVM
+\bar default
+, di ambienti dotati di interfacce grafiche, di un 
+\bar under
+browser
+\bar default
+ di ultima generazione, e per quanto riguarda la parte mobile di un 
+\bar under
+dispositivo mobile
+\bar default
+ con sistema operativo 
+\bar under
+Android
+\bar default
+ e applicazione 
+\bar under
+SafetyGame
+\bar default
+ installata.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Inoltre il sistema assicura di mantenere integri e sicuri i dati al suo
+ interno e che il suo funzionamento non verrà condizionato dallo stato di
+ traffico nella rete.
+\end_layout
+
+\begin_layout Subsubsection
+Caratteristiche degli Utenti
+\end_layout
+
+\begin_layout Standard
+Si prevedono quattro tipi di 
+\bar under
+Utenti
+\bar default
+ che nei vari ruoli utilizzeranno il sistema:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dipendente
+\series default
+: dal punto di vista del sistema rappresenta un semplice lavoratore con
+ un determinato ruolo nell'azienda.
+ È a questo 
+\bar under
+Utente
+\bar default
+ che il sistema somministrerà periodicamente le domande per poi analizzarne
+ i risultati delle risposte.
+ Ad un 
+\bar under
+Dipendente
+\bar default
+ non è richiesta alcuna conoscenza informatica per poter utilizzare l'applicativ
+o.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Amministratore Sicurezza
+\series default
+: rappresenta l'
+\bar under
+Utente
+\bar default
+ che fisicamente gestirà le domande, complete di risposte e punteggi, all'intern
+o dell'applicazione.
+ Si tiene in considerazione l'idea che questa persona possa avere ridotte,
+ se non nulle, conoscenze informatiche quindi le operazioni che potrà eseguire
+ dovranno risultare semplici, intuitive ed all'occorrenza guidate.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Amministratore Installatore
+\series default
+: è l'
+\bar under
+Utente
+\bar default
+ che andrà fisicamente ad installare il prodotto nelle aziende.
+ Si presuppone che tale persona possieda sufficienti conoscenze informatiche
+ di base, ma nonostante ciò tutte le operazioni che potrà eseguire saranno
+ progettate per risultare il più semplice e intuitive possibile.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Amministratore Azienda
+\series default
+: è un 
+\bar under
+Utente
+\bar default
+ che gestisce i Dipendenti di un'azienda all'interno del sistema.
+ Il suo interesse sarà rivolto a conoscere, e quindi analizzare, statistiche
+ aziendali ed i punteggi dei singoli Dipendenti .Anche per questo tipo di
+ 
+\bar under
+Utente
+\bar default
+ non è richiesta alcuna conoscenza informatica per poter utilizzare l'applicativ
+o.
+\end_layout
+
+\end_body
+\end_document

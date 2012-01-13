@@ -1,0 +1,1798 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+%\usepackage{fullpage}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\doctitle}{Norme di progetto }
+\newcommand{\asd}{asd}
+\newcommand{\versiondoc}{V0.2 }
+\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
+\fancyhead[RE, RO]{\doctitle}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Documenti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In questo capitolo verranno elencate tutte le convenzioni che il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha adottato riguardo alla redazione di tutta la documentazione.
+\end_layout
+
+\begin_layout Subsection
+Formattazione e copertina
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ogni documento dovrà essere redatto seguendo queste indicazioni
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ogni file citato in questa sezione è possibile trovarlo nel repository all'inter
+no della cartella 
+\family typewriter
+/root/Modelli/
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Copertina:
+\series default
+ ogni file LyX dovrà includere come primo oggetto il file 
+\family typewriter
+frontpage.lyx
+\family default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Il percorso del file fornito a LyX non dovrà essere assoluto, ma 
+\series bold
+relativo 
+\series default
+(ex.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+../../../Modelli/frontpage.lyx
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+.
+ Il file non dovrà essere spostato dalla sua posizione iniziale in quanto
+ sarà Lyx, assieme alle impostazioni contenute nel file 
+\family typewriter
+preface.tex
+\family default
+, a modificare automaticamente il file.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diario delle modifiche:
+\series default
+ il codice del 
+\emph on
+diario delle modifiche
+\emph default
+ è possibile trovarlo nel file 
+\family typewriter
+Diario_modifiche.lyx
+\family default
+.
+ Il file contiene il codice 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ che dovrà essere copiato ed incollato subito dopo l'inclusione della copertina.
+ All'interno si troveranno le istruzioni su come utilizzare il file e come
+ deve essere modificato il codice per mostrare correttamente il diario delle
+ modifiche.
+ Non è necessario copiare e incollare il file all'interno della cartella
+ del documento in lavorazione, in quanto si dovrà invece copiare-incollare
+ il suo contenuto e modificarlo di conseguenza all'interno del documento
+ che si sta modificando.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Impostazioni del 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Preambolo di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\series default
+le impostazioni che dovranno essere applicate ad ogni documento è possibile
+ trovarle all'interno del file 
+\family typewriter
+preface.tex
+\family default
+.
+ Questo file dovrà essere copiato-incollato all'interno della cartella del
+ proprio documento in lavorazione.
+ Inoltre dovrà essere modificato (la copia 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+locale
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+) secondo quanto scritto al suo interno.
+ All'interno di LyX, invece, si dovrà andare in 
+\emph on
+Documento->Impostazioni
+\emph default
+, selezionare nell'elenco di sinistra la voce 
+\emph on
+Preambolo di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\emph default
+, quindi scrivere 
+\family typewriter
+
+\backslash
+include{preface}
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Loghi:
+\series default
+ all'interno della cartella 
+\family typewriter
+/root/Modelli/img
+\family default
+ si troveranno i file 
+\family typewriter
+Logo_team_Label.jpg
+\family default
+ e 
+\family typewriter
+LogoTeam.jpg
+\family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+ rispettivamente indicati come 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo grande
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+logo piccolo
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Si dovrà creare all'interno della cartella del documento in lavorazione
+ una nuova cartella chiamata 
+\emph on
+img
+\emph default
+ e copiarvi all'interno il 
+\emph on
+logo piccolo
+\end_layout
+
+\begin_layout Standard
+Nel caso si rendessero necessarie delle modifiche al codice di uno di questi
+ due file, si dovranno seguire le indicazioni descritte nella Sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+, con destinatario del
+\bar under
+ ticket
+\bar default
+ l'
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Norme tipografiche
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Norme-tipografiche"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allo scopo di uniformare lo stile tipografico utilizzato dai vari redattori
+ nei vari documenti, si elencano qui una serie di regole riguardanti lo
+ stile ortografico, tipografico e le varie assunzioni che possono essere
+ riassunte in uno 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+stile uniformato applicato ai vari documenti
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Stile del testo
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stile-del-testo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grassetto: 
+\series default
+il grassetto può essere usato in differenti situazioni:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Elenchi puntati: 
+\series default
+in questi casi è d'obbligo usare il grassetto per evidenziare il concetto
+ esplicato poi nella continuazione del punto trattato.
+ Gli 
+\emph on
+elenchi numerati
+\emph default
+ non sono soggetti a questa norma
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizioni:
+\series default
+ v.d.
+ sopra
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Altre situazioni:
+\series default
+ in altri contesti, il grassetto
+\series bold
+ 
+\series default
+va
+\series bold
+ 
+\series default
+esclusivamente utilizzato per evidenziare parole chiave o passaggi all'interno
+ della frase
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Corsivo: 
+\series default
+il corsivo deve essere utilizzato nei seguenti casi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Citazioni:
+\series default
+ quando si deve citare una o più frasi, queste devono essere scritte in
+ corsivo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Attenzione! Le virgolette che contrassegnano una citazione non devono essere
+ anch'esse in corsivo, ma in stile standard
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi particolari:
+\series default
+ il corsivo dovrà essere usato quando si parla di figure particolari piuttosto
+ che di aziende (ex.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Altre situazioni:
+\series default
+ in altre situazioni, il corsivo va utilizzato per enfatizzare parole importanti
+ all'interno della frase.
+ Differisce dal corsivo perché mentre il primo evidenzia parole o frasi
+ chiavi del discorso, il secondo mette in luce delle parole o frasi importanti,
+ ma non essenziali ai fini della frase stessa
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Sottolineato:
+\series default
+ le uniche parole sottolineate saranno quelle per le quali è presente una
+ corrispondenza nel glossario.
+ Ogni occorrenza
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Non si considerano valide come occorrenze le parole all'interno dei titoli
+ delle sezione o all'interno dei percorsi
+\end_layout
+
+\end_inset
+
+ di ogni parola presente nel glossario dovrà essere sottolineata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Monospace: 
+\series default
+il carattere monospace dovrà indicare un passaggio utile alla definizione
+ di un formato, di uno standard adottato o per inserire del codice all'interno
+ del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Maiuscolo:
+\series default
+ una parola scritta maiuscola indicherà un acronimo.
+ Non sono previsti ulteriori casi di parole scritte solo in maiuscolo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Fanno esclusione tutti i casi in cui la grammatica italiana preveda l'uso
+ della maiuscola
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Punteggiatura
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Punteggiatura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Punteggiatura:
+\series default
+ qualsiasi segno di punteggiatura non deve seguire un carattere di spaziatura,
+ ma deve essere seguito da un carattere di spazio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lettera maiuscola:
+\series default
+ una lettera maiuscola deve seguire esclusivamente un punto, un punto esclamativ
+o o un punto interrogativo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Parentesi
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Intendendo sia tonde, che quadre o graffe
+\end_layout
+
+\end_inset
+
+:
+\series default
+ una qualsiasi frase racchiusa fra parentesi non deve iniziare con un carattere
+ di spaziatura e non deve chiudersi con un carattere di punteggiatura e/o
+ di spaziatura
+\end_layout
+
+\begin_layout Subsubsection
+Composizione del testo
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Composizione-del-testo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elenchi: 
+\series default
+la prima parola di ogni punto dell'elenco deve avere l'iniziale maiuscola.
+ La fine di ogni punto dell'elenco deve essere priva di punteggiatura
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Note a piè di pagina:
+\series default
+ ogni nota a piè di pagina dovrà cominciare con l'iniziale della prima lettera
+ maiuscola, e non deve essere preceduta da alcun carattere di spaziatura.
+ Ogni nota a piè di pagina non dovrà terminare con alcun carattere di punteggiat
+ura e/o carattere di spaziatura
+\end_layout
+
+\begin_layout Subsubsection
+Formati ricorrenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formati-ricorrenti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Path:
+\series default
+ gli indirizzi web ed e-mail dovranno essere scritti utilizzando il percorso
+ assoluto.
+ Non sono ammessi percorsi relativi (a meno dell'uso di convenzioni [per
+ un esempio v.d.
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Documentazione"
+
+\end_inset
+
+])
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Date:
+\series default
+ ove non specificato diversamente, le date dovranno essere espresse seguendo
+ la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+notazione italiana
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, ovvero:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+GG/MM/AAAA
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+GG: 
+\series default
+rappresenta il giorno scritto utilizzando esattamente due cifre
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MM: 
+\series default
+rappresenta il mese scritto utilizzando esattamente due cifre
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AAAA: 
+\series default
+rappresenta l'anno scritto utilizzando esattamente quattro cifre
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Nomi ricorrenti:
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Ruoli di progetto: 
+\series default
+vari ruoli di progetto dovranno essere formattati utilizzando la prima lettera
+ maiuscola di ogni parola che non sia una preposizione (ex.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi dei documenti: 
+\series default
+i nomi dei documenti dovranno essere formattati utilizzando la prima lettera
+ maiuscola di ogni parola che non sia una preposizione (ex.
+ 
+\emph on
+Norme di Progetto
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi dei file:
+\series default
+ si seguono le regole descritte al punto 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Stile-del-testo"
+
+\end_inset
+
+ per quanto riguarda lo stile monospace
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomi propri:
+\series default
+ l'utilizzo dei nomi propri dovrà rispettare la struttura 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+Nome Cognome
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del gruppo:
+\series default
+ il gruppo dovrà sempre essere nominato per intero (
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ A questo proposito è stato istituito il comando 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\family typewriter
+
+\backslash
+TeamCommitted
+\family default
+ che è già formattato secondo questa norma
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del proponente:
+\series default
+ ci si riferirà al proponente come 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+propProg
+\end_layout
+
+\end_inset
+
+.
+ Anche a questo proposito è stato creato un comando 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+, 
+\family typewriter
+
+\backslash
+propProg
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del progetto: 
+\series default
+ci si riferirà al progetto come 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Sigle:
+\series default
+ sono ammesse le sigle sia dei nomi dei documenti che dei nomi delle revisioni.
+ Dovranno sottostare alle regole per gli acronimi descritte nella sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Stile-del-testo"
+
+\end_inset
+
+.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+AR
+\series default
+ = Analisi dei Requisiti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+PdP 
+\series default
+= Piano di Progetto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+PdQ
+\series default
+ = Piano di Qualifica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NdP
+\series default
+ = Norme di Progetto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GL 
+\series default
+= Glossario
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+RR
+\series default
+ = Revisione dei Requisiti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+RP 
+\series default
+= Revisione di Progettazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+RQ
+\series default
+ = Revisione di Qualifica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+RA
+\series default
+ = Revisione di Accettazione
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Componenti visive
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Componenti-visive"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Immagini
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Immagini"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tutte le immagini dovranno rigorosamente essere in formato 
+\family typewriter
+PNG
+\family default
+ o 
+\family typewriter
+JPG.
+\end_layout
+
+\begin_layout Standard
+Ogni immagine dovrà avere una breve didascalia in cui dovrà necessariamente
+ comparire un nome identificativo per la tracciabilità di tale immagine
+ nel testo.
+ A tale scopo si impone di utilizzare numeri incrementali.
+\end_layout
+
+\begin_layout Subsubsection
+Tabelle
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tabelle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ogni tabella dovrà essere fornita di didascalia, in cui dovrà comparire
+ un numero identificativo incrementale per la tracciabilità di tale tabella
+ all'interno del documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ escluso il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Diario delle modifiche
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ per ovvi motivi
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Versionamento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Versionamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come già descritto nel capitolo 1 del seguente documento, al fine di uniformare
+ lo stile di versionamento si useranno le seguenti norme sul versionamento:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Notazione: 
+\series default
+per esprimere le varie versioni dei documenti si userà la seguente notazione:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+V{X}.{Y}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+{X}: 
+\series default
+indica il numero di uscite formali 
+\begin_inset Quotes eld
+\end_inset
+
+accumulate
+\begin_inset Quotes erd
+\end_inset
+
+ dal documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{Y}:
+\series default
+ indica il numero di modifiche effettuate considerate importanti dal redattore
+ del documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Non viene normata la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+modifica effettuata considerata importante
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in quanto pensiamo che sia palese il suo significato
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Utilizzo:
+\series default
+ la notazione di versionamento dovrà sempre essere utilizzata nei seguenti
+ casi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Citazione di un documento:
+\series default
+ ogni volta che si cita un documento, bisognerà inserire il suo nome completo
+ seguito dalla sua versione: 
+\family typewriter
+Documento di Esempio - V{X}.{Y}
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Intestazione documenti:
+\series default
+ la copertina di ogni documento dovrà avere il nome per esteso seguito dalla
+ sua versione attuale
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Formattazione documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formattazione-documenti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per essere considerato formattato bene, ogni documento dovrà avere:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome documento, versione
+\series default
+ 
+\series bold
+e nome del team
+\series default
+: posizionati nel frontespizio sulla destra, seguendo lo schema 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+NomeDocumento V{X}.{Y} - Team Committed
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Logo del Team
+\series default
+: posizionato nel frontespizio sulla sinistra.
+ Dovrà essere la versione ridotta del logo, come specificato in sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Numero di pagina:
+\series default
+ posizionato a piè pagina al centro, espresso nel formato:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+n di tot
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ogni documento prodotto, inoltre, prima dell'indice dovrà contenere nelle
+ pagine di apertura:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nome del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione del documento
+\series default
+, espressa nel formato definito nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Versionamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Informazioni generali del documento:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Nome del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data redazione
+\series default
+, ovvero data di rilascio della versione 
+\emph on
+{X}
+\emph default
+ del documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Redattori
+\series default
+, ovvero coloro che hanno collaborato alla redazione del documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Nel-caso-di"
+
+\end_inset
+
+Nel caso di più persone si dovrà utilizzare un elenco puntato per elencarle
+ tutte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verificatori
+\series default
+, ovvero i nomi dei membri del gruppo hanno collaborato alla verifica del
+ documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Approvatori
+\series default
+, ovvero chi ha approvato la versione finale del documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Uso
+\series default
+, se interno od esterno al gruppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Distribuzione
+\series default
+, ovvero la lista di persone che dovranno ricevere il documento
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+v.d.
+ nota
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Nel-caso-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Diario delle modifiche
+\series default
+, tabella che riporti le varie modifiche apportate al documento per giungere
+ alla versione finale.
+ Il 
+\emph on
+Diario delle modifiche
+\emph default
+ è una tabella ordinata in maniera decrescente, ovvero le prime righe contengono
+ informazioni sulle ultime modifiche, mentre l'ultima riga conterrà le informazi
+oni riguardanti le prime modifiche.
+\begin_inset Newline newline
+\end_inset
+
+Ogni riga dovrà contenere:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Informazioni sulle modifiche
+\series default
+: breve descrizione sulle modifiche apportate al documento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Autore
+\series default
+: dovrà contenere il nominativo di chi ha apportato la modifica in oggetto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data modifica
+\series default
+: dovrà indicare la data delle modifiche apportate
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Versione
+\series default
+: indicherà la versione a cui si è arrivati al momento dell'aggiornamento
+ del 
+\emph on
+diario delle modifiche
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Per quanto riguarda le note di formattazione e di inclusione automatica
+ dei seguenti documenti, si prega di vedere la sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Classificazione documenti
+\end_layout
+
+\begin_layout Subsubsection
+Documenti informali
+\end_layout
+
+\begin_layout Standard
+Tutti i documenti che non siano stati approvati dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ dovranno essere considerati essere dei 
+\series bold
+documenti informali
+\series default
+.
+ Questi documenti saranno considerati 
+\series bold
+sempre
+\series default
+ ad uso interno.
+ Dovranno essere depositati nel 
+\bar under
+repository
+\bar default
+ dei documenti seguendo le norme descritte nella sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Documentazione-1"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Documenti formali
+\end_layout
+
+\begin_layout Standard
+I documenti formali sono tutti quei documenti che hanno raggiunto una versione
+ definitiva, ovvero quando il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ ha dato il suo assenso alla distribuzione.
+ 
+\end_layout
+
+\begin_layout Standard
+Raggiunto questo stadio, il documento dovrà essere considerato per l'uso
+ descritto nelle 
+\emph on
+informazioni generali del documento
+\emph default
+.
+ Questi documenti sono gli unici che possono (e devono) essere distribuiti
+ alla propria lista di distribuzione.
+ Il responsabile dovrà seguire quanto scritto nella sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Documentazione-1"
+
+\end_inset
+
+ per quanto concerne la creazione del documento PDF del documento formale.
+\end_layout
+
+\begin_layout Standard
+Ogni volta che si appone una modifica ad un documento già approvato (quindi
+ dichiarato formale), si dovrà inserire tale modifica nel 
+\emph on
+diario delle modifiche
+\emph default
+, avvisando nel frattempo il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ che provvederà, nel caso non siano necessarie ulteriori modifiche, a riapprovar
+e il documento e rilasciare una nuova versione formale di esso.
+\end_layout
+
+\begin_layout Subsection
+Procedura di formalizzazione dei documenti
+\end_layout
+
+\begin_layout Standard
+Ogni volta che i 
+\emph on
+redattori
+\emph default
+ considerano pronto un documento, dovranno avvisare il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+, il quale assegnerà tale documento ai 
+\emph on
+verificatori
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Se il documento dovesse rispettare tutte le norme ivi descritte, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ potrà approvare o meno il documento, oppure rimandarlo ai 
+\emph on
+redattori
+\emph default
+ per correzioni non normative.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1573 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Pianificazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Pianificazione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Introduzione e Ciclo di vita
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Introduzione-e-Ciclo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lo sviluppo del software sarà diviso in quattro macro fasi, una per ogni
+ scadenza elencata nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Scadenze"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Analisi
+\series default
+ (AN) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Progettazione Architetturale
+\series default
+ (PA) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Progettazione di Dettaglio e Codifica
+\series default
+ (PDC) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Verifica e Validazione
+\series default
+ (VV) 
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda il 
+\emph on
+ciclo di vita
+\emph default
+ del software, si è deciso di utilizzare il 
+\series bold
+modello incrementale
+\series default
+.
+ La scelta è stata determinata dalle caratteristiche del progetto e del
+ 
+\bar under
+proponente
+\bar default
+.
+ In particolare:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Incrementi
+\series default
+: abbiamo scelto di realizzare l
+\emph on
+’Analisi dei Requisiti
+\emph default
+ e la 
+\emph on
+Progettazione Architetturale
+\emph default
+ in maniera molto attenti e dettagliati, non orientati ad una futura iterazione
+ su di essi, ma piuttosto ad un incremento
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Incontro proponente-gruppo
+\series default
+: crediamo che la massima disponibilità del 
+\bar under
+proponente
+\bar default
+ all'incontro e alla discussione sia essenziale nel determinare i punti
+ fondamentali del progetto ed a distinguerli dalle funzionalità opzionali
+ e desiderabili
+\end_layout
+
+\begin_layout Standard
+Durante le prime due fasi 
+\emph on
+(AN
+\emph default
+ e 
+\emph on
+PA
+\emph default
+) il lavoro sarà focalizzato sulla realizzazione il più possibile attenta
+ e precisa dei documenti e della progettazione, in modo da poter svolgere
+ le due fasi seguenti (
+\emph on
+PDC
+\emph default
+ e 
+\emph on
+VV
+\emph default
+) nel modo più lineare possibile.
+ Inoltre, vista la presenza di requisiti obbligatori ed opzionali cercheremo
+ di presentare una prima versione del prodotto in modo che soddisfi i requisiti
+ obbligatori ed una seconda versione (
+\emph on
+incremento
+\emph default
+) per i requisiti opzionali.
+ 
+\end_layout
+
+\begin_layout Subsection
+Analisi (AN)
+\end_layout
+
+\begin_layout Standard
+La fase di Analisi va dal 05/12/2011 al 10/10/2011.
+ Tuttavia il termine ultimo per la consegna dei documenti necessari alla
+ RR è fissato per il giorno 20/12/2011, perciò l'intero lavoro dovrà essere
+ completato entro tale data.
+ Durante questa fase saranno attivi solo quattro (dei sei disponibili) ruoli,
+ più precisamente
+\emph on
+ Responsabile
+\emph default
+,
+\emph on
+ Amministratore
+\emph default
+, 
+\emph on
+Analista
+\emph default
+ e 
+\emph on
+Verificatore
+\emph default
+.
+ Per garantire una turnazione il più possibile equa la fase di Analisi sarà
+ divisa in due periodi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+I periodo:
+\series default
+ dal 05/12/2011 al 11/12/2011
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+II periodo:
+\series default
+ dal 12/12/2011 al 20/12/2011.
+ 
+\end_layout
+
+\begin_layout Standard
+Ogni membro del gruppo non potrà ricoprire il medesimo ruolo in entrambi
+ i periodi.
+ Nella figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RR"
+
+\end_inset
+
+ viene esposta la suddivisione in due sottofasi, separate da una linea rossa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RR.jpg
+	scale 30
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RR"
+
+\end_inset
+
+ Diagramma di Gantt per la fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Coerentemente con il diagramma 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RR"
+
+\end_inset
+
+, si fornisce in tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Dettaglio-delle-ore-RR"
+
+\end_inset
+
+ la ripartizione delle ore e dei compiti per ciascun ruolo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RR.jpg
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RR"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La tabella seguente riassume il lavoro di ogni componente suddiviso per
+ ruolo e mansione, specificandone il numero di ore di lavoro.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Ruolipersona-RR.jpg
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RR"
+
+\end_inset
+
+Suddivisione del lavoro per ogni membro nella fase di 
+\emph on
+Analisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come si può vedere dalla Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Riassuntivo-delle-ore-RR"
+
+\end_inset
+
+, per ogni componente è previsto un lavoro medio di 19,7 ore per un totale
+ di 138 ore.
+\end_layout
+
+\begin_layout Standard
+Dal momento che la fase di 
+\emph on
+Analisi
+\emph default
+ non è a carico del 
+\bar under
+committente
+\bar default
+, le ore sopra esposte non verranno monetizzate e, conseguentemente, non
+ saranno messe a preventivo.
+\end_layout
+
+\begin_layout Standard
+Allo stesso modo le ore di lavoro spese in questo periodo non faranno parte
+ del tetto massimo di 105 ore/persona.
+\end_layout
+
+\begin_layout Subsection
+Progettazione Architetturale (PA)
+\end_layout
+
+\begin_layout Standard
+La fase di 
+\emph on
+Progettazione Architetturale
+\emph default
+ occuperà il periodo che va dal 04/01/2012 al 07/02/2012.
+ Per garantire una turnazione il più possibile equa la fase di PA sarà suddivisa
+ in tre periodi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+I periodo:
+\series default
+ dal 04/01/2012 al 15/01/2012 (12 giorni)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+II periodo:
+\series default
+ dal 16/01/2012 al 26/01/2012 (11 giorni)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+III periodo:
+\series default
+ dal 27/01/2012 al 06/02/2012 (11 giorni)
+\end_layout
+
+\begin_layout Standard
+E' possibile notare come il primo periodo inizi prima del 10/01/2012, data
+ della Revisione dei Requisiti.
+ Questo è dovuto al fatto che la fase di 
+\emph on
+Progettazione Architetturale
+\emph default
+ è piuttosto onerosa in termini di tempo di lavoro, perciò si è scelto di
+ cominciarla qualche giorno prima della Revisione dei Requisiti.
+ Tuttavia, la fase di 
+\emph on
+Analisi
+\emph default
+ e di 
+\emph on
+Progettazione Architetturale
+\emph default
+ non si sormontano temporalmente.
+\end_layout
+
+\begin_layout Standard
+Seguono la ripartizione dettagliata dei ruoli secondo il diagramma di Gantt
+ (figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RP"
+
+\end_inset
+
+), la tabella con il dettaglio della ripartizione delle ore per ruolo e
+ compito (tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Dettaglio-delle-ore-RP"
+
+\end_inset
+
+), coerente al precedente diagramma, e il riassuntivo delle ore divise per
+ ruolo con relativo costo preventivo (tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Riassuntivo-delle-ore-RP"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RP.jpg
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RP"
+
+\end_inset
+
+Diagramma di Gantt per la 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RP.jpg
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RP"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/oreruolosomm-RP.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RP"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Garantire un'equa ripartizione dei ruoli e delle ore di lavoro, e allo stesso
+ tempo fare in modo che ogni membro non svolga lo stesso ruolo nella fase
+ di 
+\emph on
+Progettazione Architetturale
+\emph default
+, sarebbe stato quasi impossibile.
+ Tuttavia, come si può vedere in Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RP"
+
+\end_inset
+
+, si è cercato di fare il possibile.
+ Segue il dettaglio della ripartizione dei ruoli con relativi tempi di lavoro
+ e compiti.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Ruolipersona-RP.jpg
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RP"
+
+\end_inset
+
+Ripartizione dei ruoli nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come si può vedere nella Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RP"
+
+\end_inset
+
+, per ogni membro è previsto un lavoro medio di 27,6 ore per un totale di
+ 193 ore di lavoro.
+\end_layout
+
+\begin_layout Subsection
+Progettazione di Dettaglio e Codifica (PDC)
+\end_layout
+
+\begin_layout Standard
+La fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\emph default
+ occuperà il periodo che va dal 08/02/2012 al 07/02/2012.
+ Per garantire la turnazione dei ruoli all'interno di questa fase divideremo
+ quest'ultima in due periodi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+I periodo:
+\series default
+ dal 08/02/2012 al 22/02/2012 (15 giorni)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+II periodo:
+\series default
+ dal 23/02/2012 al 07/02/2012 (13 giorni) 
+\end_layout
+
+\begin_layout Standard
+Il primo periodo è leggermente più lungo per via della maggiore mole di
+ lavoro.
+ Si è preferito suddividere questa fase in maniera naturale (ovvero al termine
+ della prima fase di codifica e relativa verifica), piuttosto che in un
+ numero equo di giorni, poiché il passaggio di affidamento di un compito
+ da un membro ad un altro può generare incomprensioni che possono portare
+ ad un ritardo, anche sensibile, nello svolgimento dello stesso.
+ 
+\end_layout
+
+\begin_layout Standard
+Per mantenere la coerenza con il modello di ciclo di vita scelto (sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Introduzione-e-Ciclo"
+
+\end_inset
+
+) i compiti di 
+\emph on
+Progettazione di Dettaglio e di Codifica
+\emph default
+ saranno suddivisi in due parti.
+ La prima parte si occuperà di progettare e codificare quanto riguarda i
+ requisiti obbligatori, mentre la seconda parte sarà dedicata allo sviluppo
+ dei requisiti opzionali.
+ Le due parti sono leggermente sovrapposte poiché durante la codifica della
+ prima parte si procederà alla progettazione della seconda.
+ Si veda il diagramma di Gantt in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RQ"
+
+\end_inset
+
+ per maggior chiarezza.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RQ.jpg
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RQ"
+
+\end_inset
+
+Diagramma di Gantt per la 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seguire, il dettaglio e il riassuntivo delle ore di lavoro necessarie
+ alla realizzazione della fase 
+\emph on
+Progettazione di Dettaglio e Codifica
+\emph default
+ con relativo costo preventivo.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RQ.jpg
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RQ"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/oreruolosomm-RQ.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RQ"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Infine, si riporta in tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RQ"
+
+\end_inset
+
+ la ripartizione dei ruoli con relativi tempi di lavoro e compiti.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Ruolipersona-RQ.jpg
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RQ"
+
+\end_inset
+
+Ripartizione dei ruoli nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come si può vedere nella Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RQ"
+
+\end_inset
+
+, per ogni membro è previsto un lavoro medio di 53,3 ore per un totale di
+ 373 ore di lavoro.
+\end_layout
+
+\begin_layout Subsection
+Verifica e Validazione (VV)
+\end_layout
+
+\begin_layout Standard
+La fase di 
+\emph on
+Verifica e Validazione
+\emph default
+ occuperà il periodo che va dal 07/03/2012 al giorno di scadenza della Revisione
+ di Accettazione, il giorno 07/04/2012 (con possibilità di posticipare la
+ consegna).
+ 
+\end_layout
+
+\begin_layout Standard
+Come per le altre fasi, anche questa sarà suddivisa in due periodi: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+I periodo
+\series default
+: dal 07/03/2012 al 20/03/2012 (14 giorni)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+II periodo
+\series default
+: dal 21/03/2012 al 07/04/2012 (18 giorni)
+\end_layout
+
+\begin_layout Standard
+Segue il diagramma di Gantt con la ripartizione dei compiti.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Gantt-RA.jpg
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RA"
+
+\end_inset
+
+Diagramma di Gantt per la fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seguire, il dettaglio e il riassuntivo delle ore di lavoro necessarie
+ alla realizzazione della fase 
+\emph on
+Verifica e Validazione
+\emph default
+ con relativo costo preventivo: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Oreruolo-RA.jpg
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dettaglio-delle-ore-RA"
+
+\end_inset
+
+Dettaglio delle ore per ruolo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/oreruolosomm-RA.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Riassuntivo-delle-ore-RA"
+
+\end_inset
+
+Riassuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Infine, si riporta in tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RA"
+
+\end_inset
+
+ la ripartizione dei ruoli con relativi tempi di lavoro e compiti.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Ruolipersona-RA.jpg
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-RA"
+
+\end_inset
+
+Ripartizione dei ruoli fra i membri del gruppo nella fase di 
+\emph on
+Verifica e Validazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+come si può vedere in tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-RA"
+
+\end_inset
+
+, per ogni membro è previsto un lavoro medio di 17,7 ore cadauno per un
+ totale di 124 ore di lavoro.
+\end_layout
+
+\begin_layout Subsection
+Prospetto orario
+\end_layout
+
+\begin_layout Standard
+Lo sviluppo dell'intero progetto prevede una soglia massima di lavoro cadauno
+ di 105 ore.
+ Nessun membro supera questo limite, come si può vedere nella tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-finale"
+
+\end_inset
+
+.
+ Chiaramente, il limite fa riferimento alle sole fasi di 
+\emph on
+Progettazione Architetturale
+\emph default
+, 
+\emph on
+Progettazione di Dettaglio
+\emph default
+ e Codifica e 
+\emph on
+Verifica e Validazione
+\emph default
+.
+ La fase di 
+\emph on
+Analisi
+\emph default
+ non è inclusa in quanto non calcolata nel preventivo.
+ Segue la tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ripartizione-dei-ruoli-finale"
+
+\end_inset
+
+ con il riassuntivo delle ore svolte da ogni membro per ogni ruolo.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+scalebox{0.6}{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{|c|c|c|c|c|c|c|c|} 
+\backslash
+hline  Membro & Responsabile & Amministratore & Analista & Verificatore
+ & Progettista & Programmatore & Totale 
+\backslash
+tabularnewline 
+\backslash
+hline  
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+Begolo Marco & 4 & 10 & 12 & 10 & 57 & 4 & 97
+\backslash
+tabularnewline 
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+Braghetto Lorenzo & 9 & 11 & 0 & 20 & 36 & 23 & 99
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Cornaglia Alessandro & 10 & 4 & 6 & 27 & 24 & 28 & 99
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Dalla Pietà Massimo & 15 & 4 & 0 & 31 & 34 & 18 & 102
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Facchin Gabriele & 13 & 10 & 0 & 33 & 29 & 12 & 97
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Maggiolo Giorgio & 2 & 8 & 12 & 51 & 6 & 18 & 97
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Quadrio Gacomo & 6 & 2 & 0 & 27 & 31 & 33 & 99
+\backslash
+tabularnewline 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Totale & 59 & 49 & 30 & 199 & 233 & 120 & 690
+\backslash
+tabularnewline 
+\backslash
+hline  
+\backslash
+end{tabular}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ripartizione-dei-ruoli-finale"
+
+\end_inset
+
+Riassuntivo orario per componente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'intero progetto richiederà quindi un totale di 690 ore di lavoro, con
+ una media di 98,6 ore a testa.
+ La tabella viene riassunta nel grafico in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:grafico_ore_ruolo_membro"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/grafico_ore_ruolo_membro.jpg
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:grafico_ore_ruolo_membro"
+
+\end_inset
+
+distribuzione dei ruoli per ogni membro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Infine, si riporta il grafico in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ripartizione_ore_totali_per_ruolo"
+
+\end_inset
+
+ che mostra come ogni ruolo abbia contribuito nello sviluppo del progetto
+ in termini di tempo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/ripartizione_ore_totali_per_ruolo.jpg
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ripartizione_ore_totali_per_ruolo"
+
+\end_inset
+
+ripartizione in percentuale dei ruoli
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

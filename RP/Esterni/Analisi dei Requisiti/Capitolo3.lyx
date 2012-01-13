@@ -1,0 +1,2957 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding latin1
+\fontencoding T1
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue"
+\papersize a4paper
+\use_geometry false
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 0
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Casi d' uso
+\end_layout
+
+\begin_layout Standard
+Di seguito sono presenti i casi d'uso identificati dal capitolato d'appalto
+ 
+\series bold
+\bar under
+Piattaforma Mobile di Apprendimento Comportamentale
+\series default
+\bar default
+.
+\end_layout
+
+\begin_layout Subsection
+Ambito Utente, caso d'uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/Ambito Utente.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Utente, caso d'uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Utente
+\bar default
+, 
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ può effettuare il login, divenendo 
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, o recuperare la password dimenticata.
+ L'
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout e compiere le azioni proprie del tipo di autenticazion
+e effettuata.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+Il sistema è funzionante, è stato creato un account sul database.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ è operativo a seconda dei suoi poteri, le modifiche vengono salvate in
+ modo corretto.
+ Il sistema è funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ può effettuare il login
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ può recuperare la password dimenticata
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout
+\end_layout
+
+\begin_layout Subsubsection
+UCU 2: Ambito Utente, recupero password dimenticata
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCU 2 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Utente, recupero password dimenticata.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Utente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ può recuperare la propria password (se non ha mai avuto accesso prima)
+ oppure ottenerne una nuova.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ ha dimenticato la propria password e non ha effettuato il login.
+ Il sistema è funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ riceve una mail con la propria password.
+ Il sistema è funzionante.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ fornisce le credenziali per la verifica della persona
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ riceve nella propria mail la password
+\end_layout
+
+\begin_layout Subsection
+Ambito Dipendente, caso d' uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/Ambito Dipendente.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, caso d' uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti: 
+\series default
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+Al 
+\bar under
+Dipendente
+\bar default
+ vengono proposte delle domande dal sistema, deve poter richiedere che gliene
+ venga proposta una in ogni momento e deve poter visualizzare i suoi punteggi
+ in qualsiasi momento.
+ Può inoltre modificare o visualizzare i propri dati personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Applicazione funzionante, l'
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Dipendente
+\bar default
+ nel sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ L'
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Dipendente
+\bar default
+ ed ha effettuato una o più delle operazioni consentite rimanendo in uno
+ stato consistente.
+ L'applicazione continua a funzionare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può ricevere una domanda proposta dal sistema
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può richiedere al sistema di proporgli una domanda
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare i suoi punteggi
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare i propri dati personali
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare i propri dati personali
+\end_layout
+
+\begin_layout Subsubsection
+UCD 1: Ambito Dipendente, domanda proposta
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCD 1 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, domanda proposta.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti: 
+\series default
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ Al 
+\bar under
+Dipendente
+\bar default
+ viene segnalata una domanda dal sistema e lui deve poter decidere se visualizza
+re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+Applicazione funzionante, l'
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Dipendente
+\bar default
+ nel sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Dipendente
+\bar default
+ ed ha visualizzato o posticipato la domanda proposta.
+ L'applicazione continua a funzionare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ riceve una segnalazione di domanda dal sistema
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può visualizzare la domanda proposta o posticiparla per visualizzarla in
+ seguito
+\end_layout
+
+\begin_layout Subsubsection
+UCD 1.1: Ambito Dipendente, mostra domanda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCD 1.1 esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, mostra domanda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+La domanda mostrata al 
+\bar under
+Dipendente
+\bar default
+ può essere o una domanda mai vista, che potrebbe essere stata posticipata
+ precedentemente, oppure una domanda già vista a cui ha risposto erroneamente,
+ il 
+\bar under
+Dipendente
+\bar default
+ deve rispondere alla domanda mostrata.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha scelto di visualizzare la domanda proposta dal sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha risposto alla domanda proposta dal sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ visualizza la domanda proposta
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ risponde alla domanda
+\end_layout
+
+\begin_layout Subsubsection
+UCD 2: Ambito Dipendente, richiesta domanda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCD 2 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, richiesta domanda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Dipendente
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Scopo e Descrizione:
+\series default
+ Il sistema deve proporre una domanda al 
+\bar under
+Dipendente
+\bar default
+ ogni qualvolta esso lo richieda.
+ Prima che il 
+\bar under
+Dipendente
+\bar default
+ possa richiedere un'altra domanda deve passare un certo lasso di tempo
+ predefinito.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Precondizione:
+\series default
+ Applicazione funzionante, il 
+\bar under
+Dipendente
+\bar default
+ ha richiesto che gli venga proposta una domanda dal sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Postcondizione: 
+\series default
+Il sistema visualizza una domanda come richiesto dal 
+\bar under
+Dipendente
+\bar default
+.
+ L'applicazione continua a funzionare.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ richiede una domanda al sistema
+\end_layout
+
+\begin_layout Enumerate
+Il sistema visualizza una domanda
+\end_layout
+
+\begin_layout Subsubsection
+UCD 3: Ambito Dipendente, visione punteggi personali
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCD 3 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, visione punteggi personali.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ controlla i propri punteggi (punti, badge, domande).
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ vuole controllare i propri punteggi, l'applicazione è funzionante
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il sistema visualizza tutte le statistiche di un 
+\bar under
+Dipendente
+\bar default
+, l'applicazione continua a funzionare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può vedere le domande a cui ha risposto e la/e risposta/e che ha dato
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può vedere la propria posizione in classifica
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può vedere i propri trofei e badge
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può vedere le proprie statistiche in base alle risposte date
+\end_layout
+
+\begin_layout Subsubsection
+UCD 4: Ambito Dipendente, modifica dati account
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCD 4 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente, modifica dati account.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria password o la propria email.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ ha effettuato il login.
+ Il sistema è funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Le modifiche sono state salvate in modo corretto.
+ Il sistema è funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria password
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+ può modificare la propria email
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente
+\bar default
+, dopo aver modificato o la password, o l'email, riceve la comunicazione
+ di conferma
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Sicurezza, caso d' uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/Ambito Amministratore Sicurezza.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza, caso d' uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande o consultare le domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente e l'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ ha effettuato il login.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può vedere il database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande
+\end_layout
+
+\begin_layout Subsubsection
+UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAS 2 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza, modifica database.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare il database di domande tramite operazioni fondamentali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può aggiungere una domanda al database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare una domanda nel database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può cancellare una domanda nel database di domande
+\end_layout
+
+\begin_layout Subsubsection
+UCAS 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAS 2.1 Esploso.png
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza, aggiungi domanda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può aggiungere una domanda specificando i vari parametri propri per la
+ domanda in questione.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ conosce tutti i parametri per la nuova domanda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Vi è una domanda in più nel database di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ aggiunge una domanda al database di domande specificando sempre il tipo
+ della domanda, il testo della domanda, i testi delle risposte, le risposte
+ corrette, la categoria degli utenti, la piattaforma e il punteggio.
+ Inoltre può specificare anche il percorso all'eventuale immagine o video
+ e il tempo per rispondere alla domanda
+\end_layout
+
+\begin_layout Subsubsection
+UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAS 2.2 Esploso.png
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza, modifica domanda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare la domanda in ogni sua parte.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Esiste la domanda nel database di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ La domanda è stata correttamente modificata secondo la scelta dell'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il tipo della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare i testi delle risposte della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il testo della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la/e risposta/e corretta/e
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il percorso per l'immagine o il video
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la categoria ai quali sottoporre la domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la piattaforma per la quale la domanda è stata progettata
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la temporizzazione della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il punteggio della risposta
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Azienda, caso d' uso generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/Ambito Amministratore Azienda.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Azienda, caso d' uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ Un 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i dati sensibili ed i punteggi relativi ad ogni 
+\bar under
+Dipendente
+\bar default
+ della sua azienda, inoltre ha la possibilità di gestire gli account dei
+ Dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Sistema funzionante con database di utenti funzionante, l'
+\bar under
+Utente
+\bar default
+ ha effettuato il login come 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ nel sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ L'
+\bar under
+Utente
+\bar default
+ è ancora loggato come 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ ed ha effettuato una delle operazioni consentite rimanendo in uno stato
+ consistente.
+ Il sistema è funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può gestire gli account dei Dipendenti
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i dati sensibili dei Dipendenti
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può visualizzare i punteggi dei Dipendenti
+\end_layout
+
+\begin_layout Subsubsection
+UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAA 1 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Azienda, gestione dipendenti.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere od eliminare account Dipendenti nel database, inoltre può
+ modificare i dati personali contenuti negli account.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ vuole aggiungere, eliminare o modificare i dati di un account 
+\bar under
+Dipendente
+\bar default
+, è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
+ database.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Nel database di Dipendenti è presente un nuovo account 
+\bar under
+Dipendente
+\bar default
+, un account 
+\bar under
+Dipendente
+\bar default
+ già presente è stato eliminato oppure i dati di un account già presente
+ è stato modificato.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere un nuovo account 
+\bar under
+Dipendente
+\bar default
+ o se eliminare o modificare i dati personali di un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può eliminare un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare i dati personali di un account 
+\bar under
+Dipendente
+\bar default
+ già esistente
+\end_layout
+
+\begin_layout Subsubsection
+UCAA 1.1: Ambito Amministratore Azienda, aggiungi Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAA 1.1 Esploso.png
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Azienda, aggiungi Dipendente.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere un account 
+\bar under
+Dipendente
+\bar default
+ al database dei Dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ vuole aggiungere un account 
+\bar under
+Dipendente
+\bar default
+, è a conoscenza dei dati del nuovo 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Nel database di Dipendenti è presente un nuovo account 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ aggiunge un account 
+\bar under
+Dipendente
+\bar default
+ riempiendo i campi richiesti: nome, cognome, codice fiscale, indirizzo
+ email e impiego.
+ In seguito verranno autogenerate le username e le password che verranno
+ inviate al 
+\bar under
+Dipendente
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+UCAA 1.3: Ambito Amministratore Azienda, modifica dati Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAA 1.3 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Azienda, modifica dati Dipendente.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può aggiungere modificare i dati del 
+\bar under
+Dipendente
+\bar default
+ che lui stesso non può modificare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il 
+\bar under
+Dipendente
+\bar default
+ esiste nel database dei Dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il database dei Dipendenti è stato correttamente aggiornato.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo nome del 
+\bar under
+Dipendente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo cognome del 
+\bar under
+Dipendente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo email del 
+\bar under
+Dipendente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo impiego del 
+\bar under
+Dipendente
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+ può modificare il campo codice fiscale del 
+\bar under
+Dipendente
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Installatore, caso d' uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/Ambito Amministratore Installazione.png
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Installatore, caso d' uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può effettuare il login e gestire il server globale delle aziende oppure
+ installare il software nella azienda relativa.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ effettua il lavoro solo sotto incarico.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ ha effettuato il login o si è recato nell'azienda e ha installato il software
+ su ogni dispositivo richiesto.
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ ha effettuato il logout o ha gestito il server globale delle aziende.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può effettuare il login diventando 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software recandosi nella azienda che lo ha richiesto
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può effettuare il logout diventando 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può gestire il server globale delle aziende
+\end_layout
+
+\begin_layout Subsubsection
+UCAI 2: Ambito Amministratore Installatore, installazione software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAI 2.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Installatore, installazione software.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ si reca nella azienda richiedente ad installare il software.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ effettua il lavoro solo sotto incarico.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ si è recato nell'azienda e ha installato il software su ogni dispositivo
+ richiesto.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software sui 
+\bar under
+dispositivi mobili
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ può installare il software sui computer
+\end_layout
+
+\begin_layout Subsubsection
+UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
+ aziende.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAIA 1 Esploso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Installatore
+\bar under
+ 
+\bar default
+Autenticato, gestione server aziende.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può gestire il server aziende.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ effettua il lavoro solo sotto incarico, esiste il database delle aziende.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il database delle aziende esiste ed è consistente.
+ Sistema funzionante.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può aggiungere una azienda
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può eliminare una azienda
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può modificare il link al database degli utenti di una azienda
+\end_layout
+
+\begin_layout Subsubsection
+UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCAIA 1.1 Esploso.png
+	scale 67
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Installatore
+\bar under
+ 
+\bar default
+Autenticato, aggiungi azienda.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può aggiungere una azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ effettua il lavoro solo sotto incarico, esiste il database delle aziende,
+ conosce i dati della azienda.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il database delle aziende esiste ed è consistente.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+ aggiunge i dati di una azienda che sono composti da: nome dell'azienda,
+ l'indirizzo al server dati, l'username dell'azienda e la password
+\end_layout
+
+\end_body
+\end_document
