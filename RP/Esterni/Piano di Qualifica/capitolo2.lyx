@@ -319,7 +319,7 @@ I ruoli necessari per garantire un'adeguata qualità sono i seguenti:
 \begin_layout Itemize
 
 \series bold
-Responsabile 
+Responsabile: 
 \series default
 è il referente e responsabile nei confronti del committente, supervisiona
  i processi interni e si preoccupa di valutare le proposte di modifica correttiv
@@ -329,7 +329,7 @@ a o migliorativa dei Verificatori
 \begin_layout Itemize
 
 \series bold
-Amministratore
+Amministratore:
 \series default
  definisce i piani per la gestione della qualità, come i processi di verifica,
  test e individuazione e risoluzione delle anomalie e discrepanze
@@ -338,7 +338,7 @@ Amministratore
 \begin_layout Itemize
 
 \series bold
-Verificatore
+Verificatore:
 \series default
  esegue le attività di verifica sul prodotto a seconda delle norme redatte,
  ne riassumerà gli esiti e in caso di discrepanze presenterà il problema
@@ -348,7 +348,7 @@ Verificatore
 \begin_layout Itemize
 
 \series bold
-Programmatore 
+Programmatore: 
 \series default
 è incentivato a eseguire attività di debugging quando ne riterrà necessario
  ed è coinvolto dai verificatori nella risoluzione dei 
@@ -363,14 +363,10 @@ Risorse Software
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Software per la verifica dei requisiti richiesti
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Software di gestione e commento di 
 \bar under
 ticket
@@ -379,14 +375,10 @@ ticket
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Software necessario alla corretta configurazione dell'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Software utile alla comunicazione fra i membri del team
 \end_layout
 
@@ -397,14 +389,10 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Computer su cui eseguire il software necessario all'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Luogo fisico per incontri fra i membri del team
 \end_layout
 
@@ -473,21 +461,15 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Computer personali, portatili e fissi
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Computer messi a disposizione nei laboratori dal Dipartimento di Matematica
  Pura ed Applicata dell'Università di Padova
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
 Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
  di Padova
 \end_layout
@@ -520,6 +502,7 @@ Aspell (
 status collapsed
 
 \begin_layout Plain Layout
+
 http://aspell.net/
 \end_layout
 
@@ -548,6 +531,7 @@ Eclipse (
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.eclipse.org/
 \end_layout
 
@@ -579,6 +563,7 @@ FindBugs (
 status collapsed
 
 \begin_layout Plain Layout
+
 http://findbugs/sourceforge.net/
 \end_layout
 
@@ -610,6 +595,7 @@ Eclipse
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.eclemma.org/
 \end_layout
 
@@ -637,6 +623,7 @@ Android
 status collapsed
 
 \begin_layout Plain Layout
+
 http://tools.android.com/tips/lint
 \end_layout
 
@@ -705,6 +692,7 @@ Indice di utilità - Indice di dipendenza
 status collapsed
 
 \begin_layout Plain Layout
+
 http://metrics.sourceforge.net
 \end_layout
 
@@ -732,6 +720,7 @@ Java
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.junit.org/
 \end_layout
 
@@ -762,6 +751,7 @@ browser
 status collapsed
 
 \begin_layout Plain Layout
+
 http://seleniumhq.org/
 \end_layout
 
@@ -789,6 +779,7 @@ web
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.apache.org/
 \end_layout
 
@@ -819,6 +810,7 @@ web
 status collapsed
 
 \begin_layout Plain Layout
+
 http://code.google.com/intl/it-IT/webtoolkit/speedtracer/
 \end_layout
 
@@ -854,6 +846,7 @@ web
 status collapsed
 
 \begin_layout Plain Layout
+
 http://validator.w3.org/
 \end_layout
 
@@ -884,6 +877,7 @@ CSS
 status collapsed
 
 \begin_layout Plain Layout
+
 http://jigsaw.w3.org/css-validator/
 \end_layout
 
