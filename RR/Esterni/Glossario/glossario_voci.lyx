@@ -1119,6 +1119,42 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{Invadente}}
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Si dice invadente un'applicazione che disturba, secondo svariate modalità,
+ il lavoro di un utente.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{iOS}}
 \backslash
 
