@@ -240,11 +240,11 @@ Contromisure di correzione
 \series bold
 Casi riscontrati
 \series default
-: nei primi giorni della fase di analisi ad uno dei notebook impiegati si
- è rotto il disco fisso.
- Invece di cercare di recuperare i dati privi di backup si è preferito ricrearli
-, in quanto la differenza di lavoro non era paragonabile grazie ai frequenti
- backup
+: durante i primi giorni della fase di analisi, uno dei notebook ha subito
+ un guasto al disco fisso.
+ Grazie ai frequenti backup, la perdita di lavoro in termini di tempo è
+ stata minima; tentare un recupero dei dati dall'hard disk corrotto avrebbe
+ richiesto una maggiore quantità di lavoro.
 \end_layout
 
 \begin_layout Subsection
