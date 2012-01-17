@@ -93,7 +93,7 @@ Norme di Progetto
 
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 D'ora in poi chiamato 
@@ -119,7 +119,7 @@ reference "sub:Formati-ricorrenti"
 
  viene redatto allo scopo di definire tutto l'insieme di norme che regolamentera
 nno lo svolgimento del progetto.
- Le suddette norme verteranno tutti gli aspetti del progetto: 
+ Le suddette norme verteranno su tutti gli aspetti del progetto: 
 \end_layout
 
 \begin_layout Itemize
@@ -151,6 +151,16 @@ Codifica
 \series default
 \emph default
 : stili e convenzioni di scrittura del codice sorgente 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Procedure di automazione
+\series default
+\emph default
+: procedure per l'automazione delle attività tecniche
 \end_layout
 
 \begin_layout Itemize
