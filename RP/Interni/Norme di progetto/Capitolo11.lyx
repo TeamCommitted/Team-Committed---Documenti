@@ -90,7 +90,7 @@ C03
  di uniformare dove possibile l'ambiente di sviluppo con applicazioni multipiatt
 aforma
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Questa, assieme al fatto che abbiamo cercato di utilizzare il maggior numero
@@ -335,8 +335,8 @@ Microsoft Project
 MSDNAA
 \emph default
 \bar default
- di Microsoft in collaborazione con la facoltà di Matematica pura e applicata
- dell'Università degli Studi di Padova.
+ di Microsoft in collaborazione con il dipartimento di Matematica Pura ed
+ Applicata dell'Università degli Studi di Padova.
  
 \end_layout
 
@@ -349,7 +349,7 @@ GanttProject
 \emph on
 Project
 \emph default
-, consci del fatto che il programma funziona solo su ambiente Windows.
+, consci del fatto che il programma funzioni solo su ambiente Windows.
  Per questo motivo l'amministratore ha predisposto una macchina virtuale
  Windows XP (anch'esso fornito dal 
 \emph on
