@@ -71,10 +71,6 @@ Diario delle modifiche
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -111,11 +107,6 @@ hline"
 
 \begin_layout Plain Layout
 
-%NEGLI AUTORI, INSERITE UN'UNICA VOCE ALLA VOLTA (UNA SOLA PERSONA)
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 begin{center}
@@ -139,7 +130,7 @@ begin{longtable}{ p{6cm} | c | c | r }
 
 \begin_layout Plain Layout
 
-		
+
 \backslash
 hline 
 \backslash
@@ -150,7 +141,7 @@ hline
 
 		
 \backslash
-emph{Approvato.} & Giorgio Maggiolo & 19/12/2011 & V1.0 
+emph{Approvato} & Giorgio Maggiolo & 19/12/2011 & V1.0 
 \backslash
 
 \backslash
@@ -163,7 +154,9 @@ hline
 
 		
 \backslash
-emph{Revisione completata.} & Gabriele Facchin & 19/12/2011 & V0.11 
+emph{Revisione completata} & Massimo Dalla Piet
+\backslash
+'a & 18/12/2011 & V0.3 
 \backslash
 
 \backslash
@@ -176,124 +169,18 @@ hline
 
 		
 \backslash
-emph{Iniziata e terminata stesura capitolo 5} & Lorenzo Braghetto & 19/12/2011
- & V0.10 
+emph{Inserite nuove voci.} & Giorgio Maggiolo & 16/12/2011 & V0.2 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
 		
 \backslash
-emph{Termine stesura capitolo 4} & Giacomo Quadrio & 17/12/2011 & V0.9 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Termine stesura capitolo 3} & Marco Begolo & 16/12/2011 & V0.8 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Aggiornato capitolo 4} & Giacomo Quadrio& 15/12/2011 & V0.7 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Termine stesura capitoli 1 e 2} & Lorenzo Braghetto & 12/12/2011 &
- V0.6 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Completati grafici dei casi d'uso} & Massimo Dalla Piet
-\backslash
-'a & 11/12/2011 & V0.5 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Modificato Capitolo3} & Gabriele Facchin & 09/12/2011 & V0.4 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Iniziata stesura Capitolo4} & Alessandro Cornaglia & 09/12/2001 & V0.3
- 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Inizio stesura dei casi d'uso} & Massimo Dalla Piet
-\backslash
-'a & 06/12/2011 & V0.2 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -301,8 +188,7 @@ hline
 		
 \backslash
 emph{Inizio creazione del documento.
- Creato lo schema base e iniziato a scrivere l'introduzione.} & Gabriele
- Facchin & 05/12/2011 & V0.1 
+ Inserite le prime voci} & Marco Begolo & 06/12/2011 & V0.1 
 \backslash
 
 \backslash

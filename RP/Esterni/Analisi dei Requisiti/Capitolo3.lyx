@@ -234,7 +234,8 @@ L'
 \bar under
 Utente
 \bar default
- può recuperare la password dimenticata
+ può recuperare la password dimenticata, fornendo i propri dati personali
+ (e-mail, codice fiscale) e ricevendo una e-mail di conferma
 \end_layout
 
 \begin_layout Enumerate
@@ -250,7 +251,7 @@ Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCU 2: Ambito Utente, recupero password dimenticata
+// da eliminare? UCU 2: Ambito Utente, recupero password dimenticata
 \end_layout
 
 \begin_layout Standard
@@ -743,7 +744,7 @@ Dipendente
 \end_layout
 
 \begin_layout Subsubsection
-UCD 2: Ambito Dipendente, richiesta domanda
+eliminare? UCD 2: Ambito Dipendente, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -1436,8 +1437,8 @@ Amministratore
 \bar under
 Sicurezza
 \bar default
- può aggiungere una domanda specificando i vari parametri propri per la
- domanda in questione.
+ può aggiungere una domanda specificando i vari parametri (vedere flusso)
+ propri per la domanda in questione.
 \series bold
 
 \begin_inset Newline newline
@@ -1453,7 +1454,7 @@ Amministratore
 \bar under
 Sicurezza
 \bar default
- conosce tutti i parametri per la nuova domanda.
+ aggiunge una domanda.
 \series bold
 
 \begin_inset Newline newline
@@ -1559,7 +1560,7 @@ Amministratore
 \bar under
 Sicurezza
 \bar default
- può modificare la domanda in ogni sua parte.
+ può modificare la domanda in ogni sua parte (vedere flusso).
 \series bold
 
 \begin_inset Newline newline
@@ -1883,11 +1884,16 @@ Amministratore
 \bar under
 Azienda
 \bar default
- vuole aggiungere, eliminare o modificare i dati di un account 
+ vuole aggiungere o eliminare o modificare i dati di un account 
 \bar under
 Dipendente
 \bar default
-, è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
+.
+ L'
+\bar under
+Amministratore Azienda
+\bar default
+ è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
  database.
  Sistema funzionante.
 \series bold
@@ -1901,7 +1907,7 @@ Postcondizione:
 \bar under
 Dipendente
 \bar default
-, un account 
+ o un account 
 \bar under
 Dipendente
 \bar default
@@ -1928,12 +1934,6 @@ Azienda
  può aggiungere un nuovo account 
 \bar under
 Dipendente
-\bar default
- o se eliminare o modificare i dati personali di un account 
-\bar under
-Dipendente
-\bar default
- già esistente
 \end_layout
 
 \begin_layout Enumerate
@@ -2061,11 +2061,7 @@ Amministratore
 \bar under
 Azienda
 \bar default
- vuole aggiungere un account 
-\bar under
-Dipendente
-\bar default
-, è a conoscenza dei dati del nuovo 
+ aggiunge un account 
 \bar under
 Dipendente
 \bar default

@@ -249,8 +249,19 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 1 & Il sistema dovrà lavorare in rete, ogni azienda dovrà essere
- in grado di accedervi mediante connessione internet & Capitolato 
+		RFOB 1 & Il sistema dovrà lavorare in rete & Capitolato 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1.1 & Ogni azienda potrà accedere al sistema mediante connessione
+ internet & Capitolato
 \backslash
 
 \backslash
@@ -274,7 +285,7 @@ hline
 
 \begin_layout Plain Layout
 
-  	  RFOB 2.1 & Un 
+  	  RFOB 23 & Un 
 \backslash
 uline{Dipendente} potrà richiedere al sistema di venire sottoposto ad una
  domanda & Capitolato 
@@ -288,8 +299,9 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 2.2 & Una proposta di domanda dovrà essere completamente non invasiva
- & Capitolato 
+		RFOB 2.1 & Una proposta di domanda dovrà essere completamente non 
+\backslash
+uline{invadente} & Capitolato 
 \backslash
 
 \backslash
@@ -327,7 +339,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 4.1 & Le domande a cui verranno sottoposti i 
+		RFOB 24 & Le domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti} prevederanno che questi possano rispondere direttamente
  dalla propria postazione di lavoro & Capitolato 
@@ -341,7 +353,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 4.2 & Le domande a cui verranno sottoposti i 
+		RFOB 4.1 & Le domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti} forniti di 
 \backslash
@@ -357,7 +369,7 @@ hline
 
 \begin_layout Plain Layout
 
-		RFD 4.3 & La natura delle domande a cui verranno sottoposti i 
+		RFD 4.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti} potrà variare a seconda dell'impiego dello stesso & Verbale
  05/12/2011 
@@ -386,8 +398,68 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 5.1 & Il modulo di registrazione richiederà nome, cognome, codice
- fiscale, indirizzo email, impiego & Interno 
+		RFOB 5.1 & Il modulo di registrazione richiederà i dati personali dell'utente
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1.1 & Il modulo di registrazione richiederà il nome dell'utente &
+ Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1.2 & Il modulo di registrazione richiederà il cognome dell'utente
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1.3 & Il modulo di registrazione richiederà il codice fiscale dell'utente
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1.4 & Il modulo di registrazione richiederà l'indirizzo email dell'utente
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1.5 & Il modulo di registrazione richiederà l'impiego dell'utente
+ & Interno 
 \backslash
 
 \backslash
@@ -400,9 +472,48 @@ hline
 
 		RFOB 5.2 & Ad ogni 
 \backslash
-uline{Dipendente} che verrà creato, il sistema dovrà inviargli, all'indirizzo
- email dichiarato, username e password per connettersi al sistema & UCAA
- 1.1.6 
+uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
+ suo account all'indirizzo email dichiarato utili per connettersi al sistema
+ & UCAA 1.1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.2.1 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua username & UCAA 1.1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.2.2 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua username & UCAA 1.1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.2.3 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua password & UCAA 1.1.6 
 \backslash
 
 \backslash
@@ -416,6 +527,85 @@ hline
 		RFOB 6 & L'
 \backslash
 uline{Amministratore Azienda} dovrà poter visualizzare i dati di ogni singolo
+ 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6.1 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare il nome di ogni 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6.2 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare il cognome di ogni
+ 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6.3 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare il codice fiscale
+ di ogni 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6.4 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare l'indirizzo email
+ di ogni 
+\backslash
+uline{Dipendente} & UCAA 2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6.5 & L'
+\backslash
+uline{Amministratore Azienda} dovrà poter visualizzare l'impiego di ogni
  
 \backslash
 uline{Dipendente} & UCAA 2 
@@ -445,10 +635,50 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 8 & Un 
+		RFOB 25 & Un 
 \backslash
-uline{Dipendente} potrà modificare i propri dati personali, in seguito il
- sistema si occuperà di inviargli una mail di conferma & Interno 
+uline{Dipendente} potrà modificare i propri dati personali & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 25.1 & Un 
+\backslash
+uline{Dipendente} potrà modificare la propria password & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 25.2 & Un 
+\backslash
+uline{Dipendente} potrà modificare il proprio indirizzo di posta elettronica
+ & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 8 & Quando un 
+\backslash
+uline{Dipendente} modifica i propri dati personali, il sistema si occuperà
+ di inviargli una mail di conferma & Interno 
 \backslash
 
 \backslash
@@ -491,6 +721,85 @@ hline
 \backslash
 uline{Dipendente} potrà visualizzare i propri dati personali memorizzati
  nel sistema & UCD 5 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.1 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare il proprio nome & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.2 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare il proprio cognome & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.3 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare il proprio codice fiscale & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.4 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare il proprio indirizzo di posta elettronica
+ & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.5 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare il proprio impiego & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 9.6 & Un 
+\backslash
+uline{Dipendente} potrà visualizzare la password personale & 
 \backslash
 
 \backslash
@@ -619,8 +928,50 @@ hline
 		RFOB 14.1.1 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
- dovrà necessariamente inserire: nome azienda, recapito del server dati
- personale, username e password & UCAIA 1.1 
+ dovrà necessariamente inserire il nome dell'azienda & UCAIA 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1.2 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
+ dovrà necessariamente inserire il recapito del server dati dell'azienda
+ & UCAIA 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1.3 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
+ dovrà necessariamente inserire lo username dell'azienda & UCAIA 1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1.4 & Un 
+\backslash
+uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
+ dovrà necessariamente inserire la password dell'azienda & UCAIA 1.1 
 \backslash
 
 \backslash
@@ -673,6 +1024,134 @@ hline
 
 \begin_layout Plain Layout
 
+		RFOB 15.1 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare il tipo
+ di ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.2 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare il testo
+ di ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.3 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare le risposte
+ possibili per ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.4 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare le risposte
+ corrette di ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.5 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare le immagini/vi
+deo di ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.6 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare la categoria
+ di utenti a cui verrà somministrata ogni domanda dell'azienda & UCAS 1
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.7 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare il tipo
+ di ogni piattaforma sulla quale può essere proposta ogni domanda dell'azienda
+ & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.8 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare la temporizzaz
+ione di ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.9 & Un 
+\backslash
+uline{Amministratore Sicurezza} avrà la possibilità di consultare il punteggio
+ relativo ad ogni domanda dell'azienda & UCAS 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 		RFOB 16 & Un 
 \backslash
 uline{Amministratore Sicurezza} dovrà poter modificare l'insieme delle domande
@@ -704,12 +1183,108 @@ hline
 		RFOB 16.1.1 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne: tipologia, testo, possibili risposte, risposta corretta,
- eventuale percorso di immagine/video di supporto, categoria di 
+ specificarne la tipologia & UCAS 2.1 
 \backslash
-uline{Utenti} a cui dovrà essere sottoposta, tipologia di piattaforma su
- cui dovrà essere visualizzata, eventuale tempo limite di risposta, punteggio
- corrispondente & UCAS 2.1 
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.2 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne il testo & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.3 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne le possibili risposte & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.4 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne la risposta corretta & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.5 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne l'eventuale percorso di immagine/video di supporto & UCAS
+ 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.6 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne la categoria di 
+\backslash
+uline{Utenti} a cui potrà essere visualizzata & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.7 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne l'eventuale tempo limite di risposta & UCAS 2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16.1.8 & Un 
+\backslash
+uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
+ specificarne il punteggio corrispondente & UCAS 2.1 
 \backslash
 
 \backslash
@@ -959,8 +1534,32 @@ hline
 
 \begin_layout Plain Layout
 
-		RPOB 2 & Il prodotto dovrà essere prestazionale sia se il server delle
- domande sia interno all'azienda che esterno & Interno 
+		RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
+ posizione del server delle domande & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2.1 & Il prodotto dovrà essere prestazionale se il server delle domande
+ è situato all'interno dell'azienda & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2.2 & Il prodotto dovrà essere prestazionale se il server delle domande
+ è situato all'esterno dell'azienda & Interno 
 \backslash
 
 \backslash
