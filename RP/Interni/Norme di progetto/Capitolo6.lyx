@@ -80,6 +80,13 @@
 
 \begin_layout Section
 Analisi dei Requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Analisi-dei-Requisiti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -405,6 +412,13 @@ Flussi alternativi
 \end_deeper
 \begin_layout Subsection
 Classificazione dei requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Classificazione-dei-requisiti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

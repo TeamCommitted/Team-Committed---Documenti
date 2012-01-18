@@ -658,13 +658,6 @@ Java
 
 \begin_layout Subsubsection
 Ambiente mobile
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ambiente-mobile"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -691,13 +684,6 @@ ADT
 
 \begin_layout Subsection
 Ambiente di verifica e validazione
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ambiente-di-verifica"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -717,13 +703,6 @@ Per maggiori dettagli si rimanda al documento Piano di Qualifica - V1.0
 
 \begin_layout Subsubsection
 Analisi statica
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Analisi-statica"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -750,13 +729,6 @@ Eclipse
 
 \begin_layout Subsubsection
 Test
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Test"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -811,13 +783,6 @@ Selenium IDE
 
 \begin_layout Subsubsection
 Analisi dinamica
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Analisi-dinamica"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -851,13 +816,6 @@ SpeedTracer
 
 \begin_layout Subsubsection
 Validazione
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Validazione"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard

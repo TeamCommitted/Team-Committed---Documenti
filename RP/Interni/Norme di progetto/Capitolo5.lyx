@@ -1623,10 +1623,24 @@ reference "sub:Formattazione-e-copertina"
 
 \begin_layout Subsection
 Classificazione documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Classificazione-documenti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Documenti informali
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Documenti-informali"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1669,6 +1683,13 @@ reference "sub:Documentazione-1"
 
 \begin_layout Subsubsection
 Documenti formali
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Documenti-formali"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1734,6 +1755,13 @@ e il documento e rilasciare una nuova versione formale di esso.
 
 \begin_layout Subsection
 Procedura di formalizzazione dei documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Procedura-di-formalizzazione"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1784,6 +1812,13 @@ redattori
 
 \begin_layout Subsection
 Procedura di verifica dei documenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Procedura-di-verifica"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1825,7 +1860,7 @@ Strumenti->Correttore Ortografico
 .
  Prima però dovrà controllare che la lingua del documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Poichè i documenti saranno formati da un file per ogni capitolo, il 
@@ -1870,7 +1905,22 @@ italiano
 \begin_layout Itemize
 
 \series bold
-Controllo lessicale
+Controllo lessicale: 
+\series default
+il 
+\emph on
+verificatore
+\emph default
+ procederà ad un'attenta lettura dell'intero documento alla ricerca di errori
+ lessicali.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grafici UML:
+\series default
+ nel caso siano presenti dei grafici UML
 \end_layout
 
 \end_body

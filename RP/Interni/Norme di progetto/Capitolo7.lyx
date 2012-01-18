@@ -80,6 +80,13 @@
 
 \begin_layout Section
 Progettazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Progettazione"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
