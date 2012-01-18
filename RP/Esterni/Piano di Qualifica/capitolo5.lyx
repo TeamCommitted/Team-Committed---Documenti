@@ -76,8 +76,9 @@ Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
 \bar under
  
 \bar default
-prima ed inspection poi, effettuando le dovute procedure per la correzione
- degli errori rilevati.
+prima ed inspection poi, verificando che i documenti rispettino i punti
+ individuati e riportati in tale sezione inerenti la formattazione del testo,
+ effettuando le dovute procedure per la correzione degli errori rilevati.
  Nel dettaglio, i documenti sono stati revisionato effettuando quindi il
  controllo ortografico tramite Aspell, il plugin per LyX, mentre il controllo
  grammaticale, sintattico e lessicale è avvenuto tramite 
