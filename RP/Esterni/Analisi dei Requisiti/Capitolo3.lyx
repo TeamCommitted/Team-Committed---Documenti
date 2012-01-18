@@ -86,7 +86,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \end_layout
 
 \begin_layout Subsection
-Ambito Utente, caso d'uso generale
+UCG 1: Ambito Utente, caso d'uso generale
 \end_layout
 
 \begin_layout Standard
@@ -251,26 +251,41 @@ Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-// da eliminare? UCU 2: Ambito Utente, recupero password dimenticata
+UCU 1: Ambito Utente, logout
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Subsubsection
+UCU 2: Ambito Utente, recupero password dimenticata
+\end_layout
+
+\begin_layout Subsubsection
 \begin_inset Float figure
 placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCU 2 Esploso.png
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -361,8 +376,34 @@ Utente
  riceve nella propria mail la password
 \end_layout
 
+\begin_layout Subsubsection
+UCUA 1: Ambito Utente, login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
 \begin_layout Subsection
-Ambito Dipendente, caso d' uso generale
+UCG 2: Ambito Dipendente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -516,17 +557,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCD 1 Esploso.png
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -744,7 +774,7 @@ Dipendente
 \end_layout
 
 \begin_layout Subsubsection
-eliminare? UCD 2: Ambito Dipendente, richiesta domanda
+UCD 2: Ambito Dipendente, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -753,17 +783,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCD 2 Esploso.png
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1098,8 +1117,34 @@ Dipendente
  di conferma
 \end_layout
 
+\begin_layout Subsubsection
+UCD 5: Ambito Dipendente, visualizza dati account
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
 \begin_layout Subsection
-Ambito Amministratore Sicurezza, caso d' uso generale.
+UCG 3: Ambito Amministratore Sicurezza, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -1230,7 +1275,63 @@ Sicurezza
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2: Ambito Amministratore Sicurezza, modifica database.
+UCAS 1: Ambito Amministratore Sicurezza, 
+\series bold
+login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 1: Ambito Amministratore Sicurezza, 
+\series bold
+consultazione domande
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 2: Ambito Amministratore Sicurezza, modifica database.
 \end_layout
 
 \begin_layout Standard
@@ -1365,7 +1466,7 @@ Sicurezza
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
+UCASA 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1374,17 +1475,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCAS 2.1 Esploso.png
-	scale 67
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1488,7 +1578,7 @@ Sicurezza
 \end_layout
 
 \begin_layout Subsubsection
-UCAS 2.2: Ambito Amministratore Sicurezza, modifica domanda.
+UCASA 2.2: Ambito Amministratore Sicurezza, modifica domanda.
 \end_layout
 
 \begin_layout Standard
@@ -1497,17 +1587,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCAS 2.2 Esploso.png
-	scale 67
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1629,8 +1708,36 @@ Si può modificare la temporizzazione della domanda
 Si può modificare il punteggio della risposta
 \end_layout
 
+\begin_layout Subsubsection
+UCASA 3: Ambito Amministratore Sicurezza, 
+\series bold
+logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
 \begin_layout Subsection
-Ambito Amministratore Azienda, caso d' uso generale
+UCG 4: Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1981,17 +2088,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename UML/UCAA 1.1 Esploso.png
-	scale 67
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -2119,17 +2215,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCAA 1.3 Esploso.png
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -2285,8 +2370,60 @@ Azienda
 Dipendente
 \end_layout
 
+\begin_layout Subsubsection
+UCAA 2: Ambito Amministratore Azienda, visualizza dati dipendente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Subsubsection
+UCAA 3: Ambito Amministratore Azienda, visualizza punteggi dipendente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
 \begin_layout Subsection
-Ambito Amministratore Installatore, caso d' uso generale.
+UCG 5: Ambito Amministratore Installatore, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -2498,6 +2635,32 @@ Installatore
 Autenticato
 \bar default
  può gestire il server globale delle aziende
+\end_layout
+
+\begin_layout Subsubsection
+UCAI 1: Ambito Amministratore Installatore, login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Subsubsection
@@ -2825,17 +2988,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename UML/UCAIA 1.1 Esploso.png
-	scale 67
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -2947,6 +3099,32 @@ Installatore
 \bar default
  aggiunge i dati di una azienda che sono composti da: nome dell'azienda,
  l'indirizzo al server dati, l'username dell'azienda e la password
+\end_layout
+
+\begin_layout Subsubsection
+UCAIA 2: Ambito Amminstratore Installatore Autenticato, logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
 \end_layout
 
 \end_body
