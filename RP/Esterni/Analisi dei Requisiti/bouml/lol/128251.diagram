@@ -1,0 +1,82 @@
+format 76
+
+classcanvas 128123 class_ref 128379 // Dipendente
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 8 66 2000
+end
+subject 128251 ""
+  xyzwh 88 47 1995 720 398
+usecasecanvas 128379 usecase_ref 128763 // domanda proposta
+  xyzwh 552 65 3005 107 67 label_xy 560 95
+end
+usecasecanvas 128507 usecase_ref 128891 // richiesta domanda
+  xyzwh 209 160 3005 103 43 label_xy 215 177
+end
+usecasecanvas 128635 usecase_ref 129019 // visione punteggi personali
+  xyzwh 182 217 3005 175 51 label_xy 210 239
+end
+usecasecanvas 128763 usecase_ref 129147 // modifica dati account
+  xyzwh 183 296 3005 117 51 label_xy 191 317
+end
+usecasecanvas 128891 usecase_ref 129275 // visualizza dati account
+  xyzwh 126 373 3005 139 43 label_xy 139 392
+end
+textcanvas 129019 "UCD 1"
+  xyzwh 588 82 3010 30 14
+textcanvas 129147 "UCD 3"
+  xyzwh 244 226 3010 56 22
+textcanvas 129275 "UCD 2"
+  xyzwh 246 165 3010 30 14
+textcanvas 129403 "UCD 4"
+  xyzwh 226 301 3010 34 16
+textcanvas 129531 "UCD 5"
+  xyzwh 179 376 3010 42 19
+usecasecanvas 130939 usecase_ref 142587 // mostra domanda
+  xyzwh 451 236 3005 117 39 label_xy 469 253
+end
+usecasecanvas 131323 usecase_ref 142715 // posticipa domanda
+  xyzwh 665 161 3005 131 51 label_xy 686 185
+end
+textcanvas 132219 "UCD 1.1"
+  xyzwh 494 239 3011 39 14
+textcanvas 132347 "UCD 1.2"
+  xyzwh 714 168 3010 39 14
+textcanvas 132475 "<<extend>>"
+  xyzwh 479 160 2005 57 14
+textcanvas 132603 "<<extend>>"
+  xyzwh 613.5 148 2005 57 14
+usecasecanvas 132731 usecase_ref 142971 // domanda risposta
+  xyzwh 656 233 3005 149 43 label_xy 687 256
+end
+textcanvas 133371 "UCD 1.1.4"
+  xyzwh 707 239 3010 48 14
+textcanvas 133499 "<<include>>"
+  xyzwh 578 236 3011 58 14
+textcanvas 134139 "<<include>>"
+  xyzwh 372 196 3011 58 14
+textcanvas 134267 "SafetyGame"
+  xyzwh 89 27 2000 60 14
+line 129659 ----
+  from ref 128123 z 3006 to ref 128379
+line 129787 ----
+  from ref 128123 z 3006 to ref 128507
+line 129915 ----
+  from ref 128123 z 3006 to ref 128635
+line 130043 ----
+  from ref 128123 z 3006 to ref 128763
+line 130683 ----
+  from ref 128123 z 3006 to ref 128891
+simplerelationcanvas 131195 simplerelation_ref 141691
+  from ref 130939 z 3006 to ref 128379
+end
+simplerelationcanvas 132091 simplerelation_ref 142075
+  from ref 131323 z 3006 to ref 128379
+end
+simplerelationcanvas 133243 simplerelation_ref 142331
+  from ref 130939 z 3006 to ref 132731
+end
+simplerelationcanvas 134011 simplerelation_ref 142587
+  decenter_end 75
+  from ref 128507 z 3006 to ref 130939
+end
+end

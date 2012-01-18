@@ -1,0 +1,17 @@
+window_sizes 784 832 204 574 681 77
+diagrams
+  active  usecasediagram_ref 154747 // ucas
+    574 681 100 4 0 55
+  usecasediagram_ref 147963 // UCASA 2
+    455 544 100 4 0 0
+  usecasediagram_ref 128123 // ucu
+    455 544 100 4 0 0
+  usecasediagram_ref 141307 // UCD 1.1
+    455 544 100 4 0 0
+end
+show_stereotypes
+selected usecasediagram_ref 147963 // UCASA 2
+open
+  usecaseview_ref 128123 // casi
+end
+end

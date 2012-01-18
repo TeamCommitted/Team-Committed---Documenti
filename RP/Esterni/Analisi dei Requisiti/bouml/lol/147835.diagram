@@ -1,0 +1,39 @@
+format 76
+
+classcanvas 128123 class_ref 128379 // Dipendente
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 33 75 2000
+end
+subject 128251 ""
+  xyzwh 116 37 2000 301 395
+textcanvas 128379 "SafetyGame"
+  xyzwh 122 21 2000 60 14
+usecasecanvas 128507 usecase_ref 143355 // visione statistiche risposte
+  xyzwh 210 323 3005 161 39 label_xy 226 337
+end
+usecasecanvas 128635 usecase_ref 143483 // visione trofei/badge
+  xyzwh 228 246 3005 137 35 label_xy 247 259
+end
+usecasecanvas 128763 usecase_ref 143611 // visione classifica
+  xyzwh 238 183 3005 109 35 label_xy 250 196
+end
+usecasecanvas 128891 usecase_ref 143739 // visione domande corrette/errate
+  xyzwh 197 69 3005 179 75 label_xy 208 101
+end
+textcanvas 129531 "UCD 3.1"
+  xyzwh 265 85 3010 39 14
+textcanvas 129659 "UCD 3.2"
+  xyzwh 273 186 3010 39 14
+textcanvas 129787 "UCD 3.3"
+  xyzwh 277 250 3011 39 14
+textcanvas 129915 "UCD 3.4"
+  xyzwh 272 325 3011 39 14
+line 129019 ----
+  from ref 128123 z 3006 to ref 128891
+line 129147 ----
+  from ref 128123 z 3006 to ref 128763
+line 129275 ----
+  from ref 128123 z 3006 to ref 128635
+line 129403 ----
+  from ref 128123 z 3006 to ref 128507
+end

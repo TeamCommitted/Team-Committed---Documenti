@@ -1,0 +1,47 @@
+format 76
+
+subject 128507 ""
+  xyzwh 186.5 42.5 2000 272 311
+classcanvas 128891 class_ref 128507 // Amministratore_Sicurezza
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 23.5 53.5 2005
+end
+textcanvas 129147 "SafetyGame"
+  xyzwh 190.5 20.5 2000 60 14
+usecasecanvas 129659 usecase_ref 151419 // consultazione domande
+  xyzwh 247 131 3015 149 39 label_xy 265 144
+end
+usecasecanvas 129787 usecase_ref 151547 // modifica database
+  xyzwh 262 199 3005 101 39 label_xy 267 213
+end
+usecasecanvas 129915 usecase_ref 128507 // logout
+  xyzwh 278 263 3005 64 32 label_xy 295 275
+end
+usecasecanvas 130043 usecase_ref 128123 // login
+  xyzwh 284 69 3005 64 32 label_xy 303 82
+end
+textcanvas 130171 "UCAS 1"
+  xyzwh 296 72 3010 38 14
+textcanvas 130299 "UCASA 1"
+  xyzwh 296 133 3020 47 17
+textcanvas 130427 "UCASA 2"
+  xyzwh 291.5 203.5 3020 47 17
+textcanvas 130555 "UCASA 3"
+  xyzwh 286.5 266.5 3020 54 15
+classcanvas 131323 class_ref 148219 // Amministratore_Sicurezza_Autenticato
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 507 54 2000
+end
+line 130683 ----
+  from ref 128891 z 3006 to ref 130043
+line 131195 ----
+  from ref 128891 z 3006 to ref 129915
+line 131451 ----
+  from ref 130043 z 3006 to ref 131323
+line 131579 ----
+  from ref 129659 z 3016 to ref 131323
+line 131707 ----
+  from ref 129787 z 3006 to ref 131323
+line 131835 ----
+  from ref 129915 z 3006 to ref 131323
+end

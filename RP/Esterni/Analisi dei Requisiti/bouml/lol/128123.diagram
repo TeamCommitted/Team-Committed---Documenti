@@ -1,0 +1,74 @@
+format 76
+
+classcanvas 128123 class_ref 128123 // Utente
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 20.88 66.93 2000
+end
+classcanvas 128251 class_ref 128251 // Utente_Autenticato
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 551.82 65.5 2000
+end
+classcanvas 128379 class_ref 128379 // Dipendente
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 514.98 188.8 2000
+end
+classcanvas 128635 class_ref 128635 // Amministratore_Azienda
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 617.95 188.18 2000
+end
+subject 128763 ""
+  xyzwh 73.86 55.14 1990 412 350
+usecasecanvas 128891 usecase_ref 128123 // login
+  xyzwh 282 73 3005 79 49 label_xy 311 97
+end
+textcanvas 129019 "UCU 1"
+  xyzwh 306 81 3010 39 16
+usecasecanvas 129403 usecase_ref 128507 // logout
+  xyzwh 276 252 3005 83 41 label_xy 304 266
+end
+usecasecanvas 129531 usecase_ref 128635 // recupero password dimenticata
+  xyzwh 132 302 1995 173 61 label_xy 139 330
+end
+textcanvas 130043 "UCUA 1"
+  xyzwh 297 256 3010 48 14
+textcanvas 130171 "UCU 2"
+  xyzwh 194 310 2005 47 26
+textcanvas 131835 "SafetyGame"
+  xyzwh 77 37 2000 60 14
+usecasecanvas 131963 usecase_ref 128251 // web
+  xyzwh 229 155 3011 75 39 label_xy 255 172
+end
+usecasecanvas 132347 usecase_ref 128379 // applicazione
+  xyzwh 354 153 3011 91 43 label_xy 370 172
+end
+textcanvas 132603 "UCU 1.1"
+  xyzwh 245.5 160 3016 46 16
+textcanvas 132731 "UCU 1.2"
+  xyzwh 380 159 3016 45 17
+relationcanvas 130299 relation_ref 128123 // <generalisation>
+  from ref 128635 z 2001 to ref 128251
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130427 relation_ref 128251 // <generalisation>
+  from ref 128379 z 2001 to ref 128251
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 130683 ----
+  from ref 128891 z 3006 to ref 128251
+line 130811 ----
+  from ref 128891 z 3006 to ref 128123
+line 131067 ----
+  from ref 129531 z 2001 to ref 128123
+line 131451 ----
+  from ref 129403 z 3006 to ref 128251
+line 131579 ----
+  from ref 129403 z 3006 to ref 128123
+simplerelationcanvas 133499 simplerelation_ref 141435
+  from ref 132347 z 3012 to ref 128891
+end
+simplerelationcanvas 133627 simplerelation_ref 141563
+  from ref 131963 z 3012 to ref 128891
+end
+end
