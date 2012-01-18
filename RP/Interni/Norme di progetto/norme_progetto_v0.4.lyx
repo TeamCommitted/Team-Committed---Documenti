@@ -471,6 +471,23 @@ filename "Capitolo5.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "Capitolo6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "Capitolo8.lyx"
 
 \end_inset

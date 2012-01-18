@@ -857,8 +857,8 @@ hline
 
 		RFOB 11 & Il sistema permetterà agli 
 \backslash
-uline{Utenti} che hanno effettuato il login di uscire dalla sessione autenticata
-, ma non di terminare l'applicazione & Interno 
+uline{Utenti Autenticati} di effettuare il logout, ma non di terminare l'applica
+zione & Interno 
 \backslash
 
 \backslash
@@ -1534,8 +1534,32 @@ hline
 
 \begin_layout Plain Layout
 
-		RPOB 2 & Il prodotto dovrà essere prestazionale sia se il server delle
- domande sia interno all'azienda che esterno & Interno 
+		RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
+ posizione del server delle domande & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2.1 & Il prodotto dovrà essere prestazionale se il server delle domande
+ è situato all'interno dell'azienda & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2.2 & Il prodotto dovrà essere prestazionale se il server delle domande
+ è situato all'esterno dell'azienda & Interno 
 \backslash
 
 \backslash

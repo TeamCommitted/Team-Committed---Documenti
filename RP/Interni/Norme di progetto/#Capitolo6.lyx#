@@ -158,18 +158,6 @@ begin{center}
 R{X}{Y}
 \family default
 
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Queste sigle dovranno essere seguite dal numero del requisito.
- Qualora si trattasse di un sottorequisito, si dovrà usare il sistema di
- numerazione per indici/sotto-indici
-\end_layout
-
-\end_inset
-
-
 \begin_inset ERT
 status open
 
@@ -263,6 +251,10 @@ OP:
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 
