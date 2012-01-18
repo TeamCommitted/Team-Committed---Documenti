@@ -141,7 +141,9 @@ Aspell
 proponente
 \bar default
  e questo tramite un'accurata rilettura e confronto con il capitolato d'appalto
- e che ogni requisito abbia il suo caso d'uso corrispondente.
+ ed i verbali degli incontri.
+ Si constaterà poi che ogni caso d'uso abbia almeno un requisito corrispondente,
+ effettuando un controllo delle apposite tabelle di tracciamento.
  Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
  dei documenti alle Norme di Progetto stabilite.
  Se durante la verifica saranno state rilevate irregolarità queste verranno
@@ -483,9 +485,8 @@ Strumenti
 \end_layout
 
 \begin_layout Standard
-Il gruppo potrà avvalersi dei seguenti strumenti, quelli che seguiranno
- saranno gli strumenti utili alle fasi di verifica e vengono presi in consideraz
-ione per la loro utilità in questa fase.
+Il gruppo potrà avvalersi dei seguenti strumenti per effettuare i processi
+ di verifica:
 \end_layout
 
 \begin_layout Itemize
@@ -652,26 +653,38 @@ Eclipse
 
 \begin_deeper
 \begin_layout Itemize
+
+\series bold
 Complessità ciclomatica 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Peso delle classi 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero di parametri 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero di campi dati per classe 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Numero livelli di annidamento 
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Indice di utilità - Indice di dipendenza
 \end_layout
 
@@ -887,14 +900,13 @@ Analisti statica
 \begin_layout Standard
 L'analisi statica consisterà nella verifica critica del codice, controllandone
  requisiti e la corretta progettazione.
- Ogni attività svolta verrà registrata e documentata.
 \end_layout
 
 \begin_layout Standard
 Questo tipo di analisi è usualmente fatta con due tecniche complementari:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \series bold
 Walkthrough
@@ -902,109 +914,19 @@ Walkthrough
 : consiste in un'ispezione generale del codice o dei documenti senza prerequisit
 i iniziali e pianificazione.
  È utile nelle fasi iniziali di verifica quando va considerato il software
- nel suo intero senza sapere quali saranno le parti più critiche.
- Ogni problema rilevato verrà discusso fra i verificatori e gli sviluppatori
- (tutti quelli che hanno realizzato la parte di prodotto in questione)
+ nel suo intero senza sapere quali saranno le parti più critiche
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \series bold
 Inspection
 \series default
 : consiste in una verifica mirata del codice o dei documenti, è possibile
  solo quando si è raggiunto un buon grado di conoscenze e si è già consapevoli
- degli errori più comuni o delle aree più critiche.
- Riguardo l'Inspection dei documenti seguiremo questi punti:
+ degli errori più comuni o delle aree più critiche
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Latex: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Impostazione generale del documento affinchè aderisca alle Norme di Progetto
- 
-\end_layout
-
-\begin_layout Itemize
-Controllo della sillabazione automatica 
-\end_layout
-
-\begin_layout Itemize
-Controllo punteggiatura e leggibilità del testo 
-\end_layout
-
-\begin_layout Itemize
-Presenza di una e una sola spaziatura dopo la punteggiatura
-\end_layout
-
-\begin_layout Itemize
-Posizionamento corretto delle immagini all’interno della pagina
-\end_layout
-
-\begin_layout Itemize
-Accentazioni corrette (scelta corretta tra acuti e gravi)
-\end_layout
-
-\begin_layout Itemize
-Lettere maiuscole accentate
-\end_layout
-
-\begin_layout Itemize
-Termini definiti nel glossario ma non sottolineati nel documento
-\end_layout
-
-\begin_layout Itemize
-Termini sottolineati nel documento ma non presenti nel glossario
-\end_layout
-
-\begin_layout Itemize
-Sottolineatura di tutti i termini che sono stati sottolineati almeno una
- volta all’interno del documento
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-UML:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Mantenimento della consistenza tra la nomenclatura dei grafici UML e la
- nomenclatura adottata nelle sezioni in cui i grafici saranno inseriti
-\end_layout
-
-\begin_layout Itemize
-Controllo ortografico dettagliato, data l’impossibilità di automatizzare
- tali controlli sui grafici
-\end_layout
-
-\begin_layout Itemize
-Attenzione alla direzione delle frecce nei diagrammi
-\end_layout
-
-\begin_layout Itemize
-Attenzione alla perfetta orizzontalità o verticalità di frecce orizzontali
- o verticali 
-\end_layout
-
-\begin_layout Itemize
-Controllo del nome del sistema
-\end_layout
-
-\begin_layout Itemize
-Posizione degli include e degli extend
-\end_layout
-
-\begin_layout Itemize
-Eliminazione di caratteri extra, non previsti dalle norme, creati da Bouml
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Standard
 Chiaramente la tecnica dell'
 \emph on
