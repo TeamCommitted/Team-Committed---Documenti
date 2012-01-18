@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\include{preface}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -81,6 +84,22 @@ filename "../../../Modelli/frontpage.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Diario_modifiche.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
