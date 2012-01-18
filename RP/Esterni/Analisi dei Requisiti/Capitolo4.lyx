@@ -857,8 +857,8 @@ hline
 
 		RFOB 11 & Il sistema permetterà agli 
 \backslash
-uline{Utenti} che hanno effettuato il login di uscire dalla sessione autenticata
-, ma non di terminare l'applicazione & Interno 
+uline{Utenti Autenticati} di effettuare il logout, ma non di terminare l'applica
+zione & Interno 
 \backslash
 
 \backslash

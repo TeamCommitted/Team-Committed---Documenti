@@ -758,6 +758,45 @@ status open
 \backslash
 textbf{
 \backslash
+emph{Design Pattern}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	(In Italiano Schema di Progettazione) può essere definito "una soluzione
+ progettuale generale a un problema ricorrente".
+ Esso non è una libreria o un componente di software riusabile, quanto piuttosto
+ una descrizione o un modello da applicare per risolvere un problema che
+ può presentarsi in diverse situazioni durante la progettazione e lo sviluppo
+ del software.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Desktop}} 
 \backslash
 
