@@ -89,11 +89,11 @@ un'accurata
  Sono stati poi controllati anche i contenuti tabellari e grafici.
  La segnalazione di irregolarità è avvenuta tramite Ticket che sono state
  prese in carico successivamente dal redattore e risolte.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-// Dobbiamo in teoria dire anche come abbiamo effettuato il tracciamento
- requisiti- fonti e usecase - requisiti Vedi RP 7seeds capitolo 8.1.1
+Infine, per effettuare il doppio tracciamento, si sono controllate le apposite
+ tabelle come descritto nel capitolo 2.1.
 \end_layout
 
 \end_body
