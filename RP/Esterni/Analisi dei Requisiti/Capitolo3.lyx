@@ -99,8 +99,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/Ambito Utente.png
-	scale 45
+	filename UML/UCG 1.PNG
+	scale 57
 
 \end_inset
 
@@ -150,14 +150,6 @@ Amministratore
 \bar default
  
 \bar under
-Sicurezza
-\bar default
-, 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
 Azienda
 \bar default
 .
@@ -172,7 +164,7 @@ L'
 \bar under
 Utente
 \bar default
- può effettuare il login, divenendo 
+ può effettuare il login divenendo 
 \bar under
 Utente
 \bar default
@@ -180,7 +172,7 @@ Utente
 \bar under
 Autenticato
 \bar default
-, o recuperare la password dimenticata.
+ o recuperare la password dimenticata.
  L'
 \bar under
 Utente
@@ -198,7 +190,11 @@ e effettuata.
 
 Precondizione: 
 \series default
-Il sistema è funzionante, è stato creato un account sul database.
+Il sistema è funzionante, l'account dell'
+\bar under
+Utente
+\bar default
+ è presente nel database.
 \series bold
 
 \begin_inset Newline newline
@@ -210,8 +206,7 @@ L'
 \bar under
 Utente
 \bar default
- è operativo a seconda dei suoi poteri, le modifiche vengono salvate in
- modo corretto.
+ è operativo a seconda dei suoi poteri.
  Il sistema è funzionante.
 \series bold
 
@@ -234,8 +229,8 @@ L'
 \bar under
 Utente
 \bar default
- può recuperare la password dimenticata, fornendo i propri dati personali
- (e-mail, codice fiscale) e ricevendo una e-mail di conferma
+ può recuperare la password dimenticata, fornendo alcuni dati del proprio
+ account e ricevendo una e-mail di conferma sul relativo indirizzo e-mail
 \end_layout
 
 \begin_layout Enumerate
@@ -251,57 +246,89 @@ Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCU 1: Ambito Utente, logout
+UCU 1: Ambito Utente, login
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Utente
+\bar default
+, 
+\bar under
+Utente Autenticato
+\series bold
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Utente
+\bar default
+ può effettuare il login tramite pagina 
+\bar under
+web
+\bar default
+ o tramite applicazione installata nei 
+\bar under
+dispositivi aziendali
+\bar default
+ inserendo la sua username e password, diventando 
+\bar under
+Utente Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Precondizione:
+\series default
+ L'account dell'
+\bar under
+Utente
+\bar default
+ è presente nel database
+\series bold
+.
 \begin_inset Newline newline
 \end_inset
 
-Postcondizione:
+Postcondizione: 
+\series default
+All'
+\bar under
+Utente Autenticato
+\bar default
+ vengono proposte le azioni che può effettuare nell'applicazione
+\series bold
+.
 \begin_inset Newline newline
 \end_inset
 
 Flusso principale degli eventi:
 \end_layout
 
+\begin_layout Enumerate
+L'
+\bar under
+Utente
+\bar default
+ inserisce username e password, diventando 
+\bar under
+Utente Autenticato
+\end_layout
+
 \begin_layout Subsubsection
 UCU 2: Ambito Utente, recupero password dimenticata
-\end_layout
-
-\begin_layout Subsubsection
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Utente, recupero password dimenticata.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -324,10 +351,17 @@ L'
 \bar under
 Utente
 \bar default
- può recuperare la propria password (se non ha mai avuto accesso prima)
- oppure ottenerne una nuova.
+ può recuperare la propria password
 \series bold
-
+ 
+\series default
+inserendo il proprio codice fiscale e l'e-mail
+\series bold
+ 
+\series default
+relativa al proprio account
+\series bold
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -337,8 +371,7 @@ L'
 \bar under
 Utente
 \bar default
- ha dimenticato la propria password e non ha effettuato il login.
- Il sistema è funzionante.
+ non ha effettuato il login.
 \series bold
 
 \begin_inset Newline newline
@@ -350,8 +383,7 @@ L'
 \bar under
 Utente
 \bar default
- riceve una mail con la propria password.
- Il sistema è funzionante.
+ riceve una mail con i propri dati account.
 \begin_inset Newline newline
 \end_inset
 
@@ -365,41 +397,83 @@ L'
 \bar under
 Utente
 \bar default
- fornisce le credenziali per la verifica della persona
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente
-\bar default
- riceve nella propria mail la password
+ fornisce il proprio codice fiscale e l'indirizzo e-mail del proprio account
+ e riceve nella casella e-mail inserita username e password del proprio
+ account
 \end_layout
 
 \begin_layout Subsubsection
-UCUA 1: Ambito Utente, login
+UCUA 1: Ambito Utente Autenticato, logout
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Utente Autenticato
+\bar default
+, 
+\bar under
+Utente
+\series bold
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Utente Autenticato
+\bar default
+ può uscire dall'applicazione, senza poterla terminare.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Precondizione:
+\series default
+ Il sistema è in attesa di input dall'
+\bar under
+Utente Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Postcondizione:
+Postcondizione: 
+\series default
+L'
+\bar under
+Utente Autenticato
+\bar default
+ è diventato 
+\bar under
+Utente
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Utente Autenticato
+\bar default
+ effettua il logout, diventando 
+\bar under
+Utente
 \end_layout
 
 \begin_layout Subsection
@@ -416,8 +490,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/Ambito Dipendente.png
-	scale 70
+	filename UML/UCG 2.PNG
+	scale 52
 
 \end_inset
 
@@ -461,10 +535,10 @@ Al
 \bar under
 Dipendente
 \bar default
- vengono proposte delle domande dal sistema, deve poter richiedere che gliene
- venga proposta una in ogni momento e deve poter visualizzare i suoi punteggi
- in qualsiasi momento.
- Può inoltre modificare o visualizzare i propri dati personali.
+ possono venire proposte delle domande dal sistema, deve poter richiedere
+ che gliene venga proposta una in ogni momento e deve poter visualizzare
+ i suoi punteggi in qualsiasi momento.
+ Può inoltre modificare o visualizzare i propri dati account.
 \series bold
 
 \begin_inset Newline newline
@@ -472,7 +546,7 @@ Dipendente
 
 Precondizione:
 \series default
- Applicazione funzionante, l'
+ Il sistema è funzionante, l'
 \bar under
 Utente
 \bar default
@@ -496,8 +570,8 @@ Utente
 \bar under
 Dipendente
 \bar default
- ed ha effettuato una o più delle operazioni consentite rimanendo in uno
- stato consistente.
+ e può aver effettuato una o più delle operazioni consentite rimanendo in
+ uno stato consistente.
  L'applicazione continua a funzionare.
 \series bold
 
@@ -536,7 +610,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può modificare i propri dati personali
+ può modificare i propri dati account
 \end_layout
 
 \begin_layout Enumerate
@@ -544,36 +618,11 @@ Il
 \bar under
 Dipendente
 \bar default
- può visualizzare i propri dati personali
+ può visualizzare i propri dati account
 \end_layout
 
 \begin_layout Subsubsection
 UCD 1: Ambito Dipendente, domanda proposta
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Dipendente, domanda proposta.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -596,8 +645,12 @@ Scopo e Descrizione:
 \bar under
 Dipendente
 \bar default
- viene segnalata una domanda dal sistema e lui deve poter decidere se visualizza
-re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
+ viene segnalata una domanda dal sistema, il 
+\bar under
+Dipendente
+\bar default
+ deve poter decidere se visualizzare la domanda per rispondervi o se posticipare
+ la visualizzazione a più tardi.
 \series bold
 
 \begin_inset Newline newline
@@ -605,15 +658,11 @@ re la domanda per rispondere o se posticipare la visualizzazione a più tardi.
 
 Precondizione: 
 \series default
-Applicazione funzionante, l'
-\bar under
-Utente
-\bar default
- ha effettuato il login come 
+Il sistema ha segnalato una domanda al 
 \bar under
 Dipendente
 \bar default
- nel sistema.
+.
 \series bold
 
 \begin_inset Newline newline
@@ -625,12 +674,7 @@ L'
 \bar under
 Utente
 \bar default
- è ancora loggato come 
-\bar under
-Dipendente
-\bar default
- ed ha visualizzato o posticipato la domanda proposta.
- L'applicazione continua a funzionare.
+ ha visualizzato o posticipato la domanda proposta.
 \series bold
 
 \begin_inset Newline newline
@@ -670,7 +714,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 1.1 esploso.png
+	filename UML/UCD 1.1.PNG
 	scale 70
 
 \end_inset
@@ -717,9 +761,12 @@ La domanda mostrata al
 \bar under
 Dipendente
 \bar default
- può essere o una domanda mai vista, che potrebbe essere stata posticipata
- precedentemente, oppure una domanda già vista a cui ha risposto erroneamente,
- il 
+ può essere una domanda mai vista o una domanda posticipata precedentemente,
+ oppure una domanda già vista a cui il 
+\bar under
+Dipendente
+\bar default
+ ha risposto erroneamente, il 
 \bar under
 Dipendente
 \bar default
@@ -758,11 +805,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il 
-\bar under
-Dipendente
-\bar default
- visualizza la domanda proposta
+Il sistema visualizza la domanda proposta
 \end_layout
 
 \begin_layout Enumerate
@@ -775,31 +818,6 @@ Dipendente
 
 \begin_layout Subsubsection
 UCD 2: Ambito Dipendente, richiesta domanda
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Dipendente, richiesta domanda.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -819,11 +837,11 @@ Dipendente
 \series bold
 Scopo e Descrizione:
 \series default
- Il sistema deve proporre una domanda al 
+ Il 
 \bar under
 Dipendente
 \bar default
- ogni qualvolta esso lo richieda.
+ può richiedere che il sistema gli proponga una domanda.
  Prima che il 
 \bar under
 Dipendente
@@ -837,11 +855,7 @@ Dipendente
 \series bold
 Precondizione:
 \series default
- Applicazione funzionante, il 
-\bar under
-Dipendente
-\bar default
- ha richiesto che gli venga proposta una domanda dal sistema.
+ Il sistema non sta visualizzando una domanda.
 \begin_inset Newline newline
 \end_inset
 
@@ -849,12 +863,12 @@ Dipendente
 \series bold
 Postcondizione: 
 \series default
-Il sistema visualizza una domanda come richiesto dal 
+Il sistema, a seconda del tempo trascorso dalla visualizzazione dell'ultima
+ domanda, ha visualizzato o meno una domanda al 
 \bar under
 Dipendente
 \bar default
 .
- L'applicazione continua a funzionare.
 \begin_inset Newline newline
 \end_inset
 
@@ -872,7 +886,8 @@ Dipendente
 \end_layout
 
 \begin_layout Enumerate
-Il sistema visualizza una domanda
+Il sistema visualizza una domanda se è passato abbastanza tempo dall'ultima
+ domanda visualizzata
 \end_layout
 
 \begin_layout Subsubsection
@@ -889,7 +904,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 3 Esploso.png
+	filename UML/UCD 3.PNG
 	scale 70
 
 \end_inset
@@ -936,7 +951,12 @@ Scopo e Descrizione:
 \bar under
 Dipendente
 \bar default
- controlla i propri punteggi (punti, badge, domande).
+ può controllare le domande a cui ha risposto, la classifica generale dei
+ 
+\bar under
+Dipendenti
+\bar default
+, i suoi trofei e badge ottenuti e le statistiche riguardanti le sue risposte.
 \series bold
 
 \begin_inset Newline newline
@@ -944,11 +964,7 @@ Dipendente
 
 Precondizione:
 \series default
- Il 
-\bar under
-Dipendente
-\bar default
- vuole controllare i propri punteggi, l'applicazione è funzionante
+ Il sistema mostra il menù di visualizzazione punteggi.
 \series bold
 
 \begin_inset Newline newline
@@ -956,11 +972,11 @@ Dipendente
 
 Postcondizione:
 \series default
- Il sistema visualizza tutte le statistiche di un 
+ Il sistema visualizza le statistiche richieste dal 
 \bar under
 Dipendente
 \bar default
-, l'applicazione continua a funzionare.
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1015,7 +1031,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 4 Esploso.png
+	filename UML/UCD 4.PNG
 	scale 70
 
 \end_inset
@@ -1061,7 +1077,7 @@ Il
 \bar under
 Dipendente
 \bar default
- può modificare la propria password o la propria email.
+ può modificare la propria password o la propria e-mail.
 \series bold
 
 \begin_inset Newline newline
@@ -1069,12 +1085,7 @@ Dipendente
 
 Precondizione:
 \series default
- Il 
-\bar under
-Dipendente
-\bar default
- ha effettuato il login.
- Il sistema è funzionante.
+ Il sistema visualizza la schermata di modifica dati.
 \series bold
 
 \begin_inset Newline newline
@@ -1082,8 +1093,12 @@ Dipendente
 
 Postcondizione: 
 \series default
-Le modifiche sono state salvate in modo corretto.
- Il sistema è funzionante.
+Le modifiche sono state salvate in modo corretto, il sistema ha inviato
+ una mail contenenti i dati account al 
+\bar under
+Dipendente
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1157,8 +1172,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/Ambito Amministratore Sicurezza.png
-	scale 70
+	filename UML/UCG 3.png
+	scale 45
 
 \end_inset
 
@@ -1344,8 +1359,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAS 2 Esploso.png
-	scale 70
+	filename UML/UCASA 2.PNG
+	scale 65
 
 \end_inset
 
@@ -1470,35 +1485,6 @@ UCASA 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Sicurezza, aggiungi domanda.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 Attori coinvolti:
@@ -1579,35 +1565,6 @@ Sicurezza
 
 \begin_layout Subsubsection
 UCASA 2.2: Ambito Amministratore Sicurezza, modifica domanda.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Sicurezza, modifica domanda.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1750,7 +1707,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/Ambito Amministratore Azienda.png
+	filename UML/UCG 4.png
 	scale 70
 
 \end_inset
@@ -1915,7 +1872,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAA 1 Esploso.png
+	filename UML/UCAA 1.PNG
 	scale 70
 
 \end_inset
@@ -2080,35 +2037,6 @@ UCAA 1.1: Ambito Amministratore Azienda, aggiungi Dipendente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Azienda, aggiungi Dipendente.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 Attori Coinvolti:
@@ -2207,35 +2135,6 @@ Dipendente
 
 \begin_layout Subsubsection
 UCAA 1.3: Ambito Amministratore Azienda, modifica dati Dipendente
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Azienda, modifica dati Dipendente.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2436,8 +2335,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/Ambito Amministratore Installazione.png
-	scale 67
+	filename UML/UCG 5.png
+	scale 65
 
 \end_inset
 
@@ -2677,7 +2576,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAI 2.png
+	filename UML/UCAI 2.PNG
 	scale 70
 
 \end_inset
@@ -2817,7 +2716,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAIA 1 Esploso.png
+	filename UML/UCAIA 1.PNG
 	scale 70
 
 \end_inset
@@ -2977,39 +2876,6 @@ Autenticato
 
 \begin_layout Subsubsection
 UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Installatore
-\bar under
- 
-\bar default
-Autenticato, aggiungi azienda.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
