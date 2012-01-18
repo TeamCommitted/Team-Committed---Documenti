@@ -63,7 +63,7 @@
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/Users/Giorgio/Università/Progetti/Gamification/Team-Committed---Documenti/Modelli/frontpage.lyx"
+filename "../../../Modelli/frontpage.lyx"
 
 \end_inset
 
@@ -80,7 +80,7 @@ filename "C:/Users/Giorgio/Università/Progetti/Gamification/Team-Committed---Do
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/Users/Giorgio/Università/Progetti/Gamification/Team-Committed---Documenti/RP/Esterni/Specifica Tecnica/Diario_modifiche.lyx"
+filename "Diario_modifiche.lyx"
 
 \end_inset
 
@@ -97,7 +97,7 @@ filename "C:/Users/Giorgio/Università/Progetti/Gamification/Team-Committed---Do
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "C:/Users/Giorgio/Università/Progetti/Gamification/Team-Committed---Documenti/RP/Esterni/Specifica Tecnica/Capitolo1.lyx"
+filename "Capitolo1.lyx"
 
 \end_inset
 
