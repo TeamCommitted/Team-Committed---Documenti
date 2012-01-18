@@ -1825,7 +1825,7 @@ Strumenti->Correttore Ortografico
 .
  Prima però dovrà controllare che la lingua del documento
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Poichè i documenti saranno formati da un file per ogni capitolo, il 
@@ -1870,7 +1870,14 @@ italiano
 \begin_layout Itemize
 
 \series bold
-Controllo lessicale
+Controllo lessicale: 
+\series default
+il 
+\emph on
+verificatore
+\emph default
+ procederà ad un'attenta lettura dell'intero documento alla ricerca di errori
+ lessicali.
 \end_layout
 
 \end_body
