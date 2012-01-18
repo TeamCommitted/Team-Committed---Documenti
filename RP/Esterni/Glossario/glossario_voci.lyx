@@ -871,7 +871,82 @@ end{flushright}
 \backslash
 textbf{
 \backslash
-emph{Dispositivo Mobili}} 
+emph{Dispositivo Aziendale}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Elemento appartenente all'insieme dei dispositivi fissi e mobili di proprietà
+ dell'azienda dove è stato installata l'applicazione
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Dispositivo Fisso}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Dispositivo statico che permette di ricevere, elaborare ed esportare dati
+ utilizzando indifferentemente  una connessione Internet cablata o meno.
+ Di norma si usa per indicare sia 
+\backslash
+underline{PC} che 
+\backslash
+underline{Notebook}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Dispositivo Mobile}} 
 \backslash
 
 \backslash
@@ -1617,6 +1692,60 @@ end{flushright}
 \end_layout
 
 \begin_layout Section*
+N
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Notebook}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Computer portatile di dimensioni e peso contenuti
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 O
 \end_layout
 
@@ -1648,7 +1777,7 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Componente del team a cui è stato assegnato un ticket.
+	Componente del team a cui è stato assegnato un ticket
 \end_layout
 
 \begin_layout Plain Layout
