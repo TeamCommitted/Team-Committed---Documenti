@@ -194,7 +194,11 @@ Natura
 : l'intero progetto, dalla realizzazione dei documenti al codice, sarà sviluppat
 o su calcolatore.
  Ogni membro del gruppo possiede l'hardware necessario, e molti possono
- servirsi di computer notebook.
+ servirsi di computer 
+\bar under
+notebook
+\bar default
+.
  Inoltre, sono disponibili tre laboratori forniti di hardware adeguato,
  nonostante il software non sia perfettamente conforme agli standard scelti.
  E' possibile che si verifichino problemi che portino all'inutilizzo totale
@@ -240,8 +244,11 @@ Contromisure di correzione
 \series bold
 Casi riscontrati
 \series default
-: durante i primi giorni della fase di analisi, uno dei notebook ha subito
- un guasto al disco fisso.
+: durante i primi giorni della fase di analisi, uno dei 
+\bar under
+notebook
+\bar default
+ ha subito un guasto al disco fisso.
  Grazie ai frequenti backup, la perdita di lavoro in termini di tempo è
  stata minima; tentare un recupero dei dati dall'hard disk corrotto avrebbe
  richiesto una maggiore quantità di lavoro.
