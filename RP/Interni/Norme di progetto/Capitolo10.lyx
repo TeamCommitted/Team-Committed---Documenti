@@ -65,10 +65,24 @@
 
 \begin_layout Section
 Norme per lo sviluppo dell'applicazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Norme-per-lo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Tipologia dei requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tipologia-dei-requisiti"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -180,6 +194,13 @@ Facoltativo:
 
 \begin_layout Subsection
 Classificazione dei requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Classificazione-dei-requisiti-1"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -305,6 +326,13 @@ Queste sigle dovranno essere seguite dal numero del requisito.
 
 \begin_layout Subsection
 Grafici UML
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Grafici-UML-1"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -450,6 +478,28 @@ Use Case
 {XX}:
 \series default
  iniziali dell'attore principale del caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso in cui si parli di 
+\begin_inset Quotes eld
+\end_inset
+
+Ambito Generale
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\series bold
+XX
+\series default
+ = G
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -480,6 +530,13 @@ esplosione
 \end_deeper
 \begin_layout Subsection
 Stesura del codice
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stesura-del-codice"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

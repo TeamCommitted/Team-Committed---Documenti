@@ -4,22 +4,7 @@
 \begin_header
 \textclass article
 \begin_preamble
-\date{}
-%\usepackage{fullpage}
-\usepackage[latin9]{inputenc}
-\usepackage{fancyhdr}
-\usepackage{ucs}
-\usepackage{lastpage}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\newcommand{\doctitle}{Norme di progetto }
-\newcommand{\asd}{asd}
-\newcommand{\versiondoc}{V0.2 }
-\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
-\fancyhead[RE, RO]{\doctitle}
-\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\include{preface}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -78,11 +63,60 @@
 
 \begin_body
 
-\begin_layout Section
-Progettazione
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Progettazione"
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../Modelli/frontpage.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Diario_modifiche.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitolo1.lyx"
 
 \end_inset
 

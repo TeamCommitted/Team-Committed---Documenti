@@ -76,9 +76,8 @@ Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
 \bar under
  
 \bar default
-prima ed inspection poi, verificando che i documenti rispettino i punti
- individuati e riportati in tale sezione inerenti la formattazione del testo,
- effettuando le dovute procedure per la correzione degli errori rilevati.
+prima ed inspection poi, effettuando le dovute procedure per la correzione
+ degli errori rilevati.
  Nel dettaglio, i documenti sono stati revisionato effettuando quindi il
  controllo ortografico tramite Aspell, il plugin per LyX, mentre il controllo
  grammaticale, sintattico e lessicale è avvenuto tramite 
@@ -87,13 +86,13 @@ un'accurata
 \lang italian
  rilettura da parte dei revisori.
  Sono stati poi controllati anche i contenuti tabellari e grafici.
- La segnalazione di irregolarità è avvenuta tramite Ticket che sono state
+  La segnalazione di irregolarità è avvenuta tramite Ticket che sono state
  prese in carico successivamente dal redattore e risolte.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-Infine, per effettuare il doppio tracciamento, si sono controllate le apposite
- tabelle come descritto nel capitolo 2.1.
+\begin_layout Standard
+// Dobbiamo in teoria dire anche come abbiamo effettuato il tracciamento
+ requisiti- fonti e usecase - requisiti Vedi RP 7seeds capitolo 8.1.1
 \end_layout
 
 \end_body

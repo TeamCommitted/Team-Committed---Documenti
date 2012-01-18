@@ -160,7 +160,7 @@ Codifica
 Procedure di automazione
 \series default
 \emph default
-: procedure per l'automazione delle attività tecniche
+: strumenti e procedure per l'automazione di attività tecniche
 \end_layout
 
 \begin_layout Itemize
@@ -212,7 +212,7 @@ name "sub:Ambiguitá"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V1.0.pdf
+Glossario-V2.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
  
