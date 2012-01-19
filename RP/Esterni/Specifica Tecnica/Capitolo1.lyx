@@ -60,11 +60,19 @@
 \begin_body
 
 \begin_layout Section
+
+\lang italian
 Introduzione
 \end_layout
 
 \begin_layout Subsection
-Scopo del documento
+
+\lang italian
+Scopo
+\lang english
+ del 
+\lang italian
+documento
 \end_layout
 
 \begin_layout Standard
@@ -170,14 +178,22 @@ Riferimenti
 Normativi
 \end_layout
 
+\begin_layout Itemize
+
+\lang italian
+Norme di Progetto, v 2.0 (allegato Norme_di_Progetto_V2.0.pdf)
+\end_layout
+
+\begin_layout Itemize
+
+\lang italian
+Analisi dei Requisiti, v 2.0 (allegato Analisi_dei_Requisiti_V2.0.pdf)
+\end_layout
+
 \begin_layout Subsubsection
 
 \lang italian
 Informativi
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
