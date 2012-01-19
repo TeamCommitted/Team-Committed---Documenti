@@ -1813,6 +1813,67 @@ status open
 \backslash
 textbf{
 \backslash
+emph{Package}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	In alcuni linguaggi orientati agli oggetti, tra cui 
+\backslash
+uline{Java}, 
+\backslash
+'e un meccanismo che permette di organizzare un insieme di classi tra loro
+ correlate che concorrono allo stesso fine
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Piattaforma Mobile di Apprendimento Comportamentale}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{PC}} 
 \backslash
 
