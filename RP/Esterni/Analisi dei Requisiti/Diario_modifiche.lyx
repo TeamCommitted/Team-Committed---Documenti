@@ -148,9 +148,23 @@ hline
 
 \begin_layout Plain Layout
 
-		
+        
 \backslash
-emph{Approvato.} & Giorgio Maggiolo & 19/12/2011 & V1.0 
+emph{Modifica capitolo 4 e 5 secondo correzioni.} &   & 2012/01/21 & V1.1
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+emph{Modifica capitolo 3 secondo correzioni.} &   & 2012/01/19 & V1.1 
 \backslash
 
 \backslash
@@ -163,7 +177,7 @@ hline
 
 		
 \backslash
-emph{Revisione completata.} & Gabriele Facchin & 19/12/2011 & V0.11 
+emph{Approvato.} & Giorgio Maggiolo & 2011/12/19 & V1.0 
 \backslash
 
 \backslash
@@ -176,7 +190,20 @@ hline
 
 		
 \backslash
-emph{Iniziata e terminata stesura capitolo 5} & Lorenzo Braghetto & 19/12/2011
+emph{Revisione completata.} & Gabriele Facchin & 2011/12/19 & V0.11 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Iniziata e terminata stesura capitolo 5} & Lorenzo Braghetto & 2011/12/19
  & V0.10 
 \backslash
 
@@ -190,7 +217,7 @@ hline
 
 		
 \backslash
-emph{Termine stesura capitolo 4} & Giacomo Quadrio & 17/12/2011 & V0.9 
+emph{Termine stesura capitolo 4.} & Giacomo Quadrio & 2011/12/17 & V0.9 
 \backslash
 
 \backslash
@@ -203,7 +230,7 @@ hline
 
 		
 \backslash
-emph{Termine stesura capitolo 3} & Marco Begolo & 16/12/2011 & V0.8 
+emph{Termine stesura capitolo 3.} & Marco Begolo & 2011/12/16 & V0.8 
 \backslash
 
 \backslash
@@ -216,7 +243,7 @@ hline
 
 		
 \backslash
-emph{Aggiornato capitolo 4} & Giacomo Quadrio& 15/12/2011 & V0.7 
+emph{Aggiornato capitolo 4.} & Giacomo Quadrio& 2011/12/15 & V0.7 
 \backslash
 
 \backslash
@@ -229,7 +256,7 @@ hline
 
 		
 \backslash
-emph{Termine stesura capitoli 1 e 2} & Lorenzo Braghetto & 12/12/2011 &
+emph{Termine stesura capitoli 1 e 2.} & Lorenzo Braghetto & 2011/12/12 &
  V0.6 
 \backslash
 
@@ -243,22 +270,9 @@ hline
 
 		
 \backslash
-emph{Completati grafici dei casi d'uso} & Massimo Dalla Piet
+emph{Completati grafici dei casi d'uso.} & Massimo Dalla Piet
 \backslash
-'a & 11/12/2011 & V0.5 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-emph{Modificato Capitolo3} & Gabriele Facchin & 09/12/2011 & V0.4 
+'a & 2011/12/11 & V0.5 
 \backslash
 
 \backslash
@@ -271,8 +285,7 @@ hline
 
 		
 \backslash
-emph{Iniziata stesura Capitolo4} & Alessandro Cornaglia & 09/12/2001 & V0.3
- 
+emph{Modificato Capitolo 3.} & Gabriele Facchin & 2011/12/09 & V0.4 
 \backslash
 
 \backslash
@@ -285,9 +298,23 @@ hline
 
 		
 \backslash
-emph{Inizio stesura dei casi d'uso} & Massimo Dalla Piet
+emph{Iniziata stesura Capitolo 4.} & Alessandro Cornaglia & 2011/12/09 &
+ V0.3 
 \backslash
-'a & 06/12/2011 & V0.2 
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inizio stesura dei casi d'uso.} & Massimo Dalla Piet
+\backslash
+'a & 2011/12/06 & V0.2 
 \backslash
 
 \backslash
@@ -302,7 +329,7 @@ hline
 \backslash
 emph{Inizio creazione del documento.
  Creato lo schema base e iniziato a scrivere l'introduzione.} & Gabriele
- Facchin & 05/12/2011 & V0.1 
+ Facchin & 2011/12/05 & V0.1 
 \backslash
 
 \backslash
