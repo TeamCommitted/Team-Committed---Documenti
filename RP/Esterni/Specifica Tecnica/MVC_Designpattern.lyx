@@ -80,18 +80,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-\begin_inset External
-	template Dia
-	filename img/Diagram1.dia
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename img/MVC.jpeg
+	scale 50
 
 \end_inset
 
@@ -103,9 +101,75 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Model-View-Controller è un pattern architetturale molto diffuso e che permette
+ una completa disgiunzione delle funzionalità che il prodotto deve offrire,
+ organizzando l'applicativo come segue: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Model: 
+\series default
+costituisce la parte logica dei dati utilizzati dal sistema, compresa la
+ loro persistenza
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+View: 
+\series default
+costituisce l'interfaccia vera e propria con cui i dati sono visualizzati
+ e tramite la quale gli utenti possono interagire con il sistema
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Controller: 
+\series default
+rappresenta il componente che riceve i comandi dell'utente e li attua, decidendo
+ le conseguenti operazioni da effettuare nel Model e nel View
+\end_layout
+
+\begin_layout Standard
+Tale design-pattern è stato scelto in quanto largamente diffuso ed adottato
+ da numerosissime tecnologie moderne.
+ Esso garantisce infatti una solida struttura altamente manutenibile.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+// Qui si parlerà poi dell'applicazione effettiva dell'MVC all'interno delle
+ varie applicazioni in cui vogliamo implementarlo come per esempio l'app
+ android, l'app JAVA o l'app web!
 \end_layout
 
 \end_body
