@@ -258,7 +258,7 @@ e con
 /root/
 \family default
 \series default
- contiene le cartelle delle varie revisioni
+ conterrà le cartelle delle varie revisioni
 \begin_inset Foot
 status open
 
@@ -288,7 +288,7 @@ Modelli
 /root/Modelli/
 \family default
 \series default
- contiene tutti i file che 
+ conterrà tutti i file che 
 \series bold
 dovranno
 \series default
@@ -386,7 +386,7 @@ Diario_modifiche.lyx
 \family default
  
 \series default
-contiene il codice 
+conterrà il codice 
 \begin_inset ERT
 status open
 
@@ -415,7 +415,7 @@ La documentazione per il suo uso è all'interno del documento stesso
 /root/Modelli/img/
 \family default
 \series default
- contiene le immagini che tutti i documenti dovranno avere
+ conterrà le immagini che tutti i documenti dovranno avere
 \end_layout
 
 \begin_layout Itemize
@@ -559,7 +559,7 @@ reference "fn:In-questa-sottosezione"
 /root/
 \family default
 \series default
- contiene le cartelle dei vari prodotti realizzati o in fase di realizzazione
+ conterrà le cartelle dei vari prodotti realizzati o in fase di realizzazione
 \end_layout
 
 \begin_layout Itemize
@@ -570,7 +570,7 @@ reference "fn:In-questa-sottosezione"
 \family default
  
 \series default
-contiene i sorgenti dell'applicazione, lato 
+conterrà i sorgenti dell'applicazione, lato 
 \emph on
 \bar under
 desktop
@@ -584,7 +584,7 @@ desktop
 \family default
  
 \series default
-contiene i sorgenti dell'applicazione, lato 
+conterrà i sorgenti dell'applicazione, lato 
 \emph on
 \bar under
 mobile
@@ -598,14 +598,48 @@ mobile
 \family default
  
 \series default
-contiene i sorgenti dell'applicazione, lato 
+conterrà i sorgenti dell'applicazione, lato 
 \emph on
 \bar under
 web
 \end_layout
 
 \begin_layout Standard
-All'interno 
+L'interno di ogni cartella contenente i sorgenti dovrà invece essere suddivisa
+ in questa maniera:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./src/
+\family default
+ 
+\series default
+conterrà i sorgenti veri e propri dell'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./test/
+\family default
+\series default
+ conterrà il codice creato per testare quanto contenuto in 
+\family typewriter
+./src/
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./doc/ 
+\family default
+\series default
+conterrà la documentazione riguardante il software
 \end_layout
 
 \begin_layout Subsection
@@ -639,18 +673,27 @@ Formati file
 \bar under
 repository
 \bar default
- della documentazione dovrà contenere solamente file di testo in formato
+ della documentazione potrà contenere solamente file di testo in formato
  
 \family typewriter
 LyX
 \family default
-; le immagini dovranno essere in formato 
+, file 
 \family typewriter
-PNG
+.pptx
+\family default
+ delle presentazioni e i file
+\family typewriter
+ PDF
+\family default
+ sia dei documenti che delle presentazioni; le immagini dovranno essere
+ in formato 
+\family typewriter
+.png
 \family default
  o 
 \family typewriter
-JPG
+.jpg
 \end_layout
 
 \begin_layout Itemize
@@ -676,13 +719,112 @@ name "sub:Codice-1"
 
 \end_layout
 
-\begin_layout Standard
-L'uso del 
+\begin_layout Itemize
+
+\series bold
+Formati file
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Codice sorgente: 
+\series default
+il 
 \bar under
 repository
 \bar default
- del codice sorgente verrà decisa in fase di progettazione.
+ del codice sorgente potrà contenere solamenti file sorgenti nei seguenti
+ formati:
+\family typewriter
+.java
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\family typewriter
+.class
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.html
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.css
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.xml
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.sql
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.js
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.apk
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.bluej
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.ctxt
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Immagini: 
+\series default
+le immagini invece dovranno essere in formato 
+\family typewriter
+.jpg
+\family default
+ e/o 
+\family typewriter
+.png
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Documentazione: 
+\series default
+la documentazione prodotta dovrà essere in formato 
+\family typewriter
+.html
+\family default
+ e/o 
+\family typewriter
+.txt
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
