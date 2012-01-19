@@ -1777,6 +1777,36 @@ hline
 
 \begin_layout Plain Layout
 
+		RQD 5.1 & Le applicazioni 
+\backslash
+uline{WEB} aderiranno allo standard CSS definito da 
+\backslash
+uline{W3C} & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQD 5.2 & Le applicazioni 
+\backslash
+uline{WEB} aderiranno allo standard XHTML definito da 
+\backslash
+uline{W3C} & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 		RQOB 6 & Tutti i processi di sviluppo aderiranno allo standard 
 \backslash
 uline{ISO/IEC} 15504:1998 SPICE & Interno 
@@ -1866,7 +1896,8 @@ hline
 
 \begin_layout Plain Layout
 
-		RVOB 1.1 & Il sistema dovrà essere multipiattaforma & Capitolato 
+		RVOB 1.1 & Il sistema dovrà essere multipiattaforma (per quanto riguarda
+ la parte fissa) & Capitolato 
 \backslash
 
 \backslash
@@ -1879,7 +1910,7 @@ hline
 
 		RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi 
 \backslash
-uline{dispositivo mobile} & Capitolato 
+uline{dispositivo mobile} con sistema operativo Android & Capitolato 
 \backslash
 
 \backslash
