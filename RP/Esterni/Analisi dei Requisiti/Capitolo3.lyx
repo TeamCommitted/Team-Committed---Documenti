@@ -490,7 +490,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCG 2.PNG
+	filename UML/UCG 2.png
 	scale 52
 
 \end_inset
@@ -1139,27 +1139,51 @@ UCD 5: Ambito Dipendente, visualizza dati account
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+Il Dipendente può osservare i propri dati dell'account.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Precondizione:
+Precondizione: 
+\series default
+Il sistema mostra la pagina contenente i dati.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Postcondizione:
+\series default
+ Il sistema mostra la pagina delle azioni principali del Dipendente.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Flusso principale degli eventi:
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Il Dipendente visualizza lo stato dei propri dati: Username, email, codice
+ fiscale, status aziendale, nome, cognome
 \end_layout
 
 \begin_layout Subsection
-UCG 3: Ambito Amministratore Sicurezza, caso d' uso generale.
+UCG 3: Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1173,541 +1197,6 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/UCG 3.png
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Sicurezza, caso d' uso generale.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\series default
- 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può modificare il database di domande o consultare le domande.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Sistema funzionante con database di domande esistente e l'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- ha effettuato il login.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- Sistema funzionante con database di domande consistente per i requisiti
- di sistema.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può vedere il database di domande
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può modificare il database di domande
-\end_layout
-
-\begin_layout Subsubsection
-UCAS 1: Ambito Amministratore Sicurezza, 
-\series bold
-login
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Subsubsection
-UCASA 1: Ambito Amministratore Sicurezza, 
-\series bold
-consultazione domande
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Subsubsection
-UCASA 2: Ambito Amministratore Sicurezza, modifica database.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCASA 2.PNG
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Sicurezza, modifica database.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\series default
- 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può modificare il database di domande tramite operazioni fondamentali.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Sistema funzionante con database di domande esistente.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Postcondizione:
-\series default
- Sistema funzionante con database di domande consistente per i requisiti
- di sistema.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può aggiungere una domanda al database di domande
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può modificare una domanda nel database di domande
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può cancellare una domanda nel database di domande
-\end_layout
-
-\begin_layout Subsubsection
-UCASA 2.1: Ambito Amministratore Sicurezza, aggiungi domanda.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\series default
- 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può aggiungere una domanda specificando i vari parametri (vedere flusso)
- propri per la domanda in questione.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- aggiunge una domanda.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- Vi è una domanda in più nel database di domande.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- aggiunge una domanda al database di domande specificando sempre il tipo
- della domanda, il testo della domanda, i testi delle risposte, le risposte
- corrette, la categoria degli utenti, la piattaforma e il punteggio.
- Inoltre può specificare anche il percorso all'eventuale immagine o video
- e il tempo per rispondere alla domanda
-\end_layout
-
-\begin_layout Subsubsection
-UCASA 2.2: Ambito Amministratore Sicurezza, modifica domanda.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori Coinvolti:
-\series default
- 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
- può modificare la domanda in ogni sua parte (vedere flusso).
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Esiste la domanda nel database di domande.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- La domanda è stata correttamente modificata secondo la scelta dell'
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Sicurezza
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il tipo della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare i testi delle risposte della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il testo della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la/e risposta/e corretta/e
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il percorso per l'immagine o il video
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la categoria ai quali sottoporre la domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la piattaforma per la quale la domanda è stata progettata
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la temporizzazione della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il punteggio della risposta
-\end_layout
-
-\begin_layout Subsubsection
-UCASA 3: Ambito Amministratore Sicurezza, 
-\series bold
-logout
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti:
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Subsection
-UCG 4: Ambito Amministratore Azienda, caso d' uso generale
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCG 4.png
 	scale 70
 
 \end_inset
@@ -2276,23 +1765,73 @@ UCAA 2: Ambito Amministratore Azienda, visualizza dati dipendente
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\series bold
+\bar default
+ 
+\series default
+può visualizzare i dati personali dei dipendenti.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Precondizione:
+Precondizione: 
+\series default
+Vi è almeno un account 
+\bar under
+Dipendente
+\bar default
+ nel database.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Postcondizione:
+Postcondizione: 
+\series default
+L'account 
+\bar under
+Dipendente
+\bar default
+ visualizzato non è stato modificato.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Flusso principale degli eventi:
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda
+\bar default
+ visualizza i dati personali di un dipendente
 \end_layout
 
 \begin_layout Subsubsection
@@ -2302,23 +1841,783 @@ UCAA 3: Ambito Amministratore Azienda, visualizza punteggi dipendente
 \begin_layout Standard
 
 \series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Azienda
+\series bold
+\bar default
+ 
+\series default
+può visualizzare i punteggi dei dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+Vi è almeno un account 
+\bar under
+Dipendente
+\bar default
+ nel database.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+L'account 
+\bar under
+Dipendente
+\bar default
+ visualizzato non è stato modificato.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda
+\bar default
+ visualizza i punteggi di un dipendente
+\end_layout
+
+\begin_layout Subsection
+UCG 4: Ambito Amministratore Sicurezza, caso d' uso generale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCG 4.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza, caso d' uso generale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore Sicurezza
+\bar default
+ può effettuare il login diventando 
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ può modificare il database di domande, consultare le domande o effettuare
+ il logout tornando 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza
+\bar default
+ può effettuare il login
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può vedere il database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ può modificare il database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ può effettuare il logout
+\end_layout
+
+\begin_layout Subsubsection
+UCAS 1: Ambito Amministratore Sicurezza, 
+\series bold
+login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Sicurezza
+\bar default
+, 
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore Sicurezza
+\bar default
+ può effettuare il login tramite pagina 
+\bar under
+web
+\bar default
+ inserendo la sua username e password, diventando 
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'account dell'
+\bar under
+Amministratore Sicurezza 
+\bar default
+è presente nel database.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+All'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ vengono proposte le azioni che può effettuare.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza 
+\bar default
+inserisce username e password, diventando 
+\bar under
+Amministratore Sicurezza Autenticato
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 1: Ambito Amministratore Sicurezza Autenticato, 
+\series bold
+consultazione domande
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ può consultare le domande presenti sul database di una Azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+Esiste una domanda da consultare nel database di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Le domande non sono state modificate in alcun modo.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza Autenticato 
+\bar default
+può consultare tutte le domande presenti nel database di una azienda
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 2: Ambito Amministratore Sicurezza Autenticato, modifica database.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCASA 2.PNG
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore
+\bar under
+ 
+\bar default
+Sicurezza Autenticato, modifica database.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ può modificare il database di domande tramite operazioni fondamentali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Sistema funzionante con database di domande esistente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Postcondizione:
+\series default
+ Sistema funzionante con database di domande consistente per i requisiti
+ di sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può aggiungere una domanda al database di domande, specificandone i campi
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può modificare uno o più campi di una domanda nel database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ può cancellare una domanda dal database di domande
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 2.1: Ambito Amministratore Sicurezza Autenticato, aggiungi domanda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ può aggiungere una domanda specificando i vari parametri propri per la
+ domanda in questione.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ vuole aggiungere una domanda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Vi è una domanda in più nel database di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ aggiunge una domanda al database di domande specificando sempre il tipo
+ della domanda, il testo della domanda, i testi delle risposte, le risposte
+ corrette, la categoria degli utenti, la piattaforma e il punteggio.
+ Inoltre può specificare anche il percorso all'eventuale immagine o video
+ e il tempo per rispondere alla domanda
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 2.2: Ambito Amministratore Sicurezza Autenticato, modifica domanda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza Autenticato
+\bar default
+ può modificare la domanda in ogni sua parte (vedere flusso).
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Esiste la domanda nel database di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ La domanda è stata correttamente modificata secondo la scelta dell'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il tipo della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare i testi delle risposte della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il testo della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la/e risposta/e corretta/e
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il percorso per l'immagine o il video
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la categoria ai quali sottoporre la domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la piattaforma per la quale la domanda è stata progettata
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare la temporizzazione della domanda
+\end_layout
+
+\begin_layout Enumerate
+Si può modificare il punteggio della risposta
+\end_layout
+
+\begin_layout Subsubsection
+UCASA 3: Ambito Amministratore Sicurezza Autenticato, 
+\series bold
+logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+, 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ può terminare la sua sessione.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il sistema è in attesa di input dall'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ è diventato 
+\bar under
+Amministratore Sicurezza
+\bar default
+, le modifiche apportate sono salvate.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ effettua il logout, diventando 
+\bar under
+Amministratore Sicurezza 
 \end_layout
 
 \begin_layout Subsection
@@ -2543,27 +2842,76 @@ UCAI 1: Ambito Amministratore Installatore, login
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Installatore
+\bar default
+, 
+\bar under
+Amminitratore Installatore Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amminitratore Installatore
+\bar default
+ effettua il login sulla pagina web dedicata diventando 
+\bar under
+Amminitratore Installatore Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Precondizione:
+\series default
+ L'account dell'
+\bar under
+Amminitratore Installatore 
+\bar default
+è presente nel database.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Postcondizione:
+Postcondizione: 
+\series default
+All'
+\bar under
+Amminitratore Installatore Autenticato
+\bar default
+ vengono proposte le azioni che può effettuare.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Flusso principale degli eventi:
 \end_layout
 
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza 
+\bar default
+inserisce username e password, diventando 
+\bar under
+Amministratore Sicurezza Autenticato
+\end_layout
+
 \begin_layout Subsubsection
-UCAI 2: Ambito Amministratore Installatore, installazione software.
+UCAI 2: Ambito Amministratore Installatore Autenticato, installazione software.
 \end_layout
 
 \begin_layout Standard
@@ -2576,7 +2924,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAI 2.PNG
+	filename UML/UCAI 2.png
 	scale 70
 
 \end_inset
@@ -2589,7 +2937,7 @@ Ambito Amministratore
 \bar under
  
 \bar default
-Installatore, installazione software.
+Installatore Autenticato, installazione software.
 \end_layout
 
 \end_inset
@@ -2961,7 +3309,7 @@ Amministratore
 \bar default
  
 \bar under
-Installatore
+Installatore Autenticato
 \bar default
  aggiunge i dati di una azienda che sono composti da: nome dell'azienda,
  l'indirizzo al server dati, l'username dell'azienda e la password
@@ -2974,23 +3322,104 @@ UCAIA 2: Ambito Amminstratore Installatore Autenticato, logout
 \begin_layout Standard
 
 \series bold
-Attori coinvolti:
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore Autenticato
+\bar default
+, 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Scopo e Descrizione:
+Scopo e Descrizione: 
+\series default
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore Autenticato
+\bar default
+ può terminare la sua sessione.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Precondizione:
+\series default
+ Il sistema è in attesa di input dall'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Postcondizione:
+Postcondizione: 
+\series default
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore Autenticato
+\bar default
+ è diventato 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore
+\bar default
+, le modifiche apportate sono salvate.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore Autenticato
+\bar default
+ effettua il logout, diventando 
+\bar under
+Amministratore
+\bar default
+ 
+\bar under
+Installatore 
 \end_layout
 
 \end_body
