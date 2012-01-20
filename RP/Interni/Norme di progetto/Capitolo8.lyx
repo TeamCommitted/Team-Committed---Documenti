@@ -319,7 +319,53 @@ Convenzioni di codifica
 \end_layout
 
 \begin_layout Standard
-Le convenzioni di codifica verranno formalizzate nella fase di progettazione.
+Per rendere il codice leggibile, comprensibile e quindi manutenibile possibile,
+ si stabilisce che i programmatori debbano seguire la 
+\bar under
+Java Code Convetion
+\bar default
+, il cui documento è reperibile all'indirizzo: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://java.sun.com/docs/codeconv/CodeConventions.pdf
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Di seguito si fa un sommario delle regole più frequentemente utilizzate:
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
