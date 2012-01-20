@@ -373,26 +373,18 @@ All'interno di una classe dovranno comparire nel seguente ordine:
 \end_layout
 
 \begin_layout Enumerate
-
-\series bold
 Variabili statiche
 \end_layout
 
 \begin_layout Enumerate
-
-\series bold
 Variabili di istanza
 \end_layout
 
 \begin_layout Enumerate
-
-\series bold
 Costruttori
 \end_layout
 
 \begin_layout Enumerate
-
-\series bold
 Metodi
 \end_layout
 
@@ -584,6 +576,39 @@ Costanti:
  devono essere scritte in maiuscolo.
  Nel caso siano composte da più parole, si deve unire dal carattere underscore
  
+\end_layout
+
+\begin_layout Subsection
+Procedura di verifica
+\end_layout
+
+\begin_layout Standard
+Per rendere uniforme la procedura di verifica, vengono qui elencate le norme
+ che regolano la verifica del codice prodotto
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Si rimanda al 
+\family typewriter
+Piano di Qualifica - V2.0
+\family default
+ che specifica in maniera dettagliata le tecniche e le modalità con cui
+ verranno condotte le attività di verifica e validazione durante l'intero
+ sviluppo del progetto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Verifica statica
+\end_layout
+
+\begin_layout Itemize
+
 \end_layout
 
 \end_body
