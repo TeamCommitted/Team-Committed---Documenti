@@ -1920,7 +1920,19 @@ verificatore
 \series bold
 Grafici UML:
 \series default
- nel caso siano presenti dei grafici UML
+ nel caso siano presenti dei grafici UML, il 
+\emph on
+verificatore
+\emph default
+ dovrà controllare che tali grafici rispettino le norme descritte in sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Grafici-UML-1"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
