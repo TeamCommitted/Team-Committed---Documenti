@@ -1522,8 +1522,8 @@ hline
 
 \begin_layout Plain Layout
 
-		RPOB 1 & Il prodotto dovrà essere prestazionale anche nelle ore di traffico
- massimo della rete & Interno 
+		RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
+ & Interno 
 \backslash
 
 \backslash
@@ -1779,7 +1779,7 @@ hline
 
 		RQD 5.1 & Le applicazioni 
 \backslash
-uline{WEB} aderiranno allo standard CSS definito da 
+uline{WEB} aderiranno allo standard CSS3 definito da 
 \backslash
 uline{W3C} & Interno 
 \backslash
@@ -1794,7 +1794,7 @@ hline
 
 		RQD 5.2 & Le applicazioni 
 \backslash
-uline{WEB} aderiranno allo standard XHTML definito da 
+uline{WEB} aderiranno allo standard XHTML1.1 definito da 
 \backslash
 uline{W3C} & Interno 
 \backslash
@@ -1908,9 +1908,25 @@ hline
 
 \begin_layout Plain Layout
 
+		RVOB 1.1.1 & Il sistema funzionerà su qualsiasi dispositivo dove è presente
+ una 
+\backslash
+uline{JVM}  versione >= 7.02 & Interno 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 		RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi 
 \backslash
-uline{dispositivo mobile} con sistema operativo Android & Capitolato 
+uline{dispositivo mobile} con sistema operativo 
+\backslash
+uline{Android} & Capitolato 
 \backslash
 
 \backslash
