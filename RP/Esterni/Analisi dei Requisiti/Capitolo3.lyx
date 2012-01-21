@@ -1061,7 +1061,11 @@ Il
 \bar under
 Dipendente
 \bar default
- può modificare la propria password o la propria e-mail.
+ può modificare la propria password o la propria e
+\series bold
+-
+\series default
+mail.
 \series bold
 
 \begin_inset Newline newline
@@ -1112,8 +1116,11 @@ Il
 \bar under
 Dipendente
 \bar default
-, dopo aver modificato la password o l'email, riceve la comunicazione di
- conferma
+, dopo aver modificato la password o l'e
+\series bold
+-
+\series default
+mail, riceve la comunicazione di conferma
 \end_layout
 
 \begin_layout Subsubsection
@@ -1162,7 +1169,7 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente visualizza lo stato dei propri dati: Username, email, codice
+Il Dipendente visualizza lo stato dei propri dati: Username, e-mail, codice
  fiscale, status aziendale, nome, cognome
 \end_layout
 
@@ -1529,8 +1536,8 @@ Amministratore Azienda
 Dipendente
 \bar default
  riempiendo i campi richiesti: nome, cognome, codice fiscale, indirizzo
- email e impiego.
- In seguito verranno autogenerate le username e le password che verranno
+ e-mail e impiego.
+ In seguito verranno auto generate le username e le password che verranno
  inviate al 
 \bar under
 Dipendente
@@ -1621,7 +1628,7 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
- può modificare il campo email del 
+ può modificare il campo e-mail del 
 \bar under
 Dipendente
 \end_layout
@@ -1797,7 +1804,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/UCG 4.png
-	scale 45
+	scale 60
 
 \end_inset
 
@@ -1809,11 +1816,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Sicurezza, caso d' uso generale.
+Ambito Amministratore Sicurezza, caso d' uso generale.
 \end_layout
 
 \end_inset
@@ -2054,7 +2057,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Sicurezz Autenticato
+Amministratore Sicurezza Autenticato
 \bar default
  può consultare tutte le domande presenti nel database di una azienda
 \end_layout
@@ -2936,7 +2939,7 @@ Amministratore Installatore Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCAIA 2: Ambito Amminstratore Installatore Autenticato, logout
+UCAIA 2: Ambito Amministratore Installatore Autenticato, logout
 \end_layout
 
 \begin_layout Standard
