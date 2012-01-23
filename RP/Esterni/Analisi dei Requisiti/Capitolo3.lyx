@@ -1188,7 +1188,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/UCG 3.png
-	scale 70
+	scale 75
 
 \end_inset
 
@@ -1243,7 +1243,11 @@ Amministratore Azienda
 Dipendente
 \bar default
  della sua azienda, inoltre ha la possibilità di gestire gli account dei
- Dipendenti.
+ 
+\bar under
+Dipendenti
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1291,7 +1295,9 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
- può gestire gli account dei Dipendenti
+ può gestire gli account dei 
+\bar under
+Dipendenti
 \end_layout
 
 \begin_layout Enumerate
@@ -1299,7 +1305,9 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
- può visualizzare i dati sensibili dei Dipendenti
+ può visualizzare i dati sensibili dei 
+\bar under
+Dipendenti
 \end_layout
 
 \begin_layout Enumerate
@@ -1307,7 +1315,9 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
- può visualizzare i punteggi dei Dipendenti
+ può visualizzare i punteggi dei 
+\bar under
+Dipendenti
 \end_layout
 
 \begin_layout Subsubsection
@@ -1375,8 +1385,11 @@ Scopo e Descrizione:
 \bar under
 Amministratore Azienda
 \bar default
- può aggiungere od eliminare account Dipendenti nel database, inoltre può
- modificare i dati personali contenuti negli account.
+ può aggiungere od eliminare account 
+\bar under
+Dipendenti
+\bar default
+ nel database, inoltre può modificare i dati personali contenuti negli account.
 \series bold
 
 \begin_inset Newline newline
@@ -1388,7 +1401,7 @@ Precondizione:
 \bar under
 Amministratore Azienda
 \bar default
- vuole aggiungere o eliminare o modificare i dati di un account 
+ vuole aggiungere, eliminare o modificare i dati di un account 
 \bar under
 Dipendente
 \bar default
@@ -1397,8 +1410,11 @@ Dipendente
 \bar under
 Amministratore Azienda
 \bar default
- è a conoscenza dei dati di eventuali nuovi Dipendenti non presenti nel
- database.
+ è a conoscenza dei dati di eventuali nuovi 
+\bar under
+Dipendenti
+\bar default
+ non presenti nel database.
  Sistema funzionante.
 \series bold
 
@@ -1407,11 +1423,15 @@ Amministratore Azienda
 
 Postcondizione:
 \series default
- Nel database di Dipendenti è presente un nuovo account 
+ Nel database di 
+\bar under
+Dipendenti
+\bar default
+ è presente un nuovo account 
 \bar under
 Dipendente
 \bar default
- o un account 
+, un account 
 \bar under
 Dipendente
 \bar default
@@ -1489,7 +1509,11 @@ Amministratore Azienda
 \bar under
 Dipendente
 \bar default
- al database dei Dipendenti.
+ al database dei 
+\bar under
+Dipendenti
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1497,11 +1521,7 @@ Dipendente
 
 Precondizione:
 \series default
- L'
-\bar under
-Amministratore Azienda
-\bar default
- aggiunge un account 
+ Il sistema mostra la pagina di aggiunta account 
 \bar under
 Dipendente
 \bar default
@@ -1513,7 +1533,11 @@ Dipendente
 
 Postcondizione:
 \series default
- Nel database di Dipendenti è presente un nuovo account 
+ Nel database di 
+\bar under
+Dipendenti
+\bar default
+ è presente un nuovo account 
 \bar under
 Dipendente
 \bar default
@@ -1536,13 +1560,14 @@ Amministratore Azienda
 Dipendente
 \bar default
  riempiendo i campi richiesti: nome, cognome, codice fiscale, indirizzo
- e-mail e impiego.
- In seguito verranno auto generate le username e le password che verranno
- inviate al 
+ e-mail e impiego
+\end_layout
+
+\begin_layout Enumerate
+Verranno poi auto generate le username e le password che verranno inviate
+ al 
 \bar under
 Dipendente
-\bar default
-.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1586,7 +1611,11 @@ Precondizione:
 \bar under
 Dipendente
 \bar default
- esiste nel database dei Dipendenti.
+ esiste nel database dei 
+\bar under
+Dipendenti
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1594,7 +1623,11 @@ Dipendente
 
 Postcondizione:
 \series default
- Il database dei Dipendenti è stato correttamente aggiornato.
+ Il database dei 
+\bar under
+Dipendenti
+\bar default
+ è stato correttamente aggiornato.
 \series bold
 
 \begin_inset Newline newline
@@ -1680,7 +1713,11 @@ Amministratore Azienda
 \bar default
  
 \series default
-può visualizzare i dati personali dei dipendenti.
+può visualizzare i dati personali dei 
+\bar under
+Dipendenti
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1700,11 +1737,11 @@ Dipendente
 
 Postcondizione: 
 \series default
-L'account 
+I dati dell'account 
 \bar under
 Dipendente
 \bar default
- visualizzato non è stato modificato.
+ sono stati visualizzati.
 \series bold
 
 \begin_inset Newline newline
@@ -1748,7 +1785,11 @@ Amministratore Azienda
 \bar default
  
 \series default
-può visualizzare i punteggi dei dipendenti.
+può visualizzare i punteggi dei 
+\bar under
+Dipendenti
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1804,7 +1845,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/UCG 4.png
-	scale 60
+	scale 78
 
 \end_inset
 
@@ -2211,11 +2252,7 @@ Amministratore Sicurezza Autenticato
 
 Precondizione:
 \series default
- L'
-\bar under
-Amministratore Sicurezza Autenticato
-\bar default
- vuole aggiungere una domanda.
+ Il sistema offre la pagina di aggiunta domanda.
 \series bold
 
 \begin_inset Newline newline
@@ -2426,7 +2463,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename UML/UCG 5.png
-	scale 65
+	scale 68
 
 \end_inset
 
@@ -2745,7 +2782,9 @@ L'
 \bar under
 Amministratore Installatore
 \bar default
- può installare il software sui computer
+ può installare il software sui 
+\bar under
+dispositivi fissi
 \end_layout
 
 \begin_layout Subsubsection
