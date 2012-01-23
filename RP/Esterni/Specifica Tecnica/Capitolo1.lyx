@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -60,19 +61,11 @@
 \begin_body
 
 \begin_layout Section
-
-\lang italian
 Introduzione
 \end_layout
 
 \begin_layout Subsection
-
-\lang italian
-Scopo
-\lang english
- del 
-\lang italian
-documento
+Scopo del documento
 \end_layout
 
 \begin_layout Standard
@@ -88,11 +81,8 @@ TeamCommitted
 \bar under
 design pattern
 \bar default
- utilizzati nella creazione del prodotto, la struttura dei packages e 
-\lang italian
-le 
-\lang english
-principali classi che li compongono.
+ utilizzati nella creazione del prodotto, la struttura dei packages e le
+ principali classi che li compongono.
  ....avanti....
 \end_layout
 
@@ -101,8 +91,6 @@ Scopo del prodotto
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Il prodotto denominato 
 \series bold
 \bar under
@@ -116,8 +104,6 @@ ti.
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Lo strumento si basa sul concetto di 
 \series bold
 \bar under
@@ -131,8 +117,6 @@ che comporta competizione tra i dipendenti all'interno delle aziende creando
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
  di 
 \bar under
@@ -150,14 +134,10 @@ dispositivi mobili
 \end_layout
 
 \begin_layout Subsection
-
-\lang italian
 Glossario
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
@@ -167,32 +147,22 @@ Glossario-V1.0.pdf
 \end_layout
 
 \begin_layout Subsection
-
-\lang italian
 Riferimenti
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang italian
 Normativi
 \end_layout
 
 \begin_layout Itemize
-
-\lang italian
 Norme di Progetto, v 2.0 (allegato Norme_di_Progetto_V2.0.pdf)
 \end_layout
 
 \begin_layout Itemize
-
-\lang italian
 Analisi dei Requisiti, v 2.0 (allegato Analisi_dei_Requisiti_V2.0.pdf)
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang italian
 Informativi
 \end_layout
 
