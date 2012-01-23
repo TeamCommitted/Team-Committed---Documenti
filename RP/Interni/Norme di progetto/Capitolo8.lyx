@@ -609,6 +609,78 @@ Verifica statica
 
 \begin_layout Itemize
 
+\series bold
+Analisi del flusso di controllo
+\series default
+: si accerta che il codice segua il flusso aspettato, che non si possa entrare
+ in porzioni di codice che possano non terminare, che non esista codice
+ non raggiungibile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso dei dati
+\series default
+: si accerta che il software non acceda mai a variabili non inizializzate
+ o scriva inutilmente più volte prima di usare una variabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso di informazione
+\series default
+: verifica che gli input e gli output di ogni unità di codice o di più unità
+ rientrino nelle specifiche del programma
+\end_layout
+
+\begin_layout Subsubsection
+Verifica dinamica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di unità
+\series default
+: test che si effettuano per ogni unità del software con il massimo grado
+ di parallelismo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di integrazione:
+\series default
+ verifica dei componenti formati dall'integrazione delle varie unità che
+ hanno passato il test di unità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di sistema e di collaudo
+\series default
+: verifica che il sistema in cui andrà installato il software rispetti i
+ requisiti richiesti, o che il software riesca ad adattarsi correttamente
+ al contesto dell'azienda 
+\bar under
+proponente
+\bar default
+.
+ Il collaudo sarà sul software installato, finito il quale avverrà il rilascio
+ del prodotto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di regressione
+\series default
+: nel caso di una modifica ad un singolo componente, andranno effettuati
+ nuovamente tutti i test di unità e, se necessario, di integrazione riferiti
+ a quel componente
 \end_layout
 
 \end_body
