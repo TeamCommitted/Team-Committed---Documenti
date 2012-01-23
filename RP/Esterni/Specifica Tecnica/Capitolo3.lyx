@@ -63,5 +63,48 @@
 Strumenti utilizzati
 \end_layout
 
+\begin_layout Subsection
+Java
+\end_layout
+
+\begin_layout Standard
+L'utilizzo di 
+\bar under
+Java 
+\bar default
+è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
+ con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+ in data 2011/12/05
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Rif: 
+\family typewriter
+\emph on
+verbale05122011.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Vantaggi
+\end_layout
+
 \end_body
 \end_document
