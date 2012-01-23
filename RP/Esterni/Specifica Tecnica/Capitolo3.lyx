@@ -125,7 +125,7 @@ status open
 
 \begin_layout Plain Layout
 Requisito 
-\family typewriter
+\emph on
 RVOB 1.1
 \end_layout
 
@@ -161,11 +161,11 @@ Compatibilità con piattaforme mobili:
 \bar under
 dispositivi mobili
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 In particolare Android, come da requisito 
-\family typewriter
+\emph on
 RVOB 1.2
 \end_layout
 
@@ -196,14 +196,26 @@ causata dal passaggio attraverso la JVM e dal fatto di essere un linguaggio
 
 \end_deeper
 \begin_layout Subsection
-HTML
+XHTML
 \end_layout
 
 \begin_layout Standard
 Si è deciso di utilizzare 
 \bar under
-HTML
+XHTML 
 \bar default
+1.1
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\emph on
+RQD 6.2
+\end_layout
+
+\end_inset
+
  per la presentazione dell'interfaccia grafica sia agli 
 \bar under
 utenti
@@ -230,7 +242,7 @@ Piattaforma mobile:
 \series default
 poichè l'applicazione dovrà essere fruibile anche da web, usare 
 \bar under
-HTML
+XHTML
 \bar default
  come linguaggio di programmazione web (assieme a 
 \bar under
@@ -245,7 +257,7 @@ Regolamentazione delle pagine:
  poichè la piattaforma deve essere fruibile anche da browser mobile, il
  semplice 
 \bar under
-HTML
+XHTML
 \bar default
 , assieme al 
 \bar under
