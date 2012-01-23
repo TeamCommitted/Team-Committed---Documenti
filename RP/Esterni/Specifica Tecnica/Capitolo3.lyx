@@ -200,8 +200,11 @@ HTML
 \end_layout
 
 \begin_layout Standard
-Si è deciso di utilizzare HTML per la presentazione dell'interfaccia grafica
- sia agli 
+Si è deciso di utilizzare 
+\bar under
+HTML
+\bar default
+ per la presentazione dell'interfaccia grafica sia agli 
 \bar under
 utenti
 \bar default
@@ -213,7 +216,25 @@ utenti autenticati
 \end_layout
 
 \begin_layout Standard
-La scelta di HTML è stata dettata da una serie di motivazioni:
+La scelta di
+\bar under
+ HTML
+\bar default
+ è stata dettata da una serie di motivazioni:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piattaforma mobile: 
+\series default
+poichè l'applicazione dovrà essere fruibile anche da web, usare 
+\bar under
+HTML
+\bar default
+ come linguaggio di programmazione web (assieme a 
+\bar under
+Javascript
 \end_layout
 
 \begin_layout Itemize
@@ -222,7 +243,11 @@ La scelta di HTML è stata dettata da una serie di motivazioni:
 Regolamentazione delle pagine:
 \series default
  poichè la piattaforma deve essere fruibile anche da browser mobile, il
- semplice HTML, assieme al 
+ semplice 
+\bar under
+HTML
+\bar default
+, assieme al 
 \bar under
 CSS 
 \bar default
