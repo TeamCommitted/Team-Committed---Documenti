@@ -103,7 +103,130 @@ verbale05122011.pdf
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 Vantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Multipiattaforma:
+\series default
+ permettendo l'astrazione dalla macchina fisica tramite la 
+\bar under
+JVM
+\bar default
+, assicura che l'applicativo risulti funzionante qualsiasi sia il sistema
+ operativo installato sulla macchina che lo esegue
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\family typewriter
+RVOB 1.1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Indipendenza dalle risorse fisiche:
+\series default
+ per lo stesso motivo descritto sopra, l'esecuzione dell'applicativo risulterà
+ uniforme indipendentemente dalle risorse fisiche utilizzate
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Librerie:
+\series default
+ alta disponibilità di librerie presenti in rete che semplificano l'interfacciam
+ento con altri dispositivi e applicativi già esistenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Compatibilità con piattaforme mobili:
+\series default
+ considerata la richiesta di un'applicazione per 
+\bar under
+dispositivi mobili
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+In particolare Android, come da requisito 
+\family typewriter
+RVOB 1.2
+\end_layout
+
+\end_inset
+
+
+\bar default
+, l'utilizzo di tale linguaggio semplifica lo sviluppo dello stesso dell'applica
+zione mobile
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Lentezza 
+\series default
+causata dal passaggio attraverso la JVM e dal fatto di essere un linguaggio
+ interpretato
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+HTML
+\end_layout
+
+\begin_layout Standard
+Si è deciso di utilizzare HTML per la presentazione dell'interfaccia grafica
+ sia agli 
+\bar under
+utenti
+\bar default
+ che per gli 
+\bar under
+utenti autenticati
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+La scelta di HTML è stata dettata da una serie di motivazioni:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Regolamentazione delle pagine:
+\series default
+ poichè la piattaforma deve essere fruibile anche da browser mobile, il
+ semplice HTML, assieme al 
+\bar under
+CSS 
+\bar default
+permette di definire semplicemente pagine web che si adattino al browser
 \end_layout
 
 \end_body

@@ -1379,8 +1379,8 @@ begin{flushright}
 
 	Linguaggio di programmazione orientato agli oggetti, crea- to da James
  Gosling e altri ingegneri di Sun Microsystem all'inizio degli anni Novanta.
- Esso fa parte della piattafor- ma Java, che comprende anche la macchina
- virtuale Java (
+ Esso fa parte della piattaforma Java, che comprende anche la macchina virtuale
+ Java (
 \backslash
 uline{JVM}) e le API Java
 \end_layout
