@@ -253,7 +253,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 & Il sistema dovrà lavorare in rete & Capitolato & Dinamica 
+RFOB 1 & Il sistema dovrà lavorare in rete & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -265,7 +265,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 1.1 & Ogni azienda potrà accedere al sistema mediante connessione internet
- & Capitolato & Dinamica 
+ & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -307,24 +307,8 @@ hline
 RFOB 3.1 & Un 
 \backslash
 uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- recupero e non ha ancora effettuato il primo login, la riceverà sulla propria
- casella di posta elettronica & UCU 2 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 3.2 & Un 
-\backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- recupero ed ha avuto accesso al sistema almeno una volta, riceverà una
- mail contenente una nuova password ottenuta in modo randomico & UCU 2 &
- Test 
+ recupero, la riceverà sulla propria casella di posta elettronica & UCU
+ 2 & Test
 \backslash
 
 \backslash
@@ -422,7 +406,7 @@ RFOB 8.1 & Le domande a cui verranno sottoposti i
 uline{Dipendenti} forniti di 
 \backslash
 uline{dispositivi mobili} aziendali prevederano anche prove pratiche  &
- Capitolato & Test ROD 
+ Capitolato & Test 
 \backslash
 
 \backslash
@@ -433,7 +417,7 @@ hline
 
 \begin_layout Plain Layout
 
-8.2 & La natura delle domande a cui verranno sottoposti i 
+RFD 8.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti} potrà variare a seconda dell'impiego dello stesso & Verbale
  05/12/2011 & Test 
@@ -628,7 +612,7 @@ hline
 
 RFOB 11.7 & Un 
 \backslash
-uline{Dipendente} potrà visualizzare il proprio username & UCD 5 & test
+uline{Dipendente} potrà visualizzare il proprio username & UCD 5 & Test
  
 \backslash
 
@@ -644,7 +628,7 @@ RFOB 12 & Un
 \backslash
 uline{Dipendente} a cui viene proposta la possibilità di rispondere ad una
  domanda potrà scegliere di visualizzarla e quindi rispondere, oppure rimandarla
- e rispondere successivamente & UCD 1 & Dinamica 
+ e rispondere successivamente & UCD 1 & Test 
 \backslash
 
 \backslash
@@ -658,7 +642,7 @@ hline
 RFOB 13 & Una volta che una domanda viene mostrata ad un 
 \backslash
 uline{Dipendente}, questo dovrà necessarimente fornirle risposta & UCD 1
- & Dinamica 
+ & Statica 
 \backslash
 
 \backslash
@@ -673,7 +657,7 @@ RFOB 13.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
  sottoposto un 
 \backslash
 uline{Dipendente} è una nuova domanda, una domanda posticipata o una domanda
- sbagliata in precedenza & UCD 1.1 & Dinamica 
+ sbagliata in precedenza & UCD 1.1 & Statica 
 \backslash
 
 \backslash
@@ -702,7 +686,7 @@ RFOB 14.1 & Le informazioni che un
 \backslash
 uline{Dipendente} potrà consultare  sono: storico delle risposte(sia corrette
  che errate), classifica aziendale, trofei/badge raccolti, statistiche derivanti
- dalle risposte & UCD 3 & Dinamica 
+ dalle risposte & UCD 3 & Statica 
 \backslash
 
 \backslash
@@ -769,8 +753,9 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1 & Il modulo di registrazione richiederà i dati personali del dipendente
- & Interno & Dinamica 
+RFOB 15.1 & Il modulo di registrazione richiederà i dati personali del 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -781,8 +766,9 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1.1 & Il modulo di registrazione richiederà il nome del dipendente
- & Interno & Dinamica 
+RFOB 15.1.1 & Il modulo di registrazione richiederà il nome del 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -793,8 +779,9 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1.2 & Il modulo di registrazione richiederà il cognome del dipendente
- & Interno & Dinamica 
+RFOB 15.1.2 & Il modulo di registrazione richiederà il cognome del 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -806,7 +793,9 @@ hline
 \begin_layout Plain Layout
 
 RFOB 15.1.3 & Il modulo di registrazione richiederà il codice fiscale del
- dipendente & Interno & Dinamica 
+ 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -818,7 +807,9 @@ hline
 \begin_layout Plain Layout
 
 RFOB 15.1.4 & Il modulo di registrazione richiederà l'indirizzo email del
- dipendente & Interno & Dinamica 
+ 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -829,8 +820,9 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1.5 & Il modulo di registrazione richiederà l'impiego del dipendente
- & Interno & Dinamica 
+RFOB 15.1.5 & Il modulo di registrazione richiederà l'impiego del 
+\backslash
+uline{Dipendente} & Interno & Statica 
 \backslash
 
 \backslash
@@ -955,7 +947,9 @@ hline
 RFOB 18 & Un 
 \backslash
 uline{Amministratore Azienda} avrà la possibiltà di modificare i dati personali
- dei Dipendenti & UCAA 1.3 & Test 
+ dei 
+\backslash
+uline{Dipendenti} & UCAA 1.3 & Test 
 \backslash
 
 \backslash
@@ -1080,8 +1074,10 @@ hline
 RFOB 20.6 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di consultare la categoria
- di utenti a cui verrà somministrata ogni domanda dell'azienda & UCASA 1
- & Test 
+ di 
+\backslash
+uline{Dipendenti} a cui verrà somministrata ogni domanda dell'azienda &
+ UCASA 1 & Test 
 \backslash
 
 \backslash
@@ -1152,7 +1148,7 @@ hline
 RFOB 21.1 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di aggiungere una domanda
- all'insieme di quelle già presenti & UCAS 2.1 & Test 
+ all'insieme di quelle già presenti & UCASA 2.1 & Test 
 \backslash
 
 \backslash
@@ -1166,7 +1162,7 @@ hline
 RFOB 21.1.1 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne la tipologia & UCAS 2.1 & Dinamica 
+ specificarne la tipologia & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1180,7 +1176,7 @@ hline
 RFOB 21.1.2 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne il testo & UCAS 2.1 & Dinamica 
+ specificarne il testo & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1194,7 +1190,7 @@ hline
 RFOB 21.1.3 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne le possibili risposte & UCAS 2.1 & Dinamica 
+ specificarne le possibili risposte & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1208,7 +1204,7 @@ hline
 RFOB 21.1.4 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne la risposta corretta & UCAS 2.1 & Dinamica 
+ specificarne la risposta corretta & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1222,8 +1218,8 @@ hline
 RFOB 21.1.5 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne l'eventuale percorso di immagine/video di supporto & UCAS
- 2.1 & Dinamica 
+ specificarne l'eventuale percorso di immagine/video di supporto & UCASA
+ 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1239,7 +1235,7 @@ RFOB 21.1.6 & Un
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
  specificarne la categoria di 
 \backslash
-uline{Utenti} a cui potrà essere visualizzata & UCAS 2.1 & Dinamica 
+uline{Dipendenti} a cui potrà essere visualizzata & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1253,7 +1249,7 @@ hline
 RFOB 21.1.7 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne l'eventuale tempo limite di risposta & UCAS 2.1 & Dinamica
+ specificarne l'eventuale tempo limite di risposta & UCASA 2.1 & Statica
  
 \backslash
 
@@ -1268,7 +1264,7 @@ hline
 RFOB 21.1.8 & Un 
 \backslash
 uline{Amministratore Sicurezza} che vuole inserire una nuova domanda dovrà
- specificarne il punteggio corrispondente & UCAS 2.1 & Dinamica 
+ specificarne il punteggio corrispondente & UCASA 2.1 & Statica 
 \backslash
 
 \backslash
@@ -1282,7 +1278,7 @@ hline
 RFOB 21.2 & Un 
 \backslash
 uline{Amministratore Sicurezza} potrà modificare una domanda gia' presente
- nel database & UCAS 2.2 & Test 
+ nel database & UCASA 2.2 & Test 
 \backslash
 
 \backslash
@@ -1299,7 +1295,7 @@ uline{Amministratore Sicurezza} che ha scelto di modificare una domanda
  potrà variarne qualsiasi parametro tra: tipologia, testo, risposte possibili,
  risposte corrette, percorso immagine/video di supporto, categoria 
 \backslash
-uline{Utenti}, piattaforma, temporizzazione e punteggio & UCAS 2.2 & Test
+uline{Utenti}, piattaforma, temporizzazione e punteggio & UCASA 2.2 & Test
  
 \backslash
 
@@ -1314,7 +1310,7 @@ hline
 RFOB 21.3 & Un 
 \backslash
 uline{Amministratore Sicurezza} avrà la possibilità di rimuovere una domanda
- fra quelle  presenti nel sistema & UCAS 2.3 & Test 
+ fra quelle  presenti nel sistema & UCASA 2.3 & Test 
 \backslash
 
 \backslash
@@ -1370,7 +1366,7 @@ hline
 RFOB 25 & Un 
 \backslash
 uline{Amministratore Installatore} potrà installare il sistema in un'azienda
- & UCAI 2 & Dinamica 
+ & UCAI 2 & Statica 
 \backslash
 
 \backslash
@@ -1427,7 +1423,7 @@ hline
 RFOB 27.1.1 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
- dovrà necessariamente inserire il nome dell'azienda & UCAIA 1.1 & Dinamica
+ dovrà necessariamente inserire il nome dell'azienda & UCAIA 1.1 & Statica
  
 \backslash
 
@@ -1443,7 +1439,7 @@ RFOB 27.1.2 & Un
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
  dovrà necessariamente inserire il recapito del server dati dell'azienda
- & UCAIA 1.1 & Dinamica 
+ & UCAIA 1.1 & Statica 
 \backslash
 
 \backslash
@@ -1457,7 +1453,7 @@ hline
 RFOB 27.1.3 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
- dovrà necessariamente inserire lo username dell'azienda & UCAIA 1.1 & Dinamica
+ dovrà necessariamente inserire lo username dell'azienda & UCAIA 1.1 & Statica
  
 \backslash
 
@@ -1472,7 +1468,7 @@ hline
 RFOB 27.1.4 & Un 
 \backslash
 uline{Amministratore Installatore Autenticato} che aggiunge una nuova azienda
- dovrà necessariamente inserire la password dell'azienda & UCAIA 1.1 & Dinamica
+ dovrà necessariamente inserire la password dell'azienda & UCAIA 1.1 & Statica
  
 \backslash
 
@@ -1575,7 +1571,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & interno & Dinamica 
+ & interno & Statica 
 \backslash
 
 \backslash
@@ -1685,7 +1681,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 1 & Sarà fornita documentazione esaustiva di tutte le classi chiave
- ed interfacce del prodotto & Interno & Dinamica 
+ ed interfacce del prodotto & Interno & Statica 
 \backslash
 
 \backslash
@@ -1697,7 +1693,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
- l'installazione e l'utilizzo del sistema & Interno & Dinamica 
+ l'installazione e l'utilizzo del sistema & Interno & Statica 
 \backslash
 
 \backslash
@@ -1711,7 +1707,7 @@ hline
 RQOB 2.1 & Sarà fornito un manuale ad uso dei 
 \backslash
 uline{Dipendenti} che coprirà gli aspetti di utilizzo del software dal loro
- punto di vista & Interno & Dinamica 
+ punto di vista & Interno & Statica 
 \backslash
 
 \backslash
@@ -1726,7 +1722,7 @@ RQOB 2.2 & Sarà fornito un manuale ad uso
 \backslash
 uline{Amministratore Azienda}  riguardo tutte le azioni che tale 
 \backslash
-uline{Utente} potrà compiere & Interno & Dinamica 
+uline{Utente} potrà compiere & Interno & Statica 
 \backslash
 
 \backslash
@@ -1740,7 +1736,7 @@ hline
 RQOB 2.3 & Sarà fornito un manuale ad uso 
 \backslash
 uline{Amministratore Installatore} riguardo l'installazione del prodotto
- & Interno & Dinamica 
+ & Interno & Statica 
 \backslash
 
 \backslash
@@ -1753,10 +1749,8 @@ hline
 
 RQOB 2.4 & Sarà fornito un manuale ad uso 
 \backslash
-uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere tale
- 
-\backslash
-uline{Utente} & Interno & Dinamica 
+uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
+ Interno & Statica 
 \backslash
 
 \backslash
@@ -1770,7 +1764,7 @@ hline
 RQOB 3 & Le interfacce che saranno visibili ai 
 \backslash
 uline{Dipendenti} dovranno essere accattivanti e le funzionalità quanto
- più intuitive, così da invogliare l'utilizzo & Interno & Dinamica 
+ più intuitive, così da invogliare l'utilizzo & Interno & Statica 
 \backslash
 
 \backslash
@@ -1812,7 +1806,9 @@ hline
 
 RQOB 4 & Tutti i processi di sviluppo aderiranno allo standard 
 \backslash
-uline{ISO/IEC} 15504:1998 SPICE & Interno & Dinamica 
+uline{ISO/IEC} 15504:1998 
+\backslash
+uline{SPICE} & Interno & Statica 
 \backslash
 
 \backslash
@@ -1824,7 +1820,7 @@ hline
 \begin_layout Plain Layout
 
 RQD 5 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
- & Interno & Dinamica 
+ & Interno & Statica 
 \backslash
 
 \backslash
@@ -1839,7 +1835,7 @@ RQD 6 & Le applicazioni
 \backslash
 uline{WEB} aderiranno allo stile 
 \backslash
-uline{W3C} & Interno & Dinamica 
+uline{W3C} & Interno & Statica 
 \backslash
 
 \backslash
@@ -1852,9 +1848,11 @@ hline
 
 RQD 6.1 & Le applicazioni 
 \backslash
-uline{WEB} aderiranno allo standard CSS3 definito da 
+uline{WEB} aderiranno allo standard 
 \backslash
-uline{W3C} & Interno & Dinamica 
+uline{CSS}3 definito da 
+\backslash
+uline{W3C} & Interno & Statica 
 \backslash
 
 \backslash
@@ -1867,9 +1865,11 @@ hline
 
 RQD 6.2 & Le applicazioni 
 \backslash
-uline{WEB} aderiranno allo standard XHTML1.1 definito da 
+uline{WEB} aderiranno allo standard 
 \backslash
-uline{W3C} & Interno & Dinamica 
+uline{XHTML}1.1 definito da 
+\backslash
+uline{W3C} & Interno & Statica 
 \backslash
 
 \backslash
@@ -1943,7 +1943,7 @@ hline
 \begin_layout Plain Layout
 
 RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
- con caratteristiche molto differenti fra di loro & Capitolato & Dinamica
+ con caratteristiche molto differenti fra di loro & Capitolato & Statica
  
 \backslash
 
@@ -1970,7 +1970,7 @@ hline
 RVOB 1.1.1 & Il sistema funzionerà su qualsiasi dispositivo dove è presente
  una 
 \backslash
-uline{JVM}  versione >= 7.02 & Interno & Dinamica 
+uline{JVM}  versione >= 7.02 & Interno & Statica 
 \backslash
 
 \backslash
@@ -1985,7 +1985,7 @@ RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi
 \backslash
 uline{dispositivo mobile} con sistema operativo 
 \backslash
-uline{Android} & Capitolato & Dinamica 
+uline{Android} & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -1997,7 +1997,7 @@ hline
 \begin_layout Plain Layout
 
 RVOB 2 & Non si dovranno fare assunzioni sulla locazione dei database delle
- aziende & Verbale & Dinamica 
+ aziende & Verbale & Statica 
 \backslash
 
 \backslash
@@ -2012,7 +2012,7 @@ RVOB 3 & Le funzioni del sistema offerte al
 \backslash
 uline{Dipendente} dovranno essere fruibili tramite interfaccia 
 \backslash
-uline{web} & Interno & Dinamica 
+uline{web} & Interno & Statica 
 \backslash
 
 \backslash

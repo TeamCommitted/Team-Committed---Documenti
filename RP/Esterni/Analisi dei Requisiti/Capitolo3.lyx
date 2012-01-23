@@ -1151,7 +1151,7 @@ Il Dipendente può osservare i dati del proprio account.
 
 Precondizione: 
 \series default
-Il sistema mostra la pagina contenente i dati.
+Il sistema riceve l'input di mostrare i dati dell'account.
 \series bold
 
 \begin_inset Newline newline
@@ -1397,25 +1397,15 @@ Dipendenti
 
 Precondizione:
 \series default
- L'
+ Il sistema mostra le azioni che l'
 \bar under
 Amministratore Azienda
 \bar default
- vuole aggiungere, eliminare o modificare i dati di un account 
+ può effettuare per gestire un account 
 \bar under
 Dipendente
 \bar default
 .
- L'
-\bar under
-Amministratore Azienda
-\bar default
- è a conoscenza dei dati di eventuali nuovi 
-\bar under
-Dipendenti
-\bar default
- non presenti nel database.
- Sistema funzionante.
 \series bold
 
 \begin_inset Newline newline
@@ -2276,7 +2266,11 @@ Amministratore Sicurezza Autenticato
 \bar default
  aggiunge una domanda al database di domande specificando sempre il tipo
  della domanda, il testo della domanda, i testi delle risposte, le risposte
- corrette, la categoria degli utenti, la piattaforma e il punteggio.
+ corrette, la categoria dei 
+\bar under
+Dipendenti
+\bar default
+, la piattaforma e il punteggio.
  Inoltre può specificare anche il percorso all'eventuale immagine o video
  e il tempo per rispondere alla domanda
 \end_layout
@@ -2671,7 +2665,7 @@ Amministratore Sicurezza Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCAI 2: Ambito Amministratore Installatore Autenticato, installazione software.
+UCAI 2: Ambito Amministratore Installatore, installazione software.
 \end_layout
 
 \begin_layout Standard
@@ -2697,7 +2691,7 @@ Ambito Amministratore
 \bar under
  
 \bar default
-Installatore Autenticato, installazione software.
+Installatore, installazione software.
 \end_layout
 
 \end_inset
@@ -2739,12 +2733,7 @@ Amministratore Installatore
 
 Precondizione:
 \series default
- L'
-\bar under
-Amministratore Installatore
-\bar default
- effettua il lavoro solo sotto incarico.
- Sistema funzionante.
+ Le aziende hanno svolto tutte le pratiche per l'utilizzo del software.
 \series bold
 
 \begin_inset Newline newline
@@ -2865,12 +2854,7 @@ Amministratore Installatore Autenticato
 
 Precondizione:
 \series default
- L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- effettua il lavoro solo sotto incarico, esiste il database delle aziende.
- Sistema funzionante.
+ Esiste il database delle aziende.
 \series bold
 
 \begin_inset Newline newline
@@ -2949,7 +2933,6 @@ Precondizione:
 \bar under
 Amministratore Installatore Autenticato
 \bar default
- effettua il lavoro solo sotto incarico, esiste il database delle aziende,
  conosce i dati della azienda.
  
 \series bold
