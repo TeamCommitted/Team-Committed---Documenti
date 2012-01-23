@@ -164,7 +164,7 @@ Utente
 \bar under
 Utente Autenticato
 \bar default
- o recuperare la password dimenticata.
+ o modificare la password dimenticata.
  L'
 \bar under
 Utente Autenticato
@@ -217,7 +217,7 @@ L'
 \bar under
 Utente
 \bar default
- può recuperare la password dimenticata, fornendo alcuni dati del proprio
+ può modificare la password dimenticata, fornendo alcuni dati del proprio
  account e ricevendo una e-mail di conferma sul relativo indirizzo e-mail
 \end_layout
 
@@ -312,7 +312,7 @@ Utente Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCU 2: Ambito Utente, recupero password dimenticata
+UCU 2: Ambito Utente, modifica password dimenticata
 \end_layout
 
 \begin_layout Standard
@@ -335,7 +335,7 @@ L'
 \bar under
 Utente
 \bar default
- può recuperare la propria password
+ può modificare la propria password
 \series bold
  
 \series default
@@ -367,7 +367,7 @@ L'
 \bar under
 Utente
 \bar default
- riceve una mail con i propri dati account.
+ riceve una mail con i propri dati account già modificati.
 \begin_inset Newline newline
 \end_inset
 
@@ -382,8 +382,11 @@ L'
 Utente
 \bar default
  fornisce il proprio codice fiscale e l'indirizzo e-mail del proprio account
- e riceve nella casella e-mail inserita username e password del proprio
- account
+ e in seguito la propria nuova password
+\end_layout
+
+\begin_layout Enumerate
+Riceve nella casella e-mail inserita username e password del proprio account
 \end_layout
 
 \begin_layout Subsubsection

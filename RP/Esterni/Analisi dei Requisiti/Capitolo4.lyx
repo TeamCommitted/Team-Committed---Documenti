@@ -293,7 +293,7 @@ hline
 RFOB 3 & Un 
 \backslash
 uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà recuperarla & UCU 2 & Test 
+ potrà modificarla & UCU 2 & Test 
 \backslash
 
 \backslash
@@ -307,7 +307,7 @@ hline
 RFOB 3.1 & Un 
 \backslash
 uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- recupero, la riceverà sulla propria casella di posta elettronica & UCU
+ modifica, la riceverà sulla propria casella di posta elettronica & UCU
  2 & Test
 \backslash
 
@@ -1956,7 +1956,9 @@ hline
 \begin_layout Plain Layout
 
 RVOB 1.1 & Il sistema dovrà essere multipiattaforma (per quanto riguarda
- la parte fissa) & Capitolato & Test 
+ i 
+\backslash
+unline{dispositivi fissi}) & Capitolato & Test 
 \backslash
 
 \backslash
