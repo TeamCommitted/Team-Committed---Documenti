@@ -334,6 +334,19 @@ Use Case
 {XX}:
 \series default
  iniziali dell'attore principale del caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso si tratti di un caso d'uso generale, 
+\series bold
+\size normal
+{XX}=G
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
