@@ -1181,6 +1181,63 @@ end{flushright}
 \end_layout
 
 \begin_layout Section*
+H
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{XHTML}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	L'XHTML (acronimo di eXtensible HyperText Markup Language, Linguaggio di
+ marcatura di ipertesti estensibile) è un linguaggio di marcatura che associa
+ alcune proprietà dell'XML con le caratteristiche dell'HTML: un file XHTML
+ è un pagina HTML scritta in conformità con lo standard XML
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 I
 \end_layout
 
@@ -1418,6 +1475,41 @@ begin{flushright}
 
 	Strumento per la creazione semi-automatica di documentazione del codice
  in formato HTML a partire da commenti scritti secondo una particolare sintassi
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{JavaServer Pages}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	JavaServer Pages è una tecnologia Java per lo sviluppo di applicazioni
+ Web che forniscono contenuti dinamici in formato HTML o XML
 \end_layout
 
 \begin_layout Plain Layout

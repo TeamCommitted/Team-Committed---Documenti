@@ -246,7 +246,7 @@ XHTML
 \bar default
  come linguaggio di programmazione web (assieme a 
 \bar under
-Javascript
+JSP)
 \end_layout
 
 \begin_layout Itemize
@@ -283,11 +283,7 @@ JSP
 \end_layout
 
 \begin_layout Subsection
-JavaBean
-\end_layout
-
-\begin_layout Subsection
-Spring
+Tomcat
 \end_layout
 
 \end_body
