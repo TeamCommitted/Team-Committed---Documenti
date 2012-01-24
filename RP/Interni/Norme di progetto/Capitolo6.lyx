@@ -334,6 +334,19 @@ Use Case
 {XX}:
 \series default
  iniziali dell'attore principale del caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso si tratti di un caso d'uso generale, 
+\series bold
+\size normal
+{XX}=G
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -410,6 +423,26 @@ Flussi alternativi
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Per ogni requisito dovrà essere inoltre definito un metodo per verificare
+ se tale requisito, all'interno del sistema, sia stato soddisfatto o meno.
+ Tale verifica potrà essere di tipo:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Statica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dinamica, 
+\series default
+tramite test
+\end_layout
+
 \begin_layout Subsection
 Classificazione dei requisiti
 \begin_inset CommandInset label
