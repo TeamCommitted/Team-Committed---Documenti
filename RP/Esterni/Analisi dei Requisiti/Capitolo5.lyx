@@ -105,6 +105,58 @@ begin{longtable}{ l | p{6cm} | l}
 \backslash
  
 \backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		UCG 1 & caso d'uso generale & RFOB 1 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RFOB 2 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RPOB 1 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RQOB 3.1 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RQOB 3.2 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 hline
 \end_layout
 
@@ -121,34 +173,56 @@ hline
 
 \begin_layout Plain Layout
 
-        UCU 1.1 & web & RFOB 1 
+        UCU 1.1 & web & RQD 6 
 \backslash
 
 \backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+					  & & RQD 6.1 
+\backslash
+
+\backslash
+ 
+\end_layout
 
+\begin_layout Plain Layout
+
+					  & & RQD 6.2 
+\backslash
+
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-					& & RQO 4 
+					  & & RVOB 3 
 \backslash
 
 \backslash
  
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-					& & RQOP 4.1 
+		UCU 1.2 & applicazione & RQD 5 
 \backslash
 
 \backslash
  
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-					& & RQOP 4.2 
+		UCU 2 & modifica password dimenticata & RFOB 3 
 \backslash
 
 \backslash
@@ -157,16 +231,18 @@ hline
 
 \begin_layout Plain Layout
 
-					& & RQD 5 
+											  & & RFOB 3.1 
 \backslash
 
 \backslash
  
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-					& & RVO 4 
+		UCUA 1 & logout & RFOB 4 
 \backslash
 
 \backslash
@@ -177,16 +253,16 @@ hline
 
 \begin_layout Plain Layout
 
-		UCU 1.2 & applicazione & RFOB 1 
+		UCG 2 & caso d'uso generale & RFOB 1 
 \backslash
 
 \backslash
-  
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-							& & RQO 4 
+									& & RPOB 1 
 \backslash
 
 \backslash
@@ -195,7 +271,7 @@ hline
 
 \begin_layout Plain Layout
 
-							& & RQOP 4.1 
+									& & RQOB 2.1 
 \backslash
 
 \backslash
@@ -204,7 +280,7 @@ hline
 
 \begin_layout Plain Layout
 
-							& & RQOP 4.2 
+									& & RQOB 3 
 \backslash
 
 \backslash
@@ -215,7 +291,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCU 2 & recupero password dimenticata & RFOB 10  
+		UCD 1 & domanda proposta & RFOB 5 
 \backslash
 
 \backslash
@@ -226,7 +302,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCU 2.1 & arrivo mail di conferma & RFOB 8 
+		UCD 1.1 & mostra domanda & RFOB 7 
 \backslash
 
 \backslash
@@ -235,7 +311,7 @@ hline
 
 \begin_layout Plain Layout
 
-						& & RFOB 8.1 
+								 & & RFOB 8 
 \backslash
 
 \backslash
@@ -244,7 +320,7 @@ hline
 
 \begin_layout Plain Layout
 
-						& & RFOB 8.2 
+								 & & RFOB 8.1 
 \backslash
 
 \backslash
@@ -253,31 +329,27 @@ hline
 
 \begin_layout Plain Layout
 
-						& & RFOB 10.1 
+								 & & RFD 8.2 
 \backslash
 
 \backslash
-  
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-						& & RFOB 10.2
+								 & & RFOB 12 
 \backslash
 
 \backslash
  
 \backslash
 hline
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCUA 1 & logout & RFOB 11 
+		UCD 1.1.1 & domanda nuova & RFOB 13.1 
 \backslash
 
 \backslash
@@ -288,34 +360,40 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1 & domanda proposta & RFOB 2 
+		UCD 1.1.2 & domanda posticipata & RFOB 13.1 
 \backslash
 
 \backslash
  
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& &RFOB 2.1 
+		UCD 1.1.3 & domanda risposta sbagliata & RFOB 13.1 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& &RFOB 2.2 
+		UCD 1.1.4 & domanda risposta & RFOB 13 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& &RFOB 17 
+		UCD 1.2 & posticipa domanda & RFOB 12 
 \backslash
 
 \backslash
@@ -326,43 +404,49 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1.1 & mostra domanda & RFOB 4 
+		UCD 2 & richiesta domanda & RFOB 6 
 \backslash
 
 \backslash
-
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-								& & RFOB 4.1 
+								  & & RFOB 6.1 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& & RFOB 4.2 
+		UCD 3 & visione punteggi personali & RFOB 14 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& & RFOB 4.3 
+		UCD 3.1 & visione domande corrette/errate & RFOB 14.1 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-								& & RFOB 18 
+		UCD 3.2 & visione classifica & RFOB 14.1 
 \backslash
 
 \backslash
@@ -373,7 +457,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1.1.1 & domanda nuova/posticipata & RFOB 18.1 
+		UCD 3.3 & visione trofei/badge & RFOB 14.1 
 \backslash
 
 \backslash
@@ -384,7 +468,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1.1.2 & domanda risposta sbagliata & RFOB 18.1 
+		UCD 3.4 & visione statistiche risposte & RFOB 14.1 
 \backslash
 
 \backslash
@@ -395,7 +479,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1.1.3 & domanda risposta & RFOB 18 
+		UCD 4 & modifica dati account & RFOB 9 
 \backslash
 
 \backslash
@@ -406,18 +490,16 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 1.2 & posticipa domanda & RFOB 17 
+		UCD 4.1 & modifica password & RFOB 9.1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 2 & richiesta domanda & RFOB 2.1 
+									& & RFOB 10.1 
 \backslash
 
 \backslash
@@ -428,40 +510,32 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 3 & visione punteggi personali & RFOB 19
+		UCD 4.2 & modifica indirizzo email & RFOB 9.2 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.1 & visione domande corrette/errate & RFOB 19.1 
+										   & & RFOB 10.2 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.2 & visione classifica & RFOB 19.1 
-\backslash
 
 \backslash
- 
-\backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 3.3 & visione trofei/badge & RFOB 19.1 
+		UCD 4.3 & arrivo mail di conferma & RFOB 10 
 \backslash
 
 \backslash
@@ -472,84 +546,70 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 3.4 & visione statistiche risposte & RFOB 19.1 
+		UCD 5 & visualizza dati account & RFOB 11 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4 & modifica dati account & RFOB 8 
+										& & RFOB 11.1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4.1 & modifica password & RFOB 8.1 
+										& & RFOB 11.2 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 4.2 & modifica indirizzo email & RFOB 8.2 
+										& & RFOB 11.3 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCD 5 & visualizza dati account & RFOB 9 
+										& & RFOB 11.4 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 1 & consultazione domande & RFOB 15 
+										& & RFOB 11.5 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2 & modifca database & RFOB 16 
+										& & RFOB 11.6 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1 & aggiunta domanda & RFOB 16.1 
+										& & RFOB 11.7 
 \backslash
 
 \backslash
@@ -558,10 +618,6 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RVD 2 
-\backslash
-
-\backslash
  
 \backslash
 hline
@@ -569,194 +625,176 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.1 & inserisci tipo domanda & RFOB 16.1.1 
+		UCG 3 & caso d'uso generale & RFOB 1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.2 & inserisci testo domanda & RFOB 16.1.1 
+									& & RFOB 1.1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.3 & inserisci risposte & RFOB 16.1.1 
+									& & RPOB 1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.4 & assegna risposte corrette & RFOB 16.1.1 
+									& & RQOB 2.2 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.5 & inserisci percorso immagine/video & RFOB 16.1.1 
+		UCAA 1 & gestione dipendenti & RFOB 15
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.6 & inserisci categoria utenti & RFOB 16.1.1 
+									 & & RFOB 18 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.7 & inserisci piattaforma & RFOB 16.1.1 
+									 & & RFOB 19 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.8 & inserisci temporizzazione & RFOB 16.1.1 
+		UCAA 1.1 & aggiungi dipendente & RFOB 14.2 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.1.9 & inserisci punteggi & RFOB 16.1.1 
+									   & & RFOB 14.2.1 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2 & modifica domanda & RFOB 16.2 
+									   & & RFOB 14.2.2 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.1 & modifica tipo domanda & RFOB 16.2.1 
+									   & & RFOB 15 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.2 & modifica testo domanda & RFOB 16.2.1 
+									   & & RFOB 15.1 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.3 & modifica inserimento risposte & RFOB 16.2.1 
+									   & & RFOB 15.1.1 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.4 & modifica risposte corrette & RFOB 16.2.1 
+									   & & RFOB 15.1.2 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.5 & modifica percorso immagine/video & RFOB 16.2.1 
+									   & & RFOB 15.1.3 
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.6 & modifica categoria utenti & RFOB 16.2.1 
+									   & & RFOB 15.1.4 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.7 & modifica piattaforma & RFOB 16.2.1 
+									   & & RFOB 15.1.5 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.8 & modifica temporizzazione & RFOB 16.2.1 
+		UCAA 1.2 & elimina dipendente & RFOB 19 
 \backslash
 
 \backslash
@@ -767,29 +805,32 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAS 2.2.9 & modifica punteggi & RFOB 16.2.1 
+		UCAA 1.3 & modifica dati dipendente & RFOB 18 
 \backslash
 
-\backslash
- 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAS 2.3 & cancella domanda & RFOB 16.3 
+											& & RFOB 18.1 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1 & gestione dipendenti &  RFOB 5 
+		UCAA 2 & visualizza dati dipendente & RFOB 16 
 \backslash
 
 \backslash
@@ -798,7 +839,7 @@ hline
 
 \begin_layout Plain Layout
 
-                                   & & RFOB 6 
+											& & RFOB 16.1 
 \backslash
 
 \backslash
@@ -807,7 +848,7 @@ hline
 
 \begin_layout Plain Layout
 
-                                   & & RFOB 7 
+											& & RFOB 16.2 
 \backslash
 
 \backslash
@@ -816,29 +857,41 @@ hline
 
 \begin_layout Plain Layout
 
-                                   & & RFOB 20 
+											& & RFOB 16.3 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+											& & RFOB 16.4 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1 & aggiungi dipendente & RFOB 5 
+											& & RFOB 16.5 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.1 & inserisci nome & RFOB 5.1 
+		UCAA 3 & visualizza punteggi dipendenti & RFOB 17 
 \backslash
 
 \backslash
@@ -849,38 +902,34 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.2 & inserisci cognome & RFOB 5.1 
+		UCG 4 & caso d'uso generale & RFOB 1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.3 & inserisci codice fiscale & RFOB 5.1 
+									& & RPOB 1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.4 & inserisci indirizzo email & RFOB 5.1 
+									& & RPOB 2 
 \backslash
 
 \backslash
-
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-												& & RFOB 5.2 
+									& & RQOB 2.4 
 \backslash
 
 \backslash
@@ -891,7 +940,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.5 & inserisci impiego & RFOB 5.1 
+		UCAS 1 & login & RFOB 22 
 \backslash
 
 \backslash
@@ -902,84 +951,122 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAA 1.1.6 & invio username/password autogenerate & RFOB 5.2 
+		UCASA 1 & consultazione domande & RFOB 20 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.2 & elimina dipendente & RFOB 22 
+										& & RFOB 20.1 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										& & RFOB 20.2 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3 & modifica dati dipendente & RFOB 20 
+										& & RFOB 20.3 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										& & RFOB 20.4 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.1 & modifica nome & RFOB 20.1 
+										& & RFOB 20.5 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										& & RFOB 20.6 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.2 & modifica cognome & RFOB 20.1 
+										& & RFOB 20.7 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										& & RFOB 20.8 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.3 & modifica indirizzo email & RFOB 20.1 
+										& & RFOB 20.9 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.4 & modifica impiego & RFOB 20.1 
+		UCASA 2 & modifica database & RFOB 21 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RPOB 2.1 
 \backslash
-hline
+
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 1.3.5 & modifica codice fiscale & RFOB 20.1 
+									& & RPOB 2.2 
 \backslash
 
 \backslash
@@ -990,29 +1077,43 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAA 2 & visualizza dati dipendente & RFOB 6 
+		UCASA 2.1 & aggiunta domanda & RFOB 21.1 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									 & & RFOB 21.1.1 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAA 3 & visualizza punteggi dipendenti & RFOB 7 
+									 & & RFOB 21.1.2 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									 & & RFOB 21.1.3 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 1 & login & RFOB 1 
+									 & & RFOB 21.1.4 
 \backslash
 
 \backslash
@@ -1021,18 +1122,25 @@ hline
 
 \begin_layout Plain Layout
 
-                     & & RFOB 21 
+									 & & RFOB 21.1.5 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									 & & RFOB 21.1.6 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2 & installazione software & RFOB 13 
+									 & & RFOB 21.1.7 
 \backslash
 
 \backslash
@@ -1041,18 +1149,32 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RQOB 3 
+									 & & RFOB 21.1.8 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									 & & RVD 4 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2.1 & dispositivi mobili & RPOB 1 
+		UCASA 2.2 & modifica domanda & RFOB 21.2 
 \backslash
 
 \backslash
@@ -1061,27 +1183,34 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RVOB 1.2 
+									 & & RFOB 21.2.1 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAI 2.2 & computer & RPOB 1 
+		UCASA 2.3 & cancella domanda & RFOB 21.3 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-							& &RVOB 1.1 
+		UCASA 3 & logout & RFOB 23 
 \backslash
 
 \backslash
@@ -1091,28 +1220,37 @@ hline
 \end_layout
 
 \begin_layout Plain Layout
+
+		UCG 5 & caso d'uso generale & RFOB 1 
+\backslash
 
-		UCAIA 1 & gestione server aziende & RFOB 14 
 \backslash
+ 
+\end_layout
 
+\begin_layout Plain Layout
+
+									& & RPOB 1 
 \backslash
 
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-										& & RPOB 1 
+									& & RQOB 2.3 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1 & aggiungi azienda & RFOB 14.1 
+		UCAI 1 & login & RFOB 24 
 \backslash
 
 \backslash
@@ -1123,7 +1261,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.1 & inserisci nome & RFOB 14.1.1 
+		UCAI 2 & installazione software & RFOB 25 
 \backslash
 
 \backslash
@@ -1134,7 +1272,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.2 & inserisci recapito server dati & RFOB 14.1.1 
+		UCAI 2.1 & dispositivi mobili & RVOB 2 
 \backslash
 
 \backslash
@@ -1143,25 +1281,32 @@ hline
 
 \begin_layout Plain Layout
 
-													& & RBOB 2 
+									  & & RVOB 1.1.1 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-													& & RVOB 1 
+
 \backslash
+hline
+\end_layout
 
+\begin_layout Plain Layout
+
+		UCAI 2.2 & computer & RVOB 1.1 
 \backslash
 
+\backslash
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-													& & RVOB 3 
+							& & RVOB 1.1.1 
 \backslash
 
 \backslash
@@ -1172,7 +1317,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.3 & inserisci username & RFOB 14.1.1 
+		UCAIA 1 & gestione server aziende & RFOB 27 
 \backslash
 
 \backslash
@@ -1183,29 +1328,34 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAIA 1.1.4 & inserisci password & RFOB 14.1.1 
+		UCAIA 1.1 & aggiungi azienda & RFOB 27.1 
 \backslash
 
 \backslash
  
-\backslash
-hline
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.2 & cancella azienda & RFOB 14.2 
+									 & & RFOB 27.1.1 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									 & & RFOB 27.1.2 
 \backslash
-hline
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
 
-		UCAIA 1.3 & modifica link database & RFOB 14.3 
+									 & & RFOB 27.1.3 
 \backslash
 
 \backslash
@@ -1214,7 +1364,7 @@ hline
 
 \begin_layout Plain Layout
 
-											& & RVOB 1 
+									 & & RFOB 27.1.4 
 \backslash
 
 \backslash
@@ -1223,7 +1373,14 @@ hline
 
 \begin_layout Plain Layout
 
-											& & RVOB 3 
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		UCAIA 1.2 & cancella azienda & RFOB 27.2 
 \backslash
 
 \backslash
@@ -1234,16 +1391,18 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAIA 2 & logout & RFOB 11 
+		UCAIA 1.3 & modifica link database & RFOB 27.3 
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-						& & RFOB 12 
+		UCAIA 2 & logout & RFOB 26 
 \backslash
 
 \backslash
