@@ -382,11 +382,11 @@ L'
 Utente
 \bar default
  fornisce il proprio codice fiscale e l'indirizzo e-mail del proprio account
- e in seguito la propria nuova password
 \end_layout
 
 \begin_layout Enumerate
-Riceve nella casella e-mail inserita username e password del proprio account
+Riceve nella casella e-mail inserita una password auto generata randomicamente
+ che dovrà essere modificata al primo login
 \end_layout
 
 \begin_layout Subsubsection

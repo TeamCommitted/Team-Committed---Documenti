@@ -307,8 +307,8 @@ hline
 RFOB 3.1 & Un 
 \backslash
 uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, la riceverà sulla propria casella di posta elettronica & UCU
- 2 & Test
+ modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
+mente che dovrà modificare al primo login & UCU 2 & Test
 \backslash
 
 \backslash
