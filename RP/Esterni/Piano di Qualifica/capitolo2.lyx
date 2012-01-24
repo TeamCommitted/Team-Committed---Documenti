@@ -1042,6 +1042,89 @@ Eliminazione di caratteri extra, non previsti dalle norme, creati da Bouml
 
 \end_deeper
 \begin_layout Standard
+Per quanto riguarda invece l'inspection del codice, seguiremo alcuni punti
+ guida:
+\end_layout
+
+\begin_layout Itemize
+Le variabili di programma devono essere inizializzate prima che il loro
+ valore sia utilizzato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Tutte le costanti devono avere un nome.
+ 
+\end_layout
+
+\begin_layout Itemize
+Il limite superiore degli array deve essere uguale alla loro dimensione
+ o alla dimensione-1.
+ 
+\end_layout
+
+\begin_layout Itemize
+Controllare la presenza di eventuali buffer overflow.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare che la condizione delle istruzioni condizionali sia corretta.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ogni ciclo deve essere ultimato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le istruzioni composte devono essere correttamente messe fra parentesi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+ 
+\end_layout
+
+\begin_layout Itemize
+I break devono essere correttamente utilizzati se richiesti.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di output devono possedere un valore prima che vengano restituite.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare gli effetti degli input imprevisti.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le chiamate a funzione e a metodo devono possedere il corretto numero di
+ parametri.
+\end_layout
+
+\begin_layout Itemize
+Il tipo dei parametri formali e reali deve corrispondere.
+\end_layout
+
+\begin_layout Itemize
+Corretta disposizione dei parametri.
+\end_layout
+
+\begin_layout Itemize
+Verificare che siano state prese in considerazione tutte le possibili condizioni
+ di errore.
+\end_layout
+
+\begin_layout Standard
 Chiaramente la tecnica dell'
 \emph on
 inspection
@@ -1050,6 +1133,7 @@ inspection
 ezza iniziale del proprio codice e delle proprie capacità.
 \end_layout
 
+\end_deeper
 \begin_layout Paragraph
 Metodi di Analisi Statica:
 \end_layout
@@ -1064,6 +1148,7 @@ Analisi del flusso di controllo
  non raggiungibile
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
