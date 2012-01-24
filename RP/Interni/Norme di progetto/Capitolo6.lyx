@@ -425,8 +425,7 @@ Flussi alternativi
 \end_deeper
 \begin_layout Standard
 Per ogni requisito dovrà essere inoltre definito un metodo per verificare
- se tale requisito, all'interno dell'applicazione, sia stato soddisfatto
- o meno.
+ se tale requisito, all'interno del sistema, sia stato soddisfatto o meno.
  Tale verifica potrà essere di tipo:
 \end_layout
 
