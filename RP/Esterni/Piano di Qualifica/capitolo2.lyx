@@ -365,11 +365,19 @@ Risorse Software
 \end_layout
 
 \begin_layout Itemize
-Software per la verifica dei requisiti richiesti
+
+\series bold
+Software
+\series default
+ per la verifica dei requisiti richiesti
 \end_layout
 
 \begin_layout Itemize
-Software di gestione e commento di 
+
+\series bold
+Software
+\series default
+ di gestione e commento di 
 \bar under
 ticket
 \bar default
@@ -377,11 +385,19 @@ ticket
 \end_layout
 
 \begin_layout Itemize
-Software necessario alla corretta configurazione dell'ambiente di sviluppo
+
+\series bold
+Software
+\series default
+ necessario alla corretta configurazione dell'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
-Software utile alla comunicazione fra i membri del team
+
+\series bold
+Software
+\series default
+ utile alla comunicazione fra i membri del team
 \end_layout
 
 \begin_layout Standard
@@ -391,11 +407,19 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
-Computer su cui eseguire il software necessario all'ambiente di sviluppo
+
+\series bold
+Computer
+\series default
+ su cui eseguire il software necessario all'ambiente di sviluppo
 \end_layout
 
 \begin_layout Itemize
-Luogo fisico per incontri fra i membri del team
+
+\series bold
+Luogo
+\series default
+ fisico per incontri fra i membri del team
 \end_layout
 
 \begin_layout Subsubsection
@@ -463,16 +487,28 @@ Risorse Hardware
 \end_layout
 
 \begin_layout Itemize
-Computer personali, portatili e fissi
+
+\series bold
+Computer
+\series default
+ personali, portatili e fissi
 \end_layout
 
 \begin_layout Itemize
-Computer messi a disposizione nei laboratori dal Dipartimento di Matematica
- Pura ed Applicata dell'Università di Padova
+
+\series bold
+Computer
+\series default
+ messi a disposizione nei laboratori dal Dipartimento di Matematica Pura
+ ed Applicata dell'Università di Padova
 \end_layout
 
 \begin_layout Itemize
-Aule studio del Dipartimento di Matematica Pura ed Applicata dell'Università
+
+\series bold
+Aule
+\series default
+ studio del Dipartimento di Matematica Pura ed Applicata dell'Università
  di Padova
 \end_layout
 
