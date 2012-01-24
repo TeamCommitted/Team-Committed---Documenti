@@ -95,7 +95,7 @@ begin{flushright}
 	Plugin per Eclipse che fornisce un ambiente integrato per lo sviluppo di
  applicativi 
 \backslash
-underline{Android}
+uline{Android}
 \end_layout
 
 \begin_layout Plain Layout
@@ -131,13 +131,12 @@ begin{flushright}
 
 	
 \backslash
-underline{Utente Autenticato} che puo` visualizzare i risultati di tutti
- i 
+uline{Utente Autenticato} che puo` visualizzare i risultati di tutti i 
 \backslash
-underline{Dipendenti} dell'azienda a cui appartiene, puo` inserire, modificare
+uline{Dipendenti} dell'azienda a cui appartiene, puo` inserire, modificare
  e cancellare i dati dei 
 \backslash
-underline{Dipendenti}
+uline{Dipendenti}
 \end_layout
 
 \begin_layout Plain Layout
@@ -209,7 +208,7 @@ begin{flushright}
 
 	
 \backslash
-underline{Amministratore Installazione} che ha effettuato il login nel server
+uline{Amministratore Installazione} che ha effettuato il login nel server
  principale, puo` Aggiungere ed Eliminare i dati di un'azienda, non puo`
  recarsi dalle aziende clienti finche` non effettua il Logout
 \end_layout
@@ -247,8 +246,8 @@ begin{flushright}
 
 	
 \backslash
-underline{Utente Autenticato} che puo` unicamente inserire, eliminare o
- modificare le domande presenti nel database delle domande
+uline{Utente Autenticato} che puo` unicamente inserire, eliminare o modificare
+ le domande presenti nel database delle domande
 \end_layout
 
 \begin_layout Plain Layout
@@ -284,7 +283,7 @@ begin{flushright}
 
 	Android è un sistema operativo open-source per 
 \backslash
-underline{dispositivi mobili} sviluppato e mantenuto da Google.
+uline{dispositivi mobili} sviluppato e mantenuto da Google.
 \end_layout
 
 \begin_layout Plain Layout
@@ -321,11 +320,11 @@ begin{flushright}
 	Android Market è uno store di software online sviluppato da Google per
  i dispositivi 
 \backslash
-underline{Android}.
+uline{Android}.
  Un programma applicativo chiamato "Market" viene preinstallato sulla maggior
  parte dei dispositivi 
 \backslash
-underline{Android} e permette agli utenti di cercare e scaricare le applicazioni
+uline{Android} e permette agli utenti di cercare e scaricare le applicazioni
  pubblicate da sviluppatori di terze-parti, ospitate sull'Android Market.
 \end_layout
 
@@ -362,7 +361,7 @@ begin{flushright}
 
 	Insieme di strumenti di sviluppo per la realizzazione di applicativi 
 \backslash
-underline{Android}
+uline{Android}
 \end_layout
 
 \begin_layout Plain Layout
@@ -453,7 +452,7 @@ begin{flushright}
 	Si definisce back-end la componente di un'applicazione che si occupa di
  elaborare i dati ricevuti dal 
 \backslash
-underline{front-end}
+uline{front-end}
 \end_layout
 
 \begin_layout Plain Layout
@@ -559,9 +558,9 @@ begin{flushright}
 
 	Letteralmente "miglior prassi" è un concetto antitetico alla 
 \backslash
-underline{worst practice} e rappresenta l'insieme di esperienze relative
- a contesti diversi, che sono risapute per essere più significative, o quelle
- che hanno permesso di ottenere i migliori risultati in tale ambito
+uline{worst practice} e rappresenta l'insieme di esperienze relative a contesti
+ diversi, che sono risapute per essere più significative, o quelle che hanno
+ permesso di ottenere i migliori risultati in tale ambito
 \end_layout
 
 \begin_layout Plain Layout
@@ -722,7 +721,7 @@ begin{flushright}
 
 	Colui che commissiona, per conto di un 
 \backslash
-underline{proponente}, un capitolato d'appalto ad un particolare gruppo
+uline{proponente}, un capitolato d'appalto ad un particolare gruppo
 \end_layout
 
 \begin_layout Plain Layout
@@ -854,8 +853,8 @@ begin{flushright}
 
 	
 \backslash
-underline{Utente Autenticato} che deve rispondere alle domande proposte
- dalla nostra applicazione e puo` visualizzare i suoi punteggi
+uline{Utente Autenticato} che deve rispondere alle domande proposte dalla
+ nostra applicazione e puo` visualizzare i suoi punteggi
 \end_layout
 
 \begin_layout Plain Layout
@@ -928,9 +927,9 @@ begin{flushright}
  utilizzando indifferentemente  una connessione Internet cablata o meno.
  Di norma si usa per indicare sia 
 \backslash
-underline{PC} che 
+uline{PC} che 
 \backslash
-underline{Notebook}
+uline{Notebook}
 \end_layout
 
 \begin_layout Plain Layout
@@ -968,9 +967,9 @@ begin{flushright}
  dati senza usare una connessione Internet cablata.
  Di norma si usa per indicare sia 
 \backslash
-underline{smartphone} che 
+uline{smartphone} che 
 \backslash
-underline{tablet}
+uline{tablet}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1027,7 +1026,7 @@ begin{flushright}
 	Si definisce front-end la parte di applicativo dedita a gestire l'iterazione
  con l'utente e a passare i dati raccolti al 
 \backslash
-underline{back-end}
+uline{back-end}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1182,6 +1181,63 @@ end{flushright}
 \end_layout
 
 \begin_layout Section*
+H
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{XHTML}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	L'XHTML (acronimo di eXtensible HyperText Markup Language, Linguaggio di
+ marcatura di ipertesti estensibile) è un linguaggio di marcatura che associa
+ alcune proprietà dell'XML con le caratteristiche dell'HTML: un file XHTML
+ è un pagina HTML scritta in conformità con lo standard XML
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 I
 \end_layout
 
@@ -1217,7 +1273,7 @@ begin{flushright}
  di elettricità, elettronica e tecnologie correlate.
  Molti dei suoi standard sono definiti in collaborazione con l'
 \backslash
-underline{ISO}
+uline{ISO}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1380,10 +1436,10 @@ begin{flushright}
 
 	Linguaggio di programmazione orientato agli oggetti, crea- to da James
  Gosling e altri ingegneri di Sun Microsystem all'inizio degli anni Novanta.
- Esso fa parte della piattafor- ma Java, che comprende anche la macchina
- virtuale Java (
+ Esso fa parte della piattaforma Java, che comprende anche la macchina virtuale
+ Java (
 \backslash
-underline{JVM}) e le API Java
+uline{JVM}) e le API Java
 \end_layout
 
 \begin_layout Plain Layout
@@ -1434,6 +1490,41 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{JavaServer Pages}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	JavaServer Pages è una tecnologia Java per lo sviluppo di applicazioni
+ Web che forniscono contenuti dinamici in formato HTML o XML
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Java Virtual Machine (JVM)}} 
 \backslash
 
@@ -1454,7 +1545,7 @@ begin{flushright}
 
 	Componente della piattaforma 
 \backslash
-underline{Java} che esegue i programmi scritti in bytecode
+uline{Java} che esegue i programmi scritti in bytecode
 \end_layout
 
 \begin_layout Plain Layout
@@ -1852,28 +1943,6 @@ end{flushright}
 \backslash
 textbf{
 \backslash
-emph{Piattaforma Mobile di Apprendimento Comportamentale}} 
-\backslash
-
-\backslash
- 
-\backslash
-rule[-0.1cm]{12cm}{0.01cm}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{flushright}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textbf{
-\backslash
 emph{PC}} 
 \backslash
 
@@ -1962,7 +2031,7 @@ begin{flushright}
 
 	Colui che ha proposto al 
 \backslash
-underline{committente} il proprio capitolato d'appalto
+uline{committente} il proprio capitolato d'appalto
 \end_layout
 
 \begin_layout Plain Layout
@@ -2280,7 +2349,7 @@ begin{flushright}
 
 	Uno smartphone è un 
 \backslash
-underline{dispositivo portatile} che abbina funzionalità di telefono cellulare
+uline{dispositivo portatile} che abbina funzionalità di telefono cellulare
  a quelle di gestione di dati personali.
 \end_layout
 
@@ -2408,9 +2477,8 @@ begin{flushright}
 
 	
 \backslash
-underline{Dispositivo mobile} equipaggiato con uno schermo tattile come
- principale fonte di input e output, escluse eventuali altre porte di comunicazi
-one
+uline{Dispositivo mobile} equipaggiato con uno schermo tattile come principale
+ fonte di input e output, escluse eventuali altre porte di comunicazione
 \end_layout
 
 \begin_layout Plain Layout
@@ -2550,7 +2618,7 @@ begin{flushright}
 
 	Servizio basato sull'utilizzo di 
 \backslash
-underline{ticket}
+uline{ticket}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2834,11 +2902,11 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Letteralmente "peggior prassi", e un concetto antitetico alla 
+	Letteralmente "peggior prassi", è un concetto antitetico alla 
 \backslash
-underline{best practice}, e rappresenta l'insieme di esperienze, relative
- a contesti diversi, che sono risapute essere controproducenti, le quali
- sottraggono tempo, energia e produttivita all'attivita a cui si riferiscono.
+uline{best practice}, e rappresenta l'insieme di esperienze, relative a
+ contesti diversi, che sono risapute essere controproducenti, le quali sottraggo
+no tempo, energia e produttivita all'attivita a cui si riferiscono.
 \end_layout
 
 \begin_layout Plain Layout

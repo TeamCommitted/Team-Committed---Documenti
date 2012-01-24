@@ -319,7 +319,368 @@ Convenzioni di codifica
 \end_layout
 
 \begin_layout Standard
-Le convenzioni di codifica verranno formalizzate nella fase di progettazione.
+Per rendere il codice leggibile, comprensibile e quindi manutenibile possibile,
+ si stabilisce che i programmatori debbano seguire la 
+\bar under
+Java Code Convetion
+\bar default
+, il cui documento è reperibile all'indirizzo: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://java.sun.com/docs/codeconv/CodeConventions.pdf
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Di seguito si fa un sommario delle regole più frequentemente utilizzate:
+\end_layout
+
+\begin_layout Subsubsection
+Struttura interna delle classi
+\end_layout
+
+\begin_layout Standard
+All'interno di una classe dovranno comparire nel seguente ordine:
+\end_layout
+
+\begin_layout Enumerate
+Variabili statiche
+\end_layout
+
+\begin_layout Enumerate
+Variabili di istanza
+\end_layout
+
+\begin_layout Enumerate
+Costruttori
+\end_layout
+
+\begin_layout Enumerate
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+Struttura del codice
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dichiarazione di variabili: 
+\series default
+al massimo una dichiarazione di variabile per linea
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Blocchi di inizializzazione:
+\series default
+ dichiarare tutte le variabili utilizzate in un blocco all'inizio del blocco
+ stesso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nomenclatura variabili:
+\series default
+ non utilizzare variabili con lo stesso nome
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Separazione dei metodi:
+\series default
+ separare i metodi con una linea vuota
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Separazione blocchi di codice: 
+\series default
+separare con una linea vuota frammenti di codice logicamente indipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Enfatizzazione parole chiave:
+\series default
+ separare con uno spazio le parole chiave e le parentesi
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Fra cui, ma non solo, i costrutti 
+\family typewriter
+if
+\family default
+, 
+\family typewriter
+for
+\family default
+, etc...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Parentesi graffe:
+\series default
+ le parentesi graffe che aprono un blocco di codice devono essere nella
+ stessa linea della parola chiave a cui appartengono, mentre le parentesi
+ graffe che chiudono il blocco devono essere scritte in una nuova linea.
+ Ad esempio:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+while (condition) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	statement1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	statementN;
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Convenzione sui nomi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Classi: 
+\series default
+devono essere sostantivi la cui prima lettera deve essere maiuscola
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce:
+\series default
+ stessa nomenclatura delle classi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metodi:
+\series default
+ devono essere dei verbi la cui prima lettera deve essere minuscola.
+ Nel caso siano composti da più parole, l'iniziale di ogni parola deve essere
+ maiuscola
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Variabili:
+\series default
+ devono essere dei nomi brevi ed evocativi, la cui prima lettere deve essere
+ minuscola.
+ Nel caso siano composte da più parole, l'iniziale di ogni parola deve essere
+ maiuscola
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Costanti:
+\series default
+ devono essere scritte in maiuscolo.
+ Nel caso siano composte da più parole, si deve unire dal carattere underscore
+ 
+\end_layout
+
+\begin_layout Subsection
+Procedura di verifica
+\end_layout
+
+\begin_layout Standard
+Per rendere uniforme la procedura di verifica, vengono qui elencate le norme
+ che regolano la verifica del codice prodotto
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Si rimanda al 
+\family typewriter
+Piano di Qualifica - V2.0
+\family default
+ che specifica in maniera dettagliata le tecniche e le modalità con cui
+ verranno condotte le attività di verifica e validazione durante l'intero
+ sviluppo del progetto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Verifica statica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso di controllo
+\series default
+: si accerta che il codice segua il flusso aspettato, che non si possa entrare
+ in porzioni di codice che possano non terminare, che non esista codice
+ non raggiungibile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso dei dati
+\series default
+: si accerta che il software non acceda mai a variabili non inizializzate
+ o scriva inutilmente più volte prima di usare una variabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso di informazione
+\series default
+: verifica che gli input e gli output di ogni unità di codice o di più unità
+ rientrino nelle specifiche del programma
+\end_layout
+
+\begin_layout Subsubsection
+Verifica dinamica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di unità
+\series default
+: test che si effettuano per ogni unità del software con il massimo grado
+ di parallelismo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di integrazione:
+\series default
+ verifica dei componenti formati dall'integrazione delle varie unità che
+ hanno passato il test di unità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di sistema e di collaudo
+\series default
+: verifica che il sistema in cui andrà installato il software rispetti i
+ requisiti richiesti, o che il software riesca ad adattarsi correttamente
+ al contesto dell'azienda 
+\bar under
+proponente
+\bar default
+.
+ Il collaudo sarà sul software installato, finito il quale avverrà il rilascio
+ del prodotto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di regressione
+\series default
+: nel caso di una modifica ad un singolo componente, andranno effettuati
+ nuovamente tutti i test di unità e, se necessario, di integrazione riferiti
+ a quel componente
 \end_layout
 
 \end_body

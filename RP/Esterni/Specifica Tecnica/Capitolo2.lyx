@@ -60,7 +60,92 @@
 \begin_body
 
 \begin_layout Section
-Definizione del prodotto
+Design Pattern
+\end_layout
+
+\begin_layout Standard
+Presenteremo qui di seguito i vari design pattern impiegati nella progettazione
+ dell'architettura del progetto SafetyGame.
+\end_layout
+
+\begin_layout Subsection
+MVC
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/MVC.jpeg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Model-View-Controller è un pattern architetturale molto diffuso e che permette
+ una completa disgiunzione delle funzionalità che il prodotto deve offrire,
+ organizzando l'applicativo come segue: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Model: 
+\series default
+costituisce la parte logica dei dati utilizzati dal sistema, compresa la
+ loro persistenza
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+View: 
+\series default
+costituisce l'interfaccia vera e propria con cui i dati sono visualizzati
+ e tramite la quale gli utenti possono interagire con il sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Controller: 
+\series default
+rappresenta il componente che riceve i comandi dell'utente e li attua, decidendo
+ le conseguenti operazioni da effettuare nel Model e nel View
+\end_layout
+
+\begin_layout Standard
+Tale design-pattern è stato scelto in quanto largamente diffuso ed adottato
+ da numerosissime tecnologie moderne.
+ Esso garantisce infatti una solida struttura altamente manutenibile.
+ 
+\begin_inset Newline newline
+\end_inset
+
+// Qui si parlerà poi dell'applicazione effettiva dell'MVC all'interno delle
+ varie applicazioni in cui vogliamo implementarlo come per esempio l'app
+ android, l'app JAVA o l'app web!
 \end_layout
 
 \end_body

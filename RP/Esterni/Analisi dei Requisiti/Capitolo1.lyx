@@ -168,7 +168,7 @@ Glossario
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V1.0.pdf
+Glossario-V2.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -190,10 +190,53 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \bar default
 , v1.1, rilasciato dal 
 \bar under
-proponente
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\bar under
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+
 \bar default
  MENTIS S.r.l.
- e reperibile all'indirizzo: http://www.math.unipd.it/
+ e reperibile all'indirizzo: 
+\family typewriter
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.math.unipd.it/tullio/IS-1/2011/Progetto/pC3.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V2.0
+\series default
+ che regola e accompagna tutti i file ufficiali del progetto.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verbale05122011.pdf
+\series default
+, verbale dell'incontro avuto con il 
 \begin_inset ERT
 status open
 
@@ -201,17 +244,12 @@ status open
 
 
 \backslash
-~{}
+proponProg
 \end_layout
 
 \end_inset
 
-tullio/IS-1/2011/Progetto/pC3.pdf
-\end_layout
-
-\begin_layout Itemize
-Norme di Progetto - V1.0 che regola e accompagna tutti i file ufficiali del
- progetto.
+ in data 2011/12/05
 \end_layout
 
 \begin_layout Subsubsection

@@ -229,7 +229,7 @@ Use Case
 \series default
  iniziali dell'attore principale del caso d'uso
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Nel caso in cui si parli di 
@@ -278,35 +278,6 @@ esplosione
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
-Stesura del codice
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Stesura-del-codice"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Le norme sulla stesura del codice verranno scritte in fase di progettazione.
-\end_layout
-
-\begin_layout Subsection
-Metodologie di verifica e validazione
-\end_layout
-
-\begin_layout Standard
-Si rimanda al 
-\family typewriter
-Piano di Qualifica - V2.0
-\family default
- che specifica in maniera dettagliata le tecniche e le modalità con cui
- verranno condotte le attività di verifica e validazione durante l'intero
- sviluppo del progetto.
-\end_layout
-
 \begin_layout Subsection
 Gestione delle attività
 \end_layout

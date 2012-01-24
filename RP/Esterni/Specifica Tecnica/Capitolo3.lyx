@@ -59,8 +59,235 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Section
+Strumenti utilizzati
+\end_layout
 
+\begin_layout Subsection
+Java
+\end_layout
+
+\begin_layout Standard
+L'utilizzo di 
+\bar under
+Java 
+\bar default
+è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
+ con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+ in data 2011/12/05
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Rif: 
+\family typewriter
+\emph on
+verbale05122011.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Multipiattaforma:
+\series default
+ permettendo l'astrazione dalla macchina fisica tramite la 
+\bar under
+JVM
+\bar default
+, assicura che l'applicativo risulti funzionante qualsiasi sia il sistema
+ operativo installato sulla macchina che lo esegue
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\emph on
+RVOB 1.1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Indipendenza dalle risorse fisiche:
+\series default
+ per lo stesso motivo descritto sopra, l'esecuzione dell'applicativo risulterà
+ uniforme indipendentemente dalle risorse fisiche utilizzate
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Librerie:
+\series default
+ alta disponibilità di librerie presenti in rete che semplificano l'interfacciam
+ento con altri dispositivi e applicativi già esistenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Compatibilità con piattaforme mobili:
+\series default
+ considerata la richiesta di un'applicazione per 
+\bar under
+dispositivi mobili
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In particolare Android, come da requisito 
+\emph on
+RVOB 1.2
+\end_layout
+
+\end_inset
+
+
+\bar default
+, l'utilizzo di tale linguaggio semplifica lo sviluppo dello stesso dell'applica
+zione mobile
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Lentezza 
+\series default
+causata dal passaggio attraverso la JVM e dal fatto di essere un linguaggio
+ interpretato
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+XHTML
+\end_layout
+
+\begin_layout Standard
+Si è deciso di utilizzare 
+\bar under
+XHTML 
+\bar default
+1.1
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\emph on
+RQD 6.2
+\end_layout
+
+\end_inset
+
+ per la presentazione dell'interfaccia grafica sia agli 
+\bar under
+utenti
+\bar default
+ che per gli 
+\bar under
+utenti autenticati
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+La scelta di
+\bar under
+ HTML
+\bar default
+ è stata dettata da una serie di motivazioni:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piattaforma mobile: 
+\series default
+poichè l'applicazione dovrà essere fruibile anche da web, usare 
+\bar under
+XHTML
+\bar default
+ come linguaggio di programmazione web (assieme a 
+\bar under
+Javascript
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Regolamentazione delle pagine:
+\series default
+ poichè la piattaforma deve essere fruibile anche da browser mobile, il
+ semplice 
+\bar under
+XHTML
+\bar default
+, assieme al 
+\bar under
+CSS 
+\bar default
+permette di definire semplicemente pagine web che si adattino al browser
+\end_layout
+
+\begin_layout Subsection
+CSS
+\end_layout
+
+\begin_layout Subsection
+MySql
+\end_layout
+
+\begin_layout Subsection
+Android SDK
+\end_layout
+
+\begin_layout Subsection
+JSP
+\end_layout
+
+\begin_layout Subsection
+JavaBean
+\end_layout
+
+\begin_layout Subsection
+Spring
 \end_layout
 
 \end_body

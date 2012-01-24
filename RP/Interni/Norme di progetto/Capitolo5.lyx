@@ -1873,9 +1873,9 @@ verificatore
 \end_inset
 
  sia correttamente impostata in 
-\series bold
+\emph on
 italiano
-\series default
+\emph default
 .
  Per fare ciò, dovrà andare su 
 \emph on
@@ -1892,9 +1892,9 @@ Lingua
 \end_inset
 
 
-\series bold
+\emph on
 italiano
-\series default
+\emph default
 
 \begin_inset Quotes erd
 \end_inset
@@ -1920,7 +1920,19 @@ verificatore
 \series bold
 Grafici UML:
 \series default
- nel caso siano presenti dei grafici UML
+ nel caso siano presenti dei grafici UML, il 
+\emph on
+verificatore
+\emph default
+ dovrà controllare che tali grafici rispettino le norme descritte in sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Grafici-UML-1"
+
+\end_inset
+
+ procedendo tramite attenta osservazione di essi
 \end_layout
 
 \end_body
