@@ -74,8 +74,11 @@ L'utilizzo di
 Java
 \series default
  
+\series bold
 \bar default
-è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
+6
+\series default
+ è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
  con il 
 \begin_inset ERT
 status open
@@ -512,8 +515,9 @@ ogni volta che si deve caricare una pagina
 \bar under
 JSP
 \bar default
-, il server dovrà compilare a run-time la suddetta pagina, provocando così
- un piccolo ritardo nel caricamento della pagina
+, se sono state fatte modifiche al contenuto della suddetta, il server dovrà
+ compilare a run-time la pagina, provocando così un piccolo ritardo nel
+ caricamento della stessa
 \end_layout
 
 \end_deeper

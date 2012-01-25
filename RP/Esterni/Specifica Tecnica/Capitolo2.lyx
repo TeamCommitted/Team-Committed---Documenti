@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -80,9 +81,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename img/MVC.jpeg
 	scale 50
@@ -90,6 +88,10 @@ status open
 \end_inset
 
 
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schema del Design Pattern MVC
 \end_layout
 
 \end_inset
@@ -102,12 +104,23 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-Model-View-Controller è un pattern architetturale molto diffuso e che permette
- una completa disgiunzione delle funzionalità che il prodotto deve offrire,
- organizzando l'applicativo come segue: 
+\begin_layout Itemize
+
+\series bold
+Descrizione: 
+\series default
+\emph on
+Model-View-Controller
+\series bold
+ 
+\series default
+\emph default
+è un pattern architetturale molto diffuso e che permette una completa disgiunzio
+ne delle funzionalità che il prodotto deve offrire, organizzando l'applicativo
+ come segue: 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
@@ -140,12 +153,22 @@ Tale design-pattern è stato scelto in quanto largamente diffuso ed adottato
  da numerosissime tecnologie moderne.
  Esso garantisce infatti una solida struttura altamente manutenibile.
  
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Motivazione: 
+\series default
+il beneficio principale apportato da tale paradigma risiede nel fatto che
+ ogni livello può venire cambiato o aggiornato senza dover propagare le
+ modifiche ai livelli adiacenti.
+ 
 \begin_inset Newline newline
 \end_inset
 
-// Qui si parlerà poi dell'applicazione effettiva dell'MVC all'interno delle
- varie applicazioni in cui vogliamo implementarlo come per esempio l'app
- android, l'app JAVA o l'app web!
+Poichè ogni parte del sistema dovrà intera
 \end_layout
 
 \end_body

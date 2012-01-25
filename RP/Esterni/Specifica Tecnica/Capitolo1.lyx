@@ -141,7 +141,7 @@ Glossario
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V1.0.pdf
+Glossario-V2.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -155,15 +155,169 @@ Normativi
 \end_layout
 
 \begin_layout Itemize
-Norme di Progetto, v 2.0 (allegato Norme_di_Progetto_V2.0.pdf)
+
+\series bold
+Norme di Progetto, v 2.0 
+\series default
+(allegato 
+\family typewriter
+Norme_di_Progetto_V2.0.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Itemize
-Analisi dei Requisiti, v 2.0 (allegato Analisi_dei_Requisiti_V2.0.pdf)
+
+\series bold
+Analisi dei Requisiti, v 2.0
+\series default
+ (allegato 
+\family typewriter
+Analisi_dei_Requisiti_V2.0.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Subsubsection
 Informativi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Java 6 SDK
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://docs.oracle.com/javase/6/docs/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+W3School 
+\series bold
+XHTML 1.1
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.w3school.com/html/html_xhtml.asp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+W3School 
+\series bold
+CSS 3
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.w3school.com/css/default.asp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MySql
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://dev.mysql.com/doc/refman/5.5/en/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+JSP
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://java.sun.com/products/jsp/syntax/2.0/synstaxref20.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tomcat
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://tomcat.apache.org/tomcat-6.0-doc/index.html
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
