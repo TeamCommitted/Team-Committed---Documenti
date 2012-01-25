@@ -320,5 +320,64 @@ CWEB 5:
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Il 
+\bar under
+back-end 
+\bar default
+si occuperà di fornire un'interfaccia grafica ai vari amministratori, quindi
+ 
+\bar under
+Amministratore Azienda
+\bar default
+, 
+\bar under
+Amministratore Sicurezza
+\bar default
+ e 
+\bar under
+Amministratore Installazione
+\bar default
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ formato dai seguenti componenti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 1:
+\series default
+ Gestione Utenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 2:
+\series default
+ Gestione Punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 3:
+\series default
+ Gestione Domande Azienda
+\end_layout
+
 \end_body
 \end_document
