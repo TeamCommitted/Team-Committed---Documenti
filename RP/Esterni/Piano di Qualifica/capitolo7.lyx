@@ -90,5 +90,51 @@ Il lavoro svolto per la fase di Revisione dei Requisiti è stato valutato
  le operazioni di correzione:
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Analisi dei requisiti: 
+\series default
+Sono stati completamente rivisti e modificati i diagrammi dei casi d'uso
+ e le relative descrizioni, eliminando gli errori e le imprecisioni riscontrate.
+ Sono stati poi di conseguenza eliminati, modificati o aggiunti alcuni requisiti
+ ed è stato rieffettuato infine il tracciamento Casi d'uso - Requisiti.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto: 
+\series default
+Ridefinito l'inizio delle attività di verifica, ora correttamente distribuite
+ lungo tutto l'arco del progetto.
+ Unificate in un'unica sezione la Pianificazione ed il Preventivo economico.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica:
+\series default
+ Approfondite le operazioni di inspection nei documenti e nel codice.
+ Migliorata la descrizione dell'organizzazione delle strategie di verifica
+ ed aggiunto uno specifico capitolo inerente alle strategie di verifica
+ vere e proprie.
+ Migliorata la descrizione della fase di verifica svolta nella fase di Revisione
+ dei Requisiti.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto: 
+\series default
+Corretta la notazione della data.
+ Dettagliato maggiormente il documento per quanto riguarda le procedure
+ e gli strumenti utilizzati.
+ 
+\end_layout
+
 \end_body
 \end_document
