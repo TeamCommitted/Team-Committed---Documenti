@@ -60,7 +60,34 @@
 \begin_body
 
 \begin_layout Section
-Back-end
+Dettaglio dell'esito delle revisioni
+\end_layout
+
+\begin_layout Standard
+Ad ogni revisione che il grupo deve sostenere, dovrà essere presentata al
+ committente l'apposita documentazione prodotta corredata da una presentazione
+ orale di quanto realizzato allo scopo di valutare lo stato di avanzamento
+ dei lavori.
+ Il committente a questo punto produrrà una valutazione dettagliata del
+ lavoro svolto, documento per documento.
+ Gli eventuali errori ed inesattezze che sorgeranno da tale valutazione,
+ così come le migliorie proposte, dovranno produrre una correzione e modifica
+ dei documenti in modo tale da evitare il perpetuarsi di inesattezze nelle
+ revisioni successive.
+\end_layout
+
+\begin_layout Subsection
+Revisione dei Requisiti
+\end_layout
+
+\begin_layout Standard
+Il lavoro svolto per la fase di Revisione dei Requisiti è stato valutato
+ positivamente, dimostrando che il materiale prodotto era sufficientemente
+ adeguato.
+ Sono state comunque segnalati alcuni errori e problematiche principalmente
+ nei documenti di Analisi dei Requisiti, Piano di Progetto, Piano di Qualifica
+ e Norme di Progetto; di seguito verranno quindi riportate nel dettaglio
+ le operazioni di correzione:
 \end_layout
 
 \end_body

@@ -1042,6 +1042,89 @@ Eliminazione di caratteri extra, non previsti dalle norme, creati da Bouml
 
 \end_deeper
 \begin_layout Standard
+Per quanto riguarda invece l'inspection del codice, seguiremo alcuni punti
+ guida:
+\end_layout
+
+\begin_layout Itemize
+Le variabili di programma devono essere inizializzate prima che il loro
+ valore sia utilizzato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Tutte le costanti devono avere un nome.
+ 
+\end_layout
+
+\begin_layout Itemize
+Il limite superiore degli array deve essere uguale alla loro dimensione
+ o alla dimensione-1.
+ 
+\end_layout
+
+\begin_layout Itemize
+Controllare la presenza di eventuali buffer overflow.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare che la condizione delle istruzioni condizionali sia corretta.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ogni ciclo deve essere ultimato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le istruzioni composte devono essere correttamente messe fra parentesi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+ 
+\end_layout
+
+\begin_layout Itemize
+I break devono essere correttamente utilizzati se richiesti.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di output devono possedere un valore prima che vengano restituite.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare gli effetti degli input imprevisti.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le chiamate a funzione e a metodo devono possedere il corretto numero di
+ parametri.
+\end_layout
+
+\begin_layout Itemize
+Il tipo dei parametri formali e reali deve corrispondere.
+\end_layout
+
+\begin_layout Itemize
+Corretta disposizione dei parametri.
+\end_layout
+
+\begin_layout Itemize
+Verificare che siano state prese in considerazione tutte le possibili condizioni
+ di errore.
+\end_layout
+
+\begin_layout Standard
 Chiaramente la tecnica dell'
 \emph on
 inspection
@@ -1050,6 +1133,7 @@ inspection
 ezza iniziale del proprio codice e delle proprie capacità.
 \end_layout
 
+\end_deeper
 \begin_layout Paragraph
 Metodi di Analisi Statica:
 \end_layout
@@ -1064,6 +1148,7 @@ Analisi del flusso di controllo
  non raggiungibile
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
@@ -1145,6 +1230,94 @@ Test di regressione
  a quel componente
 \end_layout
 
+\end_deeper
+\begin_layout Subsubsection
+Strategie per la verifica
+\end_layout
+
+\begin_layout Standard
+Le strategie per effettuare operazioni di verifica prevedono quattro fasi
+ principali che verranno di seguito descritte:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica di accettabilità: 
+\series default
+per l'accettazione, Team Committed si prefiggerà di testare che le funzionalità
+ illustrate all'interno dei requisiti siano coperte dagli appositi test
+ di unità ed integrazione oltre che da prove funzionali sul sistema.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica del disegno architetturale:
+\series default
+ Dopo aver realizzato lo schema architetturale del prodotto verrà ferificato
+ che siano rispettati alcuni precisi principi di seguito elencati:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Layering: le classi devono rispettare una struttura gerarchica
+\end_layout
+
+\begin_layout Itemize
+Packaging: le classi devono essere accorpate con una certa logica
+\end_layout
+
+\begin_layout Itemize
+Coesione: una unità è progettata in modo tale da rispondere unicamente ai
+ requisiti ad essa associati nel tracciamento dei requisiti
+\end_layout
+
+\begin_layout Itemize
+Accoppiamento ridotto: le classi saranno progettate in modo tale che siano
+ il più possibile indipendenti
+\end_layout
+
+\begin_layout Standard
+Questa fase di verifica verrà eseguita anche grazie all'ausilio di apposite
+ metriche descritte in 
+\begin_inset Quotes eld
+\end_inset
+
+Misure e Metriche
+\begin_inset Quotes erd
+\end_inset
+
+ ( 2.5.4)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Verifica del codice: 
+\series default
+La verifica del codica ha diversi obiettivi, il primo può essere identificato
+ nel trovare, segnalare ed isolare quelle parti di codice che non sono conformi
+ alle norme stabilite in precedenza nel documento Norme di progetto, attraverso
+ una fase di analisi statica.
+ Un altro obiettivo può essere l'identificazione di quelle parti di codice
+ soggette ad errori di programmazione mediante analisi dinamica.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica di performance e criticità:
+\series default
+ le performance e la criticità sono elementi che dipendono fortemente dall'infra
+struttura di rete e dai server su cui risiederà l'applicazione.
+ Team Committed si impegna quindi ad effettuare le dovute misurazioni riguardant
+i il carico di lavoro e la stabilità del sistema nel caso di picchi di richieste
+, questo per verificare la robustezza e reattività del sistema.
+\end_layout
+
 \begin_layout Subsubsection
 Misure e Metriche
 \end_layout
@@ -1185,6 +1358,7 @@ Complessità ciclomatica:
  di complessità sarà 1, poiché esiste un solo cammino
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
