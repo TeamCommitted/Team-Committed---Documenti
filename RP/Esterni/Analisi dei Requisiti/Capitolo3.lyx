@@ -269,7 +269,7 @@ può effettuare il logout
 \end_layout
 
 \begin_layout Subsubsection
-UCU 1: Ambito Dipendente, login
+UCD 1: Ambito Dipendente, login
 \end_layout
 
 \begin_layout Standard
@@ -934,7 +934,7 @@ Dipendente Autenticato
 mail.
  Un 
 \bar under
-Utente
+Utente Autenticato
 \bar default
  può modificare la propria password.
 \series bold
@@ -957,6 +957,10 @@ Le modifiche sono state salvate in modo corretto, il sistema ha inviato
 \bar under
 Utente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -969,7 +973,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 Un
 \bar under
- Utente
+ Utente Autenticato
 \bar default
  può modificare la propria password
 \end_layout
@@ -990,6 +994,10 @@ Autenticato
 Un 
 \bar under
 Utente
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
 , dopo aver modificato la password o l'e
 \series bold
@@ -1022,11 +1030,7 @@ Il
 \bar under
 Dipendente
 \bar default
-
-\begin_inset space ~
-\end_inset
-
-
+ 
 \bar under
 Autenticato
 \bar default
