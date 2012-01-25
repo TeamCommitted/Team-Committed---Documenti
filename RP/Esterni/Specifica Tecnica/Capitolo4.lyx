@@ -69,7 +69,7 @@ L'applicativo è stato progettato come unione di quattro sottoinsiemi, come
  mostrato in figura 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Architettura-generale-dell'inter"
+reference "fig:Architettura-generale-dell'inter-1"
 
 \end_inset
 
@@ -377,6 +377,61 @@ CBACK 2:
 CBACK 3:
 \series default
  Gestione Domande Azienda
+\end_layout
+
+\begin_layout Standard
+Oltre a questa separazione in componenti, i sottosistemi sono stati divisi
+ in livelli orizzontali, composti da elementi affini tra di loro, come mostrato
+ in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Architettura-generale-dell'inter-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/SchemaGeneraleArch.jpeg
+	scale 27
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Architettura generale dell'intero sistema
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Architettura-generale-dell'inter-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
