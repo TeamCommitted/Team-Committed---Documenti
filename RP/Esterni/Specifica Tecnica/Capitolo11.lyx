@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -37,8 +38,8 @@
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\use_refstyle 1
-\index Index
+\use_refstyle 0
+\index Indice
 \shortcut idx
 \color #008000
 \end_index
@@ -49,9 +50,9 @@
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
-\output_changes false
+\output_changes true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -60,7 +61,7 @@
 \begin_body
 
 \begin_layout Section
-Back-end
+Prototipi di interfaccia utente
 \end_layout
 
 \end_body
