@@ -64,5 +64,261 @@
 Architettura Generale
 \end_layout
 
+\begin_layout Standard
+L'applicativo è stato progettato come unione di quattro sottoinsiemi, come
+ mostrato in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Architettura-generale-dell'inter"
+
+\end_inset
+
+.
+ Ogni sottosistema è stato inoltre suddiviso in componenti, i quali sono
+ indipendenti tra di loro o, in ogni caso, con un basso indice di accoppiamento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/architettura generale.jpg
+	scale 15
+	scaleBeforeRotation
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Architettura-generale-dell'inter"
+
+\end_inset
+
+Architettura generale dell'intero sistema SafetyGame
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Come specificato nell'
+\emph on
+Analisi dei Requisiti
+\emph default
+, il 
+\bar under
+front-end
+\bar default
+ è stato diviso in tre parti e principalmente si occuperanno di fornire
+ l'interfaccia grafica agli utenti di tipo 
+\bar under
+Dipendente
+\bar default
+.
+ In particolare abbiamo suddiviso il 
+\bar under
+front-end
+\bar default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Desktop: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+desktop
+\begin_inset Quotes erd
+\end_inset
+
+ si occuperà di gestire la temporizzazione delle domande da sottoporre al
+ 
+\bar under
+Dipendente
+\bar default
+, mostrandogli un pop-up di notifica ogni qualvolta sia giunto il tempo
+ di proporre una nuova domanda.
+ Questo sistema è formato dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CDESK 1: 
+\series default
+Login dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CDESK 2: 
+\series default
+Notifica nuova domanda
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Mobile: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+mobile
+\begin_inset Quotes erd
+\end_inset
+
+ si occuperà dei 
+\bar under
+dispositivi mobili Android
+\bar default
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ composto dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CMOB 1:
+\series default
+ Login dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 2:
+\series default
+ Rispondere nuova domanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 3:
+\series default
+ Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 4:
+\series default
+ Notifica nuova domanda
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Web: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+web
+\begin_inset Quotes erd
+\end_inset
+
+ gestirà la somministrazione delle domande sia al 
+\bar under
+Dipendente 
+\bar default
+connesso tramite applicazione desktop, sia a tutti gli utenti che sono connessi
+ tramite browser.
+ Esso è composto dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CWEB 1:
+\series default
+ Login dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 2:
+\series default
+ Gestione dati utente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 3:
+\series default
+ Rispondere nuova domanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 4:
+\series default
+ Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 5:
+\series default
+ Notifica nuova domanda
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
