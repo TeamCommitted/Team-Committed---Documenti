@@ -86,7 +86,7 @@ Piattaforma Mobile di Apprendimento Comportamentale
 \end_layout
 
 \begin_layout Subsection
-UCG 1: Ambito Utente, caso d'uso generale
+UCG 1: Ambito Dipendente, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -99,385 +99,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCG 1.PNG
-	scale 57
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Utente, caso d'uso generale.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Utente
-\bar default
-, 
-\bar under
-Utente Autenticato
-\bar default
-, 
-\bar under
-Dipendente
-\bar default
-, 
-\bar under
-Amministratore
-\bar default
- 
-\bar under
-Azienda
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- può effettuare il login divenendo 
-\bar under
-Utente Autenticato
-\bar default
- o modificare la password dimenticata.
- L'
-\bar under
-Utente Autenticato
-\bar default
- può effettuare il logout e compiere le azioni proprie del tipo di autenticazion
-e effettuata.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione: 
-\series default
-Il sistema è funzionante, l'account dell'
-\bar under
-Utente
-\bar default
- è presente nel database.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- è operativo a seconda dei suoi poteri.
- Il sistema è funzionante.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente
-\bar default
- può effettuare il login
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente
-\bar default
- può modificare la password dimenticata, fornendo alcuni dati del proprio
- account e ricevendo una e-mail di conferma sul relativo indirizzo e-mail
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente Autenticato
-\bar default
- può effettuare il logout
-\end_layout
-
-\begin_layout Subsubsection
-UCU 1: Ambito Utente, login
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Utente
-\bar default
-, 
-\bar under
-Utente Autenticato
-\series bold
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- può effettuare il login tramite pagina 
-\bar under
-web
-\bar default
- o tramite applicazione installata nei 
-\bar under
-dispositivi aziendali
-\bar default
- inserendo la sua username e password, diventando 
-\bar under
-Utente Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- L'account dell'
-\bar under
-Utente
-\bar default
- è presente nel database
-\series bold
-.
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-All'
-\bar under
-Utente Autenticato
-\bar default
- vengono proposte le azioni che può effettuare nell'applicazione
-\series bold
-.
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente
-\bar default
- inserisce username e password, diventando 
-\bar under
-Utente Autenticato
-\end_layout
-
-\begin_layout Subsubsection
-UCU 2: Ambito Utente, modifica password dimenticata
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Utente
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- può modificare la propria password
-\series bold
- 
-\series default
-inserendo il proprio codice fiscale e l'e-mail
-\series bold
- 
-\series default
-relativa al proprio account
-\series bold
-.
-\begin_inset Newline newline
-\end_inset
-
-Precondizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- non ha effettuato il login.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-L'
-\bar under
-Utente
-\bar default
- riceve una mail con i propri dati account già modificati.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente
-\bar default
- fornisce il proprio codice fiscale e l'indirizzo e-mail del proprio account
-\end_layout
-
-\begin_layout Enumerate
-Riceve nella casella e-mail inserita una password auto generata randomicamente
- che dovrà essere modificata al primo login
-\end_layout
-
-\begin_layout Subsubsection
-UCUA 1: Ambito Utente Autenticato, logout
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Utente Autenticato
-\bar default
-, 
-\bar under
-Utente
-\series bold
-\bar default
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Utente Autenticato
-\bar default
- può uscire dall'applicazione, senza poterla terminare.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Il sistema è in attesa di input dall'
-\bar under
-Utente Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-L'
-\bar under
-Utente Autenticato
-\bar default
- è diventato 
-\bar under
-Utente
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Utente Autenticato
-\bar default
- effettua il logout, diventando 
-\bar under
-Utente
-\end_layout
-
-\begin_layout Subsection
-UCG 2: Ambito Dipendente, caso d' uso generale
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCG 2.png
+	filename UML/UCG 1.png
 	scale 52
 
 \end_inset
@@ -510,6 +132,10 @@ Attori Coinvolti:
 \bar under
 Dipendente
 \bar default
+, 
+\bar under
+Dipendente Autenticato
+\bar default
 .
 \series bold
 
@@ -518,14 +144,28 @@ Dipendente
 
 Scopo e Descrizione: 
 \series default
-Al 
+Il 
 \bar under
 Dipendente
+\series bold
+\bar default
+ 
+\series default
+può effettuare il login nel sistema diventando 
+\bar under
+Dipendente Autenticato
+\bar default
+, o nel caso abbia smarrito la password può procedere con la modifica della
+ stessa.
+ Al 
+\bar under
+Dipendente Autenticato
 \bar default
  possono venire proposte delle domande dal sistema, deve poter richiedere
  che gliene venga proposta una in ogni momento e deve poter visualizzare
  i suoi punteggi in qualsiasi momento.
- Può inoltre modificare o visualizzare i propri dati account.
+ Può inoltre effettuare il logout dalla postazione (senza terminare l'applicazio
+n) e modificare o visualizzare i propri dati account.
 \series bold
 
 \begin_inset Newline newline
@@ -533,15 +173,16 @@ Dipendente
 
 Precondizione:
 \series default
- Il sistema è funzionante, l'
-\bar under
-Utente
-\bar default
- ha effettuato il login come 
+ Il sistema è funzionante.
+
+\series bold
+ 
+\series default
+L'account del 
 \bar under
 Dipendente
 \bar default
- nel sistema.
+ è presente nel database.
 \series bold
 
 \begin_inset Newline newline
@@ -549,16 +190,11 @@ Dipendente
 
 Postcondizione:
 \series default
- L'
-\bar under
-Utente
-\bar default
- è ancora loggato come 
+ Il sistema memorizza le azioni intraprese dal 
 \bar under
 Dipendente
 \bar default
- e può aver effettuato una o più delle operazioni consentite rimanendo in
- uno stato consistente.
+ (autenticato o no).
  L'applicazione continua a funzionare.
 \series bold
 
@@ -573,13 +209,29 @@ Il
 \bar under
 Dipendente
 \bar default
- può ricevere una domanda proposta dal sistema
+ può effettuare il login
 \end_layout
 
 \begin_layout Enumerate
 Il 
 \bar under
 Dipendente
+\bar default
+ può modificare la propria password di accesso all'applicazione
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente Autenticato
+\bar default
+ può ricevere una domanda proposta dal sistema
+\end_layout
+
+\begin_layout Enumerate
+Il
+\bar under
+ Dipendente Autenticato
 \bar default
  può richiedere al sistema di proporgli una domanda
 \end_layout
@@ -587,7 +239,7 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può visualizzare i suoi punteggi
 \end_layout
@@ -595,7 +247,7 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può modificare i propri dati account
 \end_layout
@@ -603,13 +255,184 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può visualizzare i propri dati account
 \end_layout
 
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente Autenticato 
+\bar default
+può effettuare il logout
+\end_layout
+
 \begin_layout Subsubsection
-UCD 1: Ambito Dipendente, domanda proposta
+UCU 1: Ambito Dipendente, login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+Il
+\bar under
+ Dipendente
+\bar default
+ può effettuare il login tramite pagina 
+\bar under
+web
+\bar default
+ o tramite applicazione installata nei 
+\bar under
+dispositivi aziendali
+\bar default
+ inserendo la sua username e password, diventando 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il sito 
+\bar under
+web
+\bar default
+ è in funzione.
+
+\series bold
+ 
+\series default
+L'applicazione è attiva.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Al 
+\bar under
+Dipendente Autenticato
+\bar default
+ vengono proposte le azioni che può effettuare nell'applicazione se le credenzia
+li sono valide.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente 
+\bar default
+inserisce username e password, diventando 
+\bar under
+Dipendente Autenticato
+\end_layout
+
+\begin_layout Subsubsection
+UCD 2: Ambito Dipendente, modifica password dimenticata
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Utente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+Un
+\bar under
+ Utente 
+\bar default
+può modificare la propria password
+\series bold
+ 
+\series default
+inserendo e-mail e codice fiscale.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione: 
+\series default
+Un 
+\bar under
+Utente
+\bar default
+ non ha effettuato il login.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Un 
+\bar under
+Utente
+\bar default
+ riceve una mail con i propri dati account già modificati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+Un 
+\bar under
+Utente
+\bar default
+ fornisce il proprio codice fiscale e l'indirizzo e-mail del proprio account
+\end_layout
+
+\begin_layout Enumerate
+Riceve nella casella e-mail inserita una password auto generata randomicamente
+ che dovrà essere nuovamente modificata al primo login
+\end_layout
+
+\begin_layout Subsubsection
+UCDA 3: Ambito Dipendente Autenticato, domanda proposta
 \end_layout
 
 \begin_layout Standard
@@ -619,6 +442,10 @@ Attori Coinvolti:
 \series default
 \bar under
 Dipendente
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
 .
 \series bold
@@ -630,11 +457,11 @@ Scopo e Descrizione:
 \series default
  Al 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  viene segnalata una domanda dal sistema, il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  deve poter decidere se visualizzare la domanda per rispondervi o se posticipare
  la visualizzazione.
@@ -649,6 +476,10 @@ Il sistema ha segnalato una domanda al
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -657,9 +488,9 @@ Dipendente
 
 Postcondizione: 
 \series default
-L'
+Il
 \bar under
-Utente
+ Dipendente Autenticato
 \bar default
  ha visualizzato o posticipato la domanda proposta.
 \series bold
@@ -673,7 +504,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  riceve una segnalazione di domanda dal sistema
 \end_layout
@@ -681,14 +512,14 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può visualizzare la domanda proposta o posticiparla per visualizzarla in
  seguito
 \end_layout
 
 \begin_layout Subsubsection
-UCD 1.1: Ambito Dipendente, mostra domanda
+UCDA 3.1: Ambito Dipendente Autenticato, mostra domanda
 \end_layout
 
 \begin_layout Standard
@@ -701,7 +532,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 1.1.PNG
+	filename UML/UCDA 3.1.png
 	scale 70
 
 \end_inset
@@ -714,7 +545,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, mostra domanda.
+Ambito Dipendente Autenticato, mostra domanda.
 \end_layout
 
 \end_inset
@@ -736,6 +567,10 @@ Attori Coinvolti:
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -746,16 +581,16 @@ Scopo e Descrizione:
 \series default
 La domanda mostrata al 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può essere una domanda mai vista, una domanda posticipata precedentemente,
  oppure una domanda già vista a cui il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  ha risposto in modo errato; il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  deve rispondere alla domanda mostrata.
  
@@ -768,7 +603,7 @@ Precondizione:
 \series default
  Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  ha scelto di visualizzare la domanda proposta dal sistema.
 \series bold
@@ -780,7 +615,7 @@ Postcondizione:
 \series default
  Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  ha risposto alla domanda proposta dal sistema.
 \series bold
@@ -798,13 +633,13 @@ Il sistema visualizza la domanda proposta
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  risponde alla domanda
 \end_layout
 
 \begin_layout Subsubsection
-UCD 2: Ambito Dipendente, richiesta domanda
+UCDA 4: Ambito Dipendente Autenticato, richiesta domanda
 \end_layout
 
 \begin_layout Standard
@@ -816,6 +651,10 @@ Attori Coinvolti:
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \begin_inset Newline newline
 \end_inset
@@ -826,12 +665,12 @@ Scopo e Descrizione:
 \series default
  Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può richiedere che il sistema gli proponga una domanda.
  Prima che il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  possa richiedere un'altra domanda deve passare un certo lasso di tempo
  predefinito.
@@ -855,6 +694,10 @@ Il sistema, a seconda del tempo trascorso dalla visualizzazione dell'ultima
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \begin_inset Newline newline
 \end_inset
@@ -869,6 +712,10 @@ Il
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
  richiede una domanda al sistema
 \end_layout
 
@@ -878,7 +725,7 @@ Il sistema propone una domanda se è passato abbastanza tempo dall'ultima
 \end_layout
 
 \begin_layout Subsubsection
-UCD 3: Ambito Dipendente, visione punteggi personali
+UCDA 5: Ambito Dipendente Autenticato, visione punteggi personali
 \end_layout
 
 \begin_layout Standard
@@ -891,7 +738,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 3.PNG
+	filename UML/UCDA 5.png
 	scale 70
 
 \end_inset
@@ -904,7 +751,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, visione punteggi personali.
+Ambito Dipendente Autenticato, visione punteggi personali.
 \end_layout
 
 \end_inset
@@ -926,6 +773,10 @@ Attori Coinvolti:
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -936,7 +787,7 @@ Scopo e Descrizione:
 \series default
  Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può controllare le domande a cui ha risposto, la classifica generale dei
  
@@ -963,6 +814,10 @@ Postcondizione:
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -975,7 +830,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può vedere le domande a cui ha risposto e la/e risposta/e che ha dato
 \end_layout
@@ -983,7 +838,7 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può vedere la propria posizione in classifica
 \end_layout
@@ -991,7 +846,7 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
  può vedere i propri trofei e badge
 \end_layout
@@ -1001,11 +856,15 @@ Il
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
  può vedere le proprie statistiche in base alle risposte date
 \end_layout
 
 \begin_layout Subsubsection
-UCD 4: Ambito Dipendente, modifica dati account
+UCDA 6: Ambito Dipendente Autenticato, modifica dati account
 \end_layout
 
 \begin_layout Standard
@@ -1018,7 +877,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCD 4.PNG
+	filename UML/UCDA 6.png
 	scale 70
 
 \end_inset
@@ -1031,7 +890,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Ambito Dipendente, modifica dati account.
+Ambito Dipendente Autenticato, modifica dati account.
 \end_layout
 
 \end_inset
@@ -1052,6 +911,10 @@ Attori coinvolti:
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -1062,13 +925,18 @@ Scopo e Descrizione:
 \series default
 Il 
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
- può modificare la propria password o la propria e
+ può modificare la propria la propria e
 \series bold
 -
 \series default
 mail.
+ Un 
+\bar under
+Utente
+\bar default
+ può modificare la propria password.
 \series bold
 
 \begin_inset Newline newline
@@ -1085,9 +953,9 @@ Precondizione:
 Postcondizione: 
 \series default
 Le modifiche sono state salvate in modo corretto, il sistema ha inviato
- una mail contenente i dati account al 
+ una mail contenente i dati account all' 
 \bar under
-Dipendente
+Utente
 \bar default
 .
 \series bold
@@ -1099,9 +967,9 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il 
+Un
 \bar under
-Dipendente
+ Utente
 \bar default
  può modificare la propria password
 \end_layout
@@ -1111,13 +979,17 @@ Il
 \bar under
 Dipendente
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
  può modificare la propria email
 \end_layout
 
 \begin_layout Enumerate
-Il 
+Un 
 \bar under
-Dipendente
+Utente
 \bar default
 , dopo aver modificato la password o l'e
 \series bold
@@ -1127,7 +999,7 @@ mail, riceve la comunicazione di conferma
 \end_layout
 
 \begin_layout Subsubsection
-UCD 5: Ambito Dipendente, visualizza dati account
+UCDA 7: Ambito Dipendente Autenticato, visualizza dati account
 \end_layout
 
 \begin_layout Standard
@@ -1136,7 +1008,7 @@ UCD 5: Ambito Dipendente, visualizza dati account
 Attori coinvolti: 
 \series default
 \bar under
-Dipendente
+Dipendente Autenticato
 \bar default
 .
 \series bold
@@ -1146,7 +1018,19 @@ Dipendente
 
 Scopo e Descrizione: 
 \series default
-Il Dipendente può osservare i dati del proprio account.
+Il 
+\bar under
+Dipendente
+\bar default
+
+\begin_inset space ~
+\end_inset
+
+
+\bar under
+Autenticato
+\bar default
+ può osservare i dati del proprio account.
 \series bold
 
 \begin_inset Newline newline
@@ -1162,7 +1046,15 @@ Il sistema riceve l'input di mostrare i dati dell'account.
 
 Postcondizione:
 \series default
- Il sistema mostra la pagina delle azioni principali del Dipendente.
+ Il sistema mostra la pagina delle azioni principali del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1172,12 +1064,94 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Il Dipendente visualizza lo stato dei propri dati: Username, e-mail, codice
- fiscale, status aziendale, nome, cognome
+Il 
+\bar under
+Dipendente Autenticato
+\bar default
+ visualizza lo stato dei propri dati: Username, e-mail, codice fiscale,
+ status aziendale, nome, cognome
+\end_layout
+
+\begin_layout Subsubsection
+UCDA 8: Ambito Dipendente Autenticato, logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Dipendente Autenticato
+\bar default
+, 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\bar under
+ 
+\series default
+\bar default
+Il
+\bar under
+ Dipendente Autenticato
+\bar default
+ può uscire dall'applicazione, senza poterla terminare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il sistema è in attesa di input dal 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Il 
+\bar under
+Dipendente Autenticato
+\bar default
+ è diventato 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente Autenticato
+\bar default
+ effettua il logout, diventando 
+\bar under
+Dipendente
 \end_layout
 
 \begin_layout Subsection
-UCG 3: Ambito Amministratore Azienda, caso d' uso generale
+UCG 2: Ambito Amministratore Azienda, caso d' uso generale
 \end_layout
 
 \begin_layout Standard
@@ -1190,7 +1164,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCG 3.png
+	filename UML/UCG 2.png
 	scale 75
 
 \end_inset
@@ -1229,7 +1203,11 @@ Attori Coinvolti:
 \bar under
 Amministratore Azienda
 \bar default
-.
+, 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ .
 \series bold
 
 \begin_inset Newline newline
@@ -1241,6 +1219,15 @@ Scopo e Descrizione:
 \bar under
 Amministratore Azienda
 \bar default
+ effettuare il login diventando 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ o richiedere la modifica della password dimenticata.
+ L'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
  può visualizzare i dati sensibili ed i punteggi relativi ad ogni 
 \bar under
 Dipendente
@@ -1250,7 +1237,7 @@ Dipendente
 \bar under
 Dipendenti
 \bar default
-.
+, di modificare la propria password o di effettuare il logout.
 \series bold
 
 \begin_inset Newline newline
@@ -1258,15 +1245,16 @@ Dipendenti
 
 Precondizione:
 \series default
- Sistema funzionante con database di utenti funzionante, l'
+ Sistema funzionante con database dei 
 \bar under
-Utente
+Dipendenti
 \bar default
- ha effettuato il login come 
-\bar under
-Amministratore Azienda
-\bar default
- nel sistema.
+ funzionante.
+
+\series bold
+ 
+\series default
+Il sistema è funzionante.
 \series bold
 
 \begin_inset Newline newline
@@ -1276,15 +1264,11 @@ Postcondizione:
 \series default
  L'
 \bar under
-Utente
-\bar default
- è ancora loggato come 
-\bar under
 Amministratore Azienda
 \bar default
- ed ha effettuato una delle operazioni consentite rimanendo in uno stato
- consistente.
- Il sistema è funzionante.
+ ha effettuato una delle operazioni consentite facendo rimanere il sistema
+ in uno stato consistente.
+ 
 \series bold
 
 \begin_inset Newline newline
@@ -1298,6 +1282,22 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
+ può effettuare il login
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda
+\bar default
+ può modificare la password dimenticata
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
  può gestire gli account dei 
 \bar under
 Dipendenti
@@ -1306,9 +1306,9 @@ Dipendenti
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
- può visualizzare i dati sensibili dei 
+ può visualizzare i dati personali dei 
 \bar under
 Dipendenti
 \end_layout
@@ -1316,15 +1316,112 @@ Dipendenti
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può visualizzare i punteggi dei 
 \bar under
 Dipendenti
 \end_layout
 
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ può modificare la password
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda Autenticato 
+\bar default
+può terminare la sessione
+\end_layout
+
 \begin_layout Subsubsection
-UCAA 1: Ambito Amministratore Azienda, gestione dipendenti
+UCAA 1: Ambito Amministratore Azienda, login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Azienda
+\bar default
+, 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione: 
+\series default
+Il
+\bar under
+ Amministratore Azienda
+\bar default
+ può effettuare il login tramite pagina 
+\bar under
+web
+\bar default
+ inserendo la sua username e password, diventando 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il sito 
+\bar under
+web
+\bar default
+ è in funzione.
+
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Al 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ vengono proposte le azioni che può effettuare nell'applicazione se le credenzia
+li sono valide.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Amministratore Azienda 
+\bar default
+inserisce username e password, diventando 
+\bar under
+Amministratore Azienda Autenticato
+\end_layout
+
+\begin_layout Subsubsection
+UCAAA 2: Ambito Amministratore Azienda Autenticato, gestione dipendenti
 \end_layout
 
 \begin_layout Standard
@@ -1337,7 +1434,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCAA 1.PNG
+	filename UML/UCAAA 2.png
 	scale 70
 
 \end_inset
@@ -1354,7 +1451,7 @@ Ambito Amministratore
 \bar under
  
 \bar default
-Azienda, gestione dipendenti.
+Azienda Autenticato, gestione dipendenti.
 \end_layout
 
 \end_inset
@@ -1376,6 +1473,10 @@ Attori Coinvolti:
 \bar under
 Amministratore Azienda
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -1387,6 +1488,10 @@ Scopo e Descrizione:
  L'
 \bar under
 Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
  può aggiungere od eliminare account 
 \bar under
@@ -1402,7 +1507,7 @@ Precondizione:
 \series default
  Il sistema mostra le azioni che l'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può effettuare per gestire un account 
 \bar under
@@ -1442,7 +1547,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può aggiungere un nuovo account 
 \bar under
@@ -1452,7 +1557,7 @@ Dipendente
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può eliminare un account 
 \bar under
@@ -1464,7 +1569,7 @@ Dipendente
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può modificare i dati personali di un account 
 \bar under
@@ -1474,7 +1579,7 @@ Dipendente
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 1.1: Ambito Amministratore Azienda, aggiungi Dipendente
+UCAAA 2.1: Ambito Amministratore Azienda Autenticato, aggiungi Dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1486,6 +1591,10 @@ Attori Coinvolti:
 \bar under
 Amministratore Azienda
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -1496,7 +1605,7 @@ Scopo e Descrizione:
 \series default
  L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può aggiungere un account 
 \bar under
@@ -1546,7 +1655,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  aggiunge un account 
 \bar under
@@ -1564,7 +1673,7 @@ Dipendente
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 1.3: Ambito Amministratore Azienda, modifica dati Dipendente
+UCAAA 2.3: Ambito Amministratore Azienda Autenticato, modifica dati Dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1576,6 +1685,10 @@ Attori Coinvolti:
 \bar under
 Amministratore Azienda
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
 .
 \series bold
 
@@ -1586,7 +1699,7 @@ Scopo e Descrizione:
 \series default
  L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può aggiungere e modificare i dati del 
 \bar under
@@ -1632,7 +1745,7 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può modificare il campo nome del 
 \bar under
@@ -1644,6 +1757,10 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
  può modificare il campo cognome del 
 \bar under
 Dipendente
@@ -1652,7 +1769,7 @@ Dipendente
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può modificare il campo e-mail del 
 \bar under
@@ -1662,7 +1779,7 @@ Dipendente
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  può modificare il campo impiego del 
 \bar under
@@ -1674,13 +1791,17 @@ L'
 \bar under
 Amministratore Azienda
 \bar default
+ 
+\bar under
+Autenticato
+\bar default
  può modificare il campo codice fiscale del 
 \bar under
 Dipendente
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 2: Ambito Amministratore Azienda, visualizza dati dipendente
+UCAAA 3: Ambito Amministratore Azienda Autenticato, visualizza dati dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1690,6 +1811,10 @@ Attori coinvolti:
 \series default
 \bar under
 Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
 .
 \series bold
@@ -1701,12 +1826,12 @@ Scopo e Descrizione:
 \series default
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \series bold
 \bar default
  
 \series default
-può visualizzare i dati personali dei 
+può visualizzare tutti i dati personali dei 
 \bar under
 Dipendenti
 \bar default
@@ -1746,13 +1871,14 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  visualizza i dati personali di un dipendente
 \end_layout
 
 \begin_layout Subsubsection
-UCAA 3: Ambito Amministratore Azienda, visualizza punteggi dipendente
+UCAAA 4: Ambito Amministratore Azienda Autenticato, visualizza punteggi
+ dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1762,6 +1888,10 @@ Attori coinvolti:
 \series default
 \bar under
 Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
 .
 \series bold
@@ -1773,12 +1903,12 @@ Scopo e Descrizione:
 \series default
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \series bold
 \bar default
  
 \series default
-può visualizzare i punteggi dei 
+può visualizzare tutti i punteggi dei 
 \bar under
 Dipendenti
 \bar default
@@ -1818,13 +1948,91 @@ Flusso principale degli eventi:
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Azienda
+Amministratore Azienda Autenticato
 \bar default
  visualizza i punteggi di un dipendente
 \end_layout
 
+\begin_layout Subsubsection
+UCAAA 5: Ambito Amministratore Azienda Autenticato, logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori coinvolti: 
+\series default
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\bar under
+ 
+\series default
+\bar default
+Il
+\bar under
+ Amministratore Azienda Autenticato
+\bar default
+ può uscire dall'applicazione, senza poterla terminare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ Il sistema è in attesa di input dal 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione: 
+\series default
+Il 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ è diventato 
+\bar under
+Amministratore Azienda
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ effettua il logout, diventando 
+\bar under
+Amministratore Azienda
+\end_layout
+
 \begin_layout Subsection
-UCG 4: Ambito Amministratore Sicurezza, caso d' uso generale.
+UCG 3: Ambito Amministratore Sicurezza, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -1837,7 +2045,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCG 4.png
+	filename UML/UCG 3.png
 	scale 78
 
 \end_inset
@@ -1872,6 +2080,10 @@ Attori coinvolti:
 \bar under
 Amministratore Sicurezza
 \bar default
+, 
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
 .
 \series bold
 
@@ -1888,13 +2100,13 @@ Amministratore Sicurezza
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
-.
+ oppure modificare la password dimenticata.
  L'
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
- può modificare il database di domande, consultare le domande o effettuare
- il logout tornando 
+ può modificare il database di domande, consultare le domande, modificare
+ la propria password o effettuare il logout tornando 
 \bar under
 Amministratore Sicurezza
 \bar default
@@ -1907,6 +2119,11 @@ Amministratore Sicurezza
 Precondizione:
 \series default
  Sistema funzionante con database di domande esistente.
+ Il
+\series bold
+ 
+\series default
+sistema è funzionante.
 \series bold
 
 \begin_inset Newline newline
@@ -1935,6 +2152,14 @@ Amministratore Sicurezza
 \begin_layout Enumerate
 L'
 \bar under
+Amministratore Sicurezza
+\bar default
+ può modificare la propria password dimenticata
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
 Amministratore Sicurezza Autenticato
 \bar default
  può vedere il database di domande
@@ -1946,6 +2171,14 @@ L'
 Amministratore Sicurezza Autenticato
 \bar default
  può modificare il database di domande
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+ può modificare la propria password
 \end_layout
 
 \begin_layout Enumerate
@@ -2018,7 +2251,7 @@ All'
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
- vengono proposte le azioni che può effettuare.
+ vengono proposte le azioni che può effettuare se le credenziali sono valide.
 \series bold
 
 \begin_inset Newline newline
@@ -2038,7 +2271,7 @@ Amministratore Sicurezza Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCASA 1: Ambito Amministratore Sicurezza Autenticato, 
+UCASA 2: Ambito Amministratore Sicurezza Autenticato, 
 \series bold
 consultazione domande
 \end_layout
@@ -2097,7 +2330,7 @@ Amministratore Sicurezza Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-UCASA 2: Ambito Amministratore Sicurezza Autenticato, modifica database.
+UCASA 3: Ambito Amministratore Sicurezza Autenticato, modifica database.
 \end_layout
 
 \begin_layout Standard
@@ -2110,7 +2343,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCASA 2.PNG
+	filename UML/UCASA 3.png
 	scale 65
 
 \end_inset
@@ -2212,7 +2445,7 @@ Amministratore Sicurezza
 \end_layout
 
 \begin_layout Subsubsection
-UCASA 2.1: Ambito Amministratore Sicurezza Autenticato, aggiungi domanda.
+UCASA 3.1: Ambito Amministratore Sicurezza Autenticato, selezione domanda.
 \end_layout
 
 \begin_layout Standard
@@ -2236,8 +2469,8 @@ Scopo e Descrizione:
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
- può aggiungere una domanda specificando i vari parametri propri per la
- domanda in questione.
+ può aggiungere una domanda da sottoporre all'azienda, prendendola dal database
+ generale delle domoande.
 \series bold
 
 \begin_inset Newline newline
@@ -2253,7 +2486,7 @@ Precondizione:
 
 Postcondizione:
 \series default
- Vi è una domanda in più nel database di domande.
+ Vi è una domanda in più nel database di domande dell'azienda.
 \series bold
 
 \begin_inset Newline newline
@@ -2267,19 +2500,12 @@ L'
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
- aggiunge una domanda al database di domande specificando sempre il tipo
- della domanda, il testo della domanda, i testi delle risposte, le risposte
- corrette, la categoria dei 
-\bar under
-Dipendenti
-\bar default
-, la piattaforma e il punteggio.
- Inoltre può specificare anche il percorso all'eventuale immagine o video
- e il tempo per rispondere alla domanda
+ aggiunge una domanda al database di domande dell'azienda prendendola dal
+ database generale
 \end_layout
 
 \begin_layout Subsubsection
-UCASA 2.2: Ambito Amministratore Sicurezza Autenticato, modifica domanda.
+UCASA 3.2: Ambito Amministratore Sicurezza Autenticato, rimuovi domanda.
 \end_layout
 
 \begin_layout Standard
@@ -2290,6 +2516,10 @@ Attori Coinvolti:
  
 \bar under
 Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
 \bar default
 .
 \series bold
@@ -2303,7 +2533,7 @@ Scopo e Descrizione:
 \bar under
 Amministratore Sicurezza Autenticato
 \bar default
- può modificare la domanda in ogni sua parte (vedere flusso).
+ può togliere una domanda dall'insieme di domande da sottoporre all'azienda.
 \series bold
 
 \begin_inset Newline newline
@@ -2311,7 +2541,7 @@ Amministratore Sicurezza Autenticato
 
 Precondizione:
 \series default
- Esiste la domanda nel database di domande.
+ Esiste la domanda nel database di domande dell'azienda.
 \series bold
 
 \begin_inset Newline newline
@@ -2319,11 +2549,7 @@ Precondizione:
 
 Postcondizione:
 \series default
- La domanda è stata correttamente modificata secondo la scelta dell'
-\bar under
-Amministratore Sicurezza Autenticato
-\bar default
-.
+ La domanda è stata tolta dall'insieme di domande.
 \series bold
 
 \begin_inset Newline newline
@@ -2333,43 +2559,19 @@ Flusso principale degli eventi:
 \end_layout
 
 \begin_layout Enumerate
-Si può modificare il tipo della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare i testi delle risposte della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il testo della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la/e risposta/e corretta/e
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il percorso per l'immagine o il video
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la categoria ai quali sottoporre la domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la piattaforma per la quale la domanda è stata progettata
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare la temporizzazione della domanda
-\end_layout
-
-\begin_layout Enumerate
-Si può modificare il punteggio della risposta
+L'
+\bar under
+Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+rimuove una domanda da quelle presenti nel database dell'azienda
 \end_layout
 
 \begin_layout Subsubsection
-UCASA 3: Ambito Amministratore Sicurezza Autenticato, 
+UCASA 4: Ambito Amministratore Sicurezza Autenticato, 
 \series bold
 logout
 \end_layout
@@ -2446,7 +2648,7 @@ Amministratore Sicurezza
 \end_layout
 
 \begin_layout Subsection
-UCG 5: Ambito Amministratore Installatore, caso d' uso generale.
+UCG 4: Ambito Amministratore Installatore, caso d' uso generale.
 \end_layout
 
 \begin_layout Standard
@@ -2459,7 +2661,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename UML/UCG 5.png
+	filename UML/UCG 4.png
 	scale 68
 
 \end_inset
@@ -2498,10 +2700,6 @@ Attori Coinvolti:
 \bar under
 Amministratore Installatore
 \bar default
-, 
-\bar under
-Amministratore Installatore Autenticato
-\bar default
 .
 \series bold
 
@@ -2514,8 +2712,19 @@ Scopo e Descrizione:
 \bar under
 Amministratore Installatore
 \bar default
- può effettuare il login e gestire il server globale delle aziende oppure
- installare il software nella azienda relativa.
+ può installare il software nei 
+\bar under
+dispositivi fissi
+\bar default
+, nei 
+\bar under
+dispositivi mobili
+\bar default
+, creare il database nell'azienda o creare il sito di gestione 
+\bar under
+web
+\bar default
+ nell'azienda.
 \series bold
 
 \begin_inset Newline newline
@@ -2540,217 +2749,8 @@ Postcondizione:
 \bar under
 Amministratore Installatore
 \bar default
- ha effettuato il login o si è recato nell'azienda e ha installato il software
- su ogni dispositivo richiesto.
- L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- ha effettuato il logout o ha gestito il server globale delle aziende.
- Sistema funzionante.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore
-\bar default
- può effettuare il login diventando 
-\bar under
-Amministratore Installatore Autenticato
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore
-\bar default
- può installare il software recandosi nella azienda che lo ha richiesto
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può effettuare il logout diventando 
-\bar under
-Amministratore Installatore
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può gestire il server globale delle aziende
-\end_layout
-
-\begin_layout Subsubsection
-UCAI 1: Ambito Amministratore Installatore, login
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Amministratore Installatore
-\bar default
-, 
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Amministratore Installatore
-\bar default
- effettua il login sulla pagina web dedicata diventando 
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- L'account dell'
-\bar under
-Amministratore Installatore 
-\bar default
-è presente nel database.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-All'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- vengono proposte le azioni che può effettuare.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Sicurezza 
-\bar default
-inserisce username e password, diventando 
-\bar under
-Amministratore Sicurezza Autenticato
-\end_layout
-
-\begin_layout Subsubsection
-UCAI 2: Ambito Amministratore Installatore, installazione software.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCAI 2.png
-	scale 70
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Installatore, installazione software.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori Coinvolti:
-\series default
- 
-\bar under
-Amministratore Installatore
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore Installatore
-\bar default
- si reca nella azienda richiedente ad installare il software.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Le aziende hanno svolto tutte le pratiche per l'utilizzo del software.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- L'
-\bar under
-Amministratore Installatore
-\bar default
  si è recato nell'azienda e ha installato il software su ogni dispositivo
- richiesto.
- Sistema funzionante.
+ richiesto, creato il database o il sito.
 \series bold
 
 \begin_inset Newline newline
@@ -2764,7 +2764,17 @@ L'
 \bar under
 Amministratore Installatore
 \bar default
- può installare il software sui 
+ può installare il software per 
+\bar under
+dispositivi fissi
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Installatore
+\bar default
+ può installare il software per 
 \bar under
 dispositivi mobili
 \end_layout
@@ -2772,270 +2782,142 @@ dispositivi mobili
 \begin_layout Enumerate
 L'
 \bar under
-Amministratore Installatore
+Amministratore Installatore 
 \bar default
- può installare il software sui 
-\bar under
-dispositivi fissi
-\end_layout
-
-\begin_layout Subsubsection
-UCAIA 1: Ambito Amministratore Installatore Autenticato, gestione server
- aziende.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename UML/UCAIA 1.PNG
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Ambito Amministratore
-\bar under
- 
-\bar default
-Installatore
-\bar under
- 
-\bar default
-Autenticato, gestione server aziende.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori Coinvolti:
-\series default
- 
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può gestire il server aziende.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Esiste il database delle aziende.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- Il database delle aziende esiste ed è consistente.
- Sistema funzionante.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
+può creare il database dell'azienda
 \end_layout
 
 \begin_layout Enumerate
 L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può aggiungere una azienda
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può eliminare una azienda
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può modificare il link al database degli utenti di una azienda
-\end_layout
-
-\begin_layout Subsubsection
-UCAIA 1.1: Ambito Amministratore Installatore Autenticato, aggiungi azienda
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori Coinvolti:
-\series default
- 
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione:
-\series default
- L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può aggiungere una azienda.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- conosce i dati della azienda.
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione:
-\series default
- Il database delle aziende esiste ed è consistente.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi: 
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- aggiunge i dati di una azienda che sono composti da: nome dell'azienda,
- l'indirizzo al server dati, l'username dell'azienda e la password
-\end_layout
-
-\begin_layout Subsubsection
-UCAIA 2: Ambito Amministratore Installatore Autenticato, logout
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attori coinvolti: 
-\series default
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-, 
-\bar under
-Amministratore Installatore
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Scopo e Descrizione: 
-\series default
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- può terminare la sua sessione.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Precondizione:
-\series default
- Il sistema è in attesa di input dall'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Postcondizione: 
-\series default
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- è diventato 
-\bar under
-Amministratore Installatore
-\bar default
-, le modifiche apportate sono salvate.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Flusso principale degli eventi:
-\end_layout
-
-\begin_layout Enumerate
-L'
-\bar under
-Amministratore Installatore Autenticato
-\bar default
- effettua il logout, diventando 
 \bar under
 Amministratore Installatore 
+\bar default
+può creare il sito di gestione web dell'azienda
+\end_layout
+
+\begin_layout Subsubsection
+UCAI 3: Ambito Amministratore Installatore, crea database.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore Installatore
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore Installatore 
+\bar default
+può creare il database per il funzionamento dell'applicazione, l'insieme
+ degli utenti e la raccolta dei dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'azienda soddisfa i requisiti minimi di spazio e tecnologie per l'installazion
+e del database.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il database dell'azienda esiste ed è consistente.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Installatore 
+\bar default
+crea il database per il corretto funzionamento del sistema
+\end_layout
+
+\begin_layout Subsubsection
+UCAI 4: Ambito Amministratore Installatore, crea sito
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attori Coinvolti:
+\series default
+ 
+\bar under
+Amministratore Installatore
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Scopo e Descrizione:
+\series default
+ L'
+\bar under
+Amministratore Installatore 
+\bar default
+può creare il sito per l'accesso web delle funzionalità.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Precondizione:
+\series default
+ L'azienda soddisfa i requisiti minimi di spazio e tecnologie per l'installazion
+e del sito 
+\bar under
+web
+\bar default
+.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Postcondizione:
+\series default
+ Il sito dell'azienda esiste ed è pronto all'utilizzo.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Flusso principale degli eventi: 
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Installatore 
+\bar default
+crea il crea il sito internet per l'uso esterno delle funzionalità
 \end_layout
 
 \end_body

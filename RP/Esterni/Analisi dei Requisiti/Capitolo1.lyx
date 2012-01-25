@@ -171,6 +171,8 @@ Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzat
 Glossario-V2.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
+ Tutti i termini presenti nel glossario che vengono citati nel resto del
+ documento verranno sottolineati.
 \end_layout
 
 \begin_layout Subsection
@@ -196,7 +198,6 @@ status open
 
 \begin_layout Plain Layout
 
-\bar under
 
 \backslash
 proponProg
