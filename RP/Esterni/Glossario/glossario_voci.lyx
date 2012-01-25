@@ -1455,6 +1455,43 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{JavaBeans}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Le JavaBean (letteralmente, chicchi di Java) sono classi scritte in linguaggio
+ di programmazione Java secondo una particolare convenzione.
+ Sono usate per incapsulare molti oggetti in un singolo oggetto (il bean),
+ così da poter passare il bean invece degli oggetti individuali.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Javadoc}} 
 \backslash
 
@@ -2295,7 +2332,7 @@ status open
 \backslash
 textbf{
 \backslash
-emph{SefetyGame}} 
+emph{SafetyGame}} 
 \backslash
 
 \backslash
@@ -2351,6 +2388,41 @@ begin{flushright}
 \backslash
 uline{dispositivo portatile} che abbina funzionalità di telefono cellulare
  a quelle di gestione di dati personali.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Servlet}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Le servlet sono oggetti che operano all'interno di un server per applicazioni
+ (per esempio, Tomcat) e potenziano le sue funzionalità.
 \end_layout
 
 \begin_layout Plain Layout
