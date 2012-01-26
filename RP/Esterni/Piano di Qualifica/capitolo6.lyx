@@ -68,16 +68,37 @@
 Pianificazione ed esecuzione del collaudo
 \end_layout
 
-\begin_layout Standard
-bla bla bla bka
+\begin_layout Subsection
+Test di integrazione
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+In questa sezione verrà descritta la pianificazione dei test di verifica
+ e collaudo che verranno eseguiti per le varie parti del sistema.
+ Grazie a questi test si vuole verificare il corretto funzionamento del
+ software, i test sono divisi fra test intra-componenti e inter-componenti.
+\end_layout
+
+\begin_layout Subsubsection
 Test intra-componenti
 \end_layout
 
 \begin_layout Standard
-bla bla bla
+I componenti verranno testati e collaudati seguendo una strategia incrementale
+ attraverso il principio di bottom-up.
+\end_layout
+
+\begin_layout Standard
+Verranno prima collaudati i componenti con minori dipendenze funzionali,
+ per poi proseguire con l'albero delle dipendenze.
+ Nella fattispecie prima sarà necessario avere funzionante tutti i database
+ e la gestione degli stessi, poi si potrà preseguire con la restante parte
+ back-end e la parte front-end.
+\end_layout
+
+\begin_layout Standard
+Per ogni componente verranno effettuate prove dalle quali ci si può aspettare
+ un esito positivo o un esito negativo.
 \end_layout
 
 \begin_layout Standard
@@ -697,8 +718,19 @@ end{center}
 
 \end_layout
 
-\begin_layout Subsection
-test inter-componenti
+\begin_layout Subsubsection
+Test inter-componenti
+\end_layout
+
+\begin_layout Standard
+Man mano che il collaudo prosegue verranno aggiunti test e prove sui componenti
+ in maniera incrementale.
+ Ad ogni nuovo collaudo quindi verrà testato il curretto funzionamento inter-com
+ponenti tenedono conto delle loro dipendenze.
+ Il sistema software in ogni caso non prevede grosse dipendenze fra i vari
+ componenti front-end e back-end, il grosso del lavoro inter-componenti
+ relativo alle dipendenze andrà rivolto al corretto funzionamento del database
+ e delle relative richieste.
 \end_layout
 
 \end_body
