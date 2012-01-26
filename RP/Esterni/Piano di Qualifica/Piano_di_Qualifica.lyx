@@ -4,6 +4,9 @@
 \begin_header
 \textclass article
 \begin_preamble
+\usepackage{longtable}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \include{preface}
 \end_preamble
 \use_default_options true
