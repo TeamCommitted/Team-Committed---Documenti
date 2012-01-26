@@ -69,16 +69,6 @@ Pianificazione ed esecuzione del collaudo
 \end_layout
 
 \begin_layout Subsection
-Test di sistema
-\end_layout
-
-\begin_layout Standard
-I test di sistema riguardano la verifica del corretto funzionamento e del
- soddisfacimento dei requisiti indicati nell'AnalisiDeiRequisitiV2.0.pdf,
- verranno effettuati subito prima del rilascio del prodotto finito.
-\end_layout
-
-\begin_layout Subsection
 Test di integrazione
 \end_layout
 
