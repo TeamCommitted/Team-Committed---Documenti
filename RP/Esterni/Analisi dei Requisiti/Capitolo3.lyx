@@ -1916,7 +1916,7 @@ può visualizzare tutti i punteggi dei
 \bar under
 Dipendenti
 \bar default
-.
+ e modificare i trofei/badge.
 \series bold
 
 \begin_inset Newline newline
@@ -1936,11 +1936,11 @@ Dipendente
 
 Postcondizione: 
 \series default
-L'account 
+I dati personali del 
 \bar under
 Dipendente
 \bar default
- visualizzato non è stato modificato.
+ visualizzato non sono stati modificati.
 \series bold
 
 \begin_inset Newline newline
@@ -1955,6 +1955,18 @@ L'
 Amministratore Azienda Autenticato
 \bar default
  visualizza i punteggi di un dipendente (trofei, punti, badge)
+\end_layout
+
+\begin_layout Enumerate
+L'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+ può aggiungere trofei/badge ad un 
+\bar under
+Dipendente
+\bar default
+ (trofei, punti, badge)
 \end_layout
 
 \begin_layout Subsubsection
