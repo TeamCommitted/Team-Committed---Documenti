@@ -257,8 +257,8 @@ Domande e risposte
 \end_layout
 
 \begin_layout Description
-Domanda: Poichè da capitolato è richiesto che ci sia la possibilità di usufruizi
-one dell'applicazione anche da dispositivi mobili, avevamo pensato di sviluppare
+Domanda: Poiché da capitolato è richiesto che ci sia la possibilità di usufruire
+ dell'applicazione anche da dispositivi mobili, avevamo pensato di sviluppare
  un'applicazione Android nativa e, per quanto riguarda la compatibilità
  con gli altri sistemi operativi (es.
  iOS) di sviluppare un sito web che si adatta allo stile in base al browser
@@ -365,7 +365,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Description
-Domanda: A proposito del repository delle domande: poichè quello che creeremo
+Domanda: A proposito del repository delle domande: poiché quello che creeremo
  sarà un prototipo dell'applicazione, dovremo creare un'interfaccia per
  l'azienda installatrice per modificare le domande?
 \end_layout
@@ -529,8 +529,8 @@ Ricordatevi che la vostra applicazione verrà usata solo da
 \emph on
 Casual Gamer
 \emph default
-, in quanto non usano l'applicazione perchè gli piace (o almeno non inizialmente
-), ma perchè gli verrà imposta
+, in quanto non usano l'applicazione perché gli piace (o almeno non inizialmente
+), ma perché gli verrà imposta
 \end_layout
 
 \begin_layout Standard
