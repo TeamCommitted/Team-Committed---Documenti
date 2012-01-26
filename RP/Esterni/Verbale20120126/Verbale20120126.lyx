@@ -401,7 +401,163 @@ Domanda: Per quanto riguarda la gamification, avevamo pensato di introdurre
 
 \begin_layout Description
 Risposta: La procedura di assegnazione dei badge dovrà assolutamente essere
- automatizzata, in quanto, se lasciamo l'incombenza 
+ automatizzata, in quanto, se lasciamo l'incombenza dell'assegnazione dei
+ badge all'azienda stessa, potremo essere sicuri che, dopo due o tre assegnazion
+i, l'azienda lascerà perdere.
+ Proprio in virtù di questo l'assegnazione dei badge dovrà essere automatizzata.
+ Però potete creare un'interfaccia, sempre facile ed intuitiva, per la gestione
+ dei badge, ovvero la creazione, la modifica e la rimozione degli 
+\begin_inset Quotes eld
+\end_inset
+
+oggetti badge
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Considerazioni del 
+\emph on
+proponente
+\end_layout
+
+\begin_layout Standard
+Quello che segue è un riassunto del discorso fatto dal proponente a proposito
+ della 
+\series bold
+Gamification
+\series default
+ e di alcuni modi che, a suo dire, si possano implementare per rendere la
+ gamification più efficace.
+\end_layout
+
+\begin_layout Enumerate
+Potreste pensare ad un algoritmo o ad un sistema per rendere più efficace
+ la gamification.
+ Ad esempio:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Sistema competitivo: 
+\series default
+sistema in cui si mettono gli utenti in competizione fra di loro, invogliando
+ tutte quelle persone che tendenzialmente si possono classificare come 
+\emph on
+Hard-core Gamer
+\emph default
+, ovvero giocatori che competono a livelli quasi professionali
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sistema collaborativo:
+\series default
+ sistema nel quale gli utenti devono interagire fra di loro per raggiungere
+ un obiettivo comune, piuttosto che un sistema in cui gli utenti si possano
+ aiutare fra di loro.
+ Potrebbe essere un sistema a squadre, in cui, addirittura, è possibile
+ integrare sia il sistema competitivo che quello collaborativo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sistema temporizzato: 
+\series default
+sistema in cui la risposta delle domande è legata al tempo impiegato; 
+\begin_inset Quotes eld
+\end_inset
+
+più tempo ci metti a rispondere ad una domanda, meno punti prendi
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cercate sopratutto di focalizzare l'attenzione sull'incentivazione di alcune
+ componenti, quali:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sociale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Competitiva
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Concentrazione
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ricordatevi che la vostra applicazione verrà usata solo da 
+\emph on
+Casual Gamer
+\emph default
+, in quanto non usano l'applicazione perchè gli piace (o almeno non inizialmente
+), ma perchè gli verrà imposta
+\end_layout
+
+\begin_layout Standard
+Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+propProg
+\end_layout
+
+\end_inset
+
+ ha poi portato un esempio su come incentivare l'uso della 
+\emph on
+gamification
+\emph default
+: all'avvio del software, far comparire una schermata in cui si visualizzano
+ gli ultimi badge acquisiti da alcuni utenti, questo per incentivare l'uso
+ facendo leva sulla 
+\emph on
+competizione
+\emph default
+.
 \end_layout
 
 \end_body
