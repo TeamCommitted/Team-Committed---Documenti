@@ -331,6 +331,77 @@ calderone delle domande
 
 , un repository delle domande ospitato dall'azienda installatrice, da cui
  poi l'applicazione andrà a prelevare il testo delle domande.
+ Per quanto riguarda la modifica delle domande, avevamo pensato che, invece
+ di dare accesso diretto all'Amministratore Sicurezza al repository delle
+ domande, di fargli un sistema per la proposta di nuove domande, in modo
+ tale che queste richieste vengano vagliate dall'ente installatore e, se
+ reputate sensate, aggiunte al repository delle domande.
+\end_layout
+
+\begin_layout Description
+Risposta: Vedete voi.
+ Se la cosa migliora l'efficienza dell'applicazione e/o vi semplifica la
+ vita per la gestione delle domande, fate così.
+ Altrimenti sarebbe preferibile lasciare che ogni azienda possa modificarsi
+ le proprie domande.
+ Ad esempio: un'azienda che crea mobili di legno sarà più interessata alla
+ proposizione delle domande sul comportamento da tenere in caso d'incendio
+ rispetto ad un'azienda che produce statue di pietra.
+ Se però pensate che una gestione centralizzata delle domande possa essere
+ più efficace rispetto ad una distribuzione delle domande, allora realizzate
+ il repository delle domande.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: A proposito del repository delle domande: poichè quello che creeremo
+ sarà un prototipo dell'applicazione, dovremo creare un'interfaccia per
+ l'azienda installatrice per modificare le domande?
+\end_layout
+
+\begin_layout Description
+Risposta: Se l'applicazione che state realizzando è un prototipo, potete
+ tranquillamente fornire semplicemente un file di esempio sulle domande.
+ Però ricordatevi che, nel caso dovesse essere usato il vostro software,
+ dovrete fornire un'interfaccia semplice da usare per modificare il repository
+ delle domande.
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Domanda: Per quanto riguarda la gamification, avevamo pensato di introdurre
+ i badge, o trofei, come elemento di gamification.
+ In particolare questi badge verrebbero assegnati dall'azienda al raggiungimento
+ di determinati obiettivi, come, ad esempio, dopo aver risposto a 100 domande
+ o dopo aver ricevuto 50 punti per aver risposto correttamente alle domande.
+ Cosa ne pensa?
+\end_layout
+
+\begin_layout Description
+Risposta: La procedura di assegnazione dei badge dovrà assolutamente essere
+ automatizzata, in quanto, se lasciamo l'incombenza 
 \end_layout
 
 \end_body
