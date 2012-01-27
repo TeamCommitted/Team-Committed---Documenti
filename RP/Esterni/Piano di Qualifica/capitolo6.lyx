@@ -2461,12 +2461,60 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 27 &
+		TS-RFOB 27a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema risponde positivamente
+ all'inserimento di username e password validi nella sezione dedicata al
+ login di un Amministratore Sicurezza  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 27 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 27b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde negativamente
+ all'inserimento di username e password non validi nella sezione dedicata
+ al login di un Amministratore Sicurezza &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2506,7 +2554,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica:  viene verificato che il sistema offra la possibilità
+ ad un Amministratore Sicurezza Autenticato di consultare le domande dell'aziend
+a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2546,7 +2596,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità ad
+ un Amministratore Sicurezza Autenticato di accedere all'interfaccia per
+ la modifica delle domande di un'azienda &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2590,7 +2642,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di aggiungere nuove domande da sottoporre
+ ai dipendenti da un'apposito database generale &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2634,7 +2688,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di eliminare domande dalla lista di quelle
+ che possono essere somministrate al Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2678,7 +2734,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di poter modificare gli obiettivi di Gamificatio
+n &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2722,7 +2780,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema esegua correttamente la
+ modifica dei badge/trofei assegnabili ai dipendenti al raggiungimento di
+ obiettivi di Gamification &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2766,7 +2826,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema esegua permetta all'Amministra
+tore Sicurezza Autenticato di terminare correttamente la propria sessione
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2866,33 +2928,6 @@ textbf{ Stato verifica }
 \end_layout
 
 \begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 31 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 31 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		da definire &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
 
 \end_layout
 
