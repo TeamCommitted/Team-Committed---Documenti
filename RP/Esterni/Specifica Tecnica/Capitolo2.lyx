@@ -128,10 +128,10 @@ categoria
 \end_inset
 
  (Multitier), abbiamo deciso di raggrupparli nella stessa sezione.
-\end_layout
-
-\begin_layout Subsubsection
-ThreeTier
+ Visto che la descrizione dei due design pattern e le motivazioni dell'adozione
+ di essi sono simili, verranno descritti in questa sezione.
+ Il contesto applicativo, invece, verrà discusso singolarmente, in quanto
+ la loro applicazione è radicalmente differente.
 \end_layout
 
 \begin_layout Itemize
@@ -139,7 +139,41 @@ ThreeTier
 \series bold
 Descrizione:
 \series default
- tale design pattern permette una disgiunzione tra i vari gruppi di entità
+ tali design pattern permettono una disgiunzione fra i vari gruppi di entità
+ che cooperano nell'erogazione del servizio.
+ Esisterà un livello che si occuperà di interagire con il cliente offrendo
+ l'interfaccia grafica, un secondo livello per l'esecuzione della parte
+ algoritmica dell'applicazione e, nel caso del 
+\emph on
+ThreeTier
+\emph default
+, un terzo livello per la persistenza dei dati e il loro recupero
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ il beneficio principale apportato da questo paradigma risiede nel fatto
+ che ogni livello può venir cambiato/aggiornato senza dover propagare gli
+ effetti ai livelli adiacenti.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
+ funzionalità in gruppi disgiunti, ma in stretta collaborazione, la struttura
+ di tale design pattern risulta perticolarmente calzante per dei servizi
+ basati sull'architettura client-server, in quanto ogni livello non esiste
+ semplicemente come raggruppamento logico a sé stante, ma il suo ruolo viene
+ adattato in relazione allo specifico ambiente di rete in cui esegue: nel
+ caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
+ nel determinato ambiente.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
