@@ -70,6 +70,83 @@ Presenteremo qui di seguito i vari design pattern impiegati nella progettazione
 \end_layout
 
 \begin_layout Subsection
+Multitier
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/ThreeTier.jpg
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/TwoTier.jpg
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma dei design pattern ThreeTier & TwoTier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Poichè i design pattern 
+\emph on
+ThreeTier 
+\emph default
+e 
+\emph on
+TwoTier
+\emph default
+ fanno parte della stessa 
+\begin_inset Quotes eld
+\end_inset
+
+categoria
+\begin_inset Quotes erd
+\end_inset
+
+ (Multitier), abbiamo deciso di raggrupparli nella stessa sezione.
+\end_layout
+
+\begin_layout Subsubsection
+ThreeTier
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ tale design pattern permette una disgiunzione tra i vari gruppi di entità
+\end_layout
+
+\begin_layout Subsection
 MVC
 \end_layout
 
@@ -161,15 +238,75 @@ Tale design-pattern è stato scelto in quanto largamente diffuso ed adottato
 \series bold
 Motivazione: 
 \series default
-il beneficio principale apportato da tale paradigma risiede nel fatto che
- ogni livello può venire cambiato o aggiornato senza dover propagare le
- modifiche ai livelli adiacenti.
+l'utilizzo di tale design pattern permette una solida e manutenibile architettur
+a su cui basare l'applicativo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ tale design pattern verrà utilizzato per sviluppare il 
+\bar under
+front-end Android
+\bar default
+, per dotarlo di una struttura ben organizzata e manutenibile.
+ Questa scelta risulta particolarmente importante in un contesto di sviluppo
+ come quello di 
+\bar under
+Android
+\bar default
+ in cui la struttura stessa delle viste (pensate come Activity) può portare
+ ad una mancata separazione dei ruoli.
  
 \begin_inset Newline newline
 \end_inset
 
-Poichè ogni parte del sistema dovrà intera
+A questo scopo sono stati identificati i componenti:
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Model
+\series default
+ rappresenta l'interfaccia con cui l'applicativo mobile interagirà con il
+ Back-end tramite richieste HTTP e riceverà informazioni con XML
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+View
+\series default
+ rappresenta l'effettiva interfaccia grafica tramite la quale gli utenti
+ interagiranno con l'applicativo
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Controller
+\series default
+ riceve le scelte dell'utente ed effettua le operazioni corrette sul modello
+ dei dati
+\end_layout
+
+\begin_layout Standard
+L'architettura MVC dell'applicativo Android è stata pensata per utilizzare
+ un aggiornamento di tipo 
+\emph on
+pull
+\emph default
+.
+ In un applicativo di questo tipo, in primo piano si avrà soltanto una vista
+ alla volta, mentre nel caso in cui un'altra vista che abbia bisogno di
+ accesso ai dati torni in primo piano, questa richiederà un aggiornamento
+ di tali dati.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
