@@ -123,9 +123,21 @@ Analisi dei Requisiti
 front-end
 \bar default
  è stato diviso in tre parti e principalmente si occuperanno di fornire
- l'interfaccia grafica agli utenti di tipo 
+ l'interfaccia grafica agli utenti del sistema, quindi 
 \bar under
-Dipendente
+Dipendenti
+\bar default
+, 
+\bar under
+Amministratori Installatori
+\bar default
+, 
+\bar under
+Amministratori Sicurezza 
+\bar default
+e 
+\bar under
+Amministratori Azienda
 \bar default
 .
  In particolare abbiamo suddiviso il 
@@ -224,7 +236,7 @@ status open
 \series bold
 CMOB 1:
 \series default
- Login dipendente
+ Login
 \end_layout
 
 \begin_layout Itemize
@@ -232,7 +244,7 @@ CMOB 1:
 \series bold
 CMOB 2:
 \series default
- Rispondere nuova domanda
+ Gestione dati utente
 \end_layout
 
 \begin_layout Itemize
@@ -240,13 +252,21 @@ CMOB 2:
 \series bold
 CMOB 3:
 \series default
- Visualizzazione punteggi
+ Rispondere nuova domanda
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 CMOB 4:
+\series default
+ Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 5:
 \series default
  Notifica nuova domanda
 \end_layout
@@ -284,7 +304,7 @@ connesso tramite applicazione desktop, sia a tutti gli utenti che sono connessi
 \series bold
 CWEB 1:
 \series default
- Login dipendente
+ Login
 \end_layout
 
 \begin_layout Itemize
@@ -300,7 +320,7 @@ CWEB 2:
 \series bold
 CWEB 3:
 \series default
- Rispondere nuova domanda
+ Amministrazione utenti
 \end_layout
 
 \begin_layout Itemize
@@ -308,13 +328,37 @@ CWEB 3:
 \series bold
 CWEB 4:
 \series default
- Visualizzazione punteggi
+ Rispondere nuova domanda
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 CWEB 5:
+\series default
+ Amministrazione domande
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 6: 
+\series default
+Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 7: 
+\series default
+Amministrazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 8:
 \series default
  Notifica nuova domanda
 \end_layout
@@ -325,20 +369,8 @@ Il
 \bar under
 back-end 
 \bar default
-si occuperà di fornire un'interfaccia grafica ai vari amministratori, quindi
- 
-\bar under
-Amministratore Azienda
-\bar default
-, 
-\bar under
-Amministratore Sicurezza
-\bar default
- e 
-\bar under
-Amministratore Installazione
-\bar default
-.
+si occuperà della persistenza delle informazioni e del loro recupero, in
+ modo da renderle disponibili agli altri sottosistemi.
  
 \begin_inset ERT
 status open
@@ -347,7 +379,7 @@ status open
 
 
 \backslash
-'E
+`E
 \end_layout
 
 \end_inset
@@ -360,7 +392,7 @@ status open
 \series bold
 CBACK 1:
 \series default
- Gestione Utenti
+ Login
 \end_layout
 
 \begin_layout Itemize
@@ -368,7 +400,7 @@ CBACK 1:
 \series bold
 CBACK 2:
 \series default
- Gestione Punteggi
+ Amministrazione utenti
 \end_layout
 
 \begin_layout Itemize
@@ -376,7 +408,15 @@ CBACK 2:
 \series bold
 CBACK 3:
 \series default
- Gestione Domande Azienda
+ Gestione domande e Risposte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 4: 
+\series default
+Amministrazione punteggi
 \end_layout
 
 \begin_layout Standard

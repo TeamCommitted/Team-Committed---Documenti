@@ -91,7 +91,7 @@ I componenti verranno testati e collaudati seguendo una strategia incrementale
 \begin_layout Standard
 Verranno prima collaudati i componenti con minori dipendenze funzionali,
  per poi proseguire con l'albero delle dipendenze.
- Nella fattispecie prima sarà necessario avere funzionante tutti i database
+ Nella fattispecie prima sarà necessario avere funzionanti tutti i database
  e la gestione degli stessi, poi si potrà preseguire con la restante parte
  back-end e la parte front-end.
 \end_layout
@@ -233,7 +233,7 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB1 (login dipendente) & 
+		CWEB1 (login) & 
 \backslash
 begin{itemize}
 \end_layout
@@ -243,6 +243,13 @@ begin{itemize}
 				    
 \backslash
 item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Riconoscimento tipologia utente
 \end_layout
 
 \begin_layout Plain Layout
@@ -272,7 +279,7 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB2 (gestione dati utenti) & 
+		CWEB2 (gestione dati utente) & 
 \backslash
 begin{itemize}
 \end_layout
@@ -311,273 +318,7 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB3 (rispondere ad una domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione risposta corretta ??
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CWEB4 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione propri punteggi aggiornati
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CWEB5 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Notifica nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Rifiuto o accettazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CMOB1 (login dipendente) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CMOB2 (rispondere ad una domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione risposta corretta ??
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CMOB3 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione punteggi aggiornati dell'utente loggato
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CMOB4 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		CBACK1 (gestione utenti) & 
+		CWEB3 (amministrazione utenti) & 
 \backslash
 begin{itemize}
 \end_layout
@@ -623,7 +364,118 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK2 (gestione punteggi) & 
+		CWEB4 (rispondere ad una domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione della domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Gestione risposta, aggiornamento punteggi
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Visualizzazione esito risposta
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB5 (amministrazione domande) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Inserimento e rimozione delle domande relative ad un'azienda dall'insieme
+ delle domande globali
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB6 (visualizzazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione propri punteggi aggiornati
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB7 (gestione punteggi) & 
 \backslash
 begin{itemize}
 \end_layout
@@ -655,7 +507,312 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK3 (gestione domande azienda) & 
+		CWEB8 (notifica nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Notifica nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Rifiuto o accettazione nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB1 (login) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB2 (gestione dati utente) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione dati utente loggato
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Modifica degli stessi
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB3 (rispondere nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione della domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Gestione risposta, aggiornamento punteggi
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Visualizzazione esito risposta
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB4 (visualizzazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione punteggi aggiornati
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB5 (notifica nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK1 (login) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK2 (amministrazione utenti) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione dati utenti
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Modifica degli stessi
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK3 (gestione domande e risposte) & 
 \backslash
 begin{itemize}
 \end_layout
@@ -679,6 +836,45 @@ item Modifica domande
 					
 \backslash
 item Eliminazione domande
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK4 (amministrazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione punteggi globali
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Inserimento e modifica criteri di attribuzione punteggi e badge
 \end_layout
 
 \begin_layout Plain Layout

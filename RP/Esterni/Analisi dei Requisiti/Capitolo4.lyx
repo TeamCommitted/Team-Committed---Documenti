@@ -249,23 +249,34 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 1 & Il sistema dovrà lavorare in rete & Capitolato & Statica 
+RFOB 1 & Il sistema dovrà lavorare in rete & Capitolato & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 1.1 & Ogni azienda potrà accedere al sistema mediante connessione internet
- & Capitolato & Statica 
+ & Capitolato & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 2 & Il sistema assegnerà in automatico badge/trofei al 
+\backslash
+uline{Dipendente}, quando questo raggiunge determinati obiettivi di 
+\backslash
+uline{Gamification} & Verbale 26/01/2012 & Dinamica 
 \backslash
 
 \backslash
@@ -276,317 +287,344 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 2 & Tutte le azioni di tutti gli 
+RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
 uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
- Capitolato & Test 
+ Capitolato & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 3 & Un 
-\backslash
-uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà modificarla & UCD 2 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 3.1 & Un 
-\backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
-mente che dovrà modificare al primo login & UCD 2 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 4 & Un 
 \backslash
-uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
- credenziali & UCD 1 & Test 
+uline{Utente} che ha smarrito la propria password per accedere al sistema
+ potrà modificarla & UCD 2 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 4.1 & Un 
 \backslash
+uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
+ modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
+mente  & UCD 2 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata & UCD 2 &
+ Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5 & Un 
+\backslash
+uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
+ credenziali & UCD 1 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5.1 & Un 
+\backslash
 uline{Dipendente} effetuerà il login tramite web o tramite applicazione
- installata & UCD 1 & Test 
+ installata & UCD 1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 5 & Il sistema dovrà sottoporre periodicamente ai 
+RFOB 6 & Il sistema dovrà sottoporre periodicamente ai 
 \backslash
-uline{Dipendenti Autenticati} delle domande precaricate & Capitolato & Test
+uline{Dipendenti Autenticati} delle domande precaricate & Capitolato & Dinamica
  
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 5.1 & Una proposta di domanda dovrà essere completamente non 
+RFOB 6.1 & Una proposta di domanda dovrà essere completamente non 
 \backslash
-uline{invadente} & Capitolato & Test 
+uline{invadente} & Capitolato & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 6 & Un 
+RFOB 7 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà richiedere al sistema di venire sottoposto
- ad una domanda & Capitolato & Test 
+ ad una domanda & Capitolato & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 7 & Le domande che verranno sottoposte ai 
+RFOB 7.1 & Un 
+\backslash
+uline{Dipendente Autenticato} potrà richiedere un numero limitato di domande
+ secondo il tempo trascorso & Verbale 26/01/2012 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 8 & Le domande che verranno sottoposte ai 
 \backslash
 uline{Dipendenti Autenticati} dovranno essere di tipologia diversa & Capitolato
- & Test 
+ & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 8 & Le domande a cui verranno sottoposti i 
+RFOB 9 & Le domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} prevederanno che questi possano rispondere
- direttamente dalla propria postazione di lavoro & Capitolato & Test 
+ direttamente dalla propria postazione di lavoro & Capitolato & Statica
+ 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 8.1 & Le domande a cui verranno sottoposti i 
+RFOB 9.1 & Le domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} forniti di 
 \backslash
 uline{dispositivi mobili} aziendali prevederano anche prove pratiche  &
- Capitolato & Test 
+ Capitolato & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFD 8.2 & La natura delle domande a cui verranno sottoposti i 
+RFD 9.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} potrà variare a seconda dell'impiego dello
- stesso & Verbale 05/12/2011 & Test 
+ stesso & Verbale 05/12/2011 & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 8.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
+RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
  multipla.
- & Capitolato & Test 
+ & Capitolato & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFD 8.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
+RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
  con foto (entrambe con le modalità sopra citate),  scansione QR nel tempo
  limite, scansione QR nell'ordine corretto.
- & Capitolato & Test 
+ & Capitolato & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOP 8.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
+RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
  trova errori nella foto, trova differenze nella foto, registra gli RF-ID
- nell'ordine corretto & Capitolato & Test 
+ nell'ordine corretto & Capitolato & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 9 & Un 
+RFOB 10 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà modificare i propri dati personali,
- ovvero password e indirizzo di posta elettronica & Interno & Test 
+ ovvero password e indirizzo di posta elettronica & Interno & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 10 & Quando un 
+RFOB 11 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica i propri dati personali, il sistema si
- occuperà di inviargli una mail di conferma & Interno & Test 
+ occuperà di inviargli una mail di conferma & Interno & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 10.1 & Quando un 
+RFOB 11.1 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica la password di accesso alla sua area
- personale, il sistema gli invierà una mail di conferma & Interno & Test
+ personale, il sistema gli invierà una mail di conferma & Interno & Dinamica
  
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 10.2 & Quando un 
+RFOB 11.2 & Quando un 
 \backslash
 uline{Dipendente Autenticato} modifica il suo indirizzo di posta elettronica,
  il sistema gli invierà una mail di conferma al nuovo indirizzo & Interno
- & Test 
+ & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 11 & Un 
+RFOB 12 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà visualizzare i propri dati personali
- memorizzati nel sistema & UCDA 7 & Test 
+ memorizzati nel sistema & UCDA 7 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 12 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
+RFOB 13 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
  indirizzo di posta elettronica, impiego, password, username & UCDA 7 &
- Test 
+ Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 13 & Un 
+RFOB 14 & Un 
 \backslash
 uline{Dipendente Autenticato} a cui viene proposta la possibilità di rispondere
  ad una domanda potrà scegliere di visualizzarla e quindi rispondere, oppure
- rimandarla e rispondere successivamente & UCDA 3 & Test 
+ rimandarla e rispondere successivamente & UCDA 3 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 14 & Una volta che una domanda viene mostrata ad un 
+RFOB 15 & Una volta che una domanda viene mostrata ad un 
 \backslash
 uline{Dipendente Autenticato}, questo dovrà necessarimente fornirle risposta
  & UCDA 3 & Statica 
@@ -595,41 +633,41 @@ uline{Dipendente Autenticato}, questo dovrà necessarimente fornirle risposta
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 14.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
+RFOB 15.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
  sottoposto un 
 \backslash
 uline{Dipendente Autenticato} è una nuova domanda, una domanda posticipata
- o una domanda sbagliata in precedenza & UCDA 3.1 & Statica 
+ o una domanda sbagliata in precedenza & UCDA 3.1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 15 & Un 
+RFOB 16 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di consultare le
- informazioni riguardanti i suoi punteggi & UCDA 5 & Test 
+ informazioni riguardanti i suoi punteggi & UCDA 5 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 15.1 & Le informazioni che un 
+RFOB 16.1 & Le informazioni che un 
 \backslash
 uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte(sia
  corrette che errate), classifica aziendale, trofei/badge raccolti, statistiche
@@ -639,128 +677,113 @@ uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte(si
 \backslash
  
 \backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 16 & Un 
-\backslash
-uline{Dipendente Autenticato} dovrà avere la possibilità di terminare la
- propria sessione, senza terminare l'applicazione & UCDA 8 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 16.2 & Ad ogni account 
-\backslash
-uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
- suo account all'indirizzo email dichiarato utili per connettersi al sistema
- & UCAAA 2.1 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 16.2.1 & Il sistema invia all'indirizzo email del nuovo 
-\backslash
-uline{Dipendente} la sua username & UCAAA 2.1 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 16.2.2 & Il sistema invia all'indirizzo email del nuovo 
-\backslash
-uline{Dipendente} la sua password & UCAAA 2.1 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 17 & Un 
 \backslash
-uline{Amministratore Azienda} dovrà potersi autenticare nel sistema inserendo
- le proprie credenziali & UCAA 1 & Test 
+uline{Dipendente Autenticato} dovrà avere la possibilità di terminare la
+ propria sessione, senza terminare l'applicazione & UCDA 8 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 18 & L'
+RFOB 18 & Un 
 \backslash
-uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
- dei 
-\backslash
-uline{Dipendenti} & UCAAA2 & Statica 
+uline{Amministratore Azienda} dovrà potersi autenticare nel sistema inserendo
+ le proprie credenziali & UCAA 1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 19 & L'
 \backslash
-uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
+uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
+ dei 
 \backslash
-uline{Dipendenti} inserendone i dati personali & UCAAA 2.1 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 19.1 & i dati personali sono: nome, cognome, codice fiscale, email,
- impiego & UCAAA 2.1 & Test 
+uline{Dipendenti} & UCAAA2 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 20 & L'
 \backslash
-uline{Amministratore Azienda Autenticato} potrà eliminare un account 
+uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
 \backslash
-uline{Dipendente} & UCAAA 2.2 & Test 
+uline{Dipendenti} inserendone i dati personali & UCAAA 2.1 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 20.1 & i dati personali sono: nome, cognome, codice fiscale, email,
+ impiego & UCAAA 2.1 & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 20.2 & Ad ogni account 
+\backslash
+uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
+ suo account all'indirizzo email dichiarato utili per connettersi al sistema
+ & UCAAA 2.1 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 20.2.1 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua username & UCAAA 2.1 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 20.2.2 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua password & UCAAA 2.1 & Dinamica 
 \backslash
 
 \backslash
@@ -771,268 +794,342 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 21 & Un 
+RFOB 21 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} potrà eliminare un account 
+\backslash
+uline{Dipendente} & UCAAA 2.2 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 22 & Un 
 \backslash
 uline{Amministratore Azienda Autenticato} avrà la possibiltà di modificare
  i dati personali dei 
 \backslash
-uline{Dipendenti} & UCAAA 2.3 & Test 
+uline{Dipendenti} & UCAAA 2.3 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
- email, impiego, codice fiscale & UCAAA 2.3 & Test 
+RFOB 22.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
+ email, impiego, codice fiscale & UCAAA 2.3 & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 22 & L'
-\backslash
-uline{Amministratore Azienda Autenticato} dovrà poter visualizzare i dati
- di ogni singolo 
-\backslash
-uline{Dipendente} & UCAAA 3 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 22.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
- email, impiego, nickname & UCAAA 3 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 23 & L'
 \backslash
+uline{Amministratore Azienda Autenticato} dovrà poter visualizzare i dati
+ di ogni singolo 
+\backslash
+uline{Dipendente} & UCAAA 3 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 23.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
+ email, impiego, nickname & UCAAA 3 & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 24 & L'
+\backslash
 uline{Amministratore Azienda Autenticato} dovrà poter visionare le statistiche
  personali di ogni singolo 
 \backslash
-uline{Dipendente} & UCAAA 4 & Test 
+uline{Dipendente} & UCAAA 4 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 24 & Le statistiche personali sono: punti, trofei, badge & UCAAA 4
- & Test 
+RFOB 24.1 & Le statistiche personali sono: punti, trofei/badge & UCAAA 4
+ & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 25 & Un 
+RFOB 25 & L'
 \backslash
-uline{Amministratore Azienda Autenticato} dovrà avere la possibilità di
- terminare la propria sessione & UCAAA 5 & Test 
+uline{Amministratore Azienda Autenticato} dovrà poter modificare i badge/trofei
+ di ogni singolo 
+\backslash
+uline{Dipendente} & UCAAA 4 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 26 & Un 
 \backslash
-uline{Amministratore Sicurezza} dovrà potersi autenticare nel sistema inserendo
- le proprie credenziali & UCAS 1 & Test 
+uline{Amministratore Azienda Autenticato} dovrà avere la possibilità di
+ terminare la propria sessione & UCAAA 5 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 27 & Un 
 \backslash
-uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
- le domande dell'azienda & UCASA 2 & Test 
+uline{Amministratore Sicurezza} dovrà potersi autenticare nel sistema inserendo
+ le proprie credenziali & UCAS 1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 27.1 & La consultazione farà vedere: il tipo, il testo, le risposte
- possibili, le risposte corrette, le immagini / video (se presenti), la
- categoria a cui verrà somministrata, la piattaforma, la temporizzazione
- (se presente) e il punteggio della domanda & UCASA 2 & Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 28 & Un 
 \backslash
-uline{Amministratore Sicurezza} dovrà poter modificare l'insieme delle domande
- di un'azienda & UCASA 3 & Test 
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
+ le domande dell'azienda & UCASA 2 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 28.1 & Un 
-\backslash
-uline{Amministratore Sicurezza} avrà la possibilità di aggiungere una domanda,
- dall'insieme di quelle già presenti nel database generale & UCASA 3.1 &
- Test 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 28.2 & Un 
-\backslash
-uline{Amministratore Sicurezza} avrà la possibilità di rimuovere una domanda
- dal database di domande da somministrare all'azienda & UCASA 3.2 & Test
- 
+RFOB 28.1 & La consultazione farà vedere: il tipo, il testo, le risposte
+ possibili, le risposte corrette, le immagini / video (se presenti), la
+ categoria a cui verrà somministrata, la piattaforma, la temporizzazione
+ (se presente) e il punteggio della domanda & UCASA 2 & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 29 & Un 
 \backslash
-uline{Amministratore Sicurezza Autenticato} dovrà avere la possibilità di
- terminare la propria sessione & UCASA 4 & Test 
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare l'insieme
+ delle domande di un'azienda & UCASA 3 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 30 & Un 
+RFOB 29.1 & Un 
 \backslash
-uline{Amministratore Installatore} potrà installare il software sui 
-\backslash
-uline{dispositivi fissi} in un'azienda & UCAI 1 & Statica 
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di aggiungere
+ una domanda, dall'insieme di quelle già presenti nel database generale
+ & UCASA 3.1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 29.2 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di rimuovere
+ una domanda dal database di domande da somministrare all'azienda & UCASA
+ 3.2 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 30 & L'
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare gli obiettivi
+ di 
+\backslash
+uline{Gamification} & Verbale 26/01/2012 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 30.1 & L'
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare i badge
+ o trofei assegnabili agli utenti al raggiungimento di obiettivi di 
+\backslash
+uline{Gamification} & Verbale 26/01/2012 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 31 & Un 
 \backslash
-uline{Amministratore Installatore} potrà installare il software sui 
-\backslash
-uline{dispositivi mobili} in un'azienda & UCAI 2 & Statica 
+uline{Amministratore Sicurezza Autenticato} dovrà avere la possibilità di
+ terminare la propria sessione & UCASA 4 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 32 & Un 
 \backslash
-uline{Amministratore Installatore} avrà la possibilità di creare il sito
- web interno dell'azienda per far funzionare il sistema & Interno & Test
- 
+uline{Amministratore Installatore} potrà installare il software sui 
+\backslash
+uline{dispositivi fissi} in un'azienda & UCAI 1 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
 RFOB 33 & Un 
 \backslash
-uline{Amministratore Installatore} avrà la possibilità di creare il dabase
- dell'azienda per far funzionare il sistema & Interno & Test 
+uline{Amministratore Installatore} potrà installare il software sui 
+\backslash
+uline{dispositivi mobili} in un'azienda & UCAI 2 & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOP 34 & Un 
+RFOB 34 & Un 
+\backslash
+uline{Amministratore Installatore} avrà la possibilità di creare il sito
+ web interno dell'azienda per far funzionare il sistema & Interno & Dinamica
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 35 & Un 
+\backslash
+uline{Amministratore Installatore} avrà la possibilità di creare il dabase
+ dell'azienda per far funzionare il sistema & Interno & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 36 & Un 
 \backslash
 uline{Amministratore Installatore} potrà aggiungere, modificare o cancellare
  una domanda dal database centrale delle domande tramite semplice interfaccia
- & Interno & Test 
+ & Interno & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
 \backslash
 
 \backslash
@@ -1106,7 +1203,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & interno & Statica 
+ & interno & Dinamica 
 \backslash
 
 \backslash
@@ -1118,7 +1215,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
- posizione del server generale delle domande & interno & Test 
+ posizione del server generale delle domande & interno & Dinamica 
 \backslash
 
 \backslash
@@ -1198,7 +1295,7 @@ RQOB 1 & Sarà fornita documentazione esaustiva di tutte le classi chiave
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1210,7 +1307,7 @@ RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1224,7 +1321,7 @@ uline{Dipendenti} che coprirà gli aspetti di utilizzo del software dal loro
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1238,7 +1335,7 @@ uline{Amministratore Azienda}  riguardo tutte le azioni che potrà compiere
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1252,7 +1349,7 @@ uline{Amministratore Installatore} riguardo alle azioni che potrà compiere
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1266,7 +1363,7 @@ uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1280,7 +1377,7 @@ uline{Dipendenti} dovranno essere accattivanti e le funzionalità quanto
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1288,13 +1385,13 @@ hline
 RQOP 3.1 & Ogni elemento di interazione fornirà all'
 \backslash
 uline{utilizzatore} informazioni visive sulla possibile azione effettuabile
- & Interno & Test 
+ & Interno & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1303,13 +1400,13 @@ RQOP 3.2 & Da ogni schermata sarà possibile raggiungere un'area di aiuto
  che guiderà l'
 \backslash
 uline{utilizzatore} spiegandogli le operazioni effettuabili nella pagina
- in cui esso si trova & Interno & Test 
+ in cui esso si trova & Interno & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1324,7 +1421,7 @@ uline{SPICE} & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1336,7 +1433,7 @@ RQD 5 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1351,7 +1448,7 @@ uline{W3C} & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1368,7 +1465,7 @@ uline{W3C} & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1385,7 +1482,7 @@ uline{W3C} & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1460,7 +1557,7 @@ RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1468,13 +1565,13 @@ hline
 RVOB 1.1 & Il sistema dovrà essere multipiattaforma (per quanto riguarda
  i 
 \backslash
-uline{dispositivi fissi}) & Capitolato & Test 
+uline{dispositivi fissi}) & Capitolato & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1488,7 +1585,7 @@ uline{JVM}  versione >= 7.02 & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1503,7 +1600,7 @@ uline{Android} & Capitolato & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1515,7 +1612,7 @@ RVOB 2 & Non si dovranno fare assunzioni sulla locazione dei database delle
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1530,7 +1627,7 @@ uline{web} & Interno & Statica
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1539,18 +1636,17 @@ RVOP 4 & L'inserimento delle domande all'interno del sistema dovrà essere
  particolarmente 
 \backslash
 emph{user-friendly} così da non richiedere conoscenze specifiche  & Verbale
- & Test 
+ & Statica 
 \backslash
 
 \backslash
  
 \backslash
-hline
+hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-				
 \end_layout
 
 \begin_layout Plain Layout
