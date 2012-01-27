@@ -480,5 +480,56 @@ Amministratore Sicurezza
  
 \end_layout
 
+\begin_layout Subsection
+Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Gli ambiti dell'Amministratore Azienda e Amministraotre Sicurezza, verranno
+ gestiti unicamente tramite 
+\bar under
+web
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+L'Ambito Dipendente invece, verrà gestito tramite 
+\bar under
+web
+\bar default
+, applicazione 
+\bar under
+Android
+\bar default
+ e applicazione per 
+\bar under
+dispositivi fissi
+\bar default
+.
+ Tutte e tre le applicazioni permettono di eseguire ogni attività illustrata,
+ tuttavia, l'applicazione per 
+\bar under
+dispositivi fissi
+\bar default
+ fornirà un comodo menù per ogni azione (una volta effettuato il login);
+ il quale, una volta attivata la corrispondente voce nel menù, aprirà il
+ browser e quindi sfrutterà la parte 
+\bar under
+web
+\bar default
+ del sistema.
+ Invece l'applicazione 
+\bar under
+Android
+\bar default
+ sfrutterà le peculiarità del sistema stesso per gestire ogni singolo aspetto
+ delle azioni intraprendibili dal 
+\bar under
+Dipendente
+\bar default
+.
+\end_layout
+
 \end_body
 \end_document
