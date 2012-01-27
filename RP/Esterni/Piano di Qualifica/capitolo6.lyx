@@ -69,6 +69,2794 @@ Pianificazione ed esecuzione del collaudo
 \end_layout
 
 \begin_layout Subsection
+Test di Sistema
+\end_layout
+
+\begin_layout Standard
+Tale sezione viene adibita alla pianificazione ed illustrazione dei test
+ di sistema che verranno atuati prima del rilascio del prodotto ultimato.
+ 
+\end_layout
+
+\begin_layout Standard
+Lo scopo dell'eseguire tali test è dimostrate che l'applicazione prodotta
+ soddisfa le richieste del cliente, fornendo quindi esempi di test da attuare
+ per confermare che i requisiti individuati nel documento AnalisiDeiRequisiti_V2.
+0 sono stati soddisfatti.
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: il server su cui risiede il sistema dovrà dimostrarsi
+ funzionante rispondendo alle richieste dei vari componenti  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFD 2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFD 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, al raggiungimento di determinati
+ obiettivi di Gamification, il sistema assegnerà effettivamente dei badge/trofei
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RPOB 1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RPOB 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 3.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RQOP 3.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 3.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RQOP 3.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOP 1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RVOP 1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Utente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 3 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 3 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verifiato se il sistema effettivamente registra
+ la data e l'ora dell'esecuzione delle varie azioni previste all'interno
+ di un file di log &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema offrira effettivamente
+ la possibilità all'utente che ha smarrito la password di connettersi all'apposi
+ta pagina per richiederne il recupero &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che, se la procedura di richiesta modifica
+ password è stata eseguita correttamente, il sistema invierà effettivamente
+ una mail contenente una password  temporanea generata randomicamente  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4.1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che al primo login dopo il recupero password,
+ il sistema chieda effettivamente che questa venga modificata &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email o password non validi il sistema risponda in maniera negativa &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email e password validi il sistema risponda in maniera positiva &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema permetterà effettivamente
+ di effettuare il login tramite l'apposita applicazione web, desktop o android
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 6 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema sia in grado di fornire,
+ grazie ad un timer, periodiche domande precaricate &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 7 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 7 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 7.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 7.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 12 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 12 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 14 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 15.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 16 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 17 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 17 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 18 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 18 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20.2.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20.2.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20.2.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20.2.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 21 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 21 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 22 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 23 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 23 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 24 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 24 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 25 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 25 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 26 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 26 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 27 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 27 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 28 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 28 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 29 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 29 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 29.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 29.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 29.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 29.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 30 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 30 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 30.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 30.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 31 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 31 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Installatore
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 31 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 31 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 32 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 32 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 33 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 33 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 34 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 34 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 35 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 36 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 36 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		da definire &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Test di integrazione
 \end_layout
 
