@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/widget32"
+	android:layout_width="149px"
+	android:layout_height="41px"
+	android:text="User1"
+	android:textSize="18sp"
+	android:password="true"
+	android:layout_x="137dp"
+	android:layout_y="101dp" />
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Username:"
+	android:textSize="20sp"
+	android:typeface="sans"
+	android:textStyle="bold"
+	android:layout_x="28dp"
+	android:layout_y="103dp" />
+<EditText
+	android:id="@+id/widget32_copy"
+	android:layout_width="149px"
+	android:layout_height="41px"
+	android:text="********"
+	android:textSize="18sp"
+	android:password="true"
+	android:layout_x="136dp"
+	android:layout_y="147dp" />
+<TextView
+	android:id="@+id/widget33_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Password:"
+	android:textSize="20sp"
+	android:typeface="sans"
+	android:textStyle="bold"
+	android:layout_x="28dp"
+	android:layout_y="150dp" />
+<Button
+	android:id="@+id/widget39"
+	android:layout_width="184px"
+	android:layout_height="wrap_content"
+	android:text="Login"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:layout_x="69dp"
+	android:layout_y="298dp" />
+<TextView
+	android:id="@+id/widget41"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="1dp"
+	android:text="Password dimenticata?"
+	android:textStyle="italic"
+	android:textColor="#ff0066cc"
+	android:layout_x="131dp"
+	android:layout_y="189dp" />
+</AbsoluteLayout>

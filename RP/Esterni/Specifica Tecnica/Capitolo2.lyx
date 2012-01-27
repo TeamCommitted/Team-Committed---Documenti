@@ -169,13 +169,129 @@ Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
  semplicemente come raggruppamento logico a sé stante, ma il suo ruolo viene
  adattato in relazione allo specifico ambiente di rete in cui esegue: nel
  caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
- nel determinato ambiente.
-\begin_inset Newline newline
-\end_inset
-
-
+ nel determinato ambiente
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+ThreeTier:
+\series default
+ questo design pattern verrà utilizzato come struttura portante del Back-end
+ e del Front-end web, in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Back-end
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier
+\emph default
+ offrirà l'interfaccia per i vari front-end e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di eseguire i vari calcoli necessari all'elaborazione della
+ risposta da fornire i dati all'utente
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà di astrarre la base di dati e della persistenza o il recupero
+ da essa dei dati necessarie per eseguire le computazioni richieste
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Front-end web
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di eseguire i vari calcoli necessari all'elaborazione della
+ risposta da fornire i dati all'utente
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà di spedire le richieste, formattate in maniera opportuna, al
+ 
+\emph on
+back-end
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+TwoTier:
+\series default
+ uesto design pattern verrà utilizzato come struttura portante del Front-end
+ Desktop, in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di gestire la temporizzazione delle domande e la gestione dell'oper
+azione di login
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Subsection
 MVC
 \end_layout

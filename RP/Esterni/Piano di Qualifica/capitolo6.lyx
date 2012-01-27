@@ -607,7 +607,7 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato se il sistema offrira effettivamente
+		Prova dinamica: viene verificato se il sistema offrirà effettivamente
  la possibilità all'utente che ha smarrito la password di connettersi all'apposi
 ta pagina per richiederne il recupero &
 \end_layout
@@ -1334,7 +1334,8 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica:  &
+		Prova dinamica: viene verificato se un dipendente autenticato è in grado
+ di accedere ai propri dati personali  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1373,12 +1374,54 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 14 &
+		TS-RFOB 14a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ alla scelta di un utente di rispondere ad una domanda proposta &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 14 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 14a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ alla scelta di un utente di rinviare una domanda proposta &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1422,7 +1465,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema è in grado di riconoscere
+ ed offrire informazioni sulla tipologia di domanda (nuova, posticipata,
+ sbagliata) &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1466,7 +1511,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se un dipendente sarà in grado di visualizzar
+e lo storico dei propri punteggi &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1506,7 +1552,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se un dipendente sarà in grado di poter
+ terminare la propria sessione  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1619,12 +1666,14 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 18 &
+		TS-RFOB 18a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema risponde positivamente
+ all'inserimento di username e password validi nella sezione dedicata al
+ login di un Amministratore Azienda &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1658,6 +1707,48 @@ hline
 
 \begin_layout Plain Layout
 
+RFOB 18 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 18b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde negativamente
+ all'inserimento di username e password non validi nella sezione dedicata
+ al login di un Amministratore Azienda &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		RFOB 19 & 
 \end_layout
 
@@ -1668,7 +1759,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema è in grado di offrire all'Ammin
+istratore Azienda Autenticato la possibilità di visionare la pagina di gestione
+ dipendenti &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1707,12 +1800,56 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20 &
+		TS-RFOB 20a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ all'inserimento, da parte di un Amministratore Azienda Autenticato, di
+ dati corretti relativi ad un nuovo Dipendente &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà negativamente
+ all'inserimento, da parte di un Amministratore Azienda Autenticato, di
+ dati non corretti relativi ad un nuovo Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1756,7 +1893,10 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema, dopo l'inserimento di
+ un nuovo dipendente da parte dell'Amministratore Azienda Autenticato, invierà
+ una mail contenente i dati del nuovo account all'indirizzo specificato
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1800,7 +1940,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
+ l'username del nuovo accout Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1844,7 +1985,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
+ la password del nuovo accout Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1888,51 +2030,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 21 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 21 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		da definire &
+		Prova dinamica: viene verificato se il sistema sarà in grado di far eliminare
+ all'Amministratore Azienda Autenticato un account Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1971,12 +2070,102 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 22 &
+		TS-RFOB 22a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema sia in grado di permettere
+ all'Amministratore Azienda Autenticato di accedere alla pagina di modifica
+ degli account dei Dipendenti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 22b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica dei dati di un dipendente da parte dell'Amministratore Azienda
+ Autenticato con informazioni valide &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 22c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica dei dati di un dipendente da parte dell'Amministratore Azienda
+ Autenticato con informazioni non valide &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2020,7 +2209,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema permetta ad un Amministratore
+ Azienda Autenticato di visionare le informazioni di ogni Dipendente registrato
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2064,7 +2255,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema permetta da un Amministratore
+ Azienda Autenticato di visionare le informazioni relative ai punteggi di
+ ogni Dipendente registrato &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2108,7 +2301,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema permetta all'Amministratore
+ Azienda Autenticato di modificare i badge/trofei di ogni singolo Dipendente
+  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2148,7 +2343,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema permetta all'Amministratore
+ Azienda Autenticato di terminare la propria sessione  &
 \end_layout
 
 \begin_layout Plain Layout
