@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="VIDEOTERMINALI"
+	android:textStyle="bold"
+	android:textColor="#ffcccccc"
+	android:layout_x="7dp"
+	android:layout_y="61dp"
+	android:layout_x="7dp"
+	android:layout_y="61dp" />
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="262px"
+	android:layout_height="wrap_content"
+	android:text="La distanza dagli occhi corretta cui porre lo schermo del proprio terminale &#232;:"
+	android:layout_x="26dp"
+	android:layout_y="90dp"
+	android:layout_x="26dp"
+	android:layout_y="90dp" />
+<RadioButton
+	android:id="@+id/widget34"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="30 cm"
+	android:layout_x="20dp"
+	android:layout_y="150dp"
+	android:layout_x="20dp"
+	android:layout_y="150dp" />
+<RadioButton
+	android:id="@+id/widget35"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="60 cm"
+	android:layout_x="20dp"
+	android:layout_y="200dp"
+	android:layout_x="20dp"
+	android:layout_y="200dp" />
+<RadioButton
+	android:id="@+id/widget36"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="80 cm"
+	android:layout_x="20dp"
+	android:layout_y="250dp"
+	android:layout_x="20dp"
+	android:layout_y="250dp" />
+<Button
+	android:id="@+id/widget37"
+	android:layout_width="178px"
+	android:layout_height="wrap_content"
+	android:text="Invia risposta"
+	android:textStyle="bold"
+	android:layout_x="69dp"
+	android:layout_y="350dp"
+	android:layout_x="69dp"
+	android:layout_y="350dp" />
+</AbsoluteLayout>
