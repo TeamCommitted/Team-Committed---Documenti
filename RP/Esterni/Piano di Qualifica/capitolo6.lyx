@@ -78,6 +78,13 @@ Tale sezione viene adibita alla pianificazione ed illustrazione dei test
  
 \end_layout
 
+\begin_layout Standard
+Lo scopo dell'eseguire tali test è dimostrate che l'applicazione prodotta
+ soddisfa le richieste del cliente, fornendo quindi esempi di test da attuare
+ per confermare che i requisiti individuati nel documento AnalisiDeiRequisiti_V2.
+0 sono stati soddisfatti.
+\end_layout
+
 \begin_layout Subsubsection
 Ambito Generale
 \end_layout
@@ -97,7 +104,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -145,7 +152,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: il server su cui risiede il sistema dovrà dimostrarsi
+ funzionante rispondendo alle richieste dei vari componenti  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -225,7 +233,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se, al raggiungimento di determinati
+ obiettivi di Gamification, il sistema assegnerà effettivamente dei badge/trofei
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -507,7 +517,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -555,7 +565,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verifiato se il sistema effettivamente registra
+ la data e l'ora dell'esecuzione delle varie azioni previste all'interno
+ di un file di log &
 \end_layout
 
 \begin_layout Plain Layout
@@ -595,7 +607,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema offrira effettivamente
+ la possibilità all'utente che ha smarrito la password di connettersi all'apposi
+ta pagina per richiederne il recupero &
 \end_layout
 
 \begin_layout Plain Layout
@@ -635,7 +649,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che, se la procedura di richiesta modifica
+ password è stata eseguita correttamente, il sistema invierà effettivamente
+ una mail contenente una password  temporanea generata randomicamente  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -675,7 +691,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che al primo login dopo il recupero password,
+ il sistema chieda effettivamente che questa venga modificata &
 \end_layout
 
 \begin_layout Plain Layout
@@ -745,7 +762,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -788,12 +805,54 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 5 &
+		TS-RFOB 5a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email o password non validi il sistema risponda in maniera negativa &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email e password validi il sistema risponda in maniera positiva &
 \end_layout
 
 \begin_layout Plain Layout
@@ -833,7 +892,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema permetterà effettivamente
+ di effettuare il login tramite l'apposita applicazione web, desktop o android
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -873,7 +934,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema sia in grado di fornire,
+ grazie ad un timer, periodiche domande precaricate &
 \end_layout
 
 \begin_layout Plain Layout
@@ -895,54 +957,6 @@ hline
 
 \backslash
 hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 6.1 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 6.1 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		da definire &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -1463,7 +1477,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -2113,7 +2127,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -2531,7 +2545,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2,5cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
