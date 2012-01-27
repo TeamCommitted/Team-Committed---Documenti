@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="I tuoi dati"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#ffcccccc"
+	android:layout_x="6dp"
+	android:layout_y="52dp" />
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Tuonome"
+	android:layout_x="7dp"
+	android:layout_y="89dp" />
+<TextView
+	android:id="@+id/widget34"
+	android:layout_width="wrap_content"
+	android:layout_height="20px"
+	android:text="Tuocognome"
+	android:layout_x="8dp"
+	android:layout_y="110dp" />
+<TextView
+	android:id="@+id/widget35"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Vecchia password:"
+	android:layout_x="64dp"
+	android:layout_y="243dp" />
+<TextView
+	android:id="@+id/widget35_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Nuova password:"
+	android:layout_x="75dp"
+	android:layout_y="288dp" />
+<TextView
+	android:id="@+id/widget35_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="20px"
+	android:text="Conferma nuova password:"
+	android:layout_x="10dp"
+	android:layout_y="329dp" />
+<EditText
+	android:id="@+id/widget38"
+	android:layout_width="131px"
+	android:layout_height="wrap_content"
+	android:text="***********"
+	android:textSize="18sp"
+	android:layout_x="189dp"
+	android:layout_y="233dp" />
+<EditText
+	android:id="@+id/widget38_copy"
+	android:layout_width="132px"
+	android:layout_height="wrap_content"
+	android:text="****"
+	android:textSize="18sp"
+	android:layout_x="188dp"
+	android:layout_y="324dp" />
+<EditText
+	android:id="@+id/widget38_copy"
+	android:layout_width="132px"
+	android:layout_height="wrap_content"
+	android:text="****"
+	android:textSize="18sp"
+	android:layout_x="188dp"
+	android:layout_y="279dp" />
+<TextView
+	android:id="@+id/widget32_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Cambia Password"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#ffcccccc"
+	android:layout_x="6dp"
+	android:layout_y="193dp" />
+<Button
+	android:id="@+id/widget43"
+	android:layout_width="145px"
+	android:layout_height="wrap_content"
+	android:text="Cambia Password"
+	android:textStyle="bold"
+	android:layout_x="9dp"
+	android:layout_y="376dp" />
+<Gallery
+	android:id="@+id/widget44"
+	android:layout_width="120px"
+	android:layout_height="120px"
+	android:background="#ffcc0000"
+	android:layout_x="166dp"
+	android:layout_y="32dp" />
+</AbsoluteLayout>
