@@ -997,8 +997,9 @@ hline
 RFOB 29.2 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di rimuovere
- una domanda dal database di domande da somministrare all'utente & UCASA
- 3.2 & Dinamica 
+ una domanda dal database di domande da somministrare ai 
+\backslash
+uline{Dipendenti} & UCASA 3.2 & Dinamica 
 \backslash
 
 \backslash
