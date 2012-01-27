@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{longtable}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -62,6 +65,222 @@
 
 \begin_layout Section
 Tracciamento requisiti - componenti
+\end_layout
+
+\begin_layout Subsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Installatore
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
