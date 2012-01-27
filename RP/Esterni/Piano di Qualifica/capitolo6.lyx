@@ -279,7 +279,10 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato confrontando i tempi di risposta del
+ servizio in caso di basso traffico della rete con i tempi di risposta in
+ caso di traffico elevato.
+ I due tempi di risposta dovranno quindi essere simili &
 \end_layout
 
 \begin_layout Plain Layout
@@ -323,7 +326,11 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dimanima: viene verificato confrontando i tempi di risposta del
+ servizio tramite l'utilizzo di un database test di domande risiedente nel
+ medesimo server con quelli di un database test di domande risiedente in
+ un server remoto.
+ I due tempi di risposta dovranno essere simili &
 \end_layout
 
 \begin_layout Plain Layout
@@ -367,7 +374,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se, al passaggio del mouse sopra determinati
+ campi o sezioni del servizio, questo sia in grado di restituire appositi
+ consigli sull'utilizzo dello stesso &
 \end_layout
 
 \begin_layout Plain Layout
@@ -407,7 +416,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se, da ogni schermata, il sistema renderà
+ possibile accedere ad un'apposita area di aiuto  &
 \end_layout
 
 \begin_layout Plain Layout
@@ -447,7 +457,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato testando l'applicativo desktop su sistemi
+ operativi di diverso tipo &
 \end_layout
 
 \begin_layout Plain Layout
@@ -718,6 +729,92 @@ hline
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora i dati personali del dell'utente siano stati modificati&
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora venisse modificata la password di accesso &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -1160,92 +1257,6 @@ hline
 		Prova dinamica: viene verificato che il sistema risponda positivamente
  alla modifica delle informazioni qual'ora fossero stati inseriti dati corretti
  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 11 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 11 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Prova dinamica: viene verificato che il sistema invii una mail di conferma
- qual'ora i dati personali del dipendente siano stati modificati&
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 11.1 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 11.1 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Prova dinamica: viene verificato che il sistema invii una mail di conferma
- qual'ora venisse modificata la password di accesso &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2461,12 +2472,60 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 27 &
+		TS-RFOB 27a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato se il sistema risponde positivamente
+ all'inserimento di username e password validi nella sezione dedicata al
+ login di un Amministratore Sicurezza  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 27 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 27b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde negativamente
+ all'inserimento di username e password non validi nella sezione dedicata
+ al login di un Amministratore Sicurezza &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2506,7 +2565,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica:  viene verificato che il sistema offra la possibilità
+ ad un Amministratore Sicurezza Autenticato di consultare le domande dell'aziend
+a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2546,7 +2607,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità ad
+ un Amministratore Sicurezza Autenticato di accedere all'interfaccia per
+ la modifica delle domande di un'azienda &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2590,7 +2653,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di aggiungere nuove domande da sottoporre
+ ai dipendenti da un'apposito database generale &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2634,7 +2699,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di eliminare domande dalla lista di quelle
+ che possono essere somministrate al Dipendente &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2678,7 +2745,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'Ammin
+istratore Sicurezza Autenticato di poter modificare gli obiettivi di Gamificatio
+n &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2722,7 +2791,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema esegua correttamente la
+ modifica dei badge/trofei assegnabili ai dipendenti al raggiungimento di
+ obiettivi di Gamification &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2766,7 +2837,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema esegua permetta all'Amministra
+tore Sicurezza Autenticato di terminare correttamente la propria sessione
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2867,33 +2940,6 @@ textbf{ Stato verifica }
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 31 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 31 &
-\end_layout
-
-\begin_layout Plain Layout
-
-		da definire &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -2924,7 +2970,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che sia possibile eseguire una corretta
+ installazione del sistema in alcuni dispositivi fissi di test &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2964,7 +3011,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che sia possibile eseguire una corretta
+ installazione del sistema in alcuni dispositivi mobili di test &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3008,7 +3056,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che sia possibile una corretta installazione
+ del servizio web in un server test &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3052,7 +3101,9 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che sia possibile una corretta creazione
+ di un database test per garantire il corretto funzionamento del sistema
+ &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3091,12 +3142,13 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36 &
+		TS-RFOP 36a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ all'inserimento di una domanda con dati corretti &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3122,6 +3174,178 @@ hline
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 36 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 36b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema negativamente  all'inserimento
+ di una domanda con dati non corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 36 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 36c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica di una domanda con l'inserimento di dati corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 36 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 36d &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica di una domanda con l'inserimento di dati non corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 36 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 36e &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta al'Amministratore
+ Installatore di eliminare correttamente una domanda  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
