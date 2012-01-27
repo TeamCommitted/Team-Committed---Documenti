@@ -485,8 +485,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
- multipla.
- & Capitolato & Statica 
+ multipla & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -499,8 +498,7 @@ hline
 
 RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
  con foto (entrambe con le modalità sopra citate),  scansione QR nel tempo
- limite, scansione QR nell'ordine corretto.
- & Capitolato & Statica 
+ limite, scansione QR nell'ordine corretto & Capitolato & Statica 
 \backslash
 
 \backslash

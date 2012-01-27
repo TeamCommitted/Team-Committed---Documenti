@@ -684,7 +684,7 @@ hline
 
 \begin_layout Plain Layout
 
-									& RFOB 1.1 
+									& & RFOB 1.1 
 \backslash
 
 \backslash
@@ -925,7 +925,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 3 & caso d'uso generale & RFOB 1 
+		UCG 3 & caso d'uso generale & RFOB 1 
 \backslash
 
 \backslash
@@ -935,6 +935,15 @@ hline
 \begin_layout Plain Layout
 
 									& & RFOB 3 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RFOP 30 
 \backslash
 
 \backslash
@@ -1006,7 +1015,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& RFOB 28.1 
+										& & RFOB 28.1 
 \backslash
 
 \backslash
@@ -1066,7 +1075,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCD 4 & caso d'uso generale & RFOB 1 
+		UCG 4 & caso d'uso generale & RFOB 1 
 \backslash
 
 \backslash
