@@ -975,7 +975,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema sia in grado di fornire
+ delle domande al dipendente qual'ora le richiedesse &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1019,7 +1020,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema limiti, grazie ad un timer,
+ il numero di domande che il dipendente può richiedere &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1058,12 +1060,14 @@ hline
 
 \begin_layout Plain Layout
 
-		TS-RFOB 10 &
+		TS-RFOB 10a &
 \end_layout
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema sia in grado di offrire
+ la possibilità al dipendente di accedere all'area di modifica dei propri
+ dati personali &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1097,6 +1101,94 @@ hline
 
 \begin_layout Plain Layout
 
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica delle informazioni qual'ora fossero stati inseriti dati non
+ corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica delle informazioni qual'ora fossero stati inseriti dati corretti
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		RFOB 11 & 
 \end_layout
 
@@ -1107,7 +1199,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora i dati personali del dipendente siano stati modificati&
 \end_layout
 
 \begin_layout Plain Layout
@@ -1151,7 +1244,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora venisse modificata la password di accesso &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1195,7 +1289,8 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora venisse modificato l'indirizzo email &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1239,7 +1334,7 @@ hline
 
 \begin_layout Plain Layout
 
-		da definire &
+		Prova dinamica:  &
 \end_layout
 
 \begin_layout Plain Layout

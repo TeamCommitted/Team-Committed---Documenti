@@ -794,7 +794,15 @@ Dipendente Autenticato
 \bar under
 Dipendenti
 \bar default
-, i suoi trofei e badge ottenuti e le statistiche riguardanti le sue risposte.
+, i suoi 
+\bar under
+trofei
+\bar default
+ e 
+\bar under
+badge
+\bar default
+ ottenuti e le statistiche riguardanti le sue risposte.
 \series bold
 
 \begin_inset Newline newline
@@ -848,7 +856,13 @@ Il
 \bar under
 Dipendente Autenticato
 \bar default
- può vedere i propri trofei e badge
+ può vedere i propri 
+\bar under
+trofei
+\bar default
+ e 
+\bar under
+badge
 \end_layout
 
 \begin_layout Enumerate
@@ -927,7 +941,7 @@ Il
 \bar under
 Dipendente Autenticato
 \bar default
- può modificare la propria la propria e
+ può modificare la propria e
 \series bold
 -
 \series default
@@ -1223,7 +1237,7 @@ Scopo e Descrizione:
 \bar under
 Amministratore Azienda
 \bar default
- effettuare il login diventando 
+ può effettuare il login diventando 
 \bar under
 Amministratore Azienda Autenticato
 \bar default
@@ -1257,10 +1271,6 @@ Dipendenti
 
 \series bold
  
-\series default
-Il sistema è funzionante.
-\series bold
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1538,7 +1548,7 @@ Dipendente
 Dipendente
 \bar default
  già presente è stato eliminato oppure i dati di un account già presente
- è stato modificato.
+ sono stati modificati.
  Sistema funzionante.
 \series bold
 
@@ -1916,7 +1926,15 @@ può visualizzare tutti i punteggi dei
 \bar under
 Dipendenti
 \bar default
- e modificare i trofei/badge.
+ e modificare i 
+\bar under
+trofei
+\bar default
+/
+\bar under
+badge
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -1954,7 +1972,15 @@ L'
 \bar under
 Amministratore Azienda Autenticato
 \bar default
- visualizza i punteggi di un dipendente (trofei, punti, badge)
+ visualizza i punteggi di un dipendente (
+\bar under
+trofei
+\bar default
+, punti, 
+\bar under
+badge
+\bar default
+)
 \end_layout
 
 \begin_layout Enumerate
@@ -1962,11 +1988,27 @@ L'
 \bar under
 Amministratore Azienda Autenticato
 \bar default
- può aggiungere trofei/badge ad un 
+ può aggiungere 
+\bar under
+trofei
+\bar default
+/
+\bar under
+badge
+\bar default
+ ad un 
 \bar under
 Dipendente
 \bar default
- (trofei, punti, badge)
+ (
+\bar under
+trofei
+\bar default
+, punti, 
+\bar under
+badge
+\bar default
+)
 \end_layout
 
 \begin_layout Subsubsection

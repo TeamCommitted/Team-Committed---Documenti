@@ -128,10 +128,10 @@ categoria
 \end_inset
 
  (Multitier), abbiamo deciso di raggrupparli nella stessa sezione.
-\end_layout
-
-\begin_layout Subsubsection
-ThreeTier
+ Visto che la descrizione dei due design pattern e le motivazioni dell'adozione
+ di essi sono simili, verranno descritti in questa sezione.
+ Il contesto applicativo, invece, verrà discusso singolarmente, in quanto
+ la loro applicazione è radicalmente differente.
 \end_layout
 
 \begin_layout Itemize
@@ -139,9 +139,159 @@ ThreeTier
 \series bold
 Descrizione:
 \series default
- tale design pattern permette una disgiunzione tra i vari gruppi di entità
+ tali design pattern permettono una disgiunzione fra i vari gruppi di entità
+ che cooperano nell'erogazione del servizio.
+ Esisterà un livello che si occuperà di interagire con il cliente offrendo
+ l'interfaccia grafica, un secondo livello per l'esecuzione della parte
+ algoritmica dell'applicazione e, nel caso del 
+\emph on
+ThreeTier
+\emph default
+, un terzo livello per la persistenza dei dati e il loro recupero
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ il beneficio principale apportato da questo paradigma risiede nel fatto
+ che ogni livello può venir cambiato/aggiornato senza dover propagare gli
+ effetti ai livelli adiacenti.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
+ funzionalità in gruppi disgiunti, ma in stretta collaborazione, la struttura
+ di tale design pattern risulta perticolarmente calzante per dei servizi
+ basati sull'architettura client-server, in quanto ogni livello non esiste
+ semplicemente come raggruppamento logico a sé stante, ma il suo ruolo viene
+ adattato in relazione allo specifico ambiente di rete in cui esegue: nel
+ caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
+ nel determinato ambiente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+ThreeTier:
+\series default
+ questo design pattern verrà utilizzato come struttura portante del Back-end
+ e del Front-end web, in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Back-end
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier
+\emph default
+ offrirà l'interfaccia per i vari front-end e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di eseguire i vari calcoli necessari all'elaborazione della
+ risposta da fornire i dati all'utente
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà di astrarre la base di dati e della persistenza o il recupero
+ da essa dei dati necessarie per eseguire le computazioni richieste
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Front-end web
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di eseguire i vari calcoli necessari all'elaborazione della
+ risposta da fornire i dati all'utente
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà di spedire le richieste, formattate in maniera opportuna, al
+ 
+\emph on
+back-end
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+TwoTier:
+\series default
+ uesto design pattern verrà utilizzato come struttura portante del Front-end
+ Desktop, in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di gestire la temporizzazione delle domande e la gestione dell'oper
+azione di login
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Subsection
 MVC
 \end_layout
