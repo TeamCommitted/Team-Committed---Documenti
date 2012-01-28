@@ -1,6 +1,6 @@
 
 Le attività di verifica sono spalmate su tutto l'arco del progetto: risulta dunque inappropriato prevedere una fase di “Verifica [e Validazione]” con inizio assai successivo all'inizio effettivo delle relative attività (cf. 3.5).
-
+FATTO. E' stato specificato che la verifica viene fatta durante tutto l'arco del progetto
 
 
 

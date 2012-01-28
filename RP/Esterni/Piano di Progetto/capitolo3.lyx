@@ -1039,15 +1039,25 @@ Verifica e Validazione (VV)
 \begin_layout Standard
 La fase di 
 \emph on
-Verifica e Validazione
+Verifica
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Tuttavia, le attività di Verifica non sono presenti esclusivamente in questa
+ fase, ma sono distribuite lungo l'intero progetto, a partire dalla fase
+ di Analisi.
+ La presenza del ruolo di Verificatore in tutte le fasi ne è la conferma.
+\end_layout
+
+\end_inset
+
+ e Validazione
 \emph default
  occuperà il periodo che va dal 2012/03/07 al giorno di scadenza della Revisione
  di Accettazione, il giorno 2012/04/07 (con possibilità di posticipare la
  consegna).
- Tuttavia, le attività di Verifica non sono presenti esclusivamente in questa
- fase, ma sono distribuite lungo l'intero progetto, a partire dalla fase
- di Analisi.
- La presenza del ruolo di Verificatore in tutte le fasi ne è la conferma.
+ 
 \end_layout
 
 \begin_layout Standard
