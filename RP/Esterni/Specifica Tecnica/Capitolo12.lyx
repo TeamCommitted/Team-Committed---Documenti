@@ -296,9 +296,9 @@ Dipendente
 \begin_layout Itemize
 
 \series bold
-L'aggiunta 
+L'aggiunta di un account
 \series default
-di un account 
+ 
 \bar under
 Dipendente
 \series bold
@@ -307,15 +307,15 @@ Dipendente
 \series default
 richiede dei campi personali in modo da identificare univocamente una persona,
  in seguito username e password saranno associate automaticamente dal sistema
- e, sempre automaticamente, inviate alla e-mail specificata.
+ e, sempre automaticamente, inviate alla e-mail specificata
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-La modifica
+La modifica dei dati
 \series default
- dei dati dell'account di un 
+ dell'account di un 
 \bar under
 Dipendente
 \bar default
@@ -324,7 +324,7 @@ Dipendente
 Amministratore Azienda
 \bar default
  di modificare, in casi eccezionali, i dati che sono stati messi nel sistema
- per identificare quella persona.
+ per identificare quella persona
 \end_layout
 
 \begin_layout Standard
@@ -430,7 +430,7 @@ Amministratore Sicurezza
 \bar under
 Amministratore Sicurezza
 \bar default
-, il quale può 
+, il quale può:
 \end_layout
 
 \begin_layout Itemize
@@ -439,11 +439,7 @@ Amministratore Sicurezza
 aggiungere 
 \series default
 una domanda all'insieme di domande interno (prese da un database generale
- esterno); 
-\end_layout
-
-\begin_layout Standard
-oppure
+ esterno)
 \end_layout
 
 \begin_layout Itemize
@@ -451,7 +447,7 @@ oppure
 \series bold
 cancellare
 \series default
- una domanda, sempre dal database locale.
+ una domanda, sempre dal database locale
 \end_layout
 
 \begin_layout Standard
