@@ -152,6 +152,42 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{Amministratore Azienda Autenticato}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+uline{Amministratore Azienda} che ha effettuato correttamente login
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Amministratore Installazione}} 
 \backslash
 
@@ -208,9 +244,7 @@ begin{flushright}
 
 	
 \backslash
-uline{Amministratore Installazione} che ha effettuato il login nel server
- principale, puo` Aggiungere ed Eliminare i dati di un'azienda, non puo`
- recarsi dalle aziende clienti finche` non effettua il Logout
+uline{Amministratore Installazione} che ha effettuato correttamente login
 \end_layout
 
 \begin_layout Plain Layout
@@ -248,6 +282,42 @@ begin{flushright}
 \backslash
 uline{Utente Autenticato} che puo` unicamente inserire, eliminare o modificare
  le domande presenti nel database delle domande
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Amministratore Sicurezza Autenticato}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+uline{Amministratore Sicurezza} che ha effettuato correttamente login
 \end_layout
 
 \begin_layout Plain Layout
@@ -855,6 +925,42 @@ begin{flushright}
 \backslash
 uline{Utente Autenticato} che deve rispondere alle domande proposte dalla
  nostra applicazione e puo` visualizzare i suoi punteggi
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Dipendente Autenticato}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+uline{Dipendente} che ha effettuato correttamente login 
 \end_layout
 
 \begin_layout Plain Layout
@@ -2700,6 +2806,45 @@ uline{ticket}
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Trofeo}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{V.d.
+ 
+\backslash
+uline{Badge}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
 \end_inset
 
 
@@ -2779,6 +2924,47 @@ begin{flushright}
 \begin_layout Plain Layout
 
 	Persona che deve ancora effettuare il login nella nostra piattaforma
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Utilizzatore}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Un Utilizzatore è colui che usa il sistema, ovvero l'insieme di 
+\backslash
+uline{Utenti}, 
+\backslash
+uline{Utenti Autenticati} e 
+\backslash
+uline{Installatore}
 \end_layout
 
 \begin_layout Plain Layout
