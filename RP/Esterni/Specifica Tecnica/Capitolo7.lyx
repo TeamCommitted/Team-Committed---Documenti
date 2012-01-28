@@ -63,5 +63,160 @@
 Front-end Mobile
 \end_layout
 
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/frontEndMobile.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package com.teamcommitted.clientandroid
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ contiene tutte le classi che compongono il client mobile nativo per Android.
+ Al suo interno saranno presenti tre sotto-package, 
+\series bold
+view, model 
+\series default
+e
+\series bold
+ controller
+\end_layout
+
+\begin_layout Subsection
+Package com.teamcommitted.clientandroid.view
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente: 
+\emph default
+contiene tutte le classi Java che estendono la classe Java di Android 
+\begin_inset Quotes eld
+\end_inset
+
+Activity
+\begin_inset Quotes erd
+\end_inset
+
+ e che quindi riguardano la grafica dell'applicazione.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Relazioni d’uso di altre componenti: 
+\emph default
+utilizza i package com.teamcommitted.clientandroid.model e com.teamcommitted.clientan
+droid.control.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Interfacce con e relazioni d’uso da altre componenti:
+\emph default
+ nessuna.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Attività svolte e dati trattati:
+\emph default
+ si occupa di disegnare la grafica delle Activity a schermo e di intercettare
+ gli input dati dall'utente.
+\end_layout
+
+\begin_layout Subsection
+Package com.teamcommitted.clientandroid.controller
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente: 
+\emph default
+contiene le classi di utilità che raggruppano i metodi chiamati al compimento
+ delle azioni in input dalla view.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Relazioni d’uso di altre componenti:
+\emph default
+ utilizza sia com.teamcommitted.clientandroid.control che com.teamcommitted.clientand
+roid.view.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Interfacce con e relazioni d’uso da altre componenti:
+\emph default
+ è utilizzato da com.teamcommitted.clientandroid.view.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Attività svolte e dati trattati:
+\emph default
+ si occupa di gestire le scelte dell'utente e di chiamare i giusti metodi
+ del model.
+\end_layout
+
+\begin_layout Subsection
+Package com.teamcommitted.clientandroid.model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente: 
+\emph default
+contiene le classi che counicano con le API del server, ne ricevono i dati
+ e li gestiscono.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Relazioni d’uso di altre componenti:
+\emph default
+ utilizza il package backend/server ?? e notifica com.teamcommitted.clientandroid.v
+iew che i dati sono pronti.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Interfacce con e relazioni d’uso da altre componenti:
+\emph default
+ è utilizzato da com.teamcommitted.clientandroid.control.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Attività svolte e dati trattati:
+\emph default
+ invia delle richieste HTTP al server, il quale gli risponderà inviando
+ i dati richiesti attraverso un XML, in seguito ne estrapolerà i dati e
+ li renderà disponibili alla view.
+\end_layout
+
 \end_body
 \end_document
