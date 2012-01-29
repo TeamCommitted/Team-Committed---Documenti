@@ -120,7 +120,7 @@ name "sub:Formattazione-e-copertina"
 \begin_layout Standard
 Ogni documento dovrà essere redatto seguendo queste indicazioni
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Ogni file citato in questa sezione è possibile trovarlo nel repository all'inter
@@ -145,7 +145,7 @@ frontpage.lyx
 \family default
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Il percorso del file fornito a LyX non dovrà essere assoluto, ma 
@@ -494,7 +494,7 @@ Citazioni:
  quando si deve citare una o più frasi, queste devono essere scritte in
  corsivo
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Attenzione! Le virgolette che contrassegnano una citazione non devono essere
@@ -564,7 +564,7 @@ Sottolineato:
  corrispondenza nel glossario.
  Ogni occorrenza
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Non si considerano valide come occorrenze le parole all'interno dei titoli
@@ -640,7 +640,7 @@ o o un punto interrogativo
 \series bold
 Parentesi
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Intendendo sia tonde, che quadre o graffe
@@ -1119,7 +1119,7 @@ Ogni tabella dovrà essere fornita di didascalia, in cui dovrà comparire
  un numero identificativo incrementale per la tracciabilità di tale tabella
  all'interno del documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1233,7 +1233,7 @@ accumulate
  indica il numero di modifiche effettuate considerate importanti dal redattore
  del documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Non viene normata la 
@@ -1446,7 +1446,7 @@ Redattori
 \series default
 , ovvero coloro che hanno collaborato alla redazione del documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
@@ -1469,10 +1469,10 @@ Nel caso di più persone si dovrà utilizzare un elenco puntato per elencarle
 \series bold
 Verificatori
 \series default
-, ovvero i nomi dei membri del gruppo hanno collaborato alla verifica del
- documento
+, ovvero i nomi dei membri del gruppo che hanno collaborato alla verifica
+ del documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 v.d.
@@ -1498,7 +1498,7 @@ Approvatori
 \series default
 , ovvero chi ha approvato la versione finale del documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 v.d.
@@ -1532,7 +1532,7 @@ Distribuzione
 \series default
 , ovvero la lista di persone che dovranno ricevere il documento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 v.d.
@@ -1657,7 +1657,7 @@ respProg
 
 \end_inset
 
- dovranno essere considerati essere dei 
+ dovranno essere considerati dei 
 \series bold
 documenti informali
 \series default

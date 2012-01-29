@@ -151,37 +151,37 @@ status open
 
 \begin_layout Plain Layout
 
- * +--------+------------+---------------------
+ * +----------+------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
 
- * |  Date  | Programmer | Changes
+ * |   Date   | Programmer | Changes
 \end_layout
 
 \begin_layout Plain Layout
 
- * +--------+------------+---------------------
+ * +----------+------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
 
- * | GGMMAA | NomeCognome| - [label]method1
+ * | GGMMAAAA | NomeCognome| - [label]method1
 \end_layout
 
 \begin_layout Plain Layout
 
- * |        |            | - [label]method2
+ * |          |            | - [label]method2
 \end_layout
 
 \begin_layout Plain Layout
 
- * |        |            | - ....
+ * |          |            | - ....
 \end_layout
 
 \begin_layout Plain Layout
 
- * +--------+------------+---------------------
+ * +----------+------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
@@ -272,7 +272,7 @@ Changes:
  rappresenta la lista dei cambiamenti.
  Per ogni riga dovrà esserci un solo cambiamento
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Nel caso di più cambiamenti usare più righe indicando solo una volta la
@@ -319,8 +319,8 @@ Convenzioni di codifica
 \end_layout
 
 \begin_layout Standard
-Per rendere il codice leggibile, comprensibile e quindi manutenibile possibile,
- si stabilisce che i programmatori debbano seguire la 
+Per rendere il codice leggibile, comprensibile e quindi, il più manutenibile
+ possibile, si stabilisce che i programmatori debbano seguire la 
 \bar under
 Java Code Convetion
 \bar default
@@ -440,7 +440,7 @@ Enfatizzazione parole chiave:
 \series default
  separare con uno spazio le parole chiave e le parentesi
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Fra cui, ma non solo, i costrutti 
@@ -586,7 +586,7 @@ Procedura di verifica
 Per rendere uniforme la procedura di verifica, vengono qui elencate le norme
  che regolano la verifica del codice prodotto
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Si rimanda al 

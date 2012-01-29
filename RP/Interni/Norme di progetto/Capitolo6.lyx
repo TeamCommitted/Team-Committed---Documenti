@@ -166,7 +166,7 @@ R{X}{Y}
 \family default
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Queste sigle dovranno essere seguite dal numero del requisito.
@@ -356,7 +356,7 @@ Nel caso si tratti di un caso d'uso generale,
 \series default
 : numero sequenziale che contraddistingue il caso d'uso
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Se è un'
@@ -527,7 +527,7 @@ commitProg
 \end_layout
 
 \begin_layout Standard
-Inoltre ogni requisito dovrà appartenere ad una classi di requisiti:
+Inoltre ogni requisito dovrà appartenere ad una classe di requisiti:
 \end_layout
 
 \begin_layout Itemize

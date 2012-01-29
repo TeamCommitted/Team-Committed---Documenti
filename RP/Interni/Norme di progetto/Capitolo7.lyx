@@ -267,7 +267,7 @@ ione
 
 \end_inset
 
- non siano equivalenti o superiori alle risorse utilizzate, la concorrenza
+ non saranno equivalenti o superiori alle risorse utilizzate, la concorrenza
  sarà eliminata
 \end_layout
 
@@ -324,7 +324,7 @@ name "sub:Tracciamento"
 \end_layout
 
 \begin_layout Standard
-Dovrà essere presenta in forma tabellare il tracciamento di ogni requisito
+Dovrà essere presente in forma tabellare il tracciamento di ogni requisito
  con l'entità che ne assicura la soddisfacibilità e viceversa.
 \end_layout
 
@@ -416,7 +416,7 @@ Utilizzatori ipotetici
 \begin_layout Enumerate
 Diagramma di attività della specifica sottoparte
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Si può omettere tale diagramma qualora la sua definizione risulti talmente
