@@ -303,8 +303,8 @@ hline
 
 RFOB 4 & Un 
 \backslash
-uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà modificarla & UCD 2 & Dinamica 
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla & UCD 2 & Dinamica 
 \backslash
 
 \backslash
@@ -317,15 +317,16 @@ hline
 
 RFOB 4.1 & Un 
 \backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
-mente  & UCD 2 & Dinamica 
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema & UCD 2 & Dinamica
+ 
 \backslash
 
 \backslash
  
 \backslash
-hline 
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -345,7 +346,7 @@ hline
 RFOB 5 & Un 
 \backslash
 uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
- credenziali & UCD 1 & Dinamica 
+ credenziali di accesso & UCD 1 & Dinamica 
 \backslash
 
 \backslash
@@ -439,11 +440,10 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9 & Le domande a cui verranno sottoposti i 
+RFOB 9 & Le domande che verranno sottoposte ai 
 \backslash
-uline{Dipendenti Autenticati} prevederanno che questi possano rispondere
- direttamente dalla propria postazione di lavoro & Capitolato & Statica
- 
+uline{Dipendenti Autenticati} dovranno poter avere risposta direttamente
+ dalla propria postazione di lavoro & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -458,8 +458,8 @@ RFOB 9.1 & Le domande a cui verranno sottoposti i
 \backslash
 uline{Dipendenti Autenticati} forniti di 
 \backslash
-uline{dispositivi mobili} aziendali prevederano anche prove pratiche  &
- Capitolato & Statica 
+uline{dispositivi mobili} aziendali potranno prevedere delle prove di tipo
+ pratico & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -497,8 +497,9 @@ hline
 \begin_layout Plain Layout
 
 RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
- con foto (entrambe con le modalità sopra citate),  scansione QR nel tempo
- limite, scansione QR nell'ordine corretto & Capitolato & Statica 
+ con foto (entrambe con le modalità sopra citate), scansione di codice QR
+ nel tempo limite, scansione di codici QR nell'ordine corretto & Capitolato
+ & Statica 
 \backslash
 
 \backslash
@@ -510,8 +511,8 @@ hline
 \begin_layout Plain Layout
 
 RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
- trova errori nella foto, trova differenze nella foto, registra gli RF-ID
- nell'ordine corretto & Capitolato & Statica 
+ trova errori nella foto, trova differenze nella foto, registra i codici
+ RF-ID nell'ordine corretto & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -667,9 +668,9 @@ hline
 
 RFOB 16.1 & Le informazioni che un 
 \backslash
-uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte(sia
- corrette che errate), classifica aziendale, trofei/badge raccolti, statistiche
- derivanti dalle risposte & UCDA 5 & Statica 
+uline{Dipendente Autenticato} potrà consultare sono: storico delle risposte
+ (sia corrette che errate), classifica aziendale, trofei/badge raccolti,
+ statistiche derivanti dalle risposte & UCDA 5 & Statica 
 \backslash
 
 \backslash
@@ -683,7 +684,7 @@ hline
 RFOB 17 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di terminare la
- propria sessione, senza terminare l'applicazione & UCDA 8 & Dinamica 
+ propria sessione, senza chiudere l'applicazione & UCDA 8 & Dinamica 
 \backslash
 
 \backslash
@@ -739,7 +740,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20.1 & i dati personali sono: nome, cognome, codice fiscale, email,
+RFOB 20.1 & I dati personali sono: nome, cognome, codice fiscale, email,
  impiego & UCAAA 2.1 & Statica 
 \backslash
 
@@ -753,9 +754,9 @@ hline
 
 RFOB 20.2 & Ad ogni account 
 \backslash
-uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
- suo account all'indirizzo email dichiarato utili per connettersi al sistema
- & UCAAA 2.1 & Dinamica 
+uline{Dipendente} che verrà creato, il sistema dovrà inviargli le credenziali
+ d'accesso all'indirizzo email inserito in fase di registrazione & UCAAA
+ 2.1 & Dinamica 
 \backslash
 
 \backslash
@@ -1101,7 +1102,7 @@ hline
 
 RFOB 35 & Un 
 \backslash
-uline{Amministratore Installatore} avrà la possibilità di creare il dabase
+uline{Amministratore Installatore} avrà la possibilità di creare il database
  dell'azienda per far funzionare il sistema & Interno & Dinamica 
 \backslash
 

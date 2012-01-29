@@ -165,7 +165,7 @@ Dipendente Autenticato
  che gliene venga proposta una in ogni momento e deve poter visualizzare
  i suoi punteggi in qualsiasi momento.
  Può inoltre effettuare il logout dalla postazione (senza terminare l'applicazio
-n) e modificare o visualizzare i propri dati account.
+ne) e modificare o visualizzare i propri dati account.
 \series bold
 
 \begin_inset Newline newline
@@ -427,7 +427,7 @@ Utente
 \end_layout
 
 \begin_layout Enumerate
-Riceve nella casella e-mail inserita una password auto generata randomicamente
+Riceve nella casella e-mail inserita una password auto generata casualmente
  che dovrà essere nuovamente modificata al primo login
 \end_layout
 
@@ -967,7 +967,7 @@ Precondizione:
 Postcondizione: 
 \series default
 Le modifiche sono state salvate in modo corretto, il sistema ha inviato
- una mail contenente i dati account all' 
+ una mail contenente i dati account all'
 \bar under
 Utente
 \bar default
@@ -1169,7 +1169,7 @@ Dipendente
 \end_layout
 
 \begin_layout Subsection
-UCG 2: Ambito Amministratore Azienda, caso d' uso generale
+UCG 2: Ambito Amministratore Azienda, caso d'uso generale
 \end_layout
 
 \begin_layout Standard
@@ -2528,7 +2528,7 @@ Scopo e Descrizione:
 Amministratore Sicurezza Autenticato
 \bar default
  può aggiungere una domanda da sottoporre all'azienda, prendendola dal database
- generale delle domoande.
+ generale delle domande.
 \series bold
 
 \begin_inset Newline newline
