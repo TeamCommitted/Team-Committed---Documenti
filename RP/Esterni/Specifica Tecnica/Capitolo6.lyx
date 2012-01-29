@@ -65,20 +65,24 @@ Front-end Web
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename img/frontEndWeb.png
+	scale 80
 
 \end_inset
 
 
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Web
 \end_layout
 
 \end_inset
