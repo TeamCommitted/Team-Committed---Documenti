@@ -74,13 +74,13 @@ Si propone di seguito il consuntivo riguardante la fase di progettazione
 
 \begin_layout Standard
 L'inizio della fase è stato posticipato alla data 2012/01/06, in quanto
- il gruppo ha dovuto studiare alcune tecnologie per poter quindi fare al
+ il gruppo ha dovuto studiare alcune tecnologie per poter realizzare al
  meglio la 
 \emph on
 Progettazione Architetturale
 \emph default
-, per evitare di proporre un prodotto fantasioso o comunque definire un'architet
-tura non realizzabile.
+, in modo da evitare di proporre un prodotto non conforme ai requisiti o
+ di definire un'architettura difficilmente realizzabile.
 \end_layout
 
 \begin_layout Standard
@@ -99,6 +99,9 @@ reference "fig:Diagramma-di-Gantt,"
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -137,21 +140,29 @@ name "fig:Diagramma-di-Gantt,"
 \end_layout
 
 \begin_layout Standard
-La tabella 
+La Tabella 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Tabella-che-indica"
 
 \end_inset
 
- si fornisce il consuntivo della tabella 
+ mostra la variazione delle ore di lavoro rispetto alla Tabella 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Dettaglio-delle-ore-RP"
 
 \end_inset
 
-, mentre la tabella XX riassume e consuntiva la tabella 
+, mentre la Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tabella-che-indica-1"
+
+\end_inset
+
+ riassume come le differenze di lavoro abbiano influenzato il preventivo
+ fornito in Tabella 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Riassuntivo-delle-ore-RP"
@@ -163,7 +174,7 @@ reference "tab:Riassuntivo-delle-ore-RP"
 \end_layout
 
 \begin_layout Standard
-Nelle tabelle sottostanti, le scritte di colore:
+Le ore ed i costi saranno evidenziati con i seguenti colori:
 \end_layout
 
 \begin_layout Itemize
@@ -193,7 +204,13 @@ indicano che la stima in preventivo è stata pessimistica e quindi si ha
 \end_layout
 
 \begin_layout Subsubsection
-Consuntivo ore ruolo
+Consuntivo delle ore di lavoro
+\end_layout
+
+\begin_layout Standard
+A seguire, il consuntivo delle ore di lavoro.
+ La quantità di ore in eccesso (+) o in difetto (-) rispetto a quanto preventiva
+to sarà segnalata fra parentesi.
 \end_layout
 
 \begin_layout Standard
@@ -204,13 +221,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename Img/Consuntivo PA/Oreruolo-RP.jpg
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -224,15 +237,15 @@ name "tab:Tabella-che-indica"
 
 \end_inset
 
-Tabella che indica il consuntivo specico di ogni attività
+
+\lang italian
+Consuntivo delle ore per ruolo nella fase di
+\emph on
+ Progettazione Architetturale
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -247,40 +260,47 @@ Com'è possibile vedere, rispetto a quanto preventivato c'è stato un aumento
 \emph on
 Progettisti
 \emph default
- nel secondo periodo e le ore assegnate all'
+ nel secondo periodo, mentre nel primo periodo, durante la fase di stesura
+ finale dell'Analisi dei Requisiti, c'è stata una diminuzione delle ore
+ di lavoro per gli 
 \emph on
-Amministratore
+Analisti
 \emph default
- nel terzo periodo.
+.
  
 \end_layout
 
 \begin_layout Standard
 L'aumento delle ore impiegate dai progettisti è da ricondursi al fatto che,
- per riuscire a definire l'architettura di sistema, c'è stata una larga
- fase di apprendimento legata a tecnologie e metodologie da dover utilizzare
+ per riuscire a definire l'architettura di sistema, c'è stata un'ampia fase
+ di apprendimento legata a tecnologie e metodologie da dover utilizzare
  per scongiurare il rischio di definire un'architettura non realizzabile.
- Infine, le novità introdotte dalle sopracitate tecnologie hanno portato
- anche ad un aumento delle ore impiegate dall'amministratore.
+ La diminuzione delle ore di lavoro per gli analisti, invece, è da attribuire
+ ad una previsione pessimistica fatta nella fase di analisi.
 \end_layout
 
 \begin_layout Subsubsection
-Consuntivo costo fase
+Consuntivo dei costi di lavoro
+\end_layout
+
+\begin_layout Standard
+A seguire, il consuntivo dei costi di lavoro.
+ I costi in eccesso (+) o in difetto (-) rispetto a quanto preventivato
+ saranno segnalati fra parentesi.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Img/Consuntivo PA/oreruolosomm-RP.jpg
+	scale 45
 
 \end_inset
 
@@ -288,8 +308,17 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Tabella che indica il consuntivo generico della fase di Progettazione Architettu
-rale
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabella-che-indica-1"
+
+\end_inset
+
+Consuntivo 
+\lang italian
+delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione Architetturale
 \end_layout
 
 \end_inset
@@ -307,16 +336,21 @@ rale
 \end_layout
 
 \begin_layout Standard
-Com'è possibile notare, come conseguenza di quanto detto precedentemente,
- il costo relativo ad 
-\emph on
-Amminstratore
-\emph default
- e 
+Com'è possibile notare, il costo dovuto al lavoro 
 \emph on
 Progettisti
 \emph default
- è aumentato, facendo aumentare di conseguenza il costo della fase in totale.
+ è aumentato, mentre è diminuito per quanto riguarda il lavoro degli 
+\emph on
+Analisiti
+\emph default
+.
+ Il costo finale ha subito conseguentemente una variazione, per un totale
+ di 
+\series bold
+€ 4.187,00
+\series default
+, contro i € 4.217,00 preventivati, con un risparmio di € 30,00.
 \end_layout
 
 \end_body
