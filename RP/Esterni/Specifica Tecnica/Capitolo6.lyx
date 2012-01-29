@@ -74,7 +74,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename img/frontEndWeb.png
-	scale 80
+	scale 25
 
 \end_inset
 
@@ -105,9 +105,9 @@ Package com.safetyGame.web
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
-\emph default
+\series default
  questo package costituisce la parte del sistema che definisce l'interfaccia
  web del sistema con gli utenti.
  
@@ -115,9 +115,9 @@ Tipo, obiettivo e funzione del componente:
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  Il package è stato progettato su tre livelli ed è composto da quattro sotto-pac
 kage, 
 \series bold
@@ -144,19 +144,21 @@ Package com.safetyGame.web.view
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
 \emph default
- questo package raccoglie le interfacce e le rispettive classi che le implementa
-no, che rappresentano i tre tipi di utenti che possono avere accesso al
- sistema.
+questo package raccoglie le interfacce e le rispettive classi che le implementan
+o, che rappresentano i tre tipi di utenti che possono avere accesso al sistema.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  Il package utilizza il package 
 \series bold
 control
@@ -171,10 +173,13 @@ Model-Tier
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
+\emph on
+ 
+\series default
 \emph default
- il package è utilizzato da 
+il package è utilizzato da 
 \series bold
 control
 \series default
@@ -187,18 +192,18 @@ Package com.safetyGame.web.control
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
-\emph default
+\series default
  questo package raccoglie le classi che si occupano di controllare la sussistenz
 a dei dati da e verso l'interfaccia grafica visibile all'utente.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  Il package utilizza il package 
 \series bold
 view
@@ -213,10 +218,13 @@ model
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
+\emph on
+ 
+\series default
 \emph default
- il package è utilizzato da 
+il package è utilizzato da 
 \series bold
 view 
 \series default
@@ -233,18 +241,21 @@ Package com.safetyGame.web.model
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
 \emph default
- questo package raccoglie le classi che consentono di interfacciarsi con
+questo package raccoglie le classi che consentono di interfacciarsi con
  i dati contenuti nel back-end del sistema.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  Il package utilizza il package 
 \series bold
 condivisi
@@ -254,9 +265,9 @@ condivisi
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph default
+\series default
  il package è utilizzato da 
 \series bold
 control
@@ -270,19 +281,25 @@ Package com.safetyGame.web.condivisi
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
 \emph default
- questo package raccoglie le classi che rappresentano concretamente i dati
+questo package raccoglie le classi che rappresentano concretamente i dati
  e le informazioni presenti e persistenti nel sistema.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
+\emph on
+ 
+\series default
 \emph default
- Il package utilizza il package 
+Il package utilizza il package 
 \series bold
 control
 \series default
@@ -291,10 +308,13 @@ control
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
+\emph on
+ 
+\series default
 \emph default
- il package è utilizzato da 
+il package è utilizzato da 
 \series bold
 model
 \series default

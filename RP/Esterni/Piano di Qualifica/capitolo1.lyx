@@ -155,7 +155,7 @@ name "sub:Glossario"
 Tutti i termini marcati da apposita sottolineatura saranno approfonditi
  e descritti all'interno del file 
 \family typewriter
-Glossario-v1.0.pdf
+Glossario-v2.0.pdf
 \family default
  al fine di evitare ambiguità.
 \end_layout
@@ -169,7 +169,11 @@ Normativi
 \end_layout
 
 \begin_layout Itemize
-Capitolato d'appalto: 
+
+\series bold
+Capitolato d'appalto
+\series default
+: 
 \bar under
 Piattaforma mobile di apprendimento comportamentale
 \bar default
@@ -180,7 +184,7 @@ proponente
  Mentis s.r.l.
  reperibile all'indirizzo 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -193,19 +197,55 @@ http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/C3.pdf
 \end_layout
 
 \begin_layout Itemize
-Analisi dei requisiti (Allegato AnalisiDeiRequisiti_v1.0.0.pdf)
+
+\series bold
+Analisi dei requisiti 
+\series default
+(Allegato 
+\family typewriter
+Analisi_Dei_Requisiti_v2.0.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Itemize
-Norme di progetto (Allegato NormeDiProgetto_v1.0.0.pdf)
+
+\series bold
+Norme di progetto
+\series default
+ (Allegato 
+\family typewriter
+Norme_Di_Progetto_v2.0.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Itemize
-Verbale incontro 
+
+\series bold
+Verbale incontro proponente
 \bar under
-proponente
+ 
 \bar default
- 2011-12-05 (Allegato Verbale05.12.2011.pdf)
+2011/12/05
+\series default
+ (Allegato 
+\family typewriter
+Verbale05.12.2011.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verbale incontro proponente 2012/01/26 
+\series default
+(Allegato 
+\family typewriter
+Verbale20120126.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Subsubsection
@@ -214,10 +254,14 @@ Informativi
 
 \begin_layout Itemize
 
+\series bold
+ISO/IEC
 \bar under
-ISO/IEC 
+ 
 \bar default
-15504:1998 (
+15504:1998
+\series default
+ (
 \begin_inset Flex URL
 status open
 
@@ -233,10 +277,10 @@ www2.cnipa.gov.it/site/_contentfiles/00310300/310320_15504.pdf
 
 \begin_layout Itemize
 
-\bar under
-ISO/IEC
-\bar default
- 9126 (
+\series bold
+ISO/IEC 9126
+\series default
+ (
 \begin_inset Flex URL
 status open
 
@@ -252,10 +296,25 @@ http://it.wikipedia.org/wiki/ISO/IEC_9126
 
 \begin_layout Itemize
 
-\bar under
+\series bold
 ISO
+\bar under
+ 
 \bar default
- 14598
+14598
+\series default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://webstore.iec.ch/preview/info_isoiec14598-1%7Bed1.0%7Den.pdf
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \end_body

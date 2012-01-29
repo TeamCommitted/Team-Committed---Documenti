@@ -108,9 +108,9 @@ Broken Window Theory
 \begin_layout Standard
 Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
  incrementale (vedi 
-\family typewriter
-Piano di Progetto - V1.0
-\family default
+\emph on
+Piano di Progetto - V2.0
+\emph default
  per approfondimenti) e di conseguenza le operazioni di verifica verranno
  realizzate in modo tale da intervenire in maniera coerente nelle varie
  fasi del progetto come illustrato di seguito: 

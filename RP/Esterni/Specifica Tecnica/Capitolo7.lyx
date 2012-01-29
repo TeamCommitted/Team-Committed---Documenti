@@ -66,7 +66,7 @@ Front-end Mobile
 \begin_layout Standard
 \begin_inset Graphics
 	filename img/frontEndMobile.png
-	scale 60
+	scale 45
 
 \end_inset
 
@@ -79,10 +79,13 @@ Package com.teamcommitted.clientandroid
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
 \emph default
- contiene tutte le classi che compongono il client mobile nativo per Android.
+contiene tutte le classi che compongono il client mobile nativo per Android.
  Al suo interno saranno presenti tre sotto-package, 
 \series bold
 view, model 
@@ -98,9 +101,9 @@ Package com.teamcommitted.clientandroid.view
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente: 
-\emph default
+\series default
 contiene tutte le classi Java che estendono la classe Java di Android 
 \begin_inset Quotes eld
 \end_inset
@@ -110,32 +113,47 @@ Activity
 \end_inset
 
  e che quindi riguardano la grafica dell'applicazione.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
-Relazioni d’uso di altre componenti: 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
 \emph default
+Relazioni d’uso di altre componenti: 
+\series default
 utilizza i package com.teamcommitted.clientandroid.model e com.teamcommitted.clientan
 droid.control.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
 Interfacce con e relazioni d’uso da altre componenti:
-\emph default
- nessuna.
- 
-\end_layout
-
-\begin_layout Standard
-
 \emph on
-Attività svolte e dati trattati:
+ 
+\series default
 \emph default
- si occupa di disegnare la grafica delle Activity a schermo e di intercettare
+nessuna.
+ 
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+si occupa di disegnare la grafica delle Activity a schermo e di intercettare
  gli input dati dall'utente.
 \end_layout
 
@@ -145,36 +163,54 @@ Package com.teamcommitted.clientandroid.controller
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente: 
-\emph default
+\series default
 contiene le classi di utilità che raggruppano i metodi chiamati al compimento
  delle azioni in input dalla view.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
 Relazioni d’uso di altre componenti:
-\emph default
- utilizza sia com.teamcommitted.clientandroid.control che com.teamcommitted.clientand
-roid.view.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
+ 
+\series default
+\emph default
+utilizza sia com.teamcommitted.clientandroid.control che com.teamcommitted.clientandr
+oid.view.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
 Interfacce con e relazioni d’uso da altre componenti:
-\emph default
- è utilizzato da com.teamcommitted.clientandroid.view.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
-Attività svolte e dati trattati:
+ 
+\series default
 \emph default
- si occupa di gestire le scelte dell'utente e di chiamare i giusti metodi
+è utilizzato da com.teamcommitted.clientandroid.view.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+si occupa di gestire le scelte dell'utente e di chiamare i giusti metodi
  del model.
 \end_layout
 
@@ -184,35 +220,50 @@ Package com.teamcommitted.clientandroid.model
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente: 
-\emph default
+\series default
 contiene le classi che counicano con le API del server, ne ricevono i dati
  e li gestiscono.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
 Relazioni d’uso di altre componenti:
-\emph default
- utilizza il package backend/server ?? e notifica com.teamcommitted.clientandroid.v
-iew che i dati sono pronti.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
+ 
+\series default
+\emph default
+utilizza il package backend/server ?? e notifica com.teamcommitted.clientandroid.vi
+ew che i dati sono pronti.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
 Interfacce con e relazioni d’uso da altre componenti:
-\emph default
- è utilizzato da com.teamcommitted.clientandroid.control.
-\end_layout
-
-\begin_layout Standard
-
 \emph on
-Attività svolte e dati trattati:
+ 
+\series default
 \emph default
+è utilizzato da com.teamcommitted.clientandroid.control.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
  invia delle richieste HTTP al server, il quale gli risponderà inviando
  i dati richiesti attraverso un XML, in seguito ne estrapolerà i dati e
  li renderà disponibili alla view.
