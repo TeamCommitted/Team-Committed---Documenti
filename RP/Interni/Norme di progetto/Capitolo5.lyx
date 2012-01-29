@@ -968,7 +968,25 @@ nameproject
 
 \end_inset
 
+.
+ Il comando 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ relativo è 
+\family typewriter
+
+\backslash
+nameproject
 \end_layout
 
 \end_deeper
@@ -1061,6 +1079,22 @@ RQ
 RA
 \series default
  = Revisione di Accettazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+SF = 
+\series default
+Studio di Fattibilità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ST = 
+\series default
+Specifica Tecnica
 \end_layout
 
 \end_deeper
