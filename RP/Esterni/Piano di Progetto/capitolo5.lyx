@@ -348,9 +348,48 @@ Analisiti
  Il costo finale ha subito conseguentemente una variazione, per un totale
  di 
 \series bold
-€ 4.187,00
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 4.187,00
 \series default
-, contro i € 4.217,00 preventivati, con un risparmio di € 30,00.
+, contro i 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 4.217,00 preventivati, con un risparmio di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 30,00.
 \end_layout
 
 \end_body
