@@ -65,27 +65,20 @@ Front-end Web
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename img/frontEndWeb.png
-	scale 80
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Front-End Web
+\begin_inset Graphics
+	filename img/frontEndWeb.png
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -100,6 +93,208 @@ Front-End Web
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.web
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package costituisce la parte del sistema che definisce l'interfaccia
+ web del sistema con gli utenti.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ Il package è stato progettato su tre livelli ed è composto da quattro sotto-pac
+kage, 
+\series bold
+view
+\series default
+, 
+\series bold
+control
+\series default
+, 
+\series bold
+model
+\series default
+, 
+\series bold
+condivisi
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.web.view
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le interfacce e le rispettive classi che le implementa
+no, che rappresentano i tre tipi di utenti che possono avere accesso al
+ sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ Il package utilizza il package 
+\series bold
+control
+\series default
+, per il controllo delle informazioni che un uente immette nel sistema via
+ grafica, ed il livello 
+\series bold
+Model-Tier
+\series default
+ per la memorizzazione di tali informazioni.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+control
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.web.control
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che si occupano di controllare la sussistenz
+a dei dati da e verso l'interfaccia grafica visibile all'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ Il package utilizza il package 
+\series bold
+view
+\series default
+, per il passaggio delle informazioni corrette richieste in precedenza per
+ via grafica, ed il package 
+\series bold
+model
+\series default
+ per la lettura o scrittura di informazioni presenti nel sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+view 
+\series default
+e
+\series bold
+ condivisi
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.web.model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che consentono di interfacciarsi con
+ i dati contenuti nel back-end del sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ Il package utilizza il package 
+\series bold
+condivisi
+\series default
+, per salvare le eventuali modifiche apportate ad una delle sue classi.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+control
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.web.condivisi
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che rappresentano concretamente i dati
+ e le informazioni presenti e persistenti nel sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ Il package utilizza il package 
+\series bold
+control
+\series default
+, per inoltrare i dati richiesti dall'utente per via grafica.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+model
+\series default
+.
 \end_layout
 
 \end_body
