@@ -63,5 +63,72 @@
 Front-end Desktop
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/frontEndDesktop.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.desktop
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package costituisce la parte del sistema che definisce i metodi
+ e la grafica per l'accesso all'applicazione da parte di un utente e le
+ funzionalità disponibili per un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ questo package è costituito da tre sotto-package, 
+\series bold
+view
+\series default
+, 
+\series bold
+logic
+\series default
+, 
+\series bold
+dati
+\series default
+.
+\end_layout
+
 \end_body
 \end_document
