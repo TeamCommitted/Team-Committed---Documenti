@@ -81,8 +81,11 @@ Tale sezione viene adibita alla pianificazione ed illustrazione dei test
 \begin_layout Standard
 Lo scopo dell'eseguire tali test è dimostrate che l'applicazione prodotta
  soddisfa le richieste del cliente, fornendo quindi esempi di test da attuare
- per confermare che i requisiti individuati nel documento AnalisiDeiRequisiti_V2.
-0 sono stati soddisfatti.
+ per confermare che i requisiti individuati nel documento 
+\family typewriter
+Analisi Dei Requisiti - V2.0
+\family default
+ sono stati soddisfatti.
 \end_layout
 
 \begin_layout Subsubsection

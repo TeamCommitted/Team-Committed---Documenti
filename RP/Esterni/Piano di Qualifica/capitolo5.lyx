@@ -72,13 +72,10 @@ Revisione dei requisiti
 Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
  verifica sui documenti prodotti.
  Nel dettaglio è stato effettuata un'analisi statica come indicato nella
- sezione 2.5.2 tramite walkthrough
-\bar under
- 
-\bar default
-prima ed inspection poi, verificando che i documenti rispettino i punti
- individuati e riportati in tale sezione inerenti la formattazione del testo,
- effettuando le dovute procedure per la correzione degli errori rilevati.
+ sezione 2.5.2 tramite walkthrough prima ed inspection poi, verificando che
+ i documenti rispettino i punti individuati e riportati in tale sezione
+ inerenti la formattazione del testo, effettuando le dovute procedure per
+ la correzione degli errori rilevati.
  Nel dettaglio, i documenti sono stati revisionato effettuando quindi il
  controllo ortografico tramite Aspell, il plugin per LyX, mentre il controllo
  grammaticale, sintattico e lessicale è avvenuto tramite 
