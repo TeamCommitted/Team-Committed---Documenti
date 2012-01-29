@@ -436,7 +436,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 13 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
+RFOB 12.1 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
  indirizzo di posta elettronica, impiego, password, username & & & 
 \backslash
 
@@ -448,7 +448,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 14 & Un 
+RFOB 13 & Un 
 \backslash
 uline{Dipendente Autenticato} a cui viene proposta la possibilità di rispondere
  ad una domanda potrà scegliere di visualizzarla e quindi rispondere, oppure
@@ -463,7 +463,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15 & Una volta che una domanda viene mostrata ad un 
+RFOB 14 & Una volta che una domanda viene mostrata ad un 
 \backslash
 uline{Dipendente Autenticato}, questo dovrà necessarimente fornirle risposta
  & & & 
@@ -477,7 +477,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
+RFOB 14.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
  sottoposto un 
 \backslash
 uline{Dipendente Autenticato} è una nuova domanda, una domanda posticipata
@@ -492,7 +492,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 16 & Un 
+RFOB 15 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di consultare le
  informazioni riguardanti i suoi punteggi & & & 
@@ -506,7 +506,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 16.1 & Le informazioni che un 
+RFOB 15.1 & Le informazioni che un 
 \backslash
 uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte(sia
  corrette che errate), classifica aziendale, trofei/badge raccolti, statistiche
@@ -521,7 +521,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 17 & Un 
+RFOB 16 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di terminare la
  propria sessione, senza terminare l'applicazione & & & 
@@ -871,7 +871,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 18 & Un 
+RFOB 17 & Un 
 \backslash
 uline{Amministratore Azienda} dovrà potersi autenticare nel sistema inserendo
  le proprie credenziali & & & 
@@ -885,7 +885,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 19 & L'
+RFOB 18 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
  dei 
@@ -901,7 +901,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20 & L'
+RFOB 19 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
 \backslash
@@ -916,7 +916,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20.1 & i dati personali sono: nome, cognome, codice fiscale, email,
+RFOB 19.1 & i dati personali sono: nome, cognome, codice fiscale, email,
  impiego & & & 
 \backslash
 
@@ -928,7 +928,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20.2 & Ad ogni account 
+RFOB 19.2 & Ad ogni account 
 \backslash
 uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
  suo account all'indirizzo email dichiarato utili per connettersi al sistema
@@ -943,7 +943,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20.2.1 & Il sistema invia all'indirizzo email del nuovo 
+RFOB 19.2.1 & Il sistema invia all'indirizzo email del nuovo 
 \backslash
 uline{Dipendente} la sua username & & & 
 \backslash
@@ -956,7 +956,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20.2.2 & Il sistema invia all'indirizzo email del nuovo 
+RFOB 19.2.2 & Il sistema invia all'indirizzo email del nuovo 
 \backslash
 uline{Dipendente} la sua password & & & 
 \backslash
@@ -969,7 +969,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 21 & L'
+RFOB 20 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} potrà eliminare un account 
 \backslash
@@ -984,7 +984,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 22 & Un 
+RFOB 21 & Un 
 \backslash
 uline{Amministratore Azienda Autenticato} avrà la possibiltà di modificare
  i dati personali dei 
@@ -1000,7 +1000,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 22.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
+RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
  email, impiego, codice fiscale & & & 
 \backslash
 
@@ -1012,7 +1012,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 23 & L'
+RFOB 22 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter visualizzare i dati
  di ogni singolo 
@@ -1028,7 +1028,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 23.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
+RFOB 22.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
  email, impiego, nickname & & & 
 \backslash
 
@@ -1040,7 +1040,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 24 & L'
+RFOB 23 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter visionare le statistiche
  personali di ogni singolo 
@@ -1056,7 +1056,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 24.1 & Le statistiche personali sono: punti, trofei/badge & & & 
+RFOB 23.1 & Le statistiche personali sono: punti, trofei/badge & & & 
 \backslash
 
 \backslash
@@ -1067,7 +1067,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 25 & L'
+RFOB 24 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter modificare i badge/trofei
  di ogni singolo 
@@ -1083,7 +1083,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 26 & Un 
+RFOB 25 & Un 
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà avere la possibilità di
  terminare la propria sessione & & & 
@@ -1302,7 +1302,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 27 & Un 
+RFOB 26 & Un 
 \backslash
 uline{Amministratore Sicurezza} dovrà potersi autenticare nel sistema inserendo
  le proprie credenziali & & & 
@@ -1316,7 +1316,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 28 & Un 
+RFOB 27 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
  le domande dell'azienda & & & 
@@ -1330,7 +1330,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 28.1 & La consultazione farà vedere: il tipo, il testo, le risposte
+RFOB 27.1 & La consultazione farà vedere: il tipo, il testo, le risposte
  possibili, le risposte corrette, le immagini / video (se presenti), la
  categoria a cui verrà somministrata, la piattaforma, la temporizzazione
  (se presente) e il punteggio della domanda & & & 
@@ -1344,7 +1344,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 29 & Un 
+RFOB 28 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare l'insieme
  delle domande di un'azienda & & & 
@@ -1358,7 +1358,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 29.1 & Un 
+RFOB 28.1 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di aggiungere
  una domanda, dall'insieme di quelle già presenti nel database generale
@@ -1373,7 +1373,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 29.2 & Un 
+RFOB 28.2 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di rimuovere
  una domanda dal database di domande da somministrare ai 
@@ -1389,7 +1389,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 30 & L'
+RFOP 29 & L'
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare gli obiettivi
  di 
@@ -1405,7 +1405,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 30.1 & L'
+RFOP 29.1 & L'
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare i badge
  o trofei assegnabili agli utenti al raggiungimento di obiettivi di 
@@ -1421,7 +1421,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 31 & Un 
+RFOB 30 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà avere la possibilità di
  terminare la propria sessione & & & 
@@ -1560,7 +1560,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 32 & Un 
+RFOB 31 & Un 
 \backslash
 uline{Amministratore Installatore} potrà installare il software sui 
 \backslash
@@ -1575,7 +1575,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 33 & Un 
+RFOB 32 & Un 
 \backslash
 uline{Amministratore Installatore} potrà installare il software sui 
 \backslash
@@ -1590,7 +1590,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 34 & Un 
+RFOB 33 & Un 
 \backslash
 uline{Amministratore Installatore} avrà la possibilità di creare il sito
  web interno dell'azienda per far funzionare il sistema & & & 
@@ -1604,7 +1604,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 35 & Un 
+RFOB 34 & Un 
 \backslash
 uline{Amministratore Installatore} avrà la possibilità di creare il dabase
  dell'azienda per far funzionare il sistema & & & 
@@ -1618,7 +1618,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 36 & Un 
+RFOP 35 & Un 
 \backslash
 uline{Amministratore Installatore} potrà aggiungere, modificare o cancellare
  una domanda dal database centrale delle domande tramite semplice interfaccia

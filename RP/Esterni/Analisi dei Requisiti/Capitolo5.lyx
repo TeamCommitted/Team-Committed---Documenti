@@ -444,7 +444,7 @@ hline
 
 \begin_layout Plain Layout
 
-								  & & RFOB 14 
+								  & & RFOB 13 
 \backslash
 
 \backslash
@@ -460,7 +460,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 3.1.1 & domanda nuova & RFOB 15.1 
+		UCDA 3.1.1 & domanda nuova & RFOB 14.1 
 \backslash
 
 \backslash
@@ -471,7 +471,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 3.1.2 & domanda posticipata & RFOB 15.1 
+		UCDA 3.1.2 & domanda posticipata & RFOB 14.1 
 \backslash
 
 \backslash
@@ -482,7 +482,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 3.1.3 & domanda risposta sbagliata & RFOB 15.1 
+		UCDA 3.1.3 & domanda risposta sbagliata & RFOB 14.1 
 \backslash
 
 \backslash
@@ -493,7 +493,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 3.1.4 & domanda risposta & RFOB 15 
+		UCDA 3.1.4 & domanda risposta & RFOB 14 
 \backslash
 
 \backslash
@@ -504,7 +504,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 3.2 & posticipa domanda & RFOB 14 
+		UCDA 3.2 & posticipa domanda & RFOB 13 
 \backslash
 
 \backslash
@@ -540,7 +540,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 5 & visione punteggi personali & RFOB 16 
+		UCDA 5 & visione punteggi personali & RFOB 15 
 \backslash
 
 \backslash
@@ -551,7 +551,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 5.1 & visione domande corrette/errate & RFOB 16.1  
+		UCDA 5.1 & visione domande corrette/errate & RFOB 15.1  
 \backslash
 
 \backslash
@@ -562,7 +562,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 5.2 & visione classifica & RFOB 16.1  
+		UCDA 5.2 & visione classifica & RFOB 15.1  
 \backslash
 
 \backslash
@@ -573,7 +573,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 5.3 & visione trofei/badge & RFOB 16.1  
+		UCDA 5.3 & visione trofei/badge & RFOB 15.1  
 \backslash
 
 \backslash
@@ -584,7 +584,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 5.4 & visione statistiche risposte & RFOB 16.1 
+		UCDA 5.4 & visione statistiche risposte & RFOB 15.1 
 \backslash
 
 \backslash
@@ -648,7 +648,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 13 
+										& & RFOB 12.1 
 \backslash
 
 \backslash
@@ -664,7 +664,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCDA 8 & logout & RFOB 17 
+		UCDA 8 & logout & RFOB 16 
 \backslash
 
 \backslash
@@ -745,7 +745,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAA 1 & login & RFOB 18 
+		UCAA 1 & login & RFOB 17 
 \backslash
 
 \backslash
@@ -756,7 +756,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 2 & gestione dipendenti & RFOB 19 
+		UCAAA 2 & gestione dipendenti & RFOB 18 
 \backslash
 
 \backslash
@@ -767,7 +767,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 2.1 & aggiungi dipendente &  RFOB 20 
+		UCAAA 2.1 & aggiungi dipendente &  RFOB 19 
 \backslash
 
 \backslash
@@ -776,7 +776,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 20.1 
+										& & RFOB 19.1 
 \backslash
 
 \backslash
@@ -785,7 +785,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 20.2 
+										& & RFOB 19.2 
 \backslash
 
 \backslash
@@ -794,7 +794,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 20.2.1 
+										& & RFOB 19.2.1 
 \backslash
 
 \backslash
@@ -803,7 +803,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 20.2.2 
+										& & RFOB 19.2.2 
 \backslash
 
 \backslash
@@ -819,7 +819,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 2.2 & elimina dipendente & RFOB 21 
+		UCAAA 2.2 & elimina dipendente & RFOB 20 
 \backslash
 
 \backslash
@@ -830,7 +830,32 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 2.3 & modifica dati dipendente & RFOB 22 
+		UCAAA 2.3 & modifica dati dipendente & RFOB 21 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+											 & & RFOB 21.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		UCAAA 3 & visualizza dati dipendente & RFOB 22 
 \backslash
 
 \backslash
@@ -855,7 +880,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 3 & visualizza dati dipendente & RFOB 23 
+		UCAAA 4 & visione punteggi dipendenti & RFOB 23 
 \backslash
 
 \backslash
@@ -864,7 +889,7 @@ hline
 
 \begin_layout Plain Layout
 
-											 & & RFOB 23.1 
+											  & & RFOB 23.1 
 \backslash
 
 \backslash
@@ -873,32 +898,7 @@ hline
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-		UCAAA 4 & visione punteggi dipendenti & RFOB 24 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-											  & & RFOB 24.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-											  & & RFOB 25 
+											  & & RFOB 24 
 \backslash
 
 \backslash
@@ -914,7 +914,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAAA 5 & logout & RFOB 26 
+		UCAAA 5 & logout & RFOB 25 
 \backslash
 
 \backslash
@@ -943,7 +943,7 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RFOP 30 
+									& & RFOP 29 
 \backslash
 
 \backslash
@@ -952,7 +952,7 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RFOP 30.1 
+									& & RFOP 29.1 
 \backslash
 
 \backslash
@@ -995,7 +995,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAS 1 & login & RFOB 27 
+		UCAS 1 & login & RFOB 26 
 \backslash
 
 \backslash
@@ -1006,7 +1006,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCASA 2 & consultazione domande & RFOB 28 
+		UCASA 2 & consultazione domande & RFOB 27 
 \backslash
 
 \backslash
@@ -1015,7 +1015,7 @@ hline
 
 \begin_layout Plain Layout
 
-										& & RFOB 28.1 
+										& & RFOB 27.1 
 \backslash
 
 \backslash
@@ -1031,7 +1031,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCASA 3 & modifica database & RFOB 29 
+		UCASA 3 & modifica database & RFOB 28 
 \backslash
 
 \backslash
@@ -1042,7 +1042,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCASA 3.1 & selezione domande & RFOB 29.1 
+		UCASA 3.1 & selezione domande & RFOB 28.1 
 \backslash
 
 \backslash
@@ -1053,7 +1053,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCASA 3.2 & rimuovi domanda & RFOB 29.2 
+		UCASA 3.2 & rimuovi domanda & RFOB 28.2 
 \backslash
 
 \backslash
@@ -1064,7 +1064,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCASA 4 & logout & RFOB 31 
+		UCASA 4 & logout & RFOB 30 
 \backslash
 
 \backslash
@@ -1093,7 +1093,7 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RFOP 36 
+									& & RFOP 35 
 \backslash
 
 \backslash
@@ -1154,7 +1154,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAI 1 & installazione dispositivi fissi & RFOB 32 
+		UCAI 1 & installazione dispositivi fissi & RFOB 31 
 \backslash
 
 \backslash
@@ -1197,7 +1197,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAI 2 & installazione dispositivi mobili & RFOB 33 
+		UCAI 2 & installazione dispositivi mobili & RFOB 32 
 \backslash
 
 \backslash
@@ -1231,7 +1231,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAI 3 & crea database & RFOB 35 
+		UCAI 3 & crea database & RFOB 34 
 \backslash
 
 \backslash
@@ -1256,7 +1256,7 @@ hline
 
 \begin_layout Plain Layout
 
-		UCAI 4 & crea sito & RFOB 34 
+		UCAI 4 & crea sito & RFOB 33 
 \backslash
 
 \backslash
