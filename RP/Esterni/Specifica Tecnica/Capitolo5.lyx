@@ -130,5 +130,118 @@ dati
 .
 \end_layout
 
+\begin_layout Subsubsection
+Package com.safetyGame.desktop.view
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che si occupano di visualizzare all'utente
+ l'applicazione lato desktop.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ questo package utlizizza il package 
+\series bold
+logic
+\series default
+ per il controllo e gestione degli input dell'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+logic
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.desktop.logic
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che si occupano di gestire le interazioni
+ che l'utente effettua attraverso la grafica con il sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ questo package utlizizza il package 
+\series bold
+view 
+\series default
+e
+\series bold
+ dati
+\series default
+.
+ Il primo per visualizzare le notifiche all'utente ed il secondo per inviare
+ dati al back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+view
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetyGame.desktop.dati
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tipo, obiettivo e funzione del componente:
+\emph default
+ questo package raccoglie le classi che si occupano di gestire i dati inseriti
+ direttamente dall'utente per il login e per tracciarne uno storico.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti:
+\emph default
+ nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ il package è utilizzato da 
+\series bold
+logic
+\series default
+.
+\end_layout
+
 \end_body
 \end_document
