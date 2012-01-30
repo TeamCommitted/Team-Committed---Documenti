@@ -181,6 +181,64 @@ control
 .
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Interfaccia Dipendente
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Tipo, obiettivo e funzione del componente: 
+\emph default
+attraverso questa interfaccia vengono create le pagine web per i Dipendenti
+ che utilizzano il sistema.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Dipendente
+\bar default
+ che saranno successivamente implementati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Relazioni d'uso di altre componenti: 
+\emph default
+nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Interfacce con e relazioni d'uso da altre componenti:
+\emph default
+ l'interfaccia verrà implementata dalla classe DipendenteImpl.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Attività svolte e dati trattati:
+\emph default
+ differenti per ogni implementazione.
+\end_layout
+
 \begin_layout Subsubsection
 Package com.safetyGame.web.control
 \end_layout
