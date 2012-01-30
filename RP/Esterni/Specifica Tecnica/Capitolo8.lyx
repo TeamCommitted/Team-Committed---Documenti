@@ -648,5 +648,44 @@ Le classi ricevono richieste dalle classi del package cecker riguardanti
  tramite metodi del package checker ai livelli più alti.
 \end_layout
 
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Xxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari Tier.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
+oni tra i vari livelli del Back-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
+\end_layout
+
 \end_body
 \end_document
