@@ -144,7 +144,10 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Attraverso questa interfaccia vengono create le pagine web per i Dipendenti
+Attraverso questa interfaccia vengono create le pagine web per i 
+\bar under
+Dipendenti
+\bar default
  che utilizzano il sistema.
  Dichiara i metodi comuni ad ogni 
 \bar under
@@ -447,7 +450,7 @@ Amministratori Sicurezza
 \end_layout
 
 \begin_layout Subsection
-Livello Controller
+Controller
 \end_layout
 
 \begin_layout Standard
@@ -455,7 +458,7 @@ Livello Controller
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- questo livello si occupa di controllare la sussistenza dei dati da e verso
+ Questo livello si occupa di controllare la sussistenza dei dati da e verso
  l'interfaccia grafica visibile all'utente.
  È incaricato di mantenere aggiornati i dati visualizzati dall'interfaccia
  grafica web interrogando quelli presenti nel sistema.
@@ -485,7 +488,7 @@ View
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.control.ControlDipendente
+com.safetyGame.web.control.ControlDipendente
 \end_layout
 
 \begin_layout Standard
@@ -496,7 +499,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema ed i 
+Si interpone tra lo scambio di dati fra il sistema ed i 
 \bar under
 Dipendenti
 \bar default
@@ -521,7 +524,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -529,7 +532,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -537,13 +540,13 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.control.ControlAmministratoreAzienda
+com.safetyGame.web.control.ControlAmministratoreAzienda
 \end_layout
 
 \begin_layout Standard
@@ -554,7 +557,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema e gli 
+Si interpone tra lo scambio di dati fra il sistema e gli 
 \bar under
 Amministratori Azienda
 \bar default
@@ -579,7 +582,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -587,7 +590,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -595,13 +598,13 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.control.ControlAmministratoreSicurezza
+com.safetyGame.web.control.ControlAmministratoreSicurezza
 \end_layout
 
 \begin_layout Standard
@@ -612,7 +615,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema e gli 
+Si interpone tra lo scambio di dati fra il sistema e gli 
 \bar under
 Amministratori Sicurezza
 \bar default
@@ -637,7 +640,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -645,7 +648,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -653,7 +656,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsection
@@ -668,7 +671,7 @@ Tipo, obiettivo e funzione del componente:
  
 \series default
 \emph default
-questo livello contiene e rappresenta i dati veri e propri del sistema.
+Questo livello contiene e rappresenta i dati veri e propri del sistema.
  Offre le classi che consentono di interfaccirsi ai dati contenuti nel back-end
  del sistema.
 \begin_inset Newline newline
@@ -678,7 +681,7 @@ questo livello contiene e rappresenta i dati veri e propri del sistema.
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- il livello è costituito da dai package
+ Il livello è costituito da dai package
 \series bold
  condivisi
 \series default
