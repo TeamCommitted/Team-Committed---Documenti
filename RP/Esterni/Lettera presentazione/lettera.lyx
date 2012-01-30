@@ -96,7 +96,6 @@ Egregio Prof.
 \end_layout
 
 \begin_layout Standard
-Con la presente si comunica la costituzione ufficiale del gruppo 
 \begin_inset ERT
 status open
 
@@ -104,25 +103,16 @@ status open
 
 
 \backslash
-textbf{
-\backslash
-TeamCommitted}
+begin{center}
 \end_layout
 
 \end_inset
 
- come candidato per lo svolgimento del capitolato 
+
 \series bold
-C03: Piattaforma Mobile di Apprendimento Comportamentale.
+Revisione di Progettazione
 \series default
 
-\begin_inset Newline newline
-\end_inset
-
-Il gruppo è composto dai seguenti membri:
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -130,145 +120,7 @@ status open
 
 
 \backslash
-begin{longtable}{| c | c |}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-textbf{Nome} & 
-\backslash
-textbf{Matricola} 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Begolo Marco} & 
-\backslash
-emph{610917} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Braghetto Lorenzo} & 
-\backslash
-emph{541074} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Cornaglia Alessandro} & 
-\backslash
-emph{592764} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Dalla Piet
-\backslash
-'a Massimo} & 
-\backslash
-emph{592334} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Facchin Gabriele} & 
-\backslash
-emph{610884} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Maggiolo Giorgio} & 
-\backslash
-emph{610338} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-emph{Quadrio Giacomo} & 
-\backslash
-emph{598571} 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{longtable}
+end{center}
 \end_layout
 
 \end_inset
@@ -277,95 +129,7 @@ end{longtable}
 \end_layout
 
 \begin_layout Standard
-L'offerta è corredata dai seguenti documenti:
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Analisi dei Requisiti - V1.0 
-\series default
-(allegato 
-\family typewriter
-Analisi_dei_Requisiti_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Glossario - V1.0 
-\series default
-(allegato 
-\family typewriter
-Glossario_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Norme di Progetto - V1.0
-\series default
- (allegato 
-\family typewriter
-Norme_di_Progetto_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Piano di Progetto - V1.0 
-\series default
-(allegato 
-\family typewriter
-Piano_di_Progetto_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Piano di Qualifica - V1.0
-\series default
- (allegato 
-\family typewriter
-Piano_di_Qualifica_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Studio di Fattibilità - V1.0 
-\series default
-(allegato 
-\family typewriter
-Studio_di_Fattibilita_V1.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Verbale incontro proponente 05/12/2011 
-\series default
-(allegato 
-\family typewriter
-verbale05122011.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Standard
-Il gruppo 
+Con la presente il gruppo 
 \begin_inset ERT
 status open
 
@@ -378,23 +142,164 @@ TeamCommitted
 
 \end_inset
 
- ha stimato di consegnare il prodotto richiesto entro la fine del secondo
- trimestre dell'anno accademico 2011-2012.
- I dettagli di analisi del prodotto, nonché dei costi previsti, sono trattati
- in maniera approfondita nei documenti allegati.
-\begin_inset VSpace defskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Rimaniamo a Sua completa disposizione per chiarimenti.
+ intende comunicarLe ufficialmente l'intenzione di partecipare alla prossima
+ Revisione di Progettazione.
 \end_layout
 
 \begin_layout Standard
-RingraziandoLa per la cortese attenzione, Le auguro un buon proseguimento
- di giornata.
+La richiesta è corredata dai seguenti documenti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei Requisiti - V2.0 
+\series default
+(allegato 
+\family typewriter
+Analisi_dei_Requisiti_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Glossario - V1.0 
+\series default
+(allegato 
+\family typewriter
+Glossario_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V2.0
+\series default
+ (allegato 
+\family typewriter
+Norme_di_Progetto_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto - V2.0 
+\series default
+(allegato 
+\family typewriter
+Piano_di_Progetto_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica - V2.0
+\series default
+ (allegato 
+\family typewriter
+Piano_di_Qualifica_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica Tecnica - V1.0 
+\series default
+(allegato 
+\family typewriter
+Specifica_Tecnica_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verbale incontro proponente 2012/01/26 
+\series default
+(allegato 
+\family typewriter
+verbale20120126.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+I dettagli architetturali del prodotto sono trattati in maniera approfondita
+ nei documenti allegati.
+\end_layout
+
+\begin_layout Standard
+La informiamo inoltre che il prezzo consuntivato per la fase di Progettazione
+ Architetturale è di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+4187.00; di conseguenza il preventivo è stato aggiornato a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 13381.00, con un Vostro risparmio di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+30.00.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+Rimaniamo a Sua completa disposizione per evenutali chiarimenti.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+RingraziandoLa per la cortese attenzione, 
+\end_layout
+
+\begin_layout Standard
+Le auguro un buon proseguimento di giornata.
 \emph on
 
 \begin_inset Newline newline
@@ -422,7 +327,7 @@ flushright{
 \begin_layout Standard
 
 \emph on
-Giorgio Maggiolo
+Massimo Dalla Pietà
 \begin_inset Newline newline
 \end_inset
 
@@ -432,7 +337,7 @@ Responsabile del Team Committed
 
 
 \begin_inset Graphics
-	filename img/Giorgio.jpg
+	filename img/Cetto.jpg
 	scale 10
 
 \end_inset
@@ -457,23 +362,23 @@ status open
 \begin_layout encl
 
 \family typewriter
-Analisi_dei_Requisiti_V1.0.pdf, Glossario_V1.0.pdf, Norme_di_Progetto_V1.0.pdf,
+Analisi_dei_Requisiti_V2.0.pdf, Glossario_V2.0.pdf, Norme_di_Progetto_V2.0.pdf,
 \series bold
  
 \series default
-Piano_di_Progetto_V1.0.pdf
+Piano_di_Progetto_V2.0.pdf
 \series bold
 , 
 \series default
-Piano_di_Qualifica_V1.0.pdf
+Piano_di_Qualifica_V2.0.pdf
 \series bold
 , 
 \series default
-Studio_di_Fattibilita_V1.0.pdf
+Specifica_Tecnica_V1.0.pdf
 \series bold
 , 
 \series default
-verbale05122011.pdf
+verbale20120126.pdf
 \end_layout
 
 \end_body
