@@ -100,7 +100,7 @@ Front-end Web
 \end_layout
 
 \begin_layout Subsection
-Package com.safetyGame.web
+View
 \end_layout
 
 \begin_layout Standard
@@ -108,8 +108,8 @@ Package com.safetyGame.web
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- questo package costituisce la parte del sistema che definisce l'interfaccia
- web del sistema con gli utenti.
+ questo componente costituisce la parte del sistema che definisce ed implementa
+ l'interfaccia web usurfruibile dagli utenti.
  
 \begin_inset Newline newline
 \end_inset
@@ -118,101 +118,45 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il package è stato progettato su tre livelli ed è composto da quattro sotto-pac
-kage, 
+ il componente è costituito dal package 
 \series bold
 view
 \series default
-, 
+, e comunica con il livello 
 \series bold
-control
+Model
 \series default
-, 
-\series bold
-model
-\series default
-, 
-\series bold
-condivisi
-\series default
-.
+ per rendere possibile la memorizzazione delle informazioni immesse nel
+ sistema dagli utneti attraverso l'interfaccia web.
 \end_layout
 
 \begin_layout Subsubsection
-Package com.safetyGame.web.view
+
+\series bold
+com.safetyGame.web.view.IntDipendente
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
-\emph on
- 
-\series default
-\emph default
-questo package raccoglie le interfacce e le rispettive classi che le implementan
-o, che rappresentano i tre tipi di utenti che possono avere accesso al sistema.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- Il package utilizza il package 
-\series bold
-control
-\series default
-, per il controllo delle informazioni che un uente immette nel sistema via
- grafica, ed il livello 
-\series bold
-Model-Tier
-\series default
- per la memorizzazione di tali informazioni.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\emph on
- 
-\series default
-\emph default
-il package è utilizzato da 
-\series bold
-control
-\series default
-.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Interfaccia Dipendente
-\series default
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Tipo, obiettivo e funzione del componente:
 \series default
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per i Dipendenti
+Attraverso questa interfaccia vengono create le pagine web per i 
+\bar under
+Dipendenti
+\bar default
  che utilizzano il sistema.
  Dichiara i metodi comuni ad ogni 
 \bar under
 Dipendente
 \bar default
  che saranno successivamente implementati
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -220,38 +164,32 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 DipendenteImpl
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
-
-\series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Interfaccia AmministratoreAzienda
-\series default
-:
+com.safetyGame.web.view.IntAmministratoreAzienda
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -259,14 +197,14 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per l'
+Attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Azienda
 \bar default
  che accede al sistema
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -274,38 +212,32 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreAziendaImpl
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
-
-\series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Interfaccia AmministratoreSicurezza
-\series default
-:
+com.safetyGame.web.view.IntAmministratoreSicurezza
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -313,14 +245,14 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per l'
+Attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Sicurezza
 \bar default
  che accede al sistema
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -328,38 +260,32 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreSicurezzaImpl
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
-
-\series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe DipendenteImpl
-\series default
-:
+com.safetyGame.web.view.DipendenteImpl
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -367,14 +293,14 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-implementa l'interfaccia 
+Implementa l'interfaccia 
 \series bold
 Dipendente
 \series default
  definendone i metodi
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -382,42 +308,38 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-contiene un riferimento verso l'interfaccia 
+Contiene un riferimento verso l'interfaccia 
 \series bold
 Dipendente
 \series default
  per invocarne i metodi
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- per via grafica rende possibile l'interazione fra sistema e i 
+ Per via grafica rende possibile l'interazione fra sistema e i 
 \bar under
 Dipendenti
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe AmministratoreAziendaImpl
-\series default
-:
+com.safetyGame.web.view.AmministratoreAziendaImpl
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -425,14 +347,14 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-implementa l'interfaccia 
+Implementa l'interfaccia 
 \series bold
 AmministratoreAzienda
 \series default
  definendone i metodi
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -440,27 +362,27 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-contiene un riferimento verso l'interfaccia 
+Contiene un riferimento verso l'interfaccia 
 \series bold
 AmministratoreAzienda
 \series default
  per invocarne i metodi
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- per via grafica rende possibile l'interazione fra sistema e i vari
+ Per via grafica rende possibile l'interazione fra sistema e i vari
 \series bold
  
 \series default
@@ -468,70 +390,10 @@ Attività svolte e dati trattati:
 Amministratori Azienda
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\series bold
-Classe AmministratoreSicurezzaImpl
-\series default
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
-\emph on
- 
-\emph default
-implementa l'interfaccia 
-\series bold
-AmministratoreSicurezza
-\series default
- definendone i metodi
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
-\emph on
- 
-\emph default
-contiene un riferimento verso l'interfaccia 
-\series bold
-AmministratoreSicurezza
-\series default
- per invocarne i metodi
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\series default
- nessuna
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- per via grafica rende possibile l'interazione fra sistema e i vari
-\series bold
- 
-\series default
-\bar under
-Amministratori Sicurezza
-\end_layout
-
-\end_deeper
 \begin_layout Subsubsection
-Package com.safetyGame.web.control
+
+\series bold
+com.safetyGame.web.view.AmministratoreSicurezzaImpl
 \end_layout
 
 \begin_layout Standard
@@ -539,8 +401,14 @@ Package com.safetyGame.web.control
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- questo package raccoglie le classi che si occupano di controllare la sussistenz
-a dei dati da e verso l'interfaccia grafica visibile all'utente.
+\emph on
+ 
+\emph default
+Implementa l'interfaccia 
+\series bold
+AmministratoreSicurezza
+\series default
+ definendone i metodi
 \begin_inset Newline newline
 \end_inset
 
@@ -548,47 +416,80 @@ a dei dati da e verso l'interfaccia grafica visibile all'utente.
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il package utilizza il package 
+\emph on
+ 
+\emph default
+Contiene un riferimento verso l'interfaccia 
 \series bold
-view
+AmministratoreSicurezza
 \series default
-, per il passaggio delle informazioni corrette richieste in precedenza per
- via grafica, ed il package 
-\series bold
-model
-\series default
- per la lettura o scrittura di informazioni presenti nel sistema.
+ per invocarne i metodi
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph on
+\series default
+ Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Per via grafica rende possibile l'interazione fra sistema e i vari
+\series bold
  
 \series default
-\emph default
-il package è utilizzato da 
+\bar under
+Amministratori Sicurezza
+\end_layout
+
+\begin_layout Subsection
+Controller
+\end_layout
+
+\begin_layout Standard
+
 \series bold
-view 
+Tipo, obiettivo e funzione del componente:
 \series default
-e
+ Questo livello si occupa di controllare la sussistenza dei dati da e verso
+ l'interfaccia grafica visibile all'utente.
+ È incaricato di mantenere aggiornati i dati visualizzati dall'interfaccia
+ grafica web interrogando quelli presenti nel sistema.
+\begin_inset Newline newline
+\end_inset
+
+
 \series bold
- condivisi
+Relazioni d'uso di altre componenti:
+\series default
+ Il livello è costituito dal package 
+\series bold
+control
 \series default
 .
+ Comunica con il livello 
+\series bold
+Model 
+\series default
+per accedere ai dati presenti nel sistema, e con il livello 
+\series bold
+View
+\series default
+ per aggiornare la parte grafica web.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe ControlDipendente
-\series default
-:
+com.safetyGame.web.control.ControlDipendente
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -596,7 +497,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema ed i 
+Si interpone tra lo scambio di dati fra il sistema ed i 
 \bar under
 Dipendenti
 \bar default
@@ -611,9 +512,9 @@ con
 \bar default
 l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
  grafica memorizzati nel sistema
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -621,36 +522,32 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe ControlAmministratoreAzienda
-\series default
-:
+com.safetyGame.web.control.ControlAmministratoreAzienda
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -658,7 +555,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema e gli 
+Si interpone tra lo scambio di dati fra il sistema e gli 
 \bar under
 Amministratori Azienda
 \bar default
@@ -673,46 +570,42 @@ Amministratori Azienda
 \bar default
 l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
  grafica memorizzati nel sistema
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d'uso di altre componenti:
 \series default
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe ControlAmministratoreSicurezza
-\series default
-:
+com.safetyGame.web.control.ControlAmministratoreSicurezza
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -720,7 +613,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si interpone tra lo scambio di dati fra il sistema e gli 
+Si interpone tra lo scambio di dati fra il sistema e gli 
 \bar under
 Amministratori Sicurezza
 \bar default
@@ -735,9 +628,9 @@ con
 \bar default
 l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
  grafica memorizzati nel sistema
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -745,28 +638,27 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
-\end_layout
+Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
-\begin_layout Subsubsection
-Package com.safetyGame.web.model
+\begin_layout Subsection
+Model
 \end_layout
 
 \begin_layout Standard
@@ -777,8 +669,9 @@ Tipo, obiettivo e funzione del componente:
  
 \series default
 \emph default
-questo package raccoglie le classi che consentono di interfacciarsi con
- i dati contenuti nel back-end del sistema.
+Questo livello contiene e rappresenta i dati veri e propri del sistema.
+ Offre le classi che consentono di interfaccirsi ai dati contenuti nel back-end
+ del sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -786,214 +679,160 @@ questo package raccoglie le classi che consentono di interfacciarsi con
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il package utilizza il package 
+ Il livello è costituito da dai package
 \series bold
-condivisi
+ condivisi
 \series default
-, per salvare le eventuali modifiche apportate ad una delle sue classi.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\series default
- il package è utilizzato da 
-\series bold
-control
-\series default
-.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Classe ClientBackEnd
-\series default
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
-\emph on
- 
-\emph default
-si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
- richieste al Presentation-Tier della parte back-end
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
-\emph on
- 
-\emph default
-nessuna
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\series default
- viene richiamata da ogni altra classe del package a seconda del tipo di
- richiesta che deve essere effettuata
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- differenti per ogni implementazione
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\series bold
-Classe ModelXXX
-\series default
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Tipo, obiettivo e funzione del componente: 
-\series default
-rappresenta un tipo di informazione XXX presente nel sistema riferito ai
- 
-\bar under
-Dipendenti
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- nessuna
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\series default
- nessuna
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- differenti per ogni implementazione
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Package com.safetyGame.web.condivisi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\emph on
- 
-\series default
-\emph default
-questo package raccoglie le classi che rappresentano concretamente i dati
- e le informazioni presenti e persistenti nel sistema.
- Il package è utile per il trasferiremento delle informazioni fra i vari
- package.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Relazioni d'uso di altre componenti:
-\emph on
- 
-\series default
-\emph default
-Il package utilizza il package 
-\series bold
-control
-\series default
-, per inoltrare i dati richiesti dall'utente per via grafica.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\emph on
- 
-\series default
-\emph default
-il package è utilizzato da 
+ e 
 \series bold
 model
 \series default
 .
-\end_layout
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
-Classe XXX
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
-:
+ Il package è utilizzato da 
+\series bold
+control
+\series default
+.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.web.model.ClientBackEnd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+Si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
+ richieste al Presentation-Tier della parte back-end
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Viene richiamata da ogni altra classe, del package in cui risiede, a seconda
+ del tipo di richiesta che deve essere effettuata
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Differenti per ogni implementazione
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.web.model.ModelXXX
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+ 
+\bar under
+Dipendenti
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\bar default
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Differenti per ogni implementazione
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.web.condivisi.XXX
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
  
 \bar under
 Dipendenti 
 \bar default
 condiviso fra i vari package
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
-\end_layout
+ Nessuna
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
-\end_deeper
 \end_body
 \end_document
