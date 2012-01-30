@@ -155,335 +155,321 @@ View è utilizzato da Controller
 .
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe LoginActivity:
+Classe com.safetyGame.android.view.LoginActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di effettuare il login.
-\end_layout
-
-\begin_layout Itemize
-
+Activity che permette di effettuare il login
 \series bold
+.
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetygame.controller.ControllerLogin e com.safetygame.model.ModelLogin,
+utilizza com.safetyGame.controller.ControllerLogin e com.safetyGame.model.ModelLogin,
  inoltre chiama le classi 
 \begin_inset Newline newline
 \end_inset
 
-com.safetygame.view.DashboardActivity e com.safetygame.view.RecuperoPasswordActivity
-\end_layout
-
-\begin_layout Itemize
-
+com.safetyGame.view.DashboardActivity e com.safetyGame.view.RecuperoPasswordActivity
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è utilizzato da com.safetygame.model.ModelLogin.
-\end_layout
-
-\begin_layout Itemize
-
+è utilizzato da com.safetyGame.model.ModelLogin.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati: 
 \series default
 raccoglie i dati inseriti dall'utente e invia la richiesta di login.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe DashboardActivity:
+Classe com.safetyGame.android.view.DashboardActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Activity che permette di raggiungere le varie Activity del programma.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-può chiamare le classi com.safetygame.view.PunteggiActivity, com.safetygame.view.Doman
-daActivity e com.safetygame.view.DatipersonaliActivity.
-\end_layout
-
-\begin_layout Itemize
-
+può chiamare le classi com.safetyGame.view.PunteggiActivity, com.safetyGame.view.Doman
+daActivity e com.safetyGame.view.DatipersonaliActivity.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è chiamato da com.safetygame.view.LoginActivity.
-\end_layout
-
-\begin_layout Itemize
-
+è chiamato da com.safetyGame.view.LoginActivity.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati: 
 \series default
 intercetta gli input e lancia altre Activity.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe PunteggiActivity:
+Classe com.safetyGame.android.view.PunteggiActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Activity che permette di visualizzare i propri punteggi e trofei.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetygame.controller.ControllerPunteggi e
+utilizza com.safetyGame.controller.ControllerPunteggi e
 \series bold
  
 \series default
-com.safetygame.model.ModelPunteggi.
-\end_layout
-
-\begin_layout Itemize
-
+com.safetyGame.model.ModelPunteggi.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è chiamato da com.safetygame.view.DashboardActivity ed è utilizzato da com.safetygam
+è chiamato da com.safetyGame.view.DashboardActivity ed è utilizzato da com.safetyGam
 e.model.ModelPunteggi.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati: 
 \series default
 visualizza i punteggi e trofei dell'utente.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe DatipersonaliActivity:
+Classe com.safetyGame.android.view.DatipersonaliActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Activity che permette di visualizzare e modificare i propri dati personali.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetygame.controller.ControllerDati e
+utilizza com.safetyGame.controller.ControllerDati e
 \series bold
  
 \series default
-com.safetygame.model.ModelDati.
-\end_layout
-
-\begin_layout Itemize
-
+com.safetyGame.model.ModelDati.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è chiamato da com.safetygame.view.DashboardActivity ed è utilizzato da com.safetygam
+è chiamato da com.safetyGame.view.DashboardActivity ed è utilizzato da com.safetyGam
 e.model.ModelDati.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati: 
 \series default
-visualizza i permette di modificare i dati personali dell'utente.
+visualizza e permette di modificare i dati personali dell'utente.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe DomandaActivity:
+Classe com.safetyGame.android.view.DomandaActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Activity che permette di visualizzare e risponde alle domande.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetygame.controller.ControllerDomanda e
+utilizza com.safetyGame.controller.ControllerDomanda e
 \series bold
  
 \series default
-com.safetygame.model.ModelDomanda.
-\end_layout
-
-\begin_layout Itemize
-
+com.safetyGame.model.ModelDomanda.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è chiamato da com.safetygame.view.DashboardActivity o com.safetygame.view.TimerNotific
-a ed è utilizzato da com.safetygame.model.ModelDati.
-\end_layout
-
-\begin_layout Itemize
-
+è chiamato da com.safetyGame.view.DashboardActivity o com.safetyGame.view.TimerNotific
+a ed è utilizzato da com.safetyGame.model.ModelDati.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati: 
 \series default
 visualizza e permette di rispondere alle domande.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe RecuperoPasswordActivity:
+Classe com.safetyGame.android.view.RecuperoPasswordActivity:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Activity che permette di recuperare la password dell'utente.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetygame.controller.ControllerRecupero e
+utilizza com.safetyGame.controller.ControllerRecupero e
 \series bold
  
 \series default
-com.safetygame.model.ModelRecupero.
-\end_layout
-
-\begin_layout Itemize
-
+com.safetyGame.model.ModelRecupero.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-è chiamato da com.safetygame.view.LoginActivity ed è utilizzato da com.safetygame.mod
+è chiamato da com.safetyGame.view.LoginActivity ed è utilizzato da com.safetyGame.mod
 el.ModelRecupero.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati:
 \series default
  raccoglie i dati dell'utente e richiede il recupero password.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classe TimerNotifica:
+Classe com.safetyGame.android.view.TimerNotifica:
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Servizio timer che proporrà all'utente una domanda secondo le specifiche
  impostate attraverso le notifiche standard di Android.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti: 
 \series default
-chiama la classe com.safetygame.android.view.DomandaActivity.
-\end_layout
-
-\begin_layout Itemize
-
+chiama la classe com.safetyGame.android.view.DomandaActivity.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
 nessuna.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati:
 \series default
  periodicamente un timer a seconda delle impostazioni farà partire una notifica
  standard di Android che permette di visualizzare una nuova domanda.
 \end_layout
 
-\end_deeper
 \begin_layout Subsection
 Componente Controller
 \end_layout
@@ -525,47 +511,46 @@ Interfacce con e relazioni d’uso da altre componenti:
 è utilizzato da View.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classi
+Classi com.safetyGame.android.control.*
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Le classi ControllerLogin, ControllerPunteggi, ControllerDomande, ControllerDati
  e ControllerRecupero rappresentano i Controller per ogni Activity relativa.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti:
 \series default
  del componente Model utilizzano rispettivamente ModelLogin, ModelPunteggi,
  ModelDomande, ModelDati e ModelRecupero; del componente View può utilizzare
  rispettivamente ControllerLogin, ControllerPunteggi, ControlelrDomande,
  ControllerDati e ControllerRecupero.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
 viene utilizzato dalle rispettive classi dal componente View.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati:
 \series default
  le classi del componente View chiamano le classi del Controller, le quali
@@ -573,7 +558,6 @@ Attività svolte e dati trattati:
  metodi del componente Model.
 \end_layout
 
-\end_deeper
 \begin_layout Subsection
 Componente Model
 \end_layout
@@ -583,7 +567,7 @@ Componente Model
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-contiene le classi che counicano con le API del server, ne ricevono i dati
+contiene le classi che comunicano con le API del server, ne ricevono i dati
  e li gestiscono.
 \emph on
 
@@ -598,7 +582,7 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza il Presentation Tier del Backend e notifica cil componente View
+utilizza il Presentation Tier del Backend e notifica al componente View
  che i dati sono pronti.
 \emph on
 
@@ -629,45 +613,44 @@ Attività svolte e dati trattati:
  li renderà disponibili alla view.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classi Model
+Classi com.safetyGame.android.model.*
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
 Le classi ModelLogin, ModelPunteggi, ModelDomande, ModelDati e ModelRecupero
  rappresentano i Model per ogni Activity e Controller relativa.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti:
 \series default
  del componente View utilizzano rispettivamente LoginActivity, PunteggiActivity,
  DomandeActivity, DatiActivity e RecuperoPasswordActivity.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
 viene utilizzato dalle rispettive classi dal componente View e Controller.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati:
 \series default
  le classi del componente Controller chiamano le classi del Model, le quali
@@ -676,15 +659,13 @@ Attività svolte e dati trattati:
  View.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Subsubsection
 
 \series bold
-Classi Condivisi
+Classi com.safetyGame.android.condivisi
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente: 
@@ -693,33 +674,32 @@ Le classi Login, Punteggi, Domande, Dati, Log e Recupero rappresentano gli
  oggetti condivisi.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 Relazioni d’uso di altre componenti:
 \series default
  nessuna.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
 viene utilizzato dai rispettivi Model.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Attività svolte e dati trattati:
 \series default
  rappresentano gli oggetti utilizzati.
 \end_layout
 
-\end_deeper
 \end_body
 \end_document
