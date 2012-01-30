@@ -113,7 +113,11 @@ Tipo, obiettivo e funzione del componente:
 \series default
 Il Presentation Tier si occupa di gestire le richieste degli applicativi
  Front-end, inviandole alle corrette funzioni del Logic Tier ed inviando
- i risultati di tali operazioni ai relativi Front-end.
+ i risultati di tali operazioni ai relativi 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -122,7 +126,11 @@ Il Presentation Tier si occupa di gestire le richieste degli applicativi
 Relazioni d'uso di altre componenti:
 \series default
  Il Presentation Tier richiama funzioni dal Logic Tier e dalle classi ClientBack
-End dei vari Front-end.
+End dei vari 
+\bar under
+Front-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -135,7 +143,11 @@ com.safetyGame.back.controller.ControllerLogin
 Tipo, obiettivo e funzione del componente:
 \series default
  La classeControllerLogin viene utilizzata per fornire funzioni di login
- agli applicativi Front-end.
+ agli applicativi
+\bar under
+ Front-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -152,7 +164,11 @@ La classe utilizza metodi della classe CheckLogin del package Checker ed
 
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei vari Front-end.
+La classe viene utilizzata dalle classi ClientBackEnd dei vari 
+\bar under
+Front-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -175,7 +191,11 @@ com.safetyGame.back.controller.ControllerDomanda
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ControllerDomanda viene utilizzata per gestire richieste di visualizza
-zione di domande e di invio risposte da parte dei componenti Front-end.
+zione di domande e di invio risposte da parte dei componenti 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -193,9 +213,16 @@ La classe utilizza metodi della classe CheckRispostaDomanda del package
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei vari Front-end
+La classe viene utilizzata dalle classi ClientBackEnd dei vari 
+\bar under
+Front-end
+\bar default
  e provvede metodi a CheckRispostaDomanda per inviare i dati ottenuti ai
- relativi Front-end.
+ relativi 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -238,9 +265,16 @@ La classe utilizza metodi della classe CheckModificaDomanda del package
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
- e provvede metodi a CheckModificaDomanda per inviare i dati ottenuti al
- Front-end.
+La classe viene utilizzata dalla classe ClientBackEnd del 
+\bar under
+Front-end
+\bar default
+ web e provvede metodi a CheckModificaDomanda per inviare i dati ottenuti
+ al 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -284,7 +318,11 @@ La classe utilizza metodi della classe CheckDipendenti del package checker
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
 La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
- e provvede metodi a CheckDipendenti per inviare i dati ottenuti al Front-end.
+ e provvede metodi a CheckDipendenti per inviare i dati ottenuti al 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -316,8 +354,9 @@ ione, aggiunta, modifica ed eliminazione di Trofei dal database aziendale
 
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckTrofei del package checker ed
- utilizza oggetti di tipo Trofeo del package condivisi per scambiare dati.
+ La classe utilizza metodi della classe CheckTrofei del package checker
+ ed utilizza oggetti di tipo Trofeo del package condivisi per scambiare
+ dati.
 \series bold
 
 \begin_inset Newline newline
@@ -325,10 +364,21 @@ La classe utilizza metodi della classe CheckTrofei del package checker ed
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
- per aggiunta, modifica ed eliminazione di trofei, mentre viene utilizzata
- da tutti i Front-end per la visualizzazione di trofei; Provvede metodi
- a CheckTrofei per inviare i dati ottenuti ai relativi Front-end.
+ La classe viene utilizzata dalla classe ClientBackEnd del 
+\bar under
+Front-end
+\bar default
+ web per aggiunta, modifica ed eliminazione di trofei, mentre viene utilizzata
+ da tutti i 
+\bar under
+Front-end
+\bar default
+ per la visualizzazione di trofei; Provvede metodi a CheckTrofei per inviare
+ i dati ottenuti ai relativi 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -361,9 +411,12 @@ ne e modifica di dati account Dipendente dal database aziendale di dipendenti
 
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckDati del package checker ed
- utilizza oggetti di tipo Dipendente del package condivisi per scambiare
- dati.
+ La classe utilizza metodi della classe CheckDati del package checker ed
+ utilizza oggetti di tipo 
+\bar under
+Dipendente
+\bar default
+ del package condivisi per scambiare dati.
 \series bold
 
 \begin_inset Newline newline
@@ -371,10 +424,16 @@ La classe utilizza metodi della classe CheckDati del package checker ed
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei Front-end per
- i dati account Dipendente e dal ClientBackEnd web per la password Amministrator
-e Azienda; Provvede metodi a CheckDipendenti per inviare i dati ottenuti
- ai relativi Front-end.
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+Front-end
+\bar default
+ per i dati account 
+\bar under
+Dipendente
+\bar default
+ e dal ClientBackEnd web per la password Amministratore Azienda; Provvede
+ metodi a CheckDipendenti per inviare i dati ottenuti ai relativi Front-end.
 \series bold
 
 \begin_inset Newline newline
@@ -383,9 +442,16 @@ e Azienda; Provvede metodi a CheckDipendenti per inviare i dati ottenuti
 Attività svolte e dati trattati: 
 \series default
 La classe riceve richieste di visualizzazione o modifica di dati account
- Dipendente o di modifica password di account Amministratore Azienda e richiama
- i relativi metodi di CheckDati per controllare la consistenza ed effettuare
- le operazioni richieste.
+ 
+\bar under
+Dipendente
+\bar default
+ o di modifica password di account 
+\bar under
+Amministratore Azienda
+\bar default
+ e richiama i relativi metodi di CheckDati per controllare la consistenza
+ ed effettuare le operazioni richieste.
 \end_layout
 
 \begin_layout Subsubsection
@@ -398,8 +464,19 @@ com.safetyGame.back.controller.ControllerRecupero
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ControllerRecupero viene utilizzata per gestire richieste di recupero
- password per account Dipendente, Amministratore Azienda ed Amministratore
- Sicurezza.
+ password per account 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+ ed 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -407,7 +484,7 @@ La classe ControllerRecupero viene utilizzata per gestire richieste di recupero
 
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckRecupero del package checker
+ La classe utilizza metodi della classe CheckRecupero del package checker
  ed utilizza oggetti di tipo Recupero del package condivisi per scambiare
  dati.
 \series bold
@@ -417,9 +494,16 @@ La classe utilizza metodi della classe CheckRecupero del package checker
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei Front-end web
- e mobile, provvede metodi a CheckRecupero per inviare i dati ottenuti ai
- relativi Front-end.
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+Front-end
+\bar default
+ web e mobile, provvede metodi a CheckRecupero per inviare i dati ottenuti
+ ai relativi 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -427,10 +511,20 @@ La classe viene utilizzata dalle classi ClientBackEnd dei Front-end web
 
 Attività svolte e dati trattati: 
 \series default
-La classe riceve richieste di recupero password di account Dipendente, Amministr
-atore Azienda ed Amministratore Sicurezza e richiama i relativi metodi di
- CheckRecupero per controllare la consistenza ed effettuare le operazioni
- richieste.
+La classe riceve richieste di recupero password di account 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+ ed 
+\bar under
+Amministratore Sicurezza
+\bar default
+ e richiama i relativi metodi di CheckRecupero per controllare la consistenza
+ ed effettuare le operazioni richieste.
 \end_layout
 
 \begin_layout Subsubsection
@@ -443,8 +537,11 @@ com.safetyGame.back.controller.ControllerPunteggi
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ControllerPunteggi viene utilizzata per gestire richieste di visualizz
-azione di punteggi relativi ad account Dipendente dal database aziendale
- di dipendenti.
+azione di punteggi relativi ad account 
+\bar under
+Dipendente
+\bar default
+ dal database aziendale di dipendenti.
 \series bold
 
 \begin_inset Newline newline
@@ -452,7 +549,7 @@ azione di punteggi relativi ad account Dipendente dal database aziendale
 
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckPunteggi del package checker
+ La classe utilizza metodi della classe CheckPunteggi del package checker
  ed utilizza oggetti di tipo Punteggio del package condivisi per scambiare
  dati.
 \series bold
@@ -462,8 +559,15 @@ La classe utilizza metodi della classe CheckPunteggi del package checker
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei Front-end e provvede
- metodi a CheckPunteggi per inviare i dati ottenuti ai Front-end.
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+Front-end
+\bar default
+ e provvede metodi a CheckPunteggi per inviare i dati ottenuti ai 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -472,8 +576,12 @@ La classe viene utilizzata dalle classi ClientBackEnd dei Front-end e provvede
 Attività svolte e dati trattati: 
 \series default
 La classe riceve richieste di visualizzazione di punteggi relativi ad account
- Dipendente e richiama i relativi metodi di CheckPunteggi per controllare
- la consistenza ed effettuare le operazioni richieste.
+ 
+\bar under
+Dipendente
+\bar default
+ e richiama i relativi metodi di CheckPunteggi per controllare la consistenza
+ ed effettuare le operazioni richieste.
 \end_layout
 
 \begin_layout Subsubsection
@@ -486,8 +594,11 @@ com.safetyGame.back.controller.ControllerLog
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ControllerLog viene utilizzata per gestire richieste di aggiunta
- di Log per il tracciamento delle azioni dei Dipendenti all'interno del
- sistema.
+ di Log per il tracciamento delle azioni dei 
+\bar under
+Dipendenti
+\bar default
+ all'interno del sistema.
 \series bold
 
 \begin_inset Newline newline
@@ -495,8 +606,8 @@ La classe ControllerLog viene utilizzata per gestire richieste di aggiunta
 
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckLog del package checker ed utilizza
- oggetti di tipo Log del package condivisi per scambiare dati.
+ La classe utilizza metodi della classe CheckLog del package checker ed
+ utilizza oggetti di tipo Log del package condivisi per scambiare dati.
 \series bold
 
 \begin_inset Newline newline
@@ -504,7 +615,11 @@ La classe utilizza metodi della classe CheckLog del package checker ed utilizza
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-La classe viene utilizzata dalle classi ClientBackEnd dei Front-end.
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+Front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -512,7 +627,10 @@ La classe viene utilizzata dalle classi ClientBackEnd dei Front-end.
 
 Attività svolte e dati trattati: 
 \series default
-La classe riceve richieste di aggiunta di Log relativi ad account Dipendente
+La classe riceve richieste di aggiunta di Log relativi ad account 
+\bar under
+Dipendente
+\bar default
  e richiama i relativi metodi di CheckLog per controllare la consistenza
  ed effettuare le operazioni richieste.
 \end_layout
@@ -536,8 +654,8 @@ Il Logic Tier si occupa di far scambiare gli oggetti contenenti dati tra
 
 Relazioni d'uso di altre componenti:
 \series default
-Il Logic Tier richiama funzioni sia dal Presentation Tier che dal Data Access
- Tier.
+ Il Logic Tier richiama funzioni sia dal Presentation Tier che dal Data
+ Access Tier.
 \end_layout
 
 \begin_layout Subsubsection
@@ -558,7 +676,7 @@ Le classi CheckXxx vengono utilizzate per il controllo ed il trasferimento
 
 Relazioni d'uso di altre componenti:
 \series default
-Le classi CheckXxx utilizzano metodi delle classi del package access per
+ Le classi CheckXxx utilizzano metodi delle classi del package access per
  ottenere ed inviare i dati richiesti dal package controller ed utilizzano
  metodi delle classi controller per inviare i dati ottenuti dal package
  access a chi li ha richiesti; utilizzano oggetti del package condivisi
@@ -604,7 +722,7 @@ Il Data Access Tier si occupa di accedere ai vari database e di creare oggetti
 
 Relazioni d'uso di altre componenti:
 \series default
-Il Data Access Tier richiama funzioni dal Logic Tier.
+ Il Data Access Tier richiama funzioni dal Logic Tier.
 \end_layout
 
 \begin_layout Subsubsection
@@ -625,8 +743,8 @@ Le classi AccessXxx vengono utilizzate per interrogare le tabelle dei database
 
 Relazioni d'uso di altre componenti:
 \series default
-Le classi utilizzano metodi del package checker per inviare dati al Presentation
- Tier ed usa query per interrogare i database
+ Le classi utilizzano metodi del package checker per inviare dati al Presentatio
+n Tier ed usa query per interrogare i database
 \series bold
 .
 \begin_inset Newline newline
@@ -634,8 +752,8 @@ Le classi utilizzano metodi del package checker per inviare dati al Presentation
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-Le classi vengono utilizzate dalle relative classi del package checker per
- cercare o modificare dati presenti nei database.
+ Le classi vengono utilizzate dalle relative classi del package checker
+ per cercare o modificare dati presenti nei database.
 \series bold
 
 \begin_inset Newline newline
@@ -674,8 +792,12 @@ Relazioni d'uso di altre componenti:
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
-Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
-oni tra i vari livelli del Back-end.
+ Le classi vengono utilizzate da tutti gli altri package per trasferire
+ informazioni tra i vari livelli del 
+\bar under
+Back-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
