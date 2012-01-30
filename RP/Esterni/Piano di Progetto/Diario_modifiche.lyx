@@ -156,7 +156,22 @@ hline
 		
 \backslash
 emph{Verificato.
- In attesa di approvazione} & Alessandro Cornaglia & 2012/01/29 & V1.4 
+ In attesa di approvazione} & Alessandro Cornaglia & 2012/01/29 & V1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+emph{Aggiornamento consuntivo, rivisto il diagramma di Gantt per la fase
+ di PDC, incrementata la fase di Analisi a causa di un colloquio con il
+ Proponente} & Giacomo Quadrio & 2012/01/28 & V1.5 
 \backslash
 
 \backslash
@@ -169,8 +184,7 @@ hline
 
 		
 \backslash
-emph{Scrittura capitolo 5.
- In attesa di verifica} & Giorgio Maggiolo & 2012/01/26 & V1.3 
+emph{Scrittura capitolo 5} & Giorgio Maggiolo & 2012/01/26 & V1.4 
 \backslash
 
 \backslash
@@ -183,8 +197,22 @@ hline
 
 		
 \backslash
-emph{Inserite correzioni rimanenti.} & Giorgio Maggiolo & 2012/01/25 & V1.2
+emph{Inserita strategia per la turnazione dei ruoli.} & Giorgio Maggiolo
+ & 2012/01/26 & V1.3 
+\backslash
+
+\backslash
  
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Chiarite le attività di Verifica e Validazione.} & Giorgio Maggiolo
+ & 2012/01/25 & V1.2 
 \backslash
 
 \backslash
@@ -200,7 +228,7 @@ hline
 emph{Correzione del documento in base alla valutazione della RR.
  Manca la descrizione della strategia adottata per la turnazione dei ruoli
  fra i membri e la modifica relativa all'inizio delle attività di Verifica
- e Validazione.)} & Giorgio Maggiolo & 2012/01/23 & V1.1 
+ e Validazione.} & Giorgio Maggiolo & 2012/01/23 & V1.1 
 \backslash
 
 \backslash
