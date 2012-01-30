@@ -63,5 +63,122 @@
 Back-end
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/BackEnd.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Back-end
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Presentation Tier
+\end_layout
+
+\begin_layout Standard
+Il Presentation Tier si occupa di gestire le richieste degli applicativi
+ Front-end, inviandole alle corrette funzioni del Logic Tier ed inviando
+ i risultati di tali operazioni ai relativi Front-end.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe ControllerLogin viene utilizzata per fornire funzioni di login
+ agli applicativi Front-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckLogin del package Checker ed
+ utilizza oggetti di tipo Login del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi ClientBackEnd dei vari Front-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di autenticazione tramite la ricezione di oggetti
+ Login e le invia a Checklogin per verificarne la consistenza, notificando
+ il ClientBackEnd del successo o fallimento dell'operazione.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDomanda viene utilizzata per gestire richieste di visualizza
+zione di domande da parte dei componenti Front-end.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\end_layout
+
 \end_body
 \end_document

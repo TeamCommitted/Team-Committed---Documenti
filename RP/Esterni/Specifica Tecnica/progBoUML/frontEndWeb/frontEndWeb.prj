@@ -1,7 +1,7 @@
-format 74
+format 76
 "frontEndWeb"
-  revision 1
-  modified_by 5 "ale"
+  revision 2
+  modified_by 13 "Jack Thomas J. Storn"
 
 
   
@@ -14,7 +14,7 @@ format 74
   //sequence diagram settings
   show_full_operations_definition no write_horizontally yes class_drawing_mode natural drawing_language uml draw_all_relations yes shadow yes show_stereotype_properties no show_class_context_mode no show_msg_context_mode no
   //collaboration diagram settings
-  show_full_operations_definition no show_hierarchical_rank no write_horizontally yes drawing_language uml package_name_in_tab no show_context no show_msg_context no draw_all_relations yes shadow yes show_stereotype_properties no
+  show_full_operations_definition no show_hierarchical_rank no write_horizontally yes class_drawing_mode natural drawing_language uml package_name_in_tab no show_context no show_msg_context no draw_all_relations yes shadow yes show_stereotype_properties no
   //object diagram settings
    write_horizontally yes package_name_in_tab no show_context no auto_label_position yes draw_all_relations yes shadow yes show_stereotype_properties no
   //component diagram settings
@@ -34,6 +34,8 @@ format 74
   font_size 9
   diagram_format A4
 
+  image_root_dir ""
+
   mark_for_import
   
   ncouples 1
@@ -42,7 +44,7 @@ format 74
     //class diagram settings
     draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
     //collaboration diagram settings
-    show_full_operations_definition default show_hierarchical_rank default write_horizontally default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+    show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
     //object diagram settings
      write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
     //sequence diagram settings
@@ -59,7 +61,7 @@ format 74
       size A4
     end
 
-    class 128133 "Dipendente"
+    class 128133 "IntDipendente"
       visibility package stereotype "interface"
       cpp_decl "${comment}${template}struct ${name}${inherit} {
 ${members}};
@@ -81,7 +83,7 @@ ${members}};
       
     end
 
-    class 128261 "AmministratoreAzienda"
+    class 128261 "IntAmministratoreAzienda"
       visibility package stereotype "interface"
       cpp_decl ""
       java_decl "${comment}${@}${visibility}interface ${name}${extends} {
@@ -98,7 +100,7 @@ ${members}};
       
     end
 
-    class 128389 "AmministratoreSicurezza"
+    class 128389 "IntAmministratoreSicurezza"
       visibility package stereotype "interface"
       cpp_decl ""
       java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
@@ -127,7 +129,7 @@ ${members}}
 	  stereotype "realize"
 	  a package
 	    classrelation_ref 128005 // <dependency>
-	  b parent class_ref 128133 // Dipendente
+	  b parent class_ref 128133 // IntDipendente
       end
     end
 
@@ -147,7 +149,7 @@ ${members}}
 	  stereotype "realize"
 	  a package
 	    classrelation_ref 128133 // <dependency>
-	  b parent class_ref 128261 // AmministratoreAzienda
+	  b parent class_ref 128261 // IntAmministratoreAzienda
       end
     end
 
@@ -167,7 +169,7 @@ ${members}}
 	  stereotype "realize"
 	  a package
 	    classrelation_ref 128261 // <dependency>
-	  b parent class_ref 128389 // AmministratoreSicurezza
+	  b parent class_ref 128389 // IntAmministratoreSicurezza
       end
     end
 
@@ -396,7 +398,7 @@ ${members}}
       
     end
 
-    class 130821 "Dipendente_"
+    class 130821 "Dipendente"
       visibility package 
       cpp_decl ""
       java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
