@@ -592,19 +592,11 @@ La schermata di Login permette ai
 Dipendenti
 \bar default
  di effettuara l'accesso.
- Nel caso un 
+ Un 
 \bar under
 Amministratore
 \bar default
- dovesse effettuare il login tramite 
-\bar under
-applicazione mobile
-\bar default
- avrà gli stessi privilegi di qualunque 
-\bar under
-Dipendente
-\bar default
-.
+ non potrà effettuare l'accesso tramite l'applicazione mobile.
  Come per gli altri Login, sarà possibile avviare la procedura per il recupero
  password.
 \end_layout
