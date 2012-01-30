@@ -1400,12 +1400,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 14 & 
+		RFOB 13 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 14a &
+		TS-RFOB 13a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1443,12 +1443,12 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 14 & 
+RFOB 13 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 14a &
+		TS-RFOB 13b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1490,12 +1490,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 15.1 & 
+		RFOB 14.1 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 15.1 &
+		TS-RFOB 14.1 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1536,12 +1536,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 16 & 
+		RFOB 15 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 16 &
+		TS-RFOB 15 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1579,12 +1579,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 17 & 
+		RFOB 16 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 17 &
+		TS-RFOB 16 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1700,12 +1700,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 18 & 
+		RFOB 17 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 18a &
+		TS-RFOB 17a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1748,12 +1748,12 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 18 & 
+RFOB 17 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 18b &
+		TS-RFOB 17b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1792,12 +1792,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 19 & 
+		RFOB 18 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 19 &
+		TS-RFOB 18 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1839,12 +1839,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 20 & 
+		RFOB 19 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20a &
+		TS-RFOB 19a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1885,12 +1885,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 20 & 
+		RFOB 19 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20b &
+		TS-RFOB 19b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1935,12 +1935,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 20.2 & 
+		RFOB 19.2 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20.2 &
+		TS-RFOB 19.2 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1985,12 +1985,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 20.2.1 & 
+		RFOB 19.2.1 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20.2.1 &
+		TS-RFOB 19.2.1 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2032,12 +2032,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 20.2.2 & 
+		RFOB 19.2.2 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 20.2.2 &
+		TS-RFOB 19.2.2 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2079,12 +2079,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 21 & 
+		RFOB 20 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 21 &
+		TS-RFOB 20 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2128,12 +2128,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 22 & 
+		RFOB 21 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 22a &
+		TS-RFOB 21a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2172,12 +2172,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 22 & 
+		RFOB 21 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 22b &
+		TS-RFOB 21b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2221,12 +2221,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 22 & 
+		RFOB 21 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 22c &
+		TS-RFOB 21c &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2270,6 +2270,55 @@ hline
 
 \begin_layout Plain Layout
 
+		RFOB 22 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 22 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta ad un 
+\backslash
+uline{Amministratore Azienda Autenticato} di visionare le informazioni di
+ ogni 
+\backslash
+uline{Dipendente} registrato &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		RFOB 23 & 
 \end_layout
 
@@ -2280,10 +2329,10 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato che il sistema permetta ad un 
+		Prova dinamica: viene verificato che il sistema permetta da un 
 \backslash
-uline{Amministratore Azienda Autenticato} di visionare le informazioni di
- ogni 
+uline{Amministratore Azienda Autenticato} di visionare le informazioni relative
+ ai punteggi di ogni 
 \backslash
 uline{Dipendente} registrato &
 \end_layout
@@ -2329,55 +2378,6 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato che il sistema permetta da un 
-\backslash
-uline{Amministratore Azienda Autenticato} di visionare le informazioni relative
- ai punteggi di ogni 
-\backslash
-uline{Dipendente} registrato &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 25 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 25 &
-\end_layout
-
-\begin_layout Plain Layout
-
 		Prova dinamica: viene verificato che il sistema permetta all'
 \backslash
 uline{Amministratore Azienda Autenticato} di modificare i badge/trofei di
@@ -2413,12 +2413,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 26 & 
+		RFOB 25 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 26 &
+		TS-RFOB 25 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2538,12 +2538,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 27 & 
+		RFOB 26 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 27a &
+		TS-RFOB 26a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2586,12 +2586,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 27 & 
+		RFOB 26 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 27b &
+		TS-RFOB 26b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2630,12 +2630,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 28 & 
+		RFOB 27 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 28 &
+		TS-RFOB 27 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2674,12 +2674,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 29 & 
+		RFOB 28 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 29 &
+		TS-RFOB 28 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2722,12 +2722,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 29.1 & 
+		RFOB 28.1 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 29.1 &
+		TS-RFOB 28.1 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2769,12 +2769,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 29.2 & 
+		RFOB 28.2 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 29.2 &
+		TS-RFOB 28.2 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2818,12 +2818,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOP 30 & 
+		RFOP 29 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 30 &
+		TS-RFOP 29 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2867,12 +2867,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOP 30.1 & 
+		RFOP 29.1 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 30.1 &
+		TS-RFOP 29.1 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -2915,12 +2915,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 31 & 
+		RFOB 30 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 31 &
+		TS-RFOB 30 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3049,12 +3049,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOB 32 & 
+		RFOB 31 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOB 32 &
+		TS-RFOB 31 &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3090,6 +3090,51 @@ hline
 
 \begin_layout Plain Layout
 
+		RFOB 32 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 32 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che sia possibile eseguire una corretta
+ installazione del sistema in alcuni dispositivi mobili di test &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		RFOB 33 & 
 \end_layout
 
@@ -3100,8 +3145,8 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato che sia possibile eseguire una corretta
- installazione del sistema in alcuni dispositivi mobili di test &
+		Prova dinamica: viene verificato che sia possibile una corretta installazione
+ del servizio web in un server test &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3145,51 +3190,6 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato che sia possibile una corretta installazione
- del servizio web in un server test &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		RFOB 35 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-		TS-RFOB 35 &
-\end_layout
-
-\begin_layout Plain Layout
-
 		Prova dinamica: viene verificato che sia possibile una corretta creazione
  di un database test per garantire il corretto funzionamento del sistema
  &
@@ -3226,12 +3226,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOP 36 & 
+		RFOP 35 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36a &
+		TS-RFOP 35a &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3271,12 +3271,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOP 36 & 
+		RFOP 35 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36b &
+		TS-RFOP 35b &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3316,12 +3316,12 @@ hline
 
 \begin_layout Plain Layout
 
-		RFOP 36 & 
+		RFOP 35 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36c &
+		TS-RFOP 35c &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3361,12 +3361,12 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 36 & 
+RFOP 35 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36d &
+		TS-RFOP 35d &
 \end_layout
 
 \begin_layout Plain Layout
@@ -3402,12 +3402,12 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 36 & 
+RFOP 35 & 
 \end_layout
 
 \begin_layout Plain Layout
 
-		TS-RFOP 36e &
+		TS-RFOP 35e &
 \end_layout
 
 \begin_layout Plain Layout
