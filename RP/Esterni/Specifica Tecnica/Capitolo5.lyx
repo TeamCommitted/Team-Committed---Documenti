@@ -421,10 +421,20 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Questo componente si occupa di gestire le interazioni che l'utente effettua
- con il sistema attraverso la parte grafica.
- Tiene traccia dello storico personale di ogni utente ed invia dati al back-end
- per mantenere aggiornato lo stato del sistema.
+Questo componente si occupa di gestire le interazioni che il 
+\bar under
+Dipendente 
+\bar default
+o il 
+\bar under
+Dipendente Autenticato
+\bar default
+ effettua con il sistema attraverso la parte grafica.
+ Tiene traccia dello storico personale di ogni 
+\bar under
+Dipendente Autenticato
+\bar default
+ ed invia dati al back-end per mantenere aggiornato lo stato del sistema.
 \begin_inset Newline newline
 \end_inset
 
