@@ -74,7 +74,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename img/frontEndDesktop.png
-	scale 80
+	scale 45
 
 \end_inset
 
@@ -99,11 +99,11 @@ Front-end Desktop
 Package com.safetyGame.desktop
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
-\emph default
+\series default
  questo package costituisce la parte del sistema che definisce i metodi
  e la grafica per l'accesso all'applicazione da parte di un utente e le
  funzionalità disponibili per un 
@@ -115,10 +115,10 @@ Dipendente Autenticato
 \end_inset
 
 
-\emph on
-Relazioni d'uso di altre componenti:
-\emph default
- questo package è costituito da tre sotto-package, 
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+questo package è costituito da tre sotto-package, 
 \series bold
 view
 \series default
@@ -139,18 +139,18 @@ Package com.safetyGame.desktop.view
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
-\emph default
+\series default
  questo package raccoglie le classi che si occupano di visualizzare all'utente
  l'applicazione lato desktop.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  questo package utlizizza il package 
 \series bold
 logic
@@ -160,9 +160,9 @@ logic
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph default
+\series default
  il package è utilizzato da 
 \series bold
 logic
@@ -176,24 +176,27 @@ logic
 Classe Notifica
 \series default
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
 
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
 \emph on
-Tipo, obiettivo e funzione del componente: 
+ 
 \emph default
-la classe realizza le notifiche che compariranno a video all'utente.
-\begin_inset Newline newline
-\end_inset
+la classe realizza le notifiche che compariranno a video all'utente
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
 \emph on
-Relazioni d'uso di altre componenti: 
+ 
 \emph default
 possiede un riferimento verso le classi 
 \series bold
@@ -202,62 +205,59 @@ ClientWeb
  e 
 \series bold
 ClientBack
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- la classe 
+la classe 
 \series bold
 Timer
 \series default
- ne possiede un riferimento e ne utilizza le funzionalità.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- classe puramente grafica, svolge una funzione di presentazione.
+ ne possiede un riferimento e ne utilizza le funzionalità
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+\emph on
+ 
+\emph default
+classe puramente grafica, svolge una funzione di presentazione
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Classe Login
 \series default
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
 
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
 \emph on
-Tipo, obiettivo e funzione del componente: 
+ 
 \emph default
-la classe realizza la pagina di login per un utente.
-\begin_inset Newline newline
-\end_inset
+la classe realizza la pagina di login per un utente
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
 \emph on
-Relazioni d'uso di altre componenti: 
+ 
 \emph default
 possiede un riferimento verso la classe 
 \series bold
@@ -266,59 +266,56 @@ ClientWeb
  e uno verso la classe 
 \series bold
 ClientBack
-\series default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- classe puramente grafica, svolge una funzione di presentazione.
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ classe puramente grafica, svolge una funzione di presentazione
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Classe Lanciatore
 \series default
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
 
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
 \emph on
-Tipo, obiettivo e funzione del componente: 
+ 
 \emph default
 la classe realizza il menu che consente all'utente di scegliere una funzionalità
- offerta dal sistema.
-\begin_inset Newline newline
-\end_inset
+ offerta dal sistema
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
 \emph on
-Relazioni d'uso di altre componenti: 
+ 
 \emph default
 possiede un riferimento verso la classe 
 \series bold
@@ -327,52 +324,52 @@ ClientWeb
  e uno verso la classe 
 \series bold
 ClientBack
-\series default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- classe puramente grafica, svolge una funzione di presentazione.
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+\emph on
+ 
+\emph default
+classe puramente grafica, svolge una funzione di presentazione
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Package com.safetyGame.desktop.logic
 \end_layout
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
 \emph default
- questo package raccoglie le classi che si occupano di gestire le interazioni
+questo package raccoglie le classi che si occupano di gestire le interazioni
  che l'utente effettua attraverso la grafica con il sistema.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  questo package utlizizza il package 
 \series bold
 view 
@@ -388,9 +385,9 @@ e
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph default
+\series default
  il package è utilizzato da 
 \series bold
 view
@@ -404,188 +401,174 @@ view
 Classe Timer
 \series default
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
 
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
 \emph on
-Tipo, obiettivo e funzione del componente: 
+ 
 \emph default
-la classe realizza un contatore con lo scopo di lanciare notifiche.
-\begin_inset Newline newline
-\end_inset
+la classe realizza un contatore con lo scopo di lanciare notifiche
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
 \emph on
-Relazioni d'uso di altre componenti: 
+ 
 \emph default
 possiede un riferimento verso la classe 
 \series bold
 Notifica
-\series default
-.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- nessuna.
-\begin_inset Newline newline
-\end_inset
+\series default
+ nessuna
+\end_layout
 
+\begin_layout Itemize
 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
+\series bold
 Attività svolte e dati trattati:
-\emph default
+\series default
  specifici per ogni implementazione.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Classe ClientBack
 \series default
 :
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Tipo, obiettivo e funzione del componente: 
-\emph default
-la classe realizza un oggetto con la funzione di comunicare con la parte
- back-end.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Relazioni d'uso di altre componenti: 
-\emph default
-nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- ogni classe del Presentatio-Tier possiede un riferimento a questa classe.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- specifici per ogni implementazione.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+la classe realizza un oggetto con la funzione di comunicare con la parte
+ back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ ogni classe del Presentatio-Tier possiede un riferimento a questa classe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ specifici per ogni implementazione
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Classe ClientWeb
 \series default
 :
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Tipo, obiettivo e funzione del componente: 
-\emph default
-la classe realizza un oggetto con la funzione di comunicare con la parte
- web dell'applicazione.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Relazioni d'uso di altre componenti: 
-\emph default
-nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- ogni classe del Presentatio-Tier possiede un riferimento a questa classe.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- specifici per ogni implementazione.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+la classe realizza un oggetto con la funzione di comunicare con la parte
+ web dell'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ ogni classe del Presentatio-Tier possiede un riferimento a questa classe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+specifici per ogni implementazione
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Package com.safetyGame.desktop.dati
 \end_layout
 
 \begin_layout Standard
 
-\emph on
+\series bold
 Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
 \emph default
- questo package raccoglie le classi che si occupano di gestire i dati inseriti
+questo package raccoglie le classi che si occupano di gestire i dati inseriti
  direttamente dall'utente per il login e per tracciarne uno storico.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Relazioni d'uso di altre componenti:
-\emph default
+\series default
  nessuna.
 \begin_inset Newline newline
 \end_inset
 
 
-\emph on
+\series bold
 Interfacce con e relazioni d'uso da altre componenti:
-\emph default
+\series default
  il package è utilizzato da 
 \series bold
 logic
@@ -599,105 +582,100 @@ logic
 Classe DatiLogin
 \series default
 :
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Tipo, obiettivo e funzione del componente: 
-\emph default
-la classe realizza un oggetto che rappresenta le credenziali con cui un
- utente ha effettuato il login.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Relazioni d'uso di altre componenti: 
-\emph default
-nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- specifici per ogni implementazione.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+la classe realizza un oggetto che rappresenta le credenziali con cui un
+ utente ha effettuato il login
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ specifici per ogni implementazione
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Classe Log
 \series default
 :
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Tipo, obiettivo e funzione del componente: 
-\emph default
-la classe realizza un oggetto con l'intento di tenere traccia della storia
- degli accessi e delle operazioni compiute da ogni utente.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Relazioni d'uso di altre componenti: 
-\emph default
-nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Interfacce con e relazioni d'uso da altre componenti:
-\emph default
- nessuna.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Attività svolte e dati trattati:
-\emph default
- specifici per ogni implementazione.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+la classe realizza un oggetto con l'intento di tenere traccia della storia
+ degli accessi e delle operazioni compiute da ogni utente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+specifici per ogni implementazione
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

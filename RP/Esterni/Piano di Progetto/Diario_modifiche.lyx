@@ -70,10 +70,6 @@ Diario delle modifiche
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -144,10 +140,198 @@ hline
 
 		
 \backslash
+emph{Approvato.} & Massimo Dalla Piet
+\backslash
+'a & 2012/01/30 & V2.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Verificato.
+ In attesa di approvazione} & Alessandro Cornaglia & 2012/01/29 & V1.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Scrittura capitolo 5.
+ In attesa di verifica} & Giorgio Maggiolo & 2012/01/26 & V1.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Inserite correzioni rimanenti.} & Giorgio Maggiolo & 2012/01/25 & V1.2
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
 emph{Correzione del documento in base alla valutazione della RR.
  Manca la descrizione della strategia adottata per la turnazione dei ruoli
  fra i membri e la modifica relativa all'inizio delle attività di Verifica
- e Validazione.)} & Massimo Dalla Pietà & 2012/01/27 & V1.1 
+ e Validazione.)} & Giorgio Maggiolo & 2012/01/23 & V1.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Approvato.} & Giorgio Maggiolo & 2011/12/19 & V1.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Revisione delle ore cadauno e totali.
+ Revisione completata.} & Gabriele Facchin & 2011/12/18 & V0.8 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Creazione grafici.
+ Scrittura capitolo 5 (preventivo) e sezione 3.6} & Giorgio Maggiolo & 2011/12/15
+ & V0.7 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Completato il capitolo 4 (Analisi dei rischi)} & Giorgio Maggiolo &
+ 2011/12/15 & V0.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Completate tutte le tabella per la ripartizione dei ruoli e la distribuzion
+e delle ore} & Giorgio Maggiolo & 2011/12/14 & V0.5 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Revisione capitolo 3, scrittura capitolo 1} & Giorgio Maggiolo & 2011/12/12
+ & V0.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Stesura di tutti i diagrammi di gantt} & Marco Begolo & 2011/12/10
+ & V0.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Eliminazione della sezione 2.4,  implementazione del ciclo di vita (sezione
+ 3.1), avanzamento della sezione 3 fino al punto 3.3 incluso (mancano diagrammi
+ e la maggior parte delle tabelle, da rivedere le ripartizioni dei ruoli)}
+ & Marco Begolo & 2011/12/07 & V0.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Creazione documento, scrittura del documento fino dalla sezione 2 alla
+ sezione 3.1 inclusa.
+ Cose incomplete: indice, Organigramma, Ciclo di vita (2.4), date delle scadenze
+ (2.6), diagramma di gantt (img 3.2), tabella delle ore di lavoro (tab 3.2b)}
+ & Marco Begolo & 2011/12/06 & V0.1 
 \backslash
 
 \backslash

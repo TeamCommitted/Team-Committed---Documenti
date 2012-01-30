@@ -133,14 +133,6 @@ package
 \begin_layout Itemize
 
 \series bold
-Diagrammi delle classi:
-\series default
- dovrebbero essere presenti per l'intera architettura generale e di dettaglio
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
 Diagrammi delle attività:
 \series default
  dovranno essere presenti per l'architettura generale e di dettaglio, qualora
@@ -151,19 +143,6 @@ Diagrammi delle attività:
  Qualora l'intero flusso dovesse risultate troppo approssimativo o complicato
  per un solo diagramma, si dovranno creare dei sotto-diagrammi per ampliare
  o suddividere il diagramma generale
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Diagramma di sequenza:
-\series default
- dovranno essere presenti per l'architettura generale e di dettaglio, qualora
- il comportamento dell'architettura di dettaglio non sia stato esplicato
- precedentemente.
- Si dovrà limitare la rappresentazione di cicli o condizioni alternative
- ai soli casi in cui la loro omissione comporti gravi scompensi alla comprension
-e del funzionamento dell'applicazione
 \end_layout
 
 \begin_layout Subsection
