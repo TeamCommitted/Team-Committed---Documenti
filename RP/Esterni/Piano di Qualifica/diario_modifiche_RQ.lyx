@@ -143,7 +143,7 @@ hline
 
 	
 \backslash
-emph{Approvato.} & Giorgio Maggiolo & 201/01/23 & V2.0 
+emph{Approvato.} & Giorgio Maggiolo & 2012/01/23 & V2.0 
 \backslash
 
 \backslash
@@ -157,7 +157,7 @@ hline
 	
 \backslash
 emph{Verificato.
- In attesa di approvazione} & Gabriele Facchin & 2012/01/21 &V1.6 
+ In attesa di approvazione} & Gabriele Facchin & 2012/01/21 &V1.7 
 \backslash
 
 \backslash
@@ -168,10 +168,36 @@ hline
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
-emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo} & Lorenzo
- Braghetto & 2012/01/19 & V1.5 
+emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo - Test
+ di sistema} & Giacomo Quadrio & 2012/01/20 & V1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo - Test
+ di integrazione} & Lorenzo Braghetto & 2012/01/19 & V1.5 
 \backslash
 
 \backslash
