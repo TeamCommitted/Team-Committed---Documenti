@@ -74,29 +74,7 @@ Front-end Mobile
 \end_layout
 
 \begin_layout Subsection
-Package com.teamcommitted.clientandroid
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\emph on
- 
-\series default
-\emph default
-contiene tutte le classi che compongono il client mobile nativo per Android.
- Al suo interno saranno presenti tre sotto-package, 
-\series bold
-view, model 
-\series default
-e
-\series bold
- controller
-\end_layout
-
-\begin_layout Subsection
-Package com.teamcommitted.clientandroid.view
+Componente View
 \end_layout
 
 \begin_layout Standard
@@ -113,6 +91,20 @@ Activity
 \end_inset
 
  e che quindi riguardano la grafica dell'applicazione.
+
+\emph on
+ 
+\emph default
+Anche la classe TimerNotifica fa parte di questo componente anche se estende
+ la classe Java Android 
+\begin_inset Quotes eld
+\end_inset
+
+Service
+\begin_inset Quotes erd
+\end_inset
+
+.
 \emph on
 
 \begin_inset Newline newline
@@ -123,8 +115,7 @@ Activity
 \emph default
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza i package com.teamcommitted.clientandroid.model e com.teamcommitted.clientan
-droid.control.
+utilizza i componenti Model e Controller.
 \emph on
 
 \begin_inset Newline newline
@@ -138,27 +129,339 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-nessuna.
- 
+View è utilizzato da Controller
 \emph on
+.
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Itemize
 
 \series bold
-\emph default
-Attività svolte e dati trattati:
+Classe LoginActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di effettuare il login.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza com.safetygame.controller.ControllerLogin e com.safetygame.model.ModelLogin,
+ inoltre chiama le classi com.safetygame.view.DashboardActivity e com.safetygame.view.
+RecuperoPasswordActivity
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-si occupa di disegnare la grafica delle Activity a schermo e di intercettare
- gli input dati dall'utente.
+è utilizzato da com.safetygame.model.ModelLogin.
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+raccoglie i dati inseriti dall'utente e invia la richiesta di login.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe DashboardActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di raggiungere le varie Activity del programma.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+può chiamare le classi com.safetygame.view.PunteggiActivity, com.safetygame.view.Doman
+daActivity e com.safetygame.view.DatipersonaliActivity.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+è chiamato da com.safetygame.view.LoginActivity.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+intercetta gli input e lancia altre Activity.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe PunteggiActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di visualizzare i propri punteggi e trofei.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza com.safetygame.controller.ControllerPunteggi e
+\series bold
+ 
+\series default
+com.safetygame.model.ModelPunteggi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+è chiamato da com.safetygame.view.DashboardActivity ed è utilizzato da com.safetygam
+e.model.ModelPunteggi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+visualizza i punteggi e trofei dell'utente.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe DatipersonaliActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di visualizzare e modificare i propri dati personali.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza com.safetygame.controller.ControllerDati e
+\series bold
+ 
+\series default
+com.safetygame.model.ModelDati.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+è chiamato da com.safetygame.view.DashboardActivity ed è utilizzato da com.safetygam
+e.model.ModelDati.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+visualizza i permette di modificare i dati personali dell'utente.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe DomandaActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di visualizzare e risponde alle domande.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza com.safetygame.controller.ControllerDomanda e
+\series bold
+ 
+\series default
+com.safetygame.model.ModelDomanda.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+è chiamato da com.safetygame.view.DashboardActivity o com.safetygame.view.TimerNotific
+a ed è utilizzato da com.safetygame.model.ModelDati.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+visualizza e permette di rispondere alle domande.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe RecuperoPasswordActivity:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di recuperare la password dell'utente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza com.safetygame.controller.ControllerRecupero e
+\series bold
+ 
+\series default
+com.safetygame.model.ModelRecupero.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+è chiamato da com.safetygame.view.LoginActivity ed è utilizzato da com.safetygame.mod
+el.ModelRecupero.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ raccoglie i dati dell'utente e richiede il recupero password.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe TimerNotifica:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Servizio timer che proporrà all'utente una domanda secondo le specifiche
+ impostate attraverso le notifiche standard di Android.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti: 
+\series default
+chiama la classe com.safetygame.android.view.DomandaActivity.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+nessuna.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ periodicamente un timer a seconda delle impostazioni farà partire una notifica
+ standard di Android che permette di visualizzare una nuova domanda.
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
-Package com.teamcommitted.clientandroid.controller
+Componente Controller
 \end_layout
 
 \begin_layout Standard
@@ -167,7 +470,7 @@ Package com.teamcommitted.clientandroid.controller
 Tipo, obiettivo e funzione del componente: 
 \series default
 contiene le classi di utilità che raggruppano i metodi chiamati al compimento
- delle azioni in input dalla view.
+ delle azioni in input dalla view i quali chiamano i giusti metodi del Model.
 \emph on
 
 \begin_inset Newline newline
@@ -181,8 +484,7 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza sia com.teamcommitted.clientandroid.control che com.teamcommitted.clientandr
-oid.view.
+utilizza sia Model che View.
 \emph on
 
 \begin_inset Newline newline
@@ -196,26 +498,60 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è utilizzato da com.teamcommitted.clientandroid.view.
-\emph on
+è utilizzato da View.
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Itemize
 
 \series bold
-\emph default
-Attività svolte e dati trattati:
+Classi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi ControllerLogin, ControllerPunteggi, ControllerDomande, ControllerDati
+ e ControllerRecupero rappresentano i Controller per ogni Activity relativa.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ del componente Model utilizzano rispettivamente ModelLogin, ModelPunteggi,
+ ModelDomande, ModelDati e ModelRecupero; del componente View può utilizzare
+ rispettivamente ControllerLogin, ControllerPunteggi, ControlelrDomande,
+ ControllerDati e ControllerRecupero.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
 \emph on
  
 \series default
 \emph default
-si occupa di gestire le scelte dell'utente e di chiamare i giusti metodi
- del model.
+viene utilizzato dalle rispettive classi dal componente View.
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ le classi del componente View chiamano le classi del Controller, le quali
+ gestiranno e controlleranno i dati in input, in seguito chiameranno i giusti
+ metodi del componente Model.
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
-Package com.teamcommitted.clientandroid.model
+Componente Model
 \end_layout
 
 \begin_layout Standard
@@ -238,8 +574,8 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza il package backend/server ?? e notifica com.teamcommitted.clientandroid.vi
-ew che i dati sono pronti.
+utilizza il Presentation Tier del Backend e notifica cil componente View
+ che i dati sono pronti.
 \emph on
 
 \begin_inset Newline newline
@@ -253,7 +589,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è utilizzato da com.teamcommitted.clientandroid.control.
+è utilizzato dal componente Controller.
 \emph on
 
 \begin_inset Newline newline
@@ -269,5 +605,97 @@ Attività svolte e dati trattati:
  li renderà disponibili alla view.
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Classi Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi ModelLogin, ModelPunteggi, ModelDomande, ModelDati e ModelRecupero
+ rappresentano i Model per ogni Activity e Controller relativa.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ del componente View utilizzano rispettivamente LoginActivity, PunteggiActivity,
+ DomandeActivity, DatiActivity e RecuperoPasswordActivity.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+viene utilizzato dalle rispettive classi dal componente View e Controller.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ le classi del componente Controller chiamano le classi del Model, le quali
+ effettueranno le richieste HTTP al server e crearanno gli oggetti delle
+ classi relative, in seguito notificheranno le relative classi del componente
+ View.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classi Condivisi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi Login, Punteggi, Domande, Dati, Log e Recupero rappresentano gli
+ oggetti condivisi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ nessuna.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+viene utilizzato dai rispettivi Model.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ rappresentano gli oggetti utilizzati.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
