@@ -103,7 +103,7 @@ Componente View
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-contiene tutte le classi Java che estendono la classe Java di Android 
+Contiene tutte le classi Java che estendono la classe Java di Android 
 \begin_inset Quotes eld
 \end_inset
 
@@ -136,7 +136,7 @@ Service
 \emph default
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza i componenti Model e Controller.
+Utilizza i componenti Model e Controller.
 \emph on
 
 \begin_inset Newline newline
@@ -158,7 +158,7 @@ View è utilizzato da Controller
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.LoginActivity:
+com.safetyGame.android.view.LoginActivity:
 \end_layout
 
 \begin_layout Standard
@@ -168,20 +168,23 @@ Tipo, obiettivo e funzione del componente:
 \series default
 Activity che permette di effettuare il login
 \series bold
+ 
+\series default
+ad un 
+\bar under
+Dipendente
+\series bold
+\bar default
 .
 \begin_inset Newline newline
 \end_inset
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetyGame.controller.ControllerLogin e com.safetyGame.model.ModelLogin,
- inoltre chiama le classi 
-\begin_inset Newline newline
-\end_inset
-
-com.safetyGame.view.DashboardActivity e com.safetyGame.view.RecuperoPasswordActivity
+Utilizza ControllerLogin e ModelLogin, inoltre chiama le classi DashboardActivit
+y e RecuperoPasswordActivity
 \series bold
-
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -190,7 +193,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è utilizzato da com.safetyGame.model.ModelLogin.
+È utilizzato da ModelLogin.
 \series bold
 
 \begin_inset Newline newline
@@ -198,13 +201,13 @@ Interfacce con e relazioni d’uso da altre componenti:
 
 Attività svolte e dati trattati: 
 \series default
-raccoglie i dati inseriti dall'utente e invia la richiesta di login.
+Raccoglie i dati inseriti dall'utente e invia la richiesta di login.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.DashboardActivity:
+com.safetyGame.android.view.DashboardActivity:
 \end_layout
 
 \begin_layout Standard
@@ -220,19 +223,15 @@ Activity che permette di raggiungere le varie Activity del programma.
 
 Relazioni d’uso di altre componenti: 
 \series default
-può chiamare le classi com.safetyGame.view.PunteggiActivity, com.safetyGame.view.Doman
-daActivity e com.safetyGame.view.DatipersonaliActivity.
+Può chiamare le classi PunteggiActivity, DomandaActivity e DatipersonaliActivity.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
 Interfacce con e relazioni d’uso da altre componenti:
-\emph on
- 
 \series default
-\emph default
-è chiamato da com.safetyGame.view.LoginActivity.
+ È chiamato da LoginActivity.
 \series bold
 
 \begin_inset Newline newline
@@ -240,13 +239,13 @@ Interfacce con e relazioni d’uso da altre componenti:
 
 Attività svolte e dati trattati: 
 \series default
-intercetta gli input e lancia altre Activity.
+Intercetta gli input e lancia altre Activity.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.PunteggiActivity:
+com.safetyGame.android.view.PunteggiActivity:
 \end_layout
 
 \begin_layout Standard
@@ -254,7 +253,11 @@ Classe com.safetyGame.android.view.PunteggiActivity:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di visualizzare i propri punteggi e trofei.
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare i vari punteggi e trofei.
 \series bold
 
 \begin_inset Newline newline
@@ -262,11 +265,11 @@ Activity che permette di visualizzare i propri punteggi e trofei.
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetyGame.controller.ControllerPunteggi e
+Utilizza ControllerPunteggi e
 \series bold
  
 \series default
-com.safetyGame.model.ModelPunteggi.
+ModelPunteggi.
 \series bold
 
 \begin_inset Newline newline
@@ -277,8 +280,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è chiamato da com.safetyGame.view.DashboardActivity ed è utilizzato da com.safetyGam
-e.model.ModelPunteggi.
+è chiamato da DashboardActivity ed è utilizzato da ModelPunteggi.
 \series bold
 
 \begin_inset Newline newline
@@ -286,13 +288,21 @@ e.model.ModelPunteggi.
 
 Attività svolte e dati trattati: 
 \series default
-visualizza i punteggi e trofei dell'utente.
+Visualizza i punteggi e trofei del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.DatipersonaliActivity:
+com.safetyGame.android.view.DatipersonaliActivity:
 \end_layout
 
 \begin_layout Standard
@@ -300,7 +310,11 @@ Classe com.safetyGame.android.view.DatipersonaliActivity:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di visualizzare e modificare i propri dati personali.
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare e modificare i propri dati personali.
 \series bold
 
 \begin_inset Newline newline
@@ -308,11 +322,11 @@ Activity che permette di visualizzare e modificare i propri dati personali.
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetyGame.controller.ControllerDati e
+Utilizza ControllerDati e
 \series bold
  
 \series default
-com.safetyGame.model.ModelDati.
+ModelDati.
 \series bold
 
 \begin_inset Newline newline
@@ -323,8 +337,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è chiamato da com.safetyGame.view.DashboardActivity ed è utilizzato da com.safetyGam
-e.model.ModelDati.
+È chiamato da DashboardActivity ed è utilizzato da ModelDati.
 \series bold
 
 \begin_inset Newline newline
@@ -332,13 +345,21 @@ e.model.ModelDati.
 
 Attività svolte e dati trattati: 
 \series default
-visualizza e permette di modificare i dati personali dell'utente.
+Visualizza e permette di modificare i dati personali del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.DomandaActivity:
+com.safetyGame.android.view.DomandaActivity:
 \end_layout
 
 \begin_layout Standard
@@ -346,7 +367,11 @@ Classe com.safetyGame.android.view.DomandaActivity:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di visualizzare e risponde alle domande.
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare e risponde alle domande.
 \series bold
 
 \begin_inset Newline newline
@@ -354,11 +379,11 @@ Activity che permette di visualizzare e risponde alle domande.
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetyGame.controller.ControllerDomanda e
+utilizza ControllerDomanda e
 \series bold
  
 \series default
-com.safetyGame.model.ModelDomanda.
+ModelDomanda.
 \series bold
 
 \begin_inset Newline newline
@@ -369,8 +394,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è chiamato da com.safetyGame.view.DashboardActivity o com.safetyGame.view.TimerNotific
-a ed è utilizzato da com.safetyGame.model.ModelDati.
+È chiamato da DashboardActivity o TimerNotifica ed è utilizzato da ModelDati.
 \series bold
 
 \begin_inset Newline newline
@@ -378,13 +402,13 @@ a ed è utilizzato da com.safetyGame.model.ModelDati.
 
 Attività svolte e dati trattati: 
 \series default
-visualizza e permette di rispondere alle domande.
+Visualizza e permette di rispondere alle domande.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.RecuperoPasswordActivity:
+com.safetyGame.android.view.RecuperoPasswordActivity:
 \end_layout
 
 \begin_layout Standard
@@ -392,7 +416,11 @@ Classe com.safetyGame.android.view.RecuperoPasswordActivity:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di recuperare la password dell'utente.
+Activity che permette di recuperare la password di un 
+\bar under
+Dipendente
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -400,11 +428,11 @@ Activity che permette di recuperare la password dell'utente.
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza com.safetyGame.controller.ControllerRecupero e
+utilizza ControllerRecupero e
 \series bold
  
 \series default
-com.safetyGame.model.ModelRecupero.
+ModelRecupero.
 \series bold
 
 \begin_inset Newline newline
@@ -415,8 +443,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è chiamato da com.safetyGame.view.LoginActivity ed è utilizzato da com.safetyGame.mod
-el.ModelRecupero.
+È chiamato da LoginActivity ed è utilizzato da ModelRecupero.
 \series bold
 
 \begin_inset Newline newline
@@ -424,13 +451,13 @@ el.ModelRecupero.
 
 Attività svolte e dati trattati:
 \series default
- raccoglie i dati dell'utente e richiede il recupero password.
+ Raccoglie i dati dell'utente e richiede il recupero password.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.android.view.TimerNotifica:
+com.safetyGame.android.view.TimerNotifica:
 \end_layout
 
 \begin_layout Standard
@@ -438,8 +465,12 @@ Classe com.safetyGame.android.view.TimerNotifica:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Servizio timer che proporrà all'utente una domanda secondo le specifiche
- impostate attraverso le notifiche standard di Android.
+Servizio timer che proporrà al 
+\bar under
+Dipendente Autenticato
+\bar default
+ una domanda secondo le specifiche impostate attraverso le notifiche standard
+ di Android.
 \series bold
 
 \begin_inset Newline newline
@@ -447,7 +478,7 @@ Servizio timer che proporrà all'utente una domanda secondo le specifiche
 
 Relazioni d’uso di altre componenti: 
 \series default
-chiama la classe com.safetyGame.android.view.DomandaActivity.
+Chiama la classe DomandaActivity.
 \series bold
 
 \begin_inset Newline newline
@@ -466,7 +497,7 @@ nessuna.
 
 Attività svolte e dati trattati:
 \series default
- periodicamente un timer a seconda delle impostazioni farà partire una notifica
+ Periodicamente un timer a seconda delle impostazioni farà partire una notifica
  standard di Android che permette di visualizzare una nuova domanda.
 \end_layout
 
