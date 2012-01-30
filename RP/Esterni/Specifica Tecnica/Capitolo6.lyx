@@ -503,7 +503,7 @@ Relazioni d'uso di altre componenti:
 \emph default
 contiene un riferimento verso l'interfaccia 
 \series bold
-AmministratoreAzienda
+AmministratoreSicurezza
 \series default
  per invocarne i metodi
 \end_layout
@@ -526,7 +526,7 @@ Attività svolte e dati trattati:
  
 \series default
 \bar under
-Amministratori Azienda
+Amministratori Sicurezza
 \end_layout
 
 \end_deeper
@@ -579,6 +579,192 @@ e
 .
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Classe ControlDipendente
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+si interpone tra lo scambio di dati fra il sistema ed i 
+\bar under
+Dipendenti
+\bar default
+.
+ Esegue i controlli sui dati derivanti dalle interazioni dei 
+\bar under
+Dipendenti 
+\bar default
+con
+\bar under
+ 
+\bar default
+l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
+ grafica memorizzati nel sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe ControlAmministratoreAzienda
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+si interpone tra lo scambio di dati fra il sistema e gli 
+\bar under
+Amministratori Azienda
+\bar default
+.
+ Esegue i controlli sui dati derivanti dalle interazioni degli 
+\bar under
+Amministratori Azienda
+\bar default
+ con
+\bar under
+ 
+\bar default
+l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
+ grafica memorizzati nel sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe ControlAmministratoreSicurezza
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+si interpone tra lo scambio di dati fra il sistema e gli 
+\bar under
+Amministratori Sicurezza
+\bar default
+.
+ Esegue i controlli sui dati derivanti dalle interazioni degli 
+\bar under
+Amministratori Sicurezza 
+\bar default
+con
+\bar under
+ 
+\bar default
+l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
+ grafica memorizzati nel sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Package com.safetyGame.web.model
 \end_layout
@@ -619,6 +805,101 @@ control
 .
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Classe ClientBackEnd
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
+ richieste al Presentation-Tier della parte back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ viene richiamata da ogni altra classe del package a seconda del tipo di
+ richiesta che deve essere effettuata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe ModelXXX
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+ 
+\bar under
+Dipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Package com.safetyGame.web.condivisi
 \end_layout
@@ -633,6 +914,8 @@ Tipo, obiettivo e funzione del componente:
 \emph default
 questo package raccoglie le classi che rappresentano concretamente i dati
  e le informazioni presenti e persistenti nel sistema.
+ Il package è utile per il trasferiremento delle informazioni fra i vari
+ package.
 \begin_inset Newline newline
 \end_inset
 
@@ -665,5 +948,52 @@ model
 .
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Classe XXX
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+ 
+\bar under
+Dipendenti 
+\bar default
+condiviso fra i vari package
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
