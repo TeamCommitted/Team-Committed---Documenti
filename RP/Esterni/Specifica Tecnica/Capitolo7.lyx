@@ -332,7 +332,7 @@ e.model.ModelDati.
 
 Attività svolte e dati trattati: 
 \series default
-visualizza i permette di modificare i dati personali dell'utente.
+visualizza e permette di modificare i dati personali dell'utente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -567,7 +567,7 @@ Componente Model
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-contiene le classi che counicano con le API del server, ne ricevono i dati
+contiene le classi che comunicano con le API del server, ne ricevono i dati
  e li gestiscono.
 \emph on
 
@@ -582,7 +582,7 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza il Presentation Tier del Backend e notifica cil componente View
+utilizza il Presentation Tier del Backend e notifica al componente View
  che i dati sono pronti.
 \emph on
 
