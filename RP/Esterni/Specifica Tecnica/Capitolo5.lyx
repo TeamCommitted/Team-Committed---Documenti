@@ -182,8 +182,6 @@ classe puramente grafica, svolge una funzione di presentazione
 
 \series bold
 Classe com.safetyGame.desktop.view.Login
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -235,8 +233,6 @@ Attività svolte e dati trattati:
 
 \series bold
 Classe com.safetyGame.desktop.view.Lanciatore
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -334,8 +330,6 @@ dati
 
 \series bold
 Classe com.safetyGame.desktop.logic.Timer
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -380,8 +374,6 @@ Attività svolte e dati trattati:
 
 \series bold
 Classe com.safetyGame.desktop.logic.ClientBack
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -424,8 +416,6 @@ Attività svolte e dati trattati:
 
 \series bold
 Classe com.safetyGame.desktop.logic.ClientWeb
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -471,8 +461,6 @@ specifici per ogni implementazione
 
 \series bold
 Classe com.safetyGame.desktop.dati.DatiLogin
-\series default
-:
 \end_layout
 
 \begin_layout Standard
@@ -515,8 +503,6 @@ Attività svolte e dati trattati:
 
 \series bold
 Classe com.safetyGame.desktop.dati.Log
-\series default
-:
 \end_layout
 
 \begin_layout Standard
