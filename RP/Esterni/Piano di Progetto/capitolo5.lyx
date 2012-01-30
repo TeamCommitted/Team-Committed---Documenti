@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -98,7 +99,26 @@ reference "fig:Diagramma-di-Gantt,"
 
 \end_inset
 
- 
+.
+\end_layout
+
+\begin_layout Standard
+Inoltre, poichè la valutazione della RR è stata consegnata il giorno 2012/01/15,
+ i compiti di 
+\emph on
+Analisi
+\emph default
+ sono scalati a cavallo fra il primo ed il secondo periodo, come si può
+ vedere nel diagramma di Gantt in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt,"
+
+\end_inset
+
+.
+ Tuttavia, i membri incaricati a svolgere questo compito hanno accettato
+ di eseguirlo parallelamente ai compiti assegnati loro per il secondo periodo.
 \end_layout
 
 \begin_layout Standard
@@ -111,7 +131,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename Img/Consuntivo PA/GanttPA.jpg
-	scale 33
+	scale 30
 
 \end_inset
 
@@ -237,8 +257,6 @@ name "tab:Tabella-che-indica"
 
 \end_inset
 
-
-\lang italian
 Consuntivo delle ore per ruolo nella fase di
 \emph on
  Progettazione Architetturale
@@ -267,7 +285,26 @@ Progettisti
 Analisti
 \emph default
 .
- 
+ Tuttavia, in seguito ad un colloquio avvenuto con il 
+\emph on
+Proponente
+\emph default
+ il giorno 2012/01/26 si è reso necessario rivedere ulteriormente (anche
+ se in minima parte) l'
+\emph on
+Analisi dei Requisiti
+\emph default
+.
+ Questo ha portato ad un'aggiunta di due ore durante il terzo periodo (in
+ particolare il giorno 2012/01/27); il ruolo di 
+\emph on
+Analista
+\emph default
+ per queste due ore è stato ricoperto da 
+\emph on
+Marco Begolo
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
@@ -314,9 +351,7 @@ name "tab:Tabella-che-indica-1"
 
 \end_inset
 
-Consuntivo 
-\lang italian
-delle ore per ruolo e relativo costo nella fase di 
+Consuntivo delle ore per ruolo e relativo costo nella fase di 
 \emph on
 Progettazione Architetturale
 \end_layout
@@ -336,7 +371,7 @@ Progettazione Architetturale
 \end_layout
 
 \begin_layout Standard
-Com'è possibile notare, il costo dovuto al lavoro 
+Com'è possibile notare, il costo dovuto al lavoro dei 
 \emph on
 Progettisti
 \emph default
