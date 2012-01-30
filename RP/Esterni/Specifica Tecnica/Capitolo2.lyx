@@ -420,5 +420,67 @@ pull
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Pattern DAO
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione: 
+\series default
+tale 
+\bar under
+design pattern 
+\bar default
+permette un semplice e trasparente modo per interfacciarsi con una base
+ di dati
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ l'utilizzo di tale 
+\bar under
+design pattern
+\bar default
+ minimizza le modifiche da apportare all'applicazione nel caso venga modificato
+ il meccanismo di persistenza dei dati o la base di dati stessa.
+ Nonostante la probabilità che la base di dati subirà pesanti modifiche
+ strutturali sia molto bassa, rimane la possibilità che il meccanismo stesso
+ di persistenza possa subire modifiche: per questo motivo l'utilizzo di
+ tale 
+\bar under
+design pattern
+\bar default
+ è garanzia di buona portabilità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ questo 
+\bar under
+design pattern
+\bar default
+ verrà utilizzato nei livelli 
+\emph on
+Model 
+\emph default
+e 
+\emph on
+Model-Tier
+\emph default
+ come astrazione per il meccanismo di persistenza dei dati
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document
