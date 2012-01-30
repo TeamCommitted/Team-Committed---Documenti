@@ -191,7 +191,7 @@ hline
 RFOB 5 & Un 
 \backslash
 uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
- credenziali & & & 
+ credenziali di accesso & & & 
 \backslash
 
 \backslash
@@ -284,10 +284,10 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9 & Le domande a cui verranno sottoposti i 
+RFOB 9 & Le domande che verranno sottoposte ai 
 \backslash
-uline{Dipendenti Autenticati} prevederanno che questi possano rispondere
- direttamente dalla propria postazione di lavoro & & & 
+uline{Dipendenti Autenticati} dovranno poter avere direttamente dalla propria
+ postazione di lavoro & & & 
 \backslash
 
 \backslash
@@ -302,8 +302,8 @@ RFOB 9.1 & Le domande a cui verranno sottoposti i
 \backslash
 uline{Dipendenti Autenticati} forniti di 
 \backslash
-uline{dispositivi mobili} aziendali prevederano anche prove pratiche & &
- & 
+uline{dispositivi mobili} aziendali potranno prevedere anche prove pratiche
+ & & & 
 \backslash
 
 \backslash
@@ -341,8 +341,9 @@ hline
 \begin_layout Plain Layout
 
 RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
- con foto (entrambe con le modalità sopra citate),  scansione QR nel tempo
- limite, scansione QR nell'ordine corretto & & & 
+ con foto (entrambe con le modalità sopra citate),  scansione di codice
+ QR nel tempo limite, scansione di codici QR nell'ordine corretto & & &
+ 
 \backslash
 
 \backslash
@@ -354,8 +355,8 @@ hline
 \begin_layout Plain Layout
 
 RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
- trova errori nella foto, trova differenze nella foto, registra gli RF-ID
- nell'ordine corretto & & & 
+ trova errori nella foto, trova differenze nella foto, registra i codici
+ RF-ID nell'ordine corretto & & & 
 \backslash
 
 \backslash
@@ -508,9 +509,9 @@ hline
 
 RFOB 15.1 & Le informazioni che un 
 \backslash
-uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte(sia
- corrette che errate), classifica aziendale, trofei/badge raccolti, statistiche
- derivanti dalle risposte & & & 
+uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte
+ (sia corrette che errate), classifica aziendale, trofei/badge raccolti,
+ statistiche derivanti dalle risposte & & & 
 \backslash
 
 \backslash
@@ -523,7 +524,7 @@ hline
 
 RFOB 16 & Un 
 \backslash
-uline{Dipendente Autenticato} dovrà avere la possibilità di terminare la
+uline{Dipendente Autenticato} dovrà avere la possibilità di chiudere la
  propria sessione, senza terminare l'applicazione & & & 
 \backslash
 
@@ -916,7 +917,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 19.1 & i dati personali sono: nome, cognome, codice fiscale, email,
+RFOB 19.1 & I dati personali sono: nome, cognome, codice fiscale, email,
  impiego & & & 
 \backslash
 
