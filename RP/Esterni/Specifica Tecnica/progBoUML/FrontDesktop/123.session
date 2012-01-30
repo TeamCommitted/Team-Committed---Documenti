@@ -1,0 +1,11 @@
+window_sizes 1600 848 375 1125 600 82
+diagrams
+  active  classdiagram_ref 134658 // frontDesktop
+    1219 690 100 4 72 0
+end
+show_stereotypes
+selected classdiagram_ref 134658 // frontDesktop
+open
+  classview_ref 134658 // frontDesktop
+end
+end
