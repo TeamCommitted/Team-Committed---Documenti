@@ -100,7 +100,7 @@ Front-end Web
 \end_layout
 
 \begin_layout Subsection
-Livello View
+View
 \end_layout
 
 \begin_layout Standard
@@ -133,7 +133,7 @@ Model
 \begin_layout Subsubsection
 
 \series bold
-Interfaccia com.safetyGame.web.view.Dipendente
+com.safetyGame.web.view.IntDipendente
 \end_layout
 
 \begin_layout Standard
@@ -144,7 +144,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per i Dipendenti
+Attraverso questa interfaccia vengono create le pagine web per i Dipendenti
  che utilizzano il sistema.
  Dichiara i metodi comuni ad ogni 
 \bar under
@@ -161,7 +161,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -169,7 +169,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 DipendenteImpl
 \begin_inset Newline newline
@@ -177,13 +177,13 @@ DipendenteImpl
 
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Interfaccia com.safetyGame.web.view.AmministratoreAzienda
+com.safetyGame.web.view.IntAmministratoreAzienda
 \end_layout
 
 \begin_layout Standard
@@ -194,7 +194,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per l'
+Attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Azienda
 \bar default
@@ -209,7 +209,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -217,7 +217,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreAziendaImpl
 \begin_inset Newline newline
@@ -225,13 +225,13 @@ AmministratoreAziendaImpl
 
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Interfaccia com.safetyGame.web.view.AmministratoreSicurezza
+com.safetyGame.web.view.IntAmministratoreSicurezza
 \end_layout
 
 \begin_layout Standard
@@ -242,7 +242,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-attraverso questa interfaccia vengono create le pagine web per l'
+Attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Sicurezza
 \bar default
@@ -257,7 +257,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -265,7 +265,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- l'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreSicurezzaImpl
 \begin_inset Newline newline
@@ -273,13 +273,13 @@ AmministratoreSicurezzaImpl
 
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.view.DipendenteImpl
+com.safetyGame.web.view.DipendenteImpl
 \end_layout
 
 \begin_layout Standard
@@ -290,7 +290,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-implementa l'interfaccia 
+Implementa l'interfaccia 
 \series bold
 Dipendente
 \series default
@@ -305,7 +305,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-contiene un riferimento verso l'interfaccia 
+Contiene un riferimento verso l'interfaccia 
 \series bold
 Dipendente
 \series default
@@ -317,7 +317,7 @@ Dipendente
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -325,7 +325,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- per via grafica rende possibile l'interazione fra sistema e i 
+ Per via grafica rende possibile l'interazione fra sistema e i 
 \bar under
 Dipendenti
 \end_layout
@@ -333,7 +333,7 @@ Dipendenti
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.view.AmministratoreAziendaImpl
+com.safetyGame.web.view.AmministratoreAziendaImpl
 \end_layout
 
 \begin_layout Standard
@@ -344,7 +344,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-implementa l'interfaccia 
+Implementa l'interfaccia 
 \series bold
 AmministratoreAzienda
 \series default
@@ -359,7 +359,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-contiene un riferimento verso l'interfaccia 
+Contiene un riferimento verso l'interfaccia 
 \series bold
 AmministratoreAzienda
 \series default
@@ -371,7 +371,7 @@ AmministratoreAzienda
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -379,7 +379,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- per via grafica rende possibile l'interazione fra sistema e i vari
+ Per via grafica rende possibile l'interazione fra sistema e i vari
 \series bold
  
 \series default
@@ -390,7 +390,7 @@ Amministratori Azienda
 \begin_layout Subsubsection
 
 \series bold
-Classe AmministratoreSicurezzaImpl
+com.safetyGame.web.view.AmministratoreSicurezzaImpl
 \series default
 :
 \end_layout
@@ -403,7 +403,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-implementa l'interfaccia 
+Implementa l'interfaccia 
 \series bold
 AmministratoreSicurezza
 \series default
@@ -418,7 +418,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-contiene un riferimento verso l'interfaccia 
+Contiene un riferimento verso l'interfaccia 
 \series bold
 AmministratoreSicurezza
 \series default
@@ -430,7 +430,7 @@ AmministratoreSicurezza
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -438,7 +438,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- per via grafica rende possibile l'interazione fra sistema e i vari
+ Per via grafica rende possibile l'interazione fra sistema e i vari
 \series bold
  
 \series default
