@@ -362,23 +362,24 @@ status open
 \begin_layout encl
 
 \family typewriter
-Analisi_dei_Requisiti_V2.0.pdf, Glossario_V2.0.pdf, Norme_di_Progetto_V2.0.pdf,
+./Esterni/Analisi_dei_Requisiti_V2.0.pdf, ./Esterni/Glossario_V2.0.pdf, ./Interni/Norme
+_di_Progetto_V2.0.pdf,
 \series bold
  
 \series default
-Piano_di_Progetto_V2.0.pdf
+./Esterni/Piano_di_Progetto_V2.0.pdf
 \series bold
 , 
 \series default
-Piano_di_Qualifica_V2.0.pdf
+./Esterni/Piano_di_Qualifica_V2.0.pdf
 \series bold
 , 
 \series default
-Specifica_Tecnica_V1.0.pdf
+./Esterni/Specifica_Tecnica_V1.0.pdf
 \series bold
 , 
 \series default
-verbale20120126.pdf
+./Esterni/verbale20120126.pdf
 \end_layout
 
 \end_body
