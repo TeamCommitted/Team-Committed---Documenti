@@ -162,22 +162,259 @@ com.safetyGame.back.ControllerDomanda
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ControllerDomanda viene utilizzata per gestire richieste di visualizza
-zione di domande da parte dei componenti Front-end.
- 
+zione di domande e di invio risposte da parte dei componenti Front-end.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
 Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckRispostaDomanda del package
+ checker ed utilizza oggetti di tipo Domanda del package condivisi per scambiare
+ dati.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalle classi ClientBackEnd dei vari Front-end
+ e provvede metodi a CheckRispostaDomanda per inviare i dati ottenuti ai
+ relativi Front-end.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Attività svolte e dati trattati:
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione o risposta di una domanda
+ da parte di un ClientBackEnd, richiamando i metodi di CheckRispostaDomanda
+ per ottenere una domanda da visualizzare o verificare la risposta data.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerCalderone
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerCalderone viene utilizzata per gestire richieste di
+ visualizzazione, aggiunta ed eliminazione di domande nel database locale
+ di domande, inoltre viene utilizzata per richieste di visualizzazione di
+ domande presenti nel database centrale di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckModificaDomanda del package
+ checker ed utilizza oggetti di tipo Domanda del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
+ e provvede metodi a CheckModificaDomanda per inviare i dati ottenuti al
+ Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta od eliminazione
+ di una o più domande dal database locale di domande o di visualizzazione
+ di domande dal database centrale di domande e richiama i relativi metodi
+ di CheckModificaDomanda per effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerDipendenti
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDipendenti viene utilizzata per gestire richieste di
+ visualizzazione, aggiunta, modifica ed eliminazione di account Dipendente
+ dal database aziendale di dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckDipendenti del package checker
+ ed utilizza oggetti di tipo Dipendente del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
+ e provvede metodi a CheckDipendenti per inviare i dati ottenuti al Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta, modifica od eliminazion
+e di account Dipendente e richiama i relativi metodi di CheckDipendente
+ per controllare la consistenza ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerTrofei
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerTrofei viene utilizzata per gestire richieste di visualizzaz
+ione, aggiunta, modifica ed eliminazione di Trofei dal database aziendale
+ di trofei.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckTrofei del package checker ed
+ utilizza oggetti di tipo Trofeo del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
+ per aggiunta, modifica ed eliminazione di trofei, mentre viene utilizzata
+ da tutti i Front-end per la visualizzazione di trofei; Provvede metodi
+ a CheckTrofei per inviare i dati ottenuti ai relativi Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta, modifica od eliminazion
+e di trofei e richiama i relativi metodi di CheckTrofei per controllare
+ la consistenza ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerDati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDati viene utilizzata per gestire richieste di visualizzazio
+ne e modifica di dati account Dipendente dal database aziendale di dipendenti
+ o per gestire richieste di modifica password di account Amministratore
+ Azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckDati del package checker ed
+ utilizza oggetti di tipo Dipendente del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalle classi ClientBackEnd dei Front-end per
+ i dati account Dipendente e dal ClientBackEnd web per la password Amministrator
+e Azienda; Provvede metodi a CheckDipendenti per inviare i dati ottenuti
+ ai relativi Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione o modifica di dati account
+ Dipendente o di modifica password di account Amministratore Azienda e richiama
+ i relativi metodi di CheckDati per controllare la consistenza ed effettuare
+ le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.ControllerRecupero
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerRecupero viene utilizzata per gestire richieste di recupero
+ password.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckRecuperodel package checker
+ ed utilizza oggetti di tipo Recupero del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del Front-end web
+ e provvede metodi a CheckDipendenti per inviare i dati ottenuti al Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta, modifica od eliminazion
+e di account Dipendente e richiama i relativi metodi di CheckDipendente
+ per controllare la consistenza ed effettuare le operazioni richieste.
 \end_layout
 
 \end_body
