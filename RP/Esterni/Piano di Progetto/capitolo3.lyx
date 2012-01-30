@@ -207,6 +207,82 @@ incremento
 \end_layout
 
 \begin_layout Subsection
+Turnazione dei ruoli
+\end_layout
+
+\begin_layout Standard
+In questo capitolo verrà pianificata la suddivisione del lavoro durante
+ le diverse fasi di sviluppo.
+ Tramite diagrammi di Gantt vedremo come i vari compiti saranno suddivisi
+ temporalmente e le loro eventuali dipendenze.
+ 
+\end_layout
+
+\begin_layout Standard
+Ogni compito sarà identificato da un ID, il quale sarà utilizzato per l'assegnaz
+ione dei compiti ai vari membri del gruppo.
+ Questo servirà ad evitare che la distribuzione omogenea dei ruoli porti
+ una stessa persona a scrivere un documento (o parte di esso) ed a validarlo
+ successivamente.
+ Infatti è noto che, generalmente, chi scrive un documento o del codice
+ faccia poi fatica ad identificarne errori grammaticali, di sintassi o logici.
+ Per questo motivo, se qualcuno si trovasse obbligato a verificare un documento
+ (o parte di esso) redatto da se stesso dovrà comunicarlo al 
+\emph on
+Responsabile
+\emph default
+, il quale provvederà ad assegnare il compito ad un altro 
+\emph on
+Verificatore
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Nel caso in cui un 
+\emph on
+Verificatore
+\emph default
+ sia chiamato a lavorare su un documento di cui lui stesso abbia redatto
+ un parte, sarà necessario che si organizzi con gli altri verificatori per
+ evitare di correggere la propria parte.
+ In particolare, in documenti che necessitano di una gran quantità di lavoro
+ (come 
+\emph on
+Analisi dei Requisiti
+\emph default
+ e 
+\emph on
+Specifica Tecnica
+\emph default
+) sarà probabilmente necessario adottare questa strategia.
+ Questi tipi di documenti, quindi, potrebbero presentare una stessa persona
+ fra i 
+\emph on
+Redattori
+\emph default
+ e i 
+\emph on
+Verificatori
+\emph default
+.
+ In particolare, tutti i membri del gruppo parteciperanno alla stesura della
+ 
+\emph on
+Specifica Tecnica
+\emph default
+, sarà quindi inevitabile una doppia presenza fra 
+\emph on
+redattori
+\emph default
+ e 
+\emph on
+verificatori
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
 Analisi (AN)
 \end_layout
 
@@ -757,7 +833,7 @@ La fase di
 \emph on
 Progettazione di Dettaglio e Codifica
 \emph default
- occuperà il periodo che va dal 2012/01/08 al 2012/02/07.
+ occuperà il periodo che va dal 2012/02/07 al 2012/03/01.
  Per garantire la turnazione dei ruoli all'interno di questa fase divideremo
  quest'ultima in due periodi:
 \end_layout
@@ -767,7 +843,7 @@ Progettazione di Dettaglio e Codifica
 \series bold
 I periodo:
 \series default
- dal 2012/02/08 al 2012/02/22 (15 giorni)
+ dal 2012/02/07 al 2012/02/22 (16 giorni)
 \end_layout
 
 \begin_layout Itemize
@@ -775,12 +851,11 @@ I periodo:
 \series bold
 II periodo:
 \series default
- dal 2012/02/23 al 2012/02/07 (13 giorni) 
+ dal 2012/02/23 al 2012/03/01 (8 giorni) 
 \end_layout
 
 \begin_layout Standard
-Il primo periodo è leggermente più lungo per via della maggiore mole di
- lavoro.
+Il primo periodo è più lungo per via della maggiore mole di lavoro.
  Si è preferito suddividere questa fase in maniera naturale (ovvero al termine
  della prima fase di codifica e relativa verifica), piuttosto che in un
  numero equo di giorni, poiché il passaggio di affidamento di un compito
@@ -806,8 +881,6 @@ Progettazione di Dettaglio e di Codifica
  La prima parte si occuperà di progettare e codificare quanto riguarda i
  requisiti obbligatori, mentre la seconda parte sarà dedicata allo sviluppo
  dei requisiti opzionali.
- Le due parti sono leggermente sovrapposte poiché durante la codifica della
- prima parte si procederà alla progettazione della seconda.
  Si veda il diagramma di Gantt in Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2232,7 +2305,7 @@ preventivo finale
 \end_layout
 
 \begin_layout Standard
-L'intero progetto, dunque, avrà un costo finale preventivato di 
+L'intero progetto, dunque, avrà un costo preventivato di 
 \begin_inset ERT
 status open
 
