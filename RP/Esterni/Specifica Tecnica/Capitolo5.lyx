@@ -104,7 +104,7 @@ Presentation-Tier
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- questo componente costituisce la parte del sistema che definisce i metodi
+ Questo componente costituisce la parte del sistema che definisce i metodi
  grafici per l'accesso all'applicazione da parte degli utenti e le funzionalità
  disponibili per un 
 \bar under
@@ -118,7 +118,7 @@ Dipendente Autenticato
 \series bold
 Relazioni d'uso di altre componenti: 
 \series default
-questo componente è costituito dal package 
+Questo componente è costituito dal package 
 \series bold
 view
 \series default
@@ -126,7 +126,7 @@ view
 \end_layout
 
 \begin_layout Subsubsection
-Classe com.safetyGame.desktop.view.Notifica
+com.safetyGame.desktop.view.Notifica
 \end_layout
 
 \begin_layout Standard
@@ -137,7 +137,13 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-la classe realizza le notifiche che compariranno a video all'utente
+La classe Notifica realizza gli oggetti notifiche che compariranno a video
+ al 
+\bar under
+Dipendente Autenticato
+\bar default
+, le quali gli chiederanno conferma di accettazione o rifiuto per mostrargli
+ la domanda.
 \begin_inset Newline newline
 \end_inset
 
@@ -148,23 +154,43 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-possiede un riferimento verso le classi 
+La classe utilizza oggetti di tipo 
 \series bold
 ClientWeb
 \series default
- e 
+ per comunicare con il 
+\bar under
+Dipendente
+\bar default
+ via web nel caso di domanda accettata e oggetti di tipo 
 \series bold
 ClientBack
+\series default
+ per comunicare con il back-end per aggiornare il log del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-la classe 
+Viene richiamato dalla classe 
 \series bold
 Timer
 \series default
- ne possiede un riferimento e ne utilizza le funzionalità
+ e ne fornisce funzioni, richiama le funzioni di 
+\series bold
+ClientBack
+\series default
+ e 
+\series bold
+ClientWeb
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -175,13 +201,21 @@ Attività svolte e dati trattati:
 \emph on
  
 \emph default
-classe puramente grafica, svolge una funzione di presentazione
+Classe puramente grafica, svolge una funzione di presentazione del pop-up
+ che, quando riceve il segnale dalla classe Timer, notifica al 
+\bar under
+Dipendente Autenticato
+\bar default
+ la presenza di una nuova domanda a cui poter rispondere.
+ In seguito resta in attesa dell'input da dipendente sull'accettare la visualizz
+azione della domanda o sul posticiparla comunicando la relativa risposta
+ al ClientWeb e/o al ClientBack.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.view.Login
+com.safetyGame.desktop.view.Login
 \end_layout
 
 \begin_layout Standard
@@ -192,7 +226,12 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-la classe realizza la pagina di login per un utente
+La classe Login realizza l'oggetto login che serve a gestire il login del
+ 
+\bar under
+Dipendente
+\bar default
+ dalla piattaforma.
 \begin_inset Newline newline
 \end_inset
 
@@ -203,13 +242,31 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-possiede un riferimento verso la classe 
+La classe utilizza oggetti di tipo 
 \series bold
 ClientWeb
 \series default
- e uno verso la classe 
+ per comunicare al 
+\bar under
+Dipendente
+\bar default
+ i propri dati nel caso di login effettuato con successo e oggetti di tipo
+ 
 \series bold
 ClientBack
+\series default
+ per comunicare al back end, in caso di successo, di aggiornare il log di
+ quel 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, oppure richiedendo una password auto-generata casualmente.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -218,7 +275,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \emph on
  
 \emph default
-nessuna
+nessuna.
 \begin_inset Newline newline
 \end_inset
 
@@ -226,13 +283,39 @@ nessuna
 \series bold
 Attività svolte e dati trattati:
 \series default
- classe puramente grafica, svolge una funzione di presentazione
+ Classe puramente grafica, svolge una funzione di presentazione del modulo
+ di login, chiedendo username e password del 
+\bar under
+Dipendente
+\bar default
+.
+ L'oggetto login viene poi passato al 
+\series bold
+ClientBack
+\series default
+ stabilire se le credenziali sono valide, in caso affermativo richiama il
+ 
+\series bold
+ClientWeb
+\series default
+, in caso negativo ripropone la schermata di login standard.
+ Fornisce inoltre un modulo per la richiesta di generazione casuale della
+ password in caso che questa venga smarrita da parte del 
+\bar under
+Dipendente
+\bar default
+.
+ La richiesta passa direttamente al 
+\series bold
+ClientBack
+\series default
+ che la elabora e si rimette in attesa.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.view.Lanciatore
+com.safetyGame.desktop.view.Lanciatore
 \end_layout
 
 \begin_layout Standard
@@ -243,8 +326,12 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-la classe realizza il menu che consente all'utente di scegliere una funzionalità
- offerta dal sistema
+La classe Lanciatore realizza l'oggetto lanciatore che crea e gestisce il
+ menù che consente al 
+\bar under
+Dipendente Autenticato
+\bar default
+ di utilizzare le varie funzionalità offerta dal sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -255,13 +342,29 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-possiede un riferimento verso la classe 
+La classe utilizza oggetti di tipo 
 \series bold
 ClientWeb
 \series default
- e uno verso la classe 
+ per comunicare le azioni scelte dal 
+\bar under
+Dipendente Autenticato
+\bar default
+ e oggetti di tipo 
 \series bold
 ClientBack
+\series default
+ per comunicare al back end di aggiornare il log del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ con tutte le funzionalità richieste.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -270,7 +373,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \emph on
  
 \emph default
-nessuna
+nessuna.
 \begin_inset Newline newline
 \end_inset
 
@@ -281,7 +384,29 @@ Attività svolte e dati trattati:
 \emph on
  
 \emph default
-classe puramente grafica, svolge una funzione di presentazione
+Classe puramente grafica, svolge una funzione di presentazione del menù
+ (quando richiesto) che consente al 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ di utilizzare tutte le funzionalità messe a disposizione per lui.
+ Le richieste vengono mandate al 
+\series bold
+ClientWeb 
+\series default
+che le elabora e la notifica della richiesta viene mandata al 
+\series bold
+ClientBack 
+\series default
+che si preoccuperà principalmente di aggiornare il log del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -296,7 +421,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-questo componente si occupa di gestire le interazioni che l'utente effettua
+Questo componente si occupa di gestire le interazioni che l'utente effettua
  con il sistema attraverso la parte grafica.
  Tiene traccia dello storico personale di ogni utente ed invia dati al back-end
  per mantenere aggiornato lo stato del sistema.
@@ -307,7 +432,7 @@ questo componente si occupa di gestire le interazioni che l'utente effettua
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- il componente è costituito dal package 
+ Il componente è costituito dal package 
 \series bold
 logic 
 \series default
@@ -329,7 +454,7 @@ dati
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.logic.Timer
+com.safetyGame.desktop.logic.Timer
 \end_layout
 
 \begin_layout Standard
@@ -337,10 +462,16 @@ Classe com.safetyGame.desktop.logic.Timer
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-\emph on
- 
-\emph default
-la classe realizza un contatore con lo scopo di lanciare notifiche
+ La classe 
+\series bold
+Timer
+\series default
+ ha l'obiettivo di implementare un contatore temporizzato; al termine del
+ tempo istanzierà un oggetto della classe 
+\series bold
+Notifica
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -351,15 +482,23 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-possiede un riferimento verso la classe 
+La classe utilizza oggetti di tipo
 \series bold
-Notifica
+ Notifica 
+\series default
+per generare la notifica di una nuova domanda al 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna.
 \begin_inset Newline newline
 \end_inset
 
@@ -367,13 +506,19 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- specifici per ogni implementazione
+ Decrementerà un contatore con un certo ritardo, in modo da tenere traccia
+ del tempo trascorso dalla sua istanziazione.
+ Allo scadere del tempo, creerà un oggetto di tipo 
+\series bold
+Nofica
+\series default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.logic.ClientBack
+com.safetyGame.desktop.logic.ClientBack
 \end_layout
 
 \begin_layout Standard
@@ -381,11 +526,24 @@ Classe com.safetyGame.desktop.logic.ClientBack
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-\emph on
- 
-\emph default
-la classe realizza un oggetto con la funzione di comunicare con la parte
- back-end
+ La classe 
+\series bold
+ClientBack
+\series default
+, istanzia un oggetto con la funzione di comunicare con la parte back-end.
+ Contiene gli oggetti 
+\series bold
+Log
+\series default
+ e dati 
+\series bold
+Login
+\series default
+ utili per la comunicazione con il back-end e con la classe 
+\series bold
+ClientWeb
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -393,7 +551,45 @@ la classe realizza un oggetto con la funzione di comunicare con la parte
 \series bold
 Relazioni d'uso di altre componenti: 
 \series default
-nessuna
+La classe utilizza oggetti di tipo 
+\series bold
+Log
+\series default
+ e 
+\series bold
+Login
+\series default
+ per gestire le comunicazioni con i database e con il Presentation-Tier.
+ Scambia l'oggetto 
+\series bold
+Login
+\series default
+ con la classe 
+\series bold
+ClientWeb
+\series default
+.
+ Fornisce le funzioni per la gestione dell'oggetto 
+\series bold
+Log
+\series default
+ alle classi 
+\series bold
+Login
+\series default
+, 
+\series bold
+Lanciatore
+\series default
+, 
+\series bold
+Notifica
+\series default
+ e 
+\series bold
+ClientWeb
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -401,7 +597,8 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- ogni classe del Presentatio-Tier possiede un riferimento a questa classe
+ Ogni classe del Presentation-Tier possiede un riferimento a questa classe,
+ le cui istanze vengono utilizzate per la comunicazione con il database.
 \begin_inset Newline newline
 \end_inset
 
@@ -409,13 +606,34 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- specifici per ogni implementazione
+ Comunica al back-end gli oggetti di tipo 
+\series bold
+Log
+\series default
+ di ogni 
+\bar under
+Dipendente Autenticato
+\bar default
+ che verranno in seguito salvati e gli oggetti 
+\series bold
+Login
+\series default
+ che verranno in seguito controllati.
+ Ritorna il risultato del controllo degli oggetti di tipo 
+\series bold
+Login 
+\series default
+alla classe 
+\series bold
+ClientWeb
+\series default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.logic.ClientWeb
+com.safetyGame.desktop.logic.ClientWeb
 \end_layout
 
 \begin_layout Standard
@@ -423,19 +641,52 @@ Classe com.safetyGame.desktop.logic.ClientWeb
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-la classe realizza un oggetto con la funzione di comunicare con la parte
- web dell'applicazione
+La classe 
+\series bold
+ClientWeb
+\series default
+, istanzia un oggetto con la funzione di comunicare con la parte 
+\bar under
+web
+\bar default
+ dell'applicazione.
+ Contiene gli oggetti 
+\series bold
+Login
+\series default
+ utili per la comunicazione con la classe 
+\series bold
+ClientBack
+\series default
+ e con il Presentation-Tier.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-
-\series bold
 Relazioni d'uso di altre componenti:
 \series default
 \emph on
  
 \emph default
-nessuna
+La classe utilizza oggetti di tipo 
+\series bold
+Login
+\series default
+ per gestire le comunicazioni con il Presentation-Tier e con la classe 
+\series bold
+ClientBack
+\series default
+.
+ Scambia l'oggetto 
+\series bold
+Login
+\series default
+ con la classe 
+\series bold
+ClientBack
+\series default
+ e con il Presentation-Tier.
 \begin_inset Newline newline
 \end_inset
 
@@ -443,7 +694,17 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- ogni classe del Presentation-Tier possiede un riferimento a questa classe
+ Ogni classe del Presentation-Tier possiede un riferimento a questa classe,
+ le cui istanze vengono utilizzate per la comunicazione dell'identità del
+ 
+\bar under
+Dipendente
+\bar default
+ e/o del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -454,13 +715,35 @@ Attività svolte e dati trattati:
  
 \series default
 \emph default
-specifici per ogni implementazione
+Comunica alla classe 
+\series bold
+ClientBack
+\series default
+ l'oggeto di tipo 
+\series bold
+Login
+\series default
+ per l'autenticazione del 
+\bar under
+Dipendente
+\bar default
+.
+ Lo stesso oggetto viene poi utilizzato per gestire l'accessibilità delle
+ funzioni del 
+\bar under
+Dipendente Autenticato
+\bar default
+ tra la classe 
+\series bold
+ClientBack
+\series default
+ e il Presentation-Layer.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.dati.DatiLogin
+com.safetyGame.desktop.dati.DatiLogin
 \end_layout
 
 \begin_layout Standard
@@ -471,8 +754,19 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-la classe realizza un oggetto che rappresenta le credenziali con cui un
- utente ha effettuato il login
+La classe 
+\series bold
+DatiLogin
+\series default
+ istanzia un oggetto che rappresenta le credenziali con cui un 
+\bar under
+Dipendente Autenticato
+\bar default
+ ha effettuato il 
+\series bold
+Login
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -480,15 +774,36 @@ la classe realizza un oggetto che rappresenta le credenziali con cui un
 \series bold
 Relazioni d'uso di altre componenti: 
 \series default
-nessuna
+Nessuna.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Interfacce con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
- nessuna
+La classe 
+\series bold
+DatiLogin
+\series default
+ viene utilizzata come contenitore dei dati del login del 
+\bar under
+Dipendente
+\bar default
+.
+ La classe viene utilizzata dalle classi 
+\series bold
+Login
+\series default
+ e 
+\series bold
+ClientBack
+\series default
+ e 
+\series bold
+ClientWeb
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -496,13 +811,17 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- specifici per ogni implementazione
+ L'oggetto istanziato dalla classe conterrà le credenziali del 
+\series bold
+Login
+\series default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.desktop.dati.Log
+com.safetyGame.desktop.dati.Log
 \end_layout
 
 \begin_layout Standard
@@ -513,8 +832,16 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-la classe realizza un oggetto con l'intento di tenere traccia della storia
- degli accessi e delle operazioni compiute da ogni utente
+La classe 
+\series bold
+Log
+\series default
+ istanzia un oggetto che rappresenta il tracciamento di tutte le azioni
+ effettuate da un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -525,18 +852,38 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\emph on
- 
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-\emph default
-nessuna
+La classe 
+\series bold
+Log
+\series default
+ viene utilizzata come contenitore di dati del tracciamento di tutte le
+ azioni del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ La classe viene utilizzata da tutte le classi del Presentation-Tier e dalle
+ classi 
+\series bold
+ClientBack
+\series default
+ e 
+\series bold
+ClientWeb
+\series default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -547,7 +894,12 @@ Attività svolte e dati trattati:
  
 \series default
 \emph default
-specifici per ogni implementazione
+L'oggetto istanziato della classe conterrà il tracciamento delle operazioni
+ effettuate da un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
 \end_layout
 
 \end_body
