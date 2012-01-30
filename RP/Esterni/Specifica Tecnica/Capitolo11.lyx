@@ -150,8 +150,8 @@ hline
 
 RFOB 4 & Un 
 \backslash
-uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà modificarla & & & 
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla & & & 
 \backslash
 
 \backslash
@@ -164,9 +164,9 @@ hline
 
 RFOB 4.1 & Un 
 \backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
-mente & & & 
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema & & & 
 \backslash
 
 \backslash
@@ -805,8 +805,8 @@ hline
 
 RFOB 4 & Un 
 \backslash
-uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà modificarla & & & 
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla & & & 
 \backslash
 
 \backslash
@@ -819,9 +819,9 @@ hline
 
 RFOB 4.1 & Un 
 \backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
-mente & & & 
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema & & & 
 \backslash
 
 \backslash
@@ -1236,8 +1236,8 @@ hline
 
 RFOB 4 & Un 
 \backslash
-uline{Utente} che ha smarrito la propria password per accedere al sistema
- potrà modificarla & & & 
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla & & & 
 \backslash
 
 \backslash
@@ -1250,9 +1250,9 @@ hline
 
 RFOB 4.1 & Un 
 \backslash
-uline{Utente} che ha smarrito la password ed ha eseguito la procedura di
- modifica, ne riceverà nella casella di posta, una nuova auto generata randomica
-mente & & & 
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema & & & 
 \backslash
 
 \backslash
@@ -1463,308 +1463,6 @@ RQOB 2.4 & Sarà fornito un manuale ad uso
 \backslash
 uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
  & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-end{longtable}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Ambito Amministratore Installatore
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
-\end_layout
-
-\begin_layout Plain Layout
-
-		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 1 & Il sistema dovrà lavorare in rete & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 3 & Tutte le azioni di tutti gli 
-\backslash
-uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
- & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 31 & Un 
-\backslash
-uline{Amministratore Installatore} potrà installare il software sui 
-\backslash
-uline{dispositivi fissi} in un'azienda & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 32 & Un 
-\backslash
-uline{Amministratore Installatore} potrà installare il software sui 
-\backslash
-uline{dispositivi mobili} in un'azienda & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 33 & Un 
-\backslash
-uline{Amministratore Installatore} avrà la possibilità di creare il sito
- web interno dell'azienda per far funzionare il sistema & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 34 & Un 
-\backslash
-uline{Amministratore Installatore} avrà la possibilità di creare il dabase
- dell'azienda per far funzionare il sistema & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOP 35 & Un 
-\backslash
-uline{Amministratore Installatore} potrà aggiungere, modificare o cancellare
- una domanda dal database centrale delle domande tramite semplice interfaccia
- & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
- posizione del server generale delle domande & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RQOB 1 & Sarà fornita documentazione esaustiva di tutte le classi chiave
- ed interfacce del prodotto & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
- l'installazione e l'utilizzo del sistema & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RQOB 2.3 & Sarà fornito un manuale ad uso 
-\backslash
-uline{Amministratore Installatore} riguardo alle azioni che potrà compiere
- & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 1.1 & Il sistema dovrà essere multipiattaforma (per quanto riguarda
- i 
-\backslash
-uline{dispositivi fissi}) & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 1.1.1 & Il sistema funzionerà su qualsiasi dispositivo dove è presente
- una 
-\backslash
-uline{JVM}  versione >= 7.02 & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi 
-\backslash
-uline{dispositivo mobile} con sistema operativo & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 2 & Non si dovranno fare assunzioni sulla locazione dei database delle
- aziende & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 3 & Le funzioni del sistema offerte al 
-\backslash
-uline{Dipendente} dovranno essere fruibili tramite interfaccia & & & 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOP 4 & L'inserimento delle domande all'interno del sistema dovrà essere
- particolarmente 
-\backslash
-emph{user-friendly} così da non richiedere conoscenze specifiche & & & 
 \backslash
 
 \backslash
