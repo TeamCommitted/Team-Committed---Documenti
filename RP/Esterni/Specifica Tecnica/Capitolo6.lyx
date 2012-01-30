@@ -100,7 +100,7 @@ Front-end Web
 \end_layout
 
 \begin_layout Subsection
-Package com.safetyGame.web
+Livello View
 \end_layout
 
 \begin_layout Standard
@@ -108,8 +108,8 @@ Package com.safetyGame.web
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- questo package costituisce la parte del sistema che definisce l'interfaccia
- web del sistema con gli utenti.
+ questo componente costituisce la parte del sistema che definisce ed implementa
+ l'interfaccia web usurfruibile dagli utenti.
  
 \begin_inset Newline newline
 \end_inset
@@ -118,84 +118,25 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il package è stato progettato su tre livelli ed è composto da quattro sotto-pac
-kage, 
+ il componente è costituito dal package 
 \series bold
 view
 \series default
-, 
+, e comunica con il livello 
 \series bold
-control
+Model
 \series default
-, 
-\series bold
-model
-\series default
-, 
-\series bold
-condivisi
-\series default
-.
+ per rendere possibile la memorizzazione delle informazioni immesse nel
+ sistema dagli utneti attraverso l'interfaccia web.
 \end_layout
 
 \begin_layout Subsubsection
-Package com.safetyGame.web.view
+
+\series bold
+Interfaccia com.safetyGame.web.view.Dipendente
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\emph on
- 
-\series default
-\emph default
-questo package raccoglie le interfacce e le rispettive classi che le implementan
-o, che rappresentano i tre tipi di utenti che possono avere accesso al sistema.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- Il package utilizza il package 
-\series bold
-control
-\series default
-, per il controllo delle informazioni che un uente immette nel sistema via
- grafica, ed il livello 
-\series bold
-Model-Tier
-\series default
- per la memorizzazione di tali informazioni.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti:
-\emph on
- 
-\series default
-\emph default
-il package è utilizzato da 
-\series bold
-control
-\series default
-.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Interfaccia Dipendente
-\series default
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -210,9 +151,9 @@ attraverso questa interfaccia vengono create le pagine web per i Dipendenti
 Dipendente
 \bar default
  che saranno successivamente implementati
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Relazioni d'uso di altre componenti:
@@ -221,9 +162,9 @@ Relazioni d'uso di altre componenti:
  
 \emph default
 nessuna
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
 
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
@@ -231,17 +172,14 @@ Interfacce con e relazioni d'uso da altre componenti:
  l'interfaccia verrà implementata dalla classe 
 \series bold
 DipendenteImpl
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Itemize
-
-\series bold
 Attività svolte e dati trattati:
 \series default
  differenti per ogni implementazione
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 
 \series bold
