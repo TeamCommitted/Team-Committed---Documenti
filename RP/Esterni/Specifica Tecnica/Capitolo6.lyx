@@ -209,7 +209,7 @@ attraverso questa interfaccia vengono create le pagine web per i Dipendenti
 \bar under
 Dipendente
 \bar default
- che saranno successivamente implementati.
+ che saranno successivamente implementati
 \end_layout
 
 \begin_layout Itemize
@@ -220,7 +220,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna.
+nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -231,8 +231,6 @@ Interfacce con e relazioni d'uso da altre componenti:
  l'interfaccia verrà implementata dalla classe 
 \series bold
 DipendenteImpl
-\series default
-.
 \end_layout
 
 \begin_layout Itemize
@@ -240,7 +238,7 @@ DipendenteImpl
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione.
+ differenti per ogni implementazione
 \end_layout
 
 \end_deeper
@@ -265,8 +263,7 @@ attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Azienda
 \bar default
- che accede al sistema.
- 
+ che accede al sistema
 \end_layout
 
 \begin_layout Itemize
@@ -277,7 +274,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna.
+nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -288,8 +285,6 @@ Interfacce con e relazioni d'uso da altre componenti:
  l'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreAziendaImpl
-\series default
-.
 \end_layout
 
 \begin_layout Itemize
@@ -297,7 +292,7 @@ AmministratoreAziendaImpl
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione.
+ differenti per ogni implementazione
 \end_layout
 
 \end_deeper
@@ -322,8 +317,7 @@ attraverso questa interfaccia vengono create le pagine web per l'
 \bar under
 Amministratore Sicurezza
 \bar default
- che accede al sistema.
- 
+ che accede al sistema
 \end_layout
 
 \begin_layout Itemize
@@ -334,7 +328,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna.
+nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -345,8 +339,6 @@ Interfacce con e relazioni d'uso da altre componenti:
  l'interfaccia verrà implementata dalla classe 
 \series bold
 AmministratoreSicurezzaImpl
-\series default
-.
 \end_layout
 
 \begin_layout Itemize
@@ -354,7 +346,7 @@ AmministratoreSicurezzaImpl
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione.
+ differenti per ogni implementazione
 \end_layout
 
 \end_deeper
@@ -394,7 +386,7 @@ contiene un riferimento verso l'interfaccia
 \series bold
 Dipendente
 \series default
- per invocarne i metodi.
+ per invocarne i metodi
 \end_layout
 
 \begin_layout Itemize
@@ -402,7 +394,7 @@ Dipendente
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna.
+ nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -413,8 +405,6 @@ Attività svolte e dati trattati:
  per via grafica rende possibile l'interazione fra sistema e i 
 \bar under
 Dipendenti
-\bar default
-.
 \end_layout
 
 \end_deeper
@@ -454,7 +444,7 @@ contiene un riferimento verso l'interfaccia
 \series bold
 AmministratoreAzienda
 \series default
- per invocarne i metodi.
+ per invocarne i metodi
 \end_layout
 
 \begin_layout Itemize
@@ -462,7 +452,7 @@ AmministratoreAzienda
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna.
+ nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -475,7 +465,7 @@ Attività svolte e dati trattati:
  
 \series default
 \bar under
-Amministratori Azienda.
+Amministratori Azienda
 \end_layout
 
 \end_deeper
@@ -515,7 +505,7 @@ contiene un riferimento verso l'interfaccia
 \series bold
 AmministratoreAzienda
 \series default
- per invocarne i metodi.
+ per invocarne i metodi
 \end_layout
 
 \begin_layout Itemize
@@ -523,7 +513,7 @@ AmministratoreAzienda
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna.
+ nessuna
 \end_layout
 
 \begin_layout Itemize
@@ -536,7 +526,7 @@ Attività svolte e dati trattati:
  
 \series default
 \bar under
-Amministratori Azienda.
+Amministratori Azienda
 \end_layout
 
 \end_deeper
