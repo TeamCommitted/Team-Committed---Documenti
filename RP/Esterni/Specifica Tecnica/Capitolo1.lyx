@@ -73,8 +73,20 @@ Il presente documento ha lo scopo di definire e mostrare le scelte progettuali,
  ad alto livello, che il gruppo 
 \series bold
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+
 \backslash
 TeamCommitted
+\end_layout
+
+\end_inset
+
+
 \series default
  ha deciso di rispettare per la realizzazione del prodotto.
  Al suo interno verranno presentati i vari 
