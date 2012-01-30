@@ -660,7 +660,7 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsection
-Livello Model
+Model
 \end_layout
 
 \begin_layout Standard
@@ -698,7 +698,7 @@ model
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- il package è utilizzato da 
+ Il package è utilizzato da 
 \series bold
 control
 \series default
@@ -708,7 +708,7 @@ control
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.model.ClientBackEnd
+com.safetyGame.web.model.ClientBackEnd
 \end_layout
 
 \begin_layout Standard
@@ -719,7 +719,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
+Si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
  richieste al Presentation-Tier della parte back-end
 \begin_inset Newline newline
 \end_inset
@@ -731,7 +731,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-nessuna
+Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -739,7 +739,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- viene richiamata da ogni altra classe, del package in cui risiede, a seconda
+ Viene richiamata da ogni altra classe, del package in cui risiede, a seconda
  del tipo di richiesta che deve essere effettuata
 \begin_inset Newline newline
 \end_inset
@@ -748,13 +748,13 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.model.ModelXXX
+com.safetyGame.web.model.ModelXXX
 \end_layout
 
 \begin_layout Standard
@@ -762,7 +762,7 @@ Classe com.safetyGame.web.model.ModelXXX
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
  
 \bar under
 Dipendenti
@@ -774,7 +774,7 @@ Dipendenti
 \bar default
 Relazioni d'uso di altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -782,7 +782,7 @@ Relazioni d'uso di altre componenti:
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -790,13 +790,13 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classe com.safetyGame.web.condivisi.XXX
+com.safetyGame.web.condivisi.XXX
 \end_layout
 
 \begin_layout Standard
@@ -804,7 +804,7 @@ Classe com.safetyGame.web.condivisi.XXX
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-rappresenta un tipo di informazione XXX presente nel sistema riferito ai
+Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
  
 \bar under
 Dipendenti 
@@ -817,7 +817,7 @@ condiviso fra i vari package
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -825,7 +825,7 @@ Relazioni d'uso di altre componenti:
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- nessuna
+ Nessuna
 \begin_inset Newline newline
 \end_inset
 
@@ -833,7 +833,7 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- differenti per ogni implementazione
+ Differenti per ogni implementazione
 \end_layout
 
 \end_body
