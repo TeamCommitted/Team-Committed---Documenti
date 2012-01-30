@@ -156,5 +156,29 @@ La classe riceve richieste di autenticazione tramite la ricezione di oggetti
 com.safetyGame.back.ControllerDomanda
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDomanda viene utilizzata per gestire richieste di visualizza
+zione di domande da parte dei componenti Front-end.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\end_layout
+
 \end_body
 \end_document
