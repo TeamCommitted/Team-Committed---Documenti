@@ -545,7 +545,7 @@ Interfacce con e relazioni d’uso da altre componenti:
 \begin_layout Subsubsection
 
 \series bold
-Classi com.safetyGame.android.control.*
+com.safetyGame.android.control.*
 \end_layout
 
 \begin_layout Standard
@@ -562,7 +562,7 @@ Le classi ControllerLogin, ControllerPunteggi, ControllerDomande, ControllerDati
 
 Relazioni d’uso di altre componenti:
 \series default
- del componente Model utilizzano rispettivamente ModelLogin, ModelPunteggi,
+ Del componente Model utilizzano rispettivamente ModelLogin, ModelPunteggi,
  ModelDomande, ModelDati e ModelRecupero; del componente View può utilizzare
  rispettivamente ControllerLogin, ControllerPunteggi, ControlelrDomande,
  ControllerDati e ControllerRecupero.
@@ -584,7 +584,7 @@ viene utilizzato dalle rispettive classi dal componente View.
 
 Attività svolte e dati trattati:
 \series default
- le classi del componente View chiamano le classi del Controller, le quali
+ Le classi del componente View chiamano le classi del Controller, le quali
  gestiranno e controlleranno i dati in input, in seguito chiameranno i giusti
  metodi del componente Model.
 \end_layout
@@ -598,7 +598,7 @@ Componente Model
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-contiene le classi che comunicano con le API del server, ne ricevono i dati
+Contiene le classi che comunicano con le API del server, ne ricevono i dati
  e li gestiscono.
 \emph on
 
@@ -613,7 +613,7 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza il Presentation Tier del Backend e notifica al componente View
+Utilizza il Presentation Tier del Backend e notifica al componente View
  che i dati sono pronti.
 \emph on
 
@@ -628,7 +628,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è utilizzato dal componente Controller.
+È utilizzato dal componente Controller.
 \emph on
 
 \begin_inset Newline newline
@@ -639,7 +639,7 @@ Interfacce con e relazioni d’uso da altre componenti:
 \emph default
 Attività svolte e dati trattati:
 \series default
- invia delle richieste HTTP al server, il quale gli risponderà inviando
+ Invia delle richieste HTTP al server, il quale gli risponderà inviando
  i dati richiesti attraverso un XML, in seguito ne estrapolerà i dati e
  li renderà disponibili alla view.
 \end_layout
@@ -647,7 +647,7 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
-Classi com.safetyGame.android.model.*
+com.safetyGame.android.model.*
 \end_layout
 
 \begin_layout Standard
@@ -664,7 +664,7 @@ Le classi ModelLogin, ModelPunteggi, ModelDomande, ModelDati e ModelRecupero
 
 Relazioni d’uso di altre componenti:
 \series default
- del componente View utilizzano rispettivamente LoginActivity, PunteggiActivity,
+ Del componente View utilizzano rispettivamente LoginActivity, PunteggiActivity,
  DomandeActivity, DatiActivity e RecuperoPasswordActivity.
 \series bold
 
@@ -676,7 +676,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-viene utilizzato dalle rispettive classi dal componente View e Controller.
+Viene utilizzato dalle rispettive classi dal componente View e Controller.
 \series bold
 
 \begin_inset Newline newline
@@ -684,7 +684,7 @@ viene utilizzato dalle rispettive classi dal componente View e Controller.
 
 Attività svolte e dati trattati:
 \series default
- le classi del componente Controller chiamano le classi del Model, le quali
+ Le classi del componente Controller chiamano le classi del Model, le quali
  effettueranno le richieste HTTP al server e crearanno gli oggetti delle
  classi relative, in seguito notificheranno le relative classi del componente
  View.
@@ -721,7 +721,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-viene utilizzato dai rispettivi Model.
+Viene utilizzato dai rispettivi Model.
 \series bold
 
 \begin_inset Newline newline
@@ -729,7 +729,7 @@ viene utilizzato dai rispettivi Model.
 
 Attività svolte e dati trattati:
 \series default
- rappresentano gli oggetti utilizzati.
+ Rappresentano gli oggetti utilizzati.
 \end_layout
 
 \end_body
