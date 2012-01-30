@@ -64,9 +64,30 @@ Front-end Mobile
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename img/frontEndMobile.png
 	scale 45
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Mobile
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -155,8 +176,11 @@ Activity che permette di effettuare il login.
 Relazioni d’uso di altre componenti: 
 \series default
 utilizza com.safetygame.controller.ControllerLogin e com.safetygame.model.ModelLogin,
- inoltre chiama le classi com.safetygame.view.DashboardActivity e com.safetygame.view.
-RecuperoPasswordActivity
+ inoltre chiama le classi 
+\begin_inset Newline newline
+\end_inset
+
+com.safetygame.view.DashboardActivity e com.safetygame.view.RecuperoPasswordActivity
 \end_layout
 
 \begin_layout Itemize
