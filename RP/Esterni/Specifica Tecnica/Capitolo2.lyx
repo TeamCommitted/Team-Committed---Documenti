@@ -184,15 +184,8 @@ Contesto applicativo:
 \series bold
 ThreeTier:
 \series default
- questo design pattern verrà utilizzato come struttura portante del Back-end
- e del Front-end web, in cui:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Back-end
+ questo design pattern verrà utilizzato come struttura portante del Back-end,
+ in cui:
 \end_layout
 
 \begin_deeper
@@ -223,44 +216,6 @@ Data-tier
  da essa dei dati necessarie per eseguire le computazioni richieste
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\series bold
-Front-end web
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-
-\emph on
-Presentation-tier 
-\emph default
-offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
- le richieste dell'utente alle corrette operazioni
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Logic-tier
-\emph default
- si occuperà di eseguire i vari calcoli necessari all'elaborazione della
- risposta da fornire i dati all'utente
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Data-tier
-\emph default
- si occuperà di spedire le richieste, formattate in maniera opportuna, al
- 
-\emph on
-back-end
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 
@@ -397,7 +352,11 @@ Contesto applicativo:
 \bar under
 front-end Android
 \bar default
-, per dotarlo di una struttura ben organizzata e manutenibile.
+ ed il 
+\bar under
+front-end web
+\bar default
+, per dotarli di una struttura ben organizzata e manutenibile.
  Questa scelta risulta particolarmente importante in un contesto di sviluppo
  come quello di 
 \bar under
@@ -418,8 +377,8 @@ A questo scopo sono stati identificati i componenti:
 \series bold
 Model
 \series default
- rappresenta l'interfaccia con cui l'applicativo mobile interagirà con il
- Back-end tramite richieste HTTP e riceverà informazioni con XML
+ rappresenta l'interfaccia con cui l'applicativo interagirà con il Back-end
+ tramite richieste HTTP e riceverà informazioni con XML
 \end_layout
 
 \begin_layout Enumerate
@@ -441,8 +400,15 @@ Controller
 \end_layout
 
 \begin_layout Standard
-L'architettura MVC dell'applicativo Android è stata pensata per utilizzare
- un aggiornamento di tipo 
+L'architettura MVC dei 
+\bar under
+front-end Android 
+\bar default
+e 
+\bar under
+web
+\bar default
+ è stata pensata per utilizzare un aggiornamento di tipo 
 \emph on
 pull
 \emph default
@@ -454,5 +420,67 @@ pull
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Pattern DAO
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione: 
+\series default
+tale 
+\bar under
+design pattern 
+\bar default
+permette un semplice e trasparente modo per interfacciarsi con una base
+ di dati
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ l'utilizzo di tale 
+\bar under
+design pattern
+\bar default
+ minimizza le modifiche da apportare all'applicazione nel caso venga modificato
+ il meccanismo di persistenza dei dati o la base di dati stessa.
+ Nonostante la probabilità che la base di dati subirà pesanti modifiche
+ strutturali sia molto bassa, rimane la possibilità che il meccanismo stesso
+ di persistenza possa subire modifiche: per questo motivo l'utilizzo di
+ tale 
+\bar under
+design pattern
+\bar default
+ è garanzia di buona portabilità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ questo 
+\bar under
+design pattern
+\bar default
+ verrà utilizzato nei livelli 
+\emph on
+Model 
+\emph default
+e 
+\emph on
+Model-Tier
+\emph default
+ come astrazione per il meccanismo di persistenza dei dati
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document

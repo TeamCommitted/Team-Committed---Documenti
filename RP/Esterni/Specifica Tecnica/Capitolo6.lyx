@@ -186,6 +186,350 @@ control
 .
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Interfaccia Dipendente
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+attraverso questa interfaccia vengono create le pagine web per i Dipendenti
+ che utilizzano il sistema.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Dipendente
+\bar default
+ che saranno successivamente implementati
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ l'interfaccia verrà implementata dalla classe 
+\series bold
+DipendenteImpl
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Interfaccia AmministratoreAzienda
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+attraverso questa interfaccia vengono create le pagine web per l'
+\bar under
+Amministratore Azienda
+\bar default
+ che accede al sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ l'interfaccia verrà implementata dalla classe 
+\series bold
+AmministratoreAziendaImpl
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Interfaccia AmministratoreSicurezza
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+attraverso questa interfaccia vengono create le pagine web per l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ che accede al sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ l'interfaccia verrà implementata dalla classe 
+\series bold
+AmministratoreSicurezzaImpl
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ differenti per ogni implementazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe DipendenteImpl
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+implementa l'interfaccia 
+\series bold
+Dipendente
+\series default
+ definendone i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+contiene un riferimento verso l'interfaccia 
+\series bold
+Dipendente
+\series default
+ per invocarne i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ per via grafica rende possibile l'interazione fra sistema e i 
+\bar under
+Dipendenti
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe AmministratoreAziendaImpl
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+implementa l'interfaccia 
+\series bold
+AmministratoreAzienda
+\series default
+ definendone i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+contiene un riferimento verso l'interfaccia 
+\series bold
+AmministratoreAzienda
+\series default
+ per invocarne i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ per via grafica rende possibile l'interazione fra sistema e i vari
+\series bold
+ 
+\series default
+\bar under
+Amministratori Azienda
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Classe AmministratoreSicurezzaImpl
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+implementa l'interfaccia 
+\series bold
+AmministratoreSicurezza
+\series default
+ definendone i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+contiene un riferimento verso l'interfaccia 
+\series bold
+AmministratoreAzienda
+\series default
+ per invocarne i metodi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ nessuna
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ per via grafica rende possibile l'interazione fra sistema e i vari
+\series bold
+ 
+\series default
+\bar under
+Amministratori Azienda
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Package com.safetyGame.web.control
 \end_layout

@@ -141,6 +141,29 @@ hline
 
 \begin_layout Plain Layout
 
+	
+\backslash
+emph{Approvato.} & Giorgio Maggiolo & 201/01/23 & V2.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Verificato.
+ In attesa di approvazione} & Gabriele Facchin & 2012/01/21 &V1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -148,7 +171,7 @@ hline
 
 \backslash
 emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo} & Lorenzo
- Braghetto & 26/01/2012 & V1.5 
+ Braghetto & 2012/01/19 & V1.5 
 \backslash
 
 \backslash
@@ -166,7 +189,7 @@ hline
 
 \backslash
 emph{Inserito capitolo 2.5.3: Strategie per la verifica} & Giacomo Quadrio
- & 21/01/2012 & V1.4 
+ & 2012/01/18 & V1.4 
 \backslash
 
 \backslash
@@ -183,7 +206,7 @@ hline
 
 
 \backslash
-emph{Ampliate tecniche inspection del codice} & Giacomo Quadrio & 20/01/2012
+emph{Ampliate tecniche inspection del codice} & Giacomo Quadrio & 2012/01/17
  & V1.3 
 \backslash
 
@@ -201,8 +224,8 @@ hline
 
 
 \backslash
-emph{Ampliate tecniche inspection dei documenti} & Lorenzo Braghetto & 19/01/201
-2 & V1.2 
+emph{Ampliate tecniche inspection dei documenti} & Lorenzo Braghetto & 2012/01/1
+7 & V1.2 
 \backslash
 
 \backslash
@@ -219,7 +242,7 @@ hline
 
 
 \backslash
-emph{Ampliato e corretto capitolo 5.1} & Giacomo Quadrio & 18/01/2012 & V1.1
+emph{Ampliato e corretto capitolo 5.1} & Giacomo Quadrio & 2012/01/16 & V1.1
  
 \backslash
 
@@ -237,7 +260,7 @@ hline
 
 		
 \backslash
-emph{Approvato.} & Giorgio Maggiolo & 16/12/2011 & V1.0 
+emph{Approvato.} & Giorgio Maggiolo & 2011/12/16 & V1.0 
 \backslash
 
 \backslash
@@ -253,7 +276,7 @@ hline
 emph{Piccole modifiche, adeguato alle Norme di Progetto.
  Revisione completata.} & Massimo Dalla Piet
 \backslash
-'a & 16/12/2011 & V0.11 
+'a & 2011/12/16 & V0.11 
 \backslash
 
 \backslash
@@ -269,7 +292,7 @@ hline
 emph{Completato "Resoconto attività di verifica" capitolo 5} & Massimo Dalla
  Piet
 \backslash
-'a & 15/12/2011 & V0.10 
+'a & 2011/12/15 & V0.10 
 \backslash
 
 \backslash
@@ -294,7 +317,7 @@ hline
 emph{Completato "Gestione amministrativa della revisione" capitolo 4} &
  Massimo Dalla Piet
 \backslash
-'a & 14/12/2011 & V0.9 
+'a & 2011/12/14 & V0.9 
 \backslash
 
 \backslash
@@ -317,7 +340,7 @@ hline
 
 \backslash
 emph{Completato "Obbiettivi di qualità" capitolo 3} & Gabriele Facchin &
- 14/12/2011 & V0.8 
+ 2011/12/14 & V0.8 
 \backslash
 
 \backslash
@@ -340,7 +363,7 @@ hline
 
 \backslash
 emph{Completato "Obbiettivi di qualità" capitolo 3, sottocapitolo 3.1} &
- Gabriele Facchin & 13/12/2011 & V0.7 
+ Gabriele Facchin & 2011/12/13 & V0.7 
 \backslash
 
 \backslash
@@ -363,7 +386,7 @@ hline
 
 \backslash
 emph{Completato "Visione generale delle stretegie di verifica" capitolo
- 2} & Gabriele Facchin & 13/12/2011 & V0.6 
+ 2} & Gabriele Facchin & 2011/12/13 & V0.6 
 \backslash
 
 \backslash
@@ -382,7 +405,7 @@ hline
 		
 \backslash
 emph{Completato "Strumenti e Tecniche" capitolo 2 sottocapitolo 2.5} & Lorenzo
- Braghetto & 12/12/2011 & V0.5 
+ Braghetto & 2011/12/12 & V0.5 
 \backslash
 
 \backslash
@@ -396,7 +419,7 @@ hline
 		
 \backslash
 emph{Completato "Organizzazione" capitolo 2 sottocapitolo 2.1} & Giacomo
- Quadrio & 10/12/2011 & V0.4 
+ Quadrio & 2011/12/10 & V0.4 
 \backslash
 
 \backslash
@@ -410,7 +433,7 @@ hline
 		
 \backslash
 emph{Completato "Risorse" capitolo 2 sottocapitolo 2.4} & Lorenzo Braghetto
- & 10/12/2011 & V0.4 
+ & 2011/12/10 & V0.4 
 \backslash
 
 \backslash
@@ -424,7 +447,7 @@ hline
 		
 \backslash
 emph{Iniziata stesura "Gestione amministrativa della revisione" capitolo
- 4} & Lorenzo Braghetto & 09/12/2011 & V0.3 
+ 4} & Lorenzo Braghetto & 2011/12/09 & V0.3 
 \backslash
 
 \backslash
@@ -438,7 +461,7 @@ hline
 		
 \backslash
 emph{Inizio stesura "Visione generale delle strategie di verifica" capitolo
- 2} & Giacomo Quadrio & 09/12/2011 & V0.2 
+ 2} & Giacomo Quadrio & 2011/12/09 & V0.2 
 \backslash
 
 \backslash
@@ -453,7 +476,7 @@ hline
 \backslash
 emph{Inizio creazione del documento.
  Creato lo schema base e completata stesura "Introduzione" capitolo 1} &
- Quadrio Giacomo & 09/12/2011 & V0.1 
+ Quadrio Giacomo & 2011/12/09 & V0.1 
 \backslash
 
 \backslash

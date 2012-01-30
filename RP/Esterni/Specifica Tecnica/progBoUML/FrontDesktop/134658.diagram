@@ -1,0 +1,95 @@
+format 74
+
+note 128002 "Presentation-Tier"
+  color white  xyzwh 8.2 24.7 2000 504 204
+note 128130 "Logic-Tier"
+  color white  xyzwh 9.2 321.2 2000 494 477
+packagecanvas 128258 
+  package_ref 134530 // com::safetyGame::desktop::view
+  name_in_tab yes color blue  xyzwh 20.2 70.6 2005 463 136
+end
+packagecanvas 128386 
+  package_ref 134658 // com::safetyGame::desktop::logic
+  name_in_tab yes color green  xyzwh 18.6 350.2 2005 463 170
+end
+packagecanvas 128514 
+  package_ref 134786 // com::safetyGame::desktop::dati
+  name_in_tab yes color green  xyzwh 18.2 603.8 2005 450 97
+end
+classcanvas 128642 class_ref 134530 // Lanciatore
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 349.6 117.9 2010
+end
+classcanvas 128770 class_ref 134658 // Notifica
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 40.2 117.1 2010
+end
+classcanvas 128898 class_ref 134786 // Login
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 193.4 118 2010
+end
+classcanvas 129026 class_ref 134914 // Timer
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 46.9 411.1 2010
+end
+classcanvas 129410 class_ref 135042 // ClientWeb
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 349.6 412.8 2010
+end
+classcanvas 129538 class_ref 135170 // ClientBack
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 185.6 412 2010
+end
+classcanvas 129794 class_ref 135298 // DatiLogin
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 42.3 636.6 2010
+end
+classcanvas 129922 class_ref 135426 // Log
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 213.2 637.8 2010
+end
+note 130050 "logic crea oggetti del package dati per inviare dati al back-end"
+  color lightyellow  xyzwh 234.8 538.1 2010 227 53
+simplerelationcanvas 129154 simplerelation_ref 134530
+  decenter_begin 284
+  decenter_end 296
+  from ref 128386 z 2006 to ref 128514
+end
+relationcanvas 130306 relation_ref 134530 // <dependency>
+  from ref 128642 z 2011 stereotype "<<call>>" xyz 391 260 3000 to ref 129410
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130434 relation_ref 134658 // <dependency>
+  from ref 128898 z 2011 stereotype "<<call>>" xyz 160 205 3000 to ref 129410
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130562 relation_ref 134786 // <dependency>
+  from ref 128898 z 2011 stereotype "<<call>>" xyz 220 257 3000 to ref 129538
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130690 relation_ref 134914 // <dependency>
+  from ref 128770 z 2011 stereotype "<<call>>" xyz 146 272 3000 to ref 129538
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130818 relation_ref 135042 // <dependency>
+  from ref 129026 z 2011 stereotype "<<call>>" xyz 69 290 3000 to ref 128770
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130946 relation_ref 135170 // <dependency>
+  from ref 128642 z 2011 stereotype "<<call>>" xyz 320 248 3000 to ref 129538
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131074 relation_ref 135298 // <dependency>
+  from ref 128770 z 2011 stereotype "<<call>>" xyz 248 172 3000 to ref 129410
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 130178 -_-_
+  from ref 129154 z 2011 to ref 130050
+end

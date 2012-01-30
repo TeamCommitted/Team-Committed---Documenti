@@ -129,8 +129,7 @@ hline
 
 		
 \backslash
-emph{Completato capitolo 8.
- In attesa di verifica} & Giorgio Maggiolo & 2011/02/03 & V1.04 
+emph{Approvato.} & Giacomo Quadrio & 2012/01/31 & V2.0 
 \backslash
 
 \backslash
@@ -143,7 +142,35 @@ hline
 
 		
 \backslash
-emph{Completato capitolo 7} & Giorgio Maggiolo & 2011/02/03 & V1.03 
+emph{Verificato.
+ In attesa di approvazione} & Massimo Dalla Piet
+\backslash
+'a & 2012/01/30 & V1.5 
+\backslash
+
+\backslash
+ hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Completato capitolo 8.
+ In attesa di verifica} & Alessandro Cornaglia & 2012/01/30 & V1.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Completato capitolo 7} & Alessandro Cornaglia & 2012/01/29 & V1.3 
 \backslash
 
 \backslash
@@ -158,8 +185,8 @@ hline
 \backslash
 emph{Scritta la norma sul 
 \backslash
-uline{repository} del codice sorgente} & Giorgio Maggiolo & 2012/02/03 &
- V1.02 
+uline{repository} del codice sorgente} & Alessandro Cornaglia & 2012/01/28
+ & V1.2 
 \backslash
 
 \backslash
@@ -175,7 +202,7 @@ hline
 emph{Iniziate modifiche dopo correzione Prof.
  Vardanega.
  Corretti capitoli 1, 5 e 9.
- Aggiunto nuovo capitolo 6} & Giorgio Maggiolo & 2012/02/03 & V1.01 
+ Aggiunto nuovo capitolo 6} & Alessandro Cornaglia & 2012/01/28 & V1.1 
 \backslash
 
 \backslash

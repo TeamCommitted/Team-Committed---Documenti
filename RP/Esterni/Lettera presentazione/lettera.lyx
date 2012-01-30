@@ -1,0 +1,480 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass letter
+\begin_preamble
+\include{preface}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout My Address
+\begin_inset Graphics
+	filename img/LogoTeam.jpg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Send To Address
+Prof.
+ Vardanega, Tullio
+\begin_inset Newline newline
+\end_inset
+
+Università degli Studi di Padova
+\begin_inset Newline newline
+\end_inset
+
+Via Trieste 63
+\begin_inset Newline newline
+\end_inset
+
+35100, Padova (PD)
+\end_layout
+
+\begin_layout Opening
+Egregio Prof.
+ Vardanega,
+\end_layout
+
+\begin_layout Standard
+Con la presente si comunica la costituzione ufficiale del gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+TeamCommitted}
+\end_layout
+
+\end_inset
+
+ come candidato per lo svolgimento del capitolato 
+\series bold
+C03: Piattaforma Mobile di Apprendimento Comportamentale.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Il gruppo è composto dai seguenti membri:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{| c | c |}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Nome} & 
+\backslash
+textbf{Matricola} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Begolo Marco} & 
+\backslash
+emph{610917} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Braghetto Lorenzo} & 
+\backslash
+emph{541074} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Cornaglia Alessandro} & 
+\backslash
+emph{592764} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Dalla Piet
+\backslash
+'a Massimo} & 
+\backslash
+emph{592334} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Facchin Gabriele} & 
+\backslash
+emph{610884} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Maggiolo Giorgio} & 
+\backslash
+emph{610338} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Quadrio Giacomo} & 
+\backslash
+emph{598571} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'offerta è corredata dai seguenti documenti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei Requisiti - V1.0 
+\series default
+(allegato 
+\family typewriter
+Analisi_dei_Requisiti_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Glossario - V1.0 
+\series default
+(allegato 
+\family typewriter
+Glossario_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V1.0
+\series default
+ (allegato 
+\family typewriter
+Norme_di_Progetto_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto - V1.0 
+\series default
+(allegato 
+\family typewriter
+Piano_di_Progetto_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica - V1.0
+\series default
+ (allegato 
+\family typewriter
+Piano_di_Qualifica_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Studio di Fattibilità - V1.0 
+\series default
+(allegato 
+\family typewriter
+Studio_di_Fattibilita_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verbale incontro proponente 05/12/2011 
+\series default
+(allegato 
+\family typewriter
+verbale05122011.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+Il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha stimato di consegnare il prodotto richiesto entro la fine del secondo
+ trimestre dell'anno accademico 2011-2012.
+ I dettagli di analisi del prodotto, nonché dei costi previsti, sono trattati
+ in maniera approfondita nei documenti allegati.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Rimaniamo a Sua completa disposizione per chiarimenti.
+\end_layout
+
+\begin_layout Standard
+RingraziandoLa per la cortese attenzione, Le auguro un buon proseguimento
+ di giornata.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+flushright{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Giorgio Maggiolo
+\begin_inset Newline newline
+\end_inset
+
+Responsabile del Team Committed
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Giorgio.jpg
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout encl
+
+\family typewriter
+Analisi_dei_Requisiti_V1.0.pdf, Glossario_V1.0.pdf, Norme_di_Progetto_V1.0.pdf,
+\series bold
+ 
+\series default
+Piano_di_Progetto_V1.0.pdf
+\series bold
+, 
+\series default
+Piano_di_Qualifica_V1.0.pdf
+\series bold
+, 
+\series default
+Studio_di_Fattibilita_V1.0.pdf
+\series bold
+, 
+\series default
+verbale05122011.pdf
+\end_layout
+
+\end_body
+\end_document
