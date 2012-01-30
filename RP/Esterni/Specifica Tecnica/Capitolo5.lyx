@@ -525,7 +525,7 @@ nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- ogni classe del Presentatio-Tier possiede un riferimento a questa classe
+ ogni classe del Presentation-Tier possiede un riferimento a questa classe
 \end_layout
 
 \begin_layout Itemize
