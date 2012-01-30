@@ -64,7 +64,24 @@ Stime di fattibilità e di bisogno di risorse
 \end_layout
 
 \begin_layout Standard
+L'analisi accurata dell'architettura progettata ha permesso di constatare
+ che le tecnologie che si è scelto d'adottare risultano essere sufficientemente
+ adeguate per la realizzazione del prodotto e riescono a ricoprire le esigenze
+ progettuali.
+ Nonostante non tutti gli strumenti scelti siano conosciuti dalla totalità
+ del gruppo, la scelta di utilizzare linguaggi simili tra loro come JSP
+ - Java - Android SDK ha permesso di facilitare l'apprendimento e migliorare
+ l'integrità dei vari componenti di cui è costituito il prodotto.
+\begin_inset Newline newline
+\end_inset
 
+Il reperimento delle risorse da impiegare nella realizzazione non si è rivelato
+ problematico o complesso in quanto si è scelto di impiegare strumenti completam
+ente gratuiti.
+ Gli strumenti impiegati sono, come già citato, JSP per la generazione delle
+ pagine dinamiche dell'applicazione web, Java per la realizzazione dell'applicaz
+ione Desktop ed Android SDK per la realizzazione dell'applicazione mobile;
+ o ancora l'IDE Eclipse o BOUML.
 \end_layout
 
 \end_body
