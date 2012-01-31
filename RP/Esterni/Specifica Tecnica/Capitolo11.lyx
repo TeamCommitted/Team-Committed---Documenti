@@ -67,6 +67,12 @@
 Tracciamento requisiti - componenti
 \end_layout
 
+\begin_layout Standard
+Nelle tabelle se una o più celle riguardanti i componenti del sistema sono
+ vuote, significa che non è stato possibile tracciare tale requisito all'interno
+ di tali componenti.
+\end_layout
+
 \begin_layout Subsection
 Ambito Dipendente
 \end_layout
@@ -108,11 +114,44 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 & Il sistema dovrà lavorare in rete & & & 
+RFOB 1 & Il sistema dovrà lavorare in rete & view & view & view & controller
+ 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & logic & control & controller & checker 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & condivisi & model & model & access 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & condivisi & condivisi & condivisi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -123,11 +162,43 @@ RFD 2 & Il sistema assegnerà in automatico badge/trofei al
 \backslash
 uline{Dipendente}, quando questo raggiunge determinati obiettivi di 
 \backslash
-uline{Gamification} & & & 
+uline{Gamification} & & & & controller.ControllerTrofei 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & checker.CheckTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & access.AccessTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & condivisi.Trofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -137,11 +208,44 @@ hline
 RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
 uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
- & & 
+ condivisi.Log & condivisi.Log & condivisi.Log & condivisi.Log 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientBackEnd & model.ModelLog & model.ModelLog & controller.ControllerLog
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ClientBackEnd & model.ClientBackEnd & checker.CheckLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & access.AccessLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -151,11 +255,45 @@ hline
 RFOB 4 & Un 
 \backslash
 uline{Utente}, che dovesse aver perso la propria password per accedere al
- sistema, potrà modificarla & & & 
+ sistema, potrà modificarla & &  model.ModelRecupero & view.RecuperoPasswordActivi
+ty & controller.ControllerRecupero 
 \backslash
 
 \backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Recupero & controller.ControllerRecupero & checker.CheckRecupero
  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & model.ModelRecupero & condivisi.Recupero 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & condivisi.Recupero & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -166,7 +304,8 @@ RFOB 4.1 & Un
 \backslash
 uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
  password dimenticata, riceverà nella propria casella di posta elettronica
- una nuova password generata casualmente dal sistema & & & 
+ una nuova password generata casualmente dal sistema &  &  & controller.Controlle
+rRecupero 
 \backslash
 
 \backslash
@@ -177,11 +316,64 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 & Al primo login la password dovrà essere modificata & & & 
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata & view.Login
+ & view.DipendenteImpl & view.LoginActivity & controller.ControllerRecupero
+ 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & view.AmministratoreAziendaImpl & view.RecuperoPasswordActivit
+y & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & view.AmministratoreSicurezzaImpl & controller.ControllerRecupero & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlDipendente & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlAmministratoreAzienda & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlAmministraotreSicurezza & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -191,11 +383,45 @@ hline
 RFOB 5 & Un 
 \backslash
 uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
- credenziali di accesso & & & 
+ credenziali di accesso & view.Login & view.DipendenteImpl  & view.LoginActivity
+ & controller.ControllerLogin 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.DatiLogin & control.ControlDipendente & controller.ControllerLogin
+ & checker.CheckLogin 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ModelDipendente & model.ModelLogin & access.AccessDipendenti 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Login & condivisi.Login & condivisi.Login 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -205,11 +431,44 @@ hline
 RFOB 5.1 & Un 
 \backslash
 uline{Dipendente} effetuerà il login tramite web o tramite applicazione
- installata & & & 
+ installata & view.Login & view.DipendenteImpl  & view.LoginActivity & 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.DatiLogin & control.ControlDipendente & controller.ControllerLogin
+ & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ModelDipendente & model.ModelLogin & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Login & condivisi.Login & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -218,11 +477,26 @@ hline
 
 RFOB 6 & Il sistema dovrà sottoporre periodicamente ai 
 \backslash
-uline{Dipendenti Autenticati} delle domande precaricate & & & 
+uline{Dipendenti Autenticati} delle domande precaricate & view.Notifica &
+ view.DipendenteImpl & view.TimerNotifica &  
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & view.Timer & control.ControlDipendente & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -231,7 +505,8 @@ hline
 
 RFOB 6.1 & Una proposta di domanda dovrà essere completamente non 
 \backslash
-uline{invadente} & & & 
+uline{invadente} & view.Notifica & view.DipendenteImpl & view.TimerNotifica
+ &  
 \backslash
 
 \backslash
@@ -245,11 +520,26 @@ hline
 RFOB 7 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà richiedere al sistema di venire sottoposto
- ad una domanda & & & 
+ ad una domanda & view.Lanciatore & view.DipendenteImpl & view.DomandaActivity
+ &  
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -259,7 +549,7 @@ hline
 RFOB 7.1 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà richiedere un numero limitato di domande
- secondo il tempo trascorso & & & 
+ secondo il tempo trascorso &  &  &  & checker.CheckRispostaDomanda 
 \backslash
 
 \backslash
@@ -272,8 +562,8 @@ hline
 
 RFOB 8 & Le domande che verranno sottoposte ai 
 \backslash
-uline{Dipendenti Autenticati} dovranno essere di tipologia diversa & & &
- 
+uline{Dipendenti Autenticati} dovranno essere di tipologia diversa &  &
+  &  &  
 \backslash
 
 \backslash
@@ -286,8 +576,9 @@ hline
 
 RFOB 9 & Le domande che verranno sottoposte ai 
 \backslash
-uline{Dipendenti Autenticati} dovranno poter avere direttamente dalla propria
- postazione di lavoro & & & 
+uline{Dipendenti Autenticati} dovranno poter avere risposta direttamente
+ dalla propria postazione di lavoro & view.ClientWeb & view.DipendenteImpl
+ & view.DomandaActivity &  
 \backslash
 
 \backslash
@@ -303,7 +594,7 @@ RFOB 9.1 & Le domande a cui verranno sottoposti i
 uline{Dipendenti Autenticati} forniti di 
 \backslash
 uline{dispositivi mobili} aziendali potranno prevedere anche prove pratiche
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -317,7 +608,7 @@ hline
 RFOB 9.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} potrà variare a seconda dell'impiego dello
- stesso & & & 
+ stesso &  &  &  &  
 \backslash
 
 \backslash
@@ -329,7 +620,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
- multipla & & & 
+ multipla &  &  &  &  
 \backslash
 
 \backslash
@@ -342,8 +633,8 @@ hline
 
 RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
  con foto (entrambe con le modalità sopra citate),  scansione di codice
- QR nel tempo limite, scansione di codici QR nell'ordine corretto & & &
- 
+ QR nel tempo limite, scansione di codici QR nell'ordine corretto &  & 
+ &  &  
 \backslash
 
 \backslash
@@ -356,7 +647,7 @@ hline
 
 RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
  trova errori nella foto, trova differenze nella foto, registra i codici
- RF-ID nell'ordine corretto & & & 
+ RF-ID nell'ordine corretto &  &  &  &  
 \backslash
 
 \backslash
@@ -370,7 +661,8 @@ hline
 RFOB 10 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà modificare i propri dati personali,
- ovvero password e indirizzo di posta elettronica & & & 
+ ovvero password e indirizzo di posta elettronica &  & view.DipendenteImpl
+ & view.DatiPersonaliActivity &  
 \backslash
 
 \backslash
@@ -384,7 +676,8 @@ hline
 RFOB 11 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica i propri dati personali, il sistema si
- occuperà di inviargli una mail di conferma & & & 
+ occuperà di inviargli una mail di conferma &  &  &  & controller.ControllerDati
+ 
 \backslash
 
 \backslash
@@ -398,7 +691,8 @@ hline
 RFOB 11.1 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica la password di accesso alla sua area
- personale, il sistema gli invierà una mail di conferma & & & 
+ personale, il sistema gli invierà una mail di conferma &  &  &  & controller.Con
+trollerDati 
 \backslash
 
 \backslash
@@ -412,7 +706,8 @@ hline
 RFOB 11.2 & Quando un 
 \backslash
 uline{Dipendente Autenticato} modifica il suo indirizzo di posta elettronica,
- il sistema gli invierà una mail di conferma al nuovo indirizzo & & & 
+ il sistema gli invierà una mail di conferma al nuovo indirizzo &  &  &
+  & controller.ControllerDati 
 \backslash
 
 \backslash
@@ -426,7 +721,8 @@ hline
 RFOB 12 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà visualizzare i propri dati personali
- memorizzati nel sistema & & & 
+ memorizzati nel sistema &  & view.DipendenteImpl & view.DatiPersonaliActivity
+ &  
 \backslash
 
 \backslash
@@ -438,11 +734,26 @@ hline
 \begin_layout Plain Layout
 
 RFOB 12.1 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
- indirizzo di posta elettronica, impiego, password, username & & & 
+ indirizzo di posta elettronica, impiego, password, username & & condivisi.Dipend
+ente & condivisi.Dipendente & condivisi.Dipendente 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessDipendenti 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -453,7 +764,8 @@ RFOB 13 & Un
 \backslash
 uline{Dipendente Autenticato} a cui viene proposta la possibilità di rispondere
  ad una domanda potrà scegliere di visualizzarla e quindi rispondere, oppure
- rimandarla e rispondere successivamente & & & 
+ rimandarla e rispondere successivamente & view.notifica & view.DipendenteImpl
+ & view.TimerNotifica &  
 \backslash
 
 \backslash
@@ -467,7 +779,7 @@ hline
 RFOB 14 & Una volta che una domanda viene mostrata ad un 
 \backslash
 uline{Dipendente Autenticato}, questo dovrà necessarimente fornirle risposta
- & & & 
+ &  & view.DipendenteImpl & view.DomandaActivity &  
 \backslash
 
 \backslash
@@ -482,11 +794,26 @@ RFOB 14.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
  sottoposto un 
 \backslash
 uline{Dipendente Autenticato} è una nuova domanda, una domanda posticipata
- o una domanda sbagliata in precedenza & & & 
+ o una domanda sbagliata in precedenza &  &  &  & checker.CheckRispostaDomanda
+ 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessDomande
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -496,11 +823,26 @@ hline
 RFOB 15 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di consultare le
- informazioni riguardanti i suoi punteggi & & & 
+ informazioni riguardanti i suoi punteggi & view.Lanciatore & view.DipendenteImpl
+ & view.PunteggiActivity &  
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & condivisi.Punteggi & condivisi.Punteggi & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -511,11 +853,45 @@ RFOB 15.1 & Le informazioni che un
 \backslash
 uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte
  (sia corrette che errate), classifica aziendale, trofei/badge raccolti,
- statistiche derivanti dalle risposte & & & 
+ statistiche derivanti dalle risposte & & condivisi.Punteggio & condivisi.Punteggi
+ & condivisi.Punteggio 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & condivisi.Trofeo & view.PunteggiActivityMobile & access.AccessPunteggi
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & condivisi.Trofeo 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -525,7 +901,8 @@ hline
 RFOB 16 & Un 
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di chiudere la
- propria sessione, senza terminare l'applicazione & & & 
+ propria sessione, senza terminare l'applicazione & view.Lanciatore & view.Dipende
+nteImpl & view.DashboardActivity &  
 \backslash
 
 \backslash
@@ -537,7 +914,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -549,7 +926,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
- posizione del server generale delle domande & & & 
+ posizione del server generale delle domande &  &  &  &  
 \backslash
 
 \backslash
@@ -561,7 +938,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
- l'installazione e l'utilizzo del sistema & & & 
+ l'installazione e l'utilizzo del sistema &  &  &  &  
 \backslash
 
 \backslash
@@ -575,7 +952,7 @@ hline
 RQOB 2.1 & Sarà fornito un manuale ad uso dei 
 \backslash
 uline{Dipendenti} che coprirà gli aspetti di utilizzo del software dal loro
- punto di vista & & & 
+ punto di vista &  &  &  &  
 \backslash
 
 \backslash
@@ -589,7 +966,7 @@ hline
 RQOB 3 & Le interfacce che saranno visibili ai 
 \backslash
 uline{Dipendenti} dovranno essere accattivanti e le funzionalità quanto
- più intuitive, così da invogliare l'utilizzo & & & 
+ più intuitive, così da invogliare l'utilizzo &  &  &  &  
 \backslash
 
 \backslash
@@ -603,7 +980,7 @@ hline
 RQOP 3.1 & Ogni elemento di interazione fornirà all'
 \backslash
 uline{utilizzatore} informazioni visive sulla possibile azione effettuabile
- & & & 
+ & view & view & view &  
 \backslash
 
 \backslash
@@ -618,7 +995,7 @@ RQOP 3.2 & Da ogni schermata sarà possibile raggiungere un'area di aiuto
  che guiderà l'
 \backslash
 uline{utilizzatore} spiegandogli le operazioni effettuabili nella pagina
- in cui esso si trova & & & 
+ in cui esso si trova & & view & view &  
 \backslash
 
 \backslash
@@ -633,7 +1010,7 @@ RQOB 4 & Tutti i processi di sviluppo aderiranno allo standard
 \backslash
 uline{ISO/IEC} 15504:1998 
 \backslash
-uline{SPICE} & & & 
+uline{SPICE} &  &  &  &  
 \backslash
 
 \backslash
@@ -645,7 +1022,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 5 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -660,7 +1037,7 @@ RQOB 6 & Le applicazioni
 \backslash
 uline{web} aderiranno allo stile 
 \backslash
-uline{W3C} & & & 
+uline{W3C} &  &  &  &  
 \backslash
 
 \backslash
@@ -677,7 +1054,7 @@ uline{web} aderiranno allo standard
 \backslash
 uline{CSS}3 definito da 
 \backslash
-uline{W3C} & & & 
+uline{W3C} &  &  &  &  
 \backslash
 
 \backslash
@@ -694,7 +1071,7 @@ uline{web} aderiranno allo standard
 \backslash
 uline{XHTML}1.1 definito da 
 \backslash
-uline{W3C} & & & 
+uline{W3C} &  &  &  &  
 \backslash
 
 \backslash
@@ -767,7 +1144,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 & Il sistema dovrà lavorare in rete & & & 
+RFOB 1 & Il sistema dovrà lavorare in rete &  &  &  &  
 \backslash
 
 \backslash
@@ -779,7 +1156,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 1.1 & Ogni azienda potrà accedere al sistema mediante connessione internet
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -793,7 +1170,7 @@ hline
 RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
 uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
- & & 
+  &  &  &  
 \backslash
 
 \backslash
@@ -807,7 +1184,7 @@ hline
 RFOB 4 & Un 
 \backslash
 uline{Utente}, che dovesse aver perso la propria password per accedere al
- sistema, potrà modificarla & & & 
+ sistema, potrà modificarla &  &  &  &  
 \backslash
 
 \backslash
@@ -822,7 +1199,7 @@ RFOB 4.1 & Un
 \backslash
 uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
  password dimenticata, riceverà nella propria casella di posta elettronica
- una nuova password generata casualmente dal sistema & & & 
+ una nuova password generata casualmente dal sistema &  &  &  &  
 \backslash
 
 \backslash
@@ -833,7 +1210,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 & Al primo login la password dovrà essere modificata & & & 
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata &  &  &  &
+  
 \backslash
 
 \backslash
@@ -847,7 +1225,7 @@ hline
 RFOB 11 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica i propri dati personali, il sistema si
- occuperà di inviargli una mail di conferma & & & 
+ occuperà di inviargli una mail di conferma &  &  &  &  
 \backslash
 
 \backslash
@@ -861,7 +1239,7 @@ hline
 RFOB 11.1 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica la password di accesso alla sua area
- personale, il sistema gli invierà una mail di conferma & & & 
+ personale, il sistema gli invierà una mail di conferma &  &  &  &  
 \backslash
 
 \backslash
@@ -875,7 +1253,7 @@ hline
 RFOB 17 & Un 
 \backslash
 uline{Amministratore Azienda} dovrà potersi autenticare nel sistema inserendo
- le proprie credenziali & & & 
+ le proprie credenziali &  &  &  &  
 \backslash
 
 \backslash
@@ -891,7 +1269,7 @@ RFOB 18 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
  dei 
 \backslash
-uline{Dipendenti} & & & 
+uline{Dipendenti} &  &  &  &  
 \backslash
 
 \backslash
@@ -906,7 +1284,7 @@ RFOB 19 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
 \backslash
-uline{Dipendenti} inserendone i dati personali & & & 
+uline{Dipendenti} inserendone i dati personali &  &  &  &  
 \backslash
 
 \backslash
@@ -918,7 +1296,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 19.1 & I dati personali sono: nome, cognome, codice fiscale, email,
- impiego & & & 
+ impiego &  &  &  &  
 \backslash
 
 \backslash
@@ -933,7 +1311,7 @@ RFOB 19.2 & Ad ogni account
 \backslash
 uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
  suo account all'indirizzo email dichiarato utili per connettersi al sistema
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -946,7 +1324,7 @@ hline
 
 RFOB 19.2.1 & Il sistema invia all'indirizzo email del nuovo 
 \backslash
-uline{Dipendente} la sua username & & & 
+uline{Dipendente} la sua username &  &  &  &  
 \backslash
 
 \backslash
@@ -959,7 +1337,7 @@ hline
 
 RFOB 19.2.2 & Il sistema invia all'indirizzo email del nuovo 
 \backslash
-uline{Dipendente} la sua password & & & 
+uline{Dipendente} la sua password &  &  &  &  
 \backslash
 
 \backslash
@@ -974,7 +1352,7 @@ RFOB 20 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} potrà eliminare un account 
 \backslash
-uline{Dipendente} & & & 
+uline{Dipendente} &  &  &  &  
 \backslash
 
 \backslash
@@ -990,7 +1368,7 @@ RFOB 21 & Un
 uline{Amministratore Azienda Autenticato} avrà la possibiltà di modificare
  i dati personali dei 
 \backslash
-uline{Dipendenti} & & & 
+uline{Dipendenti} &  &  &  &  
 \backslash
 
 \backslash
@@ -1002,7 +1380,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
- email, impiego, codice fiscale & & & 
+ email, impiego, codice fiscale &  &  &  &  
 \backslash
 
 \backslash
@@ -1018,7 +1396,7 @@ RFOB 22 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter visualizzare i dati
  di ogni singolo 
 \backslash
-uline{Dipendente} & & & 
+uline{Dipendente} &  &  &  &  
 \backslash
 
 \backslash
@@ -1030,7 +1408,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 22.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
- email, impiego, nickname & & & 
+ email, impiego, nickname &  &  &  &  
 \backslash
 
 \backslash
@@ -1046,7 +1424,7 @@ RFOB 23 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter visionare le statistiche
  personali di ogni singolo 
 \backslash
-uline{Dipendente} & & & 
+uline{Dipendente} &  &  &  &  
 \backslash
 
 \backslash
@@ -1057,7 +1435,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 23.1 & Le statistiche personali sono: punti, trofei/badge & & & 
+RFOB 23.1 & Le statistiche personali sono: punti, trofei/badge &  &  &  &
+  
 \backslash
 
 \backslash
@@ -1073,7 +1452,7 @@ RFOB 24 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter modificare i badge/trofei
  di ogni singolo 
 \backslash
-uline{Dipendente} & & & 
+uline{Dipendente} &  &  &  &  
 \backslash
 
 \backslash
@@ -1087,7 +1466,7 @@ hline
 RFOB 25 & Un 
 \backslash
 uline{Amministratore Azienda Autenticato} dovrà avere la possibilità di
- terminare la propria sessione & & & 
+ terminare la propria sessione &  &  &  &  
 \backslash
 
 \backslash
@@ -1099,7 +1478,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -1111,7 +1490,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
- l'installazione e l'utilizzo del sistema & & & 
+ l'installazione e l'utilizzo del sistema &  &  &  &  
 \backslash
 
 \backslash
@@ -1125,7 +1504,7 @@ hline
 RQOB 2.2 & Sarà fornito un manuale ad uso 
 \backslash
 uline{Amministratore Azienda}  riguardo tutte le azioni che potrà compiere
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -1137,7 +1516,7 @@ hline
 \begin_layout Plain Layout
 
 RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
- con caratteristiche molto differenti fra di loro & & & 
+ con caratteristiche molto differenti fra di loro &  &  &  &  
 \backslash
 
 \backslash
@@ -1210,7 +1589,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 & Il sistema dovrà lavorare in rete & & & 
+RFOB 1 & Il sistema dovrà lavorare in rete &  &  &  &  
 \backslash
 
 \backslash
@@ -1224,7 +1603,7 @@ hline
 RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
 uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
- & & 
+  &  &  &  
 \backslash
 
 \backslash
@@ -1238,7 +1617,7 @@ hline
 RFOB 4 & Un 
 \backslash
 uline{Utente}, che dovesse aver perso la propria password per accedere al
- sistema, potrà modificarla & & & 
+ sistema, potrà modificarla &  &  &  &  
 \backslash
 
 \backslash
@@ -1253,7 +1632,7 @@ RFOB 4.1 & Un
 \backslash
 uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
  password dimenticata, riceverà nella propria casella di posta elettronica
- una nuova password generata casualmente dal sistema & & & 
+ una nuova password generata casualmente dal sistema &  &  &  &  
 \backslash
 
 \backslash
@@ -1264,7 +1643,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 & Al primo login la password dovrà essere modificata & & & 
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata &  &  &  &
+  
 \backslash
 
 \backslash
@@ -1278,7 +1658,7 @@ hline
 RFOB 11 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica i propri dati personali, il sistema si
- occuperà di inviargli una mail di conferma & & & 
+ occuperà di inviargli una mail di conferma &  &  &  &  
 \backslash
 
 \backslash
@@ -1292,7 +1672,7 @@ hline
 RFOB 11.1 & Quando un 
 \backslash
 uline{Utente Autenticato} modifica la password di accesso alla sua area
- personale, il sistema gli invierà una mail di conferma & & & 
+ personale, il sistema gli invierà una mail di conferma &  &  &  &  
 \backslash
 
 \backslash
@@ -1306,7 +1686,7 @@ hline
 RFOB 26 & Un 
 \backslash
 uline{Amministratore Sicurezza} dovrà potersi autenticare nel sistema inserendo
- le proprie credenziali & & & 
+ le proprie credenziali &  &  &  &  
 \backslash
 
 \backslash
@@ -1320,7 +1700,7 @@ hline
 RFOB 27 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
- le domande dell'azienda & & & 
+ le domande dell'azienda &  &  &  &  
 \backslash
 
 \backslash
@@ -1334,7 +1714,7 @@ hline
 RFOB 27.1 & La consultazione farà vedere: il tipo, il testo, le risposte
  possibili, le risposte corrette, le immagini / video (se presenti), la
  categoria a cui verrà somministrata, la piattaforma, la temporizzazione
- (se presente) e il punteggio della domanda & & & 
+ (se presente) e il punteggio della domanda &  &  &  &  
 \backslash
 
 \backslash
@@ -1348,7 +1728,7 @@ hline
 RFOB 28 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare l'insieme
- delle domande di un'azienda & & & 
+ delle domande di un'azienda &  &  &  &  
 \backslash
 
 \backslash
@@ -1363,7 +1743,7 @@ RFOB 28.1 & Un
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di aggiungere
  una domanda, dall'insieme di quelle già presenti nel database generale
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -1379,7 +1759,7 @@ RFOB 28.2 & Un
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di rimuovere
  una domanda dal database di domande da somministrare ai 
 \backslash
-uline{Dipendenti} & & & 
+uline{Dipendenti} &  &  &  &  
 \backslash
 
 \backslash
@@ -1395,7 +1775,7 @@ RFOP 29 & L'
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare gli obiettivi
  di 
 \backslash
-uline{Gamification} & & & 
+uline{Gamification} &  &  &  &  
 \backslash
 
 \backslash
@@ -1411,7 +1791,7 @@ RFOP 29.1 & L'
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare i badge
  o trofei assegnabili agli utenti al raggiungimento di obiettivi di 
 \backslash
-uline{Gamification} & & & 
+uline{Gamification} &  &  &  &  
 \backslash
 
 \backslash
@@ -1425,7 +1805,7 @@ hline
 RFOB 30 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà avere la possibilità di
- terminare la propria sessione & & & 
+ terminare la propria sessione &  &  &  &  
 \backslash
 
 \backslash
@@ -1437,7 +1817,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & & & 
+ &  &  &  &  
 \backslash
 
 \backslash
@@ -1449,7 +1829,7 @@ hline
 \begin_layout Plain Layout
 
 RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
- l'installazione e l'utilizzo del sistema & & & 
+ l'installazione e l'utilizzo del sistema &  &  &  &  
 \backslash
 
 \backslash
@@ -1463,7 +1843,7 @@ hline
 RQOB 2.4 & Sarà fornito un manuale ad uso 
 \backslash
 uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
- & & 
+  &  &  &  
 \backslash
 
 \backslash

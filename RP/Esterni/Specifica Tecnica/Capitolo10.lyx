@@ -86,12 +86,12 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | r}
+begin{longtable}{ p{5cm} | p{2cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
 
-		Componente & Requisiti 
+		Package & Classe & Requisiti 
 \backslash
 
 \backslash
@@ -100,6 +100,169 @@ begin{longtable}{ p{5cm} | r}
 hline 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+view & Notifica & RFOB 6 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+				& & RFOB 6.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+				& & RFOB 9 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+				& & RFBO 13 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+view & Login & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+view & Lanciatore & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+logic & Timer & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+logic & ClientBackEnd & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+logic & ClientWeb & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi & DatiLogin & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi & Log & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -140,12 +303,12 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | r}
+begin{longtable}{ p{5cm} | p{2cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
 
-		Componente & Requisiti 
+		Package & Classe & Requisiti 
 \backslash
 
 \backslash
@@ -154,6 +317,18 @@ begin{longtable}{ p{5cm} | r}
 hline 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -194,12 +369,12 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | r}
+begin{longtable}{ p{5cm} | p{2cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
 
-		Componente & Requisiti 
+		Package & Classe & Requisiti 
 \backslash
 
 \backslash
@@ -208,6 +383,18 @@ begin{longtable}{ p{5cm} | r}
 hline 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -248,12 +435,12 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | r}
+begin{longtable}{ p{5cm} | p{2cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
 
-		Componente & Requisiti 
+		Package & Classe & Requisiti 
 \backslash
 
 \backslash
@@ -262,6 +449,18 @@ begin{longtable}{ p{5cm} | r}
 hline 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
