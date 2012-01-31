@@ -420,5 +420,16 @@ pull
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+
+\bar under
+Design pattern
+\bar default
+ non architetturali non sono stati applicati in quanto non ne sono stati
+ trovati di utili ai fini del progetto.
+ Ci riserviamo comunque di aggiungerne durante la fase di Progettazione
+ di Dettaglio e Codifica nel caso dovessimo trovarne applicazioni utili.
+\end_layout
+
 \end_body
 \end_document
