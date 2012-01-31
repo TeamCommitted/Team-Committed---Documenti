@@ -96,6 +96,12 @@ Front-end Desktop
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Presentation-Tier"
+
+\end_inset
+
 Presentation Tier
 \end_layout
 
@@ -122,6 +128,12 @@ Questo componente è costituito dal package view.
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Noti"
+
+\end_inset
+
 com.safetyGame.desktop.view.Notifica
 \end_layout
 
@@ -197,6 +209,12 @@ azione della domanda o sul posticiparla comunicando la relativa risposta
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Logi"
+
+\end_inset
+
 com.safetyGame.desktop.view.Login
 \end_layout
 
@@ -279,6 +297,12 @@ Dipendente
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Lanc"
+
+\end_inset
+
 com.safetyGame.desktop.view.Lanciatore
 \end_layout
 
@@ -368,6 +392,12 @@ Dipendente Autenticato
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Logic-Tier"
+
+\end_inset
+
 Logic Tier
 \end_layout
 
@@ -422,6 +452,12 @@ da quello dati.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Tim"
+
+\end_inset
+
 com.safetyGame.desktop.logic.Timer
 \end_layout
 
@@ -482,6 +518,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Cli"
+
+\end_inset
+
 com.safetyGame.desktop.logic.ClientBackEnd
 \end_layout
 
@@ -559,6 +601,12 @@ alla classe ClientWeb.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Cli-1"
+
+\end_inset
+
 com.safetyGame.desktop.logic.ClientWeb
 \end_layout
 
@@ -644,6 +692,12 @@ Dipendente Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.condivisi"
+
+\end_inset
+
 com.safetyGame.desktop.condivisi.DatiLogin
 \end_layout
 
@@ -700,6 +754,12 @@ Login.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.condivisi-1"
+
+\end_inset
+
 com.safetyGame.desktop.condivisi.Log
 \end_layout
 

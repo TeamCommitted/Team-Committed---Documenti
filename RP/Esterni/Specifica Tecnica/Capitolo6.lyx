@@ -100,6 +100,12 @@ Front-end Web
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View"
+
+\end_inset
+
 View
 \end_layout
 
@@ -138,6 +144,12 @@ web
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntDipen"
+
+\end_inset
+
 com.safetyGame.web.view.IntDipendente
 \end_layout
 
@@ -213,6 +225,12 @@ Dipendenti Autenticati
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntAmmin"
+
+\end_inset
+
 com.safetyGame.web.view.IntAmministratoreAzienda
 \end_layout
 
@@ -288,6 +306,12 @@ Amministratore Azienda Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntAmmin-1"
+
+\end_inset
+
 com.safetyGame.web.view.IntAmministratoreSicurezza
 \end_layout
 
@@ -363,6 +387,12 @@ Amministratore Sicurezza Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Dipenden"
+
+\end_inset
+
 com.safetyGame.web.view.DipendenteImpl
 \end_layout
 
@@ -436,6 +466,12 @@ da.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Amminist"
+
+\end_inset
+
 com.safetyGame.web.view.AmministratoreAziendaImpl
 \end_layout
 
@@ -509,6 +545,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Amminist-1"
+
+\end_inset
+
 com.safetyGame.web.view.AmministratoreSicurezzaImpl
 \end_layout
 
@@ -579,6 +621,12 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Controller"
+
+\end_inset
+
 Controller
 \end_layout
 
@@ -622,6 +670,12 @@ inserire frase per controlli identità coerente
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr"
+
+\end_inset
+
 com.safetyGame.web.control.ControlDipendente
 \end_layout
 
@@ -697,6 +751,12 @@ o istanziato dalla classe DipendenteImpl verso il Back-end.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr-1"
+
+\end_inset
+
 com.safetyGame.web.control.ControlAmministratoreAzienda
 \end_layout
 
@@ -773,6 +833,12 @@ o istanziato dalla classe AmministratoreAziendaImpl verso il Back-end.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr-2"
+
+\end_inset
+
 com.safetyGame.web.control.ControlAmministratoreSicurezza
 \end_layout
 
@@ -846,6 +912,12 @@ o istanziato dalla classe AmministratoreSicurezzaImpl verso il Back-end.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Model"
+
+\end_inset
+
 Model
 \end_layout
 
@@ -882,6 +954,12 @@ Interfacce con e relazioni d'uso da altre componenti:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.model.ClientB"
+
+\end_inset
+
 com.safetyGame.web.model.ClientBackEnd
 \end_layout
 
@@ -927,6 +1005,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.model.ModelXx"
+
+\end_inset
+
 com.safetyGame.web.model.ModelXxx
 \end_layout
 
@@ -972,6 +1056,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.condivisi.Xxx"
+
+\end_inset
+
 com.safetyGame.web.condivisi.Xxx
 \end_layout
 
