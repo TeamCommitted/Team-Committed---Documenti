@@ -217,9 +217,13 @@ XHTML
 \bar default
 1.1 
 \series default
-assieme a 
+assieme a
+\bar under
+ 
 \series bold
-CSS 3
+CSS
+\bar default
+ 3
 \series default
  
 \begin_inset Foot
@@ -266,7 +270,9 @@ poichè la piattaforma deve essere fruibile anche da browser mobile, il semplice
 \bar under
 XHTML 
 \bar default
-permette di definire agevolmente pagine web che si adattino al browser
+permette di definire agevolmente pagine web che si adattino al 
+\bar under
+browser
 \end_layout
 
 \begin_layout Itemize
@@ -336,7 +342,10 @@ Facilità d'uso:
 \series bold
 Relazioni con i vari componenti del sistema:
 \series default
- la documentazione riguardante l'interfacciamento con questa base di dati
+ la documentazione riguardante l'interfacciamento con questa 
+\bar under
+base di dati
+\bar default
  è di grande quantità, rispetto alle altre basi di dati
 \end_layout
 

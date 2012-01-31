@@ -111,8 +111,11 @@ Presentation Tier
 Tipo, obiettivo e funzione del componente:
 \series default
  Questo componente costituisce la parte del sistema che definisce i metodi
- grafici per l'accesso all'applicazione da parte degli utenti e le funzionalità
- disponibili per un 
+ grafici per l'accesso all'applicazione da parte degli 
+\bar under
+utenti
+\bar default
+ e le funzionalità disponibili per un 
 \bar under
 Dipendente Autenticato
 \bar default
@@ -166,8 +169,16 @@ La classe utilizza oggetti di tipo ClientWeb per comunicare con il
 \bar under
 Dipendente
 \bar default
- via web nel caso di domanda accettata e oggetti di tipo ClientBackEnd per
- comunicare con il back-end per aggiornare il log del 
+ via 
+\bar under
+web
+\bar default
+ nel caso di domanda accettata e oggetti di tipo ClientBackEnd per comunicare
+ con il 
+\bar under
+back-end
+\bar default
+ per aggiornare il log del 
 \bar under
 Dipendente Autenticato
 \bar default
@@ -247,8 +258,11 @@ La classe utilizza oggetti di tipo ClientWeb per comunicare al
 Dipendente
 \bar default
  i propri dati nel caso di login effettuato con successo e oggetti di tipo
- ClientBackEnd per comunicare al back end, in caso di successo, di aggiornare
- il log di quel 
+ ClientBackEnd per comunicare al 
+\bar under
+back-end
+\bar default
+, in caso di successo, di aggiornare il log di quel 
 \bar under
 Dipendente
 \bar default
@@ -315,7 +329,7 @@ Tipo, obiettivo e funzione del componente:
  
 \emph default
 La classe Lanciatore realizza l'oggetto lanciatore che crea e gestisce il
- menù che consente al 
+ menu che consente al 
 \bar under
 Dipendente Autenticato
 \bar default

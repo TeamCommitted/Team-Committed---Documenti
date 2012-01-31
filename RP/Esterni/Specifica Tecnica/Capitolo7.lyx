@@ -60,7 +60,7 @@
 \begin_body
 
 \begin_layout Section
-Front-end Mobile
+front-end Mobile
 \end_layout
 
 \begin_layout Standard
@@ -110,7 +110,11 @@ View
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Contiene tutte le classi Java che estendono la classe Java di 
+Contiene tutte le classi 
+\bar under
+Java
+\bar default
+ che estendono la classe Java di 
 \bar under
 Android
 \bar default
@@ -224,7 +228,11 @@ Raccoglie i dati inseriti dal
 \bar under
 Dipendente Autenticato
 \bar default
- e invia la richiesta di login al Back-end.
+ e invia la richiesta di login al 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -703,8 +711,11 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-Comunica con il Presentation Tier del Back-end e notifica al componente
- View quando i dati sono pronti.
+Comunica con il Presentation Tier del 
+\bar under
+back-end
+\bar default
+ e notifica al componente View quando i dati sono pronti.
 \emph on
 
 \begin_inset Newline newline
@@ -750,7 +761,15 @@ com.safetyGame.android.model.ClientBackEnd
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
- tra il Front-end Mobile ed il Back-end.
+ tra il 
+\bar under
+front-end
+\bar default
+ Mobile ed il 
+\bar under
+back-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -758,7 +777,7 @@ La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
 
 Relazioni d’uso di altre componenti:
 \series default
- Richiama metodi del Presentation Tier del Back-end in base alle richieste
+ Richiama metodi del Presentation Tier del back-end in base alle richieste
  delle classi del Model.
 \series bold
 
@@ -770,7 +789,11 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al Back-end.
+Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al 
+\bar under
+back-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -799,7 +822,10 @@ com.safetyGame.android.model.ModelXxx
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al Back-end
+Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al 
+\bar under
+back-end
+\bar default
  attraverso la classe ClientBackEnd.
 \series bold
 
@@ -833,7 +859,11 @@ Attività svolte e dati trattati:
 \series default
 Le classi ricevono richieste di scambio dati col database dalle relative
  classi ControllerXxx, utilizzano la classe ClientBackEnd per comunicare
- con le classi relative nel Presentation Tier del Back-end.
+ con le classi relative nel Presentation Tier del 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -871,7 +901,11 @@ Relazioni d'uso di altre componenti:
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
 Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
-oni tra i vari livelli del Front-end.
+oni tra i vari livelli del 
+\bar under
+front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline

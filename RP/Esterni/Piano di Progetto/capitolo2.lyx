@@ -105,7 +105,7 @@ name "sub:Glossario"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario_V1.0.pdf
+Glossario_V2.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -142,8 +142,18 @@ Capitolato d’Appalto
 \bar under
 proponente
 \bar default
- Mentis s.r.l., reperibile all’indirizzo: http://www.math.unipd.it/~tullio/IS-1/2011/P
-rogetto/C3.pdf
+ Mentis s.r.l., reperibile all’indirizzo: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/C3.pdf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -151,7 +161,18 @@ rogetto/C3.pdf
 \series bold
 Vincoli di Organigramma
 \series default
-: http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.html
+:
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+ http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.html
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -159,7 +180,7 @@ Vincoli di Organigramma
 \series bold
 Norme di Progetto
 \series default
- - v 1.0
+ - v 2.0
 \end_layout
 
 \begin_layout Subsubsection

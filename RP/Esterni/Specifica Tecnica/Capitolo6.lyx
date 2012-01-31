@@ -449,7 +449,11 @@ Interfacce con e relazioni d'uso da altre componenti:
  La classe viene utilizzata dalle classi ControlDipendente per restituire
  i dati erroneamente modificati e per utilizzarne i metodi di modifica campi
  dichiarati, ControlAmministratoreAzienda per utilizzare i metodi di modifica
- campi dichiarati e da tutto il package model che comunica con il back-end.
+ campi dichiarati e da tutto il package model che comunica con il 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -528,7 +532,11 @@ Interfacce con e relazioni d'uso da altre componenti:
  modifica campi dichiarati.
  Viene inoltre utilizzata dagli oggetti delle classi ModelTrofeo, ModelLogin,
  ModelDipendente, ModelPunteggio, ModelLog, ModelRecupero del package model
- che comunicano con il back-end.
+ che comunicano con il 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -606,7 +614,11 @@ Interfacce con e relazioni d'uso da altre componenti:
  per restituire i dati erroneamente modificati e per utilizzarne i metodi
  di modifica campi dichiarati.
  Viene inoltre utilizzata dagli oggetti delle classi ModelDomanda, ModelLogin,
- ModelLog, ModelRecupero del package model che comunicano con il back-end.
+ ModelLog, ModelRecupero del package model che comunicano con il 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -663,10 +675,6 @@ web
 .
 \end_layout
 
-\begin_layout Standard
-inserire frase per controlli identità coerente
-\end_layout
-
 \begin_layout Subsubsection
 
 \series bold
@@ -702,7 +710,11 @@ in
 \bar default
 DipendenteImpl.
  Esegue i controlli per verificare che l'identità che viene passata dal
- DipendenteImpl sia coerente con i dati presenti nel back-end.
+ DipendenteImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -714,7 +726,11 @@ Relazioni d'uso di altre componenti:
  
 \emph default
 La classe ControlDipendente utilizza le implementazioni della classe DipendenteI
-mpl e comunica con il back-end tramite il package model.
+mpl e comunica con il 
+\bar under
+back-end
+\bar default
+ tramite il package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -769,7 +785,11 @@ Tipo, obiettivo e funzione del componente:
  
 \emph default
 La classe ControlAmministratoreAzienda si interpone tra lo scambio di dati
- fra il back-end ed gli oggetti 
+ fra il 
+\bar under
+back-end
+\bar default
+ ed gli oggetti 
 \bar under
 Amministratore Azienda
 \bar default
@@ -783,7 +803,11 @@ in
 \bar default
 AmministratoreAziendaImpl.
  Esegue i controlli per verificare che l'identità che viene passata dal
- AmministratoreAziendaImpl sia coerente con i dati presenti nel back-end.
+ AmministratoreAziendaImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -795,8 +819,11 @@ Relazioni d'uso di altre componenti:
  
 \emph default
 La classe ControlAmministratoreAzienda utilizza le implementazioni della
- classe AmministratoreAziendaImpl e comunica con il back-end tramite il
- package model.
+ classe AmministratoreAziendaImpl e comunica con il
+\bar under
+ back-end
+\bar default
+ tramite il package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -826,7 +853,11 @@ immette.
 Attività svolte e dati trattati:
 \series default
  La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
-o istanziato dalla classe AmministratoreAziendaImpl verso il Back-end.
+o istanziato dalla classe AmministratoreAziendaImpl verso il 
+\bar under
+back-end
+\bar default
+.
  
 \end_layout
 
@@ -851,7 +882,11 @@ Tipo, obiettivo e funzione del componente:
  
 \emph default
 La classe ControlAmministratoreSicurezza si interpone tra lo scambio di
- dati fra il back-end ed gli oggetti 
+ dati fra il 
+\bar under
+back-end
+\bar default
+ ed gli oggetti 
 \bar under
 Amministratore Sicurezza
 \bar default
@@ -865,7 +900,11 @@ in
 \bar default
 AmministratoreSicurezzaImpl.
  Esegue i controlli per verificare che l'identità che viene passata dal
- AmministratoreSicurezzaImpl sia coerente con i dati presenti nel back-end.
+ AmministratoreSicurezzaImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -877,8 +916,11 @@ Relazioni d'uso di altre componenti:
  
 \emph default
 La classe ControlAmministratoreSicurezza utilizza le implementazioni della
- classe AmministratoreSicurezzaImpl e comunica con il back-end tramite il
- package model.
+ classe AmministratoreSicurezzaImpl e comunica con il
+\bar under
+ back-end
+\bar default
+ tramite il package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -908,7 +950,11 @@ immette.
 Attività svolte e dati trattati:
 \series default
  La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
-o istanziato dalla classe AmministratoreSicurezzaImpl verso il Back-end.
+o istanziato dalla classe AmministratoreSicurezzaImpl verso il 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -931,7 +977,11 @@ Tipo, obiettivo e funzione del componente:
 \emph default
 Questo livello contiene e rappresenta i dati veri e propri del sistema.
  Offre le classi che consentono di interfacciarsi ai dati contenuti nel
- back-end del sistema.
+ 
+\bar under
+back-end
+\bar default
+ del sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -969,11 +1019,15 @@ com.safetyGame.web.model.ClientBackEnd
 Tipo, obiettivo e funzione del componente:
 \series default
  La classe ClientBackEnd viene utilizzata per effettuare la connessione
- fisica tra il Front-end 
+ fisica tra il 
 \bar under
-Web
+front-end Web
 \bar default
- ed il Back-end.
+ ed il 
+\bar under
+back-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -981,8 +1035,11 @@ Web
 \series bold
 Relazioni d’uso di altre componenti:
 \series default
- Richiama metodi del Presentation Tier del Back-end in base alle richieste
- delle classi del Model.
+ Richiama metodi del Presentation Tier del 
+\bar under
+back-end 
+\bar default
+in base alle richieste delle classi del Model.
 \begin_inset Newline newline
 \end_inset
 
@@ -1020,7 +1077,11 @@ com.safetyGame.web.model.ModelXxx
 Tipo, obiettivo e funzione del componente:
 \series default
  Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al
- Back-end attraverso la classe ClientBackEnd.
+ 
+\bar under
+back-end 
+\bar default
+attraverso la classe ClientBackEnd.
 \begin_inset Newline newline
 \end_inset
 
@@ -1050,7 +1111,11 @@ Attività svolte e dati trattati:
 \series default
  Le classi ricevono richieste di scambio dati col database dalle relative
  classi di Controller, utilizzano la classe ClientBackEnd per comunicare
- con le classi relative nel Presentation Tier del Back-end.
+ con le classi relative nel Presentation Tier del 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1088,7 +1153,11 @@ Relazioni d'uso di altre componenti:
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
  Le classi vengono utilizzate da tutti gli altri package per trasferire
- informazioni tra i vari livelli del Front-end.
+ informazioni tra i vari livelli del 
+\bar under
+front-end
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
