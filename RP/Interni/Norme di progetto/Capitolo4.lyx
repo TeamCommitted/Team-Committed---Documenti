@@ -531,7 +531,7 @@ Il
 \bar under
 repository
 \bar default
- è organizzato a seconda del ed è strutturato con la seguente struttura
+ è organizzato con la seguente struttura
 \begin_inset Foot
 status open
 
@@ -602,6 +602,30 @@ conterrà i sorgenti dell'applicazione, lato
 \emph on
 \bar under
 web
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/COPYRIGHT
+\family default
+\series default
+ file contenente il copyright e la licenza
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/README
+\family default
+\series default
+ file che descrive genericamente il repository, verra visualizzato automaticamen
+te nella pagina relativa di 
+\emph on
+\bar under
+Github
 \end_layout
 
 \begin_layout Standard
@@ -796,6 +820,12 @@ repository
 .ctxt
 \end_layout
 
+\begin_layout Itemize
+.
+\family typewriter
+jsp
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 
@@ -820,9 +850,7 @@ la documentazione prodotta dovrà essere in formato
 \family typewriter
 .html
 \family default
- e/o 
-\family typewriter
-.txt
+ e/o formato testo semplice
 \end_layout
 
 \end_deeper
