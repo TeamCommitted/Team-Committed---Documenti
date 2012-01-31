@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{longtable}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -160,7 +163,7 @@ hline
 
 \backslash
 emph{Realizzato Capitolo 11 : Tracciamento requisiti - componenti} & Gabriele
- facchin & 2012/01/16 & V0.14 
+ facchin & 2012/01/29 & V0.14 
 \backslash
 
 \backslash
@@ -383,8 +386,8 @@ emph{Sistemazione del file sorgente per fare in modo che includa tutti i
  capitoli come file a parte, cos
 \backslash
 'i come la prima pagina.
- Iniziata la stesura del capitolo 3pag} & Gabriele Facchin & 2012/01/16
- & V0.2 
+ Iniziata la stesura del capitolo 3} & Gabriele Facchin & 2012/01/13 & V0.2
+ 
 \backslash
 
 \backslash
