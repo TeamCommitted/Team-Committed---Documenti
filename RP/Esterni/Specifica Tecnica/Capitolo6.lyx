@@ -109,7 +109,15 @@ View
 Tipo, obiettivo e funzione del componente:
 \series default
  questo componente costituisce la parte del sistema che definisce ed implementa
- l'interfaccia web usurfruibile dagli utenti.
+ l'interfaccia 
+\bar under
+web
+\bar default
+ usurfruibile dagli 
+\bar under
+Utenti
+\bar default
+.
  
 \begin_inset Newline newline
 \end_inset
@@ -118,16 +126,13 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- il componente è costituito dal package 
-\series bold
-view
-\series default
-, e comunica con il livello 
-\series bold
-Model
-\series default
+ il componente è costituito dal layer View, e comunica con il layer Model
  per rendere possibile la memorizzazione delle informazioni immesse nel
- sistema dagli utneti attraverso l'interfaccia web.
+ sistema dagli utenti attraverso l'interfaccia 
+\bar under
+web
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -144,16 +149,29 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Attraverso questa interfaccia vengono create le pagine web per i 
+L'interfaccia IntDipendente fornisce la struttura base per la creazione
+ delle pagine 
+\bar under
+web
+\bar default
+ per i 
 \bar under
 Dipendenti
 \bar default
- che utilizzano il sistema.
+ e i 
+\bar under
+Dipendenti
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+.
  Dichiara i metodi comuni ad ogni 
 \bar under
 Dipendente
 \bar default
- che saranno successivamente implementati
+ che saranno successivamente implementati.
 \begin_inset Newline newline
 \end_inset
 
@@ -172,15 +190,24 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- L'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe DipendenteImpl.
 \series bold
-DipendenteImpl
+
 \begin_inset Newline newline
 \end_inset
 
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per i 
+\bar under
+Dipendenti
+\bar default
+ e i 
+\bar under
+Dipendenti Autenticati
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -197,11 +224,29 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Attraverso questa interfaccia vengono create le pagine web per l'
+L'interfaccia IntAmministratoreAzienda fornisce la struttura base per la
+ creazione delle pagine 
+\bar under
+web
+\bar default
+ per l'
 \bar under
 Amministratore Azienda
 \bar default
- che accede al sistema
+ e l'
+\bar under
+Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Amministratore Azienda
+\bar default
+ che saranno successivamente implementati.
 \begin_inset Newline newline
 \end_inset
 
@@ -220,15 +265,24 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- L'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe AmministratoreAziendaImpl.
 \series bold
-AmministratoreAziendaImpl
+
 \begin_inset Newline newline
 \end_inset
 
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per l'
+\bar under
+Amministratore Azienda
+\bar default
+ e l'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -245,11 +299,29 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Attraverso questa interfaccia vengono create le pagine web per l'
+L'interfaccia IntAmministratoreSicurezza fornisce la struttura base per
+ la creazione delle pagine 
+\bar under
+web
+\bar default
+ per l'
 \bar under
 Amministratore Sicurezza
 \bar default
- che accede al sistema
+ e l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Amministratore Sicurezza
+\bar default
+ che saranno successivamente implementati.
 \begin_inset Newline newline
 \end_inset
 
@@ -268,15 +340,24 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- L'interfaccia verrà implementata dalla classe 
+ L'interfaccia verrà implementata dalla classe AmministratoreSicurezzaImpl.
 \series bold
-AmministratoreSicurezzaImpl
+
 \begin_inset Newline newline
 \end_inset
 
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ e l'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -293,11 +374,12 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Implementa l'interfaccia 
-\series bold
-Dipendente
-\series default
- definendone i metodi
+La classe DipendenteImpl implementa l'interfaccia IntDipendente definendone
+ tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -308,19 +390,36 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-Contiene un riferimento verso l'interfaccia 
+La classe DipendenteImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlDipendente per verificare
+ i dati inseriti dai 
+\bar under
+Dipendenti
+\bar default
+ e/o 
+\bar under
+Dipendenti
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia con le varie classi gli oggetti del package condivisi.
 \series bold
-Dipendente
-\series default
- per invocarne i metodi
+
 \begin_inset Newline newline
 \end_inset
 
-
-\series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene utilizzata dalle classi ControlDipendente per restituire
+ i dati erroneamente modificati e per utilizzarne i metodi di modifica campi
+ dichiarati, ControlAmministratoreAzienda per utilizzare i metodi di modifica
+ campi dichiarati e da tutto il package model che comunica con il back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -328,9 +427,10 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Per via grafica rende possibile l'interazione fra sistema e i 
-\bar under
-Dipendenti
+ La classe implementa l'interfaccia IntDipendente.
+ Richiede la verifica dei dati alla classe ControlDipendente e fornisce
+ i metodi implementati al package model e alla classe ControlAmministratoreAzien
+da.
 \end_layout
 
 \begin_layout Subsubsection
@@ -344,14 +444,12 @@ com.safetyGame.web.view.AmministratoreAziendaImpl
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-\emph on
- 
-\emph default
-Implementa l'interfaccia 
-\series bold
-AmministratoreAzienda
-\series default
- definendone i metodi
+ La classe AmministratoreAziendaImpl implementa l'interfaccia IntAmministratoreA
+zienda definendone tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -362,11 +460,26 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-Contiene un riferimento verso l'interfaccia 
-\series bold
-AmministratoreAzienda
-\series default
- per invocarne i metodi
+La classe AmministratoreAziendaImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlAmministratoreAzienda per
+ verificare i dati inseriti dagli 
+\bar under
+Amministratori Azienda
+\bar default
+ e/o 
+\bar under
+Amministratori Azienda
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia gli oggetti delle classi Login, Log, Trofeo, Dipendente, Punteggio,
+ Recupero del package condivisi.
 \begin_inset Newline newline
 \end_inset
 
@@ -374,7 +487,12 @@ AmministratoreAzienda
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene utilizzata dalle classi ControlAmministratoreAzienda per
+ restituire i dati erroneamente modificati e per utilizzarne i metodi di
+ modifica campi dichiarati.
+ Viene inoltre utilizzata dagli oggetti delle classi ModelTrofeo, ModelLogin,
+ ModelDipendente, ModelPunteggio, ModelLog, ModelRecupero del package model
+ che comunicano con il back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -382,12 +500,10 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Per via grafica rende possibile l'interazione fra sistema e i vari
-\series bold
- 
-\series default
-\bar under
-Amministratori Azienda
+ La classe implementa l'interfaccia IntAmministratoreAzienda.
+ Richiede la verifica dei dati alla classe ControlAmministratore Azienda
+ e fornisce i metodi implementati alle classi sopra elencate del package
+ model.
 \end_layout
 
 \begin_layout Subsubsection
@@ -401,14 +517,12 @@ com.safetyGame.web.view.AmministratoreSicurezzaImpl
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-\emph on
- 
-\emph default
-Implementa l'interfaccia 
-\series bold
-AmministratoreSicurezza
-\series default
- definendone i metodi
+ La classe AmministratoreSicurezzaImpl implementa l'interfaccia IntAmministrator
+eSicurezza definendone tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -419,11 +533,26 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-Contiene un riferimento verso l'interfaccia 
-\series bold
-AmministratoreSicurezza
-\series default
- per invocarne i metodi
+La classe AmministratoreSicurezzaImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlAmministratoreSicurezza per
+ verificare i dati inseriti dagli 
+\bar under
+Amministratori Sicurezza
+\bar default
+ e/o 
+\bar under
+Amministratori Sicurezza
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia gli oggetti delle classi Domanda, Login, Log, Recupero del package
+ condivisi.
 \begin_inset Newline newline
 \end_inset
 
@@ -431,7 +560,11 @@ AmministratoreSicurezza
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene utilizzata dalle classi ControlAmministratoreSicurezza
+ per restituire i dati erroneamente modificati e per utilizzarne i metodi
+ di modifica campi dichiarati.
+ Viene inoltre utilizzata dagli oggetti delle classi ModelDomanda, ModelLogin,
+ ModelLog, ModelRecupero del package model che comunicano con il back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -439,12 +572,10 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Per via grafica rende possibile l'interazione fra sistema e i vari
-\series bold
- 
-\series default
-\bar under
-Amministratori Sicurezza
+ La classe implementa l'interfaccia IntAmministratoreSicurezza.
+ Richiede la verifica dei dati alla classe ControlAmministratore Sicurezza
+ e fornisce i metodi implementati alle classi sopra elencate del package
+ model.
 \end_layout
 
 \begin_layout Subsection
@@ -459,7 +590,11 @@ Tipo, obiettivo e funzione del componente:
  Questo livello si occupa di controllare la sussistenza dei dati da e verso
  l'interfaccia grafica visibile all'utente.
  È incaricato di mantenere aggiornati i dati visualizzati dall'interfaccia
- grafica web interrogando quelli presenti nel sistema.
+ grafica 
+\bar under
+web
+\bar default
+ interrogando quelli presenti nel sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -467,20 +602,21 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il livello è costituito dal package 
+ Il livello è costituito dal package control.
+ Comunica con il livello Model
 \series bold
-control
+ 
 \series default
+per accedere ai dati presenti nel sistema, e con il livello View per aggiornare
+ la parte grafica 
+\bar under
+web
+\bar default
 .
- Comunica con il livello 
-\series bold
-Model 
-\series default
-per accedere ai dati presenti nel sistema, e con il livello 
-\series bold
-View
-\series default
- per aggiornare la parte grafica web.
+\end_layout
+
+\begin_layout Standard
+inserire frase per controlli identità coerente
 \end_layout
 
 \begin_layout Subsubsection
@@ -497,21 +633,22 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Si interpone tra lo scambio di dati fra il sistema ed i 
+La classe ControlDipendente si interpone tra lo scambio di dati fra il back-end
+ ed gli oggetti 
 \bar under
-Dipendenti
+Dipendente
 \bar default
-.
- Esegue i controlli sui dati derivanti dalle interazioni dei 
-\bar under
-Dipendenti 
-\bar default
-con
+ istanziati
 \bar under
  
 \bar default
-l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
- grafica memorizzati nel sistema
+in
+\bar under
+ 
+\bar default
+DipendenteImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ DipendenteImpl sia coerente con i dati presenti nel back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -522,7 +659,8 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-Nessuna
+La classe ControlDipendente utilizza le implementazioni della classe DipendenteI
+mpl e comunica con il back-end tramite il package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -530,7 +668,20 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene usata da DipendenteImpl per effettuare i controlli sui
+ vari input che un 
+\bar under
+Dipendente
+\bar default
+ o un 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
 \begin_inset Newline newline
 \end_inset
 
@@ -538,7 +689,9 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe DipendenteImpl verso il Back-end.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -555,32 +708,35 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Si interpone tra lo scambio di dati fra il sistema e gli 
+La classe ControlAmministratoreAzienda si interpone tra lo scambio di dati
+ fra il back-end ed gli oggetti 
 \bar under
-Amministratori Azienda
+Amministratore Azienda
 \bar default
-.
- Esegue i controlli sui dati derivanti dalle interazioni degli 
-\bar under
-Amministratori Azienda
-\bar default
- con
+ istanziati
 \bar under
  
 \bar default
-l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
- grafica memorizzati nel sistema
-\series bold
-
+in
+\bar under
+ 
+\bar default
+AmministratoreAziendaImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ AmministratoreAziendaImpl sia coerente con i dati presenti nel back-end.
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
 Relazioni d'uso di altre componenti:
 \series default
 \emph on
  
 \emph default
-Nessuna
+La classe ControlAmministratoreAzienda utilizza le implementazioni della
+ classe AmministratoreAziendaImpl e comunica con il back-end tramite il
+ package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -588,7 +744,20 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene usata da AmministratoreAziendaImpl per effettuare i controlli
+ sui vari input che un 
+\bar under
+Amministratore Azienda
+\bar default
+ o un 
+\bar under
+Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
 \begin_inset Newline newline
 \end_inset
 
@@ -596,7 +765,9 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe AmministratoreAziendaImpl verso il Back-end.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -613,21 +784,22 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-Si interpone tra lo scambio di dati fra il sistema e gli 
+La classe ControlAmministratoreSicurezza si interpone tra lo scambio di
+ dati fra il back-end ed gli oggetti 
 \bar under
-Amministratori Sicurezza
+Amministratore Sicurezza
 \bar default
-.
- Esegue i controlli sui dati derivanti dalle interazioni degli 
-\bar under
-Amministratori Sicurezza 
-\bar default
-con
+ istanziati
 \bar under
  
 \bar default
-l'applicazione e si occupa anche di recuperare i dati richiesti dalla parte
- grafica memorizzati nel sistema
+in
+\bar under
+ 
+\bar default
+AmministratoreSicurezzaImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ AmministratoreSicurezzaImpl sia coerente con i dati presenti nel back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -638,7 +810,9 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-Nessuna
+La classe ControlAmministratoreSicurezza utilizza le implementazioni della
+ classe AmministratoreSicurezzaImpl e comunica con il back-end tramite il
+ package model.
 \begin_inset Newline newline
 \end_inset
 
@@ -646,7 +820,20 @@ Nessuna
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ La classe viene usata da AmministratoreSicurezzaImpl per effettuare i controlli
+ sui vari input che un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ o un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
 \begin_inset Newline newline
 \end_inset
 
@@ -654,7 +841,8 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe AmministratoreSicurezzaImpl verso il Back-end.
 \end_layout
 
 \begin_layout Subsection
@@ -670,8 +858,8 @@ Tipo, obiettivo e funzione del componente:
 \series default
 \emph default
 Questo livello contiene e rappresenta i dati veri e propri del sistema.
- Offre le classi che consentono di interfaccirsi ai dati contenuti nel back-end
- del sistema.
+ Offre le classi che consentono di interfacciarsi ai dati contenuti nel
+ back-end del sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -679,16 +867,8 @@ Questo livello contiene e rappresenta i dati veri e propri del sistema.
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il livello è costituito da dai package
-\series bold
- condivisi
-\series default
- e 
-\series bold
-model
-\series default
-.
- 
+ Il Model utilizza le funzioni del View per visualizzare i risultati delle
+ azioni.
 \begin_inset Newline newline
 \end_inset
 
@@ -696,11 +876,7 @@ model
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Il package è utilizzato da 
-\series bold
-control
-\series default
-.
+ Le funzioni di Model sono utilizzate da Controller.
 \end_layout
 
 \begin_layout Subsubsection
@@ -714,31 +890,29 @@ com.safetyGame.web.model.ClientBackEnd
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-\emph on
- 
-\emph default
-Si occupa, una volta che lo stato dei dati in memoria cambia, di inviare
- richieste al Presentation-Tier della parte back-end
+ La classe ClientBackEnd viene utilizzata per effettuare la connessione
+ fisica tra il Front-end 
+\bar under
+Web
+\bar default
+ ed il Back-end.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Relazioni d'uso di altre componenti:
+Relazioni d’uso di altre componenti:
 \series default
-\emph on
- 
-\emph default
-Nessuna
+ Richiama metodi del Presentation Tier del Back-end in base alle richieste
+ delle classi del Model.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Interfacce con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d’uso da altre componenti:
 \series default
- Viene richiamata da ogni altra classe, del package in cui risiede, a seconda
- del tipo di richiesta che deve essere effettuata
+ Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al Back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -746,41 +920,43 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ La classe si occupa di effettuare le richieste e ricevere risposte utilizzando
+ script JSP.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.web.model.ModelXXX
+com.safetyGame.web.model.ModelXxx
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzione del componente: 
+Tipo, obiettivo e funzione del componente:
 \series default
-Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
- 
-\bar under
-Dipendenti
+ Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al
+ Back-end attraverso la classe ClientBackEnd.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-\bar default
-Relazioni d'uso di altre componenti:
+Relazioni d’uso di altre componenti:
 \series default
- Nessuna
+ Utilizzano metodi del componente View per visualizzare i dati ottenuti,
+ utilizzano la classe ClientBackEnd per comunicare col server; Utilizzano
+ oggetti del package condivisi per scambiare dati con gli altri componenti.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Interfacce con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d’uso da altre componenti:
 \series default
- Nessuna
+ Vengono richiamate dalle classi di Controller per inviare dati al server,
+ vengono richiamate dalle classi di View per far visualizzare dati presenti
+ nel server.
 \begin_inset Newline newline
 \end_inset
 
@@ -788,26 +964,24 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ Le classi ricevono richieste di scambio dati col database dalle relative
+ classi di Controller, utilizzano la classe ClientBackEnd per comunicare
+ con le classi relative nel Presentation Tier del Back-end.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.web.condivisi.XXX
+com.safetyGame.web.condivisi.Xxx
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzione del componente: 
+Tipo, obiettivo e funzione del componente:
 \series default
-Rappresenta un tipo di informazione XXX presente nel sistema riferito ai
- 
-\bar under
-Dipendenti 
-\bar default
-condiviso fra i vari package
+ Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari componenti.
 \begin_inset Newline newline
 \end_inset
 
@@ -815,7 +989,7 @@ condiviso fra i vari package
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Nessuna
+ Nessuna.
 \begin_inset Newline newline
 \end_inset
 
@@ -823,7 +997,8 @@ Relazioni d'uso di altre componenti:
 \series bold
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- Nessuna
+ Le classi vengono utilizzate da tutti gli altri package per trasferire
+ informazioni tra i vari livelli del Front-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -831,7 +1006,8 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Differenti per ogni implementazione
+ Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
 \end_layout
 
 \end_body
