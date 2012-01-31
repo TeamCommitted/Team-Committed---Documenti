@@ -166,7 +166,8 @@ Progettazione
 \series default
 : il processo di verifica riguardante la fase di Progettazione consisterà
  nel verificare che tutti i requisiti descritti durante la fase di Analisi
- dei Requisiti rientrino nei componenti individuati.
+ dei Requisiti rientrino nei componenti individuati; ciò verrà effettuato
+ tramite un'accurata analisi delle tabelle di tracciamento.
  Qualora dalla verifica sorgano incongruenze o mancanze, queste verranno
  segnalate tramite 
 \bar under
@@ -182,10 +183,11 @@ Realizzazione
 \series default
 : la verifica in questa fase verrà effettuata sia da parte dei programmatori
  stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
- del codice.
+ del codice, come elencato nella sezione 2.5.1 dove si possono visionare quelli
+ adottati da Team Committed con una relativa descrizione della loro funzione.
  La presenza di errori verrà segnalata da un apposito 
 \bar under
-ticket 
+Ticket 
 \bar default
 che verrà preso in carico dai programmatori e chiuso una volta risolto il
  problema
