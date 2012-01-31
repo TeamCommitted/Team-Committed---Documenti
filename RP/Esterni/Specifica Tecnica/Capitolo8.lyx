@@ -103,6 +103,12 @@ Back-end
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Presentation-Tier-1"
+
+\end_inset
+
 Presentation Tier
 \end_layout
 
@@ -134,6 +140,12 @@ Front-end
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerLogin
 \end_layout
 
@@ -182,6 +194,12 @@ La classe riceve richieste di autenticazione tramite la ricezione di oggetti
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-1"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerDomanda
 \end_layout
 
@@ -236,6 +254,12 @@ La classe riceve richieste di visualizzazione o risposta di una domanda
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-2"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerCalderone
 \end_layout
 
@@ -289,6 +313,12 @@ La classe riceve richieste di visualizzazione, aggiunta od eliminazione
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-3"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerDipendenti
 \end_layout
 
@@ -336,6 +366,12 @@ e di account Dipendente e richiama i relativi metodi di CheckDipendente
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-4"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerTrofei
 \end_layout
 
@@ -392,6 +428,12 @@ e di trofei e richiama i relativi metodi di CheckTrofei per controllare
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-5"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerDati
 \end_layout
 
@@ -455,6 +497,12 @@ Amministratore Azienda
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-6"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerRecupero
 \end_layout
 
@@ -528,6 +576,12 @@ Amministratore Sicurezza
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-7"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerPunteggi
 \end_layout
 
@@ -585,6 +639,12 @@ Dipendente
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-8"
+
+\end_inset
+
 com.safetyGame.back.controller.ControllerLog
 \end_layout
 
@@ -636,6 +696,12 @@ Dipendente
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Logic-Tier-1"
+
+\end_inset
+
 Logic Tier
 \end_layout
 
@@ -659,6 +725,12 @@ Relazioni d'uso di altre componenti:
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.checker.Chec"
+
+\end_inset
+
 com.safetyGame.back.checker.CheckXxx
 \end_layout
 
@@ -705,6 +777,12 @@ r e access per far transitare oggetti contenenti dati dal Presentation Tier
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Data-Access-Tier"
+
+\end_inset
+
 Data Access Tier
 \end_layout
 
@@ -726,6 +804,12 @@ Relazioni d'uso di altre componenti:
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.access.Acces"
+
+\end_inset
+
 com.safetyGame.back.access.AccessXxx
 \end_layout
 
@@ -767,6 +851,12 @@ Le classi ricevono richieste dalle classi del package cecker riguardanti
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.condivisi.Xx"
+
+\end_inset
+
 com.safetyGame.back.condivisi.Xxx
 \end_layout
 

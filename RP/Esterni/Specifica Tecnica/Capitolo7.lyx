@@ -96,6 +96,12 @@ Front-end Mobile
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View-1"
+
+\end_inset
+
 View
 \end_layout
 
@@ -164,6 +170,12 @@ View può venire modificata da Controller
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Logi"
+
+\end_inset
+
 com.safetyGame.android.view.LoginActivity:
 \end_layout
 
@@ -218,6 +230,12 @@ Dipendente Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dash"
+
+\end_inset
+
 com.safetyGame.android.view.DashboardActivity:
 \end_layout
 
@@ -256,6 +274,12 @@ Intercetta gli input e lancia altre Activity.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Punt"
+
+\end_inset
+
 com.safetyGame.android.view.PunteggiActivity:
 \end_layout
 
@@ -310,6 +334,12 @@ Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dati"
+
+\end_inset
+
 com.safetyGame.android.view.DatipersonaliActivity:
 \end_layout
 
@@ -370,6 +400,12 @@ Autenticato
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Doma"
+
+\end_inset
+
 
 \series bold
 com.safetyGame.android.view.DomandaActivity:
@@ -418,6 +454,12 @@ Permette di richiedere, visualizzare e rispondere a domande.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Recu"
+
+\end_inset
+
 com.safetyGame.android.view.RecuperoPasswordActivity:
 \end_layout
 
@@ -467,6 +509,12 @@ Dipendente
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Time"
+
+\end_inset
+
 com.safetyGame.android.view.TimerNotifica:
 \end_layout
 
@@ -516,6 +564,12 @@ Android
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Controller-1"
+
+\end_inset
+
 Controller
 \end_layout
 
@@ -561,6 +615,12 @@ Viene utilizzato da View.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.control.C"
+
+\end_inset
+
 com.safetyGame.android.control.ControllerXxx
 \end_layout
 
@@ -614,6 +674,12 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Model-1"
+
+\end_inset
+
 Model
 \end_layout
 
@@ -669,6 +735,12 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Cli"
+
+\end_inset
+
 com.safetyGame.android.model.ClientBackEnd
 \end_layout
 
@@ -713,6 +785,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Mod"
+
+\end_inset
+
 com.safetyGame.android.model.ModelXxx
 \end_layout
 
@@ -761,6 +839,12 @@ Le classi ricevono richieste di scambio dati col database dalle relative
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.condivisi"
+
+\end_inset
+
 com.safetyGame.android.condivisi.Xxx
 \end_layout
 
