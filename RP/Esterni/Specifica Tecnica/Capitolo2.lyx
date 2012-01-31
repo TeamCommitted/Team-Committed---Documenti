@@ -431,29 +431,48 @@ Durante la fase di
 \emph on
 Progettazione Archittetturale
 \emph default
- non sono emersi problemi risolvibili tramite utilizzo di Design Pattern
+ non sono emersi problemi risolvibili tramite utilizzo di
+\bar under
+ design pattern
+\bar default
  diversi da quelli già descritti.
- Sono stati valutati attentamente alcuni Design Pattern architetturali,
- come 
+ Sono stati valutati attentamente alcuni 
+\bar under
+design pattern
+\bar default
+ non architetturali, quali 
 \emph on
 Singleton
 \emph default
- e 
+ o 
 \emph on
 DAO
 \emph default
-, i quali non sono stati ritenuti idonei all'applicazione per quest'architettura.
+, che però non sono stati ritenuti adatti per i problemi che, in fase di
+ 
+\emph on
+Progettazione Architetturale
+\emph default
+, abbiamo affrontato.
 \end_layout
 
 \begin_layout Standard
-Tuttavia, durante la fase di Progettazione di Dettaglio emergeranno con
- quasi certezza ulteriori problemi; a qual punto valuteremo l'eventuale
- inserimento di ulteriori Design Pattern.
- Dovremo prestare particolare attenzione all'utilizzo dei 
+Tuttavia, durante la fase di
 \emph on
-Design Pattern Progettuali
+ Progettazione di Dettaglio
 \emph default
- per la definizione di micro-architetture.
+ potrebbero emergere problemi che potrebbero essere risolti facilmente tramite
+ l'uso di 
+\bar under
+design pattern
+\bar default
+.
+ Per questo motivo ci riserviamo il diritto di introdurre 
+\bar under
+design pattern 
+\bar default
+non architetturali all'interno della Specifica Tecnica, modificando di conseguen
+za l'archichettura strutturata attualmente.
 \end_layout
 
 \end_body

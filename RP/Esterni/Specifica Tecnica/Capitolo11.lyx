@@ -69,8 +69,7 @@ Tracciamento requisiti - componenti
 
 \begin_layout Standard
 Nelle tabelle se una o più celle riguardanti i componenti del sistema sono
- vuote, significa che non è stato possibile tracciare tale requisito all'interno
- di tali componenti.
+ vuote, significa che quel componente non è delegato a gestire quel requisito.
 \end_layout
 
 \begin_layout Subsection
