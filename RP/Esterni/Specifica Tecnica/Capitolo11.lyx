@@ -662,7 +662,7 @@ RFOB 10 & Un
 \backslash
 uline{Dipendente Autenticato} potrà modificare i propri dati personali,
  ovvero password e indirizzo di posta elettronica &  & view.DipendenteImpl
- & view.DatiPersonaliActivity &  
+ & view.DatipersonaliActivity&  
 \backslash
 
 \backslash
@@ -721,8 +721,8 @@ hline
 RFOB 12 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà visualizzare i propri dati personali
- memorizzati nel sistema &  & view.DipendenteImpl & view.DatiPersonaliActivity
- &  
+ memorizzati nel sistema &  & view.DipendenteImpl & view.DatipersonaliActivity&
+  
 \backslash
 
 \backslash
