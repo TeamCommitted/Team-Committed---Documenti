@@ -71,6 +71,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename img/frontEndMobile.png
 	scale 45
@@ -95,7 +96,7 @@ Front-end Mobile
 \end_layout
 
 \begin_layout Subsection
-Componente View
+View
 \end_layout
 
 \begin_layout Standard
@@ -103,7 +104,11 @@ Componente View
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Contiene tutte le classi Java che estendono la classe Java di Android 
+Contiene tutte le classi Java che estendono la classe Java di 
+\bar under
+Android
+\bar default
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -136,7 +141,8 @@ Service
 \emph default
 Relazioni d’uso di altre componenti: 
 \series default
-Utilizza i componenti Model e Controller.
+Utilizza funzioni del Controller per il controllo ed invio dei dati, utilizza
+ il Model per ottenere dati dal server.
 \emph on
 
 \begin_inset Newline newline
@@ -150,7 +156,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-View è utilizzato da Controller
+View può venire modificata da Controller
 \emph on
 .
 \end_layout
@@ -181,10 +187,11 @@ Dipendente
 
 Relazioni d’uso di altre componenti: 
 \series default
-Utilizza ControllerLogin e ModelLogin, inoltre chiama le classi DashboardActivit
-y e RecuperoPasswordActivity
+La classe richiama ControllerLogin per inviare i dati al server, inoltre
+ consente di arrivare alle classi DashboardActivity e RecuperoPasswordActivity;
+ Utilizza oggetti di tipo Login per trasferire i dati.
 \series bold
-.
+
 \begin_inset Newline newline
 \end_inset
 
@@ -193,7 +200,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-È utilizzato da ModelLogin.
+Riceve la risposta tramite una chiamata di metodo da ModelLogin.
 \series bold
 
 \begin_inset Newline newline
@@ -201,7 +208,11 @@ Interfacce con e relazioni d’uso da altre componenti:
 
 Attività svolte e dati trattati: 
 \series default
-Raccoglie i dati inseriti dall'utente e invia la richiesta di login.
+Raccoglie i dati inseriti dal 
+\bar under
+Dipendente Autenticato
+\bar default
+ e invia la richiesta di login al Back-end.
 \end_layout
 
 \begin_layout Subsubsection
@@ -215,7 +226,7 @@ com.safetyGame.android.view.DashboardActivity:
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Activity che permette di raggiungere le varie Activity del programma.
+Activity che permette di raggiungere le altre Activity del programma.
 \series bold
 
 \begin_inset Newline newline
@@ -229,9 +240,9 @@ Può chiamare le classi PunteggiActivity, DomandaActivity e DatipersonaliActivit
 \begin_inset Newline newline
 \end_inset
 
-Interfacce con e relazioni d’uso da altre componenti:
+Interfacce con e relazioni d’uso da altre componenti: 
 \series default
- È chiamato da LoginActivity.
+Viene chiamato da LoginActivity.
 \series bold
 
 \begin_inset Newline newline
@@ -265,11 +276,8 @@ Dipendente Autenticato
 
 Relazioni d’uso di altre componenti: 
 \series default
-Utilizza ControllerPunteggi e
-\series bold
- 
-\series default
-ModelPunteggi.
+Utilizza ControllerPunteggi per richiedere dati al server, utilizza oggetti
+ di tipo Punteggi per trasferire dati.
 \series bold
 
 \begin_inset Newline newline
@@ -280,7 +288,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è chiamato da DashboardActivity ed è utilizzato da ModelPunteggi.
+Viene chiamato da DashboardActivity e riceve i dati da ModelPunteggi.
 \series bold
 
 \begin_inset Newline newline
@@ -322,11 +330,16 @@ Dipendente Autenticato
 
 Relazioni d’uso di altre componenti: 
 \series default
-Utilizza ControllerDati e
-\series bold
+Utilizza ControllerDati per richiedere ed inviare modifiche riguardanti
+ dati personali del 
+\bar under
+Dipendente
+\bar default
  
-\series default
-ModelDati.
+\bar under
+Autenticato
+\bar default
+, utilizza oggetti di tipo Dipendente per trasferire i dati.
 \series bold
 
 \begin_inset Newline newline
@@ -337,7 +350,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-È chiamato da DashboardActivity ed è utilizzato da ModelDati.
+È chiamato da DashboardActivity e riceve i dati richiesti da ModelDati.
 \series bold
 
 \begin_inset Newline newline
@@ -371,7 +384,7 @@ Activity che permette ad un
 \bar under
 Dipendente Autenticato
 \bar default
- di visualizzare e risponde alle domande.
+ di visualizzare, richiedere e risponde alle domande.
 \series bold
 
 \begin_inset Newline newline
@@ -379,11 +392,8 @@ Dipendente Autenticato
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza ControllerDomanda e
-\series bold
- 
-\series default
-ModelDomanda.
+utilizza ControllerDomanda per richiedere dati al server, utilizza oggetti
+ di tipo Domanda per trasferire dati.
 \series bold
 
 \begin_inset Newline newline
@@ -394,7 +404,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-È chiamato da DashboardActivity o TimerNotifica ed è utilizzato da ModelDati.
+È chiamato da DashboardActivity o TimerNotifica e riceve i dati da ModelDati.
 \series bold
 
 \begin_inset Newline newline
@@ -402,7 +412,7 @@ Interfacce con e relazioni d’uso da altre componenti:
 
 Attività svolte e dati trattati: 
 \series default
-Visualizza e permette di rispondere alle domande.
+Permette di richiedere, visualizzare e rispondere a domande.
 \end_layout
 
 \begin_layout Subsubsection
@@ -428,11 +438,7 @@ Dipendente
 
 Relazioni d’uso di altre componenti: 
 \series default
-utilizza ControllerRecupero e
-\series bold
- 
-\series default
-ModelRecupero.
+utilizza ControllerRecuperoper l'invio di dati al server.
 \series bold
 
 \begin_inset Newline newline
@@ -443,7 +449,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-È chiamato da LoginActivity ed è utilizzato da ModelRecupero.
+È chiamato da LoginActivity e riceve dati da ModelRecupero.
 \series bold
 
 \begin_inset Newline newline
@@ -451,7 +457,11 @@ Interfacce con e relazioni d’uso da altre componenti:
 
 Attività svolte e dati trattati:
 \series default
- Raccoglie i dati dell'utente e richiede il recupero password.
+ Raccoglie i dati del 
+\bar under
+Dipendente
+\bar default
+ e richiede il recupero password.
 \end_layout
 
 \begin_layout Subsubsection
@@ -489,7 +499,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-nessuna.
+Nessuna.
 \series bold
 
 \begin_inset Newline newline
@@ -498,11 +508,15 @@ nessuna.
 Attività svolte e dati trattati:
 \series default
  Periodicamente un timer a seconda delle impostazioni farà partire una notifica
- standard di Android che permette di visualizzare una nuova domanda.
+ standard di 
+\bar under
+Android
+\bar default
+ che permette di visualizzare una nuova domanda.
 \end_layout
 
 \begin_layout Subsection
-Componente Controller
+Controller
 \end_layout
 
 \begin_layout Standard
@@ -510,8 +524,10 @@ Componente Controller
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-contiene le classi di utilità che raggruppano i metodi chiamati al compimento
- delle azioni in input dalla view i quali chiamano i giusti metodi del Model.
+Contiene le classi di utilità che raggruppano i metodi chiamati al compimento
+ delle azioni in input dalla View i quali controllano la correttezza degli
+ input e chiamano i giusti metodi del Model o chiamano altri metodi della
+ View.
 \emph on
 
 \begin_inset Newline newline
@@ -525,7 +541,7 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-utilizza sia Model che View.
+Utilizza metodi sia di Model che di View.
 \emph on
 
 \begin_inset Newline newline
@@ -539,13 +555,13 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-è utilizzato da View.
+Viene utilizzato da View.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.android.control.*
+com.safetyGame.android.control.ControllerXxx
 \end_layout
 
 \begin_layout Standard
@@ -553,8 +569,12 @@ com.safetyGame.android.control.*
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Le classi ControllerLogin, ControllerPunteggi, ControllerDomande, ControllerDati
- e ControllerRecupero rappresentano i Controller per ogni Activity relativa.
+Le classi ControllerXxx forniscono metodi ad ogni Activity relativa per
+ gestire gli input del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -562,10 +582,13 @@ Le classi ControllerLogin, ControllerPunteggi, ControllerDomande, ControllerDati
 
 Relazioni d’uso di altre componenti:
 \series default
- Del componente Model utilizzano rispettivamente ModelLogin, ModelPunteggi,
- ModelDomande, ModelDati e ModelRecupero; del componente View può utilizzare
- rispettivamente ControllerLogin, ControllerPunteggi, ControlelrDomande,
- ControllerDati e ControllerRecupero.
+ Richiamano metodi del Model per ottenere i dati richiesti dal 
+\bar under
+Dipendente Autenticato
+\bar default
+, in caso di fallimento, richiamano metodi di View per la visualizzazione
+ dei messaggi d'errore; Utilizzano oggetti del package condivisi per scambiare
+ i dati con gli altri componenti.
 \series bold
 
 \begin_inset Newline newline
@@ -576,7 +599,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-viene utilizzato dalle rispettive classi dal componente View.
+Vengono chiamate dalle rispettive classi dal componente View.
 \series bold
 
 \begin_inset Newline newline
@@ -584,13 +607,14 @@ viene utilizzato dalle rispettive classi dal componente View.
 
 Attività svolte e dati trattati:
 \series default
- Le classi del componente View chiamano le classi del Controller, le quali
- gestiranno e controlleranno i dati in input, in seguito chiameranno i giusti
- metodi del componente Model.
+ Ad ogni input nelle classi di View vengono chiamate le relative classi
+ del Controller, le quali gestiranno e controlleranno i dati in input ed
+ in seguito chiameranno i giusti metodi del componente Model od in caso,
+ di View.
 \end_layout
 
 \begin_layout Subsection
-Componente Model
+Model
 \end_layout
 
 \begin_layout Standard
@@ -613,8 +637,8 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-Utilizza il Presentation Tier del Backend e notifica al componente View
- che i dati sono pronti.
+Comunica con il Presentation Tier del Back-end e notifica al componente
+ View quando i dati sono pronti.
 \emph on
 
 \begin_inset Newline newline
@@ -641,13 +665,11 @@ Attività svolte e dati trattati:
 \series default
  Invia delle richieste HTTP al server, il quale gli risponderà inviando
  i dati richiesti attraverso un XML, in seguito ne estrapolerà i dati e
- li renderà disponibili alla view.
+ li renderà disponibili alla View.
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
-com.safetyGame.android.model.*
+com.safetyGame.android.model.ClientBackEnd
 \end_layout
 
 \begin_layout Standard
@@ -655,8 +677,8 @@ com.safetyGame.android.model.*
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Le classi ModelLogin, ModelPunteggi, ModelDomande, ModelDati e ModelRecupero
- rappresentano i Model per ogni Activity e Controller relativa.
+La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
+ tra il Front-end Mobile ed il Back-end.
 \series bold
 
 \begin_inset Newline newline
@@ -664,8 +686,8 @@ Le classi ModelLogin, ModelPunteggi, ModelDomande, ModelDati e ModelRecupero
 
 Relazioni d’uso di altre componenti:
 \series default
- Del componente View utilizzano rispettivamente LoginActivity, PunteggiActivity,
- DomandeActivity, DatiActivity e RecuperoPasswordActivity.
+ Richiama metodi del Presentation Tier del Back-end in base alle richieste
+ delle classi del Model.
 \series bold
 
 \begin_inset Newline newline
@@ -676,7 +698,7 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-Viene utilizzato dalle rispettive classi dal componente View e Controller.
+Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al Back-end.
 \series bold
 
 \begin_inset Newline newline
@@ -684,16 +706,14 @@ Viene utilizzato dalle rispettive classi dal componente View e Controller.
 
 Attività svolte e dati trattati:
 \series default
- Le classi del componente Controller chiamano le classi del Model, le quali
- effettueranno le richieste HTTP al server e crearanno gli oggetti delle
- classi relative, in seguito notificheranno le relative classi del componente
- View.
+ La classe si occupa di effettuare le richieste HTTP al server e di riceverne
+ le risposte tramite pagine XML.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
-Classi com.safetyGame.android.condivisi
+com.safetyGame.android.model.ModelXxx
 \end_layout
 
 \begin_layout Standard
@@ -701,16 +721,18 @@ Classi com.safetyGame.android.condivisi
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Le classi Login, Punteggi, Domande, Dati, Log e Recupero rappresentano gli
- oggetti condivisi.
-\end_layout
-
-\begin_layout Standard
-
+Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al Back-end
+ attraverso la classe ClientBackEnd.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 Relazioni d’uso di altre componenti:
 \series default
- nessuna.
+ Utilizzano metodi del componente View per visualizzare i dati ottenuti,
+ utilizzano la classe ClientBackEnd per comunicare col server; Utilizzano
+ oggetti del package condivisi per scambiare dati con gli altri componenti.
 \series bold
 
 \begin_inset Newline newline
@@ -721,15 +743,60 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-Viene utilizzato dai rispettivi Model.
+Vengono richiamate dalle classi ControllerXxx per inviare dati al server,
+ vengono richiamate dalle classi di View per far visualizzare dati presenti
+ nel server.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Attività svolte e dati trattati:
+Attività svolte e dati trattati: 
 \series default
- Rappresentano gli oggetti utilizzati.
+Le classi ricevono richieste di scambio dati col database dalle relative
+ classi ControllerXxx, utilizzano la classe ClientBackEnd per comunicare
+ con le classi relative nel Presentation Tier del Back-end.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.android.condivisi.Xxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari componenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
+oni tra i vari livelli del Front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
 \end_layout
 
 \end_body
