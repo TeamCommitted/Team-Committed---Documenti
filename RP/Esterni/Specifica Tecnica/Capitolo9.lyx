@@ -93,8 +93,12 @@ utenti
 \bar default
 possono chiedere la modifica da parte del sistema della propria password
  prima di accedere al sistema, il quale ne genererà una e la renderà nota
- solo a quell'utente; oppure possono effettuare il login all'interno del
- sistema e utilizzare quello che il sistema gli offre.
+ solo a quell'
+\bar under
+utente
+\bar default
+; oppure possono effettuare il login all'interno del sistema e utilizzare
+ quello che il sistema gli offre.
  
 \end_layout
 
@@ -138,8 +142,12 @@ Ambito Dipendente
 \end_layout
 
 \begin_layout Standard
-Il Dipendente, dopo che ha effettuato il login, si trova a disposizione
- diverse opportunità di azioni.
+Il 
+\bar under
+Dipendente
+\bar default
+, dopo che ha effettuato il login, si trova a disposizione diverse opportunità
+ di azioni.
 \end_layout
 
 \begin_layout Standard
@@ -481,8 +489,15 @@ Considerazioni finali
 \end_layout
 
 \begin_layout Standard
-Gli ambiti dell'Amministratore Azienda e Amministraotre Sicurezza, verranno
- gestiti unicamente tramite 
+Gli ambiti dell'
+\bar under
+Amministratore Azienda
+\bar default
+ e 
+\bar under
+Amministratore Sicurezza
+\bar default
+, verranno gestiti unicamente tramite 
 \bar under
 web
 \bar default
@@ -508,7 +523,7 @@ dispositivi fissi
 \bar under
 dispositivi fissi
 \bar default
- fornirà un comodo menù per ogni azione (una volta effettuato il login);
+ fornirà un comodo menu per ogni azione (una volta effettuato il login);
  il quale, una volta attivata la corrispondente voce nel menù, aprirà il
  browser e quindi sfrutterà la parte 
 \bar under

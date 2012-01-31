@@ -60,7 +60,7 @@
 \begin_body
 
 \begin_layout Section
-Front-end Mobile
+front-end Mobile
 \end_layout
 
 \begin_layout Standard
@@ -96,6 +96,12 @@ Front-end Mobile
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View-1"
+
+\end_inset
+
 View
 \end_layout
 
@@ -104,7 +110,11 @@ View
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Contiene tutte le classi Java che estendono la classe Java di 
+Contiene tutte le classi 
+\bar under
+Java
+\bar default
+ che estendono la classe Java di 
 \bar under
 Android
 \bar default
@@ -164,6 +174,12 @@ View può venire modificata da Controller
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Logi"
+
+\end_inset
+
 com.safetyGame.android.view.LoginActivity:
 \end_layout
 
@@ -212,12 +228,22 @@ Raccoglie i dati inseriti dal
 \bar under
 Dipendente Autenticato
 \bar default
- e invia la richiesta di login al Back-end.
+ e invia la richiesta di login al 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dash"
+
+\end_inset
+
 com.safetyGame.android.view.DashboardActivity:
 \end_layout
 
@@ -256,6 +282,12 @@ Intercetta gli input e lancia altre Activity.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Punt"
+
+\end_inset
+
 com.safetyGame.android.view.PunteggiActivity:
 \end_layout
 
@@ -310,6 +342,12 @@ Autenticato
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dati"
+
+\end_inset
+
 com.safetyGame.android.view.DatipersonaliActivity:
 \end_layout
 
@@ -370,6 +408,12 @@ Autenticato
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Doma"
+
+\end_inset
+
 
 \series bold
 com.safetyGame.android.view.DomandaActivity:
@@ -418,6 +462,12 @@ Permette di richiedere, visualizzare e rispondere a domande.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Recu"
+
+\end_inset
+
 com.safetyGame.android.view.RecuperoPasswordActivity:
 \end_layout
 
@@ -467,6 +517,12 @@ Dipendente
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Time"
+
+\end_inset
+
 com.safetyGame.android.view.TimerNotifica:
 \end_layout
 
@@ -516,6 +572,12 @@ Android
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Controller-1"
+
+\end_inset
+
 Controller
 \end_layout
 
@@ -561,6 +623,12 @@ Viene utilizzato da View.
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.control.C"
+
+\end_inset
+
 com.safetyGame.android.control.ControllerXxx
 \end_layout
 
@@ -614,6 +682,12 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Model-1"
+
+\end_inset
+
 Model
 \end_layout
 
@@ -637,8 +711,11 @@ Relazioni d’uso di altre componenti:
  
 \series default
 \emph default
-Comunica con il Presentation Tier del Back-end e notifica al componente
- View quando i dati sono pronti.
+Comunica con il Presentation Tier del 
+\bar under
+back-end
+\bar default
+ e notifica al componente View quando i dati sono pronti.
 \emph on
 
 \begin_inset Newline newline
@@ -669,6 +746,12 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Cli"
+
+\end_inset
+
 com.safetyGame.android.model.ClientBackEnd
 \end_layout
 
@@ -678,7 +761,15 @@ com.safetyGame.android.model.ClientBackEnd
 Tipo, obiettivo e funzione del componente: 
 \series default
 La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
- tra il Front-end Mobile ed il Back-end.
+ tra il 
+\bar under
+front-end
+\bar default
+ Mobile ed il 
+\bar under
+back-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -686,7 +777,7 @@ La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
 
 Relazioni d’uso di altre componenti:
 \series default
- Richiama metodi del Presentation Tier del Back-end in base alle richieste
+ Richiama metodi del Presentation Tier del back-end in base alle richieste
  delle classi del Model.
 \series bold
 
@@ -698,7 +789,11 @@ Interfacce con e relazioni d’uso da altre componenti:
  
 \series default
 \emph default
-Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al Back-end.
+Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al 
+\bar under
+back-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline
@@ -713,6 +808,12 @@ Attività svolte e dati trattati:
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Mod"
+
+\end_inset
+
 com.safetyGame.android.model.ModelXxx
 \end_layout
 
@@ -721,7 +822,10 @@ com.safetyGame.android.model.ModelXxx
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al Back-end
+Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al 
+\bar under
+back-end
+\bar default
  attraverso la classe ClientBackEnd.
 \series bold
 
@@ -755,12 +859,22 @@ Attività svolte e dati trattati:
 \series default
 Le classi ricevono richieste di scambio dati col database dalle relative
  classi ControllerXxx, utilizzano la classe ClientBackEnd per comunicare
- con le classi relative nel Presentation Tier del Back-end.
+ con le classi relative nel Presentation Tier del 
+\bar under
+back-end
+\bar default
+.
 \end_layout
 
 \begin_layout Subsubsection
 
 \series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.condivisi"
+
+\end_inset
+
 com.safetyGame.android.condivisi.Xxx
 \end_layout
 
@@ -787,7 +901,11 @@ Relazioni d'uso di altre componenti:
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
 Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
-oni tra i vari livelli del Front-end.
+oni tra i vari livelli del 
+\bar under
+front-end
+\bar default
+.
 \series bold
 
 \begin_inset Newline newline

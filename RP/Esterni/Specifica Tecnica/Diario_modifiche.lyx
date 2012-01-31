@@ -141,8 +141,8 @@ hline
 
 
 \backslash
-emph{Completato capitolo 11 (Prototipi di interfaccia utente)} & Marco Begolo
- & 2012/01/29 & V0.3 
+emph{Completato capitolo 12 (Prototipi di interfaccia utente)} & Marco Begolo
+ & 2012/01/30 & V0.15 
 \backslash
 
 \backslash
@@ -153,13 +153,237 @@ hline
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 11 : Tracciamento requisiti - componenti} & Gabriele
+ facchin & 2012/01/16 & V0.14 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 8 : Back-End} & Gabriele Facchin & 2012/01/29 &
+ V0.13 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 10 : Tracciamento componenti - requisiti} & Marco
+ Begolo & 2012/01/28 & V0.12 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 9 : Diagramma di attività} & Lorenzo Braghetto
+ & 2012/01/25 & V0.11 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 13 : Introduzione} & Giacomo Quadrio & 2012/01/24
+ & V0.10 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 6 : Front-End Web} & Giacomo Quadrio & 2012/01/23
+ & V0.9 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 5 : Front-End Desktop} & Marco Begolo  & 2012/01/21
+ & V0.8 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 7 : Front-End Mobile} & Lorenzo Braghetto & 2012/01/18
+ & V0.7 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 4 : Architettura Generale} & Giacomo Quadrio &
+ 2012/01/16 & V0.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 3 : Strumenti} & Marco Begolo & 2012/01/16 & V0.5
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Iniziata realizzazione Capitolo 2: Design Pattern} & Giacomo Quadrio
+ & 2012/01/15 & V0.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Realizzato Capitolo 1 : Introduzione} & Bragheto Lorenzo & 2012/01/14
+ & V0.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		
 \backslash
 emph{Sistemazione del file sorgente per fare in modo che includa tutti i
  capitoli come file a parte, cos
 \backslash
 'i come la prima pagina.
- Iniziata la stesura del capitolo 3pag} & Giorgio Maggiolo & 06/12/2011
+ Iniziata la stesura del capitolo 3pag} & Gabriele Facchin & 2012/01/16
  & V0.2 
 \backslash
 
@@ -176,8 +400,8 @@ hline
 emph{Inizio creazione del documento.
  Creato lo schema base e iniziato a scrivere l'introduzione e il capitolo
  sulle comunicazioni.
- Impostato inoltre lo schema grafico iniziale del documento stesso.} & Giorgio
- Maggiolo & 05/12/2011 & V0.1 
+ Impostato inoltre lo schema grafico iniziale del documento stesso.} & Gabriele
+ Facchin & 2012/01/13 & V0.1 
 \backslash
 
 \backslash

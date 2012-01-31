@@ -65,7 +65,7 @@ Resoconto attività di verifica
 \end_layout
 
 \begin_layout Subsection
-Revisione dei requisiti
+Revisione dei Requisiti
 \end_layout
 
 \begin_layout Standard
@@ -84,13 +84,37 @@ un'accurata
 \lang italian
  rilettura da parte dei revisori.
  Sono stati poi controllati anche i contenuti tabellari e grafici.
- La segnalazione di irregolarità è avvenuta tramite Ticket che sono state
- prese in carico successivamente dal redattore e risolte.
+ La segnalazione di irregolarità è avvenuta tramite 
+\bar under
+Ticket
+\bar default
+ che sono state prese in carico successivamente dal redattore e risolte.
 \begin_inset Newline newline
 \end_inset
 
 Infine, per effettuare il doppio tracciamento, si sono controllate le apposite
  tabelle come descritto nel capitolo 2.1.
+\end_layout
+
+\begin_layout Subsection
+Revisione di Progettazione
+\end_layout
+
+\begin_layout Standard
+Anche in tale fase è stata effettuata un'accurata analisi statica sui documenti
+ in maniera simile a quanto avvenuto nella fase di Revisione dei Requisiti.
+ Una particolare attenzione è stata però posta nella fase di verifica dei
+ diagrammi UML in quanto la gran parte degli errori e delle imprecisioni
+ rilevate nei documenti presentati durante la precedente revisione erano
+ concentrati in tale sezione.
+ Nei documenti di Specifica Tecnica e Piano di Qualifica è poi stato fondamental
+e effetuare un'adeguata ed attenta fase di tracciamento.
+ Come in precedenza sono stati infine utilizzati i 
+\bar under
+Ticket 
+\bar default
+per segnalare eventuali irregolarità ed errori che sono stati poi presi
+ in carico dal redattore e risolti.
 \end_layout
 
 \end_body
