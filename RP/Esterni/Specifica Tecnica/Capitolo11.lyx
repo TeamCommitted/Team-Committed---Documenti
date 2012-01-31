@@ -5,6 +5,7 @@
 \textclass article
 \begin_preamble
 \usepackage{longtable}
+\usepackage{lscape}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -82,16 +83,31 @@ status open
 
 \begin_layout Plain Layout
 
+{
+\backslash
+fontsize{0,1mm}{0,1mm}
+\backslash
+selectfont
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
-begin{center}
+begin{center} 
+\backslash
+begin{landscape}
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
-begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+begin{longtable}{ p{1cm} | p{1,5cm} | p{3,5cm} |  p{4cm} |  p{3.5cm} | p{3,5cm}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -495,7 +511,16 @@ uline{Dipendenti Autenticati} delle domande precaricate & view.Notifica &
 
 \begin_layout Plain Layout
 
-& & logic.Timer & control.ControlDipendente & & 
+& & logic.Timer & control.ControlDipendente & model.ModelDomanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.Domanda & & condivisi.Domanda & 
 \backslash
 
 \backslash
@@ -538,7 +563,16 @@ uline{Dipendente Autenticato} potrà richiedere al sistema di venire sottoposto
 
 \begin_layout Plain Layout
 
-& & logic.ClientWeb & & & 
+& & logic.ClientWeb & & model.ModelDomanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.Domanda & & condivisi.Domanda & 
 \backslash
 
 \backslash
@@ -628,7 +662,8 @@ hline
 \begin_layout Plain Layout
 
 RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
- multipla &  &  &  &  
+ multipla &  & control.ControlDipendente & controller.ControllerDomande &
+  
 \backslash
 
 \backslash
@@ -641,8 +676,8 @@ hline
 
 RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
  con foto (entrambe con le modalità sopra citate),  scansione di codice
- QR nel tempo limite, scansione di codici QR nell'ordine corretto &  & 
- &  &  
+ QR nel tempo limite, scansione di codici QR nell'ordine corretto &  & control.Co
+ntrolDipendente & controller.ControllerDomande &  
 \backslash
 
 \backslash
@@ -655,7 +690,8 @@ hline
 
 RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
  trova errori nella foto, trova differenze nella foto, registra i codici
- RF-ID nell'ordine corretto &  &  &  &  
+ RF-ID nell'ordine corretto &  & control.ControlDipendente & controller.Controller
+Domande &  
 \backslash
 
 \backslash
@@ -670,11 +706,34 @@ RFOB 10 & Un
 \backslash
 uline{Dipendente Autenticato} potrà modificare i propri dati personali,
  ovvero password e indirizzo di posta elettronica &  & view.DipendenteImpl
- & view.DatipersonaliActivity&  
+ & view.DatipersonaliActivity & checker.CheckDati 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+ &  &  & controller.ControlDipendente & controller.ControllerDati & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ & & & model.ModelDipendente & model.ModelDipendente & 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -734,7 +793,21 @@ uline{Dipendente Autenticato} potrà visualizzare i propri dati personali
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ & & & model.ModelDipendente & model.ModelDipendente & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -773,7 +846,7 @@ RFOB 13 & Un
 uline{Dipendente Autenticato} a cui viene proposta la possibilità di rispondere
  ad una domanda potrà scegliere di visualizzarla e quindi rispondere, oppure
  rimandarla e rispondere successivamente & view.notifica & view.DipendenteImpl
- & view.TimerNotifica &  
+ & view.TimerNotifica &  controller.ControllerDomanda 
 \backslash
 
 \backslash
@@ -832,7 +905,7 @@ RFOB 15 & Un
 \backslash
 uline{Dipendente Autenticato} dovrà avere la possibilità di consultare le
  informazioni riguardanti i suoi punteggi & view.Lanciatore & view.DipendenteImpl
- & view.PunteggiActivity &  
+ & view.PunteggiActivity & controller.ControllerPunteggi 
 \backslash
 
 \backslash
@@ -881,7 +954,8 @@ uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte
 
 \begin_layout Plain Layout
 
-& &  & model.ModelTrofeo & & condivisi.Trofeo 
+& &  & model.ModelTrofeo & controller.ControllerPunteggi & condivisi.Trofeo
+ 
 \backslash
 
 \backslash
@@ -890,7 +964,16 @@ uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte
 
 \begin_layout Plain Layout
 
-& &  & model.ModelPunteggio & & access.AccessTrofei 
+& &  & model.ModelPunteggio & model.ModelPunteggi & access.AccessTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
 \backslash
 
 \backslash
@@ -1103,6 +1186,13 @@ end{longtable}
 
 
 \backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 end{center}
 \end_layout
 
@@ -1123,14 +1213,16 @@ status open
 
 
 \backslash
-begin{center}
+begin{center} 
+\backslash
+begin{landscape}
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
-begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+begin{longtable}{ p{1cm} | p{2cm} | p{3,5cm} |  p{4cm} |  p{1cm} | p{3cm}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1385,7 +1477,8 @@ RFOB 18 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
  dei 
 \backslash
-uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  &  
+uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  & checker.CheckDipendenti
+ 
 \backslash
 
 \backslash
@@ -1401,7 +1494,7 @@ RFOB 19 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
 \backslash
 uline{Dipendenti} inserendone i dati personali &  & view.AmministratoreAziendaImp
-l &  &  
+l &  & checher.CheckDipendenti 
 \backslash
 
 \backslash
@@ -1471,7 +1564,8 @@ RFOB 20 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} potrà eliminare un account 
 \backslash
-uline{Dipendente} &  & view.AmministratoreAziendaImpl &  &  
+uline{Dipendente} &  & view.AmministratoreAziendaImpl &  & checker.CheckDipendenti
+ 
 \backslash
 
 \backslash
@@ -1487,7 +1581,8 @@ RFOB 21 & Un
 uline{Amministratore Azienda Autenticato} avrà la possibiltà di modificare
  i dati personali dei 
 \backslash
-uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  &  
+uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  & checker.CheckDati
+ 
 \backslash
 
 \backslash
@@ -1553,7 +1648,8 @@ RFOB 23 & L'
 uline{Amministratore Azienda Autenticato} dovrà poter visionare le statistiche
  personali di ogni singolo 
 \backslash
-uline{Dipendente} &  & view.AmministratoreAziendaImpl &  &  
+uline{Dipendente} &  & view.AmministratoreAziendaImpl &  & checker.CheckPunteggi
+ 
 \backslash
 
 \backslash
@@ -1688,6 +1784,13 @@ end{longtable}
 
 
 \backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 end{center}
 \end_layout
 
@@ -1708,14 +1811,16 @@ status open
 
 
 \backslash
-begin{center}
+begin{center} 
+\backslash
+begin{landscape}
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
-begin{longtable}{ l | p{5cm} | p{1,2cm} |  p{1cm} |  p{1cm} | p{1,5cm}}
+begin{longtable}{ p{1cm} | p{2cm} | p{3,5cm} |  p{4cm} |  p{1cm} | p{3cm}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1925,11 +2030,35 @@ hline
 RFOB 27 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
- le domande dell'azienda &  & view.AmministratoreSicurezzaImpl &  &  
+ le domande dell'azienda &  & view.AmministratoreSicurezzaImpl &  &  controller.Co
+ntrollerCalderone 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & checker.CheckModificaDomanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -1968,12 +2097,35 @@ hline
 RFOB 28 & Un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare l'insieme
- delle domande di un'azienda &  & view.AmministratoreSicurezzaImpl &  & 
- 
+ delle domande di un'azienda &  & view.AmministratoreSicurezzaImpl &  & controlle
+r.ControllerCalderone 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & checker.CheckModificaDomanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
@@ -2107,9 +2259,21 @@ end{longtable}
 
 \begin_layout Plain Layout
 
+  
+\backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
