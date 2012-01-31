@@ -157,7 +157,7 @@ hline
 	
 \backslash
 emph{Verificato.
- In attesa di approvazione} & Gabriele Facchin & 2012/01/21 &V1.7 
+ In attesa di approvazione} & Gabriele Facchin & 2012/01/21 &V1.8 
 \backslash
 
 \backslash
@@ -178,8 +178,8 @@ hline
 
 
 \backslash
-emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo - Test
- di sistema} & Giacomo Quadrio & 2012/01/20 & V1.6 
+emph{Inserito capitolo 5: Pianificazione ed esecuzione del collaudo - Test
+ di sistema} & Giacomo Quadrio & 2012/01/20 & V1.7 
 \backslash
 
 \backslash
@@ -196,7 +196,25 @@ hline
 
 
 \backslash
-emph{Inserito capitolo 6: Pianificazione ed esecuzione del collaudo - Test
+emph{Inserita sezione 7.2: Revisione di progettazione} & Lorenzo Braghetto
+ & 2012/01/20 & V1.6 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Inserito capitolo 5: Pianificazione ed esecuzione del collaudo - Test
  di integrazione} & Lorenzo Braghetto & 2012/01/19 & V1.5 
 \backslash
 
@@ -232,7 +250,7 @@ hline
 
 
 \backslash
-emph{Ampliate tecniche inspection del codice} & Giacomo Quadrio & 2012/01/17
+emph{Ampliate tecniche inspection del codice} & Lorenzo Braghetto & 2012/01/17
  & V1.3 
 \backslash
 
