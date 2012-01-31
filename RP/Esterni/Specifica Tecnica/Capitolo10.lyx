@@ -86,7 +86,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | p{2cm} | r}
+begin{longtable}{ p{3cm} | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -447,7 +447,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | p{2cm} | r}
+begin{longtable}{ p{3cm} | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1234,7 +1234,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | p{2cm} | r}
+begin{longtable}{ p{3cm} | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1624,7 +1624,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{5cm} | p{2cm} | r}
+begin{longtable}{ p{3cm} | p{6cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
