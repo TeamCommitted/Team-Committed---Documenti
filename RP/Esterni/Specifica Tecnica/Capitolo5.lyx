@@ -96,7 +96,7 @@ Front-end Desktop
 \end_layout
 
 \begin_layout Subsection
-Presentation-Tier
+Presentation Tier
 \end_layout
 
 \begin_layout Standard
@@ -118,11 +118,7 @@ Dipendente Autenticato
 \series bold
 Relazioni d'uso di altre componenti: 
 \series default
-Questo componente è costituito dal package 
-\series bold
-view
-\series default
-.
+Questo componente è costituito dal package view.
 \end_layout
 
 \begin_layout Subsubsection
@@ -154,19 +150,12 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe utilizza oggetti di tipo 
-\series bold
-ClientWeb
-\series default
- per comunicare con il 
+La classe utilizza oggetti di tipo ClientWeb per comunicare con il 
 \bar under
 Dipendente
 \bar default
- via web nel caso di domanda accettata e oggetti di tipo 
-\series bold
-ClientBackEnd
-\series default
- per comunicare con il back-end per aggiornare il log del 
+ via web nel caso di domanda accettata e oggetti di tipo ClientBackEnd per
+ comunicare con il back-end per aggiornare il log del 
 \bar under
 Dipendente Autenticato
 \bar default
@@ -178,19 +167,12 @@ Dipendente Autenticato
 
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-Viene richiamato dalla classe 
+Viene richiamato dalla classe Timer e ne fornisce funzioni, richiama le
+ funzioni di
 \series bold
-Timer
+ 
 \series default
- e ne fornisce funzioni, richiama le funzioni di 
-\series bold
-ClientBackEnd
-\series default
- e 
-\series bold
-ClientWeb
-\series default
-.
+ClientBackEnd e ClientWeb.
 \begin_inset Newline newline
 \end_inset
 
@@ -209,11 +191,7 @@ Dipendente Autenticato
  la presenza di una nuova domanda a cui poter rispondere.
  In seguito resta in attesa dell'input da dipendente sull'accettare la visualizz
 azione della domanda o sul posticiparla comunicando la relativa risposta
- al ClientWeb e/o al 
-\series bold
-ClientBackEnd
-\series default
-.
+ al ClientWeb e/o al ClientBackEnd.
 \end_layout
 
 \begin_layout Subsubsection
@@ -246,21 +224,13 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe utilizza oggetti di tipo 
-\series bold
-ClientWeb
-\series default
- per comunicare al 
+La classe utilizza oggetti di tipo ClientWeb per comunicare al 
 \bar under
 Dipendente
 \bar default
  i propri dati nel caso di login effettuato con successo e oggetti di tipo
- 
-\series bold
-ClientBackEnd
-\series default
- per comunicare al back end, in caso di successo, di aggiornare il log di
- quel 
+ ClientBackEnd per comunicare al back end, in caso di successo, di aggiornare
+ il log di quel 
 \bar under
 Dipendente
 \bar default
@@ -293,27 +263,17 @@ Attività svolte e dati trattati:
 Dipendente
 \bar default
 .
- L'oggetto login viene poi passato al 
-\series bold
-ClientBackEnd
-\series default
- stabilire se le credenziali sono valide, in caso affermativo richiama il
- 
-\series bold
-ClientWeb
-\series default
-, in caso negativo ripropone la schermata di login standard.
+ L'oggetto login viene poi passato al ClientBackEnd stabilire se le credenziali
+ sono valide, in caso affermativo richiama il ClientWeb, in caso negativo
+ ripropone la schermata di login standard.
  Fornisce inoltre un modulo per la richiesta di generazione casuale della
  password in caso che questa venga smarrita da parte del 
 \bar under
 Dipendente
 \bar default
 .
- La richiesta passa direttamente al 
-\series bold
-ClientBackEnd
-\series default
- che la elabora e si rimette in attesa.
+ La richiesta passa direttamente al ClientBackEnd che la elabora e si rimette
+ in attesa.
 \end_layout
 
 \begin_layout Subsubsection
@@ -346,19 +306,13 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe utilizza oggetti di tipo 
-\series bold
-ClientWeb
-\series default
- per comunicare le azioni scelte dal 
+La classe utilizza oggetti di tipo ClientWeb per comunicare le azioni scelte
+ dal 
 \bar under
 Dipendente Autenticato
 \bar default
- e oggetti di tipo 
-\series bold
-ClientBackEnd
-\series default
- per comunicare al back end di aggiornare il log del 
+ e oggetti di tipo ClientBackEnd per comunicare al back end di aggiornare
+ il log del 
 \bar under
 Dipendente
 \bar default
@@ -398,13 +352,13 @@ Dipendente
 Autenticato
 \bar default
  di utilizzare tutte le funzionalità messe a disposizione per lui.
- Le richieste vengono mandate al 
+ Le richieste vengono mandate al ClientWeb
 \series bold
-ClientWeb 
+ 
 \series default
-che le elabora e la notifica della richiesta viene mandata al 
+che le elabora e la notifica della richiesta viene mandata al ClientBackEnd
 \series bold
-ClientBackEnd 
+ 
 \series default
 che si preoccuperà principalmente di aggiornare il log del 
 \bar under
@@ -414,7 +368,7 @@ Dipendente Autenticato
 \end_layout
 
 \begin_layout Subsection
-Logic-Tier
+Logic Tier
 \end_layout
 
 \begin_layout Standard
@@ -446,19 +400,19 @@ Dipendente Autenticato
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- Il componente è costituito dal package 
+ Il componente è costituito dal package
 \series bold
-logic 
+ 
+\series default
+logic
+\series bold
+ 
 \series default
 e
 \series bold
  
 \series default
-da quello 
-\series bold
-dati
-\series default
-.
+da quello dati.
 \begin_inset Newline newline
 \end_inset
 
@@ -476,16 +430,12 @@ com.safetyGame.desktop.logic.Timer
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- La classe 
+ La classe
 \series bold
-Timer
+ 
 \series default
- ha l'obiettivo di implementare un contatore temporizzato; al termine del
- tempo istanzierà un oggetto della classe 
-\series bold
-Notifica
-\series default
-.
+Timer ha l'obiettivo di implementare un contatore temporizzato; al termine
+ del tempo istanzierà un oggetto della classe Notifica.
 \begin_inset Newline newline
 \end_inset
 
@@ -498,7 +448,11 @@ Relazioni d'uso di altre componenti:
 \emph default
 La classe utilizza oggetti di tipo
 \series bold
- Notifica 
+ 
+\series default
+Notifica
+\series bold
+ 
 \series default
 per generare la notifica di una nuova domanda al 
 \bar under
@@ -522,11 +476,7 @@ Attività svolte e dati trattati:
 \series default
  Decrementerà un contatore con un certo ritardo, in modo da tenere traccia
  del tempo trascorso dalla sua istanziazione.
- Allo scadere del tempo, creerà un oggetto di tipo 
-\series bold
-Nofica
-\series default
-.
+ Allo scadere del tempo, creerà un oggetto di tipo Nofica.
 \end_layout
 
 \begin_layout Subsubsection
@@ -540,24 +490,17 @@ com.safetyGame.desktop.logic.ClientBackEnd
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- La classe 
+ La classe ClientBackEnd, istanzia un oggetto con la funzione di comunicare
+ con la parte back-end.
+ Contiene gli oggetti
 \series bold
-ClientBackEnd
+ 
 \series default
-, istanzia un oggetto con la funzione di comunicare con la parte back-end.
- Contiene gli oggetti 
+Log e dati Login utili per la comunicazione con il back-end e con la classe
 \series bold
-Log
+ 
 \series default
- e dati 
-\series bold
-Login
-\series default
- utili per la comunicazione con il back-end e con la classe 
-\series bold
-ClientWeb
-\series default
-.
+ClientWeb.
 \begin_inset Newline newline
 \end_inset
 
@@ -565,45 +508,17 @@ ClientWeb
 \series bold
 Relazioni d'uso di altre componenti: 
 \series default
-La classe utilizza oggetti di tipo 
+La classe utilizza oggetti di tipo Log e
 \series bold
-Log
+ 
 \series default
- e 
+Login per gestire le comunicazioni con i database e con il Presentation-Tier.
+ Scambia l'oggetto Login con la classe ClientWeb.
+ Fornisce le funzioni per la gestione dell'oggetto Log alle classi
 \series bold
-Login
+ 
 \series default
- per gestire le comunicazioni con i database e con il Presentation-Tier.
- Scambia l'oggetto 
-\series bold
-Login
-\series default
- con la classe 
-\series bold
-ClientWeb
-\series default
-.
- Fornisce le funzioni per la gestione dell'oggetto 
-\series bold
-Log
-\series default
- alle classi 
-\series bold
-Login
-\series default
-, 
-\series bold
-Lanciatore
-\series default
-, 
-\series bold
-Notifica
-\series default
- e 
-\series bold
-ClientWeb
-\series default
-.
+Login, Lanciatore, Notifica e ClientWeb.
 \begin_inset Newline newline
 \end_inset
 
@@ -620,28 +535,25 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- Comunica al back-end gli oggetti di tipo 
+ Comunica al back-end gli oggetti di tipo
 \series bold
-Log
+ 
 \series default
- di ogni 
+Log di ogni 
 \bar under
 Dipendente Autenticato
 \bar default
- che verranno in seguito salvati e gli oggetti 
+ che verranno in seguito salvati e gli oggetti Login che verranno in seguito
+ controllati.
+ Ritorna il risultato del controllo degli oggetti di tipo
 \series bold
+ 
+\series default
 Login
-\series default
- che verranno in seguito controllati.
- Ritorna il risultato del controllo degli oggetti di tipo 
 \series bold
-Login 
+ 
 \series default
-alla classe 
-\series bold
-ClientWeb
-\series default
-.
+alla classe ClientWeb.
 \end_layout
 
 \begin_layout Subsubsection
@@ -655,11 +567,8 @@ com.safetyGame.desktop.logic.ClientWeb
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-La classe 
-\series bold
-ClientWeb
-\series default
-, istanzia un oggetto con la funzione di comunicare con la parte 
+La classe ClientWeb, istanzia un oggetto con la funzione di comunicare con
+ la parte 
 \bar under
 web
 \bar default
@@ -668,11 +577,8 @@ web
 \series bold
 Login
 \series default
- utili per la comunicazione con la classe 
-\series bold
-ClientBackEnd
-\series default
- e con il Presentation-Tier.
+ utili per la comunicazione con la classe ClientBackEnd e con il Presentation-Ti
+er.
 \series bold
 
 \begin_inset Newline newline
@@ -683,24 +589,13 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe utilizza oggetti di tipo 
+La classe utilizza oggetti di tipo Login per gestire le comunicazioni con
+ il Presentation-Tier e con la classe ClientBackEnd.
+ Scambia l'oggetto Login
 \series bold
-Login
+ 
 \series default
- per gestire le comunicazioni con il Presentation-Tier e con la classe 
-\series bold
-ClientBackEnd
-\series default
-.
- Scambia l'oggetto 
-\series bold
-Login
-\series default
- con la classe 
-\series bold
-ClientBackEnd
-\series default
- e con il Presentation-Tier.
+con la classe ClientBackEnd e con il Presentation-Tier.
 \begin_inset Newline newline
 \end_inset
 
@@ -729,15 +624,11 @@ Attività svolte e dati trattati:
  
 \series default
 \emph default
-Comunica alla classe 
+Comunica alla classe ClientBackEnd l'oggeto di tipo
 \series bold
-ClientBackEnd
+ 
 \series default
- l'oggeto di tipo 
-\series bold
-Login
-\series default
- per l'autenticazione del 
+Login per l'autenticazione del 
 \bar under
 Dipendente
 \bar default
@@ -747,11 +638,7 @@ Dipendente
 \bar under
 Dipendente Autenticato
 \bar default
- tra la classe 
-\series bold
-ClientBackEnd
-\series default
- e il Presentation-Layer.
+ tra la classe ClientBackEnd e il Presentation-Layer.
 \end_layout
 
 \begin_layout Subsubsection
@@ -768,19 +655,12 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe 
-\series bold
-DatiLogin
-\series default
- istanzia un oggetto che rappresenta le credenziali con cui un 
+La classe DatiLogin istanzia un oggetto che rappresenta le credenziali con
+ cui un 
 \bar under
 Dipendente Autenticato
 \bar default
- ha effettuato il 
-\series bold
-Login
-\series default
-.
+ ha effettuato il Login.
 \begin_inset Newline newline
 \end_inset
 
@@ -796,28 +676,13 @@ Nessuna.
 \series bold
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-La classe 
-\series bold
-DatiLogin
-\series default
- viene utilizzata come contenitore dei dati del login del 
+La classe DatiLogin viene utilizzata come contenitore dei dati del login
+ del 
 \bar under
 Dipendente
 \bar default
 .
- La classe viene utilizzata dalle classi 
-\series bold
-Login
-\series default
- e 
-\series bold
-ClientBackEnd
-\series default
- e 
-\series bold
-ClientWeb
-\series default
-.
+ La classe viene utilizzata dalle classi Login e ClientBackEnd e ClientWeb.
 \begin_inset Newline newline
 \end_inset
 
@@ -825,11 +690,11 @@ ClientWeb
 \series bold
 Attività svolte e dati trattati:
 \series default
- L'oggetto istanziato dalla classe conterrà le credenziali del 
+ L'oggetto istanziato dalla classe conterrà le credenziali del
 \series bold
-Login
+ 
 \series default
-.
+Login.
 \end_layout
 
 \begin_layout Subsubsection
@@ -846,11 +711,11 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe 
+La classe
 \series bold
-Log
+ 
 \series default
- istanzia un oggetto che rappresenta il tracciamento di tutte le azioni
+Log istanzia un oggetto che rappresenta il tracciamento di tutte le azioni
  effettuate da un 
 \bar under
 Dipendente Autenticato
@@ -874,12 +739,8 @@ Nessuna.
 \series bold
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-La classe 
-\series bold
-Log
-\series default
- viene utilizzata come contenitore di dati del tracciamento di tutte le
- azioni del 
+La classe Log viene utilizzata come contenitore di dati del tracciamento
+ di tutte le azioni del 
 \bar under
 Dipendente
 \bar default
@@ -889,15 +750,7 @@ Autenticato
 \bar default
 .
  La classe viene utilizzata da tutte le classi del Presentation-Tier e dalle
- classi 
-\series bold
-ClientBackEnd
-\series default
- e 
-\series bold
-ClientWeb
-\series default
-.
+ classi ClientBackEnd e ClientWeb.
 \begin_inset Newline newline
 \end_inset
 
