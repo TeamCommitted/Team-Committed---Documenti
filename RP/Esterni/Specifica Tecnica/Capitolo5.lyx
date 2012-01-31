@@ -164,7 +164,7 @@ Dipendente
 \bar default
  via web nel caso di domanda accettata e oggetti di tipo 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  per comunicare con il back-end per aggiornare il log del 
 \bar under
@@ -184,7 +184,7 @@ Timer
 \series default
  e ne fornisce funzioni, richiama le funzioni di 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e 
 \series bold
@@ -209,7 +209,11 @@ Dipendente Autenticato
  la presenza di una nuova domanda a cui poter rispondere.
  In seguito resta in attesa dell'input da dipendente sull'accettare la visualizz
 azione della domanda o sul posticiparla comunicando la relativa risposta
- al ClientWeb e/o al ClientBack.
+ al ClientWeb e/o al 
+\series bold
+ClientBackEnd
+\series default
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -253,7 +257,7 @@ Dipendente
  i propri dati nel caso di login effettuato con successo e oggetti di tipo
  
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  per comunicare al back end, in caso di successo, di aggiornare il log di
  quel 
@@ -291,7 +295,7 @@ Dipendente
 .
  L'oggetto login viene poi passato al 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  stabilire se le credenziali sono valide, in caso affermativo richiama il
  
@@ -307,7 +311,7 @@ Dipendente
 .
  La richiesta passa direttamente al 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  che la elabora e si rimette in attesa.
 \end_layout
@@ -352,7 +356,7 @@ Dipendente Autenticato
 \bar default
  e oggetti di tipo 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  per comunicare al back end di aggiornare il log del 
 \bar under
@@ -400,7 +404,7 @@ ClientWeb
 \series default
 che le elabora e la notifica della richiesta viene mandata al 
 \series bold
-ClientBack 
+ClientBackEnd 
 \series default
 che si preoccuperà principalmente di aggiornare il log del 
 \bar under
@@ -528,7 +532,7 @@ Nofica
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.desktop.logic.ClientBack
+com.safetyGame.desktop.logic.ClientBackEnd
 \end_layout
 
 \begin_layout Standard
@@ -538,7 +542,7 @@ Tipo, obiettivo e funzione del componente:
 \series default
  La classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
 , istanzia un oggetto con la funzione di comunicare con la parte back-end.
  Contiene gli oggetti 
@@ -666,7 +670,7 @@ Login
 \series default
  utili per la comunicazione con la classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e con il Presentation-Tier.
 \series bold
@@ -685,7 +689,7 @@ Login
 \series default
  per gestire le comunicazioni con il Presentation-Tier e con la classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
 .
  Scambia l'oggetto 
@@ -694,7 +698,7 @@ Login
 \series default
  con la classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e con il Presentation-Tier.
 \begin_inset Newline newline
@@ -727,7 +731,7 @@ Attività svolte e dati trattati:
 \emph default
 Comunica alla classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  l'oggeto di tipo 
 \series bold
@@ -745,7 +749,7 @@ Dipendente Autenticato
 \bar default
  tra la classe 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e il Presentation-Layer.
 \end_layout
@@ -753,7 +757,7 @@ ClientBack
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.desktop.dati.DatiLogin
+com.safetyGame.desktop.condivisi.DatiLogin
 \end_layout
 
 \begin_layout Standard
@@ -807,7 +811,7 @@ Login
 \series default
  e 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e 
 \series bold
@@ -831,7 +835,7 @@ Login
 \begin_layout Subsubsection
 
 \series bold
-com.safetyGame.desktop.dati.Log
+com.safetyGame.desktop.condivisi.Log
 \end_layout
 
 \begin_layout Standard
@@ -887,7 +891,7 @@ Autenticato
  La classe viene utilizzata da tutte le classi del Presentation-Tier e dalle
  classi 
 \series bold
-ClientBack
+ClientBackEnd
 \series default
  e 
 \series bold
