@@ -81,6 +81,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename img/ThreeTier.jpg
 
@@ -213,7 +214,7 @@ Logic-tier
 Data-tier
 \emph default
  si occuperà di astrarre la base di dati e della persistenza o il recupero
- da essa dei dati necessarie per eseguire le computazioni richieste
+ da essa dei dati necessari per eseguire le computazioni richieste
 \end_layout
 
 \end_deeper
@@ -259,6 +260,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename img/MVC.jpeg
 	scale 50
@@ -420,15 +422,38 @@ pull
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Subsection
+Altri Design Pattern
+\end_layout
 
-\bar under
-Design pattern
-\bar default
- non architetturali non sono stati applicati in quanto non ne sono stati
- trovati di utili ai fini del progetto.
- Ci riserviamo comunque di aggiungerne durante la fase di Progettazione
- di Dettaglio e Codifica nel caso dovessimo trovarne applicazioni utili.
+\begin_layout Standard
+Durante la fase di 
+\emph on
+Progettazione Archittetturale
+\emph default
+ non sono emersi problemi risolvibili tramite utilizzo di Design Pattern
+ diversi da quelli già descritti.
+ Sono stati valutati attentamente alcuni Design Pattern architetturali,
+ come 
+\emph on
+Singleton
+\emph default
+ e 
+\emph on
+DAO
+\emph default
+, i quali non sono stati ritenuti idonei all'applicazione per quest'architettura.
+\end_layout
+
+\begin_layout Standard
+Tuttavia, durante la fase di Progettazione di Dettaglio emergeranno con
+ quasi certezza ulteriori problemi; a qual punto valuteremo l'eventuale
+ inserimento di ulteriori Design Pattern.
+ Dovremo prestare particolare attenzione all'utilizzo dei 
+\emph on
+Design Pattern Progettuali
+\emph default
+ per la definizione di micro-architetture.
 \end_layout
 
 \end_body
