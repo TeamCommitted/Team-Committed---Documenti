@@ -1,0 +1,29 @@
+1 - Architettura generale (Giacomo)
+       titolo
+       Schema arhitettura
+2 - Back-End (Cetto)
+       titolo
+       Diagramma dei package
+3 - Front End Desktop (Giacomo)
+       titolo
+       Diagramma dei package
+4 - Front End Web (Corni)
+       titolo
+       Diagramma dei package
+5 - Front End Mobile (Lorenzo)
+       titolo
+       Diagramma dei package
+6 - Diagrammi delle attività (Facco)
+       titolo
+       Unico diagramma riassuntivo
+7 - Prototipi (Marco) 
+       Titolo
+       Prototipi desk
+       Prototipi mob
+       Prototipi web
+8 - Consuntivo (Giorgio)
+       titolo
+       Consuntivo ore (dove abbiamo sforato e dove abbiamo recuperato)
+       Perchè c'è stata variazione di ore (quindi modifiche AR ecc...)
+       Variazione costo e preventivo
+       Documenti Aggiornati
