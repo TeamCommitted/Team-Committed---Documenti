@@ -1,0 +1,285 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding latin1
+\fontencoding T1
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue"
+\papersize a4paper
+\use_geometry false
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 0
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+INTRODUZIONE
+\end_layout
+
+\begin_layout Subsection
+Scopo del documento
+\end_layout
+
+\begin_layout Standard
+Il presente documento si prefigge lo scopo di presentare al committente
+ l'analisi dei requisiti effettuata dagli analisti del gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ sul capitolato 
+\begin_inset Quotes erd
+\end_inset
+
+
+\series bold
+\bar under
+Piattaforma Mobile di Apprendimento Comportamentale
+\series default
+\bar default
+
+\begin_inset Quotes erd
+\end_inset
+
+ (C3).
+ Questo serve per documentare tutti i bisogni identificati dal proponente
+ MENTIS S.r.l.
+ .
+\end_layout
+
+\begin_layout Subsection
+Scopo del prodotto
+\end_layout
+
+\begin_layout Standard
+Il prodotto denominato 
+\series bold
+\bar under
+SafetyGame
+\series default
+\bar default
+ si propone di fornire uno strumento informatico per la gestione delle pratiche
+ di sicurezza sul lavoro in modo dinamico, evitando corsi di formazione
+ che spesso si dimostrano inutili per la poca attenzione prestata dai partecipan
+ti.
+\end_layout
+
+\begin_layout Standard
+Lo strumento si basa sul concetto di 
+\series bold
+\bar under
+gamification
+\bar default
+ 
+\series default
+che comporta competizione tra i dipendenti all'interno delle aziende creando
+ un sano interesse per un argomento delicato come la sicurezza sul luogo
+ di lavoro.
+\end_layout
+
+\begin_layout Standard
+Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
+ di 
+\bar under
+PC
+\bar default
+, sia per quelli che hanno la necessità di spostarsi e che quindi sono forniti
+ di 
+\bar under
+dispositivi mobili
+\bar default
+.
+ Ad essi verranno poste periodicamente domande, di varia tipologia, le cui
+ risposte comporteranno l'assegnazione di un punteggio generando una classifica
+ aziendale.
+\end_layout
+
+\begin_layout Subsection
+Glossario
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario-V2.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
+ Tutti i termini presenti nel glossario che vengono citati nel resto del
+ documento verranno sottolineati.
+\end_layout
+
+\begin_layout Subsection
+Riferimenti
+\end_layout
+
+\begin_layout Subsubsection
+Normativi
+\end_layout
+
+\begin_layout Itemize
+Capitolato d'Appalto: 
+\series bold
+\bar under
+Piattaforma Mobile di Apprendimento Comportamentale
+\series default
+\bar default
+, v1.1, rilasciato dal 
+\bar under
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+
+\bar default
+ MENTIS S.r.l.
+ e reperibile all'indirizzo: 
+\family typewriter
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.math.unipd.it/tullio/IS-1/2011/Progetto/pC3.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V2.0
+\series default
+ che regola e accompagna tutti i file ufficiali del progetto.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verbale05122011.pdf
+\series default
+, verbale dell'incontro avuto con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+ in data 2011/12/05
+\end_layout
+
+\begin_layout Subsubsection
+Informativi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Christopher Cunningam (2011),
+\series bold
+\emph default
+ Gamification by Design, 
+\series default
+\emph on
+Canada, O'REILLY Ed.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Joselin Linder (2010), 
+\series bold
+\emph default
+Game-Based Marketing, 
+\series default
+\emph on
+Canada, John Wiley & Sons, Inc.
+\end_layout
+
+\end_body
+\end_document
