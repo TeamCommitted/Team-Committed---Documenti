@@ -1,0 +1,431 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Consuntivi
+\end_layout
+
+\begin_layout Subsection
+Consuntivo Progettazione Architetturale
+\end_layout
+
+\begin_layout Standard
+Si propone di seguito il consuntivo riguardante la fase di progettazione
+ architetturale.
+\end_layout
+
+\begin_layout Standard
+L'inizio della fase è stato posticipato alla data 2012/01/06, in quanto
+ il gruppo ha dovuto studiare alcune tecnologie per poter realizzare al
+ meglio la 
+\emph on
+Progettazione Architetturale
+\emph default
+, in modo da evitare di proporre un prodotto non conforme ai requisiti o
+ di definire un'architettura difficilmente realizzabile.
+\end_layout
+
+\begin_layout Standard
+La fine della fase è stata anticipata al 2012/01/31, riducendo in questo
+ modo i giorni disponibili a 25.
+ Il 
+\emph on
+responsabile
+\emph default
+ ha quindi deciso di concentrare tutte le attività del gruppo secondo lo
+ schema in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt,"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Inoltre, poichè la valutazione della RR è stata consegnata il giorno 2012/01/15,
+ i compiti di 
+\emph on
+Analisi
+\emph default
+ sono scalati a cavallo fra il primo ed il secondo periodo, come si può
+ vedere nel diagramma di Gantt in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt,"
+
+\end_inset
+
+.
+ Tuttavia, i membri incaricati a svolgere questo compito hanno accettato
+ di eseguirlo parallelamente ai compiti assegnati loro per il secondo periodo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Consuntivo PA/GanttPA.jpg
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di Gantt, consuntivo fase di Progettazione Architetturale
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt,"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tabella-che-indica"
+
+\end_inset
+
+ mostra la variazione delle ore di lavoro rispetto alla Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Dettaglio-delle-ore-RP"
+
+\end_inset
+
+, mentre la Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tabella-che-indica-1"
+
+\end_inset
+
+ riassume come le differenze di lavoro abbiano influenzato il preventivo
+ fornito in Tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Riassuntivo-delle-ore-RP"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Le ore ed i costi saranno evidenziati con i seguenti colori:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nero:
+\series default
+ indicano che la stima in preventivo è stata rispettata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Rosso:
+\series default
+ indicano che la stima in preventivo è stata ottimistica e che quindi si
+ ha un deficit di risorse disponibili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verde: 
+\series default
+indicano che la stima in preventivo è stata pessimistica e quindi si ha
+ un surplus di risorse disponibili
+\end_layout
+
+\begin_layout Subsubsection
+Consuntivo delle ore di lavoro
+\end_layout
+
+\begin_layout Standard
+A seguire, il consuntivo delle ore di lavoro.
+ La quantità di ore in eccesso (+) o in difetto (-) rispetto a quanto preventiva
+to sarà segnalata fra parentesi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Img/Consuntivo PA/Oreruolo-RP.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabella-che-indica"
+
+\end_inset
+
+Consuntivo delle ore per ruolo nella fase di
+\emph on
+ Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com'è possibile vedere, rispetto a quanto preventivato c'è stato un aumento
+ delle ore assegnate ai 
+\emph on
+Progettisti
+\emph default
+ nel secondo periodo, mentre nel primo periodo, durante la fase di stesura
+ finale dell'Analisi dei Requisiti, c'è stata una diminuzione delle ore
+ di lavoro per gli 
+\emph on
+Analisti
+\emph default
+.
+ Tuttavia, in seguito ad un colloquio avvenuto con il 
+\emph on
+Proponente
+\emph default
+ il giorno 2012/01/26 si è reso necessario rivedere ulteriormente (anche
+ se in minima parte) l'
+\emph on
+Analisi dei Requisiti
+\emph default
+.
+ Questo ha portato ad un'aggiunta di due ore durante il terzo periodo (in
+ particolare il giorno 2012/01/27); il ruolo di 
+\emph on
+Analista
+\emph default
+ per queste due ore è stato ricoperto da 
+\emph on
+Marco Begolo
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+L'aumento delle ore impiegate dai progettisti è da ricondursi al fatto che,
+ per riuscire a definire l'architettura di sistema, c'è stata un'ampia fase
+ di apprendimento legata a tecnologie e metodologie da dover utilizzare
+ per scongiurare il rischio di definire un'architettura non realizzabile.
+ La diminuzione delle ore di lavoro per gli analisti, invece, è da attribuire
+ ad una previsione pessimistica fatta nella fase di analisi.
+\end_layout
+
+\begin_layout Subsubsection
+Consuntivo dei costi di lavoro
+\end_layout
+
+\begin_layout Standard
+A seguire, il consuntivo dei costi di lavoro.
+ I costi in eccesso (+) o in difetto (-) rispetto a quanto preventivato
+ saranno segnalati fra parentesi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Img/Consuntivo PA/oreruolosomm-RP.jpg
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabella-che-indica-1"
+
+\end_inset
+
+Consuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione Architetturale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com'è possibile notare, il costo dovuto al lavoro dei 
+\emph on
+Progettisti
+\emph default
+ è aumentato, mentre è diminuito per quanto riguarda il lavoro degli 
+\emph on
+Analisiti
+\emph default
+.
+ Il costo finale ha subito conseguentemente una variazione, per un totale
+ di 
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 4.187,00
+\series default
+, contro i 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 4.217,00 preventivati, con un risparmio di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 30,00.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,619 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Analisi dei rischi
+\end_layout
+
+\begin_layout Standard
+Dopo aver specificato la suddivisione del lavoro e dei ruoli, è necessario
+ fare una stima dei possibili rischi nei quali è possibile incorrere durante
+ lo sviluppo del progetto.
+ La natura di questi rischi può variare; si passa da una possibile variazione
+ degli strumenti hardware e software necessari allo sviluppo a problemi
+ legati ai singoli membri del gruppo.
+ Inoltre, alcuni rischi possono presentarsi con maggiore probabilità di
+ altri, o avere effetti più o meno incisivi sul rendimento finale del lavoro.
+ Proprio per questi motivi è necessario analizzare con attenzione i seguenti
+ aspetti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eventuali contromisure di correzione
+\end_layout
+
+\begin_layout Subsection
+Strumenti software
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: medio 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: alto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: il software utilizzato per l'intera gestione del progetto è stato scelto
+ e accettato preventivamente dai tutti i componenti del gruppo.
+ In particolare si fa riferimento al software di sviluppo specificato nelle
+ sezioni 2.4 e 2.5 del Piano di Qualifica.
+ I software scelti resteranno, in linea di massima, alla stessa versione
+ decisa all'inizio della fase di analisi per evitare problemi dovuti alla
+ compatibilità.
+ Eventuali lacune nell'utilizzo del software saranno influenti esclusivamente
+ sul singolo membro, il quale dovrà preoccuparsi di colmarle
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: all'inizio della fase di analisi, ogni membro ha accettato di usare la
+ medesima versione di ogni software e di preoccuparsi autonomamente di documenta
+rsi in caso di lacune.
+ In questo modo non vi saranno problemi legati all'incompatibilità fra versioni
+ diverse del software o dall'utilizzo errato di alcuni strumenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: Nel caso i due principi di cui sopra non vengano rispettati, sarà il singolo
+ membro a non rispettarli, di conseguenza sarà compito suo risolvere il
+ problema riadattando il lavoro svolto alla versione corretta del software,
+ e documentandosi adeguatamente nel caso di cattivo utilizzo dello strumento
+\end_layout
+
+\begin_layout Subsection
+Strumenti hardware
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: molto basso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: basso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: l'intero progetto, dalla realizzazione dei documenti al codice, sarà sviluppat
+o su calcolatore.
+ Ogni membro del gruppo possiede l'hardware necessario, e molti possono
+ servirsi di computer 
+\bar under
+notebook
+\bar default
+.
+ Inoltre, sono disponibili tre laboratori forniti di hardware adeguato,
+ nonostante il software non sia perfettamente conforme agli standard scelti.
+ E' possibile che si verifichino problemi che portino all'inutilizzo totale
+ o parziale di alcuni calcolatori
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: ogni membro utilizza principalmente hardware personale per via della maggiore
+ facilità di utilizzo del software scelto.
+ Tuttavia, la presenza di tre laboratori garantisce una risorsa importante,
+ in quanto sarà molto difficile che un membro del gruppo sia impossibilitato
+ ad avere accesso ad un 
+\bar under
+pc
+\bar default
+.
+ Tuttavia, nel caso di guasti improvvisi delle macchine c'è il rischio di
+ perdita o inacessibilità ai dati.
+ Per questo motivo tutto il materiale è presente in triplice copia, ovvero
+ in locale e su due diverse piattaforme di cloud data
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di perdita dei dati, sarà necessario recuperarli dai backup il
+ prima possibile.
+ Nel caso di backup obsoleti, il frequente salvataggio garantisce una perdita
+ di lavoro ammortizzabile.
+ In caso di impossibilità da parte in un membro ad accedere ad un calcolatore,
+ sarà necessario individuare una soluzione in modo da fornire dell'hardware
+ sostitutivo il prima possibile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Casi riscontrati
+\series default
+: durante i primi giorni della fase di analisi, uno dei 
+\bar under
+notebook
+\bar default
+ ha subito un guasto al disco fisso.
+ Grazie ai frequenti backup, la perdita di lavoro in termini di tempo è
+ stata minima; tentare un recupero dei dati dall'hard disk corrotto avrebbe
+ richiesto una maggiore quantità di lavoro.
+\end_layout
+
+\begin_layout Subsection
+Aumento dei costi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: in caso di ritardi sensibili nello sviluppo di alcuni compiti, si potrebbe
+ incorrere in aumenti sostanziali dei costi.
+ Inoltre, alcuni compiti hanno un'influenza maggiore, rispetto ad altri,
+ sulle tempistiche dell'intero progetto; questo significa che il grado di
+ pericolosità può variare molto da un compito ad un altro
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: il presente documento ha lo scopo di pianificare il lavoro a lungo termine
+ tenendo conto anche dei rischi in cui si può incorrere.
+ Tuttavia, lo sviluppo parallelo di più compiti porta ad una sincronizzazione
+ fra gli stessi piuttosto dinamica.
+ Una sincronizzazione errata può quindi portare a ritardi sensibili indipendente
+mente da altri rischi.
+ Per evitare ciò si è deciso di utilizzare uno strumento per il versionamento
+ e la condivisione di tutto il materiale (si vedano le sezioni 2.4.1 e 2.4.2
+ del 
+\family typewriter
+Piano di Qualifica-v1.0
+\family default
+ per maggiori dettagli)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di ritardi sensibili si procederà analizzando caso per caso la
+ soluzione migliore.
+ Generalmente si dovrà scegliere se accreditare le ore di lavoro aggiuntive
+ o se limitare le funzionalità desiderabili e opzionali (nell'ordine)
+\end_layout
+
+\begin_layout Subsection
+Cambio radicale dei requisiti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: basso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: alto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: nonostante il 
+\bar under
+proponente
+\bar default
+ abbia fornito una prima descrizione del prodotto, è necessario mantenere
+ una comunicazione per far fronte ad eventuali cambiamenti.
+ Il 
+\bar under
+proponente
+\bar default
+ potrebbe decidere di cambiare i requisiti del prodotto fino a dover eseguire
+ un'analisi molto diversa da quella in corso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: una adeguata comunicazione con il 
+\bar under
+proponente
+\bar default
+ permetterà di evitare incomprensioni e di venire a conoscenza il prima
+ possibile di eventuali cambi radicali dei requisiti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: si discuterà con il 
+\bar under
+proponente
+\bar default
+ la possibilità di applicare certe modifiche.
+ Si potrebbe rendere necessaria una rivalutazione profonda del lavoro svolto,
+ inoltre si dovranno rivalutare tempi di sviluppo, preventivo e la possibilità
+ di soddisfare i requisiti desiderabili e opzionali
+\end_layout
+
+\begin_layout Subsection
+Indisposizione di uno o più membri
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: alto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: un membro del gruppo potrebbe trovarsi indisposto a lavorare per un certo
+ periodo di tempo.
+ Considerando che il gruppo è composto da sette persone e che il periodo
+ di lavoro compre circa quattro mesi, è piuttosto probabile che almeno un
+ membro sarà indisposto a lavorare.
+ Tuttavia, l'eventualità che si presentino lunghi periodi di assenza o impossibi
+lità totale di lavoro anche da casa è piuttosto remota
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: oltre alle comuni norme per la salvaguardia della propria salute, è opportuno
+ avvisare tempestivamente il resto del gruppo in modo da permettere una
+ rapida riorganizzazione del lavoro a breve termine
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: riorganizzazione il più possibile tempestiva del lavoro a breve termine,
+ ed eventualmente disponibilità del membro assente di lavorare anche fuori
+ sede (quando possibile).
+ In caso di periodi di assenza particolarmente lunghi, si potranno discutere
+ con il 
+\bar under
+proponente
+\bar default
+ e con il 
+\bar under
+committente
+\bar default
+ eventuali provvedimenti, come la limitazione delle funzionalità desiderabili
+ e opzionali o di un aumento dei tempi e quindi dei costi
+\end_layout
+
+\begin_layout Subsection
+Conflitti interni al gruppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: medio alto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: il gruppo TeamCommitted si trova per la prima volta a lavorare su un progetto
+ di queste dimensioni, e solo alcuni di loro hanno già lavorato assieme.
+ E' possibile che ci siano dei contrasti fra due o più membri, a causa di
+ diversi motivi, e in questi casi può esserci un alto rischio di ritardo.
+ La probabilità che si verifichino conflitti fra i membri aumenta sensibilmente
+ in caso di elevata mole di lavoro e stress.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: sarà responsabilità di ogni membro cercare di mantenere un comportamento
+ il più possibile adeguato al corretto svolgimento del progetto.
+ In caso di problemi inespressi, ogni componente dovrà cercare di evidenziare
+ errori e inefficienze degli altri compagni in maniera costruttiva, in modo
+ da correggere eventuali comportamenti errati o controproducenti.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: sarà compito del responsabile mediare in caso di gravi contrasti.
+ Se si dovessero verificare frequenti conflitti fra due membri in particolare,
+ si cercherà di riorganizzare il lavoro in modo da minimizzare l'interazione
+ fra i due.
+\end_layout
+
+\begin_layout Subsection
+Inesperienza del gruppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: l'intero gruppo è estraneo a progetti di questa entità, per questo è possibile
+ che la mole di lavoro rischi di degenerare a causa dell'incapacità dei
+ membri di gestirla.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie per il rilevamento e la prevenzione
+\series default
+: la suddivisione dei compiti dovrebbe garantire un livello di dettaglio
+ delle singole mansioni tale da rendere il lavoro il più possibile specializzato
+, quindi poco dispersivo e più semplice da eseguire indipendentemente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: in caso di ritardi sensibili dovuti all'errata gestione delle mansioni,
+ si dovrà intervenire rivalutando la suddivisione del lavoro e analizzando
+ le cause che hanno portato alla dispersione delle risorse.
+\end_layout
+
+\begin_layout Subsection
+Impossibilità di incontrarsi periodicamente e in uno stesso luogo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di probabilità
+\series default
+: medio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grado di pericolosità
+\series default
+: basso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Natura
+\series default
+: i membri del gruppo vivono in luoghi relativamente distanti fra loro.
+ Inoltre, le sedi universitarie potrebbero essere irraggiungibili a causa
+ della chiusura dell'ateneo o a causa di disservizi dei mezzi di trasporto.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strategie di rilevamento e prevenzione
+\series default
+: in caso di impossibilità di un singolo membro è necessario avvertire l'intero
+ gruppo il prima possibile.
+ Inoltre, è necessario pianificare il lavoro basandosi anche sull'apertura
+ programmata delle sedi universitarie, valutando con attenzione giorni di
+ festività.
+ La suddivisione dei compiti dovrebbe garantire una sufficiente capacità
+ di sviluppo individuale indipendente dal lavoro degli altri componenti.
+ Nei casi in cui questo non sia possibile, le piattaforme di backup e versioname
+nto del materiale, oltre ai vari strumenti di chat, permetteranno, nel limite
+ del possibile, di ovviare al problema mantenendo una comunicazione affidabile
+ ed efficiente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contromisure di correzione
+\series default
+: nel caso di lunghi periodi di chiusura dell'ateneo e necessità di lavoro
+ di gruppo si dovrà trovare un luogo di ritrovo alternativo e raggiungibile
+ da tutti tramite mezzi pubblici o privati.
+\end_layout
+
+\end_body
+\end_document

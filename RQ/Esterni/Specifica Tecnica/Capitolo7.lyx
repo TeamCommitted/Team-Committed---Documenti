@@ -1,0 +1,921 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+front-end Mobile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/frontEndMobile.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Mobile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View-1"
+
+\end_inset
+
+View
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Contiene tutte le classi 
+\bar under
+Java
+\bar default
+ che estendono la classe Java di 
+\bar under
+Android
+\bar default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Activity
+\begin_inset Quotes erd
+\end_inset
+
+ e che quindi riguardano la grafica dell'applicazione.
+
+\emph on
+ 
+\emph default
+Anche la classe TimerNotifica fa parte di questo componente anche se estende
+ la classe Java Android 
+\begin_inset Quotes eld
+\end_inset
+
+Service
+\begin_inset Quotes erd
+\end_inset
+
+.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Relazioni d’uso di altre componenti: 
+\series default
+Utilizza funzioni del Controller per il controllo ed invio dei dati, utilizza
+ il Model per ottenere dati dal server.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+View può venire modificata da Controller
+\emph on
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Logi"
+
+\end_inset
+
+com.safetyGame.android.view.LoginActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di effettuare il login
+\series bold
+ 
+\series default
+ad un 
+\bar under
+Dipendente
+\series bold
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+La classe richiama ControllerLogin per inviare i dati al server, inoltre
+ consente di arrivare alle classi DashboardActivity e RecuperoPasswordActivity;
+ Utilizza oggetti di tipo Login per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Riceve la risposta tramite una chiamata di metodo da ModelLogin.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Raccoglie i dati inseriti dal 
+\bar under
+Dipendente Autenticato
+\bar default
+ e invia la richiesta di login al 
+\bar under
+back-end
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dash"
+
+\end_inset
+
+com.safetyGame.android.view.DashboardActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di raggiungere le altre Activity del programma.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+Può chiamare le classi PunteggiActivity, DomandaActivity e DatipersonaliActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti: 
+\series default
+Viene chiamato da LoginActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Intercetta gli input e lancia altre Activity.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Punt"
+
+\end_inset
+
+com.safetyGame.android.view.PunteggiActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare i vari punteggi e trofei.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+Utilizza ControllerPunteggi per richiedere dati al server, utilizza oggetti
+ di tipo Punteggi per trasferire dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Viene chiamato da DashboardActivity e riceve i dati da ModelPunteggi.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Visualizza i punteggi e trofei del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Dati"
+
+\end_inset
+
+com.safetyGame.android.view.DatipersonaliActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare e modificare i propri dati personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+Utilizza ControllerDati per richiedere ed inviare modifiche riguardanti
+ dati personali del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, utilizza oggetti di tipo Dipendente per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+È chiamato da DashboardActivity e riceve i dati richiesti da ModelDati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Visualizza e permette di modificare i dati personali del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Doma"
+
+\end_inset
+
+
+\series bold
+com.safetyGame.android.view.DomandaActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visualizzare, richiedere e risponde alle domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza ControllerDomanda per richiedere dati al server, utilizza oggetti
+ di tipo Domanda per trasferire dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+È chiamato da DashboardActivity o TimerNotifica e riceve i dati da ModelDati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Permette di richiedere, visualizzare e rispondere a domande.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Recu"
+
+\end_inset
+
+com.safetyGame.android.view.RecuperoPasswordActivity:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Activity che permette di recuperare la password di un 
+\bar under
+Dipendente
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+utilizza ControllerRecuperoper l'invio di dati al server.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+È chiamato da LoginActivity e riceve dati da ModelRecupero.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Raccoglie i dati del 
+\bar under
+Dipendente
+\bar default
+ e richiede il recupero password.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.view.Time"
+
+\end_inset
+
+com.safetyGame.android.view.TimerNotifica:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Servizio timer che proporrà al 
+\bar under
+Dipendente Autenticato
+\bar default
+ una domanda secondo le specifiche impostate attraverso le notifiche standard
+ di Android.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti: 
+\series default
+Chiama la classe DomandaActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Periodicamente un timer a seconda delle impostazioni farà partire una notifica
+ standard di 
+\bar under
+Android
+\bar default
+ che permette di visualizzare una nuova domanda.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Controller-1"
+
+\end_inset
+
+Controller
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Contiene le classi di utilità che raggruppano i metodi chiamati al compimento
+ delle azioni in input dalla View i quali controllano la correttezza degli
+ input e chiamano i giusti metodi del Model o chiamano altri metodi della
+ View.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Relazioni d’uso di altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Utilizza metodi sia di Model che di View.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Viene utilizzato da View.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.control.C"
+
+\end_inset
+
+com.safetyGame.android.control.ControllerXxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi ControllerXxx forniscono metodi ad ogni Activity relativa per
+ gestire gli input del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti:
+\series default
+ Richiamano metodi del Model per ottenere i dati richiesti dal 
+\bar under
+Dipendente Autenticato
+\bar default
+, in caso di fallimento, richiamano metodi di View per la visualizzazione
+ dei messaggi d'errore; Utilizzano oggetti del package condivisi per scambiare
+ i dati con gli altri componenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Vengono chiamate dalle rispettive classi dal componente View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Ad ogni input nelle classi di View vengono chiamate le relative classi
+ del Controller, le quali gestiranno e controlleranno i dati in input ed
+ in seguito chiameranno i giusti metodi del componente Model od in caso,
+ di View.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Model-1"
+
+\end_inset
+
+Model
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Contiene le classi che comunicano con le API del server, ne ricevono i dati
+ e li gestiscono.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Relazioni d’uso di altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Comunica con il Presentation Tier del 
+\bar under
+back-end
+\bar default
+ e notifica al componente View quando i dati sono pronti.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+È utilizzato dal componente Controller.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
+ Invia delle richieste HTTP al server, il quale gli risponderà inviando
+ i dati richiesti attraverso un XML, in seguito ne estrapolerà i dati e
+ li renderà disponibili alla View.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Cli"
+
+\end_inset
+
+com.safetyGame.android.model.ClientBackEnd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ClientBackEnd viene utilizzata per effettuare la connessione fisica
+ tra il 
+\bar under
+front-end
+\bar default
+ Mobile ed il 
+\bar under
+back-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti:
+\series default
+ Richiama metodi del Presentation Tier del back-end in base alle richieste
+ delle classi del Model.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al 
+\bar under
+back-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ La classe si occupa di effettuare le richieste HTTP al server e di riceverne
+ le risposte tramite pagine XML.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.model.Mod"
+
+\end_inset
+
+com.safetyGame.android.model.ModelXxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al 
+\bar under
+back-end
+\bar default
+ attraverso la classe ClientBackEnd.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d’uso di altre componenti:
+\series default
+ Utilizzano metodi del componente View per visualizzare i dati ottenuti,
+ utilizzano la classe ClientBackEnd per comunicare col server; Utilizzano
+ oggetti del package condivisi per scambiare dati con gli altri componenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d’uso da altre componenti:
+\emph on
+ 
+\series default
+\emph default
+Vengono richiamate dalle classi ControllerXxx per inviare dati al server,
+ vengono richiamate dalle classi di View per far visualizzare dati presenti
+ nel server.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Le classi ricevono richieste di scambio dati col database dalle relative
+ classi ControllerXxx, utilizzano la classe ClientBackEnd per comunicare
+ con le classi relative nel Presentation Tier del 
+\bar under
+back-end
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.android.condivisi"
+
+\end_inset
+
+com.safetyGame.android.condivisi.Xxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari componenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+Le classi vengono utilizzate da tutti gli altri package per trasferire informazi
+oni tra i vari livelli del 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
+\end_layout
+
+\end_body
+\end_document

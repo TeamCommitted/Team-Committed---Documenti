@@ -1,0 +1,479 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Design Pattern
+\end_layout
+
+\begin_layout Standard
+Presenteremo qui di seguito i vari design pattern impiegati nella progettazione
+ dell'architettura del progetto SafetyGame.
+\end_layout
+
+\begin_layout Subsection
+Multitier
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/ThreeTier.jpg
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/TwoTier.jpg
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma dei design pattern ThreeTier & TwoTier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Poichè i design pattern 
+\emph on
+ThreeTier 
+\emph default
+e 
+\emph on
+TwoTier
+\emph default
+ fanno parte della stessa 
+\begin_inset Quotes eld
+\end_inset
+
+categoria
+\begin_inset Quotes erd
+\end_inset
+
+ (Multitier), abbiamo deciso di raggrupparli nella stessa sezione.
+ Visto che la descrizione dei due design pattern e le motivazioni dell'adozione
+ di essi sono simili, verranno descritti in questa sezione.
+ Il contesto applicativo, invece, verrà discusso singolarmente, in quanto
+ la loro applicazione è radicalmente differente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ tali design pattern permettono una disgiunzione fra i vari gruppi di entità
+ che cooperano nell'erogazione del servizio.
+ Esisterà un livello che si occuperà di interagire con il cliente offrendo
+ l'interfaccia grafica, un secondo livello per l'esecuzione della parte
+ algoritmica dell'applicazione e, nel caso del 
+\emph on
+ThreeTier
+\emph default
+, un terzo livello per la persistenza dei dati e il loro recupero
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ il beneficio principale apportato da questo paradigma risiede nel fatto
+ che ogni livello può venir cambiato/aggiornato senza dover propagare gli
+ effetti ai livelli adiacenti.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
+ funzionalità in gruppi disgiunti, ma in stretta collaborazione, la struttura
+ di tale design pattern risulta perticolarmente calzante per dei servizi
+ basati sull'architettura client-server, in quanto ogni livello non esiste
+ semplicemente come raggruppamento logico a sé stante, ma il suo ruolo viene
+ adattato in relazione allo specifico ambiente di rete in cui esegue: nel
+ caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
+ nel determinato ambiente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+ThreeTier:
+\series default
+ questo design pattern verrà utilizzato come struttura portante del Back-end,
+ in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier
+\emph default
+ offrirà l'interfaccia per i vari front-end e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di eseguire i vari calcoli necessari all'elaborazione della
+ risposta da fornire i dati all'utente
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà di astrarre la base di dati e della persistenza o il recupero
+ da essa dei dati necessari per eseguire le computazioni richieste
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+TwoTier:
+\series default
+ questo design pattern verrà utilizzato come struttura portante del Front-end
+ Desktop, in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di gestire la temporizzazione delle domande e la gestione dell'oper
+azione di login
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+MVC
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/MVC.jpeg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schema del Design Pattern MVC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione: 
+\series default
+\emph on
+Model-View-Controller
+\series bold
+ 
+\series default
+\emph default
+è un pattern architetturale molto diffuso e che permette una completa disgiunzio
+ne delle funzionalità che il prodotto deve offrire, organizzando l'applicativo
+ come segue: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Model: 
+\series default
+costituisce la parte logica dei dati utilizzati dal sistema, compresa la
+ loro persistenza
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+View: 
+\series default
+costituisce l'interfaccia vera e propria con cui i dati sono visualizzati
+ e tramite la quale gli utenti possono interagire con il sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Controller: 
+\series default
+rappresenta il componente che riceve i comandi dell'utente e li attua, decidendo
+ le conseguenti operazioni da effettuare nel Model e nel View
+\end_layout
+
+\begin_layout Standard
+Tale design-pattern è stato scelto in quanto largamente diffuso ed adottato
+ da numerosissime tecnologie moderne.
+ Esso garantisce infatti una solida struttura altamente manutenibile.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Motivazione: 
+\series default
+l'utilizzo di tale design pattern permette una solida e manutenibile architettur
+a su cui basare l'applicativo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ tale design pattern verrà utilizzato per sviluppare il 
+\bar under
+front-end Android
+\bar default
+ ed il 
+\bar under
+front-end web
+\bar default
+, per dotarli di una struttura ben organizzata e manutenibile.
+ Questa scelta risulta particolarmente importante in un contesto di sviluppo
+ come quello di 
+\bar under
+Android
+\bar default
+ in cui la struttura stessa delle viste (pensate come Activity) può portare
+ ad una mancata separazione dei ruoli.
+ 
+\begin_inset Newline newline
+\end_inset
+
+A questo scopo sono stati identificati i componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Model
+\series default
+ rappresenta l'interfaccia con cui l'applicativo interagirà con il Back-end
+ tramite richieste HTTP e riceverà informazioni con XML
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+View
+\series default
+ rappresenta l'effettiva interfaccia grafica tramite la quale gli utenti
+ interagiranno con l'applicativo
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Controller
+\series default
+ riceve le scelte dell'utente ed effettua le operazioni corrette sul modello
+ dei dati
+\end_layout
+
+\begin_layout Standard
+L'architettura MVC dei 
+\bar under
+front-end Android 
+\bar default
+e 
+\bar under
+web
+\bar default
+ è stata pensata per utilizzare un aggiornamento di tipo 
+\emph on
+pull
+\emph default
+.
+ In un applicativo di questo tipo, in primo piano si avrà soltanto una vista
+ alla volta, mentre nel caso in cui un'altra vista che abbia bisogno di
+ accesso ai dati torni in primo piano, questa richiederà un aggiornamento
+ di tali dati.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Altri Design Pattern
+\end_layout
+
+\begin_layout Standard
+Durante la fase di 
+\emph on
+Progettazione Archittetturale
+\emph default
+ non sono emersi problemi risolvibili tramite utilizzo di
+\bar under
+ design pattern
+\bar default
+ diversi da quelli già descritti.
+ Sono stati valutati attentamente alcuni 
+\bar under
+design pattern
+\bar default
+ non architetturali, quali 
+\emph on
+Singleton
+\emph default
+ o 
+\emph on
+DAO
+\emph default
+, che però non sono stati ritenuti adatti per i problemi che, in fase di
+ 
+\emph on
+Progettazione Architetturale
+\emph default
+, abbiamo affrontato.
+\end_layout
+
+\begin_layout Standard
+Tuttavia, durante la fase di
+\emph on
+ Progettazione di Dettaglio
+\emph default
+ potrebbero emergere problemi che saranno risolti facilmente tramite l'uso
+ di 
+\bar under
+design pattern
+\bar default
+.
+ Per questo motivo ci riserviamo il diritto di introdurre 
+\bar under
+design pattern 
+\bar default
+non architetturali all'interno della Specifica Tecnica, modificando di conseguen
+za l'archichettura strutturata attualmente.
+\end_layout
+
+\end_body
+\end_document

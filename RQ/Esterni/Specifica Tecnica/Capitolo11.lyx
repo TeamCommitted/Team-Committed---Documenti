@@ -1,0 +1,2285 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{longtable}
+\usepackage{lscape}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Tracciamento requisiti - componenti
+\end_layout
+
+\begin_layout Standard
+Nelle tabelle se una o più celle riguardanti i componenti del sistema sono
+ vuote, significa che quel componente non è delegato a gestire quel requisito.
+\end_layout
+
+\begin_layout Subsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+fontsize{0,1mm}{0,1mm}
+\backslash
+selectfont
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ p{1cm} | p{1,5cm} | p{3,5cm} |  p{4cm} |  p{3.5cm} | p{3,5cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 1 & Il sistema dovrà lavorare in rete & view & view & view & controller
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & logic & control & controller & checker 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & condivisi & model & model & access 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & condivisi & condivisi & condivisi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 2 & Il sistema assegnerà in automatico badge/trofei al 
+\backslash
+uline{Dipendente}, quando questo raggiunge determinati obiettivi di 
+\backslash
+uline{Gamification} & & & & controller.ControllerTrofei 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & checker.CheckTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & access.AccessTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+					 & & & & & condivisi.Trofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 3 & Tutte le azioni di tutti gli 
+\backslash
+uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
+ condivisi.Log & condivisi.Log & condivisi.Log & condivisi.Log 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientBackEnd & model.ModelLog & model.ModelLog & controller.ControllerLog
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ClientBackEnd & model.ClientBackEnd & checker.CheckLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & access.AccessLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4 & Un 
+\backslash
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla & &  model.ModelRecupero & view.RecuperoPasswordActivi
+ty & controller.ControllerRecupero 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Recupero & controller.ControllerRecupero & checker.CheckRecupero
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & model.ModelRecupero & condivisi.Recupero 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & condivisi.Recupero & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1 & Un 
+\backslash
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema &  &  & controller.Controlle
+rRecupero 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata & view.Login
+ & view.DipendenteImpl & view.LoginActivity & controller.ControllerRecupero
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & view.AmministratoreAziendaImpl & view.RecuperoPasswordActivit
+y & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & view.AmministratoreSicurezzaImpl & controller.ControllerRecupero & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlDipendente & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlAmministratoreAzienda & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & control.ControlAmministratoreSicurezza & & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5 & Un 
+\backslash
+uline{Dipendente} dovrà potersi autenticare nel sistema inserendo le proprie
+ credenziali di accesso & view.Login & view.DipendenteImpl  & view.LoginActivity
+ & controller.ControllerLogin 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.DatiLogin & control.ControlDipendente & controller.ControllerLogin
+ & checker.CheckLogin 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ModelDipendente & model.ModelLogin & access.AccessDipendenti 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Login & condivisi.Login & condivisi.Login 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ModelLogin &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5.1 & Un 
+\backslash
+uline{Dipendente} effetuerà il login tramite web o tramite applicazione
+ installata & view.Login & view.DipendenteImpl  & view.LoginActivity & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.DatiLogin & control.ControlDipendente & controller.ControllerLogin
+ & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & model.ModelDipendente & model.ModelLogin & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & condivisi.Login & condivisi.Login & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 6 & Il sistema dovrà sottoporre periodicamente ai 
+\backslash
+uline{Dipendenti Autenticati} delle domande precaricate & view.Notifica &
+ view.DipendenteImpl & view.TimerNotifica &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.Timer & control.ControlDipendente & model.ModelDomanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.Domanda & & condivisi.Domanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 6.1 & Una proposta di domanda dovrà essere completamente non 
+\backslash
+uline{invadente} & view.Notifica & view.DipendenteImpl & view.TimerNotifica
+ &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 7 & Un 
+\backslash
+uline{Dipendente Autenticato} potrà richiedere al sistema di venire sottoposto
+ ad una domanda & view.Lanciatore & view.DipendenteImpl & view.DomandaActivity
+ &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & & model.ModelDomanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & condivisi.Domanda & & condivisi.Domanda & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 7.1 & Un 
+\backslash
+uline{Dipendente Autenticato} potrà richiedere un numero limitato di domande
+ secondo il tempo trascorso &  &  &  & checker.CheckRispostaDomanda 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 8 & Le domande che verranno sottoposte ai 
+\backslash
+uline{Dipendenti Autenticati} dovranno essere di tipologia diversa &  &
+  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 9 & Le domande che verranno sottoposte ai 
+\backslash
+uline{Dipendenti Autenticati} dovranno poter avere risposta direttamente
+ dalla propria postazione di lavoro & view.ClientWeb & view.DipendenteImpl
+ & view.DomandaActivity &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 9.1 & Le domande a cui verranno sottoposti i 
+\backslash
+uline{Dipendenti Autenticati} forniti di 
+\backslash
+uline{dispositivi mobili} aziendali potranno prevedere anche prove pratiche
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 9.2 & La natura delle domande a cui verranno sottoposti i 
+\backslash
+uline{Dipendenti Autenticati} potrà variare a seconda dell'impiego dello
+ stesso &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
+ multipla &  & control.ControlDipendente & controller.ControllerDomande &
+  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
+ con foto (entrambe con le modalità sopra citate),  scansione di codice
+ QR nel tempo limite, scansione di codici QR nell'ordine corretto &  & control.Co
+ntrolDipendente & controller.ControllerDomande &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
+ trova errori nella foto, trova differenze nella foto, registra i codici
+ RF-ID nell'ordine corretto &  & control.ControlDipendente & controller.Controller
+Domande &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 10 & Un 
+\backslash
+uline{Dipendente Autenticato} potrà modificare i propri dati personali,
+ ovvero password e indirizzo di posta elettronica &  & view.DipendenteImpl
+ & view.DatipersonaliActivity & checker.CheckDati 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ &  &  & controller.ControlDipendente & controller.ControllerDati & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ & & & model.ModelDipendente & model.ModelDipendente & 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica i propri dati personali, il sistema si
+ occuperà di inviargli una mail di conferma &  &  &  & controller.ControllerDati
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11.1 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica la password di accesso alla sua area
+ personale, il sistema gli invierà una mail di conferma &  &  &  & controller.Con
+trollerDati 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11.2 & Quando un 
+\backslash
+uline{Dipendente Autenticato} modifica il suo indirizzo di posta elettronica,
+ il sistema gli invierà una mail di conferma al nuovo indirizzo &  &  &
+  & controller.ControllerDati 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 12 & Un 
+\backslash
+uline{Dipendente Autenticato} potrà visualizzare i propri dati personali
+ memorizzati nel sistema &  & view.DipendenteImpl & view.DatipersonaliActivity&
+  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ & & & model.ModelDipendente & model.ModelDipendente & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 12.1 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
+ indirizzo di posta elettronica, impiego, password, username & & condivisi.Dipend
+ente & condivisi.Dipendente & condivisi.Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessDipendenti 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 13 & Un 
+\backslash
+uline{Dipendente Autenticato} a cui viene proposta la possibilità di rispondere
+ ad una domanda potrà scegliere di visualizzarla e quindi rispondere, oppure
+ rimandarla e rispondere successivamente & view.notifica & view.DipendenteImpl
+ & view.TimerNotifica &  controller.ControllerDomanda 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 14 & Una volta che una domanda viene mostrata ad un 
+\backslash
+uline{Dipendente Autenticato}, questo dovrà necessarimente fornirle risposta
+ &  & view.DipendenteImpl & view.DomandaActivity &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 14.1 & Il sistema sarà in grado di riconoscere se la domanda a cui verrà
+ sottoposto un 
+\backslash
+uline{Dipendente Autenticato} è una nuova domanda, una domanda posticipata
+ o una domanda sbagliata in precedenza &  &  &  & checker.CheckRispostaDomanda
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessDomande
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 15 & Un 
+\backslash
+uline{Dipendente Autenticato} dovrà avere la possibilità di consultare le
+ informazioni riguardanti i suoi punteggi & view.Lanciatore & view.DipendenteImpl
+ & view.PunteggiActivity & controller.ControllerPunteggi 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & logic.ClientWeb & condivisi.Punteggi & condivisi.Punteggi & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 15.1 & Le informazioni che un 
+\backslash
+uline{Dipendente Autenticato} potrà consultare  sono: storico delle risposte
+ (sia corrette che errate), classifica aziendale, trofei/badge raccolti,
+ statistiche derivanti dalle risposte & & condivisi.Punteggio & condivisi.Punteggi
+ & condivisi.Punteggio 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & condivisi.Trofeo & view.PunteggiActivityMobile & access.AccessPunteggi
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & model.ModelTrofeo & controller.ControllerPunteggi & condivisi.Trofeo
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & model.ModelPunteggio & model.ModelPunteggi & access.AccessTrofei 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 16 & Un 
+\backslash
+uline{Dipendente Autenticato} dovrà avere la possibilità di chiudere la
+ propria sessione, senza terminare l'applicazione & view.Lanciatore & view.Dipende
+nteImpl & view.DashboardActivity &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
+ posizione del server generale delle domande &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
+ l'installazione e l'utilizzo del sistema &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2.1 & Sarà fornito un manuale ad uso dei 
+\backslash
+uline{Dipendenti} che coprirà gli aspetti di utilizzo del software dal loro
+ punto di vista &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 3 & Le interfacce che saranno visibili ai 
+\backslash
+uline{Dipendenti} dovranno essere accattivanti e le funzionalità quanto
+ più intuitive, così da invogliare l'utilizzo &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOP 3.1 & Ogni elemento di interazione fornirà all'
+\backslash
+uline{utilizzatore} informazioni visive sulla possibile azione effettuabile
+ & view & view & view &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOP 3.2 & Da ogni schermata sarà possibile raggiungere un'area di aiuto
+ che guiderà l'
+\backslash
+uline{utilizzatore} spiegandogli le operazioni effettuabili nella pagina
+ in cui esso si trova & & view & view &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 4 & Tutti i processi di sviluppo aderiranno allo standard 
+\backslash
+uline{ISO/IEC} 15504:1998 
+\backslash
+uline{SPICE} &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 5 & Sarà fornita documentazione esaustiva di ogni metodo sviluppato
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 6 & Le applicazioni 
+\backslash
+uline{web} aderiranno allo stile 
+\backslash
+uline{W3C} &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 6.1 & Le applicazioni 
+\backslash
+uline{web} aderiranno allo standard 
+\backslash
+uline{CSS}3 definito da 
+\backslash
+uline{W3C} &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 6.2 & Le applicazioni 
+\backslash
+uline{web} aderiranno allo standard 
+\backslash
+uline{XHTML}1.1 definito da 
+\backslash
+uline{W3C} &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ p{1cm} | p{2cm} | p{3,5cm} |  p{4cm} |  p{1cm} | p{3cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 1 & Il sistema dovrà lavorare in rete & & view & & controller 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & control & & checker 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & model & & access 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & condivisi & & condivisi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 1.1 & Ogni azienda potrà accedere al sistema mediante connessione internet
+ & & view & & controller 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & control & & checker 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & model & & access 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & condivisi & & condivisi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 3 & Tutte le azioni di tutti gli 
+\backslash
+uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
+  & condivisi.Log &  & checker.CheckLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & model.ModelLog & & controller.ControllerLog
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessLog 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & condivisi.Log
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4 & Un 
+\backslash
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla &  & view.AmministratoreAziendaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1 & Un 
+\backslash
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema &  &  &  & controller.Contro
+llerRecupero 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata &  & view.Amministr
+atoreAziendaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica i propri dati personali, il sistema si
+ occuperà di inviargli una mail di conferma &  &  &  & controller.ControllerDati
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11.1 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica la password di accesso alla sua area
+ personale, il sistema gli invierà una mail di conferma &  &  &  & controller.Con
+trollerDati 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 17 & Un 
+\backslash
+uline{Amministratore Azienda} dovrà potersi autenticare nel sistema inserendo
+ le proprie credenziali &  & view.AmministratoreAziendaImpl &  &  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & model.ModelLogin &  & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 18 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà poter gestire gli account
+ dei 
+\backslash
+uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  & checker.CheckDipendenti
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 19 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà poter registrare i 
+\backslash
+uline{Dipendenti} inserendone i dati personali &  & view.AmministratoreAziendaImp
+l &  & checher.CheckDipendenti 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 19.1 & I dati personali sono: nome, cognome, codice fiscale, email,
+ impiego &  & condivisi.Dipendente &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 19.2 & Ad ogni account 
+\backslash
+uline{Dipendente} che verrà creato, il sistema dovrà inviargli i dati del
+ suo account all'indirizzo email dichiarato utili per connettersi al sistema
+ &  &  &  & controller.ControllerDipendenti 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 19.2.1 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua username &  &  &  & controller.ControllerDipendenti
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 19.2.2 & Il sistema invia all'indirizzo email del nuovo 
+\backslash
+uline{Dipendente} la sua password &  &  &  & controller.ControllerDipendenti
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 20 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} potrà eliminare un account 
+\backslash
+uline{Dipendente} &  & view.AmministratoreAziendaImpl &  & checker.CheckDipendenti
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 21 & Un 
+\backslash
+uline{Amministratore Azienda Autenticato} avrà la possibiltà di modificare
+ i dati personali dei 
+\backslash
+uline{Dipendenti} &  & view.AmministratoreAziendaImpl &  & checker.CheckDati
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 21.1 & I campi che potranno essere modificati sono: nome, cognome, indirizzo
+ email, impiego, codice fiscale &  & condivisi.Dipendente &  & access.AccessDipend
+ente 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 22 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà poter visualizzare i dati
+ di ogni singolo 
+\backslash
+uline{Dipendente} &  & view.AmministratoreAziendaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 22.1 & I dati visualizzabili sono: nome, cognome, codice fiscale, indirizzo
+ email, impiego, nickname &  & condivisi.Dipendente &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & view.AmministratoreAziendaImpl & & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 23 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà poter visionare le statistiche
+ personali di ogni singolo 
+\backslash
+uline{Dipendente} &  & view.AmministratoreAziendaImpl &  & checker.CheckPunteggi
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 23.1 & Le statistiche personali sono: punti, trofei/badge &  & condivisi.Punt
+eggio &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & condivisi.Trofeo & & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 24 & L'
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà poter modificare i badge/trofei
+ di ogni singolo 
+\backslash
+uline{Dipendente} &  & condivisi.Trofeo &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & view.AmministratoreAziendaImpl & & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 25 & Un 
+\backslash
+uline{Amministratore Azienda Autenticato} dovrà avere la possibilità di
+ terminare la propria sessione &  & view.AmministratoreAziendaImpl &  & 
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
+ l'installazione e l'utilizzo del sistema &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2.2 & Sarà fornito un manuale ad uso 
+\backslash
+uline{Amministratore Azienda}  riguardo tutte le azioni che potrà compiere
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RVOB 1 & Il sistema dovrà essere funzionale presso aziende diverse, anche
+ con caratteristiche molto differenti fra di loro &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ p{1cm} | p{2cm} | p{3,5cm} |  p{4cm} |  p{1cm} | p{3cm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+		Codice & Descrizione & Desktop & Web & Mobile & Back-end 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 1 & Il sistema dovrà lavorare in rete & view & view & view & controller
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & logic & control & controller & checker 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & condivisi & model & model & access 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+										   & & & condivisi & condivisi & condivisi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 3 & Tutte le azioni di tutti gli 
+\backslash
+uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
+  & condivisi.Log &  & checker.CheckLog 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & model.ModelLog & & controller.ControllerLog
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & access.AccessLog 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & & & condivisi.Log
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4 & Un 
+\backslash
+uline{Utente}, che dovesse aver perso la propria password per accedere al
+ sistema, potrà modificarla &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1 & Un 
+\backslash
+uline{Utente}, che dovesse aver eseguito correttamente la procedura di modifica
+ password dimenticata, riceverà nella propria casella di posta elettronica
+ una nuova password generata casualmente dal sistema &  &  &  & controller.Contro
+llerRecupero 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 4.1.1 & Al primo login la password dovrà essere modificata &  & view.Amministr
+atoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica i propri dati personali, il sistema si
+ occuperà di inviargli una mail di conferma &  &  &  & controller.ControllerDati
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 11.1 & Quando un 
+\backslash
+uline{Utente Autenticato} modifica la password di accesso alla sua area
+ personale, il sistema gli invierà una mail di conferma &  &  &  & controller.Con
+trollerDati 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 26 & Un 
+\backslash
+uline{Amministratore Sicurezza} dovrà potersi autenticare nel sistema inserendo
+ le proprie credenziali &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & model.ModelLogin &  & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 27 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di consultare
+ le domande dell'azienda &  & view.AmministratoreSicurezzaImpl &  &  controller.Co
+ntrollerCalderone 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & checker.CheckModificaDomanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 27.1 & La consultazione farà vedere: il tipo, il testo, le risposte
+ possibili, le risposte corrette, le immagini / video (se presenti), la
+ categoria a cui verrà somministrata, la piattaforma, la temporizzazione
+ (se presente) e il punteggio della domanda &  & condivisi.Domanda &  & access.Acc
+essDomanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& &  & model.ModelDomanda & & access.AccessCalderone 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 28 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare l'insieme
+ delle domande di un'azienda &  & view.AmministratoreSicurezzaImpl &  & controlle
+r.ControllerCalderone 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & checker.CheckModificaDomanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& & & & & condivisi.Domanda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 28.1 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di aggiungere
+ una domanda, dall'insieme di quelle già presenti nel database generale
+ &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 28.2 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} avrà la possibilità di rimuovere
+ una domanda dal database di domande da somministrare ai 
+\backslash
+uline{Dipendenti} &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 29 & L'
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare gli obiettivi
+ di 
+\backslash
+uline{Gamification} &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 29.1 & L'
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà poter modificare i badge
+ o trofei assegnabili agli utenti al raggiungimento di obiettivi di 
+\backslash
+uline{Gamification} &  & view.AmministratoreSicurezzaImpl &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 30 & Un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} dovrà avere la possibilità di
+ terminare la propria sessione &  & view.AmministratoreSicurezzaImpl &  &
+  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
+ &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2 & Sarà fornita assieme al software documentazione adeguata riguardo
+ l'installazione e l'utilizzo del sistema &  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOB 2.4 & Sarà fornito un manuale ad uso 
+\backslash
+uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
+  &  &  &  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+end{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

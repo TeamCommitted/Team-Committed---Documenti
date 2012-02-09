@@ -1,0 +1,847 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/frontEndDesktop.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Desktop
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Presentation-Tier"
+
+\end_inset
+
+Presentation Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ Questo componente costituisce la parte del sistema che definisce i metodi
+ grafici per l'accesso all'applicazione da parte degli 
+\bar under
+utenti
+\bar default
+ e le funzionalità disponibili per un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+Questo componente è costituito dal package view.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Noti"
+
+\end_inset
+
+com.safetyGame.desktop.view.Notifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Notifica realizza gli oggetti notifiche che compariranno a video
+ al 
+\bar under
+Dipendente Autenticato
+\bar default
+, le quali gli chiederanno conferma di accettazione o rifiuto per mostrargli
+ la domanda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe utilizza oggetti di tipo ClientWeb per comunicare con il 
+\bar under
+Dipendente
+\bar default
+ via 
+\bar under
+web
+\bar default
+ nel caso di domanda accettata e oggetti di tipo ClientBackEnd per comunicare
+ con il 
+\bar under
+back-end
+\bar default
+ per aggiornare il log del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+Viene richiamato dalla classe Timer e ne fornisce funzioni, richiama le
+ funzioni di
+\series bold
+ 
+\series default
+ClientBackEnd e ClientWeb.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+\emph on
+ 
+\emph default
+Classe puramente grafica, svolge una funzione di presentazione del pop-up
+ che, quando riceve il segnale dalla classe Timer, notifica al 
+\bar under
+Dipendente Autenticato
+\bar default
+ la presenza di una nuova domanda a cui poter rispondere.
+ In seguito resta in attesa dell'input da dipendente sull'accettare la visualizz
+azione della domanda o sul posticiparla comunicando la relativa risposta
+ al ClientWeb e/o al ClientBackEnd.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Logi"
+
+\end_inset
+
+com.safetyGame.desktop.view.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Login realizza l'oggetto login che serve a gestire il login del
+ 
+\bar under
+Dipendente
+\bar default
+ dalla piattaforma.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe utilizza oggetti di tipo ClientWeb per comunicare al 
+\bar under
+Dipendente
+\bar default
+ i propri dati nel caso di login effettuato con successo e oggetti di tipo
+ ClientBackEnd per comunicare al 
+\bar under
+back-end
+\bar default
+, in caso di successo, di aggiornare il log di quel 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+, oppure richiedendo una password auto-generata casualmente.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Classe puramente grafica, svolge una funzione di presentazione del modulo
+ di login, chiedendo username e password del 
+\bar under
+Dipendente
+\bar default
+.
+ L'oggetto login viene poi passato al ClientBackEnd stabilire se le credenziali
+ sono valide, in caso affermativo richiama il ClientWeb, in caso negativo
+ ripropone la schermata di login standard.
+ Fornisce inoltre un modulo per la richiesta di generazione casuale della
+ password in caso che questa venga smarrita da parte del 
+\bar under
+Dipendente
+\bar default
+.
+ La richiesta passa direttamente al ClientBackEnd che la elabora e si rimette
+ in attesa.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.view.Lanc"
+
+\end_inset
+
+com.safetyGame.desktop.view.Lanciatore
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Lanciatore realizza l'oggetto lanciatore che crea e gestisce il
+ menu che consente al 
+\bar under
+Dipendente Autenticato
+\bar default
+ di utilizzare le varie funzionalità offerta dal sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe utilizza oggetti di tipo ClientWeb per comunicare le azioni scelte
+ dal 
+\bar under
+Dipendente Autenticato
+\bar default
+ e oggetti di tipo ClientBackEnd per comunicare al back end di aggiornare
+ il log del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ con tutte le funzionalità richieste.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+\emph on
+ 
+\emph default
+Classe puramente grafica, svolge una funzione di presentazione del menù
+ (quando richiesto) che consente al 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+ di utilizzare tutte le funzionalità messe a disposizione per lui.
+ Le richieste vengono mandate al ClientWeb
+\series bold
+ 
+\series default
+che le elabora e la notifica della richiesta viene mandata al ClientBackEnd
+\series bold
+ 
+\series default
+che si preoccuperà principalmente di aggiornare il log del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Logic-Tier"
+
+\end_inset
+
+Logic Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+Questo componente si occupa di gestire le interazioni che il 
+\bar under
+Dipendente 
+\bar default
+o il 
+\bar under
+Dipendente Autenticato
+\bar default
+ effettua con il sistema attraverso la parte grafica.
+ Tiene traccia dello storico personale di ogni 
+\bar under
+Dipendente Autenticato
+\bar default
+ ed invia dati al back-end per mantenere aggiornato lo stato del sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ Il componente è costituito dal package
+\series bold
+ 
+\series default
+logic
+\series bold
+ 
+\series default
+e
+\series bold
+ 
+\series default
+da quello dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Tim"
+
+\end_inset
+
+com.safetyGame.desktop.logic.Timer
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe
+\series bold
+ 
+\series default
+Timer ha l'obiettivo di implementare un contatore temporizzato; al termine
+ del tempo istanzierà un oggetto della classe Notifica.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe utilizza oggetti di tipo
+\series bold
+ 
+\series default
+Notifica
+\series bold
+ 
+\series default
+per generare la notifica di una nuova domanda al 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Decrementerà un contatore con un certo ritardo, in modo da tenere traccia
+ del tempo trascorso dalla sua istanziazione.
+ Allo scadere del tempo, creerà un oggetto di tipo Nofica.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Cli"
+
+\end_inset
+
+com.safetyGame.desktop.logic.ClientBackEnd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe ClientBackEnd, istanzia un oggetto con la funzione di comunicare
+ con la parte back-end.
+ Contiene gli oggetti
+\series bold
+ 
+\series default
+Log e dati Login utili per la comunicazione con il back-end e con la classe
+\series bold
+ 
+\series default
+ClientWeb.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+La classe utilizza oggetti di tipo Log e
+\series bold
+ 
+\series default
+Login per gestire le comunicazioni con i database e con il Presentation-Tier.
+ Scambia l'oggetto Login con la classe ClientWeb.
+ Fornisce le funzioni per la gestione dell'oggetto Log alle classi
+\series bold
+ 
+\series default
+Login, Lanciatore, Notifica e ClientWeb.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Ogni classe del Presentation-Tier possiede un riferimento a questa classe,
+ le cui istanze vengono utilizzate per la comunicazione con il database.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Comunica al back-end gli oggetti di tipo
+\series bold
+ 
+\series default
+Log di ogni 
+\bar under
+Dipendente Autenticato
+\bar default
+ che verranno in seguito salvati e gli oggetti Login che verranno in seguito
+ controllati.
+ Ritorna il risultato del controllo degli oggetti di tipo
+\series bold
+ 
+\series default
+Login
+\series bold
+ 
+\series default
+alla classe ClientWeb.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.Cli-1"
+
+\end_inset
+
+com.safetyGame.desktop.logic.ClientWeb
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ClientWeb, istanzia un oggetto con la funzione di comunicare con
+ la parte 
+\bar under
+web
+\bar default
+ dell'applicazione.
+ Contiene gli oggetti 
+\series bold
+Login
+\series default
+ utili per la comunicazione con la classe ClientBackEnd e con il Presentation-Ti
+er.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe utilizza oggetti di tipo Login per gestire le comunicazioni con
+ il Presentation-Tier e con la classe ClientBackEnd.
+ Scambia l'oggetto Login
+\series bold
+ 
+\series default
+con la classe ClientBackEnd e con il Presentation-Tier.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Ogni classe del Presentation-Tier possiede un riferimento a questa classe,
+ le cui istanze vengono utilizzate per la comunicazione dell'identità del
+ 
+\bar under
+Dipendente
+\bar default
+ e/o del 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+Comunica alla classe ClientBackEnd l'oggeto di tipo
+\series bold
+ 
+\series default
+Login per l'autenticazione del 
+\bar under
+Dipendente
+\bar default
+.
+ Lo stesso oggetto viene poi utilizzato per gestire l'accessibilità delle
+ funzioni del 
+\bar under
+Dipendente Autenticato
+\bar default
+ tra la classe ClientBackEnd e il Presentation-Layer.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.condivisi"
+
+\end_inset
+
+com.safetyGame.desktop.condivisi.DatiLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe DatiLogin istanzia un oggetto che rappresenta le credenziali con
+ cui un 
+\bar under
+Dipendente Autenticato
+\bar default
+ ha effettuato il Login.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti: 
+\series default
+Nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe DatiLogin viene utilizzata come contenitore dei dati del login
+ del 
+\bar under
+Dipendente
+\bar default
+.
+ La classe viene utilizzata dalle classi Login e ClientBackEnd e ClientWeb.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ L'oggetto istanziato dalla classe conterrà le credenziali del
+\series bold
+ 
+\series default
+Login.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.condivisi-1"
+
+\end_inset
+
+com.safetyGame.desktop.condivisi.Log
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe
+\series bold
+ 
+\series default
+Log istanzia un oggetto che rappresenta il tracciamento di tutte le azioni
+ effettuate da un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+Nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe Log viene utilizzata come contenitore di dati del tracciamento
+ di tutte le azioni del 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ La classe viene utilizzata da tutte le classi del Presentation-Tier e dalle
+ classi ClientBackEnd e ClientWeb.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\emph on
+ 
+\series default
+\emph default
+L'oggetto istanziato della classe conterrà il tracciamento delle operazioni
+ effettuate da un 
+\bar under
+Dipendente Autenticato
+\bar default
+.
+\end_layout
+
+\end_body
+\end_document

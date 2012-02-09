@@ -1,0 +1,76 @@
+%%!!ATTENZIONE!!
+%QUESTO FILE E' UN ESEMPIO. COPIATE ALL'INTERNO DELLA CARTELLA DEL DOCUMENTO SU CUI STATE LAVORANDO E MODIFICATE
+%% NON MODIFICARE QUESTE IMPOSTAZIONI
+\date{}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\usepackage{longtable}
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{eurosym}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\fancyhead[RE, RO]{\TeamCommitted}
+%%DOVETE COPIARE IL FILE LogoTeam.jpg ALL'INTERNO DELLA CARTELLA IMG (CHE DOVRETE CREARE) DENTRO LA CARTELLA DEL VOSTRO DOCUMENTO
+\lhead{\setlength{\unitlength}{1mm}
+	\begin{picture}(0,0)
+		\put(5,0){\includegraphics[scale=0.1]{img/LogoTeam.jpg}}
+	\end{picture}}
+\fancyfoot[CE, CO]{}
+
+%%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
+\newcommand{\TeamCommitted}{\emph{Team Committed }}
+\newcommand{\respProg}{\emph{Responsabile di Progetto }}
+\newcommand{\ammProg}{\emph{Amministratore di Progetto }}
+\newcommand{\analProg}{\emph{Analista }}
+\newcommand{\verifProg}{\emph{Verificatore }}
+\newcommand{\programProg}{\emph{Programmatore }}
+\newcommand{\progetProg}{\emph{Progettista }}
+\newcommand{\proponProg}{\emph{Proponente }}
+\newcommand{\commitProg}{\emph{Committente }}
+\newcommand{\propProg}{\emph{Dr. Amir Baldissera }}
+\newcommand{\commProg}{\emph{Prof. Tullio Vardanega }}
+\newcommand{\nameproject}{\emph{Progetto SafetyGame}}
+
+%%DA QUI IN POI POTETE MODIFICARE
+
+%% INSERIRE QUI IL NOME DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DEL NOME)
+\newcommand{\doctitle}{ }
+
+%% INSERIRE QUI LA VERSIONE ATTUALE DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DELLA VERSIONE)
+\newcommand{\versiondoc}{}
+
+%%INSERITE QUI LA DATA DI COMPILAZIONE FINALE DEL DOCUMENTO
+\newcommand{\datared}{GG/MM/AAAA}
+
+%%INSERIRE QUI IL/I REDATTORI
+\newcommand{\redattore}{Giorgio Maggiolo}
+
+%%INSERIRE IL/I NOME DEI VERIFICATORI CHE HANNO VERIFICATO IL DOCUMENTO
+\newcommand{\verificatori}{xxxxxx}
+
+%%INSERIRE IL NOME DI CHI HA APPROVATO IL DOCUMENTO
+\newcommand{\approvazione}{xxxxxx}
+
+%%INSERIRE LA TIPOLOGIA DI USO DEL DOCUMENTO [Interno/Esterno]
+\newcommand{\usodoc}{Interno}
+
+%%INSERIRE LA LISTA DI DISTRIBUZIONE DEL DOCUMENTO
+\newcommand{\listadistr}{\begin{itemize}
+\item \TeamCommitted
+\item \commProg
+\end{itemize}}
+
+%%INSERIRE IL SOMMARIO DEL DOCUMENTO
+\newcommand{\testosommario}{xxxxxxxxxxxx}
+
