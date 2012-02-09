@@ -167,7 +167,7 @@ Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
  funzionalità in gruppi disgiunti, ma in stretta collaborazione, la struttura
  di tale design pattern risulta perticolarmente calzante per dei servizi
  basati sull'architettura client-server, in quanto ogni livello non esiste
- semplicemente come raggruppamento logico a sé stante, ma il suo ruolo viene
+ semplicemente come raggruppamento logico a se stante, ma il suo ruolo viene
  adattato in relazione allo specifico ambiente di rete in cui esegue: nel
  caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
  nel determinato ambiente
