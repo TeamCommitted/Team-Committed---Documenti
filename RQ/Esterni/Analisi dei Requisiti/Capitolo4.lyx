@@ -306,10 +306,53 @@ hline
 
 \begin_layout Plain Layout
 
+RFD 2.1 & Ogni volta che un obiettivo viene completato, il sistema aggiungerà
+ il badge corrispondente al 
+\backslash
+uline{Dipendente} & Verbale 26/01/2012 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 2.1.1 & Alcuni obiettivi possono essere: risposto correttamente a 10 domande,
+ risposto a 50 domande, completare tutte le domande a risposta multipla...
+ & Verbale 26/01/2012 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 RFOB 3 & Tutte le azioni di tutti gli 
 \backslash
-uline{utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
+uline{Utilizzatori}, nel tempo, dovranno essere registrate nel sistema &
  Capitolato & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 3.1 & Le azioni saranno memorizzate in file di log, fiversi per ogni
+ 
+\backslash
+uline{Utilizzatore} e diversi per macro tipologia di azione (ad esempio,
+ un file per i login, uno per i logout, uno pe le modifiche di password...)
+ & Capitolato & Dinamica 
 \backslash
 
 \backslash
@@ -323,7 +366,8 @@ hline
 RFOB 4 & Un 
 \backslash
 uline{Utente}, che dovesse aver perso la propria password per accedere al
- sistema, potrà modificarla & UCD 2 & Dinamica 
+ sistema, potrà modificarla, inserendo il proprio codice fiscale e username
+ & UCD 2 & Dinamica 
 \backslash
 
 \backslash
@@ -489,6 +533,45 @@ hline
 
 \begin_layout Plain Layout
 
+RFOB 9.1.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
+ multipla & Capitolato & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 9.1.2 & Il tipo delle risposte può essere: domanda con video, domanda
+ con foto (entrambe con le modalità sopra citate), scansione di codice QR
+ nel tempo limite, scansione di codici QR nell'ordine corretto & Capitolato
+ & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 9.1.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
+ trova errori nella foto, trova differenze nella foto, registra i codici
+ RF-ID nell'ordine corretto & Capitolato & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
 RFD 9.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} potrà variare a seconda dell'impiego dello
@@ -503,35 +586,10 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9.2.1 & Il tipo delle risposte può essere: si/no, risposta chiusa, risposta
- multipla & Capitolato & Statica 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFD 9.2.2 & Il tipo delle risposte può essere: domanda con video, domanda
- con foto (entrambe con le modalità sopra citate), scansione di codice QR
- nel tempo limite, scansione di codici QR nell'ordine corretto & Capitolato
- & Statica 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOP 9.2.3 & Il tipo delle risposte può essere: ordinamento di frasi o foto,
- trova errori nella foto, trova differenze nella foto, registra i codici
- RF-ID nell'ordine corretto & Capitolato & Statica 
+RFD 9.2.1 & Non sarà possibile che ad un dipendente con un dato impiego (es.
+ segretario) vengano proposte domande riguardanti ambienti che non gli competono
+ (es.
+ sicurezza di macchinari pesanti) & Verbale 05/12/2011 & Statica 
 \backslash
 
 \backslash
@@ -1148,17 +1206,6 @@ hline
 
 \begin_layout Plain Layout
 
- 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -1221,8 +1268,8 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 1 & Il prodotto non dovrà risentire del traffico presente nella rete
- & interno & Dinamica 
+RPOB 1 & Il prodotto non dovrà perdere dati, anche con traffico pesante
+ nella rete & interno & Dinamica 
 \backslash
 
 \backslash
@@ -1233,14 +1280,29 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 2 & Il prodotto dovrà essere prestazionale indipendentemente dalla
- posizione del server generale delle domande & interno & Dinamica 
+RPOB 2 & Il prodotto dovrà funzionare indipendentemente dalla posizione
+ del server generale delle domande & interno & Dinamica 
 \backslash
 
 \backslash
  
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 3 & Le funzioni del sistema offerte al 
+\backslash
+uline{Dipendente} dovranno essere fruibili tramite interfaccia 
+\backslash
+uline{web} & Interno & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1506,6 +1568,21 @@ hline
 
 \begin_layout Plain Layout
 
+RQOP 7 & L'inserimento delle domande all'interno del sistema dovrà essere
+ particolarmente 
+\backslash
+emph{user-friendly} così da non richiedere conoscenze specifiche  & Verbale
+ & Statica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1598,7 +1675,9 @@ hline
 RVOB 1.1.1 & Il sistema funzionerà su qualsiasi dispositivo dove è presente
  una 
 \backslash
-uline{JVM}  versione >= 7.02 & Interno & Statica 
+uline{JVM}  con release 
+\backslash
+uline{JSE} versione >= 7.02 & Interno & Statica 
 \backslash
 
 \backslash
@@ -1626,36 +1705,6 @@ hline
 
 RVOB 2 & Non si dovranno fare assunzioni sulla locazione dei database delle
  aziende & Verbale & Statica 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOB 3 & Le funzioni del sistema offerte al 
-\backslash
-uline{Dipendente} dovranno essere fruibili tramite interfaccia 
-\backslash
-uline{web} & Interno & Statica 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RVOP 4 & L'inserimento delle domande all'interno del sistema dovrà essere
- particolarmente 
-\backslash
-emph{user-friendly} così da non richiedere conoscenze specifiche  & Verbale
- & Statica 
 \backslash
 
 \backslash
