@@ -398,12 +398,6 @@ Diagramma di attività della specifica sottoparte
 status open
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fn:Si-può-omettere"
-
-\end_inset
-
 Si può omettere tale diagramma qualora la sua definizione risulti talmente
  banale da risultare immediata conseguenza delle descrizioni e dei diagrammi
  precedenti
@@ -420,15 +414,8 @@ Diagramma di sequenza
 status open
 
 \begin_layout Plain Layout
-Vd.
- nota 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fn:Si-può-omettere"
-
-\end_inset
-
-
+V.d.
+ nota precedente
 \end_layout
 
 \end_inset

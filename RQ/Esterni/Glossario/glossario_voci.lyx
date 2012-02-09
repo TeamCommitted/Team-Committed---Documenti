@@ -2067,10 +2067,8 @@ begin{flushright}
 
 	In alcuni linguaggi orientati agli oggetti, tra cui 
 \backslash
-uline{Java}, 
-\backslash
-'e un meccanismo che permette di organizzare un insieme di classi tra loro
- correlate che concorrono allo stesso fine
+uline{Java}, è un meccanismo che permette di organizzare un insieme di classi
+ tra loro correlate che concorrono allo stesso fine
 \end_layout
 
 \begin_layout Plain Layout

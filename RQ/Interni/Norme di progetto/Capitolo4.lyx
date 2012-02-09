@@ -72,7 +72,7 @@ name "sec:Repository"
 \end_layout
 
 \begin_layout Standard
-Per un corretto e più rapido sviluppo dei prodotti, sono inserite qui le
+Per un corretto e più rapido sviluppo delle risorse, sono inserite qui le
  specifiche del 
 \bar under
 repository
@@ -263,7 +263,7 @@ e con
 status open
 
 \begin_layout Plain Layout
-vd.
+v.d.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -442,7 +442,7 @@ name "fn:XX-è-acronimo"
 
 XX
 \series default
- è acronimo di una revisione(vd.
+ è acronimo di una revisione(v.d.
  sezione 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -536,7 +536,7 @@ repository
 status open
 
 \begin_layout Plain Layout
-Vd.
+V.d.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref

@@ -89,7 +89,7 @@ TeamCommitted
 \end_layout
 
 \begin_layout Standard
-Poiché il progetto 
+Poichè il progetto 
 \emph on
 C03
 \emph default
@@ -208,22 +208,12 @@ LaTeX
 \series default
 
 \begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family typewriter
-\begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
+\family typewriter
 http://www.latex-project.org
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -389,7 +379,7 @@ MSDNAA
 \end_layout
 
 \begin_layout Standard
-Abbiamo scelto questo programma perché la controparte open-source, 
+Abbiamo scelto questo programma perchè la controparte open-source, 
 \emph on
 GanttProject
 \emph default
@@ -518,17 +508,7 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
 http://www.github.com
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -724,10 +704,10 @@ name "sub:Ambiente-di-verifica"
 Di seguito vengono elencati gli strumenti scelti per le verifiche e la validazio
 ne
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Per maggiori dettagli si rimanda al documento Piano di Qualifica - V2.0
+Per maggiori dettagli si rimanda al documento Piano di Qualifica - V1.0
 \end_layout
 
 \end_inset
@@ -900,17 +880,7 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
 http://validator.w3.org/
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset

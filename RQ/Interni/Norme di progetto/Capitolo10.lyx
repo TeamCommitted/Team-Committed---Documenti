@@ -75,7 +75,7 @@ name "sec:Norme-per-lo"
 \end_layout
 
 \begin_layout Subsection
-Diagrammi UML
+Grafici UML
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Grafici-UML-1"
@@ -86,7 +86,7 @@ name "sub:Grafici-UML-1"
 \end_layout
 
 \begin_layout Standard
-Di seguito elenchiamo una serie di convenzioni adottate per tutti i diagrammi
+Di seguito elenchiamo una serie di convenzioni adottate per tutti i grafici
  UML.
 \end_layout
 
@@ -95,7 +95,7 @@ Di seguito elenchiamo una serie di convenzioni adottate per tutti i diagrammi
 \series bold
 Standard: 
 \series default
-lo standard adottato per tutti i diagrammi UML è lo standard 
+lo standard adottato per tutti i grafici UML è lo standard 
 \emph on
 2.0
 \end_layout
@@ -105,7 +105,7 @@ lo standard adottato per tutti i diagrammi UML è lo standard
 \series bold
 Lingua:
 \series default
- la lingua di adozione per i diagrammi è l'
+ la lingua di adozione per i grafici è l'
 \emph on
 italiano
 \end_layout

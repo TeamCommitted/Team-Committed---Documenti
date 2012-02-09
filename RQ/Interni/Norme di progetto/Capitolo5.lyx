@@ -317,7 +317,7 @@ LogoTeam.jpg
 status open
 
 \begin_layout Plain Layout
-Rispettivamente indicati come 
+ rispettivamente indicati come 
 \begin_inset Quotes eld
 \end_inset
 
@@ -549,7 +549,7 @@ Altre situazioni:
 \series default
  in altre situazioni, il corsivo va utilizzato per enfatizzare parole importanti
  all'interno della frase.
- Differisce dal grassetto perché mentre il primo evidenzia parole o frasi
+ Differisce dal grassetto perchè mentre il primo evidenzia parole o frasi
  chiavi del discorso, il secondo mette in luce delle parole o frasi importanti,
  ma non essenziali ai fini della frase stessa
 \end_layout
@@ -1509,7 +1509,7 @@ Verificatori
 status open
 
 \begin_layout Plain Layout
-vd.
+v.d.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1535,7 +1535,7 @@ Approvatori
 status open
 
 \begin_layout Plain Layout
-vd.
+v.d.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1569,7 +1569,7 @@ Distribuzione
 status open
 
 \begin_layout Plain Layout
-vd.
+v.d.
  nota
 \begin_inset CommandInset ref
 LatexCommand ref
