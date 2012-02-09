@@ -1357,7 +1357,7 @@ Complessità ciclomatica:
  la complessità ciclomatica di un metodo è il numero di cammini linearmente
  indipendenti attraverso il codice sorgente.
  Per esempio, se il codice sorgente non contiene if o for, allora il livello
- di complessità sarà 1, poiché esiste un solo cammino
+ di complessità sarà 1, poichè esiste un solo cammino
 \end_layout
 
 \begin_deeper
