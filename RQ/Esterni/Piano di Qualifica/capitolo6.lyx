@@ -1,0 +1,4339 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{longtable}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Pianificazione ed esecuzione del collaudo
+\end_layout
+
+\begin_layout Subsection
+Test di Sistema
+\end_layout
+
+\begin_layout Standard
+Tale sezione viene adibita alla pianificazione ed illustrazione dei test
+ di sistema che verranno atuati prima del rilascio del prodotto ultimato.
+ 
+\end_layout
+
+\begin_layout Standard
+Lo scopo dell'eseguire tali test è dimostrate che l'applicazione prodotta
+ soddisfa le richieste del cliente, fornendo quindi esempi di test da attuare
+ per confermare che i requisiti individuati nel documento 
+\family typewriter
+Analisi Dei Requisiti - V2.0
+\family default
+ sono stati soddisfatti.
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Generale
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: il server su cui risiede il sistema dovrà dimostrarsi
+ funzionante rispondendo alle richieste dei vari componenti  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato testando la possibilità di connettersi
+ al servizio da differenti dispositivi &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFD 2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFD 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, al raggiungimento di determinati
+ obiettivi di 
+\backslash
+uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RPOB 1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato confrontando i tempi di risposta del
+ servizio in caso di basso traffico della rete con i tempi di risposta in
+ caso di traffico elevato.
+ I due tempi di risposta dovranno quindi essere simili &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RPOB 2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RPOB 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dimanima: viene verificato confrontando i tempi di risposta del
+ servizio tramite l'utilizzo di un database test di domande risiedente nel
+ medesimo server con quelli di un database test di domande risiedente in
+ un server remoto.
+ I due tempi di risposta dovranno essere simili &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 3.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RQOP 3.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, al passaggio del mouse sopra determinati
+ campi o sezioni del servizio, questo sia in grado di restituire appositi
+ consigli sull'utilizzo dello stesso &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RQOP 3.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RQOP 3.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, da ogni schermata, il sistema renderà
+ possibile accedere ad un'apposita area di aiuto  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RVOP 1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RVOP 1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato testando l'applicativo desktop su sistemi
+ operativi di diverso tipo &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Utente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 3 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 3 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verifiato se il sistema effettivamente registra
+ la data e l'ora dell'esecuzione delle varie azioni previste all'interno
+ di un file di log &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema offrirà effettivamente
+ la possibilità all'
+\backslash
+uline{Utente} che ha smarrito la password di connettersi all'apposita pagina
+ per richiederne il recupero &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che, se la procedura di richiesta modifica
+ password è stata eseguita correttamente, il sistema invierà effettivamente
+ una mail contenente una password  temporanea generata randomicamente  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 4.1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 4.1.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che al primo login dopo il recupero password,
+ il sistema chieda effettivamente che questa venga modificata &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora i dati personali del dell'
+\backslash
+uline{Utente} siano stati modificati&
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora venisse modificata la password di accesso &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email o password non validi il sistema risponda in maniera negativa &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 5 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
+ email e password validi il sistema risponda in maniera positiva &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 5.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 5.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema permetterà effettivamente
+ di effettuare il login tramite l'apposita applicazione web, desktop o android
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 6 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 6 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema sia in grado di fornire,
+ grazie ad un timer, periodiche domande precaricate al 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 7 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 7 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema sia in grado di fornire
+ delle domande al 
+\backslash
+uline{Dipendente} qual'ora le richiedesse &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 7.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 7.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema limiti, grazie ad un timer,
+ il numero di domande che il 
+\backslash
+uline{Dipendente} può richiedere &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema sia in grado di offrire
+ la possibilità al 
+\backslash
+uline{Dipendente} di accedere all'area di modifica dei propri dati personali
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica delle informazioni qual'ora fossero stati inseriti dati non
+ corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 10 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 10c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica delle informazioni qual'ora fossero stati inseriti dati corretti
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 11.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 11.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema invii una mail di conferma
+ qual'ora venisse modificato l'indirizzo email &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 12 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 12 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se un 
+\backslash
+uline{Dipendente} autenticato è in grado di accedere ai propri dati personali
+  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 13 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 13a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ alla scelta di un 
+\backslash
+uline{Utente} di rispondere ad una domanda proposta &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 13 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 13b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ alla scelta di un 
+\backslash
+uline{Utente} di rinviare una domanda proposta &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 14.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 14.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema è in grado di riconoscere
+ ed offrire informazioni sulla tipologia di domanda (nuova, posticipata,
+ sbagliata) &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 15 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 15 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se un 
+\backslash
+uline{Dipendente} sarà in grado di visualizzare lo storico dei propri punteggi
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 16 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 16 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se un 
+\backslash
+uline{Dipendente} sarà in grado di poter terminare la propria sessione 
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 17 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 17a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde positivamente
+ all'inserimento di username e password validi nella sezione dedicata al
+ login di un 
+\backslash
+uline{Amministratore Azienda} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 17 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 17b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde negativamente
+ all'inserimento di username e password non validi nella sezione dedicata
+ al login di un 
+\backslash
+uline{Amministratore Azienda} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 18 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 18 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema è in grado di offrire all'
+\backslash
+uline{Amministratore Azienda Autenticato} la possibilità di visionare la
+ pagina di gestione dipendenti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà positivamente
+ all'inserimento, da parte di un 
+\backslash
+uline{Amministratore Azienda Autenticato}, di dati corretti relativi ad
+ un nuovo 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponderà negativamente
+ all'inserimento, da parte di un 
+\backslash
+uline{Amministratore Azienda Autenticato}, di dati non corretti relativi
+ ad un nuovo 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema, dopo l'inserimento di
+ un nuovo 
+\backslash
+uline{Dipendente} da parte dell'
+\backslash
+uline{Amministratore Azienda Autenticato}, invierà una mail contenente i
+ dati del nuovo account all'indirizzo specificato &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19.2.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19.2.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
+ l'username del nuovo accout 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 19.2.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19.2.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
+ la password del nuovo accout 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 20 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 20 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema sarà in grado di far eliminare
+ all'
+\backslash
+uline{Amministratore Azienda Autenticato} un account 
+\backslash
+uline{Dipendente} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 21a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema sia in grado di permettere
+ all'
+\backslash
+uline{Amministratore Azienda Autenticato} di accedere alla pagina di modifica
+ degli account dei Dipendenti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 21b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica dei dati di un 
+\backslash
+uline{Dipendente} da parte dell'
+\backslash
+uline{Amministratore Azienda Autenticato} con informazioni valide &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 21 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 21c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica dei dati di un 
+\backslash
+uline{Dipendente} da parte dell'
+\backslash
+uline{Amministratore Azienda Autenticato} con informazioni non valide &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 22 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 22 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta ad un 
+\backslash
+uline{Amministratore Azienda Autenticato} di visionare le informazioni di
+ ogni 
+\backslash
+uline{Dipendente} registrato &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 23 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 23 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta da un 
+\backslash
+uline{Amministratore Azienda Autenticato} di visionare le informazioni relative
+ ai punteggi di ogni 
+\backslash
+uline{Dipendente} registrato &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 24 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 24 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta all'
+\backslash
+uline{Amministratore Azienda Autenticato} di modificare i badge/trofei di
+ ogni singolo 
+\backslash
+uline{Dipendente}  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 25 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 25 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta all'
+\backslash
+uline{Amministratore Azienda Autenticato} di terminare la propria sessione
+  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 26 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 26a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde positivamente
+ all'inserimento di username e password validi nella sezione dedicata al
+ login di un 
+\backslash
+uline{Amministratore Sicurezza}  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 26 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 26b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se il sistema risponde negativamente
+ all'inserimento di username e password non validi nella sezione dedicata
+ al login di un 
+\backslash
+uline{Amministratore Sicurezza} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 27 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 27 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica:  viene verificato che il sistema offra la possibilità
+ ad un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} di consultare le domande dell'aziend
+a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 28 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 28 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema offra la possibilità ad
+ un 
+\backslash
+uline{Amministratore Sicurezza Autenticato} di accedere all'interfaccia
+ per la modifica delle domande di un'azienda &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 28.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 28.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'
+\backslash
+uline{Amministratore Sicurezza Autenticato} di aggiungere nuove domande
+ da sottoporre ai dipendenti da un'apposito database generale &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 28.2 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 28.2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'
+\backslash
+uline{Amministratore Sicurezza Autenticato} di eliminare domande dalla lista
+ di quelle che possono essere somministrate ai 
+\backslash
+uline{Dipendenti} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 29 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 29 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema offra la possibilità all'
+\backslash
+uline{Amministratore Sicurezza Autenticato} di poter modificare gli obiettivi
+ di 
+\backslash
+uline{Gamification} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 29.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 29.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema esegua correttamente la
+ modifica dei badge/trofei assegnabili ai dipendenti al raggiungimento di
+ obiettivi di 
+\backslash
+uline{Gamification} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 30 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 30 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema esegua permetta all'
+\backslash
+uline{Amministratore Sicurezza Autenticato} di terminare correttamente la
+ propria sessione &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Installatore
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Cod.
+ requisito } & 
+\backslash
+textbf{ Cod.
+ verifica } & 
+\backslash
+textbf{ Modalità verifica } & 
+\backslash
+textbf{ Stato verifica } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 31 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 31 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che sia possibile eseguire una corretta
+ installazione del sistema in alcuni dispositivi fissi di test &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 32 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 32 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che sia possibile eseguire una corretta
+ installazione del sistema in alcuni dispositivi mobili di test &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 33 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 33 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che sia possibile una corretta installazione
+ del servizio web in un server test &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 34 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 34 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che sia possibile una corretta creazione
+ di un database test per garantire il corretto funzionamento del sistema
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 35a &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ all'inserimento di una domanda con dati corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 35b &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema negativamente  all'inserimento
+ di una domanda con dati non corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOP 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 35c &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda positivamente
+ alla modifica di una domanda con l'inserimento di dati corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 35d &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema risponda negativamente
+ alla modifica di una domanda con l'inserimento di dati non corretti &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 35 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOP 35e &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato che il sistema permetta al'
+\backslash
+uline{Amministratore Installatore} di eliminare correttamente una domanda
+  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Test di integrazione
+\end_layout
+
+\begin_layout Standard
+In questa sezione verrà descritta la pianificazione dei test di verifica
+ e collaudo che verranno eseguiti per le varie parti del sistema.
+ Grazie a questi test si vuole verificare il corretto funzionamento del
+ software, i test sono divisi fra test intra-componenti e inter-componenti.
+\end_layout
+
+\begin_layout Subsubsection
+Test intra-componenti
+\end_layout
+
+\begin_layout Standard
+I componenti verranno testati e collaudati seguendo una strategia incrementale
+ attraverso il principio di bottom-up.
+\end_layout
+
+\begin_layout Standard
+Verranno prima collaudati i componenti con minori dipendenze funzionali,
+ per poi proseguire con l'albero delle dipendenze.
+ Nella fattispecie prima sarà necessario avere funzionanti tutti i database
+ e la gestione degli stessi, poi si potrà preseguire con la restante parte
+ back-end e la parte front-end.
+\end_layout
+
+\begin_layout Standard
+Per ogni componente verranno effettuate prove dalle quali ci si può aspettare
+ un esito positivo o un esito negativo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{3cm} | m{10cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Componente } & 
+\backslash
+textbf{ Funzionalità da verificare } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		CDESK1 (login 
+\backslash
+uline{Dipendente}) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CDESK2 (notifica nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Notifica nuova domanda secondo i tempi impostati
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Rifiuto o accettazione nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Apertura browser se viene accettata la domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB1 (login) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Riconoscimento tipologia 
+\backslash
+uline{Utente}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB2 (gestione dati 
+\backslash
+uline{Utente}) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione dati 
+\backslash
+uline{Utente} loggato
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Modifica degli stessi
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB3 (amministrazione utenti) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Inserimento nuovi utenti
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Modifica utenti
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Eliminazione utenti
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB4 (rispondere ad una domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione della domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Gestione risposta, aggiornamento punteggi
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Visualizzazione esito risposta
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB5 (amministrazione domande) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Inserimento e rimozione delle domande relative ad un'azienda dall'insieme
+ delle domande globali
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB6 (visualizzazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione propri punteggi aggiornati
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB7 (gestione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Visualizzazione punteggi globali
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CWEB8 (notifica nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Notifica nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Rifiuto o accettazione nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB1 (login) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB2 (gestione dati 
+\backslash
+uline{Utente}) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione dati 
+\backslash
+uline{Utente} loggato
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Modifica degli stessi
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB3 (rispondere nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione della domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Gestione risposta, aggiornamento punteggi
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Visualizzazione esito risposta
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB4 (visualizzazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				    
+\backslash
+item Visualizzazione punteggi aggiornati
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CMOB5 (notifica nuova domanda) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione nuova domanda
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK1 (login) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Login tramite username e password
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Recupero password dimenticata
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK2 (amministrazione utenti) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione dati utenti
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Modifica degli stessi
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK3 (gestione domande e risposte) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Inserimento nuove domande
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Modifica domande
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+item Eliminazione domande
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		CBACK4 (amministrazione punteggi) & 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Visualizzazione punteggi globali
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+item Inserimento e modifica criteri di attribuzione punteggi e badge
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{itemize} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Test inter-componenti
+\end_layout
+
+\begin_layout Standard
+Man mano che il collaudo prosegue verranno aggiunti test e prove sui componenti
+ in maniera incrementale.
+ Ad ogni nuovo collaudo quindi verrà testato il curretto funzionamento inter-com
+ponenti tenedono conto delle loro dipendenze.
+ Il sistema software in ogni caso non prevede grosse dipendenze fra i vari
+ componenti front-end e back-end, il grosso del lavoro inter-componenti
+ relativo alle dipendenze andrà rivolto al corretto funzionamento del database
+ e delle relative richieste.
+\end_layout
+
+\end_body
+\end_document

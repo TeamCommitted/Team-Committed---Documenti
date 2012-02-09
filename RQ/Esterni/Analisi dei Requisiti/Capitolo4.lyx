@@ -210,25 +210,6 @@ OP:
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-Inoltre, per ogni requisito si definisce la tipologia di verifica per tale
- requisito che potrà essere di tipo: 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Statica
-\series default
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Dinamica
-\end_layout
-
 \begin_layout Subsection
 
 \family roman

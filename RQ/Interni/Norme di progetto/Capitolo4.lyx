@@ -1,0 +1,858 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language italian
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Repository
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Repository"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per un corretto e più rapido sviluppo delle risorse, sono inserite qui le
+ specifiche del 
+\bar under
+repository
+\bar default
+.
+\end_layout
+
+\begin_layout Subsection
+Struttura repository
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Struttura-repository"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Progetto
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Progetto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il
+\bar under
+ repository
+\bar default
+ dell'intero progetto è possibile trovarlo all'indirizzo:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/TeamCommitted
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+A questo indirizzo sarà possibile trovare una lista di tutti i 
+\bar under
+repository
+\bar default
+ creati.
+\end_layout
+
+\begin_layout Subsubsection
+Documentazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Documentazione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'indirizzo root del 
+\bar under
+repository 
+\bar default
+dei documenti è: 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/TeamCommitted/Team-Committed---Documenti
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Il 
+\bar under
+repository
+\bar default
+ è organizzato in maniera gerarchica per revisione ed è strutturato con
+ la seguente struttura
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:In-questa-sottosezione"
+
+\end_inset
+
+In questa sottosezione ci si riferirà all'url del repository della documentazion
+e con 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+/root/
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/
+\family default
+\series default
+ conterrà le cartelle delle varie revisioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+v.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:XX-è-acronimo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ e la cartella 
+\emph on
+Modelli
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/Modelli/
+\family default
+\series default
+ conterrà tutti i file che 
+\series bold
+dovranno
+\series default
+ essere applicati ad ogni documento LyX
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per ulteriori informazioni sulle modalità di applicazione di questi modelli,
+ v.d.
+ sezione
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Formattazione-e-copertina"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+frontpage.lyx
+\family default
+\series default
+ è la pagina che genera in automatico la copertina di ogni documento.
+ Dovrà essere inclusa come documento figlio
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+preface.tex
+\family default
+\series default
+\emph on
+ 
+\emph default
+è il file di impostazioni di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ che dovrà essere importato nella 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Prefazione di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ e correttamente modificato come descritto al suo interno
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+Diario_modifiche.lyx
+\family default
+ 
+\series default
+conterrà il codice 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ per generare il 
+\emph on
+Diario delle modifiche.
+ 
+\emph default
+La documentazione per il suo uso è all'interno del documento stesso
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/Modelli/img/
+\family default
+\series default
+ conterrà le immagini che tutti i documenti dovranno avere
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/XX/
+\family default
+ 
+\series default
+conterrà tutta la documentazione riguardante una specifica revisione
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:XX-è-acronimo"
+
+\end_inset
+
+XX
+\series default
+ è acronimo di una revisione(v.d.
+ sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formati-ricorrenti"
+
+\end_inset
+
+
+\size default
+)
+\end_layout
+
+\end_inset
+
+.
+ All'interno della cartella i documenti dovranno essere divisi fra 
+\series bold
+interni
+\series default
+ ed 
+\series bold
+esterni
+\series default
+ (questa differenziazione dovrà ripercuotersi a livello di cartella) e ogni
+ documento dovrà essere inserito in una sua cartella dedicata, che conterrà
+ anche le immagini specifiche di quel documento
+\end_layout
+
+\begin_layout Subsubsection
+Codice
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Codice"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'indirizzo root del 
+\bar under
+repository
+\bar default
+ del codice è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/TeamCommitted/SafetyGame-Sources
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Il 
+\bar under
+repository
+\bar default
+ è organizzato con la seguente struttura
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+V.d.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:In-questa-sottosezione"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/
+\family default
+\series default
+ conterrà le cartelle dei vari prodotti realizzati o in fase di realizzazione
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/pc/
+\family default
+ 
+\series default
+conterrà i sorgenti dell'applicazione, lato 
+\emph on
+\bar under
+desktop
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/mobile/
+\family default
+ 
+\series default
+conterrà i sorgenti dell'applicazione, lato 
+\emph on
+\bar under
+mobile
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/web/
+\family default
+ 
+\series default
+conterrà i sorgenti dell'applicazione, lato 
+\emph on
+\bar under
+web
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/COPYRIGHT
+\family default
+\series default
+ file contenente il copyright e la licenza
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+/root/README
+\family default
+\series default
+ file che descrive genericamente il repository, verra visualizzato automaticamen
+te nella pagina relativa di 
+\emph on
+\bar under
+Github
+\end_layout
+
+\begin_layout Standard
+L'interno di ogni cartella contenente i sorgenti dovrà invece essere suddivisa
+ in questa maniera:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./src/
+\family default
+ 
+\series default
+conterrà i sorgenti veri e propri dell'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./test/
+\family default
+\series default
+ conterrà il codice creato per testare quanto contenuto in 
+\family typewriter
+./src/
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\series bold
+./doc/ 
+\family default
+\series default
+conterrà la documentazione riguardante il software
+\end_layout
+
+\begin_layout Subsection
+Note di utilizzo dei repository
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Note-di-utilizzo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Documentazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Documentazione-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Formati file
+\series default
+: il 
+\bar under
+repository
+\bar default
+ della documentazione potrà contenere solamente file di testo in formato
+ 
+\family typewriter
+LyX
+\family default
+, file 
+\family typewriter
+.pptx
+\family default
+ delle presentazioni e i file
+\family typewriter
+ PDF
+\family default
+ sia dei documenti che delle presentazioni; le immagini dovranno essere
+ in formato 
+\family typewriter
+.png
+\family default
+ o 
+\family typewriter
+.jpg
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Documenti rilasciati
+\series default
+: una volta rilasciato un documento, si dovrà allegare il file 
+\family typewriter
+PDF
+\family default
+ del documento all'interno della stessa cartella del documento
+\end_layout
+
+\begin_layout Subsubsection
+Codice
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Codice-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Formati file
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Codice sorgente: 
+\series default
+il 
+\bar under
+repository
+\bar default
+ del codice sorgente potrà contenere solamenti file sorgenti nei seguenti
+ formati:
+\family typewriter
+.java
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\family typewriter
+.class
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.html
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.css
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.xml
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.sql
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.js
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.apk
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.bluej
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+.ctxt
+\end_layout
+
+\begin_layout Itemize
+.
+\family typewriter
+jsp
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Immagini: 
+\series default
+le immagini invece dovranno essere in formato 
+\family typewriter
+.jpg
+\family default
+ e/o 
+\family typewriter
+.png
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Documentazione: 
+\series default
+la documentazione prodotta dovrà essere in formato 
+\family typewriter
+.html
+\family default
+ e/o formato testo semplice
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

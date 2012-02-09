@@ -1,0 +1,604 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Introduzione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduzione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Scopo del documento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scopo-del-documento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con il presente documento si intende specificare la pianificazione del lavoro
+ necessario allo sviluppo del progetto.
+ In particolare saranno specificati la suddivisione dei ruoli di lavoro,
+ il calendario delle attività e le risorse disponibili.
+ 
+\end_layout
+
+\begin_layout Subsection
+Glossario
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Glossario"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario_V2.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
+\end_layout
+
+\begin_layout Subsection
+Riferimenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti normativi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-normativi"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Capitolato d’Appalto
+\series default
+: Piattaforma Mobile di Apprendimento Comportamentale, v 1.0, rilasciato
+ dal 
+\bar under
+proponente
+\bar default
+ Mentis s.r.l., reperibile all’indirizzo: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/C3.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vincoli di Organigramma
+\series default
+:
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+ http://www.math.unipd.it/~tullio/IS-1/2011/Progetto/PD01b.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto
+\series default
+ - v 2.0
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti informativi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-informativi"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Software Engineering - Part 4
+\series default
+: Software processes - Ian Sommerville – 8th ed.
+ (2006)
+\end_layout
+
+\begin_layout Subsection
+Ruoli e costi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ruoli-e-costi"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il corretto sviluppo di un progetto è fondamentale la pianificazione
+ dei ruoli che i membri del progetto dovranno ricoprire.
+ In particolare, il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ eseguirà una rotazione il più possibile omogenea dei ruoli.
+ Tale rotazione seguirà le norme specificate dai Vincoli di organigramma
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+vedi sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Riferimenti-normativi"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Di seguito sono riportati i costi orari dei singoli ruoli (tabella 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Costi-per-ruolo"
+
+\end_inset
+
+) e le abbreviazioni che verranno utilizzate nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Pianificazione"
+
+\end_inset
+
+ per la ripartizione dei ruoli.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ruolo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Costo orario
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsabile (RE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amministratore (AM)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Analista (AN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Progettista (PR)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Programmatore (PROG)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verificatore (VE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+ 15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Costi-per-ruolo"
+
+\end_inset
+
+Costi per ruolo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Scadenze
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scadenze"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Seguono le scadenze che il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha scelto di rispettare: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revisione Requisiti
+\series default
+ (
+\bar under
+RR
+\bar default
+): 2011/12/10
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revisione di Progetto
+\series default
+ (
+\bar under
+RP
+\bar default
+): 2012/02/07
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revisione di Qualifica
+\series default
+ (
+\bar under
+RQ
+\bar default
+): 2012/03/07
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revisione di Accettazione
+\series default
+ (
+\bar under
+RA
+\bar default
+): 2012/04/07 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1173 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Front-end Web
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/frontEndWeb.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View"
+
+\end_inset
+
+View
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ questo componente costituisce la parte del sistema che definisce ed implementa
+ l'interfaccia 
+\bar under
+web
+\bar default
+ usurfruibile dagli 
+\bar under
+Utenti
+\bar default
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ il componente è costituito dal layer View, e comunica con il layer Model
+ per rendere possibile la memorizzazione delle informazioni immesse nel
+ sistema dagli utenti attraverso l'interfaccia 
+\bar under
+web
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntDipen"
+
+\end_inset
+
+com.safetyGame.web.view.IntDipendente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+L'interfaccia IntDipendente fornisce la struttura base per la creazione
+ delle pagine 
+\bar under
+web
+\bar default
+ per i 
+\bar under
+Dipendenti
+\bar default
+ e i 
+\bar under
+Dipendenti
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Dipendente
+\bar default
+ che saranno successivamente implementati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ L'interfaccia verrà implementata dalla classe DipendenteImpl.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per i 
+\bar under
+Dipendenti
+\bar default
+ e i 
+\bar under
+Dipendenti Autenticati
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntAmmin"
+
+\end_inset
+
+com.safetyGame.web.view.IntAmministratoreAzienda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+L'interfaccia IntAmministratoreAzienda fornisce la struttura base per la
+ creazione delle pagine 
+\bar under
+web
+\bar default
+ per l'
+\bar under
+Amministratore Azienda
+\bar default
+ e l'
+\bar under
+Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Amministratore Azienda
+\bar default
+ che saranno successivamente implementati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ L'interfaccia verrà implementata dalla classe AmministratoreAziendaImpl.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per l'
+\bar under
+Amministratore Azienda
+\bar default
+ e l'
+\bar under
+Amministratore Azienda Autenticato
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.IntAmmin-1"
+
+\end_inset
+
+com.safetyGame.web.view.IntAmministratoreSicurezza
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+L'interfaccia IntAmministratoreSicurezza fornisce la struttura base per
+ la creazione delle pagine 
+\bar under
+web
+\bar default
+ per l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ e l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato
+\bar default
+.
+ Dichiara i metodi comuni ad ogni 
+\bar under
+Amministratore Sicurezza
+\bar default
+ che saranno successivamente implementati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ L'interfaccia verrà implementata dalla classe AmministratoreSicurezzaImpl.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ L'interfaccia fornisce la base per le implementazioni di tutte le pagine
+ e dei metodi utili per l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ e l'
+\bar under
+Amministratore Sicurezza Autenticato
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Dipenden"
+
+\end_inset
+
+com.safetyGame.web.view.DipendenteImpl
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe DipendenteImpl implementa l'interfaccia IntDipendente definendone
+ tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe DipendenteImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlDipendente per verificare
+ i dati inseriti dai 
+\bar under
+Dipendenti
+\bar default
+ e/o 
+\bar under
+Dipendenti
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia con le varie classi gli oggetti del package condivisi.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ControlDipendente per restituire
+ i dati erroneamente modificati e per utilizzarne i metodi di modifica campi
+ dichiarati, ControlAmministratoreAzienda per utilizzare i metodi di modifica
+ campi dichiarati e da tutto il package model che comunica con il 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe implementa l'interfaccia IntDipendente.
+ Richiede la verifica dei dati alla classe ControlDipendente e fornisce
+ i metodi implementati al package model e alla classe ControlAmministratoreAzien
+da.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Amminist"
+
+\end_inset
+
+com.safetyGame.web.view.AmministratoreAziendaImpl
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe AmministratoreAziendaImpl implementa l'interfaccia IntAmministratoreA
+zienda definendone tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe AmministratoreAziendaImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlAmministratoreAzienda per
+ verificare i dati inseriti dagli 
+\bar under
+Amministratori Azienda
+\bar default
+ e/o 
+\bar under
+Amministratori Azienda
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia gli oggetti delle classi Login, Log, Trofeo, Dipendente, Punteggio,
+ Recupero del package condivisi.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ControlAmministratoreAzienda per
+ restituire i dati erroneamente modificati e per utilizzarne i metodi di
+ modifica campi dichiarati.
+ Viene inoltre utilizzata dagli oggetti delle classi ModelTrofeo, ModelLogin,
+ ModelDipendente, ModelPunteggio, ModelLog, ModelRecupero del package model
+ che comunicano con il 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe implementa l'interfaccia IntAmministratoreAzienda.
+ Richiede la verifica dei dati alla classe ControlAmministratore Azienda
+ e fornisce i metodi implementati alle classi sopra elencate del package
+ model.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Amminist-1"
+
+\end_inset
+
+com.safetyGame.web.view.AmministratoreSicurezzaImpl
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe AmministratoreSicurezzaImpl implementa l'interfaccia IntAmministrator
+eSicurezza definendone tutti i metodi e le pagine 
+\bar under
+web
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe AmministratoreSicurezzaImpl implementa metodi e pagine 
+\bar under
+web
+\bar default
+ per la gestione browser del sistema.
+ Utilizza, inoltre, metodi della classe ControlAmministratoreSicurezza per
+ verificare i dati inseriti dagli 
+\bar under
+Amministratori Sicurezza
+\bar default
+ e/o 
+\bar under
+Amministratori Sicurezza
+\bar default
+ 
+\bar under
+Autenticati
+\bar default
+ e scambia gli oggetti delle classi Domanda, Login, Log, Recupero del package
+ condivisi.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ControlAmministratoreSicurezza
+ per restituire i dati erroneamente modificati e per utilizzarne i metodi
+ di modifica campi dichiarati.
+ Viene inoltre utilizzata dagli oggetti delle classi ModelDomanda, ModelLogin,
+ ModelLog, ModelRecupero del package model che comunicano con il 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe implementa l'interfaccia IntAmministratoreSicurezza.
+ Richiede la verifica dei dati alla classe ControlAmministratore Sicurezza
+ e fornisce i metodi implementati alle classi sopra elencate del package
+ model.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Controller"
+
+\end_inset
+
+Controller
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ Questo livello si occupa di controllare la sussistenza dei dati da e verso
+ l'interfaccia grafica visibile all'utente.
+ È incaricato di mantenere aggiornati i dati visualizzati dall'interfaccia
+ grafica 
+\bar under
+web
+\bar default
+ interrogando quelli presenti nel sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ Il livello è costituito dal package control.
+ Comunica con il livello Model
+\series bold
+ 
+\series default
+per accedere ai dati presenti nel sistema, e con il livello View per aggiornare
+ la parte grafica 
+\bar under
+web
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr"
+
+\end_inset
+
+com.safetyGame.web.control.ControlDipendente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlDipendente si interpone tra lo scambio di dati fra il back-end
+ ed gli oggetti 
+\bar under
+Dipendente
+\bar default
+ istanziati
+\bar under
+ 
+\bar default
+in
+\bar under
+ 
+\bar default
+DipendenteImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ DipendenteImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlDipendente utilizza le implementazioni della classe DipendenteI
+mpl e comunica con il 
+\bar under
+back-end
+\bar default
+ tramite il package model.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene usata da DipendenteImpl per effettuare i controlli sui
+ vari input che un 
+\bar under
+Dipendente
+\bar default
+ o un 
+\bar under
+Dipendente
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe DipendenteImpl verso il Back-end.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr-1"
+
+\end_inset
+
+com.safetyGame.web.control.ControlAmministratoreAzienda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlAmministratoreAzienda si interpone tra lo scambio di dati
+ fra il 
+\bar under
+back-end
+\bar default
+ ed gli oggetti 
+\bar under
+Amministratore Azienda
+\bar default
+ istanziati
+\bar under
+ 
+\bar default
+in
+\bar under
+ 
+\bar default
+AmministratoreAziendaImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ AmministratoreAziendaImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlAmministratoreAzienda utilizza le implementazioni della
+ classe AmministratoreAziendaImpl e comunica con il
+\bar under
+ back-end
+\bar default
+ tramite il package model.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene usata da AmministratoreAziendaImpl per effettuare i controlli
+ sui vari input che un 
+\bar under
+Amministratore Azienda
+\bar default
+ o un 
+\bar under
+Amministratore Azienda
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe AmministratoreAziendaImpl verso il 
+\bar under
+back-end
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Contr-2"
+
+\end_inset
+
+com.safetyGame.web.control.ControlAmministratoreSicurezza
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlAmministratoreSicurezza si interpone tra lo scambio di
+ dati fra il 
+\bar under
+back-end
+\bar default
+ ed gli oggetti 
+\bar under
+Amministratore Sicurezza
+\bar default
+ istanziati
+\bar under
+ 
+\bar default
+in
+\bar under
+ 
+\bar default
+AmministratoreSicurezzaImpl.
+ Esegue i controlli per verificare che l'identità che viene passata dal
+ AmministratoreSicurezzaImpl sia coerente con i dati presenti nel 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlAmministratoreSicurezza utilizza le implementazioni della
+ classe AmministratoreSicurezzaImpl e comunica con il
+\bar under
+ back-end
+\bar default
+ tramite il package model.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene usata da AmministratoreSicurezzaImpl per effettuare i controlli
+ sui vari input che un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ o un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ 
+\bar under
+Autenticato 
+\bar default
+immette.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe esegue i controlli di consistenza di tutti i dati immessi nell'oggett
+o istanziato dalla classe AmministratoreSicurezzaImpl verso il 
+\bar under
+back-end
+\bar default
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Model"
+
+\end_inset
+
+Model
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\emph on
+ 
+\series default
+\emph default
+Questo livello contiene e rappresenta i dati veri e propri del sistema.
+ Offre le classi che consentono di interfacciarsi ai dati contenuti nel
+ 
+\bar under
+back-end
+\bar default
+ del sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ Il Model utilizza le funzioni del View per visualizzare i risultati delle
+ azioni.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Le funzioni di Model sono utilizzate da Controller.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.model.ClientB"
+
+\end_inset
+
+com.safetyGame.web.model.ClientBackEnd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe ClientBackEnd viene utilizzata per effettuare la connessione
+ fisica tra il 
+\bar under
+front-end Web
+\bar default
+ ed il 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ Richiama metodi del Presentation Tier del 
+\bar under
+back-end 
+\bar default
+in base alle richieste delle classi del Model.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\series default
+ Viene richiamata dalle classi ModelXxx per inviare o ricevere dati al Back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe si occupa di effettuare le richieste e ricevere risposte utilizzando
+ script JSP.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.model.ModelXx"
+
+\end_inset
+
+com.safetyGame.web.model.ModelXxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ Le classi ModelXxx vengono utilizzate per inviare e richiedere dati al
+ 
+\bar under
+back-end 
+\bar default
+attraverso la classe ClientBackEnd.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ Utilizzano metodi del componente View per visualizzare i dati ottenuti,
+ utilizzano la classe ClientBackEnd per comunicare col server; Utilizzano
+ oggetti del package condivisi per scambiare dati con gli altri componenti.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d’uso da altre componenti:
+\series default
+ Vengono richiamate dalle classi di Controller per inviare dati al server,
+ vengono richiamate dalle classi di View per far visualizzare dati presenti
+ nel server.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Le classi ricevono richieste di scambio dati col database dalle relative
+ classi di Controller, utilizzano la classe ClientBackEnd per comunicare
+ con le classi relative nel Presentation Tier del 
+\bar under
+back-end
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.condivisi.Xxx"
+
+\end_inset
+
+com.safetyGame.web.condivisi.Xxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari componenti.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Le classi vengono utilizzate da tutti gli altri package per trasferire
+ informazioni tra i vari livelli del 
+\bar under
+front-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
+\end_layout
+
+\end_body
+\end_document
