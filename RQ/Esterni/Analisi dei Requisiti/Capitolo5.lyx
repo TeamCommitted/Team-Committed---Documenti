@@ -99,6 +99,10 @@ begin{longtable}{ l | p{6cm} | l}
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
 		Codice caso d'uso & Nome caso d'uso & Codice requisito 
 \backslash
 
@@ -128,7 +132,34 @@ hline
 
 \begin_layout Plain Layout
 
+									& & RFD 2.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RFD 2.1.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 									& & RFOB 3 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+									& & RFOB 3.1 
 \backslash
 
 \backslash
@@ -392,7 +423,7 @@ hline
 
 \begin_layout Plain Layout
 
-								  & & RFOB 9.2 
+								  & & RFD 9.2 
 \backslash
 
 \backslash
@@ -401,7 +432,7 @@ hline
 
 \begin_layout Plain Layout
 
-								  & & RFOB 9.2.1 
+								  & & RFD 9.2.1 
 \backslash
 
 \backslash
@@ -410,7 +441,7 @@ hline
 
 \begin_layout Plain Layout
 
-								  & & RFD 9.2.2 
+								  & & RFOB 9.1.1 
 \backslash
 
 \backslash
@@ -419,7 +450,16 @@ hline
 
 \begin_layout Plain Layout
 
-								  & & RFOP 9.2.3 
+								  & & RFD 9.1.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+								  & & RFOP 9.1.3 
 \backslash
 
 \backslash
@@ -702,6 +742,15 @@ hline
 
 \begin_layout Plain Layout
 
+									& & RFOB 3.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 									& & RPOB 1 
 \backslash
 
@@ -943,6 +992,15 @@ hline
 
 \begin_layout Plain Layout
 
+									& & RFOB 3.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 									& & RFOP 29 
 \backslash
 
@@ -1093,6 +1151,15 @@ hline
 
 \begin_layout Plain Layout
 
+									& & RFOB 3.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 									& & RFOP 35 
 \backslash
 
@@ -1138,7 +1205,7 @@ hline
 
 \begin_layout Plain Layout
 
-									& & RVOP 4 
+									& & RQOP 7 
 \backslash
 
 \backslash
@@ -1265,7 +1332,7 @@ hline
 
 \begin_layout Plain Layout
 
-						   & & RVOB 3 
+						   & & RPOB 3 
 \backslash
 
 \backslash

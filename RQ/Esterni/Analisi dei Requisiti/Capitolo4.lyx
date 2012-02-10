@@ -1673,7 +1673,7 @@ RVOB 1.2 & Il sistema dovrà funzionare su qualsiasi
 \backslash
 uline{dispositivo mobile} con sistema operativo 
 \backslash
-uline{Android} & Capitolato & Statica 
+uline{Android} la cui versione è >=1.6 e <=4 & Capitolato & Statica 
 \backslash
 
 \backslash
