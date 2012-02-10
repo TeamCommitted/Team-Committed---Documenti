@@ -215,6 +215,28 @@ Dipendente
 \begin_layout Enumerate
 Il 
 \bar under
+Dipendente Autenticato 
+\bar default
+può utilizzare le azioni offerte dal sistema
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
+Dipendente Autenticato 
+\bar default
+può effettuare il logout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Flussi Secondari degli eventi:
+\end_layout
+
+\begin_layout Enumerate
+Il 
+\bar under
 Dipendente
 \bar default
  può modificare la propria password di accesso all'applicazione
@@ -258,14 +280,6 @@ Il
 Dipendente Autenticato
 \bar default
  può visualizzare i propri dati account
-\end_layout
-
-\begin_layout Enumerate
-Il 
-\bar under
-Dipendente Autenticato 
-\bar default
-può effettuare il logout
 \end_layout
 
 \begin_layout Subsubsection

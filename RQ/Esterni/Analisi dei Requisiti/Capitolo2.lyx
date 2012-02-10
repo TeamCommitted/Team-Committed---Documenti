@@ -120,9 +120,8 @@ gamification
 , ogni utente dovrebbe essere invogliato a rispondere correttamente e di
  conseguenza essere sempre informato e aggiornato sulle tematiche riguardanti
  la sicurezza sul lavoro.
- L'azienda, in ogni momento, dovrà poter controllare lo stato delle risposte
- dei dipendenti e le rispettive classifiche per procedere con attività di
- analisi.
+ L'azienda, in ogni momento, potrà controllare lo stato delle risposte dei
+ dipendenti e le rispettive classifiche per procedere con attività di analisi.
  Le domande caricate nel prodotto saranno differenti per ogni azienda, che
  potrà gestirle autonomamente.
 \end_layout
@@ -357,7 +356,18 @@ di ultima generazione
 \end_layout
 
 \begin_layout Standard
-Durante il suo funzionamento il software assicurerà:
+Durante il suo funzionamento il software assicurerà: 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Si rimanda al documento ''Piano di Qualifica'' per la definizione degli
+ strumenti e dei metodi di verifica
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
