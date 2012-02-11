@@ -417,19 +417,7 @@ commitProg
 status open
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-'E
-\end_layout
-
-\end_inset
-
- possibile che l'intero gruppo partecipi all'incontro
+È possibile che l'intero gruppo partecipi all'incontro
 \end_layout
 
 \end_inset
@@ -530,20 +518,7 @@ respProg
 Di ogni incontro si dovrà redigere un verbale che dovrà essere spedito in
  copia a tutti i presenti alla riunione per verifica e conferma di quanto
  scritto.
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-'E
-\end_layout
-
-\end_inset
-
- richiesta conferma scritta di ogni presente attraverso le modalità descritte
+ È richiesta conferma scritta di ogni presente attraverso le modalità descritte
  nella sezione 
 \begin_inset CommandInset ref
 LatexCommand ref
