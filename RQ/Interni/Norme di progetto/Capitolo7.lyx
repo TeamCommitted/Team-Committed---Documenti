@@ -145,6 +145,19 @@ Diagrammi delle attività:
  o suddividere il diagramma generale
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Diagrammi di sequenza:
+\series default
+ dovranno essere presenti per l'architettura di dettaglio.
+ Dovranno definire in maniera precisa le responsabilità dei vari package
+ e/o classi nel portare a termine un certo compito.
+ Si dovrà limitare la rappresentazione di cicli o condizioni alternative
+ ai soli casi in cui la loro omissione comporti gravi scompensi alla comprension
+e del funzionamento dell'applicazione
+\end_layout
+
 \begin_layout Subsection
 Design Pattern
 \begin_inset CommandInset label
@@ -395,7 +408,7 @@ Utilizzatori ipotetici
 \begin_layout Enumerate
 Diagramma di attività della specifica sottoparte
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
@@ -414,35 +427,34 @@ Si può omettere tale diagramma qualora la sua definizione risulti talmente
 
 \end_layout
 
-\begin_layout Enumerate
-Diagramma di sequenza
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Vd.
- nota 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fn:Si-può-omettere"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Subsection
 Architettura di dettaglio
 \end_layout
 
 \begin_layout Standard
-Da definire.
+Il documento relativo all'architettura di dettaglio dovrà contenere:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi delle classi:
+\series default
+ per rendere esplicite le relazioni delle varie classi all'interno delle
+ singole componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi di attività
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi di sequenza
 \end_layout
 
 \end_body
