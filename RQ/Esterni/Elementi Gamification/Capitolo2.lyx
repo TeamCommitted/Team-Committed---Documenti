@@ -43,8 +43,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 4
+\tocdepth 4
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -97,6 +97,27 @@ Possiamo definire la Gamification come un insieme di regole con l’obiettivo
  da comunicare, anche di impresa.
 \emph default
 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tratto da 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.gameifications.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -109,14 +130,6 @@ end{center}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Subsection
-Studi effettuati
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -223,6 +236,46 @@ Esempi:
  che testo) di quanto specificato prima
 \end_layout
 
+\begin_layout Standard
+Di seguito elenchiamo le realtà che abbiamo studiato per poter comprendere
+ al meglio la 
+\emph on
+\bar under
+Gamification:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CriticalCity Upload
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Focus Coop (2009)
+\end_layout
+
+\begin_layout Itemize
+
+\end_layout
+
 \begin_layout Subsubsection
 CriticalCity Upload
 \end_layout
@@ -248,15 +301,12 @@ begin{center}
 \end_inset
 
 
-
 \begin_inset Graphics
-	filename img/CriticalCity/LogoCriticalCity.jpg
+	filename img/CriticalCity/Logo_CCU_horizzontal.eps
 	scale 50
 
 \end_inset
 
-
-\lang italian
 
 \begin_inset ERT
 status open
@@ -367,33 +417,150 @@ Elementi di Gamification
 \begin_layout Itemize
 
 \series bold
+Missioni:
+\series default
+ l'intero gioco è basato sul concetto di missioni (denominate 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Istruzioni
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+), dove vedono i giocatori scegliere e svolgere queste missioni.
+ L'elemento caratterizzante è la documentazione dello svolgimento tramite
+ foto, video e/o semplice testo; questa documentazione verrà poi pubblicata
+ per poter dichiarare conclusa la missione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Livelli:
+\series default
+ ad ogni giocatore è assegnato un livello che varierà in base a quante missioni
+ ha fatto.
+ In particolare ad ogni missione viene attribuito un punteggio calcolato
+ a partire dalla sua difficoltà.
+ Ogni 
+\series bold
+tot
+\series default
+ punti il sistema assegnerà un nuovo livello, dando la possibilità di svolgere
+ nuove missioni e dando nuovi voti disponbili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Valutazioni:
+\series default
+ ogni giocatore avrà un numero limitato di voti da dare alle esecuzioni
+ fatte dagli altri giocatori.
+ In questo modo, il giocatore che riceverà un voto avrà un incremento di
+ 5 punti al valore della missione conclusa
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Badge:
 \series default
+ il 
+\emph on
+badge
+\emph default
+, all'interno di 
+\emph on
+CriticalCity Upload
+\emph default
+, è implementato in maniera leggermente differente rispetto alla normale
+ definizione, in quanto al raggiungimento del 7° livello, i mantainer del
+ sito inviano a casa la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Scatola Inversa
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, pacchetto il cui contenuto è sconosciuto ai più e sul quale si cerca di
+ mantenere il massimo riserbo proprio per poter invogliare i giocatori a
+ raggiungere il 7° livello
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aiuto reciproco:
+\series default
+ è possibile che un giocatore si proponga come 
+\begin_inset Quotes eld
+\end_inset
+
+aiutante
+\begin_inset Quotes erd
+\end_inset
+
+ nei confronti di una missione.
  
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Riprova sociale
+Riprova sociale:
+\series default
+ questo elemento è diviso in due 
+\emph on
+sottocategorie:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Email:
+\series default
+ ogni mese arriva una mailing list dove viene mostrata l'esecuzione migliore
+ di quel mese, dando risalto al giocatore che l'ha effettuata
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Missioni
+Sito web:
+\series default
+ nell'home page del sito c'è un riquadro che mostra la migliore esecuzione
+ del momento, calcolata in base ai voti assegnati durante un periodo di
+ tempo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Sconosciuto allo scrittore
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
-GeoTagging
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Aiuto reciproco
+GeoTagging:
+\series default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -508,6 +675,7 @@ Home page
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
