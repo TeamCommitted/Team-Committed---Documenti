@@ -427,5 +427,120 @@ euro
  30,00.
 \end_layout
 
+\begin_layout Subsubsection
+Analisi del consuntivo
+\end_layout
+
+\begin_layout Standard
+Nonostante la variazione delle ore di lavoro i costi finali non hanno subito
+ variazioni considerevoli, restando comunque inferiori a quanto preventivato.
+ C'è stata tuttavia, una variazione notevole del lavoro preventivato.
+ 
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda la correzione e l'aggiornamento dell'Analisi dei Requisiti
+ sono state impiegate 10 ore in meno del previsto, quindi con una diminuzione
+ del 33.3% sul totale delle ore.
+ Questo dato potrebbe essere indicatore di un buon lavoro di analisi svolto
+ precedentemente, il quale non ha necessitato di ingenti modifiche durante
+ la fase di 
+\emph on
+Progettazione Architetturale
+\emph default
+.
+ Tuttavia non sono previste ulteriori sessioni di analisi nelle fasi successive,
+ quindi questo dato non è significativo ai fini della pianificazione del
+ lavoro successivo.
+ 
+\end_layout
+
+\begin_layout Standard
+La fase di progettazione, invece, ha necessitato di 10 ore di lavoro aggiuntivo,
+ per un aumento del 9,6%.
+ Percentualmente si tratta di una quantità sinificativa, che va considerata
+ per la pianificazione del lavoro nelle fasi successive.
+ Per la fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\emph default
+ sono previste 121 ore come 
+\emph on
+Progettista
+\emph default
+ per la progettazione in dettaglio di quanto deciso durante la fase di 
+\emph on
+Progettazione Architetturale
+\emph default
+.
+ Basandoci sui dati appena visti, possiamo prevedere un aumento delle ore
+ di progettazione del 10%, quindi 12 ore circa, per una variazione di prezzo
+ nell'ordine di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+300 circa (per l'esattezza, 12 ore a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+22 l'ora porterebbero ad un aumento di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+264).
+ La cifra non è particolarmente significativa se paragonata ai 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+6.982 preventivati per la fase PDC, tuttavia non è facilmente recuperabile
+ nelle fasi successive.
+ Ad ogni modo, la buona capacità di analisi, confermata dalla diminuzione
+ delle ore di lavoro, fa pensare che l'aumento delle ore necessarie alla
+ progettazione dell'architettura porti a svolgere in modo fluente una corretta
+ progettazione in dettaglio, quindi senza un aumento ingente di ore.
+ Per questo motivo non sarà necessario rivedere la pianificazione del lavoro
+ per la fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\emph default
+.
+\end_layout
+
 \end_body
 \end_document

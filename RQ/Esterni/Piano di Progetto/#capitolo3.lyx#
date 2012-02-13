@@ -1110,9 +1110,16 @@ Verifica e Validazione (VV)
 \end_layout
 
 \begin_layout Standard
-Mentre la Verifica è distribuita lungo l'arco di sviluppo dell'intero progetto,
- la Validazione si occuperà di accertare che il prodotto soddisfi in modo
- adeguato i requisiti solo al termine delle altre attività.
+Mentre la 
+\emph on
+Verifica
+\emph default
+ è distribuita lungo l'arco di sviluppo dell'intero progetto, la 
+\emph on
+Validazione
+\emph default
+ si occuperà di accertare che il prodotto soddisfi in modo adeguato i requisiti
+ solo al termine delle altre attività.
  Inoltre, alcune attività di 
 \emph on
 Verifica
@@ -1132,13 +1139,10 @@ Progettazione di Dettaglio e Codifica
 .
  Di conseguenza vi sarà un periodo di tempo, che va dal 2012/03/07 al giorno
  di scadenza della Revisione di Accettazione (il giorno 2012/04/07, con
- possibilità di posticipare la consegna), in cui la fase di 
-\emph on
-Verifica e Validazione
-\emph default
- non si sovrapporrà ad altre fasi.
- Di conseguenza è opportuno pianificare le attività relative a questa fase
- ed esterne alle altre, distinguendo due periodi:
+ possibilità di posticipare la consegna), in cui la fase di Verifica e Validazio
+ne non si sovrapporrà ad altre fasi.
+ Di conseguenza è opportuno pianificare il lavoro delle attività relative
+ a questa fase esternamente alle altre fasi.
 \end_layout
 
 \begin_layout Itemize

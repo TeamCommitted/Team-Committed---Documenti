@@ -75,7 +75,50 @@ Casi d' uso
 \end_layout
 
 \begin_layout Standard
-Di seguito sono presenti i casi d'uso identificati dal capitolato d'appalto
+Tutti gli attori dei casi d'uso, seguono la seguente gerarchia:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename UML/UCG 0.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Gerarchia Attori
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Di seguito, vengono mostrati i casi d'uso identificati dal capitolato d'appalto
  
 \series bold
 \bar under
