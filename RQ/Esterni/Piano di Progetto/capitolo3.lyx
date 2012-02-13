@@ -364,10 +364,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Gantt-RR.jpg
-	scale 30
-	rotateOrigin center
+	filename Img/Gantt-RR.eps
+	scale 45
+	rotateAngle 270
 
 \end_inset
 
@@ -422,9 +423,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Oreruolo-RR.jpg
-	scale 45
+	filename Img/Oreruolo-RR.eps
+	scale 60
 
 \end_inset
 
@@ -470,9 +472,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Ruolipersona-RR.jpg
-	scale 40
+	filename Img/Ruolipersona-RR.eps
+	scale 65
 	rotateOrigin center
 
 \end_inset
@@ -626,9 +629,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Gantt-RP.jpg
-	scale 30
+	filename Img/Gantt-RP.eps
+	scale 35
+	rotateAngle 270
 
 \end_inset
 
@@ -900,9 +905,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Gantt-RQ.jpg
-	scale 30
+	filename Img/Gantt-RQ.eps
+	scale 45
+	rotateAngle 270
 
 \end_inset
 
@@ -1110,31 +1117,35 @@ Verifica e Validazione (VV)
 \end_layout
 
 \begin_layout Standard
-La fase di 
+Mentre la Verifica è distribuita lungo l'arco di sviluppo dell'intero progetto,
+ la Validazione si occuperà di accertare che il prodotto soddisfi in modo
+ adeguato i requisiti solo al termine delle altre attività.
+ Inoltre, alcune attività di 
 \emph on
 Verifica
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Tuttavia, le attività di Verifica non sono presenti esclusivamente in questa
- fase, ma sono distribuite lungo l'intero progetto, a partire dalla fase
- di Analisi.
- La presenza del ruolo di Verificatore in tutte le fasi ne è la conferma.
-\end_layout
-
-\end_inset
-
- e Validazione
 \emph default
- occuperà il periodo che va dal 2012/03/07 al giorno di scadenza della Revisione
- di Accettazione, il giorno 2012/04/07 (con possibilità di posticipare la
- consegna).
- 
-\end_layout
-
-\begin_layout Standard
-Come per le altre fasi, anche questa sarà suddivisa in due periodi: 
+ saranno svolte al di fuori delle fasi di 
+\emph on
+Analisi
+\emph default
+, 
+\emph on
+Progettazione Architetturale
+\emph default
+ e 
+\emph on
+Progettazione di Dettaglio e Codifica
+\emph default
+.
+ Di conseguenza vi sarà un periodo di tempo, che va dal 2012/03/07 al giorno
+ di scadenza della Revisione di Accettazione (il giorno 2012/04/07, con
+ possibilità di posticipare la consegna), in cui la fase di 
+\emph on
+Verifica e Validazione
+\emph default
+ non si sovrapporrà ad altre fasi.
+ Di conseguenza è opportuno pianificare le attività relative a questa fase
+ ed esterne alle altre, distinguendo due periodi:
 \end_layout
 
 \begin_layout Itemize
@@ -1166,9 +1177,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Gantt-RA.jpg
-	scale 30
+	filename Img/Gantt-RA.eps
+	scale 45
+	rotateAngle 270
 
 \end_inset
 
@@ -1199,7 +1212,7 @@ Verifica e Validazione
 
 \begin_layout Standard
 A seguire, il dettaglio e il riassuntivo delle ore di lavoro necessarie
- alla realizzazione della fase 
+ alla realizzazione delle attività della fase di 
 \emph on
 Verifica e Validazione
 \emph default
@@ -1214,6 +1227,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Img/Oreruolo-RA.jpg
 	scale 40
@@ -1261,6 +1275,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Img/oreruolosomm-RA.jpg
 	scale 50
@@ -1318,6 +1333,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Img/Ruolipersona-RA.jpg
 	scale 40

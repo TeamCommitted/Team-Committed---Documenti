@@ -1,7 +1,7 @@
 format 76
 "FrontDesktop"
-  revision 4
-  modified_by 123 "Eden"
+  revision 5
+  modified_by 65 "ale"
 
 
   
@@ -39,7 +39,7 @@ format 76
   mark_for_import
   
   ncouples 1
-  key "html dir" value "/home/acornagl/Scrivania/ourfvhbo/"
+  key "html dir" value "C:/Users/ale/Desktop/wòci/"
   classview 134658 "frontDesktop"
     //class diagram settings
     draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
@@ -61,7 +61,7 @@ format 76
       size A4
     end
 
-    class 134530 "Lanciatore"
+    class 134530 "Menu"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -75,7 +75,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 134530 // <dependency>
-	  b parent class_ref 135042 // ClientWeb
+	  b parent class_ref 135042 // ControlLogin
       end
 
       classrelation 135170 // <dependency>
@@ -83,7 +83,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 135170 // <dependency>
-	  b parent class_ref 135170 // ClientBackEnd
+	  b parent class_ref 135170 // ControlNotifica
       end
     end
 
@@ -101,7 +101,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 134914 // <dependency>
-	  b parent class_ref 135170 // ClientBackEnd
+	  b parent class_ref 135170 // ControlNotifica
       end
 
       classrelation 135298 // <dependency>
@@ -109,7 +109,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 135298 // <dependency>
-	  b parent class_ref 135042 // ClientWeb
+	  b parent class_ref 135042 // ControlLogin
       end
     end
 
@@ -127,7 +127,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 134658 // <dependency>
-	  b parent class_ref 135042 // ClientWeb
+	  b parent class_ref 135042 // ControlLogin
       end
 
       classrelation 134786 // <dependency>
@@ -135,7 +135,7 @@ format 76
 	  stereotype "call"
 	  a package
 	    classrelation_ref 134786 // <dependency>
-	  b parent class_ref 135170 // ClientBackEnd
+	  b parent class_ref 135170 // ControlNotifica
       end
     end
 
@@ -157,7 +157,7 @@ format 76
       end
     end
 
-    class 135042 "ClientWeb"
+    class 135042 "ControlLogin"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -168,7 +168,7 @@ format 76
       
     end
 
-    class 135170 "ClientBackEnd"
+    class 135170 "ControlNotifica"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -191,6 +191,17 @@ format 76
     end
 
     class 135426 "Log"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+    end
+
+    class 128065 "ControlMenu"
       visibility package 
       cpp_decl ""
       java_decl ""

@@ -104,7 +104,7 @@ NdP
 \begin_inset Quotes erd
 \end_inset
 
-, v.d.
+, vd.
  sezione 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -212,7 +212,7 @@ name "sub:Ambiguitá"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V2.0.pdf
+Glossario-V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
  

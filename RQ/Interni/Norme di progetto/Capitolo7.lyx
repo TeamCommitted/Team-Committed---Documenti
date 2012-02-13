@@ -145,6 +145,19 @@ Diagrammi delle attività:
  o suddividere il diagramma generale
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Diagrammi di sequenza:
+\series default
+ dovranno essere presenti per l'architettura di dettaglio.
+ Dovranno definire in maniera precisa le responsabilità dei vari package
+ e/o classi nel portare a termine un certo compito.
+ Si dovrà limitare la rappresentazione di cicli o condizioni alternative
+ ai soli casi in cui la loro omissione comporti gravi scompensi alla comprension
+e del funzionamento dell'applicazione
+\end_layout
+
 \begin_layout Subsection
 Design Pattern
 \begin_inset CommandInset label
@@ -237,7 +250,7 @@ Concorrenza:
  all'implementazione.
  Se i benefici ricavati dalla concorrenza
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Nel caso quindi non sia fondamentale per il corretto funzionamento dell'applicaz
@@ -395,27 +408,18 @@ Utilizzatori ipotetici
 \begin_layout Enumerate
 Diagramma di attività della specifica sottoparte
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Si può omettere tale diagramma qualora la sua definizione risulti talmente
- banale da risultare immediata conseguenza delle descrizioni e dei diagrammi
- precedenti
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Si-può-omettere"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Enumerate
-Diagramma di sequenza
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-V.d.
- nota precedente
+Si può omettere tale diagramma qualora la sua definizione risulti talmente
+ banale da risultare immediata conseguenza delle descrizioni e dei diagrammi
+ precedenti
 \end_layout
 
 \end_inset
@@ -429,7 +433,28 @@ Architettura di dettaglio
 \end_layout
 
 \begin_layout Standard
-Da definire.
+Il documento relativo all'architettura di dettaglio dovrà contenere:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi delle classi:
+\series default
+ per rendere esplicite le relazioni delle varie classi all'interno delle
+ singole componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi di attività
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi di sequenza
 \end_layout
 
 \end_body
