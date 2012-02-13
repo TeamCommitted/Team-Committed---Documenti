@@ -272,10 +272,6 @@ http://criticalcity.org
 , Focus Coop (2009)
 \end_layout
 
-\begin_layout Itemize
-
-\end_layout
-
 \begin_layout Subsubsection
 CriticalCity Upload
 \end_layout
@@ -419,7 +415,12 @@ Elementi di Gamification
 \series bold
 Missioni:
 \series default
- l'intero gioco è basato sul concetto di missioni (denominate 
+ l'intero gioco è basato sul concetto di missioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Denominate 
 \begin_inset Quotes eld
 \end_inset
 
@@ -431,7 +432,38 @@ Istruzioni
 \begin_inset Quotes erd
 \end_inset
 
-), dove vedono i giocatori scegliere e svolgere queste missioni.
+
+\end_layout
+
+\end_inset
+
+, dove vedono i giocatori scegliere e svolgere queste missioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Una volta svolte, le 
+\emph on
+istruzioni
+\emph default
+ divengono 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Esecuzioni
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  L'elemento caratterizzante è la documentazione dello svolgimento tramite
  foto, video e/o semplice testo; questa documentazione verrà poi pubblicata
  per poter dichiarare conclusa la missione
@@ -480,7 +512,7 @@ CriticalCity Upload
 \emph default
 , è implementato in maniera leggermente differente rispetto alla normale
  definizione, in quanto al raggiungimento del 7° livello, i mantainer del
- sito inviano a casa la 
+ sito inviano a casa del giocatore la 
 \begin_inset Quotes eld
 \end_inset
 
@@ -560,7 +592,31 @@ Sconosciuto allo scrittore
 \series bold
 GeoTagging:
 \series default
- 
+ ogni esecuzione permette di inserire il luogo dove questa è stata fatta
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+definiti come 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Nodi
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ I nodi dove sono state eseguite più missioni acquistano valore, dando più
+ punti alle missioni che sono state eseguite al loro interno
 \end_layout
 
 \begin_layout Standard
