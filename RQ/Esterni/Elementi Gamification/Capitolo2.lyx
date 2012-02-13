@@ -62,6 +62,13 @@
 
 \begin_layout Section
 Definizione di Gamification
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Definizione-di-Gamification"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -163,6 +170,13 @@ TeamCommitted
 
 \begin_layout Subsection
 Contesti applicativi studiati
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Contesti-applicativi-studiati"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -214,11 +228,13 @@ Gamification
 status collapsed
 
 \begin_layout Plain Layout
-La nomenclatura utilizzata è la stessa usata all'interno del libro 
+La nomenclatura utilizzata, così come il loro significato, è la stessa usata
+ all'interno del libro 
 \series bold
-Gamification by Design 
+Gamification by Design
 \series default
-a pag 22.
+, pagg.
+ 22-23.
  I termini sono stati mantenuti in inglese
 \end_layout
 
@@ -249,31 +265,18 @@ Gamification:
 \series bold
 CriticalCity Upload
 \series default
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://criticalcity.org
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 , Focus Coop (2009)
 \end_layout
 
 \begin_layout Subsubsection
 CriticalCity Upload
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:CriticalCity-Upload"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -410,12 +413,16 @@ Elementi di Gamification
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Missioni:
 \series default
- l'intero gioco è basato sul concetto di missioni
+ l'intero gioco è basato sul concetto di
+\bar under
+ 
+\bar default
+missioni
 \begin_inset Foot
 status open
 
@@ -469,7 +476,7 @@ Esecuzioni
  per poter dichiarare conclusa la missione
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Livelli:
@@ -486,7 +493,7 @@ tot
  nuove missioni e dando nuovi voti disponbili
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Valutazioni:
@@ -497,7 +504,7 @@ Valutazioni:
  5 punti al valore della missione conclusa
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Badge:
@@ -511,8 +518,8 @@ badge
 CriticalCity Upload
 \emph default
 , è implementato in maniera leggermente differente rispetto alla normale
- definizione, in quanto al raggiungimento del 7° livello, i mantainer del
- sito inviano a casa del giocatore la 
+ definizione: al raggiungimento del 7° livello, i mantainer del sito inviano
+ a casa del giocatore la 
 \begin_inset Quotes eld
 \end_inset
 
@@ -529,7 +536,7 @@ Scatola Inversa
  raggiungere il 7° livello
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Aiuto reciproco:
@@ -546,7 +553,7 @@ aiutante
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 Riprova sociale:
@@ -587,7 +594,7 @@ Sconosciuto allo scrittore
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
+\begin_layout Description
 
 \series bold
 GeoTagging:
@@ -624,22 +631,28 @@ Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
  noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Explorer
+\begin_layout Description
+Explorer, in quanto pensiamo che, essendoci il blocco delle istruzioni sul
+ livello raggiunto dall'utente, gli 
+\emph on
+esploratori
+\emph default
+ vogliano raggiungere un livello sempre superiore per poter esplorare le
+ missioni che sono a lui precluse in quel momento
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Achiever
+\begin_layout Description
+Achiever, per l'obiettivo della 
+\emph on
+Scatola Inversa
+\emph default
+, obiettivo che sancisce l'arrivo al 7° livello
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Socializer
+\begin_layout Description
+Socializer, sia per la possibilità di commentare le esecuzioni degli altri
+ utenti, sia per la possibilità di cooperare per svolgere un'istruzione
+ o per l'obbligatorietà dell'interazione con altri giocatori
 \end_layout
 
 \end_deeper
@@ -648,22 +661,11 @@ Socializer
 \series bold
 Esempi:
 \series default
- seguono alcune immagini del sito 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://criticalcity.org
+ seguono alcune immagini dal sito del progetto
 \end_layout
 
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_deeper
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -728,7 +730,6 @@ Home page
 
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
 placement H

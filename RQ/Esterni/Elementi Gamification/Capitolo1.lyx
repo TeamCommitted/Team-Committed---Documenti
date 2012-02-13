@@ -66,6 +66,13 @@ Introduzione
 
 \begin_layout Subsection
 Scopo del documento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scopo-del-documento"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -246,7 +253,35 @@ nameproject
 
 \end_deeper
 \begin_layout Subsection
+Ambiguità
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ambiguitá"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario-V2.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
+ 
+\end_layout
+
+\begin_layout Subsection
 Riferimenti informativi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-informativi"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
