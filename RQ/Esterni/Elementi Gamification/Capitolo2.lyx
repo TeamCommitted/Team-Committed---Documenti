@@ -112,6 +112,14 @@ end{center}
 
 \end_layout
 
+\begin_layout Subsection
+Studi effettuati
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Standard
 
 \end_layout
@@ -234,10 +242,11 @@ status open
 
 
 \backslash
-begin{center}
+begin{center} 
 \end_layout
 
 \end_inset
+
 
 
 \begin_inset Graphics
@@ -246,6 +255,8 @@ begin{center}
 
 \end_inset
 
+
+\lang italian
 
 \begin_inset ERT
 status open
@@ -477,7 +488,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Home page di CriticalCity Upload
+Home page
 \end_layout
 
 \end_inset
@@ -494,5 +505,71 @@ Home page di CriticalCity Upload
 
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityprofilo.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pagina profilo di un utente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

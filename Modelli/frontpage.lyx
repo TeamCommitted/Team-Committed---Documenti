@@ -370,7 +370,11 @@ redattore}
 \backslash
 textbf{Verificatori} & 
 \backslash
-verificatori 
+parbox{
+\backslash
+textwidth}{
+\backslash
+verificatori} 
 \backslash
 
 \backslash
