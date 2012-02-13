@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -137,8 +138,98 @@ nameproject
 
 \end_inset
 
+.
+\end_layout
+
+\begin_layout Standard
+A questo proposito il documento verterà sui seguenti punti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Definizione di 
+\emph on
+Gamification
+\emph default
+: 
+\series default
+definizione data dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ della Gamification con vari esempi a supporto di questa, per vedere le
+ realtà che sono state studiate per arrivare alla definizione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di applicazione della 
+\emph on
+Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Sviluppo attuale:
+\series default
+ in questa sezione si parlerà di quali elementi si applicheranno al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ per renderlo efficace e sopratutto interessante per gli utenti, facendo
+ anche un'analisi delle potenzialità inserite
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Possibili sviluppi futuri:
+\series default
+ qui tratteremo tutti i possibili sviluppi futuri dell'applicazione, sempre
+ nell'ottica di renderla più efficace, efficiente ed interessante per gli
+ utenti, dando alcuni suggerimenti su come sarà possibile integrare questi
+ elementi di 
+\emph on
+Gamification
+\emph default
+ all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
+\end_deeper
 \end_body
 \end_document
