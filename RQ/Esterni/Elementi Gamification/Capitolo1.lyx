@@ -267,7 +267,7 @@ name "sub:Ambiguitá"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V2.0.pdf
+Glossario-V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
  
@@ -338,7 +338,7 @@ http://criticalcity.org
 \end_layout
 
 \begin_layout Itemize
-Beintoo, (2011) 
+Beintoo, (2010) 
 \series bold
 Beintoo
 \series default
@@ -348,7 +348,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 

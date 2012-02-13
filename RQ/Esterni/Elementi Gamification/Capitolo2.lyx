@@ -265,7 +265,22 @@ Gamification:
 \series bold
 CriticalCity Upload
 \series default
-, Focus Coop (2009)
+, Focus Coop (2007)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Beintoo
+\series default
+, Beintoo (2010)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -477,6 +492,14 @@ Esecuzioni
 \end_layout
 
 \begin_layout Description
+Punti
+\begin_inset space ~
+\end_inset
+
+esperienza: 
+\end_layout
+
+\begin_layout Description
 
 \series bold
 Livelli:
@@ -539,7 +562,11 @@ Scatola Inversa
 \begin_layout Description
 
 \series bold
-Aiuto reciproco:
+Aiuto
+\begin_inset space ~
+\end_inset
+
+reciproco:
 \series default
  è possibile che un giocatore si proponga come 
 \begin_inset Quotes eld
@@ -556,7 +583,11 @@ aiutante
 \begin_layout Description
 
 \series bold
-Riprova sociale:
+Riprova
+\begin_inset space ~
+\end_inset
+
+sociale:
 \series default
  questo elemento è diviso in due 
 \emph on
@@ -601,10 +632,10 @@ GeoTagging:
 \series default
  ogni esecuzione permette di inserire il luogo dove questa è stata fatta
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-definiti come 
+Definiti come 
 \begin_inset Quotes eld
 \end_inset
 
@@ -793,6 +824,150 @@ Pagina profilo di un utente
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Beintoo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Beintoo/logo.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logo di 
+\emph on
+Beintoo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Beintoo è una community in forte crescita di appassionati di apps che vogliono
+ condividere la loro apps life con i loro amici e scoprire nuovi amici con
+ i loro stessi interessi ed anche geograficamente vicini.
+ Unisciti a Beintoo, mostrerai agli altri membri della community quanto
+ sei bravo ad utilizzare le tue apps preferite.
+ Aumenterai il tuo Bescore passando da Novice fino a Master e vincerai i
+ nostri Bedollars.
+ Ma siamo andati oltre: i nostri Bedollars ti permetteranno di ottenere
+ eccezionali beni virtuali come premi all'interno delle tue apps e sulla
+ nostra community, potrai poi convertire i tuoi premi in buoni sconto per
+ beni reali visitando i negozi dei nostri inserzionisti, nella tua città
+ o sul Web.
+ Trasforma la tua passione per le apps in vere opportunità
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Descrizione tratta dal sito di Beintoo, all'indirizzo 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.beintoo.com/aboutus.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Riprova
+\begin_inset space ~
+\end_inset
+
+sociale: 
+\end_layout
+
+\begin_layout Description
+Premi: 
+\end_layout
+
+\begin_layout Description
+Punti
+\begin_inset space ~
+\end_inset
+
+spendibili:
+\series bold
+ 
 \end_layout
 
 \end_deeper
