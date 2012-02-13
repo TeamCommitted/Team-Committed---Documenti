@@ -129,9 +129,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Consuntivo PA/GanttPA.jpg
-	scale 30
+	filename Img/Consuntivo PA/Gantt-RP.eps
+	scale 45
+	rotateAngle 270
 
 \end_inset
 
