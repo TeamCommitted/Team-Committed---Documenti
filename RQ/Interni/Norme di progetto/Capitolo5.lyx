@@ -317,7 +317,7 @@ LogoTeam.jpg
 status open
 
 \begin_layout Plain Layout
- rispettivamente indicati come 
+Rispettivamente indicati come 
 \begin_inset Quotes eld
 \end_inset
 
@@ -705,7 +705,7 @@ Path:
  gli indirizzi web ed e-mail dovranno essere scritti utilizzando il percorso
  assoluto.
  Non sono ammessi percorsi relativi (a meno dell'uso di convenzioni [per
- un esempio v.d.
+ un esempio vd.
  
 \begin_inset CommandInset ref
 LatexCommand vref
@@ -1015,6 +1015,14 @@ reference "sub:Stile-del-testo"
 AR
 \series default
  = Analisi dei Requisiti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+DdP
+\series default
+ = Definizione di Prodotto
 \end_layout
 
 \begin_layout Itemize
@@ -1497,7 +1505,7 @@ Verificatori
 status open
 
 \begin_layout Plain Layout
-v.d.
+Vd.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1523,7 +1531,7 @@ Approvatori
 status open
 
 \begin_layout Plain Layout
-v.d.
+Vd.
  nota 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1557,7 +1565,7 @@ Distribuzione
 status open
 
 \begin_layout Plain Layout
-v.d.
+Vd.
  nota
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1921,7 +1929,7 @@ italiano
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Itemize
@@ -1934,15 +1942,15 @@ il
 verificatore
 \emph default
  procederà ad un'attenta lettura dell'intero documento alla ricerca di errori
- lessicali.
+ lessicali
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Grafici UML:
+Diagrammi UML:
 \series default
- nel caso siano presenti dei grafici UML, il 
+ nel caso siano presenti dei diagrammi UML, il 
 \emph on
 verificatore
 \emph default

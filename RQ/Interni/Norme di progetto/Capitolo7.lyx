@@ -237,7 +237,7 @@ Concorrenza:
  all'implementazione.
  Se i benefici ricavati dalla concorrenza
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Nel caso quindi non sia fondamentale per il corretto funzionamento dell'applicaz
@@ -398,6 +398,12 @@ Diagramma di attività della specifica sottoparte
 status open
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Si-può-omettere"
+
+\end_inset
+
 Si può omettere tale diagramma qualora la sua definizione risulti talmente
  banale da risultare immediata conseguenza delle descrizioni e dei diagrammi
  precedenti
@@ -414,8 +420,15 @@ Diagramma di sequenza
 status open
 
 \begin_layout Plain Layout
-V.d.
- nota precedente
+Vd.
+ nota 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Si-può-omettere"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
