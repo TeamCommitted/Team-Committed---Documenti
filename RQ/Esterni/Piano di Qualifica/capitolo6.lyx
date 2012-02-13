@@ -271,6 +271,94 @@ hline
 
 \begin_layout Plain Layout
 
+		RFD 2.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFD 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, al raggiungimento di determinati
+ obiettivi di 
+\backslash
+uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFD 2.1.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFD 2 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se, al raggiungimento di determinati
+ obiettivi di 
+\backslash
+uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
+ &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -285,10 +373,9 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dinamica: viene verificato confrontando i tempi di risposta del
- servizio in caso di basso traffico della rete con i tempi di risposta in
- caso di traffico elevato.
- I due tempi di risposta dovranno quindi essere simili &
+		Prova dinamica: viene verificato che, in caso di intenso traffico nella
+ rete, il sistema sia comunque in grado di garantire una corretta gestione
+ dei dati evitandone la perdita &
 \end_layout
 
 \begin_layout Plain Layout
@@ -332,11 +419,10 @@ hline
 
 \begin_layout Plain Layout
 
-		Prova dimanima: viene verificato confrontando i tempi di risposta del
- servizio tramite l'utilizzo di un database test di domande risiedente nel
- medesimo server con quelli di un database test di domande risiedente in
- un server remoto.
- I due tempi di risposta dovranno essere simili &
+		Prova dimanima: viene verificato testando se, con l'utilizzo di un database
+ test di domande risiedente nel medesimo server, il sistema funzioni correttamen
+te ed in egual modo che con l'utilizzo di un database test di domande risiedente
+ in un server remoto &
 \end_layout
 
 \begin_layout Plain Layout
@@ -582,9 +668,54 @@ hline
 
 \begin_layout Plain Layout
 
+		Prova dinamica: viene verifiato se il sistema effettivamente tiene traccia,
+ nel tempo, di tutte le azioni di tutti gli 
+\backslash
+uline{Utilizzatori} &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		RFOB 3.1 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 3.1 &
+\end_layout
+
+\begin_layout Plain Layout
+
 		Prova dinamica: viene verifiato se il sistema effettivamente registra
- la data e l'ora dell'esecuzione delle varie azioni previste all'interno
- di un file di log &
+ in diversi file di log, divisi per macro tipologia di azione, tutte le
+ azioni di ogni 
+\backslash
+uline{Utilizzatore}  &
 \end_layout
 
 \begin_layout Plain Layout
