@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -64,8 +65,276 @@ Definizione di Gamification
 \end_layout
 
 \begin_layout Standard
+La 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, secondo le varie definizioni trovate all'interno dei vari documenti trovati,
+ è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\emph on
+Possiamo definire la Gamification come un insieme di regole con l’obiettivo
+ di applicare meccaniche ludiche ad attività che non hanno direttamente
+ a che fare con il gioco; in questo modo è possibile modificare il comportamento
+ delle persone e favorire l’interesse attivo degli utenti verso il messaggio
+ da comunicare, anche di impresa.
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Per poter esprimere al meglio la nostra idea di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, vorremmo prima vedere i vari contesti analizzati dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ in cui viene applicata questa tecnica, per poi passare alla definizione
+ data dal gruppo.
+\end_layout
+
+\begin_layout Subsection
+Contesti applicativi studiati
+\end_layout
+
+\begin_layout Standard
+Per esprimere al meglio lo studio fatto sui vari contesti applicativi, ogni
+ caso verrà diviso nei seguenti elementi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione
+\series default
+: descrizione testuale del caso di studio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di gamification:
+\series default
+ elementi di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ che il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha rilevato all'interno del caso di studio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Esempi:
+\series default
+ qui verranno inseriti alcuni esempi (che possono essere immagini piuttosto
+ che testo) di quanto specificato prima
+\end_layout
+
+\begin_layout Subsubsection
+CriticalCity Upload
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/LogoCriticalCity.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logo di 
+\emph on
+CriticalCity Upload
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ è un 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gioco urbano
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in cui il 
+\emph on
+\bar under
+Gamification
+\bar default
+ 
+\emph default
+è un elemento fondamentale, capace di mettere in campo la nostra creatività,
+ l'intelligenza, di competere per migliorare e poter condividere i risultati,
+ è la relazione che fonda la voglia di incontrarsi e fare un pezzo di strada
+ insieme.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ stato scelto come caso di studio sia per la sua ovvia applicazione dei
+ concetti di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, sia per studiare un caso già concretamente realizzato e funzionante di
+ cooperazione esterna ad ogni ambito inteso come locazione fisica unitaria
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ad esempio uffici o comunque strutture che possono essere ricondotte ad
+ 
+\bar under
+aziende
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
