@@ -181,7 +181,29 @@ TeamCommitted
 
 \end_inset
 
- ha rilevato all'interno del caso di studio
+ ha rilevato all'interno del caso di studio e le differenti tipologie di
+ giocatori coinvolti dalla 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La nomenclatura utilizzata è la stessa usata all'interno del libro 
+\series bold
+Gamification by Design 
+\series default
+a pag 22.
+ I termini sono stati mantenuti in inglese
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -219,7 +241,7 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/LogoCriticalCity.jpg
+	filename img/CriticalCity/LogoCriticalCity.jpg
 	scale 50
 
 \end_inset
@@ -333,8 +355,144 @@ Elementi di Gamification
 \begin_deeper
 \begin_layout Itemize
 
+\series bold
+Badge:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Riprova sociale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Missioni
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GeoTagging
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aiuto reciproco
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
+ noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Explorer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Achiever
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+
+\series bold
+Esempi:
+\series default
+ seguono alcune immagini del sito 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityhome.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Home page di CriticalCity Upload
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
