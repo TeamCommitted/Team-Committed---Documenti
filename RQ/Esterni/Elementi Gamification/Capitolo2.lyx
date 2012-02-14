@@ -717,72 +717,18 @@ begin{center}
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityhome.jpg
-	scale 35
+	scale 22.5
 
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Home page
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityprofilo.jpg
-	scale 35
+	scale 22.5
 
 \end_inset
 
@@ -803,7 +749,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Pagina profilo di un utente
+Home page e pagina profilo di un utente
 \end_layout
 
 \end_inset
@@ -843,7 +789,18 @@ begin{center}
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityistruzioni.jpg
-	scale 25
+	scale 15
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityesecuzioni.jpg
+	scale 15
 
 \end_inset
 
@@ -864,7 +821,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Pagina delle istruzioni
+Pagina delle istruzioni e delle esecuzioni
 \end_layout
 
 \end_inset
@@ -878,55 +835,45 @@ Pagina delle istruzioni
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
+I video di alcune esecuzioni possono essere trovati ai seguenti indirzzi:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
+http://youtu.be/Q9pMVrqKFMg
 \end_layout
 
 \end_inset
 
 
-\begin_inset Graphics
-	filename img/CriticalCity/CriticalCityesecuzioni.jpg
-	scale 25
+\end_layout
 
-\end_inset
-
-
-\begin_inset ERT
-status open
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-end{center}
+http://youtu.be/CY2Gk7Yw1t0
 \end_layout
 
 \end_inset
 
 
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Pagina delle esecuzioni
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
 
+\begin_layout Plain Layout
 
+http://youtu.be/lTEaRFmD_5k
 \end_layout
 
 \end_inset
@@ -935,13 +882,6 @@ Pagina delle esecuzioni
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Altre realtà osservate
 \end_layout
@@ -1279,6 +1219,23 @@ Onefeat
 \emph default
  è possibile svolgere le missioni solamente documentando tramite foto ed
  eventualmente con una piccola descrizione testuale della foto
+\end_layout
+
+\begin_layout Standard
+Proprio per questi motivi possiamo affermare che le categorie di giocatori
+ coinvolti sono:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Explorer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
 \end_layout
 
 \end_body
