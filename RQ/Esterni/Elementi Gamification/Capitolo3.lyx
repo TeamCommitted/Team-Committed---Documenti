@@ -59,8 +59,46 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Section
+Gamification applicata al 
+\emph on
+progetto SafetyGame
+\end_layout
 
+\begin_layout Standard
+In questo capitolo vedremo quali elementi di 
+\emph on
+\bar under
+Gamification 
+\emph default
+\bar default
+il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha deciso di applicare per il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+projectname
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_body

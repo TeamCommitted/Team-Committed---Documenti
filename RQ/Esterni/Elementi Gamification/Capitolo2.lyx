@@ -145,13 +145,14 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Per poter esprimere al meglio la nostra idea di 
+Per poter esprimere al meglio quali saranno gli elementi di 
 \emph on
 \bar under
 Gamification
 \emph default
+ 
 \bar default
-, vorremmo prima vedere i vari contesti analizzati dal 
+che applicheremo all'interno del 
 \begin_inset ERT
 status open
 
@@ -159,13 +160,20 @@ status open
 
 
 \backslash
-TeamCommitted
+projectname
 \end_layout
 
 \end_inset
 
- in cui viene applicata questa tecnica, per poi passare alla definizione
- data dal gruppo.
+, vorremmo prima condividere l'analisi che abbiamo effettuato su alcuni
+ contesti in cui la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stata applicata.
 \end_layout
 
 \begin_layout Subsection
@@ -874,6 +882,56 @@ status collapsed
 \begin_layout Plain Layout
 
 http://youtu.be/lTEaRFmD_5k
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qui invece si potranno trovare alcune esecuzioni all'interno di 
+\emph on
+CriticalCity Upload
+\emph default
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/24619
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25084
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25081
 \end_layout
 
 \end_inset
