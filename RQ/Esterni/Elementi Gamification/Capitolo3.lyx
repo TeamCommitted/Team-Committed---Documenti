@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -93,11 +94,224 @@ status open
 
 
 \backslash
-projectname
+nameproject
 \end_layout
 
 \end_inset
 
+.
+\end_layout
+
+\begin_layout Subsection
+Premessa
+\end_layout
+
+\begin_layout Standard
+La creazione di un sistema di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ serio, efficace, ma sopratutto perfettamente funzionante richiede molto
+ più tempo di quello che abbiamo preventivato nel 
+\emph on
+Piano di Progetto - V3.0
+\emph default
+.
+ Per questo motivo la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ che applicheremo al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ è 
+\emph on
+minimale
+\emph default
+ rispetto a quanto avremmo voluto fare.
+\end_layout
+
+\begin_layout Subsection
+Gamification applicata
+\end_layout
+
+\begin_layout Subsubsection
+Punti
+\end_layout
+
+\begin_layout Standard
+Il cuore cardine del nostro sistema di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ sarà incentrato sul punteggio che ogni giocatore guadagnerà rispondendo
+ correttamente alle domande che gli verranno sottoposte.
+\end_layout
+
+\begin_layout Standard
+Questi punti sono di tipo 
+\series bold
+Experience Points
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+D'ora in poi chiamati 
+\emph on
+PX
+\end_layout
+
+\end_inset
+
+, ovvero una tipologia di punti che non ha alcun valore 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+economico
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ all'interno del sistema
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Nel senso che gli XP non possono essere spesi per avere dei vantaggi dentro
+ il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ I 
+\emph on
+PX
+\emph default
+ servono per vedere, giudicare e guidare il giocatore.
+ 
+\end_layout
+
+\begin_layout Standard
+Pensiamo infatti che attribuendo un valore in 
+\emph on
+PX
+\emph default
+ ad ogni domanda, si possa facilmente verificare l'andamento di un giocatore,
+ verificando il suo punteggio e, tramite l'incrocio con lo storico, vedere
+ quali progressi il giocatore abbia fatto nell'apprendimento della normativa
+ sulla sicurezza del lavoro.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Badge
+\end_layout
+
+\begin_layout Standard
+Una conseguenza diretta dei punti è l'attribuzione dei 
+\series bold
+badge
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+I 
+\emph on
+badge
+\emph default
+ sono un eccellente modo per incoraggiare la promozione sociale dei propri
+ prodotti e servizi.
+ I 
+\emph on
+badge
+\emph default
+ segnano inoltre il completamento di obiettivi e il continuo progresso del
+ gioco all'interno del sistema
+\end_layout
+
+\begin_layout Standard
+Nel 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+, i badge sono dei premi che l'
+\bar under
+Amministratore Azienda
+\bar default
+ potrà assegnare autonomamente ai 
+\bar under
+Dipendenti
+\bar default
+, a prescindere che quest'ultimo abbia raggiunto determinati obiettivi o
+ meno.
+ Quindi è a discrezione dell'
+\bar under
+Amministratore Azienda
+\bar default
+ l'assegnazione o meno dei badge.
+ 
+\end_layout
+
+\begin_layout Standard
+Come si potrà vedere comunque dall'
+\emph on
+Analisi dei Requisiti - V3.0
+\emph default
+, la creazione di un sistema di assegnazione automatica dei 
+\emph on
+badge
+\emph default
+ è stata segnata come requisito desiderabile, quindi verrà sviluppato dopo
+ aver finito la scrittura dell'interno sistema 
+\emph on
+SafetyGame
+\emph default
 .
 \end_layout
 
