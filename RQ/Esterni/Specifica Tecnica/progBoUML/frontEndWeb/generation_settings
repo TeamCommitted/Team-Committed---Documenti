@@ -111,7 +111,6 @@ ${items}
   cpp_default_operation_definition "${comment}${inline}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
   ${body}}
 "
-  cpp_indent_visibility "  " cpp_indent_friendclass "  " cpp_indent_subclass "    "
   java_default_src_content "${comment}
 ${package}
 ${imports}
@@ -170,7 +169,6 @@ public static final ${class} ${name} = new ${class}(_${name});
 "
   php_default_src_content "<?php
 ${comment}
-${require_once}
 ${definition}
 ?>
 "
