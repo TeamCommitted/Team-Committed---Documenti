@@ -256,7 +256,7 @@ Glossario-V3.0.pdf
 \end_layout
 
 \begin_layout Subsection
-Riferimenti informativi
+Riferimenti
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Riferimenti-informativi"
@@ -264,6 +264,23 @@ name "sub:Riferimenti-informativi"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti normativi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Team Committed (2012), 
+\series bold
+\emph default
+Norme di Progetto V3.0
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti informativi
 \end_layout
 
 \begin_layout Itemize

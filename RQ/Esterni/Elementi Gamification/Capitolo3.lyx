@@ -139,10 +139,22 @@ nameproject
 \end_inset
 
  è 
+\series bold
 \emph on
 minimale
+\series default
 \emph default
  rispetto a quanto avremmo voluto fare.
+ Nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Gamification-futura"
+
+\end_inset
+
+, in ogni caso, introdurremo tutti gli elementi che avremmo voluto introdurre
+ e che potranno essere introdotti in un secondo momento, con un'ulteriore
+ fase di progettazione e, conseguentemente, di codifica.
 \end_layout
 
 \begin_layout Subsection
@@ -198,7 +210,7 @@ economico
 status collapsed
 
 \begin_layout Plain Layout
-Nel senso che gli XP non possono essere spesi per avere dei vantaggi dentro
+Nel senso che gli PX non possono essere spesi per avere dei vantaggi dentro
  il 
 \begin_inset ERT
 status open
@@ -313,6 +325,75 @@ badge
 SafetyGame
 \emph default
 .
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Il sistema che verrà quindi introdotto all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ non riuscirà a sfruttare appieno le potenzialità che la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In ogni caso, l'uso di 
+\emph on
+PX
+\emph default
+ e di 
+\emph on
+badge
+\emph default
+ dovrebbe riuscire ad attirare i giocatori di tipo:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Achiever
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Killer
+\end_layout
+
+\begin_layout Standard
+Questa considerazione è presto dimostrata: tutti e due i tipi di giocatori
+ sono legati dalla caratteristica di voler raggiungere degli obiettivi.
+ 
+\end_layout
+
+\begin_layout Subsection
+Gamification futura
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Gamification-futura"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
