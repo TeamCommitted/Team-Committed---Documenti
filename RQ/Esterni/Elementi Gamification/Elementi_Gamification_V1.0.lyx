@@ -154,5 +154,22 @@ filename "Capitolo3.lyx"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitolo4.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
