@@ -268,14 +268,6 @@ CriticalCity Upload
 , Focus Coop (2007)
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Beintoo
-\series default
-, Beintoo (2010)
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -614,16 +606,6 @@ Sito web:
  nell'home page del sito c'è un riquadro che mostra la migliore esecuzione
  del momento, calcolata in base ai voti assegnati durante un periodo di
  tempo
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Sconosciuto allo scrittore
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -675,7 +657,7 @@ esploratori
 \end_layout
 
 \begin_layout Description
-Achiever, per l'obiettivo della 
+Achiever, per la 
 \emph on
 Scatola Inversa
 \emph default
@@ -828,12 +810,157 @@ Pagina profilo di un utente
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityistruzioni.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pagina delle istruzioni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityesecuzioni.jpg
+	scale 25
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pagina delle esecuzioni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Altre realtà osservate
+\end_layout
+
+\begin_layout Standard
+Poichè il tempo a disposizione del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ per studiare la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stato relativamente poco, elenchiamo qui una serie di altre realtà che
+ il gruppo ha osservato, ma che, per questioni di tempo, non sono state
+ studiate attentamente.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -950,28 +1077,137 @@ Elementi di Gamification
 \end_layout
 
 \begin_deeper
-\begin_layout Description
+\begin_layout Itemize
+
+\series bold
 Riprova
 \begin_inset space ~
 \end_inset
 
-sociale: 
+sociale
 \end_layout
 
-\begin_layout Description
-Premi: 
+\begin_layout Itemize
+
+\series bold
+Premi
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
+
+\series bold
 Punti
 \begin_inset space ~
 \end_inset
 
-spendibili:
+spendibili
+\end_layout
+
+\begin_layout Standard
+Poichè 
+\emph on
+Beintoo
+\emph default
+ è collegata a moltissime altre realtà che applicano la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, in realtà non è così semplice dire con certezza quali elementi sono stati
+ applicati.
+ Per questo motivo la lista di elementi che abbiamo trovato è abbastanza
+ esigua.
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
+ noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
+\end_layout
+
+\begin_layout Itemize
+
 \series bold
- 
+Achiever
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
 \end_layout
 
 \end_deeper
+\begin_layout Subsubsection
+OneFeat
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/OneFeat/onefeat.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Particolare della home page di 
+\emph on
+OneFeat
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
