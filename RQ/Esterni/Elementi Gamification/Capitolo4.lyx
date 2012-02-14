@@ -438,13 +438,13 @@ In questo modo vorremmo aumentare la visibilità sociale che un giocatore
 \end_layout
 
 \begin_layout Subsection
-Collaborazione
+Collaborazione, Team e Sfide
 \end_layout
 
 \begin_layout Standard
-Un secondo elemento che consideriamo potrebbe essere avvincente per i giocatori
- è la possibilità di richiedere o proporre la propria collaborazione con
- gli altri giocatori per svolgere un determinato compito.
+Un secondo elemento che consideriamo essere interessante è la possibilità
+ di richiedere o proporre la propria collaborazione con gli altri giocatori
+ per svolgere un determinato compito.
  Facciamo un paio di esempi:
 \end_layout
 
@@ -453,8 +453,8 @@ Un secondo elemento che consideriamo potrebbe essere avvincente per i giocatori
 \series bold
 Difficoltà:
 \series default
- se un giocatore ha difficoltà a rispondere ad una domanda, potrebbe chiedere
- tramite il sistema aiuto ad un suo collega.
+ se un giocatore ha difficoltà a rispondere ad una domanda, potrebbe chiedere,
+ tramite il sistema, aiuto ad un suo collega.
  In questo modo il giocatore potrà avere un aiuto a rispondere correttamente
  alla domanda, mentre, ipoteticamente, il collega potrà avere un bonus in
  
@@ -470,8 +470,11 @@ PX
 Team:
 \series default
  si potrebbe permettere che i giocatori si organizzino in Team e, ad esempio
- una volta al mese, organizzare delle gare fra i team per verificare quale
- dei team sia il migliore.
+ una volta al mese, organizzare delle 
+\series bold
+gare
+\series default
+ fra i team per verificare quale dei team sia il migliore.
  Potrebbe benissimo essere, sempre per esempio, che si organizzi una gara
  per verificare l'apprendimento delle uscite di sicurezza, utilizzando dispositi
 vi mobili, piuttosto che una gara stile 
@@ -486,15 +489,35 @@ Trivial Pursuit
 \end_layout
 
 \begin_layout Subsection
-Sfide
-\end_layout
-
-\begin_layout Subsection
-Personalizzazione profilo pubblico
-\end_layout
-
-\begin_layout Subsection
 Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Applicando questi pochi elementi al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+, pensiamo che si potrebbe ottenere un prodotto molto più efficace rispetto
+ a quello che verrà sviluppato per questo progetto.
+ 
+\end_layout
+
+\begin_layout Standard
+In questo modo contiamo di poter attrarre anche i giocatori di tipo 
+\series bold
+Social 
+\series default
+per via dell'interazione sociale che si verrebbe a creare fra i giocatori,
+ sia per le collaborazioni che per le sfide.
 \end_layout
 
 \end_body
