@@ -670,6 +670,16 @@ Socializer, sia per la possibilità di commentare le esecuzioni degli altri
  o per l'obbligatorietà dell'interazione con altri giocatori
 \end_layout
 
+\begin_layout Standard
+La componente che più di tutte cerca di fare leva sui giocatori è la 
+\series bold
+creazione di un legame 
+\series default
+sia con altri giocatori, sia con le missioni, sviluppando in particolare
+ una voglia di ricercare il lato ludico delle istruzioni, ma al contempo
+ cercando di far interagire i giocatori con l'ambiente circostante
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 
@@ -1139,7 +1149,7 @@ Socializer
 
 \end_deeper
 \begin_layout Subsubsection
-OneFeat
+Onefeat
 \end_layout
 
 \begin_layout Standard
@@ -1200,13 +1210,75 @@ OneFeat
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Onefeat include una serie di missioni che puoi scegliere di completare,
+ scattando una fotografia che rientra secondo una determinata descrizione
+ o criteri.
+ Puoi creare le tue missioni, incoraggiare altre persone a completarle,
+ così come puoi completare le missioni di altre persone - o, nel gergo di
+ Onefeat, fare un'impresa
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Onefeat
+\emph default
+ è, per quanto riguarda la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, molto simile a 
+\emph on
+CriticalCity Upload
+\emph default
+, anche se si differenzia per alcuni particolari:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Obiettivi:
+\series default
+ al contrario di 
+\emph on
+CriticalCity
+\emph default
+, il cui obiettivo consiste nel raggiungere il 7° livello per poter ricevere
+ la 
+\emph on
+Scatola Inversa
+\emph default
+, Onefeat non ha alcuno di questi obiettivi.
+ Il motore di gioco consiste interamente nel effettuare più 
+\emph on
+feat
+\emph default
+ possibili per guadagnare più livelli possibili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tipologia di input
+\series default
+: in 
+\emph on
+Onefeat
+\emph default
+ è possibile svolgere le missioni solamente documentando tramite foto ed
+ eventualmente con una piccola descrizione testuale della foto
 \end_layout
 
 \end_body

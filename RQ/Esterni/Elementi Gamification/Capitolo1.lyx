@@ -88,24 +88,6 @@ Elementi di Gamification
 \begin_inset Quotes erd
 \end_inset
 
- 
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-D'ora in poi definito come 
-\begin_inset Quotes eld
-\end_inset
-
-documento
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
  viene redatto allo scopo di illustrare al proponente, il 
 \begin_inset ERT
 status open
@@ -309,6 +291,35 @@ Canada, John Wiley & Sons, Inc.
 \end_layout
 
 \begin_layout Itemize
+Beintoo, (2010) 
+\series bold
+Beintoo
+\series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.beintoo.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
 Focus Coop, (2007) 
 \series bold
 CriticalCity Upload
@@ -338,9 +349,9 @@ http://criticalcity.org
 \end_layout
 
 \begin_layout Itemize
-Beintoo, (2010) 
+Onefeat, (2010) 
 \series bold
-Beintoo
+Onefeat
 \series default
 
 \begin_inset Foot
@@ -348,11 +359,11 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
-http://www.beintoo.com/
+http://onefeat.com
 \end_layout
 
 \end_inset
