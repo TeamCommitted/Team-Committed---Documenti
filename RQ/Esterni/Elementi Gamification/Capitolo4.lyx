@@ -1,0 +1,524 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Gamification futura
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Gamification-futura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Introduciamo ora una serie di concetti che sono stati studiati dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ allo scopo di migliorare e rafforzare la 
+\emph on
+\bar under
+Gamification
+\bar default
+ 
+\emph default
+all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Ciclo di 
+\emph on
+social engagement
+\end_layout
+
+\begin_layout Standard
+Durante lo studio dei principi fondamentali della 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, ci siamo imbattuti nel cosiddetto 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Ciclo di Social Engagement
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, una serie di motivazioni che si alimentano a vicenda secondo un determinato
+ schema.
+\end_layout
+
+\begin_layout Standard
+All'interno di questo ciclo possiamo identificare 4 elementi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivating Emotion
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Traduzione letterale: 
+\emph on
+Emozione Motivante
+\end_layout
+
+\end_inset
+
+: 
+\series default
+l'
+\emph on
+Emozione Motivante
+\emph default
+ può essere considerata il motore che alimenta tutto il ciclo di 
+\emph on
+social engagement
+\emph default
+: infatti senza di essa non ci sarebbe la motivazione iniziale che porterebbe
+ il giocatore ad iniziare a giocare con il proprio sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Social Call To Action
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Traduzione libera:
+\emph on
+ Chiamata alle armi
+\end_layout
+
+\end_inset
+
+:
+\series default
+ è il mezzo con cui si coinvolge il giocatore ad interagire con il sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Player Re-Engagement
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Traduzione letterale: 
+\emph on
+Ri-coinvolgimento del giocatore
+\end_layout
+
+\end_inset
+
+:
+\series default
+ il modo in cui si riesce a convincere il giocatore a continuare a giocare
+ al sistema, rinnovando il suo interesse per il sistema stesso.
+ Questo metodo potrà essere automatico oppure potrà coinvolgere altri giocatori
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Visible Progress/Reward
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Traduzione letterale: 
+\emph on
+Progressi/Ricompense visibili
+\end_layout
+
+\end_inset
+
+: 
+\series default
+indica il metodo con cui si intende far vedere i progressi fatti da un giocatore
+, piuttosto che le ricompense che il giocatore ha guadagnato
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ possibile riassumere quanto detto precedentemente con la seguente figura:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Social Engagement.jpg
+	scale 22
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ciclo di social engagement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha pensato che questo ciclo di 
+\emph on
+social engagement
+\emph default
+ potrebbe essere utile al conseguimento della 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, applicando questo ciclo nel seguente modo:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivating Emotion:
+\series default
+ Voglia di migliorare se stessi e/o sfida contro gli altri giocatori
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Social Call To Action:
+\series default
+ Risposta a domande di tipologia varia
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Player Re-Engagement:
+\series default
+ Gare organizzate dal sistema e proposte di collaborazione fra giocatori
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Visible Progress/Reward:
+\series default
+ 
+\emph on
+PX
+\emph default
+ che si tradurranno in 
+\emph on
+badge
+\end_layout
+
+\begin_layout Subsection
+Badge 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+temporizzati
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il primo elemento che vorremmo introdurre in un secondo momento è la possibilità
+, da parte dell'azienda, di creare dei 
+\emph on
+badge temporizzati
+\emph default
+, ovvero guadagnabili sono in un determinato periodo di tempo.
+ 
+\end_layout
+
+\begin_layout Standard
+Pensiamo che la cosa migliore che potremmo fare sarà modificare radicalmente
+ il sistema di gestione attualmente pensato per la gestione dei badge ed
+ inserire un parametro per specificare entro quale data si possa guadagnare
+ il badge
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Si suppone che il giorno dell'inserimento del 
+\emph on
+badge
+\emph default
+ corrisponda al primo giorno in cui si può guadagnare il suddetto
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In questo modo vorremmo aumentare la visibilità sociale che un giocatore
+ può trarre dal poter mostrare dei badge che lui ha guadagnato e che altri
+ non potranno mai guadagnare.
+\end_layout
+
+\begin_layout Subsection
+Collaborazione, Team e Sfide
+\end_layout
+
+\begin_layout Standard
+Un secondo elemento che consideriamo essere interessante è la possibilità
+ di richiedere o proporre la propria collaborazione con gli altri giocatori
+ per svolgere un determinato compito.
+ Facciamo un paio di esempi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Difficoltà:
+\series default
+ se un giocatore ha difficoltà a rispondere ad una domanda, potrebbe chiedere,
+ tramite il sistema, aiuto ad un suo collega.
+ In questo modo il giocatore potrà avere un aiuto a rispondere correttamente
+ alla domanda, mentre, ipoteticamente, il collega potrà avere un bonus in
+ 
+\emph on
+PX
+\emph default
+ per aver aiutato il giocatore
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Team:
+\series default
+ si potrebbe permettere che i giocatori si organizzino in Team e, ad esempio
+ una volta al mese, organizzare delle 
+\series bold
+gare
+\series default
+ fra i team per verificare quale dei team sia il migliore.
+ Potrebbe benissimo essere, sempre per esempio, che si organizzi una gara
+ per verificare l'apprendimento delle uscite di sicurezza, utilizzando dispositi
+vi mobili, piuttosto che una gara stile 
+\begin_inset Quotes eld
+\end_inset
+
+Trivial Pursuit
+\begin_inset Quotes erd
+\end_inset
+
+ su tutti gli argomenti della normativa sulla sicurezza sul lavoro
+\end_layout
+
+\begin_layout Subsection
+Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Applicando questi pochi elementi al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+, pensiamo che si potrebbe ottenere un prodotto molto più efficace rispetto
+ a quello che verrà sviluppato per questo progetto.
+ 
+\end_layout
+
+\begin_layout Standard
+In questo modo contiamo di poter attrarre anche i giocatori di tipo 
+\series bold
+Social 
+\series default
+per via dell'interazione sociale che si verrebbe a creare fra i giocatori,
+ sia per le collaborazioni che per le sfide.
+\end_layout
+
+\end_body
+\end_document

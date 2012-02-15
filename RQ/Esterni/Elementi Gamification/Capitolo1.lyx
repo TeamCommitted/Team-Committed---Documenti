@@ -88,24 +88,6 @@ Elementi di Gamification
 \begin_inset Quotes erd
 \end_inset
 
- 
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-D'ora in poi definito come 
-\begin_inset Quotes eld
-\end_inset
-
-documento
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
  viene redatto allo scopo di illustrare al proponente, il 
 \begin_inset ERT
 status open
@@ -267,14 +249,14 @@ name "sub:Ambiguitá"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V2.0.pdf
+Glossario-V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
  
 \end_layout
 
 \begin_layout Subsection
-Riferimenti informativi
+Riferimenti
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Riferimenti-informativi"
@@ -282,6 +264,23 @@ name "sub:Riferimenti-informativi"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti normativi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Team Committed (2012), 
+\series bold
+\emph default
+Norme di Progetto V3.0
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti informativi
 \end_layout
 
 \begin_layout Itemize
@@ -306,6 +305,35 @@ Game-Based Marketing,
 \series default
 \emph on
 Canada, John Wiley & Sons, Inc.
+\end_layout
+
+\begin_layout Itemize
+Beintoo, (2010) 
+\series bold
+Beintoo
+\series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.beintoo.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
 \end_layout
 
 \begin_layout Itemize
@@ -338,9 +366,9 @@ http://criticalcity.org
 \end_layout
 
 \begin_layout Itemize
-Beintoo, (2011) 
+Onefeat, (2010) 
 \series bold
-Beintoo
+Onefeat
 \series default
 
 \begin_inset Foot
@@ -352,7 +380,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.beintoo.com/
+http://onefeat.com
 \end_layout
 
 \end_inset
