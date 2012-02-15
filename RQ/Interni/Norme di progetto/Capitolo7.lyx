@@ -428,34 +428,5 @@ Si può omettere tale diagramma qualora la sua definizione risulti talmente
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
-Architettura di dettaglio
-\end_layout
-
-\begin_layout Standard
-Il documento relativo all'architettura di dettaglio dovrà contenere:
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Diagrammi delle classi:
-\series default
- per rendere esplicite le relazioni delle varie classi all'interno delle
- singole componenti
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Diagrammi di attività
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Diagrammi di sequenza
-\end_layout
-
 \end_body
 \end_document
