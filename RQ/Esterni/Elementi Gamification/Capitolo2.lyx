@@ -433,13 +433,9 @@ Elementi di Gamification
 \series bold
 Missioni:
 \series default
- l'intero gioco è basato sul concetto di
-\bar under
- 
-\bar default
-missioni
+ l'intero gioco è basato sul concetto di missioni
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Denominate 
@@ -461,7 +457,7 @@ Istruzioni
 
 , dove vedono i giocatori scegliere e svolgere queste missioni
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Una volta svolte, le 
@@ -1218,7 +1214,7 @@ Descrizione:
  scattando una fotografia che rientra secondo una determinata descrizione
  o criteri.
  Puoi creare le tue missioni, incoraggiare altre persone a completarle,
- così come puoi completare le missioni di altre persone - o, nel gergo di
+ così come puoi completare le missioni di altre persone o, nel gergo di
  Onefeat, fare un'impresa
 \end_layout
 

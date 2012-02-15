@@ -252,9 +252,9 @@ Come ovvia conseguenza di tutto ciò, verranno generate delle
 \series bold
 classifiche
 \series default
- che mostreranno in ogni istante sia in ogni istante quali siano i migliori
- giocatori in ogni categoria delle domande, sia il miglior giocatore in
- quel momento, identificato dal punteggio totale.
+ che mostreranno in ogni istante sia quali siano i migliori giocatori in
+ ogni categoria delle domande, sia il miglior giocatore in quel momento,
+ identificato dal punteggio totale.
 \end_layout
 
 \begin_layout Subsubsection
@@ -282,7 +282,7 @@ badge
 badge
 \emph default
  segnano inoltre il completamento di obiettivi e il continuo progresso del
- gioco all'interno del sistema
+ gioco all'interno del sistema.
 \end_layout
 
 \begin_layout Standard
@@ -614,10 +614,6 @@ killer
  saranno invogliati ad utilizzare la nostra piattaforma poichè, ipotiziamo,
  vorranno raggiungere il vertice di tutte le classifiche presenti nel nostro
  sistema
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
