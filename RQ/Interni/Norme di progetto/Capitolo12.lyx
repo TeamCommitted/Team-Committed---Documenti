@@ -132,21 +132,31 @@ UML
 \end_layout
 
 \begin_layout Itemize
-Diagrammi delle classi: per evidenziare le relazioni tra le varie classi
- nelle singole componenti
+
+\series bold
+Diagrammi delle classi:
+\series default
+ per evidenziare le relazioni tra le varie classi nelle singole componenti
 \end_layout
 
 \begin_layout Itemize
-Diagrammi di attività: per definire i flussi delle attività svolte dai vari
- componenti nel caso in cui tali flussi non siano banali e non siano già
- stati descritti in precedenza nella Specifica Tecnica
+
+\series bold
+Diagrammi di attività:
+\series default
+ per definire i flussi delle attività svolte dai vari componenti nel caso
+ in cui tali flussi non siano banali e non siano già stati descritti in
+ precedenza nella Specifica Tecnica
 \end_layout
 
 \begin_layout Itemize
-Diagrammi di sequenza: per definire in maniera precisa le responsabilità
- dei vari package o classi nell'eseguire un determinato compito qual'ora
- questo non fosse stato adeguatamente approfondito e spiegato all'interno
- della Specifica Tecnica.
+
+\series bold
+Diagrammi di sequenza:
+\series default
+ per definire in maniera precisa le responsabilità dei vari package o classi
+ nell'eseguire un determinato compito qual'ora questo non fosse stato adeguatame
+nte approfondito e spiegato all'interno della Specifica Tecnica.
  
 \end_layout
 
@@ -160,20 +170,35 @@ Per mantenere una certa uniformità all'interno del documento, ogni classe
 \end_layout
 
 \begin_layout Itemize
-Funzione svolta dalla specifica classe
+
+\series bold
+Funzione
+\series default
+ svolta dalla specifica classe
 \end_layout
 
 \begin_layout Itemize
-Relazione d'uso che tale classe possiede a seconda delle diverse relazioni.
+
+\series bold
+Relazione d'uso
+\series default
+ che tale classe possiede a seconda delle diverse relazioni.
 \end_layout
 
 \begin_layout Itemize
-Attributi presenti nella classe con breve descrizione del significato
+
+\series bold
+Attributi presenti
+\series default
+ nella classe con breve descrizione del significato
 \end_layout
 
 \begin_layout Itemize
-Metodi pubblici della classe con annessa descrizione qualora il comportamento
- non sia banale.
+
+\series bold
+Metodi pubblici
+\series default
+ della classe con annessa descrizione qualora il comportamento non sia banale.
  Si porrà poi attenzione nella descrizione delle eccezioni lanciate o gestite
  e negli oggetti di ritorno
 \end_layout
