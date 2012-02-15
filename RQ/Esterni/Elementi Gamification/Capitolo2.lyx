@@ -299,7 +299,7 @@ name "sub:CriticalCity-Upload"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -706,10 +706,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -725,7 +721,7 @@ begin{center}
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityhome.jpg
-	scale 22.5
+	scale 16
 
 \end_inset
 
@@ -736,7 +732,7 @@ begin{center}
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityprofilo.jpg
-	scale 22.5
+	scale 16
 
 \end_inset
 
@@ -980,7 +976,7 @@ Beintoo
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1155,7 +1151,7 @@ Onefeat
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
