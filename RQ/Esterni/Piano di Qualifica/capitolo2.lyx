@@ -467,6 +467,14 @@ Eclipse
 \begin_layout Itemize
 
 \series bold
+BlueJ 
+\series default
+con i relativi strumenti già inclusi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Strumenti W3C 
 \series default
 per validazione 
@@ -569,11 +577,49 @@ Eclipse (
  funzionalità di debugging quali l'esecuzione step-by-step, l'impostazione
  di beaking point ecc (
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 http://www.eclipse.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+BlueJ (
+\series default
+
+\begin_inset Formula $\geqslant3.0.7$
+\end_inset
+
+
+\series bold
+)
+\series default
+: editor realizzato in 
+\bar under
+Java
+\bar default
+ dall'università di Kent per la scrittura di classi 
+\bar under
+Java
+\bar default
+, fornisce un'ottima interfaccia grafica generale per le classi, tramite
+ UML e un comodo strumento per creare oggetti, utilizzare i metodi della
+ classe di quell'oggetto o di quelle a lui connesse, ottimo per effettuare
+ i test di unità e di integrazione (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.bluej.org/
 \end_layout
 
 \end_inset
