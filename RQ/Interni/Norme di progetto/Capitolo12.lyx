@@ -131,5 +131,79 @@ UML
  verrà utilizzato per definire:
 \end_layout
 
+\begin_layout Itemize
+Diagrammi delle classi: per evidenziare le relazioni tra le varie classi
+ nelle singole componenti
+\end_layout
+
+\begin_layout Itemize
+Diagrammi di attività: per definire i flussi delle attività svolte dai vari
+ componenti nel caso in cui tali flussi non siano banali e non siano già
+ stati descritti in precedenza nella Specifica Tecnica
+\end_layout
+
+\begin_layout Itemize
+Diagrammi di sequenza: per definire in maniera precisa le responsabilità
+ dei vari package o classi nell'eseguire un determinato compito qual'ora
+ questo non fosse stato adeguatamente approfondito e spiegato all'interno
+ della Specifica Tecnica.
+ 
+\end_layout
+
+\begin_layout Subsection
+Specifica di una classe
+\end_layout
+
+\begin_layout Standard
+Per mantenere una certa uniformità all'interno del documento, ogni classe
+ dovrà essere trattata seguendo il seguente schema risportato:
+\end_layout
+
+\begin_layout Itemize
+Funzione svolta dalla specifica classe
+\end_layout
+
+\begin_layout Itemize
+Relazione d'uso che tale classe possiede a seconda delle diverse relazioni.
+\end_layout
+
+\begin_layout Itemize
+Attributi presenti nella classe con breve descrizione del significato
+\end_layout
+
+\begin_layout Itemize
+Metodi pubblici della classe con annessa descrizione qualora il comportamento
+ non sia banale.
+ Si porrà poi attenzione nella descrizione delle eccezioni lanciate o gestite
+ e negli oggetti di ritorno
+\end_layout
+
+\begin_layout Subsection
+Tracciamento
+\end_layout
+
+\begin_layout Standard
+Dovrà essere fornito, in forma tabellare, il tracciamento di tutti i requisiti
+ con le relative classi che ne determinano il soddisfacimento in modo tale
+ da assicurare che esista almeno una classe che soddisfi ciascun requisito.
+\begin_inset Newline newline
+\end_inset
+
+Dovrà essere fornito, in forma tabellare, il tracciamento di ogni classe
+ con i requisiti che essa soddisfa così da garantire che ogni classe ha
+ motivo di esistere ed evitare quindi che ve ne siano alcune che non hanno
+ alcun ruolo nel sistema.
+\end_layout
+
+\begin_layout Subsection
+Definizione di prodotto
+\end_layout
+
+\begin_layout Standard
+Il documento trattante l'architettura di dettaglio conterrà al suo interno
+ i diagrammi delle classi per ogni componente e le specifiche di tutte le
+ classi.
+\end_layout
+
 \end_body
 \end_document
