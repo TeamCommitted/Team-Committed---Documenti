@@ -145,13 +145,14 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Per poter esprimere al meglio la nostra idea di 
+Per poter esprimere al meglio quali saranno gli elementi di 
 \emph on
 \bar under
 Gamification
 \emph default
+ 
 \bar default
-, vorremmo prima vedere i vari contesti analizzati dal 
+che applicheremo all'interno del 
 \begin_inset ERT
 status open
 
@@ -159,13 +160,20 @@ status open
 
 
 \backslash
-TeamCommitted
+nameproject
 \end_layout
 
 \end_inset
 
- in cui viene applicata questa tecnica, per poi passare alla definizione
- data dal gruppo.
+ , vorremmo prima condividere l'analisi che abbiamo effettuato su alcuni
+ contesti in cui la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stata applicata.
 \end_layout
 
 \begin_layout Subsection
@@ -268,14 +276,6 @@ CriticalCity Upload
 , Focus Coop (2007)
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Beintoo
-\series default
-, Beintoo (2010)
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -299,7 +299,7 @@ name "sub:CriticalCity-Upload"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -496,7 +496,9 @@ Punti
 \begin_inset space ~
 \end_inset
 
-esperienza: 
+esperienza: i punti esperienza servono per valutare sia la difficoltà di
+ un'istruzione, sia il numero di voti che un'esecuzione ha ricevuto.
+ Dopo un determinato numero di punti esperienza, è possibile salire di livello
 \end_layout
 
 \begin_layout Description
@@ -612,16 +614,6 @@ Sito web:
  nell'home page del sito c'è un riquadro che mostra la migliore esecuzione
  del momento, calcolata in base ai voti assegnati durante un periodo di
  tempo
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Sconosciuto allo scrittore
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -673,7 +665,7 @@ esploratori
 \end_layout
 
 \begin_layout Description
-Achiever, per l'obiettivo della 
+Achiever, per la 
 \emph on
 Scatola Inversa
 \emph default
@@ -684,6 +676,16 @@ Scatola Inversa
 Socializer, sia per la possibilità di commentare le esecuzioni degli altri
  utenti, sia per la possibilità di cooperare per svolgere un'istruzione
  o per l'obbligatorietà dell'interazione con altri giocatori
+\end_layout
+
+\begin_layout Standard
+La componente che più di tutte cerca di fare leva sui giocatori è la 
+\series bold
+creazione di un legame 
+\series default
+sia con altri giocatori, sia con le missioni, sviluppando in particolare
+ una voglia di ricercare il lato ludico delle istruzioni, ma al contempo
+ cercando di far interagire i giocatori con l'ambiente circostante
 \end_layout
 
 \end_deeper
@@ -704,10 +706,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -723,7 +721,18 @@ begin{center}
 
 \begin_inset Graphics
 	filename img/CriticalCity/CriticalCityhome.jpg
-	scale 35
+	scale 16
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityprofilo.jpg
+	scale 16
 
 \end_inset
 
@@ -744,7 +753,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Home page
+Home page e pagina profilo di un utente
 \end_layout
 
 \end_inset
@@ -767,10 +776,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -787,8 +792,19 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/CriticalCity/CriticalCityprofilo.jpg
-	scale 35
+	filename img/CriticalCity/CriticalCityistruzioni.jpg
+	scale 15
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityesecuzioni.jpg
+	scale 15
 
 \end_inset
 
@@ -809,7 +825,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Pagina profilo di un utente
+Pagina delle istruzioni e delle esecuzioni
 \end_layout
 
 \end_inset
@@ -817,8 +833,101 @@ Pagina profilo di un utente
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I video di alcune esecuzioni possono essere trovati ai seguenti indirzzi:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
 \begin_layout Plain Layout
 
+http://youtu.be/Q9pMVrqKFMg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://youtu.be/CY2Gk7Yw1t0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://youtu.be/lTEaRFmD_5k
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qui invece si potranno trovare alcune esecuzioni all'interno di 
+\emph on
+CriticalCity Upload
+\emph default
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/24619
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25084
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25081
 \end_layout
 
 \end_inset
@@ -827,11 +936,35 @@ Pagina profilo di un utente
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Altre realtà osservate
+\end_layout
+
 \begin_layout Standard
-\begin_inset Newpage newpage
+Poichè il tempo a disposizione del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
 \end_inset
 
-
+ per studiare la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stato relativamente poco, elenchiamo qui una serie di altre realtà che
+ il gruppo ha osservato, ma che, per questioni di tempo, non sono state
+ studiate attentamente.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -843,7 +976,7 @@ Beintoo
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -948,28 +1081,216 @@ Elementi di Gamification
 \end_layout
 
 \begin_deeper
-\begin_layout Description
+\begin_layout Itemize
+
+\series bold
 Riprova
 \begin_inset space ~
 \end_inset
 
-sociale: 
+sociale
 \end_layout
 
-\begin_layout Description
-Premi: 
+\begin_layout Itemize
+
+\series bold
+Premi
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
+
+\series bold
 Punti
 \begin_inset space ~
 \end_inset
 
-spendibili:
+spendibili
+\end_layout
+
+\begin_layout Standard
+Poichè 
+\emph on
+Beintoo
+\emph default
+ è collegata a moltissime altre realtà che applicano la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, in realtà non è così semplice dire con certezza quali elementi sono stati
+ applicati.
+ Per questo motivo la lista di elementi che abbiamo trovato è abbastanza
+ esigua.
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
+ noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
+\end_layout
+
+\begin_layout Itemize
+
 \series bold
- 
+Achiever
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
 \end_layout
 
 \end_deeper
+\begin_layout Subsubsection
+Onefeat
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/OneFeat/onefeat.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Particolare della home page di 
+\emph on
+OneFeat
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Onefeat include una serie di missioni che puoi scegliere di completare,
+ scattando una fotografia che rientra secondo una determinata descrizione
+ o criteri.
+ Puoi creare le tue missioni, incoraggiare altre persone a completarle,
+ così come puoi completare le missioni di altre persone - o, nel gergo di
+ Onefeat, fare un'impresa
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Onefeat
+\emph default
+ è, per quanto riguarda la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, molto simile a 
+\emph on
+CriticalCity Upload
+\emph default
+, anche se si differenzia per alcuni particolari:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Obiettivi:
+\series default
+ al contrario di 
+\emph on
+CriticalCity
+\emph default
+, il cui obiettivo consiste nel raggiungere il 7° livello per poter ricevere
+ la 
+\emph on
+Scatola Inversa
+\emph default
+, Onefeat non ha alcuno di questi obiettivi.
+ Il motore di gioco consiste interamente nel effettuare più 
+\emph on
+feat
+\emph default
+ possibili per guadagnare più livelli possibili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tipologia di input
+\series default
+: in 
+\emph on
+Onefeat
+\emph default
+ è possibile svolgere le missioni solamente documentando tramite foto ed
+ eventualmente con una piccola descrizione testuale della foto
+\end_layout
+
+\begin_layout Standard
+Proprio per questi motivi possiamo affermare che le categorie di giocatori
+ coinvolti sono:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Explorer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
+\end_layout
+
 \end_body
 \end_document
