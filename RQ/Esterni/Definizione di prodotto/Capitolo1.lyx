@@ -69,31 +69,26 @@ Scopo del documento
 \end_layout
 
 \begin_layout Standard
-Il presente documento ha lo scopo di definire e mostrare le scelte progettuali,
- ad alto livello, che il gruppo 
-\series bold
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-TeamCommitted
+Il documento di 
+\emph on
+Definizione di Prodotto
+\emph default
+ descrive tutte le componenti del sistema e il modo in cui esse collaborano.
+ Per ogni componente vengono illustrati gli attributi con il loro significato
+ e i medoti con il loro comportamento.
 \end_layout
 
-\end_inset
+\begin_layout Standard
+Gli aspetti più delicati sono rappresentati anche attraverso diagrammi di
+ sequenza, in modo da mostrare in modo chiaro l'ordine delle operazioni
+ e l'interazione delle compoenenti.
+\end_layout
 
-
-\series default
- ha deciso di rispettare per la realizzazione del prodotto.
- Al suo interno verranno presentati i vari 
-\bar under
-design pattern
-\bar default
- utilizzati nella creazione del prodotto, la struttura dei packages e le
- principali classi che li compongono.
+\begin_layout Standard
+Lo scopo principale del documento è quello di fornire ai programmatori una
+ solida e precisa guida alla codifica, in modo che essi possano lavorare
+ in modo autonomo attenendosi alle scelte progettuali ed evitando soluzioni
+ personali ed improvvisate.
 \end_layout
 
 \begin_layout Subsection
@@ -144,16 +139,24 @@ dispositivi mobili
 \end_layout
 
 \begin_layout Subsection
-Glossario
+Ambiguità
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ambiguitá"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V2.0.pdf
+Glossario-V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -161,7 +164,7 @@ Riferimenti
 \end_layout
 
 \begin_layout Subsubsection
-Normativi
+Riferimenti normativi
 \end_layout
 
 \begin_layout Itemize
@@ -189,160 +192,7 @@ Analisi_dei_Requisiti_V3.0.pdf
 \end_layout
 
 \begin_layout Subsubsection
-Informativi
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Java 6 SDK
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://docs.oracle.com/javase/6/docs/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-W3School 
-\series bold
-XHTML 1.1
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.w3school.com/html/html_xhtml.asp
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-W3School 
-\series bold
-CSS 3
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.w3school.com/css/default.asp
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-MySql
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://dev.mysql.com/doc/refman/5.5/en/index.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-JSP
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://java.sun.com/products/jsp/syntax/2.0/synstaxref20.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Tomcat
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://tomcat.apache.org/tomcat-6.0-doc/index.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-E.
- Gamma, R.
- Helm, R.
- Johnson, J.Vlissides (1995),
-\series bold
-\emph default
- Design Patterns , 
-\series default
-\emph on
-USA-Canada, Addison-Wesley.
+Riferimenti informativi
 \end_layout
 
 \end_body
