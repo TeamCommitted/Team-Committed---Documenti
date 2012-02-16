@@ -116,27 +116,21 @@ Destinatario del manuale
 \end_layout
 
 \begin_layout Standard
-Questo manuale è indirizzato agli Ammministratori Azienda, ossia quegli
- utenti che gestistono la piattaforma dal punto di vista aziendale.
+Questo manuale è indirizzato agli Ammministratori Sicurezza, ovvero quegli
+ utenti che gestiranno il sistema per quanto riguarda le domande sulla sicurezza
+ del lavoro.
  Ad essi è permesso di:
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Gestione utenti:
+Gestione domande:
 \series default
- aggiungere, modificare ed eliminare gli utenti dal sistema
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Visualizzazione statistiche: 
-\series default
-visualizzare le statistiche sia dell'intera azienda che di ogni singolo
- Dipendente.
- Queste statistiche riguarderanno sia i punti guadagnati che i badge assegnati
+ aggiungere e rimuovere dal pool di domande possibili dell'azienda.
+ Potrà inoltre proporre nuove domande all'azienda manutentrice di 
+\emph on
+SafetyGame
 \end_layout
 
 \begin_layout Subsection
@@ -144,19 +138,8 @@ Prerequisiti
 \end_layout
 
 \begin_layout Standard
-L'Amministratore Azieda dovrà avere a disposizione un browser web e una
- connessione ad Internet
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-L'applicazione Desktop, al contrario, non è un prerequisito essenziale,
- anche se consigliato
-\end_layout
-
-\end_inset
-
-.
+L'Amministratore Sicurezza dovrà avere a disposizione un browser web e una
+ connessione ad Internet.
  Dovrebbe inoltre avere una discreta conoscenza dell'utilizzo dei browser.
 \end_layout
 
@@ -166,7 +149,7 @@ Come leggere il manuale
 
 \begin_layout Standard
 Il manuale è strutturato a seconda delle funzionalità offerte all'Amministratore
- Azienda:
+ Sicurezza:
 \end_layout
 
 \begin_layout Enumerate
@@ -174,11 +157,7 @@ Autenticazione
 \end_layout
 
 \begin_layout Enumerate
-Gestione utenti
-\end_layout
-
-\begin_layout Enumerate
-Visualizzazione statistiche
+Gestione domande
 \end_layout
 
 \begin_layout Standard

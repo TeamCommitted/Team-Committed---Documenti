@@ -131,17 +131,17 @@ Installazione
 \begin_layout Itemize
 
 \series bold
-Web:
+Database:
 \series default
- installare il sito internet all'interno dei server aziendali
+ installare il database aziendale
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Database:
+Web:
 \series default
- installare il database aziendale
+ installare il sito internet all'interno dei server aziendali
 \end_layout
 
 \begin_layout Itemize
@@ -166,20 +166,13 @@ Prerequisiti
 \end_layout
 
 \begin_layout Standard
-L'Amministratore Azieda dovrà avere a disposizione un browser web e una
- connessione ad Internet
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-L'applicazione Desktop, al contrario, non è un prerequisito essenziale,
- anche se consigliato
-\end_layout
-
-\end_inset
-
-.
- Dovrebbe inoltre avere una discreta conoscenza dell'utilizzo dei browser.
+L'Amministratore Installatore dovrà avere accesso ai server aziendali, così
+ come ai dispositivi fissi e mobili dell'azienda.
+ Dovrà essere stato istrutito dall'azienda manutentrice di 
+\emph on
+SafetyGame
+\emph default
+ preventivamente.
 \end_layout
 
 \begin_layout Subsection
@@ -192,15 +185,19 @@ Il manuale è strutturato a seconda delle funzionalità offerte all'Amministrato
 \end_layout
 
 \begin_layout Enumerate
-Autenticazione
+Installazione Database
 \end_layout
 
 \begin_layout Enumerate
-Gestione utenti
+Installazione Web
 \end_layout
 
 \begin_layout Enumerate
-Visualizzazione statistiche
+Installazione Desktop
+\end_layout
+
+\begin_layout Enumerate
+Installazione Mobile
 \end_layout
 
 \begin_layout Standard

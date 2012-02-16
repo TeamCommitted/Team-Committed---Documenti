@@ -116,27 +116,40 @@ Destinatario del manuale
 \end_layout
 
 \begin_layout Standard
-Questo manuale è indirizzato agli Ammministratori Azienda, ossia quegli
- utenti che gestistono la piattaforma dal punto di vista aziendale.
+Questo manuale è indirizzato agli Dipendenti, ovvero coloro che dovranno
+ usare il sistema per apprendere e verificare l'apprendimento della normativa
+ sulla sicurezza del lavoro.
  Ad essi è permesso di:
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Gestione utenti:
-\series default
- aggiungere, modificare ed eliminare gli utenti dal sistema
+Rispondere ad una domanda
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Visualizzazione statistiche: 
+Gestire il proprio profilo:
 \series default
-visualizzare le statistiche sia dell'intera azienda che di ogni singolo
- Dipendente.
- Queste statistiche riguarderanno sia i punti guadagnati che i badge assegnati
+ visualizzazione e modifica
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Modifica della password e email
+\end_layout
+
+\end_inset
+
+ del proprio profilo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Visualizzare le proprie statistiche
 \end_layout
 
 \begin_layout Subsection
@@ -144,20 +157,33 @@ Prerequisiti
 \end_layout
 
 \begin_layout Standard
-L'Amministratore Azieda dovrà avere a disposizione un browser web e una
- connessione ad Internet
+A seconda della piattaforma utilizzata
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-L'applicazione Desktop, al contrario, non è un prerequisito essenziale,
- anche se consigliato
+Desktop o Mobile
 \end_layout
 
 \end_inset
 
-.
- Dovrebbe inoltre avere una discreta conoscenza dell'utilizzo dei browser.
+, il Dipendente dovrà:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Desktop:
+\series default
+ avere a disposizione un browser web e una connessione ad Internet
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mobile:
+\series default
+ avere a disposizione una connessione ad Internet
 \end_layout
 
 \begin_layout Subsection
@@ -165,8 +191,23 @@ Come leggere il manuale
 \end_layout
 
 \begin_layout Standard
-Il manuale è strutturato a seconda delle funzionalità offerte all'Amministratore
- Azienda:
+Il manuale è strutturato a seconda delle funzionalità offerte al Dipendente:
+\end_layout
+
+\begin_layout Enumerate
+Desktop
+\end_layout
+
+\begin_layout Enumerate
+Web
+\end_layout
+
+\begin_layout Enumerate
+Mobile
+\end_layout
+
+\begin_layout Standard
+Ogni sezione sarà strutturato internamente:
 \end_layout
 
 \begin_layout Enumerate
@@ -174,7 +215,15 @@ Autenticazione
 \end_layout
 
 \begin_layout Enumerate
-Gestione utenti
+Notifica di una nuova domanda
+\end_layout
+
+\begin_layout Enumerate
+Risposta ad una domanda
+\end_layout
+
+\begin_layout Enumerate
+Gestione account
 \end_layout
 
 \begin_layout Enumerate
