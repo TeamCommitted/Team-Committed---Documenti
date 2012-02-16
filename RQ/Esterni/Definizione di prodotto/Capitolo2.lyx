@@ -63,5 +63,67 @@
 Standard di progetto
 \end_layout
 
+\begin_layout Subsection
+Standard di progettazione architetturale
+\end_layout
+
+\begin_layout Standard
+Per gli standard di progettazione architetturale, si veda il documento 
+\emph on
+Specifica Tecnica - V 2.0
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Standard di documentazione del codice
+\end_layout
+
+\begin_layout Standard
+La documentazione del codice sarà prodotta come Javadoc.
+ Per ulteriori informazioni si vedano le 
+\emph on
+Norme di Progetto - V 3.0
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Standard di denominazione di entità e relazioni
+\end_layout
+
+\begin_layout Standard
+Entità e relazioni devono avere nomi chiari, coincisi ed esplicativi.
+ Per ulteriori informazioni si faccia riferimento alle 
+\emph on
+Norme di Progetto - V 3.0
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Standard di programmazione
+\end_layout
+
+\begin_layout Standard
+Per gli standard di programmazione si vedano le 
+\emph on
+Norme di Progetto - V 3.0
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Strumenti di lavoro
+\end_layout
+
+\begin_layout Standard
+Per gli strumenti di lavoro si faccia riferimento alle 
+\emph on
+Norme di Progetto - V 3.0
+\emph default
+.
+\end_layout
+
 \end_body
 \end_document
