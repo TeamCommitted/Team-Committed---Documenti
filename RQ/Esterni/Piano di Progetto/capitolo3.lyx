@@ -674,9 +674,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Oreruolo-RP.jpg
-	scale 40
+	filename Img/Oreruolo-RP.eps
+	scale 48
 
 \end_inset
 
@@ -719,8 +720,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Img/oreruolosomm-RP.jpg
-	scale 50
+	filename Img/oreruolosomm-RP.eps
+	scale 80
 
 \end_inset
 
@@ -782,9 +783,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Ruolipersona-RP.jpg
-	scale 40
+	filename Img/Ruolipersona-RP.eps
+	scale 53
 
 \end_inset
 
@@ -956,9 +958,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Oreruolo-RQ.jpg
-	scale 40
+	filename Img/Oreruolo-RQ.eps
+	scale 50
 	rotateOrigin center
 
 \end_inset
@@ -1003,9 +1006,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/oreruolosomm-RQ.jpg
-	scale 50
+	filename Img/oreruolosomm-RQ.eps
+	scale 80
 
 \end_inset
 
@@ -1061,9 +1065,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/Ruolipersona-RQ.jpg
-	scale 45
+	filename Img/Ruolipersona-RQ.eps
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -1229,8 +1234,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Img/Oreruolo-RA.jpg
-	scale 40
+	filename Img/Oreruolo-RA.eps
+	scale 50
 	rotateOrigin center
 
 \end_inset
@@ -1277,8 +1282,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Img/oreruolosomm-RA.jpg
-	scale 50
+	filename Img/oreruolosomm-RA.eps
+	scale 80
 
 \end_inset
 
@@ -1335,8 +1340,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Img/Ruolipersona-RA.jpg
-	scale 40
+	filename Img/Ruolipersona-RA.eps
+	scale 55
 	rotateOrigin center
 
 \end_inset
@@ -1600,8 +1605,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/grafico_ore_ruolo_membro.jpg
+	filename Img/grafico_ore_ruolo_membro.eps
 	scale 50
 	rotateOrigin center
 
@@ -1653,9 +1659,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Img/ripartizione_ore_totali_per_ruolo.jpg
-	scale 75
+	filename Img/ripartizione_ore_totali_per_ruolo.eps
+	scale 65
 
 \end_inset
 
@@ -2085,8 +2092,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Img/ripartizione_costi_totali_per_ruolo.jpg
-	scale 75
+	filename Img/ripartizione_costi_totali_per_ruolo.eps
+	scale 50
 	rotateOrigin center
 
 \end_inset
