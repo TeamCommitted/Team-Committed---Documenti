@@ -63,6 +63,43 @@
 Facade
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Facade.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esempio di Facade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 
 \series bold
@@ -93,6 +130,12 @@ Motivazione:
 
 \series bold
 Contesto applicativo: 
+\series default
+Facade ha trovato applicazione nella parte del Back-end, nel dettaglio all'inter
+no del Logic Tier.
+ Controller è infatti strutturato per fornire un'interfaccia unica dalla
+ quale accedere per utilizzare tutt le varie classi necessarie come GestioneLogi
+n, GestioneDomandeD ecc.
 \end_layout
 
 \end_body
