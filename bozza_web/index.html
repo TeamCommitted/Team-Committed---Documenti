@@ -13,12 +13,37 @@
 <body class = "index">
 
 	<div id = "header">
-		<h1>Safetygame - Pagina di accesso</h1>
+		<h1>Safetygame - Benvenuti</h1>
 	</div>
 
 
 	<div id = "content">
-	
+		<h2>Pagina di accesso</h2>
+		
+		<div id = "login_form">
+			
+			
+			<form id="form_box" title="Form per effettuare il login" action="" onsubmit="" method="post">
+				<fieldset>
+					<legend>Effettua il login</legend>
+					<label for="account_email">Email</label>			
+					<input id="account_email" title="Casella di testo per l'indirizzo email" type="text" name="account_email" onfocus="" value=""/>
+					<label for="account_password">Password</label>
+					<input id="account_password" title="Casella di testo per la password" type="password" name="account_password" onfocus="restoreDefaultStyle(this)"/>
+					<input id="account_login" class="button" title="Pulsante per l&apos;invio dei dati inseriti" type="submit" name="account_login" value="Entra" />
+				</fieldset>
+			</form>
+			
+			
+			<p class="form_info">
+				Inserisci l'indirizzo email e la password negli appositi spazi, per autenticarti. 
+			</p>
+			<p class ="form_info">
+				Password dimenticata? <a href="page.cgi?page=password_lost" tabindex="5" accesskey="p">Recupera l'accesso</a>
+			</p>
+			
+		</div>
+		
 	</div>
 
 
