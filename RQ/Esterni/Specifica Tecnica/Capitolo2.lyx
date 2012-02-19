@@ -423,56 +423,85 @@ pull
 
 \end_deeper
 \begin_layout Subsection
-Altri Design Pattern
-\end_layout
-
-\begin_layout Standard
-Durante la fase di 
-\emph on
-Progettazione Archittetturale
-\emph default
- non sono emersi problemi risolvibili tramite utilizzo di
-\bar under
- design pattern
-\bar default
- diversi da quelli già descritti.
- Sono stati valutati attentamente alcuni 
-\bar under
-design pattern
-\bar default
- non architetturali, quali 
-\emph on
 Singleton
-\emph default
- o 
-\emph on
-DAO
-\emph default
-, che però non sono stati ritenuti adatti per i problemi che, in fase di
- 
-\emph on
-Progettazione Architetturale
-\emph default
-, abbiamo affrontato.
 \end_layout
 
 \begin_layout Standard
-Tuttavia, durante la fase di
-\emph on
- Progettazione di Dettaglio
-\emph default
- potrebbero emergere problemi che saranno risolti facilmente tramite l'uso
- di 
-\bar under
-design pattern
-\bar default
-.
- Per questo motivo ci riserviamo il diritto di introdurre 
-\bar under
-design pattern 
-\bar default
-non architetturali all'interno della Specifica Tecnica, modificando di conseguen
-za l'archichettura strutturata attualmente.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Singleton.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Esempio di Singleton
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Singleton rappresenta un design pattern creazionale che ha la funzione
+ di garantire che di una data classe venga creata un'unica istanza, fornendo
+ inoltre un punto di accesso globale ad essa.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ Si è scelto di utilizzare Singleton in quanto porta numerosi vantaggi tra
+ i quali avere, come già detto, un accesso controllato all'unica istanza
+ della classe, avere uno spazio di nomi ridotto ed evitare la dichiarazione
+ di variabili globali.
+ Un altro vantaggio rilevante è costituito dalla possibilità data dal principio
+ della Lazy Initialization che permette la creazione dell'istanza della
+ classe solo quando ciò diventa strettamente necessario.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Tutte le varie caratteristiche del design pattern Singleton comportano infine
+ un ultimo vantaggio non da poco: il suo utilizzo comporta un notevole risparmio
+ di risorse fisiche e questo lo rende particolarmente apprezzabile all'interno
+ di applicativi web, migliorandone le prestazioni.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ 
 \end_layout
 
 \end_body
