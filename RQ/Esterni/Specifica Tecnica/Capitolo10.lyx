@@ -686,15 +686,6 @@ logic & ConnBack & RFOB 1
 
 \begin_layout Plain Layout
 
-&& RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
 && RPOB 1 
 \backslash
 
@@ -4240,15 +4231,6 @@ hline
 \begin_layout Plain Layout
 
 utils&ConnectionUtils&RFOB 1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 1.1
 \backslash
 
 \backslash
