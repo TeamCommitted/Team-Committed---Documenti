@@ -1,0 +1,577 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Front-end Web
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/ale/Scrivania/Repository swe/Team-Committed---Documenti/RQ/Esterni/Specifica Tecnica/img/frontEndWeb.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Front-end Web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:View Tier"
+
+\end_inset
+
+View Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ questo livello costituisce la parte del sistema che definisce ed implementa
+ l'interfaccia 
+\bar under
+web
+\bar default
+ usurfruibile dagli 
+\bar under
+Utenti
+\bar default
+ mediante pagine web.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ il componente è costituito dal package pagine, e comunica con il Logic
+ Tier per rendere possibile la memorizzazione delle informazioni immesse
+ nel sistema dagli utenti attraverso l'interfaccia 
+\bar under
+web
+\bar default
+ e per controllare i dati in transito per il sistema, dovuti all'interazione
+ dell'utente con il sistema.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Dipenden"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Login definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un untente di effettuare il login al sistema
+ via web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe Login utilizza i metodi messi a disposizione della classe ControlLogin
+, contenuta nel package control, per verificare i dati inseriti durante
+ la fase di autenticazione degli utenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlLogin per visualizzare uno
+ o più errori emersi nella fase di autenticazione da parte di un utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente agli utenti
+ di autenticarsi al sistema.
+ Essa resta in attesa che un utente inserisca i dati necessari per l'autenticazi
+one al sistema per poi passarli alla classe ControlLogin, la quale svolgerà
+ i vari controlli.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Menu"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.Menu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Menu definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che mostra ad un utente, una volta autenticato, il menu
+ contenente le varie azioni che questo può compiere nel sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe Menu utilizza i metodi messi a disposizione della classe ControlMenu,
+ contenuta nel package control, per verificare le azioni compiute dagli
+ utenti che interagiscono con la pagina web di menu.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlMenu perchè viene aggiornata
+ da questa a seconda delle azioni dell'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente agli utenti
+ di navigare nel menu web del sistema.
+ Essa resta in attesa che un utente selezioni una delle voci presenti nel
+ menu per poi delegare la classe ControlMenu di effettuare i controlli del
+ caso.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.Notifica"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.Notifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+da fare.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+da fare.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ da fare.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ da fare.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.MostraDomanda"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.MostraDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDomanda definisce la struttura, e la conseguente visualizzazione
+, della pagina web che mostra ad un utente autenticato, una delle domande
+ presenti nel sistema ed attende la sua risposta.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDomanda utilizza i metodi messi a disposizione della classe
+ ControlMostraDom, contenuta nel package control, per verificare le azioni
+ compiute dagli utenti che interagiscono con la pagina web che presenta
+ una domanda posta dal sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlMostraDom perchè viene aggiornat
+a da questa a seconda delle azioni dell'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente agli utenti
+ di visualizzare, e successivamente rispondere, ad una domanda posta dal
+ sistema.
+ Essa resta in attesa che un utente fornisca la soluzione al quesito per
+ poi delegare la classe ControlMostraDom di effettuare i controlli del caso.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.EsitoDomanda"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.EsitoDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe EsitoDomanda definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che mostra ad un utente autenticato, che ha appena fornito
+ una soluzione ad un quesito, l'esito di tale risposta.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe EsitoDomanda utilizza i metodi messi a disposizione della classe
+ ControlEsitoDom, contenuta nel package control, per verificare le azioni
+ compiute dagli utenti che interagiscono con la pagina web che presenta
+ l'esito di una risposta fornita, da un utente, per una domanda posta dal
+ sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlEsitoDom perchè viene aggiornata
+ da questa a seconda della soluzione fornita dall'utente in precedenza.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente agli utenti
+ di visualizzare l'esito di un quesito posto in precedenza dal sistema.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.MostraDatiD"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.MostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDatiD definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che mostra ad un 
+\bar under
+Dipendente
+\bar default
+, i propri dati personali presenti nel sistema, ed ad un AmministratoreAzienda
+ i dati di un 
+\bar under
+Dipendente
+\bar default
+ a scelta.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDatiD utilizza i metodi messi a disposizione della classe
+ ControlMostraDatiD, contenuta nel package control, per verificare le azioni
+ compiute dagli utenti che interagiscono con la pagina web che presenta
+ i dati personali di un 
+\bar under
+Dipendente
+\bar default
+ a seconda del tipo di utente che li richiede.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlMostraDatiD perchè viene
+ aggiornata da questa a seconda delle azioni dell'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente agli utenti
+ di visualizzarei dati personali di un 
+\bar under
+Dipendente
+\bar default
+ registrato nel sistema.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.MostraDatiAA"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.MostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDatiAA definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che mostra ad un 
+\bar under
+Amministratore Azienda
+\bar default
+ autenticato i dati personali dell'azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe MostraDatiAA utilizza i metodi messi a disposizione della classe
+ ControlMostraDatiAA, contenuta nel package control, per verificare le azioni
+ compiute dll'utente 
+\bar under
+Amministratore Azienda
+\bar default
+ che interagisce con la pagina web che presenta i dati personali dell'azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlMostraDatiAA perchè viene
+ aggiornata da questa a seconda delle azioni dell'
+\bar under
+Amministratore Azienda
+\bar default
+ autenticato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente all'
+\bar under
+Amministratore Azienda autenticato
+\bar default
+ di visualizzare i dati personali dell'azienda o di un dipendente registrato
+ al sistema.
+ Essa resta in attesa che un Amministratore Azienda autenticafornisca la
+ soluzione al quesito per poi delegare la classe ControlMostraDom di effettuare
+ i controlli del caso.
+\end_layout
+
+\end_body
+\end_document
