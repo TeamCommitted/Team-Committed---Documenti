@@ -108,58 +108,6 @@ hline
 
 \begin_layout Plain Layout
 
-view & Notifica & RFOB 1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-&& RQOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&& RQOB 3 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&& RQOP 3.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&& RQOP 3.2 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
 view & Notifica & RFOB 4 
 \backslash
 
@@ -729,7 +677,7 @@ hline
 
 \begin_layout Plain Layout
 
-logic & Socket & RFOB 1 
+logic & ConnBack & RFOB 1 
 \backslash
 
 \backslash
@@ -3657,24 +3605,6 @@ view&LoginActivity&RFOB 4
 
 \begin_layout Plain Layout
 
-&&RFOB 17
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 26
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
 &&RQOB 1
 \backslash
 
@@ -4379,24 +4309,6 @@ condivisi&Login&RFOB 5
 
 \begin_layout Plain Layout
 
-&&RFOB 17
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 26
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 hline
@@ -4450,42 +4362,6 @@ condivisi&Dipendente&RFOB 11
 \begin_layout Plain Layout
 
 &&RFOB 15.1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 21
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 21.1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 22
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 22.1
 \backslash
 
 \backslash
@@ -4573,33 +4449,6 @@ condivisi&Domanda&RFOB 8
 
 \begin_layout Plain Layout
 
-&&RFOB 27.1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 28.1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 28.2
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 hline
@@ -4608,15 +4457,6 @@ hline
 \begin_layout Plain Layout
 
 condivisi&Punteggi&RFOB 15.1
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&RFOB 23.1
 \backslash
 
 \backslash
