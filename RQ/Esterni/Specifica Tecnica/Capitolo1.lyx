@@ -78,7 +78,6 @@ status open
 
 \begin_layout Plain Layout
 
-\series bold
 
 \backslash
 TeamCommitted
@@ -172,7 +171,7 @@ Norme di Progetto, v 2.0
 \series default
 (allegato 
 \family typewriter
-Norme_di_Progetto_V2.0.pdf
+Norme_di_Progetto_V3.0.pdf
 \family default
 )
 \end_layout
@@ -184,7 +183,7 @@ Analisi dei Requisiti, v 2.0
 \series default
  (allegato 
 \family typewriter
-Analisi_dei_Requisiti_V2.0.pdf
+Analisi_dei_Requisiti_V3.0.pdf
 \family default
 )
 \end_layout

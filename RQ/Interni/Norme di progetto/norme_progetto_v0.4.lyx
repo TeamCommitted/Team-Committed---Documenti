@@ -589,20 +589,6 @@ filename "Capitolo7.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitolo12.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
 filename "Capitolo8.lyx"
 
 \end_inset

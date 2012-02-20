@@ -387,7 +387,11 @@ verificatori}
 \backslash
 textbf{Approvazione} & 
 \backslash
-approvazione 
+parbox{
+\backslash
+textwidth}{
+\backslash
+approvazione} 
 \backslash
 
 \backslash
