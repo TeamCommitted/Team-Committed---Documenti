@@ -117,13 +117,10 @@ Presentation Tier
 \series bold
 Tipo, obiettivo e funzione del componente: 
 \series default
-Il Presentation Tier si occupa di gestire le richieste degli applicativi
- front-end, inviandole alle corrette funzioni del Logic Tier ed inviando
- i risultati di tali operazioni ai relativi 
-\bar under
-front-end
-\bar default
-.
+Il Presentation Tier si occupa di gestire le connessioni con i vari Front-End,
+ passando le richieste di lettura o inserimento dati al livello inferiore
+ e traducendo le relative risposte in xml per poi rimandarle ai relativi
+ Front-End; gestisce inoltre eventuali crash dei Front-End.
 \series bold
 
 \begin_inset Newline newline
@@ -131,12 +128,181 @@ front-end
 
 Relazioni d'uso di altre componenti:
 \series default
- Il Presentation Tier richiama funzioni dal Logic Tier e dalle classi ClientBack
-End dei vari 
-\bar under
-front-end
-\bar default
+ Il Presentation Tier richiama funzioni dal Logic Tier.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.connection.DesktopConnection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe DesktopConnection viene utilizzata per gestire le connessioni
+ del Back-End con i vari Front-End Desktop e trasferire richieste e dati
+ tra loro ed i livelli inferiori del Back-End.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe Facade GestioneDati per inviare
+ richieste di inserimento o lettura dati da database, inviandone le relative
+ risposte alla classe richiedente del relativo Front-End Desktop.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi del livello Controller dei Front-End
+ Desktop.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di connessione dai vari Front-End Deskop e si
+ occupa di mantenerle, gestendo eventuali errori come per esempio il crash
+ di un Desktop, inoltre riceve tutte le richieste di scambio dati tramite
+ protocollo http e le invia alla classe GestioneDati del package controller,
+ traducendo le risposte ottenute in xml e reinviandole al Front-End richiedente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.connection.WebConnection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe WebConnection viene utilizzata per gestire le connessioni del
+ Back-End con i vari Front-End Web e trasferire richieste e dati tra loro
+ ed i livelli inferiori del Back-End.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe Facade GestioneDati per inviare
+ richieste di inserimento o lettura dati da database, inviandone le relative
+ risposte alla classe richiedente del relativo Front-End Web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi del livello Controller dei Front-End
+ Web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve tutte le richieste di scambio dati dai vari Front-End Web
+ tramite protocollo http e le invia alla classe GestioneDati del package
+ controller, traducendo le risposte ottenute in xml e reinviandole al Front-End
+ richiedente, inoltre gestisce eventuali errori come l'improvvisa chiusura
+ della pagina web durante la visione di una domanda da parte di un Dipendente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.connection.MobileConnection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe MobileConnection viene utilizzata per gestire le connessioni
+ del Back-End con i vari Front-End Mobile e trasferire richieste e dati
+ tra loro ed i livelli inferiori del Back-End.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe Facade GestioneDati per inviare
+ richieste di inserimento o lettura dati da database, inviandone le relative
+ risposte alla classe richiedente del relativo Front-End Mobile.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi del livello Controller dei Front-End
+ Mobile.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di connessione dai vari Front-End Mobile e si
+ occupa di mantenerle, gestendo eventuali errori come per esempio il crash
+ di un Dispositivo Mobile, inoltre riceve tutte le richieste di scambio
+ dati tramite protocollo http e le invia alla classe GestioneDati del package
+ controller, traducendo le risposte ottenute in xml e reinviandole al Front-End
+ richiedente.
+\end_layout
+
+\begin_layout Subsection
+Logi Tier
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
 .
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ .
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
 \end_layout
 
 \begin_layout Subsubsection
