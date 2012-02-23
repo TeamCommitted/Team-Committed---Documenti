@@ -595,11 +595,11 @@ straDatiAA di effettuare i controlli del caso.
 \series bold
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:com.safetyGame.web.view.MostraDatiAS"
+name "sub:com.safetyGame.web.view.ModDatiD"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.MostraDatiAS
+com.safetyGame.frontWeb.pagine.ModDatiD
 \end_layout
 
 \begin_layout Standard
@@ -610,12 +610,12 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe MostraDatiAS definisce la struttura, e la conseguente visualizzazione,
- della pagina web che mostra ad un 
+La classe ModDatiD definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un 
 \bar under
-Amministratore Sicurezza
+Dipendente
 \bar default
- autenticato i dati personali dell'account.
+ autenticato di modificare alcuni dati personali dell'account.
 \begin_inset Newline newline
 \end_inset
 
@@ -626,13 +626,9 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe MostraDatiAS utilizza i metodi messi a disposizione della classe
- ControlMostraDatiAS, contenuta nel package control, per verificare le azioni
- compiute dall'utente 
-\bar under
-Amministratore Sicurezza 
-\bar default
-autenticato che interagisce con la pagina web che presenta i suoi dati personali.
+La classe ModDatiD utilizza i metodi messi a disposizione della classe ControlMo
+dDatiD, contenuta nel package control, per verificare le azioni compiute
+ da un Dipendente autenticato che modifica i propri dati personali.
 \series bold
 
 \begin_inset Newline newline
@@ -640,12 +636,8 @@ autenticato che interagisce con la pagina web che presenta i suoi dati personali
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- La classe viene utilizzata dalla classe ControlMostraDatiAS perchè viene
- aggiornata da questa a seconda delle azioni dell'
-\bar under
-Amministratore Sicurezza
-\bar default
- autenticato e dalla classe ControlMenu.
+ La classe viene utilizzata dalla classe ControlModDatiD perchè viene aggiornata
+ da questa a seconda delle azioni del Dipendente e dalla classe ControlMenu.
 \begin_inset Newline newline
 \end_inset
 
@@ -653,17 +645,148 @@ Amministratore Sicurezza
 \series bold
 Attività svolte e dati trattati:
 \series default
- La classe definisce la struttura della pagina web che consente all'
+ La classe definisce la struttura della pagina web che consente ad un Dipendente
+ autenticato di modificare alcuni dati personali .
+ Essa resta in attesa che un 
 \bar under
-Amministratore Sicurezza autenticato
+Dipendente
 \bar default
- di visualizzare i propri dati personali .
+ autenticato compia un'azione sulla pagina, per poi delegare la classe ControlMo
+dDatiD di effettuare i controlli del caso.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.ModDatiAA"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.ModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ModDatiAA definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un 
+\bar under
+Amminnistratore Azienda
+\bar default
+ autenticato di modificare alcuni dati personali dell'azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ModDatiAA utilizza i metodi messi a disposizione della classe
+ ControlModDatiAA, contenuta nel package control, per verificare le azioni
+ compiute da un Amministratore Azienda autenticato che modifica i dati personali
+ dell'azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlModDatiAA perchè viene aggiornat
+a da questa a seconda delle azioni dell'Amministratore Azienda e dalla classe
+ ControlMenu.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente ad un Amministra
+tore Azienda autenticato di modificare alcuni dati personali .
+ Essa resta in attesa che un 
+\bar under
+Amministratore Azienda
+\bar default
+ autenticato compia un'azione sulla pagina, per poi delegare la classe ControlMo
+dDatiAA di effettuare i controlli del caso.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.ModDatiAS"
+
+\end_inset
+
+com.safetyGame.frontWeb.pagine.ModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ModDatiAS definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un 
+\bar under
+Amminnistratore Sicurezza
+\bar default
+ autenticato di modificare alcuni dati personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ModDatiAS utilizza i metodi messi a disposizione della classe
+ ControlModDatiAS, contenuta nel package control, per verificare le azioni
+ compiute da un Amministratore Sicurezza autenticato che modifica i dati
+ personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlModDatiAS perchè viene aggiornat
+a da questa a seconda delle azioni dell'Amministratore Sicurezza e dalla
+ classe ControlMenu.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe definisce la struttura della pagina web che consente ad un Amministra
+tore Sicurezza autenticato di modificare alcuni dati personali .
  Essa resta in attesa che un 
 \bar under
 Amministratore Sicurezza
 \bar default
  autenticato compia un'azione sulla pagina, per poi delegare la classe ControlMo
-straDatiAS di effettuare i controlli del caso.
+dDatiAS di effettuare i controlli del caso.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1092,7 +1215,7 @@ name "sub:com.safetyGame.web.view.ControlLogin"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlLogin
+com.safetyGame.frontWeb.control.ControlLogin
 \end_layout
 
 \begin_layout Standard
@@ -1153,7 +1276,7 @@ name "sub:com.safetyGame.web.view.ControlMenu"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlMenu
+com.safetyGame.frontWeb.control.ControlMenu
 \end_layout
 
 \begin_layout Standard
@@ -1214,7 +1337,7 @@ name "sub:com.safetyGame.web.view.ControNotifica"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlNotifica
+com.safetyGame.frontWeb.control.ControlNotifica
 \end_layout
 
 \begin_layout Standard
@@ -1275,7 +1398,7 @@ name "sub:com.safetyGame.web.view.ControlMostraDom"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlMostraDom
+com.safetyGame.frontWeb.control.ControlMostraDom
 \end_layout
 
 \begin_layout Standard
@@ -1334,7 +1457,7 @@ name "sub:com.safetyGame.web.view.ControlEsitoDom"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlEsitoDom
+com.safetyGame.frontWeb.control.ControlEsitoDom
 \end_layout
 
 \begin_layout Standard
@@ -1393,7 +1516,7 @@ name "sub:com.safetyGame.web.view.ControlMostraDatiD"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlMostraDatiD
+com.safetyGame.frontWeb.control.ControlMostraDatiD
 \end_layout
 
 \begin_layout Standard
@@ -1452,7 +1575,7 @@ name "sub:com.safetyGame.web.view.ControlMostraDatiAA"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlMostraDatiAA
+com.safetyGame.frontWeb.control.ControlMostraDatiAA
 \end_layout
 
 \begin_layout Standard
@@ -1512,7 +1635,7 @@ name "sub:com.safetyGame.web.view.ControlModDatiD"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlModDatiD
+com.safetyGame.frontWeb.control.ControlModDatiD
 \end_layout
 
 \begin_layout Standard
@@ -1571,7 +1694,7 @@ name "sub:com.safetyGame.web.view.ControlModDatiAA"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlModDatiAA
+com.safetyGame.frontWeb.control.ControlModDatiAA
 \end_layout
 
 \begin_layout Standard
@@ -1632,7 +1755,7 @@ name "sub:com.safetyGame.web.view.ControlElencoDomAS"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlElencoDomAS
+com.safetyGame.frontWeb.control.ControlElencoDomAS
 \end_layout
 
 \begin_layout Standard
@@ -1691,7 +1814,7 @@ name "sub:com.safetyGame.web.view.ControlModDomAS"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlModDomAS
+com.safetyGame.frontWeb.control.ControlModDomAS
 \end_layout
 
 \begin_layout Standard
@@ -1753,7 +1876,7 @@ name "sub:com.safetyGame.web.view.ControlMostraStatD"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.ControlMostraStatD
+com.safetyGame.frontWeb.control.ControlMostraStatD
 \end_layout
 
 \begin_layout Standard
@@ -1798,8 +1921,286 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- La classe consente ad un dipendente di visualizzare i premi e le statistiche
+ La classe consente ad un Dipendente di visualizzare i premi e le statistiche
  personali.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.ControlMostraStatAA"
+
+\end_inset
+
+com.safetyGame.frontWeb.control.ControlMostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlMostraStatAA si occupa di controllare e tenere aggiornate
+ le pagine web che consentono ad un Amministratore Azienda autenticato di
+ visualizzare i premi e le statistiche aziendali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlMostraStatAA utilizza i metodi messi a disposizione della
+ classe MostraStatAA contenuta nel package pagine.
+ Usa i metodi di questa classe per aggiornare l'interfaccia web che consente
+ ad un Amministratore Azienda di visualizzare i premi e le statistiche aziendali
+ .
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe MostraStatAA per tenere aggiornato
+ il proprio stato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe consente ad un Amministratore Azienda di visualizzare i premi
+ e le statistiche aziendali.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.ControlModDatiAS"
+
+\end_inset
+
+com.safetyGame.frontWeb.control.ControlModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlModDatiAS si occupa di gestire le pagine web che consentono
+ ad un Amministratore Sicurezza autenticato di modificare alcuni dati personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlModDatiAS utilizza i metodi messi a disposizione della
+ classe ModificaDatiAS contenuta nel package pagine.
+ Usa i metodi di questa classe per aggiornare l'interfaccia web che consente
+ ad un Amministratore Sicurezza di modificare alcuni dati personali.
+ Inoltre controlla i dati che  un'Amministratore Sicurezza modifica e li
+ passa al back-end.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ModificaDatiAS per tenere aggiornato
+ il proprio stato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe riceve in ingresso una richiesta di cambio dati, e dopo averli
+ controllati li passa al back-end, il quale ne assicura la permanenza in
+ memoria.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.view.ControlRecuperoPassD"
+
+\end_inset
+
+com.safetyGame.frontWeb.control.ControlRecuperoPassD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlRecuperoPassD si occupa di gestire le pagine web che consentono
+ ad un Dipendente autenticato, che ha smarrito la propria password, di recuperar
+la.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ControlRecuperoPassD utilizza i metodi messi a disposizione della
+ classe ControlRecuperoPassD contenuta nel package pagine.
+ Usa i metodi di questa classe per aggiornare l'interfaccia web che consente
+ ad un Dipendente di recuperare la password smarrita.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe RecuperoPassD per tenere aggiornato
+ il proprio stato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe permette la gestione della pagina di recupero passowrd dei dipendenti.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.Timer"
+
+\end_inset
+
+com.safetyGame.frontWeb.control.Timer
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe Timer si occupa di gestire le varie temporizzazioni richieste
+ dalle pagine web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ControlNotifica e da ControlMostraDom.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe permette la gestione delle temporizzazioni richieste dal sistema.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.web.control.ConnHandler"
+
+\end_inset
+
+com.safetyGame.frontWeb.control.ConnHandler
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ConnHandler si occupa di gestire la connessione fra back-end e
+ front-end web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ConnHandler comunica con il back-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle varie classi contenute nel package control
+ che hanno necessità di comunicare con il back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe permette la gestione della connessione fra front-end web e back-end.
 \end_layout
 
 \end_body
