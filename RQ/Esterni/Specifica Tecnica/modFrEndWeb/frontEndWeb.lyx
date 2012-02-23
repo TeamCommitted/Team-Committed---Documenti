@@ -73,7 +73,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/ale/Scrivania/Repository swe/Team-Committed---Documenti/RQ/Esterni/Specifica Tecnica/img/frontEndWeb.png
+	filename /home/acornagl/Scrivania/Repository Git/Team-Committed---Documenti/RQ/Esterni/Specifica Tecnica/img/frontEndWeb.png
 	scale 25
 
 \end_inset
@@ -279,7 +279,9 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-da fare.
+La classe Notifica definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che segnala ad un utente autenticato, una notifica del
+ sistema.
 \begin_inset Newline newline
 \end_inset
 
@@ -290,7 +292,10 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-da fare.
+La classe Notifica utilizza i metodi messi a disposizione della classe ControlNo
+tifica, contenuta nel package control, per verificare le azioni compiute
+ dagli utenti che interagiscono con la pagina web che presenta una notifica
+ segnalata dal sistema.
 \series bold
 
 \begin_inset Newline newline
@@ -298,7 +303,8 @@ da fare.
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- da fare.
+ La classe viene utilizzata dalla classe ControlNotifica perchè viene aggiornata
+ da questa a seconda delle azioni dell'utente.
 \begin_inset Newline newline
 \end_inset
 
@@ -306,7 +312,11 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- da fare.
+ La classe definisce la struttura della pagina web che consente al sistema
+ di mostrare notifiche agli utenti.
+ Essa resta in attesa che un utente fornisca una risposta alla notifica
+ per poi delegare la classe ControlNotifica di effettuare i controlli del
+ caso.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1215,7 +1225,10 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe ControlNotifica
+La classe ControlNotifica si occupa di gestire le pagine web che mostrano
+ agli utenti le notifiche del sistema.
+ Si occupa inoltre di catturare le risposte per poi passare queste informazioni
+ al back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -1226,8 +1239,11 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-.
- 
+La classe ControlNotifica utilizza i metodi messi a disposizione della classe
+ Notifica contenuta nel package pagine.
+ Usa i metodi di questa classe per aggiornare l'interfaccia web che mostra
+ le notifiche agli utenti.
+ La classe si occupa di informare il back-end sulle scelte fatte dagli utenti.
 \series bold
 
 \begin_inset Newline newline
@@ -1235,7 +1251,9 @@ Relazioni d'uso di altre componenti:
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- .
+ La classe viene utilizzata dalla classe Notifica per tenere aggiornato
+ il proprio stato e dal back-end che specifica il tipo di notifica da visualizza
+re.
 \begin_inset Newline newline
 \end_inset
 
@@ -1243,7 +1261,9 @@ Interfacce con e relazioni d'uso da altre componenti:
 \series bold
 Attività svolte e dati trattati:
 \series default
- .
+ La classe ControlNotifica riceve richieste di segnalare una notifica dal
+ back-end e gestisce successivamente l'interfaccia web che segnala una notifica
+ restando in attesa delle azioni compite dagli utenti.
 \end_layout
 
 \begin_layout Subsubsection
