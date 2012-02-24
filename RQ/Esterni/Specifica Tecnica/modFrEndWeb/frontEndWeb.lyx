@@ -73,7 +73,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/acornagl/Scrivania/Repository Git/Team-Committed---Documenti/RQ/Esterni/Specifica Tecnica/img/frontEndWeb.png
+	filename /home/ale/Scrivania/Repository swe/Team-Committed---Documenti/RQ/Esterni/Specifica Tecnica/img/frontEndWeb.png
 	scale 25
 
 \end_inset
@@ -1190,7 +1190,7 @@ Tipo, obiettivo e funzione del componente:
 \series default
  questo livello costituisce la parte del sistema che si occupa sostanzialmente
  di controllare e gestire i dati che riceve in ingresso l'applicazione dall'inte
-razione con l'utente, attraverso le varie pagine web, e di mantenere sempre
+razione con l'utente, attraverso le varie pagine web, e di mantenerle sempre
  aggiornate attuando le comunicazioni necessarie con il back-end.
  
 \begin_inset Newline newline
@@ -1203,7 +1203,7 @@ Relazioni d'uso di altre componenti:
  il componente è costituito dal package control, e comunica sia con il View
  Tier per mantenere aggiornato lo stato dell'interfaccia web visibile agli
  utenti, che con il back-end per gestire le informazioni che l'utente scambia
- con l'applicazione
+ con l'applicazione.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1287,7 +1287,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe ControlLogin si occupa di controllare le azioni che un utente,
+La classe ControlMenu si occupa di controllare le azioni che un utente,
  una volta autenticato, compie nella schermata di menu.
  A seconda dell'azione che viene eseguita si occupa di aggiornare correttamente
  la schermata.
