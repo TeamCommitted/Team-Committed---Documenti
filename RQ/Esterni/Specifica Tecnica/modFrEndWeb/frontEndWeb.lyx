@@ -1301,7 +1301,7 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe ControlLogin utilizza i metodi messi a disposizione delle classi
+La classe ControlMenu utilizza i metodi messi a disposizione delle classi
  Menu, MostraDomanda, MostraDatiD, MostraDatiAA, ModDatiD, ModDatiAA, ModDatiAS,
  ElencoDomAS, ModDomAS, MostraStatD e MostraStatAA contenute nel package
  pagine.

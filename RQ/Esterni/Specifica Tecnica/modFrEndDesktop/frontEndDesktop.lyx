@@ -238,7 +238,7 @@ Relazioni d'uso di altre componenti:
 \emph default
 La classe Login utilizza i metodi messi a disposizione della classe ControlLogin
 , contenuta nel package logic, per verificare i dati inseriti durante la
- fase di autenticazione degli utenti.
+ fase di autenticazione degli utenti e la classe DatiLogin.
 \series bold
 
 \begin_inset Newline newline
@@ -554,11 +554,11 @@ Attività svolte e dati trattati:
 \series bold
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:com.safetyGame.web.view.ControlMenu"
+name "sub:com.safetyGame.desktop.logic.ControlMenu"
 
 \end_inset
 
-com.safetyGame.frontWeb.control.ControlMenu
+com.safetyGame.desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Standard
@@ -569,7 +569,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe ControlLogin si occupa di controllare le azioni che un utente,
+La classe ControlMenu si occupa di controllare le azioni che un utente,
  una volta autenticato, compie nella schermata di menu.
  A seconda dell'azione che viene eseguita si occupa di aggiornare correttamente
  la schermata.
@@ -583,12 +583,10 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe ControlLogin utilizza i metodi messi a disposizione delle classi
- Menu, MostraDomanda, MostraDatiD, MostraDatiAA, ModDatiD, ModDatiAA, ModDatiAS,
- ElencoDomAS, ModDomAS, MostraStatD e MostraStatAA contenute nel package
- pagine.
- Usa i metodi di queste classi per aggiornare l'interfaccia web a seconda
- delle azioni dell'utente.
+La classe ControlMenu utilizza i metodi messi a disposizione della classe
+ Menu contenuta nel package view.
+ Usa i metodi di questa classe per aggiornare l'interfaccia grafica a seconda
+ delle azioni dell'utente, visualizzando nel caso l'interfaccia web.
  
 \series bold
 
@@ -607,7 +605,117 @@ Interfacce con e relazioni d'uso da altre componenti:
 Attività svolte e dati trattati:
 \series default
  La classe riceve in ingresso le richieste di un utente autenticato e di
- conseguenza si occupa di gestire l'aggiornamento dell'interfaccia web.
+ conseguenza si occupa di gestire l'aggiornamento dell'interfaccia grafica.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.DatiLogin"
+
+\end_inset
+
+com.safetyGame.desktop.logic.DatiLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe DatiLogin si occupa di recuperare i dati forniti dall'utente durante
+ l'autenticazione e di consegnarli successivamente al back-end che ne tiene
+ traccia.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe DatiLogin comunica al back-end i dati di autenticazione immessi
+ dagli utenti dopo che è stato controllato che questi sono stati inseriti
+ correttamente.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe Login per comunicare i dati inseriti
+ dall'utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe riceve in ingresso i dati di autenticazione di un utente e li
+ passa al back-end per tenere traccia dello storico.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.desktop.logic.ConnBack"
+
+\end_inset
+
+com.safetyGame.desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+\emph on
+ 
+\emph default
+La classe ConnBack si occupa di gestire la connessione fra back-end e front-end
+ desktop.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+\emph on
+ 
+\emph default
+La classe ConnBack comunica con il back-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle varie classi contenute nel package logic
+ che hanno necessità di comunicare con il back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ La classe permette la gestione della connessione fra front-end desktop
+ e back-end.
 \end_layout
 
 \end_body
