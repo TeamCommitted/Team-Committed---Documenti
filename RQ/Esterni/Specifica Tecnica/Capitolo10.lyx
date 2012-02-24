@@ -108,16 +108,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & Notifica & RFOB 1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 6 
+view & Notifica & RFOB 4 
 \backslash
 
 \backslash
@@ -126,7 +117,7 @@ view & Notifica & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 6.1 
+&& RFOB 5 
 \backslash
 
 \backslash
@@ -135,7 +126,7 @@ view & Notifica & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 13 
+&& RFOB 5.1 
 \backslash
 
 \backslash
@@ -144,7 +135,7 @@ view & Notifica & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.1 
+&& RFOB 6 
 \backslash
 
 \backslash
@@ -153,14 +144,7 @@ view & Notifica & RFOB 1
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-view & Login & RFOB 1 
+&& RFOB 6.1 
 \backslash
 
 \backslash
@@ -169,7 +153,7 @@ view & Login & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 4.1.1 
+&& RQOB 1 
 \backslash
 
 \backslash
@@ -178,7 +162,7 @@ view & Login & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 5 
+&& RQOB 3 
 \backslash
 
 \backslash
@@ -187,7 +171,7 @@ view & Login & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 5.1 
+&& RQOP 3.1 
 \backslash
 
 \backslash
@@ -196,7 +180,7 @@ view & Login & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.1 
+&& RQOP 3.2 
 \backslash
 
 \backslash
@@ -212,7 +196,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & Lanciatore & RFOB 1 
+view & Login & RFOB 4 
 \backslash
 
 \backslash
@@ -221,7 +205,7 @@ view & Lanciatore & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 7 
+&& RFOB 5 
 \backslash
 
 \backslash
@@ -230,7 +214,7 @@ view & Lanciatore & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 15 
+&& RFOB 5.1 
 \backslash
 
 \backslash
@@ -239,7 +223,7 @@ view & Lanciatore & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 16 
+&& RQOB 1 
 \backslash
 
 \backslash
@@ -248,7 +232,122 @@ view & Lanciatore & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.1 
+&& RQOB 3 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOP 3.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+view & Menu & RFOB 7 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 7.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 10 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 12 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 15 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 16 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOB 3 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOP 3.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOP 3.2 
 \backslash
 
 \backslash
@@ -273,7 +372,34 @@ logic & Timer & RFOB 6
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&& RQOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQD 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1.1.1 
 \backslash
 
 \backslash
@@ -289,7 +415,7 @@ hline
 
 \begin_layout Plain Layout
 
-logic & ClientBackEnd & RFOB 3 
+logic & ControlNotifica & RFOB 4 
 \backslash
 
 \backslash
@@ -298,7 +424,7 @@ logic & ClientBackEnd & RFOB 3
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&& RFOB 4.1.1 
 \backslash
 
 \backslash
@@ -307,14 +433,7 @@ logic & ClientBackEnd & RFOB 3
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-logic & ClientWeb & RFOB 4.1.1 
+&& RFOB 5 
 \backslash
 
 \backslash
@@ -323,7 +442,7 @@ logic & ClientWeb & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 7 
+&& RQOB 1 
 \backslash
 
 \backslash
@@ -332,7 +451,7 @@ logic & ClientWeb & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 15 
+&& RQD 5 
 \backslash
 
 \backslash
@@ -341,7 +460,7 @@ logic & ClientWeb & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&& RVOB 1 
 \backslash
 
 \backslash
@@ -350,41 +469,7 @@ logic & ClientWeb & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & DatiLogin & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
+&& RVOB 1.1.1 
 \backslash
 
 \backslash
@@ -400,7 +485,7 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Log & RFOB 1 
+logic & ControlLogin & RFOB 5 
 \backslash
 
 \backslash
@@ -409,7 +494,7 @@ condivisi & Log & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&& RQOB 1 
 \backslash
 
 \backslash
@@ -418,7 +503,25 @@ condivisi & Log & RFOB 1
 
 \begin_layout Plain Layout
 
-& & RFOB 3 
+&& RQD 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1.1.1 
 \backslash
 
 \backslash
@@ -434,6 +537,203 @@ hline
 
 \begin_layout Plain Layout
 
+logic & ControlMenu & RFOB 7 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 10 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 12 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 15 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RFOB 16 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQD 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1.1.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+logic & DatiLogin & RFOB 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQD 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1.1.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+logic & ConnBack & RFOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RPOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RQD 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&& RVOB 1.1.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -496,7 +796,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & DipendenteImpl & RFOB 4.1.1 
+pagine&Login&RFOB 4 
 \backslash
 
 \backslash
@@ -505,7 +805,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 5 
+&&RFOB 5 
 \backslash
 
 \backslash
@@ -514,7 +814,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 5.1 
+&&RFOB 5.1
 \backslash
 
 \backslash
@@ -523,7 +823,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 6 
+&&RFOB 17
 \backslash
 
 \backslash
@@ -532,7 +832,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 6.1 
+&&RFOB 26
 \backslash
 
 \backslash
@@ -541,7 +841,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 7 
+&&RQD 6 
 \backslash
 
 \backslash
@@ -550,7 +850,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 9 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -559,7 +859,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 10 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -568,7 +868,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 12 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -577,7 +877,911 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 13 
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&Menu&RFOB 7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 16
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 18
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 24
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 25
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 29
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 30
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&Notifica&RFOB 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&MostraDomanda&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&MostraDatiD&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&MostraDatiAA&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&ModDatiD&RFOB 10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&ModDatiAA&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -586,7 +1790,14 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 14 
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&ModDatiAS&RFOB 11
 \backslash
 
 \backslash
@@ -595,7 +1806,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 15 
+&&RFOB 11.1
 \backslash
 
 \backslash
@@ -604,7 +1815,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 16 
+&&RQD 6
 \backslash
 
 \backslash
@@ -613,7 +1824,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -622,7 +1833,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.1 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -631,7 +1842,7 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -640,7 +1851,34 @@ view & DipendenteImpl & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -656,7 +1894,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & AmministratoreAziendaImpl & RFOB 4 
+pagine&ElencoDomAS&RFOB 27
 \backslash
 
 \backslash
@@ -665,7 +1903,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 4.1 
+&&RFOB 27.1
 \backslash
 
 \backslash
@@ -674,7 +1912,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 4.1.1 
+&&RQD 6
 \backslash
 
 \backslash
@@ -683,7 +1921,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 17 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -692,7 +1930,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 18 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -701,7 +1939,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 19 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -710,7 +1948,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 20 
+&&RQOB 2
 \backslash
 
 \backslash
@@ -719,7 +1957,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 21 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -728,7 +1966,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 22 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -737,70 +1975,7 @@ view & AmministratoreAziendaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 22.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 23 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 24 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 25 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 3.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 3.2 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -816,7 +1991,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & AmministratoreSicurezzaImpl & RFOB 4 
+pagine&ModDomAS&RFOB 28
 \backslash
 
 \backslash
@@ -825,7 +2000,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 4.1.1 
+&&RFOB 28.1
 \backslash
 
 \backslash
@@ -834,7 +2009,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 26 
+&&RFOB 28.2
 \backslash
 
 \backslash
@@ -843,7 +2018,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 27 
+&&RQD 6
 \backslash
 
 \backslash
@@ -852,7 +2027,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 28 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -861,7 +2036,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 28.1 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -870,7 +2045,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 28.2 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -879,7 +2054,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOP 29 
+&&RQOB 2
 \backslash
 
 \backslash
@@ -888,7 +2063,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOP 29.1 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -897,7 +2072,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 30 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -906,412 +2081,7 @@ view & AmministratoreSicurezzaImpl & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 3.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 3.2 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-control & ControlDipendente & RFOB 4.1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 6 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 10 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 9.2.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFD 9.2.2 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOP 9.2.3 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-control & ControlAmministratoreAzienda & RFOB 4.1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-control & ControlAmministratoreSicurezza & RFOB 4.1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ClientBackEnd & RFOB 3 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelTrofeo & RFOB 15.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelDomanda & RFOB 27.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelLogin & RFOB 5 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 17 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 26 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelDipendente & RFOB 5 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelPunteggio & RFOB 15.1 
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -1320,7 +2090,14 @@ model & ModelPunteggio & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+pagine&MostraStatD&RFOB 15
 \backslash
 
 \backslash
@@ -1329,7 +2106,79 @@ model & ModelPunteggio & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 6.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -1345,16 +2194,7 @@ hline
 
 \begin_layout Plain Layout
 
-model & ModelLog & RFOB 3 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+pagine&MostraStatAA&RFOB 23
 \backslash
 
 \backslash
@@ -1363,7 +2203,7 @@ model & ModelLog & RFOB 3
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RFOB 23.1
 \backslash
 
 \backslash
@@ -1372,23 +2212,7 @@ model & ModelLog & RFOB 3
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelRecupero & RFOB 4 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RQD 6
 \backslash
 
 \backslash
@@ -1397,7 +2221,7 @@ model & ModelRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -1406,23 +2230,7 @@ model & ModelRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Domanda & RFOB 27.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 6 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -1431,7 +2239,7 @@ condivisi & Domanda & RFOB 27.1
 
 \begin_layout Plain Layout
 
-& & RFOB 7 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -1440,7 +2248,7 @@ condivisi & Domanda & RFOB 27.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOB 2
 \backslash
 
 \backslash
@@ -1449,7 +2257,25 @@ condivisi & Domanda & RFOB 27.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -1465,25 +2291,7 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Login & RFOB 5 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 10 
+pagine&RecuperoPassD&RFOB 4
 \backslash
 
 \backslash
@@ -1492,7 +2300,7 @@ condivisi & Login & RFOB 5
 
 \begin_layout Plain Layout
 
-& & RFOB 12 
+&&RFOB 4.1
 \backslash
 
 \backslash
@@ -1501,7 +2309,7 @@ condivisi & Login & RFOB 5
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 4.1.1 
 \backslash
 
 \backslash
@@ -1510,7 +2318,7 @@ condivisi & Login & RFOB 5
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQD 6
 \backslash
 
 \backslash
@@ -1519,34 +2327,7 @@ condivisi & Login & RFOB 5
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Log & RFOB 3 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Trofeo & RFOB 15.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 23.1 
+&&RQD 6.1
 \backslash
 
 \backslash
@@ -1555,7 +2336,7 @@ condivisi & Trofeo & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 24 
+&&RQD 6.2
 \backslash
 
 \backslash
@@ -1564,7 +2345,7 @@ condivisi & Trofeo & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -1573,7 +2354,34 @@ condivisi & Trofeo & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2 
 \backslash
 
 \backslash
@@ -1589,25 +2397,15 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Dipendente & RFOB 12.1 
-\backslash
-
-\backslash
- 
 \end_layout
 
 \begin_layout Plain Layout
-
-& & RFOB 19.1 
-\backslash
-
-\backslash
 
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 21.1 
+control&ControlLogin&RFOB 5
 \backslash
 
 \backslash
@@ -1616,7 +2414,7 @@ condivisi & Dipendente & RFOB 12.1
 
 \begin_layout Plain Layout
 
-& & RFOB 22.1 
+&&RFOB 17
 \backslash
 
 \backslash
@@ -1625,7 +2423,7 @@ condivisi & Dipendente & RFOB 12.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 26
 \backslash
 
 \backslash
@@ -1634,7 +2432,7 @@ condivisi & Dipendente & RFOB 12.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RQD 5
 \backslash
 
 \backslash
@@ -1643,23 +2441,7 @@ condivisi & Dipendente & RFOB 12.1
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Punteggio & RFOB 15.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 23.1 
+&&RVOB 1
 \backslash
 
 \backslash
@@ -1668,16 +2450,7 @@ condivisi & Punteggio & RFOB 15.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1.1 
+&&RVOB 2
 \backslash
 
 \backslash
@@ -1693,16 +2466,7 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Recupero & RFOB 4 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+control&ControlMenu&RFOB 7
 \backslash
 
 \backslash
@@ -1711,7 +2475,1023 @@ condivisi & Recupero & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 1.1 
+&&RFOB 7.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 16 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 18
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 24
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 25
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 29
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 30
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlNotifica&RFOB 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlMostraDom&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlMostraDatiD&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlMostraDatiAA&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlModDatiD&RFOB 10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlModDatiAA&RFOB 4.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlElencoDomAS&RFOB 27
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlModDomAS&RFOB 28
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlMostraStatD&RFOB 15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlMostraStatAA&RFOB 23
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlModDatiAS&RFOB 4.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ControlRecuperoPassD&RFOB 4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&Timer&RFOB 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+control&ConnHandler&RFOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 3 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
 \backslash
 
 \backslash
@@ -1789,16 +3569,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & LoginActivity & RFOB 4.1.1
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5 
+view&LoginActivity&RFOB 4
 \backslash
 
 \backslash
@@ -1807,7 +3578,7 @@ view & LoginActivity & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 5.1 
+&&RFOB 5
 \backslash
 
 \backslash
@@ -1816,7 +3587,7 @@ view & LoginActivity & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 5.1
 \backslash
 
 \backslash
@@ -1825,7 +3596,7 @@ view & LoginActivity & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -1834,7 +3605,7 @@ view & LoginActivity & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -1843,23 +3614,7 @@ view & LoginActivity & RFOB 4.1.1
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-view & RecuperoPasswordActivity & RFOB 4 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 4.1.1 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -1868,7 +3623,7 @@ view & RecuperoPasswordActivity & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOP 3.2
 \backslash
 
 \backslash
@@ -1877,7 +3632,7 @@ view & RecuperoPasswordActivity & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RVOB 1.2
 \backslash
 
 \backslash
@@ -1886,7 +3641,7 @@ view & RecuperoPasswordActivity & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RPOB 1
 \backslash
 
 \backslash
@@ -1902,7 +3657,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & DashboardActivity & RFOB 16 
+view&DashBoardActivity&RFOB 7
 \backslash
 
 \backslash
@@ -1911,7 +3666,7 @@ view & DashboardActivity & RFOB 16
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 7.1
 \backslash
 
 \backslash
@@ -1920,7 +3675,7 @@ view & DashboardActivity & RFOB 16
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RFOB 10
 \backslash
 
 \backslash
@@ -1929,32 +3684,7 @@ view & DashboardActivity & RFOB 16
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-view & TimerNotifica & RFOB 16 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RFOB 12
 \backslash
 
 \backslash
@@ -1963,7 +3693,7 @@ view & TimerNotifica & RFOB 16
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RFOB 15
 \backslash
 
 \backslash
@@ -1972,7 +3702,7 @@ view & TimerNotifica & RFOB 16
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RFOB 16
 \backslash
 
 \backslash
@@ -1981,14 +3711,7 @@ view & TimerNotifica & RFOB 16
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-view & PunteggiActivity & RFOB 15 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -1997,7 +3720,7 @@ view & PunteggiActivity & RFOB 15
 
 \begin_layout Plain Layout
 
-& & RFOB 15.1 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -2006,7 +3729,7 @@ view & PunteggiActivity & RFOB 15
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -2015,7 +3738,7 @@ view & PunteggiActivity & RFOB 15
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RQOP 3.2
 \backslash
 
 \backslash
@@ -2024,7 +3747,16 @@ view & PunteggiActivity & RFOB 15
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RVOB 1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2040,7 +3772,7 @@ hline
 
 \begin_layout Plain Layout
 
-view & DomandaActivity & RFOB 7 
+view&RecuperoPasswordActivity&RFOB 4
 \backslash
 
 \backslash
@@ -2049,7 +3781,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RFOB 9 
+&&RFOB 4.1
 \backslash
 
 \backslash
@@ -2058,7 +3790,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RFOB 14 
+&&RFOB 4.1.1
 \backslash
 
 \backslash
@@ -2067,7 +3799,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -2076,7 +3808,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RQOP 1 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -2085,7 +3817,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RQOP 3.2 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -2094,14 +3826,7 @@ view & DomandaActivity & RFOB 7
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-view & DatipersonaliActivity & RFOB 10 
+&&RQOP 3.2
 \backslash
 
 \backslash
@@ -2110,7 +3835,7 @@ view & DatipersonaliActivity & RFOB 10
 
 \begin_layout Plain Layout
 
-& & RFOB 12 
+&&RVOB 1.2
 \backslash
 
 \backslash
@@ -2119,25 +3844,7 @@ view & DatipersonaliActivity & RFOB 10
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 1 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RQOP 3.2 
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2153,16 +3860,7 @@ hline
 
 \begin_layout Plain Layout
 
-controller & ControllerLogin & RFOB 5 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
+view&PunteggiActivity&RFOB 15
 \backslash
 
 \backslash
@@ -2171,7 +3869,7 @@ controller & ControllerLogin & RFOB 5
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 15.1
 \backslash
 
 \backslash
@@ -2180,23 +3878,7 @@ controller & ControllerLogin & RFOB 5
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & controllerPunteggi & RFOB 15.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -2205,23 +3887,43 @@ controller & controllerPunteggi & RFOB 15.1
 
 \begin_layout Plain Layout
 
+&&RQOB 3
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-controller & ControllerDati & RFOB 10 
+&&RQOP 3.1
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOP 3.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2237,7 +3939,7 @@ hline
 
 \begin_layout Plain Layout
 
-controller & ControllerDomande & RFOB 9.2.1 
+view&DatiPersonaliActivity&RFOB 12
 \backslash
 
 \backslash
@@ -2246,7 +3948,7 @@ controller & ControllerDomande & RFOB 9.2.1
 
 \begin_layout Plain Layout
 
-& & RFD 9.2.2 
+&&RFOB 12.1
 \backslash
 
 \backslash
@@ -2255,7 +3957,7 @@ controller & ControllerDomande & RFOB 9.2.1
 
 \begin_layout Plain Layout
 
-& & RFOP 9.2.3 
+&&RQOB 1
 \backslash
 
 \backslash
@@ -2264,7 +3966,7 @@ controller & ControllerDomande & RFOB 9.2.1
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOB 3
 \backslash
 
 \backslash
@@ -2273,32 +3975,7 @@ controller & ControllerDomande & RFOB 9.2.1
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControllerRecupero & RFOB 4 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 4.1.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RQOP 3.1
 \backslash
 
 \backslash
@@ -2307,23 +3984,25 @@ controller & ControllerRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
+&&RQOP 3.2
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-model & ClientBackEnd & RFOB 3 
+&&RVOB 1.2
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2339,16 +4018,7 @@ hline
 
 \begin_layout Plain Layout
 
-model & ModelDomanda & RFOB 7 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 6 
+view&DomandaActivity&RFOB 8
 \backslash
 
 \backslash
@@ -2357,7 +4027,7 @@ model & ModelDomanda & RFOB 7
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 9
 \backslash
 
 \backslash
@@ -2366,32 +4036,7 @@ model & ModelDomanda & RFOB 7
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelLogin & RFOB 5 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RFOB 9.1.1
 \backslash
 
 \backslash
@@ -2400,23 +4045,7 @@ model & ModelLogin & RFOB 5
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelDipendente & RFOB 10 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 12 
+&&RFD 9.1.2
 \backslash
 
 \backslash
@@ -2425,7 +4054,7 @@ model & ModelDipendente & RFOB 10
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOP 9.1.3
 \backslash
 
 \backslash
@@ -2434,23 +4063,7 @@ model & ModelDipendente & RFOB 10
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-model & ModelPunteggi & RFOB 15.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RFD 9.2
 \backslash
 
 \backslash
@@ -2459,23 +4072,61 @@ model & ModelPunteggi & RFOB 15.1
 
 \begin_layout Plain Layout
 
+&&RFD 9.2.1
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-model & ModelLog & RFOB 3 
+&&RQOB 1
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2491,7 +4142,7 @@ hline
 
 \begin_layout Plain Layout
 
-model & ModelRecupero & RFOB 4 
+view&TimerNotifica&RFOB 6
 \backslash
 
 \backslash
@@ -2500,7 +4151,7 @@ model & ModelRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 6.1
 \backslash
 
 \backslash
@@ -2509,57 +4160,7 @@ model & ModelRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Domanda & RFOB 6 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 7 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-condivisi & Login & RFOB 5 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 5.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+&&RFOB 7.1
 \backslash
 
 \backslash
@@ -2568,23 +4169,52 @@ condivisi & Login & RFOB 5
 
 \begin_layout Plain Layout
 
+&&RQOB 1
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Log & RFOB 3 
+&&RQOB 3
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RQOP 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOP 3.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2600,16 +4230,43 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Dipendente & RFOB 12.1 
+utils&ConnectionUtils&RFOB 1
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RPOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQD 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
 \backslash
 
 \backslash
@@ -2625,16 +4282,7 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Punteggi & RFOB 15 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 1 
+condivisi&Login&RFOB 5
 \backslash
 
 \backslash
@@ -2650,16 +4298,163 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Recupero & RFOB 4 
+condivisi&Dipendente&RFOB 11
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 1 
+&&RFOB 14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Domanda&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Punteggi&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Recupero&RFOB 4 
 \backslash
 
 \backslash
@@ -2737,29 +4532,7 @@ hline
 
 \begin_layout Plain Layout
 
-controller & ControllerLogin & RFOB 5 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControllerDomanda & RFOB 13 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControllerCalderone & RFOB 27 
+connection&DesktopConnection&RFOB 5
 \backslash
 
 \backslash
@@ -2768,7 +4541,7 @@ controller & ControllerCalderone & RFOB 27
 
 \begin_layout Plain Layout
 
-& & RFOB 28 
+&&RFOB 5.1
 \backslash
 
 \backslash
@@ -2777,23 +4550,7 @@ controller & ControllerCalderone & RFOB 27
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControlDipendenti & RFOB 19.2 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 19.2.1 
+&&RFOB 16
 \backslash
 
 \backslash
@@ -2802,7 +4559,7 @@ controller & ControlDipendenti & RFOB 19.2
 
 \begin_layout Plain Layout
 
-& & RFOB 19.2.2 
+&&RPOB 1
 \backslash
 
 \backslash
@@ -2811,52 +4568,34 @@ controller & ControlDipendenti & RFOB 19.2
 
 \begin_layout Plain Layout
 
+&&RPOB 2
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-controller & ControllerTrofei & RFD 2 
+&&RQOB 1
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-controller & ControllerDati & RFOB 11 
+&&RVOB 1
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 11.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 11.2 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 10 
+&&RVOB 2
 \backslash
 
 \backslash
@@ -2872,16 +4611,7 @@ hline
 
 \begin_layout Plain Layout
 
-controller & ControllerRecupero & RFOB 4 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 4.1 
+connection&WebConnection&RFOB 5
 \backslash
 
 \backslash
@@ -2890,7 +4620,7 @@ controller & ControllerRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-& & RFOB 4.1.1 
+&&RFOB 5.1
 \backslash
 
 \backslash
@@ -2899,61 +4629,7 @@ controller & ControllerRecupero & RFOB 4
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControllerPunteggi & RFOB 15 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-controller & ControllerLog & RFOB 3 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-checker & CheckLogin & RFOB 5 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-checker & CheckRispostaDomanda & RFOB 7.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 14.1 
+&&RFOB 16
 \backslash
 
 \backslash
@@ -2962,23 +4638,79 @@ checker & CheckRispostaDomanda & RFOB 7.1
 
 \begin_layout Plain Layout
 
+&&RFOB 17
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-checker & CheckModificaDomanda & RFOB 27 
+&&RFOB 25
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-& & RFOB 28 
+&&RFOB 26
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 30
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RQOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
 \backslash
 
 \backslash
@@ -2994,16 +4726,7 @@ hline
 
 \begin_layout Plain Layout
 
-checker & CheckDipendenti & RFOB 18 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 19 
+connection&MobileConnection&RFOB 5
 \backslash
 
 \backslash
@@ -3012,7 +4735,7 @@ checker & CheckDipendenti & RFOB 18
 
 \begin_layout Plain Layout
 
-& & RFOB 20 
+&&RFOB 5.1
 \backslash
 
 \backslash
@@ -3021,23 +4744,7 @@ checker & CheckDipendenti & RFOB 18
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-checker & CheckDati & RFOB 10 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 21 
+&&RFOB 16
 \backslash
 
 \backslash
@@ -3046,56 +4753,43 @@ checker & CheckDati & RFOB 10
 
 \begin_layout Plain Layout
 
+&&RPOB 1
+\backslash
 
 \backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-checker & CheckLog & RFOB 3 
+&&RPOB 2
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-checker & CheckRecupero & RFOB 4 
+&&RQOB 1
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-checker & CheckTrofei & RFD 2 
+&&RVOB 1
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-checker & CheckPunteggi & RFOB 23 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 24 
+&&RVOB 2
 \backslash
 
 \backslash
@@ -3111,16 +4805,7 @@ hline
 
 \begin_layout Plain Layout
 
-access & AccessDipendenti & RFOB 5 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 12.1 
+controller&GestioneLog&RFOB 3
 \backslash
 
 \backslash
@@ -3129,14 +4814,7 @@ access & AccessDipendenti & RFOB 5
 
 \begin_layout Plain Layout
 
-
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-access & AccessDomande & RFOB 14.1 
+&&RFOB 3.1
 \backslash
 
 \backslash
@@ -3152,49 +4830,34 @@ hline
 
 \begin_layout Plain Layout
 
-access & AccessCalderone & RFOB 27.1 
+controller&GestioneLogin&RFOB 5
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-access & AccessPunteggi & RFOB 15.1 
+&&RFOB 5.1
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-access & AccessLog & RFOB 3 
+&&RFOB 17
 \backslash
 
 \backslash
- 
-\backslash
-hline
+
 \end_layout
 
 \begin_layout Plain Layout
 
-access & AccessTrofei & RFOB 15.1 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFD 2 
+&&RFOB 26
 \backslash
 
 \backslash
@@ -3210,16 +4873,7 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Domanda & RFOB 27 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& & RFOB 28 
+controller&GestioneDomandeD&RFOB 6
 \backslash
 
 \backslash
@@ -3228,7 +4882,88 @@ condivisi & Domanda & RFOB 27
 
 \begin_layout Plain Layout
 
-& & RFOB 15.1 
+&&RFOB 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
 \backslash
 
 \backslash
@@ -3244,66 +4979,1326 @@ hline
 
 \begin_layout Plain Layout
 
-condivisi & Login & RFOB 5 
+controller&GestioneDomandeAS&RFOB 27
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Log & RFOB 3 
+controller&GestionePunteggiD&RFOB 15
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Trofeo & RFOB 15.1 
+controller&GestionePunteggiAA&RFOB 23
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Dipendente & RFOB 12.1 
+controller&GestioneDipendentiD&RFOB 10
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Punteggio & RFOB 15.1 
+controller&GestioneDipendentiAA&RFOB 11
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-condivisi & Recupero & RFOB 4 
+controller&GestioneTrofeiD&RFOB 15
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+controller&GestioneTrofeiAA&RFOB 23
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+controller&GestioneRecupero&RFOB 4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+controller&BackEnd&RFOB 4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 4.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 5.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 6.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 7.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 11.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 16
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 17
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 25
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 26
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 30
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessLogin&RFOB 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 17
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 26
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessDipendenti&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessDomande&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessPunteggi&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessTrofei&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&Indirizzi&RFOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RPOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RVOB 2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+access&AccessLog&RFOB 3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 3.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Login&RFOB 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 17
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 26
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Dipendenti&RFOB 11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 12.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 21.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 22.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Domande&RFOB 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 9.1.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.1.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOP 9.1.3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFD 9.2.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 14.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 27.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 28.2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Punteggi&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+condivisi&Trofei&RFOB 15.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&&RFOB 23.1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
