@@ -556,8 +556,8 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	Tipologia di premio attribuito per l'acquisizione di un sufficiente numero
- di punti, piuttosto che per aver svolto azioni particolari
+	Tipologia di premio attribuito automaticamente per l'acquisizione di un
+ sufficiente numero di punti, piuttosto che per aver svolto azioni particolari
 \end_layout
 
 \begin_layout Plain Layout
@@ -2152,6 +2152,41 @@ end{flushright}
 \backslash
 textbf{
 \backslash
+emph{Postazione di lavoro}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Luogo dove i dipendendi possono rispondere alle domande, sia che siano
+ in ufficio che all'esterno.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
 emph{Proponente}} 
 \backslash
 
@@ -2826,12 +2861,8 @@ begin{flushright}
 
 \begin_layout Plain Layout
 
-	
-\backslash
-emph{V.d.
- 
-\backslash
-uline{Badge}}
+	Un trofeo è un tipo di premio attribuito dall'azienda in modo autonomo
+ a propria discrezione.
 \end_layout
 
 \begin_layout Plain Layout
