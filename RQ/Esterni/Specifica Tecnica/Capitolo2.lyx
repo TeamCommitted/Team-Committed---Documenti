@@ -522,5 +522,31 @@ Contesto applicativo:
  ai vari database.
 \end_layout
 
+\begin_layout Subsection
+Factory Method
+\end_layout
+
+\begin_layout Itemize
+Descrizione: Il Factory Method è un design pattern creazionale che fornisce
+ un metodo per istanziare un oggetto senza sapere a priori la sua esatta
+ classe.
+\end_layout
+
+\begin_layout Itemize
+Motivazione: Il motivo per cui si è scelto questo design pattern va ricercato
+ nel fatto che innanzitutto è uno dei design pattern fondamentali della
+ programmazione ad oggetti e quindi, in quanto tale, risulta essere molto
+ usato e supportato ed inoltre esso è particolarmente adatto allo sviluppo
+ volto ai test.
+ Nel dettaglio il pattern è molto interessanto in quando fornisce un'interfaccia
+ per creare un oggetto ma lascia che le sottoclassi decidano quale oggetto
+ istanziare.
+ 
+\end_layout
+
+\begin_layout Itemize
+Contesto applicativo: 
+\end_layout
+
 \end_body
 \end_document
