@@ -1,0 +1,25 @@
+Presentation Tier: fatto
+
+Logic Tier: contiene la logica necessaria a svolgere le funzioni del sistema.
+
+-GestioneDati: Facade, offre tutte le funzioni delle classi Gestione (tranne GestioneLog) al package connection, quando una funzione viene chiamata, chiama la relativa funzione della classe che la contiene, non possiede un'effettiva logica interna, fa solo reindirizzamenti.
+
+-GestioneXxx(eccetto GestioneLod): Provvede funzioni per scrivere/leggere dati del tipo Xxx (usa oggetti del package Condivisi per i dati) consentite a differenti tipi di utenti per classe (D-> Dipendenti, AA-> Amministratori Azienda, AS->Amministratori Sicurezza, niente vuol dire che sono funzioni condivise). Contiene un'interfaccia DAO su cui manda le richieste.
+
+-GestioneLog: Viene richiamata dalle altre classi di Gestione, inviando relative richieste di update dei file di log del tipo di azione e di utente che la sta eseguendo.
+
+Data Access Tier: contiene le classi di accesso al database ed ai file di log.
+
+-DAOFactory: Interfaccia che fornisce le basi per la creazione di una DaoFactory specifica per tipi differenti di database.
+
+-SqlDAOFactory: implementazione della DaoFactory per database di tipo Sql, crea oggetti DAO per accedere alle varie tabelle del database.
+
+-SqlDAOXxx: implementazione delle interfacce DAO per interrogare il database sql con query specifiche per le tabelle a cui sono assegnate, creano oggetti del package condivisi per restituire dati ai livelli superiori.
+
+-DAOXxx: Interfacce che specificano le funzionalità che ogni oggetto DAO deve avere, differenti per ogni tipo di dato da ottenere.
+
+-UpdateLog: Classe che riceve richieste da GestioneLog ed aggiunge stringhe di testo al relativo file di log interno al server, non è possibile leggere i file da sistema, devono essere letti manualmente.
+
+-Indirizzi: Singleton Contenente gli indirizzi dei database necessari al sistema, contiene anche la tipologia di database, necessaria alla DAOFactory per sapere che tipo di factory istanziare.
+
+-Xxx: Classi contenenti dati scambiati attraverso i vari livelli, differenti per campi contenuti provvedono metodi di get ma non di set (vengono costruiti e letti, non modificati).
