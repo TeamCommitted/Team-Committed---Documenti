@@ -408,12 +408,7 @@ La classe MostraDatiD definisce la struttura, e la conseguente visualizzazione,
 \bar under
 Dipendente
 \bar default
-, i propri dati personali presenti nel sistema, ed ad un AmministratoreAzienda
- i dati di un 
-\bar under
-Dipendente
-\bar default
- a scelta.
+, i propri dati personali presenti nel sistema
 \begin_inset Newline newline
 \end_inset
 
@@ -483,7 +478,11 @@ La classe MostraDatiAA definisce la struttura, e la conseguente visualizzazione,
 \bar under
 Amministratore Azienda
 \bar default
- autenticato i dati personali dell'azienda.
+ autenticato i dati personali di un 
+\bar under
+Dipendente
+\bar default
+ a scelta.
 \begin_inset Newline newline
 \end_inset
 
@@ -525,8 +524,7 @@ Attività svolte e dati trattati:
 \bar under
 Amministratore Azienda autenticato
 \bar default
- di visualizzare i dati personali dell'azienda o di un dipendente registrato
- al sistema.
+ di visualizzare i dati personali di un dipendente registrato al sistema.
  Essa resta in attesa che un 
 \bar under
 Amministratore Azienda
@@ -560,7 +558,16 @@ La classe ModDatiD definisce la struttura, e la conseguente visualizzazione,
 \bar under
 Dipendente
 \bar default
- autenticato di modificare alcuni dati personali dell'account.
+ autenticato di modificare alcuni dati personali dell'account, ed ad un
+ 
+\bar under
+Amministratore Azienda
+\bar default
+, quasi tutti i dati di un 
+\bar under
+Dipendente
+\bar default
+ a scelta.
 \begin_inset Newline newline
 \end_inset
 
@@ -596,8 +603,16 @@ Attività svolte e dati trattati:
 \bar under
 Dipendente
 \bar default
- autenticato compia un'azione sulla pagina, per poi delegare la classe ControlMo
-dDatiD di effettuare i controlli del caso.
+ 
+\bar under
+autenticato 
+\bar default
+o un
+\bar under
+ Amministratore Azienda autenticato
+\bar default
+ compia un'azione sulla pagina, per poi delegare la classe ControlModDatiD
+ di effettuare i controlli del caso.
 \end_layout
 
 \begin_layout Subsubsection
@@ -836,7 +851,7 @@ Tipo, obiettivo e funzione del componente:
 La classe ModDomAS definisce la struttura, e la conseguente visualizzazione,
  della pagina web che consente ad un 
 \bar under
-Amministratore Azienda
+Amministratore Sicurezza
 \bar default
  autenticato di scegliere le domande a cui saranno sottoposti i dipiendenti
  di una certa azienda fra quelle già presenti nel database generale.
