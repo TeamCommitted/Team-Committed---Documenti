@@ -240,8 +240,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
- &
+uline{Gamification}, il sistema assegnerà effettivamente dei badge &
 \end_layout
 
 \begin_layout Plain Layout
@@ -284,8 +283,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
- &
+uline{Gamification}, il sistema assegnerà effettivamente dei badge &
 \end_layout
 
 \begin_layout Plain Layout
@@ -328,8 +326,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge/trofei
- &
+uline{Gamification}, il sistema assegnerà effettivamente dei badge &
 \end_layout
 
 \begin_layout Plain Layout
@@ -1753,6 +1750,49 @@ hline
 
 \begin_layout Plain Layout
 
+		RFOB 19.2.3 & 
+\end_layout
+
+\begin_layout Plain Layout
+
+		TS-RFOB 19.2.3 &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Prova dinamica: viene verificato se un 
+\backslash
+uline{Dipendente} potrà modificare la sua password al primo accesso dopo
+ la registrazione  &
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pianificata 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 	
 \backslash
 end{longtable}
@@ -2511,8 +2551,8 @@ hline
 
 		Prova dinamica: viene verificato che il sistema permetta all'
 \backslash
-uline{Amministratore Azienda Autenticato} di modificare i badge/trofei di
- ogni singolo 
+uline{Amministratore Azienda Autenticato} di modificare i trofei di ogni
+ singolo 
 \backslash
 uline{Dipendente}  &
 \end_layout
@@ -3009,8 +3049,8 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema esegua correttamente la
- modifica dei badge/trofei assegnabili ai dipendenti al raggiungimento di
- obiettivi di 
+ modifica dei badge assegnabili ai dipendenti al raggiungimento di obiettivi
+ di 
 \backslash
 uline{Gamification} &
 \end_layout

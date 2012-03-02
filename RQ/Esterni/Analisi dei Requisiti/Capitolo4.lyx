@@ -272,11 +272,11 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 2 & Il sistema assegnerà in automatico badge/trofei al 
+RFD 2 & Il sistema assegnerà in automatico i badge al 
 \backslash
 uline{Dipendente}, quando questo raggiunge determinati obiettivi di 
 \backslash
-uline{Gamification} & Verbale 26/01/2012 & Dinamica 
+uline{Gamification} & Verbale 2012/01/26 & Dinamica 
 \backslash
 
 \backslash
@@ -290,7 +290,7 @@ hline
 RFD 2.1 & Ogni volta che un obiettivo viene completato, il sistema aggiungerà
  il badge corrispondente al 
 \backslash
-uline{Dipendente} & Verbale 26/01/2012 & Dinamica 
+uline{Dipendente} & Verbale 2012/01/26  & Dinamica 
 \backslash
 
 \backslash
@@ -303,7 +303,7 @@ hline
 
 RFD 2.1.1 & Alcuni obiettivi possono essere: risposto correttamente a 10 domande,
  risposto a 50 domande, completare tutte le domande a risposta multipla...
- & Verbale 26/01/2012 & Dinamica 
+ & Verbale 2012/01/26  & Dinamica 
 \backslash
 
 \backslash
@@ -459,7 +459,7 @@ hline
 RFOB 7.1 & Un 
 \backslash
 uline{Dipendente Autenticato} potrà richiedere un numero limitato di domande
- secondo il tempo trascorso & Verbale 26/01/2012 & Dinamica 
+ secondo il tempo trascorso & Verbale 2012/01/26 & Dinamica 
 \backslash
 
 \backslash
@@ -487,7 +487,9 @@ hline
 RFOB 9 & Le domande che verranno sottoposte ai 
 \backslash
 uline{Dipendenti Autenticati} dovranno poter avere risposta direttamente
- dalla propria postazione di lavoro & Capitolato & Statica 
+ dalla propria 
+\backslash
+uline{postazione di lavoro} & Capitolato & Statica 
 \backslash
 
 \backslash
@@ -556,7 +558,7 @@ hline
 RFD 9.2 & La natura delle domande a cui verranno sottoposti i 
 \backslash
 uline{Dipendenti Autenticati} potrà variare a seconda dell'impiego dello
- stesso & Verbale 05/12/2011 & Statica 
+ stesso & Verbale 2011/12/05 & Statica 
 \backslash
 
 \backslash
@@ -570,7 +572,7 @@ hline
 RFD 9.2.1 & Non sarà possibile che ad un dipendente con un dato impiego (es.
  segretario) vengano proposte domande riguardanti ambienti che non gli competono
  (es.
- sicurezza di macchinari pesanti) & Verbale 05/12/2011 & Statica 
+ sicurezza di macchinari pesanti) & Verbale 2011/12/05 & Statica 
 \backslash
 
 \backslash
@@ -654,8 +656,7 @@ hline
 \begin_layout Plain Layout
 
 RFOB 12.1 & I dati personali visualizzabili sono: nome, cognome, codice fiscale,
- indirizzo di posta elettronica, impiego, password, username & UCDA 7 &
- Statica 
+ indirizzo di posta elettronica, impiego, username & UCDA 7 & Statica 
 \backslash
 
 \backslash
@@ -851,6 +852,20 @@ hline
 
 \begin_layout Plain Layout
 
+RFOB 19.2.3 & Il 
+\backslash
+uline{Dipendente} al primo accesso dovrà modificare la password & UCAAA
+ 2.1 & Dinamica 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 RFOB 20 & L'
 \backslash
 uline{Amministratore Azienda Autenticato} potrà eliminare un account 
@@ -952,7 +967,7 @@ hline
 
 RFOB 24 & L'
 \backslash
-uline{Amministratore Azienda Autenticato} dovrà poter modificare i badge/trofei
+uline{Amministratore Azienda Autenticato} dovrà poter modificare i trofei
  di ogni singolo 
 \backslash
 uline{Dipendente} & UCAAA 4 & Dinamica 
@@ -1072,7 +1087,7 @@ RFOP 29 & L'
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare gli obiettivi
  di 
 \backslash
-uline{Gamification} & Verbale 26/01/2012 & Dinamica 
+uline{Gamification} & Verbale 2012/01/26 & Dinamica 
 \backslash
 
 \backslash
@@ -1086,9 +1101,9 @@ hline
 RFOP 29.1 & L'
 \backslash
 uline{Amministratore Sicurezza Autenticato} dovrà poter modificare i badge
- o trofei assegnabili agli utenti al raggiungimento di obiettivi di 
+ assegnabili agli utenti al raggiungimento di obiettivi di 
 \backslash
-uline{Gamification} & Verbale 26/01/2012 & Dinamica 
+uline{Gamification} & Verbale 2012/01/26 & Dinamica 
 \backslash
 
 \backslash
@@ -1250,7 +1265,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 1 & Il prodotto non dovrà perdere dati, anche con traffico pesante
- nella rete & interno & Dinamica 
+ nella rete & Interno & Dinamica 
 \backslash
 
 \backslash
@@ -1262,7 +1277,7 @@ hline
 \begin_layout Plain Layout
 
 RPOB 2 & Il prodotto dovrà funzionare indipendentemente dalla posizione
- del server generale delle domande & interno & Dinamica 
+ del server generale delle domande & Interno & Dinamica 
 \backslash
 
 \backslash
@@ -1275,7 +1290,7 @@ hline
 
 RPOB 3 & Le funzioni del sistema offerte al 
 \backslash
-uline{Dipendente} dovranno essere fruibili tramite interfaccia 
+uline{Dipendente} dovranno essere anche fruibili tramite interfaccia 
 \backslash
 uline{web} & Interno & Statica 
 \backslash
@@ -1388,7 +1403,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 2.2 & Sarà fornito un manuale ad uso 
+RQOB 2.2 & Sarà fornito un manuale ad uso dell'
 \backslash
 uline{Amministratore Azienda}  riguardo tutte le azioni che potrà compiere
  & Interno & Statica 
@@ -1402,7 +1417,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 2.3 & Sarà fornito un manuale ad uso 
+RQOB 2.3 & Sarà fornito un manuale ad uso dell'
 \backslash
 uline{Amministratore Installatore} riguardo alle azioni che potrà compiere
  & Interno & Statica 
@@ -1416,7 +1431,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 2.4 & Sarà fornito un manuale ad uso 
+RQOB 2.4 & Sarà fornito un manuale ad uso dell'
 \backslash
 uline{Amministratore Sicurezza} riguardo le azioni che potrà compiere &
  Interno & Statica 
@@ -1502,7 +1517,7 @@ hline
 
 RQD 6 & Le applicazioni 
 \backslash
-uline{web} aderiranno allo stile 
+uline{web} aderiranno allo standard 
 \backslash
 uline{W3C} & Interno & Statica 
 \backslash
@@ -1553,7 +1568,7 @@ RQOP 7 & L'inserimento delle domande all'interno del sistema dovrà essere
  particolarmente 
 \backslash
 emph{user-friendly} così da non richiedere conoscenze specifiche  & Verbale
- & Statica 
+ 2011/12/05 & Statica 
 \backslash
 
 \backslash
@@ -1685,7 +1700,7 @@ hline
 \begin_layout Plain Layout
 
 RVOB 2 & Non si dovranno fare assunzioni sulla locazione dei database delle
- aziende & Verbale & Statica 
+ aziende & Verbale 2011/12/05 & Statica 
 \backslash
 
 \backslash

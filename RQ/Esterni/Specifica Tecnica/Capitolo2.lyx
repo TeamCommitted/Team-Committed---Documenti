@@ -469,11 +469,128 @@ Motivazione:
 \series bold
 Contesto applicativo: 
 \series default
-façade ha trovato applicazione nella parte del Back-end, in dettaglio all'intern
+Façade ha trovato applicazione nella parte del Back-end, in dettaglio all'intern
 o del Logic-Tier.
  Il Controller è infatti strutturato per fornire un'interfaccia unica dalla
  quale accedere per utilizzare tutt le varie classi necessarie come GestioneLogi
 n, GestioneDomandeD, ecc.
+\end_layout
+
+\begin_layout Subsection
+Data Access Object (DAO)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Un Data Access Object (DAO) è un oggetto che fornisce un'interfaccia astratta
+ ad alcuni tipi di database, fornendo specifiche operazioni senza esporre
+ dettagli del database.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ I motivi di implementazione si possono riscontrare nel fatto che DAO offre
+ un'isolamento tale che separa i dati d'accesso di cui l'applicazione ha
+ bisogno, in termini di oggetti e tipi di dato specifici del dominio (l'interfac
+cia pubblica di DAO), e come queste necessità possono essere soddisfatte
+ da uno specifico DBMS (l'implementazione effettiva di DAO).
+\begin_inset Newline newline
+\end_inset
+
+Questo design pattern è stato scelto anche per la sua versatilità: esso
+ si adatta a molti linguaggi di programmazione, tipologie di software con
+ necessita di persistenza e a molti tipi di database.
+ Il suo punto di forza è quindi permettere maggiore espandibilità al software
+ che lo utilizza in quanto permette di, eventualmente, cambiare tipologia
+ di database in maniera più semplice ed immediata.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ DAO verrà utilizzato nel back-end del software SafetyGame, all'interno
+ del Data Access Tier e avrà il compito di fornire i dovuti collegamenti
+ ai vari database.
+\end_layout
+
+\begin_layout Subsection
+Factory Method
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/FactoryMethod.png
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schema del Factory Method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Il Factory Method è un design pattern creazionale che fornisce un metodo
+ per istanziare un oggetto senza sapere a priori la sua esatta classe.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ Il motivo per cui si è scelto questo design pattern va ricercato nel fatto
+ che innanzitutto è uno dei design pattern fondamentali della programmazione
+ ad oggetti e quindi, in quanto tale, risulta essere molto usato e supportato
+ ed inoltre esso è particolarmente adatto allo sviluppo volto ai test.
+ Nel dettaglio il pattern è molto interessanto in quando fornisce un'interfaccia
+ per creare un oggetto ma lascia che le sottoclassi decidano quale oggetto
+ istanziare.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ 
 \end_layout
 
 \end_body
