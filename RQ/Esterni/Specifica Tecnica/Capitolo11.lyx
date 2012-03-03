@@ -100,7 +100,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{1cm} | p{3,5cm} |  p{4cm} |  p{3.5cm} | p{3,5cm}}
+begin{longtable}{ p{1,3cm} | p{2cm} | p {2cm} | p{3,1cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -118,20 +118,11 @@ hline
 
 \begin_layout Plain Layout
 
-&  &  &  & 
-\backslash
-
-\backslash
- 
 \end_layout
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 1 & logic.ConnBack &  &  & access.Indirizzi 
+RFOB 1 & logic.ConnBack &  & utils.ConnectionUtils & access.Indirizzi
 \backslash
 
 \backslash
@@ -204,7 +195,7 @@ RFOB 3 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -229,7 +220,7 @@ RFOB 3.1 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -245,7 +236,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4 & view.Notifica &  & view.LoginActivity & controller.GestioneRecupero
+RFOB 4 & view.Login &  & view.LoginActivity & 
 \backslash
 
 \backslash
@@ -254,11 +245,47 @@ RFOB 4 & view.Notifica &  & view.LoginActivity & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&view.Login&  & condivisi.Recupero & controller.BackEnd
+&  &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & condivisi.Recupero & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & controller.GestioneRecupero
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -270,7 +297,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1 &  &  & view.RecuperoPasswordActivity & controller.GestioneRecupero
+RFOB 4.1 &  &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -279,7 +306,25 @@ RFOB 4.1 &  &  & view.RecuperoPasswordActivity & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneRecupero
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -295,7 +340,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 &  &  & view.RecuperoPasswordActivity & controller.GestioneRecupero
+RFOB 4.1.1 &  &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -304,7 +349,25 @@ RFOB 4.1.1 &  &  & view.RecuperoPasswordActivity & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneRecupero
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -320,7 +383,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
+RFOB 5 & view.Login &  & view.LoginActivity & connection.DesktopConnection
 \backslash
 
 \backslash
@@ -329,7 +392,7 @@ RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&view.Login&  & condivisi.Login & connection.WebConnection
+& logic.ControlLogin &  & condivisi.Login & connection.WebConnection
 \backslash
 
 \backslash
@@ -338,7 +401,7 @@ RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ControlLogin&  &  & connection.MobileConnection
+& logic.DatiLogin &  &  & connection.MobileConnection
 \backslash
 
 \backslash
@@ -347,7 +410,7 @@ RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.DatiLogin&  &  & controller.GestioneLogin
+&  &  &  & controller.GestioneLogin
 \backslash
 
 \backslash
@@ -356,7 +419,7 @@ RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -365,7 +428,7 @@ RFOB 5 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLogin
+&  &  &  & access.SqlDAOLogin
 \backslash
 
 \backslash
@@ -390,7 +453,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 5.1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
+RFOB 5.1 & view.Login &  & view.LoginActivity & connection.DesktopConnection
 \backslash
 
 \backslash
@@ -399,7 +462,7 @@ RFOB 5.1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&view.Login&  &  & connection.WebConnection
+&  &  &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -426,7 +489,7 @@ RFOB 5.1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -442,7 +505,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 6 & view.Notifica &  &  & controller.GestioneDomandeD
+RFOB 6 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -451,11 +514,20 @@ RFOB 6 & view.Notifica &  &  & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&logic.Timer&  &  & controller.BackEnd
+& logic.Timer &  &  & controller.GestioneDati
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ControlNotifica &  &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -476,7 +548,7 @@ RFOB 6.1 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+& logic.ControlNotifica &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -492,7 +564,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 7 & view.Menu &  &  & controller.GestioneDomandeD
+RFOB 7 & view.Menu &  & view.DashBoardActivity & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -501,7 +573,7 @@ RFOB 7 & view.Menu &  &  & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & controller.BackEnd
+& logic.ControlMenu &  & view.DomandaActivity & controller.GestioneDati
 \backslash
 
 \backslash
@@ -526,7 +598,7 @@ RFOB 7.1 & view.Menu &  & view.DashBoardActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&controller.BackEnd
+& logic.Timer &  & view.DomandaActivity & controller.GestioneDati
 \backslash
 
 \backslash
@@ -542,7 +614,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 8 &  &  &  & controller.GestioneDomandeD
+RFOB 8 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -551,7 +623,7 @@ RFOB 8 &  &  &  & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -560,7 +632,7 @@ RFOB 8 &  &  &  & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -569,7 +641,7 @@ RFOB 8 &  &  &  & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -594,7 +666,7 @@ RFOB 9 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&controller.BackEnd
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -603,7 +675,7 @@ RFOB 9 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -612,66 +684,7 @@ RFOB 9 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 9.1 &  &  &  & 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 9.1.1 &  &  & view.DomandaActivity & controller.BackEnd
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-&&&condivisi.Domanda&controller.GestioneDomandeD
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & access.AccessDomande
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -687,7 +700,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.1.2 &  &  & view.DomandaActivity & controller.BackEnd
+RFOB 9.1 &  &  & condivisi.Domanda & 
 \backslash
 
 \backslash
@@ -696,7 +709,23 @@ RFD 9.1.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&controller.GestioneDomandeD
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 9.1.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -705,7 +734,7 @@ RFD 9.1.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -714,7 +743,7 @@ RFD 9.1.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -730,7 +759,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 9.1.3 &  &  & view.DomandaActivity & controller.BackEnd
+RFD 9.1.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -739,7 +768,7 @@ RFOP 9.1.3 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&controller.GestioneDomandeD
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -748,7 +777,7 @@ RFOP 9.1.3 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -757,7 +786,7 @@ RFOP 9.1.3 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -773,7 +802,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.2 &  &  & view.DomandaActivity & controller.BackEnd
+RFOP 9.1.3 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -782,7 +811,7 @@ RFD 9.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&controller.GestioneDomandeD
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -791,7 +820,7 @@ RFD 9.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -800,7 +829,7 @@ RFD 9.2 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -816,7 +845,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.2.1 &  &  & view.DomandaActivity & controller.BackEnd
+RFD 9.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 \backslash
 
 \backslash
@@ -825,7 +854,7 @@ RFD 9.2.1 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&controller.GestioneDomandeD
+&  &  & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -834,7 +863,7 @@ RFD 9.2.1 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -843,7 +872,50 @@ RFD 9.2.1 &  &  & view.DomandaActivity & controller.BackEnd
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFD 9.2.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & condivisi.Domanda & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAODomande
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -868,7 +940,7 @@ RFOB 10 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & controller.BackEnd
+& logic.ControlMenu &  & condivisi.Dipendente & controller.GestioneDati
 \backslash
 
 \backslash
@@ -884,7 +956,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11 &  &  & condivisi.Dipendente & controller.GestioneDipendentiD
+RFOB 11 &  &  &  & controller.GestioneDipendentiD
 \backslash
 
 \backslash
@@ -893,7 +965,7 @@ RFOB 11 &  &  & condivisi.Dipendente & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -902,7 +974,7 @@ RFOB 11 &  &  & condivisi.Dipendente & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -911,7 +983,7 @@ RFOB 11 &  &  & condivisi.Dipendente & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -936,7 +1008,7 @@ RFOB 11.1 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -961,7 +1033,7 @@ RFOB 11.2 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+& logic.ControlMenu &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -986,7 +1058,7 @@ RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&&&logic.ControlMenu&controller.BackEnd
+&  &  & view.DatiPersonaliActivity & controller.GestioneDati
 \backslash
 
 \backslash
@@ -995,7 +1067,7 @@ RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&&&condivisi.Dipendente&access.AccessDipendenti
+&  &  & condivisi.Dipendente & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -1004,7 +1076,7 @@ RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -1029,7 +1101,7 @@ RFOB 12.1 &  &  & view.DatiPersonaliActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&&&condivisi.Dipendente&controller.BackEnd
+&  &  & condivisi.Dipendente & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1038,7 +1110,7 @@ RFOB 12.1 &  &  & view.DatiPersonaliActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -1047,7 +1119,7 @@ RFOB 12.1 &  &  & view.DatiPersonaliActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -1079,7 +1151,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 14 &  &  & condivisi.Dipendente & access.AccessDipendenti
+RFOB 14 &  &  & condivisi.Domanda & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -1088,7 +1160,16 @@ RFOB 14 &  &  & condivisi.Dipendente & access.AccessDipendenti
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & access.SqlDAODomande
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -1104,7 +1185,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 14.1 &  &  & condivisi.Dipendente & access.AccessDipendenti
+RFOB 14.1 &  &  & condivisi.Domanda & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -1113,7 +1194,7 @@ RFOB 14.1 &  &  & condivisi.Dipendente & access.AccessDipendenti
 
 \begin_layout Plain Layout
 
-&&&condivisi.Domanda&access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -1122,7 +1203,7 @@ RFOB 14.1 &  &  & condivisi.Dipendente & access.AccessDipendenti
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -1131,7 +1212,7 @@ RFOB 14.1 &  &  & condivisi.Dipendente & access.AccessDipendenti
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -1156,7 +1237,7 @@ RFOB 15 & view.Menu &  & view.DashBoardActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & controller.GestioneTrofeiD
+& logic.ControlMenu &  & view.PunteggiActivity & controller.GestioneBadgeD
 \backslash
 
 \backslash
@@ -1165,7 +1246,7 @@ RFOB 15 & view.Menu &  & view.DashBoardActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1190,7 +1271,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&&&condivisi.Dipendente&controller.GestioneTrofeiD
+&  &  & condivisi.Punteggi & controller.GestioneBadgeD
 \backslash
 
 \backslash
@@ -1199,7 +1280,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&&&condivisi.Punteggi&controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1208,7 +1289,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAOPunteggi
 \backslash
 
 \backslash
@@ -1217,7 +1298,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessPunteggi
+&  &  &  & access.SqlDAOBadge
 \backslash
 
 \backslash
@@ -1226,7 +1307,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessTrofei
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -1235,7 +1316,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Punteggio
 \backslash
 
 \backslash
@@ -1244,7 +1325,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Punteggi
+&  &  &  & condivisi.Badge
 \backslash
 
 \backslash
@@ -1253,7 +1334,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Trofei
+&  &  &  & 
 \backslash
 
 \backslash
@@ -1278,7 +1359,7 @@ RFOB 16 & view.Menu &  & view.DashBoardActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & connection.WebConnection
+& logic.ControlMenu &  &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -1296,7 +1377,7 @@ RFOB 16 & view.Menu &  & view.DashBoardActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & 
 \backslash
 
 \backslash
@@ -1321,7 +1402,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& & & view.DashBoardActivity&connection.WebConnection
+&  &  & view.DashBoardActivity & connection.WebConnection
 \backslash
 
 \backslash
@@ -1330,7 +1411,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&view.RecuperoPasswordActivity&connection.MobileConnection
+&  &  & view.RecuperoPasswordActivity & connection.MobileConnection
 \backslash
 
 \backslash
@@ -1339,7 +1420,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&view.PunteggiActivity&access.Indirizzi
+&  &  & view.PunteggiActivity & access.Indirizzi
 \backslash
 
 \backslash
@@ -1348,7 +1429,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&view.DatiPersonaliActivity&
+&  &  & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1357,7 +1438,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&view.DomandaActivity&
+&  &  & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1366,7 +1447,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&
+&  &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1375,7 +1456,7 @@ RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&&&utils.ConnectionUtils&
+&  &  & utils.ConnectionUtils & 
 \backslash
 
 \backslash
@@ -1410,6 +1491,24 @@ RPOB 2 &  &  &  & connection.DesktopConnection
 \begin_layout Plain Layout
 
 &  &  &  & connection.MobileConnection
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -1459,7 +1558,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&view.Login&  & view.DashBoardActivity & connection.WebConnection
+& view.Login &  & view.DashBoardActivity & connection.WebConnection
 \backslash
 
 \backslash
@@ -1468,7 +1567,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&view.Menu&  & view.RecuperoPasswordActivity & connection.MobileConnection
+& view.Menu &  & view.RecuperoPasswordActivity & connection.MobileConnection
 \backslash
 
 \backslash
@@ -1477,7 +1576,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.Timer&  & view.PunteggiActivity & 
+& logic.Timer &  & view.PunteggiActivity & access.DAOFactory
 \backslash
 
 \backslash
@@ -1486,7 +1585,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ControlLogin&  & view.DatiPersonaliActivity & 
+& logic.ControlNotifica &  & view.DatiPersonaliActivity & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -1495,7 +1594,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  & view.DomandaActivity & 
+& logic.ControlLogin &  & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1504,7 +1603,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.DatiLogin&  & view.TimerNotifica & 
+& logic.ControlMenu &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1513,7 +1612,16 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ConnBack&  &  & 
+& logic.DatiLogin &  &  & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ConnBack &  &  & 
 \backslash
 
 \backslash
@@ -1618,7 +1726,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&view.login&  & view.DashBoardActivity & 
+& view.Login &  & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1627,7 +1735,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&view.Menu&  & view.RecuperoPasswordActivity & 
+& view.Menu &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1636,7 +1744,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.PunteggiActivity&
+&  &  & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -1645,7 +1753,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DatiPersonaliActivity&
+&  &  & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1654,7 +1762,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DomandaActivity&
+&  &  & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1663,7 +1771,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&
+&  &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1688,7 +1796,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&view.Login&  & view.DashBoardActivity & 
+& view.Login &  & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1697,7 +1805,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&view.Menu&  & view.RecuperoPasswordActivity & 
+& view.Menu &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1706,7 +1814,16 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.PunteggiActivity&
+&  &  & view.PunteggiActivity & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1715,7 +1832,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DatiPersonaliActivity&
+&  &  & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1724,7 +1841,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DomandaActivity&
+&  &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1733,11 +1850,11 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&
+&  &  &  & 
 \backslash
 
 \backslash
-
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1758,25 +1875,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&view.Login&  & view.DashBoardActivity & 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-&view.Menu&  & view.RecuperoPasswordActivity & 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-&&&view.PunteggiActivity&
+& view.Login &  & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1785,7 +1884,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DatiPersonaliActivity&
+& view.Menu &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1794,7 +1893,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DomandaActivity&
+&  &  & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -1803,7 +1902,25 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&
+&  &  & view.DatiPersonaliActivity & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & view.DomandaActivity & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1839,39 +1956,48 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ControlLogin&  &  & 
+& logic.ControlNotifica &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & 
+& logic.ControlLogin &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.DatiLogin&  &  & 
+& logic.ControlMenu &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ConnBack&  &  & 
+& logic.DatiLogin &  &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ConnBack &  &  & 
 \backslash
 
 \backslash
@@ -1951,7 +2077,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 1 & logic.Timer &  & utils.ConnectionUtils & connection.DesktopConnection
+RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
 \backslash
 
 \backslash
@@ -1960,38 +2086,38 @@ RVOB 1 & logic.Timer &  & utils.ConnectionUtils & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&logic.ControlLogin&  &  & connection.WebConnection
+&  &  &  & connection.WebConnection
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & connection.MobileConnection
+&  &  &  & connection.MobileConnection
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.DatiLogin&  &  & 
+&  &  &  & access.DAOFactory
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ConnBack&  &  & 
+&  &  &  & access.SqlDAOFactory
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2003,7 +2129,52 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 1.1 &  &  &  & 
+RVOB 1.1 & logic.Timer &  &  & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ControlNotifica &  &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ControlLogin &  &  & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ControlMenu &  &  & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.DatiLogin &  &  & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ConnBack &  &  & 
 \backslash
 
 \backslash
@@ -2028,38 +2199,47 @@ RVOB 1.1.1 & logic.Timer &  &  &
 
 \begin_layout Plain Layout
 
-&logic.ControlLogin&  &  & 
+& logic.ControlNotifica &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ControlMenu&  &  & 
+& logic.ControlLogin &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.DatiLogin&  &  & 
+& logic.ControlMenu &  &  & 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-&logic.ConnBack&  &  & 
+& logic.DatiLogin &  &  & 
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.ConnBack &  &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2080,17 +2260,7 @@ RVOB 1.2 &  &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& & & view.DashBoardActivity& 
-\backslash
-
-\backslash
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&&&view.RecuperoPasswordActivity&
+&  &  & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -2099,7 +2269,7 @@ RVOB 1.2 &  &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.PunteggiActivity&
+&  &  & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -2108,7 +2278,7 @@ RVOB 1.2 &  &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DatiPersonaliActivity&
+&  &  & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -2117,7 +2287,7 @@ RVOB 1.2 &  &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.DomandaActivity&
+&  &  & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -2126,7 +2296,16 @@ RVOB 1.2 &  &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&&&view.TimerNotifica&
+&  &  & view.DomandaActivity & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -2161,6 +2340,24 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 \begin_layout Plain Layout
 
 &  &  &  & connection.MobileConnection
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -2225,7 +2422,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{1cm} | p{3,5cm} | p{4cm} |  p{1cm} | p{3cm}}
+begin{longtable}{ p{1,3cm} | p{2cm} | p {2cm} | p{3,1cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2311,7 +2508,7 @@ RFOB 3 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -2336,7 +2533,7 @@ RFOB 3.1 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -2361,7 +2558,16 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -2386,7 +2592,16 @@ RFOB 4.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -2411,7 +2626,16 @@ RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -2436,7 +2660,7 @@ RFOB 11 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2481,7 +2705,7 @@ RFOB 17 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2490,7 +2714,7 @@ RFOB 17 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLogin
+&  &  &  & access.SqlDAOLogin
 \backslash
 
 \backslash
@@ -2581,6 +2805,17 @@ hline
 
 \begin_layout Plain Layout
 
+RFOB 19.2.3 &  &  &  & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 RFOB 20 &  &  &  & 
 \backslash
 
@@ -2601,7 +2836,7 @@ RFOB 21 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2610,7 +2845,7 @@ RFOB 21 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -2619,7 +2854,7 @@ RFOB 21 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2644,7 +2879,7 @@ RFOB 21.1 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2653,7 +2888,7 @@ RFOB 21.1 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -2662,7 +2897,7 @@ RFOB 21.1 &  &  &  & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2687,7 +2922,7 @@ RFOB 22 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2696,7 +2931,7 @@ RFOB 22 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -2705,7 +2940,7 @@ RFOB 22 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2730,7 +2965,7 @@ RFOB 22.1 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2739,7 +2974,7 @@ RFOB 22.1 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDipendenti
+&  &  &  & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -2748,7 +2983,7 @@ RFOB 22.1 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendenti
+&  &  &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2773,8 +3008,7 @@ RFOB 23 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneTrofeiAA
-
+&  &  &  & controller.GestioneBadgeAA
 \backslash
 
 \backslash
@@ -2783,7 +3017,7 @@ RFOB 23 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2808,7 +3042,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneTrofeiAA
+&  &  &  & controller.GestioneBadgeAA
 \backslash
 
 \backslash
@@ -2817,7 +3051,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2826,7 +3060,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessPunteggi
+&  &  &  & access.SqlDAOPunteggi
 \backslash
 
 \backslash
@@ -2835,7 +3069,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessTrofei
+&  &  &  & access.SqlDAOBadge
 \backslash
 
 \backslash
@@ -2844,7 +3078,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Punteggi
+&  &  &  & condivisi.Punteggio
 \backslash
 
 \backslash
@@ -2853,7 +3087,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Trofei
+&  &  &  & condivisi.Badge
 \backslash
 
 \backslash
@@ -2889,7 +3123,7 @@ RFOB 25 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & 
 \backslash
 
 \backslash
@@ -2939,6 +3173,24 @@ RPOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 &  &  &  & access.Indirizzi
 \backslash
 
@@ -2971,6 +3223,29 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -3136,6 +3411,29 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -3176,6 +3474,24 @@ hline
 \begin_layout Plain Layout
 
 RVOB 2 &  &  &  & connection.WebConnection
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -3240,7 +3556,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ p{1cm} | p{3,5cm} |  p{4cm} |  p{1cm} | p{3cm}}
+begin{longtable}{ p{1,3cm} | p{2cm} | p {2cm} | p{3,1cm} | r}
 \end_layout
 
 \begin_layout Plain Layout
@@ -3315,7 +3631,7 @@ RFOB 3 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -3340,7 +3656,7 @@ RFOB 3.1 &  &  &  & controller.GestioneLog
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLog
+&  &  &  & access.UpdateLog
 \backslash
 
 \backslash
@@ -3365,7 +3681,16 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -3390,7 +3715,16 @@ RFOB 4.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -3415,7 +3749,16 @@ RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -3431,18 +3774,32 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11 &  &  &  & condivisi.Dipendenti
+RFOB 11 &  &  &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Dipendente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 11.1 &  &  &  & 
+RFOB 11.1 &  &  &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
@@ -3457,7 +3814,7 @@ RFOB 26 &  &  &  & connection.WebConnection
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3471,7 +3828,7 @@ RFOB 26 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3480,7 +3837,7 @@ RFOB 26 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessLogin
+&  &  &  & access.SqlDAOLogin
 \backslash
 
 \backslash
@@ -3514,7 +3871,7 @@ RFOB 27 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3523,7 +3880,7 @@ RFOB 27 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & 
 \backslash
 
 \backslash
@@ -3548,7 +3905,7 @@ RFOB 27.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3557,7 +3914,16 @@ RFOB 27.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -3582,7 +3948,7 @@ RFOB 28 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3591,7 +3957,7 @@ RFOB 28 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & 
 \backslash
 
 \backslash
@@ -3616,7 +3982,7 @@ RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3625,7 +3991,7 @@ RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -3634,7 +4000,7 @@ RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -3659,7 +4025,7 @@ RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3668,7 +4034,7 @@ RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.AccessDomande
+&  &  &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -3677,7 +4043,7 @@ RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Domande
+&  &  &  & condivisi.Domanda
 \backslash
 
 \backslash
@@ -3693,7 +4059,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 29 &  &  &  & 
+RFOP 29 &  &  &  & condivisi.Badge
 \backslash
 
 \backslash
@@ -3704,7 +4070,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 29.1 &  &  &  & 
+RFOP 29.1 &  &  &  & condivisi.Badge
 \backslash
 
 \backslash
@@ -3724,7 +4090,7 @@ RFOB 30 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.BackEnd
+&  &  &  & 
 \backslash
 
 \backslash
@@ -3774,6 +4140,24 @@ RPOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
 &  &  &  & access.Indirizzi
 \backslash
 
@@ -3806,6 +4190,29 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -3971,6 +4378,29 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -4015,6 +4445,24 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.DAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
