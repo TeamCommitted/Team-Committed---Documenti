@@ -122,7 +122,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 & logic.ConnBack &  & utils.ConnectionUtils & access.Indirizzi
+RFOB 1 & logic.ConnBack & control.ConnHandler & utils.ConnectionUtils & access.Indir
+izzi
 \backslash
 
 \backslash
@@ -236,7 +237,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4 & view.Login &  & view.LoginActivity & 
+RFOB 4 & view.Login & pagine.Login & view.LoginActivity & controller.GestioneRecuper
+o
 \backslash
 
 \backslash
@@ -245,7 +247,7 @@ RFOB 4 & view.Login &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.RecuperoPasswordActivity & 
+&  & pagine.RecuperoPass & view.RecuperoPasswordActivity & controller.GestioneDati
 \backslash
 
 \backslash
@@ -254,34 +256,7 @@ RFOB 4 & view.Login &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Recupero & 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneRecupero
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Recupero
+&  & control.ControlRecuperoPass & condivisi.Recupero & condivisi.Recupero
 \backslash
 
 \backslash
@@ -297,7 +272,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1 &  &  & view.RecuperoPasswordActivity & 
+RFOB 4.1 &  & control.ControlRecuperoPass & view.RecuperoPasswordActivity &
+ 
 \backslash
 
 \backslash
@@ -340,7 +316,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 &  &  & view.RecuperoPasswordActivity & 
+RFOB 4.1.1 &  & control.ControlRecuperoPass & view.RecuperoPasswordActivity
+ & 
 \backslash
 
 \backslash
@@ -383,7 +360,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 5 & view.Login &  & view.LoginActivity & connection.DesktopConnection
+RFOB 5 & view.Login & pagine.Login & view.LoginActivity & connection.DesktopConnecti
+on
 \backslash
 
 \backslash
@@ -392,7 +370,8 @@ RFOB 5 & view.Login &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& logic.ControlLogin &  & condivisi.Login & connection.WebConnection
+& logic.ControlLogin & control.ControlLogin & condivisi.Login & connection.WebConnec
+tion
 \backslash
 
 \backslash
@@ -453,7 +432,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 5.1 & view.Login &  & view.LoginActivity & connection.DesktopConnection
+RFOB 5.1 & view.Login & pagine.Login & view.LoginActivity & connection.DesktopConnect
+ion
 \backslash
 
 \backslash
@@ -505,7 +485,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 6 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
+RFOB 6 & view.Notifica & pagine.Notifica & view.TimerNotifica & controller.GestioneD
+omandeD
 \backslash
 
 \backslash
@@ -514,7 +495,7 @@ RFOB 6 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-& logic.Timer &  &  & controller.GestioneDati
+& logic.Timer & control.ControlNotifica &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -523,7 +504,7 @@ RFOB 6 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-& logic.ControlNotifica &  &  & 
+& logic.ControlNotifica & control.Timer &  & 
 \backslash
 
 \backslash
@@ -539,7 +520,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 6.1 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
+RFOB 6.1 & view.Notifica & pagine.Notifica & view.TimerNotifica & controller.Gestione
+DomandeD
 \backslash
 
 \backslash
@@ -548,57 +530,7 @@ RFOB 6.1 & view.Notifica &  & view.TimerNotifica & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-& logic.ControlNotifica &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 7 & view.Menu &  & view.DashBoardActivity & controller.GestioneDomandeD
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& logic.ControlMenu &  & view.DomandaActivity & controller.GestioneDati
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 7.1 & view.Menu &  & view.DashBoardActivity & controller.GestioneDomandeD
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-& logic.Timer &  & view.DomandaActivity & controller.GestioneDati
+& logic.ControlNotifica & control.ControlNotifica &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -614,7 +546,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 8 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFOB 7 & view.Menu & pagine.Menu & view.DashBoardActivity & controller.GestioneDoman
+deD
 \backslash
 
 \backslash
@@ -623,7 +556,60 @@ RFOB 8 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+& logic.ControlMenu & control.ControlMenu & view.DomandaActivity & controller.Gestio
+neDati
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 7.1 & view.Menu & control.ControlMenu & view.DashBoardActivity & controller.Gest
+ioneDomandeD
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& logic.Timer & control.Timer & view.DomandaActivity & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 8 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDomand
+eD
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -657,7 +643,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFOB 9 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDomand
+eD
 \backslash
 
 \backslash
@@ -666,7 +653,7 @@ RFOB 9 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -700,11 +687,20 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9.1 &  &  & condivisi.Domanda & 
+RFOB 9.1 &  & pagine.MostraDomanda & condivisi.Domanda & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraDom &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -716,7 +712,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 9.1.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFOB 9.1.1 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDoma
+ndeD
 \backslash
 
 \backslash
@@ -725,7 +722,7 @@ RFOB 9.1.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -759,7 +756,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.1.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFD 9.1.2 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDoman
+deD
 \backslash
 
 \backslash
@@ -768,7 +766,7 @@ RFD 9.1.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -802,7 +800,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 9.1.3 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFOP 9.1.3 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDoma
+ndeD
 \backslash
 
 \backslash
@@ -811,7 +810,7 @@ RFOP 9.1.3 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -845,7 +844,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFD 9.2 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDomand
+eD
 \backslash
 
 \backslash
@@ -854,7 +854,7 @@ RFD 9.2 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -888,7 +888,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFD 9.2.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
+RFD 9.2.1 &  & pagine.MostraDomanda & view.DomandaActivity & controller.GestioneDoman
+deD
 \backslash
 
 \backslash
@@ -897,7 +898,7 @@ RFD 9.2.1 &  &  & view.DomandaActivity & controller.GestioneDomandeD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Domanda & controller.GestioneDati
+&  & control.ControlMostraDom & condivisi.Domanda & controller.GestioneDati
 \backslash
 
 \backslash
@@ -931,7 +932,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 10 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
+RFOB 10 & view.Menu & pagine.Menu & view.DashBoardActivity & controller.GestioneDipe
+ndentiD
 \backslash
 
 \backslash
@@ -940,11 +942,30 @@ RFOB 10 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-& logic.ControlMenu &  & condivisi.Dipendente & controller.GestioneDati
+& logic.ControlMenu & pagine.ModDatiD & condivisi.Dipendente & controller.GestioneDa
+ti
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiD &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -956,7 +977,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11 &  &  &  & controller.GestioneDipendentiD
+RFOB 11 &  & control.ControlModDatiD &  & controller.GestioneDipendentiD
 \backslash
 
 \backslash
@@ -999,7 +1020,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11.1 &  &  &  & controller.GestioneDipendentiD
+RFOB 11.1 &  & control.ControlModDatiD &  & controller.GestioneDipendentiD
 \backslash
 
 \backslash
@@ -1024,7 +1045,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11.2 &  &  &  & controller.GestioneDipendentiD
+RFOB 11.2 &  & control.ControlModDatiD &  & controller.GestioneDipendentiD
 \backslash
 
 \backslash
@@ -1049,7 +1070,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
+RFOB 12 & view.Menu & pagine.Menu & view.DashBoardActivity & controller.GestioneDipe
+ndentiD
 \backslash
 
 \backslash
@@ -1058,7 +1080,7 @@ RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  & view.DatiPersonaliActivity & controller.GestioneDati
+&  & pagine.MostraDatiD & view.DatiPersonaliActivity & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1067,7 +1089,7 @@ RFOB 12 & view.Menu &  & view.DashBoardActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Dipendente & access.SqlDAODipendenti
+&  & control.ControlMenu & condivisi.Dipendente & access.SqlDAODipendenti
 \backslash
 
 \backslash
@@ -1092,7 +1114,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 12.1 &  &  & view.DatiPersonaliActivity & controller.GestioneDipendentiD
+RFOB 12.1 &  & pagine.MostraDatiD & view.DatiPersonaliActivity & controller.Gestione
+DipendentiD
 \backslash
 
 \backslash
@@ -1101,7 +1124,7 @@ RFOB 12.1 &  &  & view.DatiPersonaliActivity & controller.GestioneDipendentiD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Dipendente & controller.GestioneDati
+&  & control.ControlMenu & condivisi.Dipendente & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1135,7 +1158,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 13 &  &  &  & 
+RFOB 13 &  & control.ControlNotifica &  & 
 \backslash
 
 \backslash
@@ -1228,7 +1251,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15 & view.Menu &  & view.DashBoardActivity & controller.GestionePunteggiD
+RFOB 15 & view.Menu & pagine.Menu & view.DashBoardActivity & controller.GestionePunt
+eggiD
 \backslash
 
 \backslash
@@ -1237,7 +1261,8 @@ RFOB 15 & view.Menu &  & view.DashBoardActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-& logic.ControlMenu &  & view.PunteggiActivity & controller.GestioneBadgeD
+& logic.ControlMenu & control.ControlMostraStatD & view.PunteggiActivity &
+ controller.GestioneBadgeD
 \backslash
 
 \backslash
@@ -1246,7 +1271,7 @@ RFOB 15 & view.Menu &  & view.DashBoardActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlMenu &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -1262,7 +1287,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
+RFOB 15.1 &  & control.ControlMenu & view.PunteggiActivity & controller.GestionePunt
+eggiD
 \backslash
 
 \backslash
@@ -1271,7 +1297,7 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  & condivisi.Punteggi & controller.GestioneBadgeD
+&  & control.ControlMostraStatD & condivisi.Punteggi & controller.GestioneBadgeD
 \backslash
 
 \backslash
@@ -1334,15 +1360,6 @@ RFOB 15.1 &  &  & view.PunteggiActivity & controller.GestionePunteggiD
 
 \begin_layout Plain Layout
 
-&  &  &  & 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 hline 
@@ -1350,7 +1367,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 16 & view.Menu &  & view.DashBoardActivity & connection.DesktopConnection
+RFOB 16 & view.Menu & pagine.Menu & view.DashBoardActivity & connection.DesktopConne
+ction
 \backslash
 
 \backslash
@@ -1368,16 +1386,7 @@ RFOB 16 & view.Menu &  & view.DashBoardActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & connection.MobileConnection
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & 
+&  & control.ControlMenu &  & connection.MobileConnection
 \backslash
 
 \backslash
@@ -1393,7 +1402,8 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 1 & logic.ConnBack &  & view.LoginActivity & connection.DesktopConnection
+RPOB 1 & logic.ConnBack & control.ConnHandler & view.LoginActivity & connection.Desk
+topConnection
 \backslash
 
 \backslash
@@ -1533,7 +1543,7 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 3 &  &  & utils.ConnectionUtils & 
+RPOB 3 &  & control.ConnHandler & utils.ConnectionUtils & 
 \backslash
 
 \backslash
@@ -1549,7 +1559,8 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
+RQOB 1 & view.Notifica & pagine.Login & view.LoginActivity & connection.DesktopConne
+ction
 \backslash
 
 \backslash
@@ -1558,7 +1569,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& view.Login &  & view.DashBoardActivity & connection.WebConnection
+& view.Login & pagine.Menu & view.DashBoardActivity & connection.WebConnection
 \backslash
 
 \backslash
@@ -1567,7 +1578,8 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& view.Menu &  & view.RecuperoPasswordActivity & connection.MobileConnection
+& view.Menu & pagine.Notifica & view.RecuperoPasswordActivity & connection.MobileCon
+nection
 \backslash
 
 \backslash
@@ -1576,7 +1588,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& logic.Timer &  & view.PunteggiActivity & access.DAOFactory
+& logic.Timer & pagine.MostraDomanda & view.PunteggiActivity & access.DAOFactory
 \backslash
 
 \backslash
@@ -1585,7 +1597,8 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& logic.ControlNotifica &  & view.DatiPersonaliActivity & access.SqlDAOFactory
+& logic.ControlNotifica & pagine.MostraDatiD & view.DatiPersonaliActivity &
+ access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -1594,7 +1607,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& logic.ControlLogin &  & view.DomandaActivity & 
+& logic.ControlLogin & pagine.ModDatiD & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1603,7 +1616,7 @@ RQOB 1 & view.Notifica &  & view.LoginActivity & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-& logic.ControlMenu &  & view.TimerNotifica & 
+& logic.ControlMenu & pagine.RecuperoPass & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1717,7 +1730,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 3 & view.Notifica &  & view.LoginActivity & 
+RQOB 3 & view.Notifica & pagine.Login & view.LoginActivity & 
 \backslash
 
 \backslash
@@ -1726,7 +1739,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Login &  & view.DashBoardActivity & 
+& view.Login & pagine.Menu & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1735,7 +1748,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Menu &  & view.RecuperoPasswordActivity & 
+& view.Menu & pagine.Notifica & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1744,7 +1757,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.PunteggiActivity & 
+&  & pagine.MostraDomanda & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -1753,7 +1766,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DatiPersonaliActivity & 
+&  & pagine.MostraDatiD & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1762,7 +1775,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DomandaActivity & 
+&  & pagine.ModDatiD & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1771,7 +1784,7 @@ RQOB 3 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.TimerNotifica & 
+&  & pagine.RecuperoPass & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1787,7 +1800,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOP 3.1 & view.Notifica &  & view.LoginActivity & 
+RQOP 3.1 & view.Notifica & pagine.Login & view.LoginActivity & 
 \backslash
 
 \backslash
@@ -1796,7 +1809,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Login &  & view.DashBoardActivity & 
+& view.Login & pagine.Menu & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1805,7 +1818,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Menu &  & view.RecuperoPasswordActivity & 
+& view.Menu & pagine.Notifica & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1814,7 +1827,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.PunteggiActivity & 
+&  & pagine.MostraDomanda & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -1823,7 +1836,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DatiPersonaliActivity & 
+&  & pagine.MostraDatiD & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1832,7 +1845,7 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DomandaActivity & 
+&  & pagine.ModDatiD & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1841,20 +1854,11 @@ RQOP 3.1 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.TimerNotifica & 
+&  & pagine.RecuperoPass & view.TimerNotifica & 
 \backslash
 
 \backslash
 
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & 
-\backslash
-
-\backslash
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1866,7 +1870,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOP 3.2 & view.Notifica &  & view.LoginActivity & 
+RQOP 3.2 & view.Notifica & pagine.Login & view.LoginActivity & 
 \backslash
 
 \backslash
@@ -1875,7 +1879,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Login &  & view.DashBoardActivity & 
+& view.Login & pagine.Menu & view.DashBoardActivity & 
 \backslash
 
 \backslash
@@ -1884,7 +1888,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-& view.Menu &  & view.RecuperoPasswordActivity & 
+& view.Menu & pagine.Notifica & view.RecuperoPasswordActivity & 
 \backslash
 
 \backslash
@@ -1893,7 +1897,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.PunteggiActivity & 
+&  & pagine.MostraDomanda & view.PunteggiActivity & 
 \backslash
 
 \backslash
@@ -1902,7 +1906,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DatiPersonaliActivity & 
+&  & pagine.MostraDatiD & view.DatiPersonaliActivity & 
 \backslash
 
 \backslash
@@ -1911,7 +1915,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.DomandaActivity & 
+&  & pagine.ModDatiD & view.DomandaActivity & 
 \backslash
 
 \backslash
@@ -1920,7 +1924,7 @@ RQOP 3.2 & view.Notifica &  & view.LoginActivity &
 
 \begin_layout Plain Layout
 
-&  &  & view.TimerNotifica & 
+&  & pagine.RecuperoPass & view.TimerNotifica & 
 \backslash
 
 \backslash
@@ -1952,7 +1956,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 5 & logic.Timer &  & utils.ConnectionUtils & 
+RQD 5 & logic.Timer & control.ControlLogin & utils.ConnectionUtils & 
 \backslash
 
 \backslash
@@ -1961,7 +1965,7 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 
 \begin_layout Plain Layout
 
-& logic.ControlNotifica &  &  & 
+& logic.ControlNotifica & control.ControlMenu &  & 
 \backslash
 
 \backslash
@@ -1970,7 +1974,7 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 
 \begin_layout Plain Layout
 
-& logic.ControlLogin &  &  & 
+& logic.ControlLogin & control.ControlNotifica &  & 
 \backslash
 
 \backslash
@@ -1979,7 +1983,7 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 
 \begin_layout Plain Layout
 
-& logic.ControlMenu &  &  & 
+& logic.ControlMenu & control.ControlMostraDom &  & 
 \backslash
 
 \backslash
@@ -1988,7 +1992,7 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 
 \begin_layout Plain Layout
 
-& logic.DatiLogin &  &  & 
+& logic.DatiLogin & control.ControlModDatiD &  & 
 \backslash
 
 \backslash
@@ -1997,11 +2001,38 @@ RQD 5 & logic.Timer &  & utils.ConnectionUtils &
 
 \begin_layout Plain Layout
 
-& logic.ConnBack &  &  & 
+& logic.ConnBack & control.ControlMostraStatD &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.Timer &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2013,11 +2044,65 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 6 &  &  &  & 
+RQD 6 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Notifica &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDomanda &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2029,11 +2114,65 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 6.1 &  &  &  & 
+RQD 6.1 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Notifica &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDomanda &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2045,11 +2184,65 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 6.2 &  &  &  & 
+RQD 6.2 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Notifica &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDomanda &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2077,7 +2270,8 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
+RVOB 1 &  & control.ControlLogin & utils.ConnectionUtils & connection.DesktopConnec
+tion
 \backslash
 
 \backslash
@@ -2086,7 +2280,7 @@ RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & connection.WebConnection
+&  & control.ControlMenu &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -2095,7 +2289,7 @@ RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & connection.MobileConnection
+&  & control.ControlNotifica &  & connection.MobileConnection
 \backslash
 
 \backslash
@@ -2104,7 +2298,7 @@ RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMostraDom &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -2113,7 +2307,43 @@ RVOB 1 &  &  & utils.ConnectionUtils & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlModDatiD &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraStatD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.Timer &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -2321,7 +2551,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 2 &  &  &  & connection.DesktopConnection
+RVOB 2 &  & control.ControlLogin &  & connection.DesktopConnection
 \backslash
 
 \backslash
@@ -2330,7 +2560,7 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & connection.WebConnection
+&  & control.ControlMenu &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -2339,7 +2569,7 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & connection.MobileConnection
+&  & control.ControlNotifica &  & connection.MobileConnection
 \backslash
 
 \backslash
@@ -2348,7 +2578,7 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMostraDom &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -2357,7 +2587,7 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlModDatiD &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -2366,7 +2596,34 @@ RVOB 2 &  &  &  & connection.DesktopConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.Indirizzi
+&  & control.ControlMostraStatD &  & access.Indirizzi
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.Timer &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -2444,7 +2701,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 &  &  &  & access.Indirizzi
+RFOB 1 &  & control.ConnHandler &  & access.Indirizzi
 \backslash
 
 \backslash
@@ -2455,7 +2712,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1.1 &  &  &  & access.Indirizzi
+RFOB 1.1 &  & control.ConnHandler &  & access.Indirizzi
 \backslash
 
 \backslash
@@ -2549,7 +2806,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4 &  &  &  & controller.GestioneRecupero
+RFOB 4 &  & pagine.Login &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -2558,7 +2815,7 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & pagine.RecuperoPass &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2567,7 +2824,7 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Recupero
+&  & control.ControlRecuperoPass &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -2583,7 +2840,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1 &  &  &  & controller.GestioneRecupero
+RFOB 4.1 &  & control.ControlRecuperoPass &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -2617,7 +2874,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
+RFOB 4.1.1 &  & control.ControlModDatiAA &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -2626,7 +2883,7 @@ RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlRecuperoPass &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -2651,7 +2908,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11 &  &  &  & controller.GestioneDipendentiAA
+RFOB 11 &  & pagine.ModDatiAA &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
@@ -2660,7 +2917,7 @@ RFOB 11 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendente
+&  & control.ControlModDatiAA &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -2676,7 +2933,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11.1 &  &  &  & controller.GestioneDipendentiAA
+RFOB 11.1 &  & pagine.ModDatiAA &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
@@ -2687,7 +2944,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 17 &  &  &  & connection.WebConnection
+RFOB 17 &  & pagine.Login &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -2696,7 +2953,7 @@ RFOB 17 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneLogin
+&  & control.ControlLogin &  & controller.GestioneLogin
 \backslash
 
 \backslash
@@ -2739,29 +2996,57 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 18 &  &  &  & 
+RFOB 18 &  & pagine.Menu &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 19 &  &  &  & 
+RFOB 19 &  & pagine.Menu &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 19.1 &  &  &  & 
+RFOB 19.1 &  & control.ControlMenu &  & 
 \backslash
 
 \backslash
@@ -2816,190 +3101,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 20 &  &  &  & 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 21 &  &  &  & controller.GestioneDipendentiD
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & access.SqlDAODipendenti
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Dipendente
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 21.1 &  &  &  & controller.GestioneDipendentiD
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & access.SqlDAODipendenti
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Dipendente
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 22 &  &  &  & controller.GestioneDipendentiAA
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & access.SqlDAODipendenti
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Dipendente
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 22.1 &  &  &  & controller.GestioneDipendentiAA
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & controller.GestioneDati
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & access.SqlDAODipendenti
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  &  &  & condivisi.Dipendente
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 23 &  &  &  & controller.GestionePunteggiAA
+RFOB 20 &  & pagine.Menu &  & 
 \backslash
 
 \backslash
@@ -3008,7 +3110,204 @@ RFOB 23 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneBadgeAA
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 21 &  & pagine.Menu &  & controller.GestioneDipendentiD
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & access.SqlDAODipendenti
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiD &  & condivisi.Dipendente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 21.1 &  & pagine.ModDatiD &  & controller.GestioneDipendentiD
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiD &  & access.SqlDAODipendenti
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  &  &  & condivisi.Dipendente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 22 &  & pagine.Menu &  & controller.GestioneDipendentiAA
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & access.SqlDAODipendenti
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraDatiAA &  & condivisi.Dipendente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 22.1 &  & pagine.MostraDatiAA &  & controller.GestioneDipendentiAA
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & controller.GestioneDati
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & access.SqlDAODipendenti
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraDatiAA &  & condivisi.Dipendente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOB 23 & pagine.MostraStatAA & pagine.Menu &  & controller.GestionePunteggiAA
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & controller.GestioneBadgeAA
 \backslash
 
 \backslash
@@ -3033,7 +3332,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
+RFOB 23.1 &  & pagine.MostraStatAA &  & controller.GestionePunteggiAA
 \backslash
 
 \backslash
@@ -3042,7 +3341,7 @@ RFOB 23.1 &  &  &  & controller.GestionePunteggiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneBadgeAA
+&  & control.ControlMenu &  & controller.GestioneBadgeAA
 \backslash
 
 \backslash
@@ -3103,18 +3402,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 24 &  &  &  & 
-\backslash
-
-\backslash
- 
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOB 25 &  &  &  & connection.WebConnection
+RFOB 24 &  & pagine.Menu &  & 
 \backslash
 
 \backslash
@@ -3123,7 +3411,7 @@ RFOB 25 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & 
+&  & control.ControlMenu &  & 
 \backslash
 
 \backslash
@@ -3139,7 +3427,32 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 1 &  &  &  & connection.WebConnection
+RFOB 25 &  & pagine.Menu &  & connection.WebConnection
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RPOB 1 &  & control.ConnHandler &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -3207,7 +3520,7 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 3 &  &  &  & 
+RPOB 3 &  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -3218,7 +3531,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 1 &  &  &  & connection.WebConnection
+RQOB 1 &  & pagine.Login &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -3227,7 +3540,7 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & pagine.Menu &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -3236,7 +3549,43 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & pagine.MostraDatiAA &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
 \backslash
 
 \backslash
@@ -3307,33 +3656,210 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 3 &  &  &  & 
+RQOB 3 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQOP 3.1 &  &  &  & 
+RQOP 3.1 &  & pagine.Login &  & 
 \backslash
 
 \backslash
- 
-\backslash
-hline 
+
 \end_layout
 
 \begin_layout Plain Layout
 
-RQOP 3.2 &  &  &  & 
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+RQOP 3.2 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -3351,44 +3877,281 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 5 &  &  &  & 
+RQD 5 &  & control.ControlLogin &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiAA
+ &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6 &  &  &  & 
+RQD 6 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6.1 &  &  &  & 
+RQD 6.1 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6.2 &  &  &  & 
+RQD 6.2 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.Menu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.MostraStatAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -3406,7 +4169,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 1 &  &  &  & connection.WebConnection
+RVOB 1 &  & control.ControlLogin &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -3415,7 +4178,7 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMenu &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -3424,7 +4187,43 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlMostraDatiAA &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiD &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -3473,7 +4272,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 2 &  &  &  & connection.WebConnection
+RVOB 2 &  & control.ControlLogin &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -3482,7 +4281,7 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMenu &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -3491,7 +4290,7 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlMostraDatiAA &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -3500,7 +4299,34 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.Indirizzi
+&  & control.ControlModDatiD &  & access.Indirizzi
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlModDatiAA &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -3578,7 +4404,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1 &  &  &  & access.Indirizzi
+RFOB 1 &  & control.ConnHandler &  & access.Indirizzi
 \backslash
 
 \backslash
@@ -3672,7 +4498,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4 &  &  &  & controller.GestioneRecupero
+RFOB 4 &  & pagine.Login &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -3681,7 +4507,7 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & pagine.RecuperoPass &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3690,7 +4516,7 @@ RFOB 4 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Recupero
+&  & control.ControlRecuperoPass &  & condivisi.Recupero
 \backslash
 
 \backslash
@@ -3706,7 +4532,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1 &  &  &  & controller.GestioneRecupero
+RFOB 4.1 &  & control.ControlRecuperoPass &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -3740,7 +4566,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
+RFOB 4.1.1 &  & control.ControlModDatiAS &  & controller.GestioneRecupero
 \backslash
 
 \backslash
@@ -3749,7 +4575,7 @@ RFOB 4.1.1 &  &  &  & controller.GestioneRecupero
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlRecuperoPass &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3774,7 +4600,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11 &  &  &  & controller.GestioneDipendentiAA
+RFOB 11 &  & pagine.ModDatiAS &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
@@ -3783,7 +4609,7 @@ RFOB 11 &  &  &  & controller.GestioneDipendentiAA
 
 \begin_layout Plain Layout
 
-&  &  &  & condivisi.Dipendente
+&  & control.ControlModDatiAS &  & condivisi.Dipendente
 \backslash
 
 \backslash
@@ -3799,18 +4625,32 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 11.1 &  &  &  & controller.GestioneDipendentiAA
+RFOB 11.1 &  & pagine.ModDatiAS &  & controller.GestioneDipendentiAA
 \backslash
 
 \backslash
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 26 &  &  &  & connection.WebConnection
+RFOB 26 &  & pagine.Login &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -3819,7 +4659,7 @@ RFOB 26 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneLogin
+&  & control.ControlLogin &  & controller.GestioneLogin
 \backslash
 
 \backslash
@@ -3862,7 +4702,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 27 &  &  &  & controller.GestioneDomandeAS
+RFOB 27 &  & pagine.Menu &  & controller.GestioneDomandeAS
 \backslash
 
 \backslash
@@ -3871,7 +4711,7 @@ RFOB 27 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & pagine.ElencoDomAS &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3880,7 +4720,16 @@ RFOB 27 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & 
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlElencoDomAS &  & 
 \backslash
 
 \backslash
@@ -3896,7 +4745,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 27.1 &  &  &  & controller.GestioneDomandeAS
+RFOB 27.1 &  & pagine.ElencoDomAS &  & controller.GestioneDomandeAS
 \backslash
 
 \backslash
@@ -3905,7 +4754,7 @@ RFOB 27.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlMenu &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3914,7 +4763,7 @@ RFOB 27.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAODomande
+&  & control.ControlElencoDomAS &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -3939,7 +4788,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 28 &  &  &  & controller.GestioneDomandeAS
+RFOB 28 &  & pagine.Menu &  & controller.GestioneDomandeAS
 \backslash
 
 \backslash
@@ -3948,7 +4797,7 @@ RFOB 28 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & pagine.ModDomAS &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3957,7 +4806,16 @@ RFOB 28 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & 
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDomAS &  & 
 \backslash
 
 \backslash
@@ -3973,7 +4831,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
+RFOB 28.1 &  & pagine.ModDomAS  &  & controller.GestioneDomandeAS
 \backslash
 
 \backslash
@@ -3982,7 +4840,7 @@ RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlMenu &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -3991,7 +4849,7 @@ RFOB 28.1 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAODomande
+&  & control.ControlModDomAS &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -4016,7 +4874,7 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
+RFOB 28.2 &  & pagine.ModDomAS  &  & controller.GestioneDomandeAS
 \backslash
 
 \backslash
@@ -4025,7 +4883,7 @@ RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & controller.GestioneDati
+&  & control.ControlMenu &  & controller.GestioneDati
 \backslash
 
 \backslash
@@ -4034,7 +4892,7 @@ RFOB 28.2 &  &  &  & controller.GestioneDomandeAS
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAODomande
+&  & control.ControlModDomAS &  & access.SqlDAODomande
 \backslash
 
 \backslash
@@ -4059,11 +4917,25 @@ hline
 
 \begin_layout Plain Layout
 
-RFOP 29 &  &  &  & condivisi.Badge
+RFOP 29 &  & pagine.Menu &  & condivisi.Badge
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -4075,13 +4947,27 @@ RFOP 29.1 &  &  &  & condivisi.Badge
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RFOB 30 &  &  &  & connection.WebConnection
+RFOB 30 &  & pagine.Menu &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -4090,7 +4976,7 @@ RFOB 30 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & 
+&  & control.ControlMenu &  & 
 \backslash
 
 \backslash
@@ -4106,7 +4992,7 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 1 &  &  &  & connection.WebConnection
+RPOB 1 &  & control.ConnHandler &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -4174,7 +5060,7 @@ hline
 
 \begin_layout Plain Layout
 
-RPOB 3 &  &  &  & 
+RPOB 3 &  & control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -4185,7 +5071,7 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 1 &  &  &  & connection.WebConnection
+RQOB 1 &  & pagine.Login &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -4194,7 +5080,7 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & pagine.ModDatiAS &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -4203,7 +5089,25 @@ RQOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & pagine.ElencoDomAS &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
 \backslash
 
 \backslash
@@ -4274,33 +5178,156 @@ hline
 
 \begin_layout Plain Layout
 
-RQOB 3 &  &  &  & 
+RQOB 3 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQOP 3.1 &  &  &  & 
+RQOP 3.1 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQOP 3.2 &  &  &  & 
+RQOP 3.2 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
@@ -4318,51 +5345,233 @@ hline
 
 \begin_layout Plain Layout
 
-RQD 5 &  &  &  & 
+RQD 5 &  & control.ControlLogin &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlMenu &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ConnHandler &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6 &  &  &  & 
+RQD 6 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6.1 &  &  &  & 
+RQD 6.1 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQD 6.2 &  &  &  & 
+RQD 6.2 &  & pagine.Login &  & 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ElencoDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.ModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&  & pagine.RecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline 
 \end_layout
 
 \begin_layout Plain Layout
 
-RQOP 7 &  &  &  & 
+RQOP 7 &  & control.ControlModDomAS &  & 
 \backslash
 
 \backslash
@@ -4373,7 +5582,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 1 &  &  &  & connection.WebConnection
+RVOB 1 &  & control.ControlLogin &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -4382,7 +5591,7 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMenu &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -4391,7 +5600,43 @@ RVOB 1 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlElencoDomAS &  & access.SqlDAOFactory
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDomAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ConnHandler &  & 
 \backslash
 
 \backslash
@@ -4440,7 +5685,7 @@ hline
 
 \begin_layout Plain Layout
 
-RVOB 2 &  &  &  & connection.WebConnection
+RVOB 2 &  & control.ControlLogin &  & connection.WebConnection
 \backslash
 
 \backslash
@@ -4449,7 +5694,7 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.DAOFactory
+&  & control.ControlMenu &  & access.DAOFactory
 \backslash
 
 \backslash
@@ -4458,7 +5703,7 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.SqlDAOFactory
+&  & control.ControlElencoDomAS &  & access.SqlDAOFactory
 \backslash
 
 \backslash
@@ -4467,7 +5712,34 @@ RVOB 2 &  &  &  & connection.WebConnection
 
 \begin_layout Plain Layout
 
-&  &  &  & access.Indirizzi
+&  & control.ControlModDomAS &  & access.Indirizzi
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlModDatiAS &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ControlRecuperoPass &  & 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+control.ConnHandler &  & 
 \backslash
 
 \backslash
