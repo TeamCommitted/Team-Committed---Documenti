@@ -68,6 +68,22 @@
 Tracciamento requisiti - componenti
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{landscape}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Ambito Dipendente
 \end_layout
@@ -3913,8 +3929,7 @@ RQD 5 &  & control.ControlLogin &  &
 
 \begin_layout Plain Layout
 
-&  & control.ControlModDatiAA
- &  & 
+&  & control.ControlModDatiAA &  & 
 \backslash
 
 \backslash
@@ -5774,6 +5789,22 @@ end{center}
 \begin_layout Plain Layout
 
 }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{landscape}
 \end_layout
 
 \end_inset

@@ -337,6 +337,9 @@ La classe viene utilizzata dai membri del package back.connection per svolgere
 
 \series bold
 Attività svolte e dati trattati: 
+\series default
+la sua funzione è quella di reindirizzare le chiamate dal Presentation-Tier
+ alle classi deputate alla gestione delle richieste.
 \end_layout
 
 \begin_layout Subsubsection
