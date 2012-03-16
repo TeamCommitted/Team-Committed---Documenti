@@ -119,9 +119,14 @@ Tipo, obiettivo e funzione del componente:
 \series default
 Il Presentation Tier si occupa di gestire le connessioni con i vari Front-End,
  passando le richieste di lettura o inserimento dati al livello inferiore
- e traducendo le relative risposte in xml per poi rimandarle ai relativi
- Front-End; gestisce inoltre eventuali crash dei Front-End.
+ e traducendo eventualmente le risposte in xml per poi rimandarle ai relativi
+ Front-End; 
 \series bold
+\emph on
+\bar under
+!!!!!gestisce inoltre eventuali crash dei Front-End.!!!!!
+\emph default
+\bar default
 
 \begin_inset Newline newline
 \end_inset
@@ -320,7 +325,11 @@ reindirizzamenti
 Relazioni d'uso di altre componenti:
 \series default
  I metodi interni alla classe chiamano i metodi delle altre classe facenti
- parte del package back.controller quando, a loro volta, verranno chiamati.
+ parte del package 
+\emph on
+back.controller
+\emph default
+ quando, a loro volta, verranno chiamati.
  
 \begin_inset Newline newline
 \end_inset
@@ -329,8 +338,11 @@ Relazioni d'uso di altre componenti:
 \series bold
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-La classe viene utilizzata dai membri del package back.connection per svolgere
- tutte le operazioni deputate dal back-end.
+La classe viene utilizzata dai membri del package 
+\emph on
+back.connection
+\emph default
+ per svolgere tutte le operazioni deputate dal back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -338,7 +350,7 @@ La classe viene utilizzata dai membri del package back.connection per svolgere
 \series bold
 Attività svolte e dati trattati: 
 \series default
-la sua funzione è quella di reindirizzare le chiamate dal Presentation-Tier
+La sua funzione è quella di reindirizzare le chiamate dal Presentation-Tier
  alle classi deputate alla gestione delle richieste.
 \end_layout
 
@@ -349,7 +361,7 @@ name "sub:com.safetyGame.back.controller.C"
 
 \end_inset
 
-com.safetyGame.back.controller.ControllerLogin
+com.safetyGame.back.controller.GestioneLogin
 \end_layout
 
 \begin_layout Standard
@@ -357,7 +369,7 @@ com.safetyGame.back.controller.ControllerLogin
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- La classeControllerLogin viene utilizzata per fornire funzioni di login
+ La classe GestioneLogin viene utilizzata per fornire funzioni di login
  agli applicativi
 \bar under
  front-end
@@ -370,8 +382,15 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckLogin del package Checker ed
- utilizza oggetti di tipo Login del package condivisi per scambiare dati.
+ La classe utilizza metodi della classe 
+\emph on
+SqlDAOLogin
+\emph default
+ del package 
+\emph on
+back.access
+\emph default
+ ed utilizza oggetti di tipo Login del package condivisi per scambiare dati.
 \series bold
 
 \begin_inset Newline newline
@@ -392,8 +411,8 @@ front-end
 Attività svolte e dati trattati: 
 \series default
 La classe riceve richieste di autenticazione tramite la ricezione di oggetti
- Login e le invia a Checklogin per verificarne la consistenza, notificando
- il ClientBackEnd del successo o fallimento dell'operazione.
+ Login e le invia a SqlDAOLogin per verificarne la consistenza, notificando
+ alla classe GestioneDati il successo o fallimento dell'operazione.
 \end_layout
 
 \begin_layout Subsubsection
