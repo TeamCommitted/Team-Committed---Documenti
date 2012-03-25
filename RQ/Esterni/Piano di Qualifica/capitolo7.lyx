@@ -86,8 +86,8 @@ Il lavoro svolto per la fase di Revisione dei Requisiti è stato valutato
  adeguato.
  Sono state comunque segnalati alcuni errori e problematiche principalmente
  nei documenti di Analisi dei Requisiti, Piano di Progetto, Piano di Qualifica
- e Norme di Progetto; di seguito verranno quindi riportate nel dettaglio
- le operazioni di correzione:
+ e Norme di Progetto.
+ Di seguito verranno quindi riportate nel dettaglio le operazioni di correzione:
 \end_layout
 
 \begin_layout Itemize
@@ -134,6 +134,21 @@ Corretta la notazione della data.
  Dettagliato maggiormente il documento per quanto riguarda le procedure
  e gli strumenti utilizzati.
  
+\end_layout
+
+\begin_layout Subsection
+Revisione di Progettazione
+\end_layout
+
+\begin_layout Standard
+Il lavoro svolto per la fase di Revisione di Progettazione è stato valutato
+ positivamente, anche se alcuni elementi legati all'utilizzo e implementazione
+ dei design pattern è stato valutato non sufficientemente adeguato e a tal
+ proposito è stato infatti necessario rivedere in gran parte il documento
+ di Specifica Tecnica.
+ Sono stati poi modificati e rivisti anche i documenti di Norme di Progetto,
+ Analisi der Requisiti, Piano di Progetto e Piano di Qualifica.
+ Di seguito verranno quindi riportate nel dettaglio le operazioni di correzione:
 \end_layout
 
 \end_body
