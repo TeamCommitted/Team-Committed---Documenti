@@ -151,5 +151,37 @@ Il lavoro svolto per la fase di Revisione di Progettazione è stato valutato
  Di seguito verranno quindi riportate nel dettaglio le operazioni di correzione:
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto: 
+\series default
+Corrette alcune inesattezze lessicali relative ad abbreviazioni utilizzate
+ nel documento e ai termini con cui si sono indicati i diagrammi UML.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei requisiti: 
+\series default
+Corrette alcune inessattezze lessicali.
+ Modificati alcuni diagrammi dei casi d'uso e relative descrizioni, eliminando
+ gli errori e dettagliando maggiormente dove necessario.
+ Sono stati poi di conseguenza eliminati, modificati o aggiunti alcuni requisiti
+ ovvero alcuni di questi, considerati troppo ad alto livello, sono stati
+ maggiormente dettagliati e resi più specifici.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto:
+\series default
+ Corrette le indicazioni relative alle fasi di Verifica del progetto, completata
+ l'analisi dello scostamento tra preventivo e consuntivo ed aggiornata infine
+ l'analisi dei rischi alla luce del periodo trascorso.
+\end_layout
+
 \end_body
 \end_document
