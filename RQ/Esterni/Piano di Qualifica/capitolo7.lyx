@@ -176,11 +176,37 @@ Corrette alcune inessattezze lessicali.
 \begin_layout Itemize
 
 \series bold
+Specifica Tecnica: 
+\series default
+Sono stati rivisti i design pattern architetturali impiegati per definire
+ la struttura dell'applicazione SafetyGame, in particolare si scelto di
+ comune accordo di adattare la struttura ideata ad un design pattern di
+ tipo Model View Presenter (MVP).
+ Sono stati aggiunti poi nuovi design pattern creazionali (Singleton, Factory
+ Method) e strutturali (Façade, Data Access Object) ritenuti utili al fine
+ di migliorare il progetto.
+ Riscritti integralmente i diagrammi dei package per adattarli ai nuovi
+ design pattern.
+ Rifatto il tracciamento Componenti - Requisiti e Requisiti - Componenti.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Piano di Progetto:
 \series default
  Corrette le indicazioni relative alle fasi di Verifica del progetto, completata
  l'analisi dello scostamento tra preventivo e consuntivo ed aggiornata infine
  l'analisi dei rischi alla luce del periodo trascorso.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica: 
+\series default
+Specificati in maniera più chiara la quantificazione degli obbiettivi di
+ qualita per il loro raggiungimento.
 \end_layout
 
 \end_body
