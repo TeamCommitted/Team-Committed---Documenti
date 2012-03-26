@@ -82,6 +82,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/TwoTier.jpg
 	rotateOrigin center
