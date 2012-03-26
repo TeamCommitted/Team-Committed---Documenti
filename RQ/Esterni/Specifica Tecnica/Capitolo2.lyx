@@ -96,12 +96,6 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/ThreeTier.jpg
-
-\end_inset
-
-
-\begin_inset Graphics
 	filename img/TwoTier.jpg
 	rotateOrigin center
 
@@ -124,7 +118,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Diagramma dei design pattern ThreeTier & TwoTier
+Diagramma dei design pattern TwoTier
 \end_layout
 
 \end_inset
@@ -396,7 +390,11 @@ Tutte le varie caratteristiche del design pattern Singleton comportano infine
 \series bold
 Contesto applicativo:
 \series default
- 
+ Singleton ha trovato applicazione nello strato Control Tier in ConnBack
+ del front-end desktop, nello strato Logic Tier in ConnHandler del front-end
+ web e nello strato Logic in ConnectionUtils del front-end mobile.
+ Si è ritenuto utile utilizzare Singleton in queste circostanze per gestire
+ in maniera unica le connessioni al back-end dei fari front-end del sistema.
 \end_layout
 
 \begin_layout Subsection
@@ -552,10 +550,6 @@ Schema del Factory Method
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -590,7 +584,12 @@ Motivazione:
 \series bold
 Contesto applicativo:
 \series default
- 
+ Factory Method è utilizzato nel back-end, in particolare nello strato Data
+ Access Tier - access.
+ DAOFactory rappresenta il Creator cioè l'interfaccia che è fornita per
+ creare un oggetto, SQLDAOFactory il ConcreteCreator ed i vari SqlDAOLogic,
+ Dipendenti ecc.
+ i vari Product che permetteranno di istanziare l'oggetto necessario.
 \end_layout
 
 \end_body
