@@ -550,10 +550,6 @@ Schema del Factory Method
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -588,7 +584,12 @@ Motivazione:
 \series bold
 Contesto applicativo:
 \series default
- 
+ Factory Method è utilizzato nel back-end, in particolare nello strato Data
+ Access Tier - access.
+ DAOFactory rappresenta il Creator cioè l'interfaccia che è fornita per
+ creare un oggetto, SQLDAOFactory il ConcreteCreator ed i vari SqlDAOLogic,
+ Dipendenti ecc.
+ i vari Product che permetteranno di istanziare l'oggetto necessario.
 \end_layout
 
 \end_body
