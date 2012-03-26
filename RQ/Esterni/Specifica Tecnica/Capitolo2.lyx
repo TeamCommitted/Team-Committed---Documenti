@@ -82,25 +82,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/ThreeTier.jpg
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename img/TwoTier.jpg
 	rotateOrigin center
@@ -124,7 +105,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Diagramma dei design pattern ThreeTier & TwoTier
+Diagramma dei design pattern TwoTier
 \end_layout
 
 \end_inset
@@ -396,7 +377,11 @@ Tutte le varie caratteristiche del design pattern Singleton comportano infine
 \series bold
 Contesto applicativo:
 \series default
- 
+ Singleton ha trovato applicazione nello strato Control Tier in ConnBack
+ del front-end desktop, nello strato Logic Tier in ConnHandler del front-end
+ web e nello strato Logic in ConnectionUtils del front-end mobile.
+ Si è ritenuto utile utilizzare Singleton in queste circostanze per gestire
+ in maniera unica le connessioni al back-end dei fari front-end del sistema.
 \end_layout
 
 \begin_layout Subsection
