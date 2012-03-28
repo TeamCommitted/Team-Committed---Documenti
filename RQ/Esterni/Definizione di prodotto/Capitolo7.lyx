@@ -64,6 +64,13 @@ Specifica Front-end Mobile
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -77,16 +84,22 @@ begin{center}
 \end_inset
 
 
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename img/frontEndMobile.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -110,14 +123,34 @@ Front-end Mobile, diagramma dei package
 \end_inset
 
 
-\begin_inset ERT
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetygame.android.view
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
 
+\end_layout
 
-\backslash
-end{center}
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com.safetygame.android.view
+\series default
+ e le sue relazioni
 \end_layout
 
 \end_inset
@@ -125,7 +158,91 @@ end{center}
 
 \end_layout
 
+\end_inset
+
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ contiene gli oggetti deputati alla creazione dell'interfaccia grafica nei
+ dispositivi mobili.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetygame.android.utils
+\series default
+ per ricevere le informazioni da presentare all'utente
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene chiamato dal package 
+\series bold
+com.safetygame.android.utils 
+\series default
+per l'inizializzazione della classe 
+\emph on
+TimerNotifica
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
+ specicate nelle varie classi che compongono il package
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
+ che compongono il package.
+\end_layout
+
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma delle classi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
