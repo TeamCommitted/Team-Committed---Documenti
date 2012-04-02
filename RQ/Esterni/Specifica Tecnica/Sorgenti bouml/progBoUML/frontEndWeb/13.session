@@ -1,0 +1,15 @@
+window_sizes 1366 716 320 960 512 82
+diagrams
+  active  classdiagram_ref 128126 // few
+    1040 560 100 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 128126 // few
+open
+  classview_ref 128254 // few
+  
+package_ref 128126 // com::safetyGame::frontWeb::pagine
+  
+package_ref 128254 // com::safetyGame::frontWeb::control
+end
+end

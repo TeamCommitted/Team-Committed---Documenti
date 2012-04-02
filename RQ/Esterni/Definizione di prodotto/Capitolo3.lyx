@@ -63,5 +63,98 @@
 Specifica delle componenti
 \end_layout
 
+\begin_layout Standard
+In questo capitolo vengono analizzate singolarmente tutte le componenti
+ del sistema.
+ In ogni paragrafo si prende in esame un 
+\bar under
+package
+\bar default
+ contente alcune classi o interfacce.
+ Tale package è brevemente contestualizzato all'interno dell'architettura
+ globale.
+ Successivamente tutte classi o interfacce al suo interno vengono descritte
+ in dettaglio esplicitando, per ognuna: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati
+\end_layout
+
+\begin_layout Standard
+Le descrizione dei metodi più complessi sono accompagnate da opportuni diagrammi
+ di sequenza.
+ Quelle dei metodi 
+\bar under
+getter
+\bar default
+/
+\bar under
+setter
+\bar default
+ e dei costruttori di default saranno invece trascurate, data la semplicità
+ e la grande ricorrenza di tali operazioni.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "capitolo5.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo7.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

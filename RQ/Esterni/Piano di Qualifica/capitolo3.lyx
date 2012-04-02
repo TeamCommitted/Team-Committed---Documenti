@@ -542,7 +542,12 @@ Per quanto concerne la qualità del prodotto si è scelto di seguire alcune
 ISO/IEC 9126
 \emph default
 , classificato da sei caratteristiche generali e varie sotto-caratteristiche.
- 
+ Per ogni caratteristica generale sarà poi specificato quale sarà il grado
+ minimo di raggiungimento per definire un determinato obiettivo di qualita
+ conseguito.
+ In conclusione, il prodotto si potrà considerare completo e di qualità
+ solo quando tutte le caratteristiche saranno soddisfatte almeno ad un grado
+ minimo.
 \end_layout
 
 \begin_layout Subsubsection
@@ -603,7 +608,11 @@ Sicurezza
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo si calcolerà verificando
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ la misurazione del raggiungimento di questo obiettivo si calcolerà verificando
  la quantità di requisiti soddisfatti che avranno un riscontro in elementi
  funzionanti nell'applicazione prodotta.
  La soglia di sufficienza sarà quindi data dal soddisfacimento di tutti
@@ -657,7 +666,11 @@ Aderenza
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo si calcolerà confrontando
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ la misurazione del raggiungimento di questo obiettivo si calcolerà confrontando
  il numero di esecuzioni totale con quelle andate a buon fine e che hanno
  mantenuto un livello di prestazioni tali da poter permettere l'utilizzo
  previsto del prodotto.
@@ -699,8 +712,12 @@ Conformità
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo sarà determinata dal
- tempo necessario per ottenere una risposta dal servizio sia in condizioni
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ la misurazione del raggiungimento di questo obiettivo sarà determinata
+ dal tempo necessario per ottenere una risposta dal servizio sia in condizioni
  normali che in condizioni di sovraccarico.
 \end_layout
 
@@ -758,7 +775,11 @@ tà
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo sarà costituita dalla
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ la misurazione del raggiungimento di questo obiettivo sarà costituita dalla
  capacità dell'applicativo di adattarsi ai vari tipi di ambienti in cui
  esso verrà eseguito come ambienti 
 \bar under
@@ -820,7 +841,11 @@ Testabilità
 \end_layout
 
 \begin_layout Standard
-La misurazione del raggiungimento di questo obiettivo saranno legate al
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ la misurazione del raggiungimento di questo obiettivo saranno legate al
  rispetto delle misure metriche descritte nel capitolo 2.5.3
 \end_layout
 
@@ -870,7 +895,11 @@ Sostituibilità
 \end_layout
 
 \begin_layout Standard
-L'applicazione 
+
+\series bold
+Quantificazione del raggiungimento dell'obbiettivo di qualità:
+\series default
+ l'applicazione 
 \bar under
 desktop
 \bar default

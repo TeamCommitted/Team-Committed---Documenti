@@ -119,9 +119,14 @@ Tipo, obiettivo e funzione del componente:
 \series default
 Il Presentation Tier si occupa di gestire le connessioni con i vari Front-End,
  passando le richieste di lettura o inserimento dati al livello inferiore
- e traducendo le relative risposte in xml per poi rimandarle ai relativi
- Front-End; gestisce inoltre eventuali crash dei Front-End.
+ e traducendo eventualmente le risposte in xml per poi rimandarle ai relativi
+ Front-End; 
 \series bold
+\emph on
+\bar under
+!!!!!gestisce inoltre eventuali crash dei Front-End.!!!!!
+\emph default
+\bar default
 
 \begin_inset Newline newline
 \end_inset
@@ -240,7 +245,7 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- La classe utilizza metodi della classe Facade GestioneDati per inviare
+ La classe utilizza metodi della classe Façade GestioneDati per inviare
  richieste di inserimento o lettura dati da database, inviandone le relative
  risposte alla classe richiedente del relativo Front-End Mobile.
 \begin_inset Newline newline
@@ -268,7 +273,26 @@ La classe riceve richieste di connessione dai vari Front-End Mobile e si
 \end_layout
 
 \begin_layout Subsection
-Logi Tier
+Logic Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Il Logic Tier è deputato allo svolgimento di tutte le funzioni di sistema,
+ fornendo metodi di richiesta ed elaborazione dati allo strato superiore.
+ Comunica inoltre con il Data Access Tier, deputato al recupero dei dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Il Logic Tier richiama funzioni dal Data AccessTier, mentre espone funzioni
+ al Presentation Tier.
 \end_layout
 
 \begin_layout Subsubsection
@@ -280,7 +304,19 @@ com.safetyGame.back.controller.GestioneDati
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
-.
+ Fa parte del Façade.
+ Offre tutte le funzioni delle classi Gestione (tranne GestioneLog) al package
+ connection del Presentation-tier.
+ Quando una funzione viene chiamata, chiama la relativa funzione della classe
+ che la contiene, non possiedendo altre istruzioni che 
+\begin_inset Quotes eld
+\end_inset
+
+reindirizzamenti
+\begin_inset Quotes erd
+\end_inset
+
+ delle chiamate di metodi.
 \begin_inset Newline newline
 \end_inset
 
@@ -288,7 +324,13 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- .
+ I metodi interni alla classe chiamano i metodi delle altre classe facenti
+ parte del package 
+\emph on
+back.controller
+\emph default
+ quando, a loro volta, verranno chiamati.
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -296,13 +338,20 @@ Relazioni d'uso di altre componenti:
 \series bold
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
-.
+La classe viene utilizzata dai membri del package 
+\emph on
+back.connection
+\emph default
+ per svolgere tutte le operazioni deputate dal back-end.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
 Attività svolte e dati trattati: 
+\series default
+La sua funzione è quella di reindirizzare le chiamate dal Presentation-Tier
+ alle classi deputate alla gestione delle richieste.
 \end_layout
 
 \begin_layout Subsubsection
@@ -312,7 +361,7 @@ name "sub:com.safetyGame.back.controller.C"
 
 \end_inset
 
-com.safetyGame.back.controller.ControllerLogin
+com.safetyGame.back.controller.GestioneLogin
 \end_layout
 
 \begin_layout Standard
@@ -320,7 +369,7 @@ com.safetyGame.back.controller.ControllerLogin
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- La classeControllerLogin viene utilizzata per fornire funzioni di login
+ La classe GestioneLogin viene utilizzata per fornire funzioni di login
  agli applicativi
 \bar under
  front-end
@@ -333,8 +382,15 @@ Tipo, obiettivo e funzione del componente:
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
-La classe utilizza metodi della classe CheckLogin del package Checker ed
- utilizza oggetti di tipo Login del package condivisi per scambiare dati.
+ La classe utilizza metodi della classe 
+\emph on
+SqlDAOLogin
+\emph default
+ del package 
+\emph on
+back.access
+\emph default
+ ed utilizza oggetti di tipo Login del package condivisi per scambiare dati.
 \series bold
 
 \begin_inset Newline newline
@@ -355,8 +411,8 @@ front-end
 Attività svolte e dati trattati: 
 \series default
 La classe riceve richieste di autenticazione tramite la ricezione di oggetti
- Login e le invia a Checklogin per verificarne la consistenza, notificando
- il ClientBackEnd del successo o fallimento dell'operazione.
+ Login e le invia a SqlDAOLogin per verificarne la consistenza, notificando
+ alla classe GestioneDati il successo o fallimento dell'operazione.
 \end_layout
 
 \begin_layout Subsubsection

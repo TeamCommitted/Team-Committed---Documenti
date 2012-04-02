@@ -1136,7 +1136,7 @@ hline
 
 \begin_layout Plain Layout
 
-pagine & RecuperoPassD & RFOB 4 
+pagine & RecuperoPass & RFOB 4 
 \backslash
 
 \backslash
@@ -1690,7 +1690,7 @@ hline
 
 \begin_layout Plain Layout
 
-control & ControlRecuperoPassD & RFOB 4 
+control & ControlRecuperoPass & RFOB 4 
 \backslash
 
 \backslash

@@ -73,7 +73,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename img/frontEndWeb.jpg
+	filename img/frontEndWeb.png
 	scale 20
 
 \end_inset
@@ -1065,7 +1065,7 @@ name "sub:com.safetyGame.web.view.RecuperoPassD"
 
 \end_inset
 
-com.safetyGame.frontWeb.pagine.RecuperoPassD
+com.safetyGame.frontWeb.pagine.RecuperoPass
 \end_layout
 
 \begin_layout Standard
@@ -1076,8 +1076,8 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe RecuperoPassD definisce la struttura, e la conseguente visualizzazione
-, della pagina web che consente ad un 
+La classe RecuperoPass definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un 
 \bar under
 Dipendente 
 \bar default
@@ -1092,9 +1092,9 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe RecuperoPassD utilizza i metodi messi a disposizione della classe
- ControlRecuperoPassD, contenuta nel package control, per verificare le
- azioni compiute dal 
+La classe RecuperoPass utilizza i metodi messi a disposizione della classe
+ ControlRecuperoPass, contenuta nel package control, per verificare le azioni
+ compiute dal 
 \bar under
 Dipendente
 \bar default
@@ -1107,7 +1107,7 @@ Dipendente
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- La classe viene utilizzata dalla classe ControlRecuperoPassD perchè viene
+ La classe viene utilizzata dalla classe ControlRecuperoPass perchè viene
  aggiornata da questa a seconda delle azioni che compie un 
 \bar under
 Dipendente
@@ -1129,7 +1129,7 @@ di visualizzare la pagina di recupero password.
 \bar under
 Dipendente 
 \bar default
-compia un'azione sulla pagina, per poi delegare la classe ControlRecuperoPassD
+compia un'azione sulla pagina, per poi delegare la classe ControlRecuperoPass
  di effettuare i controlli del caso.
 \end_layout
 
@@ -1954,7 +1954,7 @@ name "sub:com.safetyGame.web.view.ControlRecuperoPassD"
 
 \end_inset
 
-com.safetyGame.frontWeb.control.ControlRecuperoPassD
+com.safetyGame.frontWeb.control.ControlRecuperoPass
 \end_layout
 
 \begin_layout Standard
@@ -1965,7 +1965,7 @@ Tipo, obiettivo e funzione del componente:
 \emph on
  
 \emph default
-La classe ControlRecuperoPassD si occupa di gestire le pagine web che consentono
+La classe ControlRecuperoPass si occupa di gestire le pagine web che consentono
  ad un Dipendente autenticato, che ha smarrito la propria password, di recuperar
 la.
 \begin_inset Newline newline
@@ -1978,8 +1978,8 @@ Relazioni d'uso di altre componenti:
 \emph on
  
 \emph default
-La classe ControlRecuperoPassD utilizza i metodi messi a disposizione della
- classe ControlRecuperoPassD contenuta nel package pagine.
+La classe ControlRecuperoPass utilizza i metodi messi a disposizione della
+ classe ControlRecuperoPass contenuta nel package pagine.
  Usa i metodi di questa classe per aggiornare l'interfaccia web che consente
  ad un Dipendente di recuperare la password smarrita.
 \series bold
@@ -1989,7 +1989,7 @@ La classe ControlRecuperoPassD utilizza i metodi messi a disposizione della
 
 Interfacce con e relazioni d'uso da altre componenti:
 \series default
- La classe viene utilizzata dalla classe RecuperoPassD per tenere aggiornato
+ La classe viene utilizzata dalla classe RecuperoPass per tenere aggiornato
  il proprio stato.
 \begin_inset Newline newline
 \end_inset
