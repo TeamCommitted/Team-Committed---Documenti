@@ -1,7 +1,7 @@
 la classe indirizzo ha due variabili oggetto interne, la prima è l'oggetto Connection, che permette la connessione al database Sql, la seconda è l'oggetto Statement che contiene l'insieme delle risorse indirizzate al, o di ritorno dal, databaseSql.
 
-la classe ha definito due costruttori e un distruttore:
--) il costruttore Sql crea un oggetto Indirizzi che punta ad un server con un database, inizializzando l'oggetto  Connection e Statement. Richiede la stringa contenente il link al database, le stringhe utente e password per accedere al database.
+la classe ha definito un costruttore e un distruttore:
+-) il costruttore crea un oggetto Indirizzi che punta ad un server con un database sql, inizializzando l'oggetto  Connection e Statement. Richiede la stringa contenente il link al database, le stringhe utente e password per accedere al database.
 -) il distruttore, semplicemente, chiude le connessioni al database, quindi rilascia le risorse occupate dall'oggetto Statement e chiude la connessione dell'oggetto Connection
 
 vi sono 4 funzioni per i database:
