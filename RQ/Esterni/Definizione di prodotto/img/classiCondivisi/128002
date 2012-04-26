@@ -769,7 +769,7 @@ ${members}}
 	  b parent class_ref 141698 // TrofeoAssegnato
       end
 
-      operation 145666 "addTrofeo"
+      operation 145666 "addBadge"
 	public explicit_return_type "void"
 	nparams 1
 	  param in name "trofeo" type class_ref 134786 // Badge
@@ -782,8 +782,8 @@ ${members}}
 	
       end
 
-      operation 145794 "getTrofei"
-	public explicit_return_type "<<vector>>Trofeo"
+      operation 145794 "getBadges"
+	public explicit_return_type "<<vector>>Badge"
 	nparams 0
 	
 	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{

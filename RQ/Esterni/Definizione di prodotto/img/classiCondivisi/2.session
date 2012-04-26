@@ -1,18 +1,17 @@
 window_sizes 1366 719 250 1110 645 0
 diagrams
   active  classdiagram_ref 128002 // classi
-    1110 645 100 4 572 0
+    1110 645 100 4 0 0
 end
 show_stereotypes
-selected operation_ref 148610 // Domanda
+selected operation_ref 145794 // getBadges
 open
   attribute_ref 128002 // Dipendente
   attribute_ref 128130 // giorno
   operation_ref 148098 // DataOra
-  operation_ref 148354 // Dipendente
   classrelation_ref 134658 // <directional aggregation>
   classrelation_ref 134914 // <directional aggregation>
-  operation_ref 148226 // Trofeo
+  operation_ref 148226 // Badge
   operation_ref 137346 // set_nome
   class_ref 134914 // AssegnazTrofeo
   operation_ref 147714 // Punteggio
@@ -21,5 +20,6 @@ open
   operation_ref 138626 // Domanda
   operation_ref 148610 // Domanda
   class_ref 141698 // TrofeoAssegnato
+  class_ref 148226 // Recupero
 end
 end
