@@ -1,6 +1,6 @@
 format 74
 "condivisi" // condivisi
-  revision 3
+  revision 4
   modified_by 2 "acornagl"
   // class settings
   //class diagram settings
@@ -577,10 +577,17 @@ ${members}}
 
       operation 137474 "Dipendente"
 	public explicit_return_type ""
-	nparams 1
-	  param in name "codFisc" explicit_type "string"
+	nparams 8
+	  param in name "cf" explicit_type "string"
+	  param in name "p" type class_ref 135042 // Punteggio
+	  param in name "n" explicit_type "string"
+	  param in name "c" explicit_type "string"
+	  param in name "m" explicit_type "string"
+	  param in name "nick" explicit_type "string"
+	  param in name "p" explicit_type "string"
+	  param in name "r" explicit_type "string"
 	
-	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}${)}${throws} {
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}, ${t3} ${p3}, ${t4} ${p4}, ${t5} ${p5}, ${t6} ${p6}, ${t7} ${p7}${)}${throws} {
   ${body}}
 "
 	
@@ -639,8 +646,8 @@ ${members}}
 	set_of_attribute attribute_ref 135426 // codFiscale
       end
 
-      attribute 135554 "trofei"
-	private type class_ref 134786 // Trofeo
+      attribute 135554 "badges"
+	private type class_ref 134786 // Badge
 	stereotype "vector"
 	cpp_decl ""
 	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
@@ -648,8 +655,6 @@ ${members}}
 	php_decl ""
 	python_decl ""
 	idl_decl ""
-	get_oper operation_ref 145410 // get_trofei
-	set_oper operation_ref 145538 // set_trofei
       end
 
       classrelation 134658 // <directional aggregation>
@@ -658,7 +663,7 @@ ${members}}
 	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
 "
 	    classrelation_ref 134658 // <directional aggregation>
-	  b parent class_ref 134786 // Trofeo
+	  b parent class_ref 134786 // Badge
 	  association_type class_ref 134914 // AssegnazTrofeo
       end
 
@@ -767,7 +772,7 @@ ${members}}
       operation 145666 "addTrofeo"
 	public explicit_return_type "void"
 	nparams 1
-	  param in name "trofeo" type class_ref 134786 // Trofeo
+	  param in name "trofeo" type class_ref 134786 // Badge
 	
 	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
   ${body}}
@@ -1061,9 +1066,18 @@ ${members}}
 	idl_name_spec "set_${name}"
 	set_of_attribute attribute_ref 137218 // ruolo
       end
+
+      classrelation 148226 // <directional aggregation>
+	relation 148226 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 148226 // <directional aggregation>
+	  b parent class_ref 134786 // Badge
+      end
     end
 
-    class 134786 "Trofeo"
+    class 134786 "Badge"
       visibility package 
       cpp_decl ""
       java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
@@ -1086,7 +1100,7 @@ ${members}}
 	set_oper operation_ref 137346 // set_nome
       end
 
-      operation 137602 "Trofeo"
+      operation 137602 "Badge"
 	public explicit_return_type ""
 	nparams 1
 	  param in name "nome" explicit_type "string"
@@ -1099,7 +1113,7 @@ ${members}}
 	
       end
 
-      operation 148226 "Trofeo"
+      operation 148226 "Badge"
 	public explicit_return_type ""
 	nparams 0
 	
@@ -1149,7 +1163,6 @@ ${members}}
 	idl_name_spec "set_${name}"
 	set_of_attribute attribute_ref 135682 // nome
       end
-
     end
 
     class 134914 "AssegnazTrofeo"
@@ -1488,7 +1501,7 @@ ${members}}
 	  a public
 	    java "${type}"
 	    classrelation_ref 141570 // <generalisation>
-	  b parent class_ref 134786 // Trofeo
+	  b parent class_ref 134786 // Badge
       end
 
       attribute 143874 "data"
@@ -1540,6 +1553,146 @@ ${members}}
 	
 	idl_name_spec "set_${name}"
 	set_of_attribute attribute_ref 143874 // data
+      end
+    end
+
+    class 148226 "Recupero"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 150402 "codFiscale"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 155394 // get_codFiscale
+	set_oper operation_ref 155522 // set_codFiscale
+      end
+
+      attribute 150530 "email"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 155650 // get_email
+	set_oper operation_ref 155778 // set_email
+      end
+
+      operation 155138 "Recupero"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 155266 "Recupero"
+	public explicit_return_type ""
+	nparams 2
+	  param in name "codFisc" explicit_type "string"
+	  param in name "email" explicit_type "string"
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 155394 "get_codFiscale"
+	force_body_gen const cpp_inline public explicit_return_type "string"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return codFiscale;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 150402 // codFiscale
+      end
+
+      operation 155522 "set_codFiscale"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "string"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  codFiscale = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 150402 // codFiscale
+      end
+
+      operation 155650 "get_email"
+	force_body_gen const cpp_inline public explicit_return_type "string"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return email;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 150530 // email
+      end
+
+      operation 155778 "set_email"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "string"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  email = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 150530 // email
       end
     end
   end
