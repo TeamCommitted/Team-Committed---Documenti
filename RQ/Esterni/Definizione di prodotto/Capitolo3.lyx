@@ -118,6 +118,11 @@ setter
 \end_layout
 
 \begin_layout Standard
+Inoltre, quando si tratteranno le classi relative ad un package, il nome
+ del package di appartenenza verrà omesso.
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
 filename "Capitolo4.lyx"
