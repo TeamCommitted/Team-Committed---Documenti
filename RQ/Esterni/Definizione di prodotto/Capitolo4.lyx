@@ -129,5 +129,129 @@ end{center}
 
 \end_layout
 
+\begin_layout Subsubsection
+Package com.safetygame.back.connection
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com.safetygame.android.view
+\series default
+ e le sue relazioni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Tipo, obiettivo e funzione del componente:
+\series default
+ contiene gli oggetti deputati all'interfacciamento dei vari front-end con
+ il back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza la classe 
+\series bold
+com.safetygame.back.controller.GestioneDati 
+\series default
+per inoltrare le richieste che provengono dai vari front-end verso gli strati
+ inferiori del back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetygame.back.controller.GestioneDati 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del back-end
+ verso i vari front-end
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i vari front-end e il back-end, divenendo il componente
+ 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
+ che compongono il package.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma delle classi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
