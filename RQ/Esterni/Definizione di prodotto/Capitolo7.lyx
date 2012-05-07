@@ -59,8 +59,8 @@
 
 \begin_body
 
-\begin_layout Subsection
-Front-end Mobile
+\begin_layout Section
+Specifica Front-end Mobile
 \end_layout
 
 \begin_layout Standard
@@ -125,7 +125,7 @@ Front-end Mobile, diagramma dei package
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Package com.safetygame.android.view
 \end_layout
 
