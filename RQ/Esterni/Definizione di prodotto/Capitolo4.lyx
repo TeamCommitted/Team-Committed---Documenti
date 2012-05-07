@@ -406,7 +406,67 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Subsubsection
-Classe WebConnection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+nec
+\series bold
+\SpecialChar \-
+
+\series default
+tion.WebConnection
 \end_layout
 
 \begin_layout Standard
@@ -647,7 +707,67 @@ asdasdasdsa
 \end_layout
 
 \begin_layout Subsubsection
-Classe MobileConnection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+nec
+\series bold
+\SpecialChar \-
+
+\series default
+tion.MobileConnection
 \end_layout
 
 \begin_layout Standard
@@ -984,7 +1104,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneDati
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneDati
 \end_layout
 
 \begin_layout Standard
@@ -1088,7 +1268,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneLogin
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneLogin
 \end_layout
 
 \begin_layout Standard
@@ -1192,7 +1432,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneDomandeD
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneDomandeD
 \end_layout
 
 \begin_layout Standard
@@ -1296,7 +1596,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneDomandeAS
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneDomandeAS
 \end_layout
 
 \begin_layout Standard
@@ -1400,7 +1760,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestionePunteggiD
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestionePunteggiD
 \end_layout
 
 \begin_layout Standard
@@ -1504,7 +1924,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestionePunteggiAA
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestionePunteggiAA
 \end_layout
 
 \begin_layout Standard
@@ -1608,7 +2088,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneDipendentiD
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneDipendentiD
 \end_layout
 
 \begin_layout Standard
@@ -1712,7 +2252,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneDipendentiAA
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneDipendentiAA
 \end_layout
 
 \begin_layout Standard
@@ -1816,7 +2416,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneTrofeiD
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneTrofeiD
 \end_layout
 
 \begin_layout Standard
@@ -1920,7 +2580,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneTrofeiAS
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneTrofeiAS
 \end_layout
 
 \begin_layout Standard
@@ -2024,7 +2744,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneRecupero
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneRecupero
 \end_layout
 
 \begin_layout Standard
@@ -2128,7 +2908,67 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe GestioneLog
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneLog
 \end_layout
 
 \begin_layout Standard
@@ -2328,7 +3168,107 @@ MVP
 \end_layout
 
 \begin_layout Subsubsection
-Classe DAOFactory
+Interfaccia com.safetyGame.back.access.DAOFactory
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.SqlDAOFactory
 \end_layout
 
 \begin_layout Standard
@@ -2432,7 +3372,107 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe DAOFactory
+Interfaccia com.safetyGame.back.access.DAOLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.SqlDAOLogin
 \end_layout
 
 \begin_layout Standard
@@ -2536,7 +3576,107 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe SqlDAOLogin
+Interfaccia com.safetyGame.back.access.DAODipendenti
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.SqlDAODipendenti
 \end_layout
 
 \begin_layout Standard
@@ -2640,7 +3780,107 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe DAODipendenti
+Interfaccia com.safetyGame.back.access.DAODomande
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.SqlDAODomande
 \end_layout
 
 \begin_layout Standard
@@ -2744,7 +3984,151 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe SqlDAODipendenti
+Interfaccia com.safetyGame.back.access.DAOPunteggi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+.access
+\series default
+.SqlDAOPunteggi
 \end_layout
 
 \begin_layout Standard
@@ -2848,7 +4232,107 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe DAODomande
+Interfaccia com.safetyGame.back.access.DAOTrofei
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.SqlDAOTrofei
 \end_layout
 
 \begin_layout Standard
@@ -2952,7 +4436,831 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-Classe SqlDAODomande
+com.safetyGame.back.access.UpdateLog
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.access.Indirizzi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.back.condivisi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Recupero
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Domanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Dipendente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Punteggio
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Trofeo
 \end_layout
 
 \begin_layout Standard
