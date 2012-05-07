@@ -119,6 +119,9 @@ Back-end, diagramma dei package
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -165,8 +168,8 @@ ba\SpecialChar \-
 ck\SpecialChar \-
 .\SpecialChar \-
 con\SpecialChar \-
-trol\SpecialChar \-
-ler
+nec\SpecialChar \-
+tion
 \series default
  e le sue relazioni
 \end_layout
@@ -311,6 +314,10 @@ Diagramma delle classi
 
 \begin_layout Paragraph
 Classe com.safetygame.connection.WebConnection
+\begin_inset Newline linebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -325,12 +332,11 @@ Front-end Web
  che del 
 \emph on
 Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
 \series bold
-\emph default
-
-\begin_inset Newline newline
-\end_inset
-
 Relazioni d'uso di altre componenti:
 \series default
  utilizza il package 
@@ -361,12 +367,11 @@ Desktop
  ai controlli logici del 
 \emph on
 Back-End
+\end_layout
+
+\begin_layout Standard
+
 \series bold
-\emph default
-
-\begin_inset Newline newline
-\end_inset
-
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
  viene utilizzato dalla classe 
@@ -403,12 +408,11 @@ Front-End Web
 e 
 \emph on
 Desktop
+\end_layout
+
+\begin_layout Standard
+
 \series bold
-\emph default
-
-\begin_inset Newline newline
-\end_inset
-
 Attività svolte e dati trattati:
 \series default
  fa da connettore fra i 
@@ -428,11 +432,11 @@ Presenter
 MVP
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 - GestioneDati dati
 \end_layout
 
@@ -450,110 +454,398 @@ Front-End Web
 Desktop
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
++ WebConnection(GestioneDati dati)
+\end_layout
+
+\begin_layout Subsubsection*
 + Dipendente getDati(String username)
 \end_layout
 
-\begin_layout Standard
-Richiede un oggetto di tipo 
-\series bold
-Dipendente
-\series default
-, chiedendo un username.
- 
-\end_layout
-
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + boolean login(String username, String password)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + Punteggio getStat(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + Badge[] getBadge(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modPass(String pass, String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modMail(String mail, String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void resetPass(String username, String codfis, String mail)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + Domanda mostraDomanda(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void posticipa(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + boolean rispondi(String username, String risposta)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void logout(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + Domanda[] getElencoDomande(boolean interne)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void aggiungiDomanda(int id)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Standard
+asdasdasdsa
+\end_layout
+
+\begin_layout Subsubsection*
 + void cancellaDomanda(int id)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + Dipendente[] getElencoDipendenti()
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void setTrofei(String dipendente, int n)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + boolean aggiungiDipendente(String nome, String cognome, String codfis,
  String mail, String impiego)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + boolean cancellaDipendente(String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modNome(String username, String nome)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modCognome(String username, String cognome)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modCodFis(String username, String codfis)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modUsername(String usernameOld, String username)
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 + void modImpiego(String username, String impiego)
+\end_layout
+
+\begin_layout Paragraph
+Classe com.safetygame.connection.MobileConnection
+\begin_inset Newline linebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ 
+\series medium
+la classe si occupa di gestire le richieste del 
+\emph on
+Front-End Mobile
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+ba\SpecialChar \-
+ck\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dal 
+\emph on
+Front-end Mobile 
+\emph default
+ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+ba\SpecialChar \-
+ck\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso il 
+\emph on
+Front-End Mobile
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra il 
+\emph on
+Front-End Mobile
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+Package com.safetygame.back.controller
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+ba\SpecialChar \-
+ck\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler
+\series default
+ e le sue relazioni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ contiene gli oggetti deputati all'interfacciamento dei vari front-end con
+ il back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza la classe 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+ba\SpecialChar \-
+ck\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le richieste che provengono dai vari front-end verso gli strati
+ inferiori del back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+ba\SpecialChar \-
+ck\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del back-end
+ verso i vari front-end
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i vari front-end e il back-end, divenendo il componente
+ 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
+ che compongono il package.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma delle classi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
