@@ -1,7 +1,7 @@
 format 74
 "backController"
-  revision 1
-  modified_by 2 "acornagl"
+  revision 2
+  modified_by 5 "ale"
 
 
   
@@ -53,7 +53,7 @@ format 74
     package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
     show_infonote default drawing_language default show_stereotype_properties default
     classdiagram 128002 "backController"
-      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      draw_all_relations no hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
       size A4
     end
 
@@ -180,6 +180,34 @@ ${members}}
 	
 	
 	
+      end
+
+      classrelation 128005 // <directional aggregation>
+	relation 128005 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128005 // <directional aggregation>
+	  b parent class_ref 128258 // GestioneLog
+      end
+
+      attribute 128005 "gestioneLog"
+	private type class_ref 128258 // GestioneLog
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      classrelation 128261 // <directional aggregation>
+	relation 128261 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128261 // <directional aggregation>
+	  b parent class_ref 128514 // GestionePunteggiD
       end
     end
 
@@ -599,6 +627,25 @@ ${members}}
 	
 	
       end
+
+      classrelation 128133 // <directional aggregation>
+	relation 128133 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128133 // <directional aggregation>
+	  b parent class_ref 128258 // GestioneLog
+      end
+
+      attribute 128133 "gestioneLog"
+	private type class_ref 128258 // GestioneLog
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
     end
 
     class 128898 "GestioneDipendentiAA"
@@ -839,6 +886,108 @@ ${members}}
 	
 	
 	
+      end
+    end
+
+    class 128005 "GestioneDati"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      classrelation 128389 // <directional aggregation>
+	relation 128389 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128389 // <directional aggregation>
+	  b parent class_ref 128002 // GestioneLogin
+      end
+
+      classrelation 128517 // <directional aggregation>
+	relation 128517 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128517 // <directional aggregation>
+	  b parent class_ref 128770 // GestioneDipendentiD
+      end
+
+      classrelation 128645 // <directional aggregation>
+	relation 128645 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128645 // <directional aggregation>
+	  b parent class_ref 128130 // GestioneDomandeD
+      end
+
+      classrelation 128773 // <directional aggregation>
+	relation 128773 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128773 // <directional aggregation>
+	  b parent class_ref 129026 // GestioneBadgeD
+      end
+
+      classrelation 128901 // <directional aggregation>
+	relation 128901 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128901 // <directional aggregation>
+	  b parent class_ref 128386 // GestioneDomandeAS
+      end
+
+      classrelation 129029 // <directional aggregation>
+	relation 129029 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129029 // <directional aggregation>
+	  b parent class_ref 129282 // GestioneRecupero
+      end
+
+      classrelation 129157 // <directional aggregation>
+	relation 129157 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129157 // <directional aggregation>
+	  b parent class_ref 129154 // GestioneBadgeAS
+      end
+
+      classrelation 129285 // <directional aggregation>
+	relation 129285 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129285 // <directional aggregation>
+	  b parent class_ref 128898 // GestioneDipendentiAA
+      end
+
+      classrelation 129413 // <directional aggregation>
+	relation 129413 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129413 // <directional aggregation>
+	  b parent class_ref 128642 // GestionePunteggiAA
+      end
+
+      classrelation 129541 // <directional aggregation>
+	relation 129541 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129541 // <directional aggregation>
+	  b parent class_ref 128514 // GestionePunteggiD
       end
     end
   end
