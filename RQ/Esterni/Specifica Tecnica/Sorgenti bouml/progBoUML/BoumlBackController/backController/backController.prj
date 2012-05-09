@@ -1,7 +1,7 @@
 format 74
 "backController"
-  revision 2
-  modified_by 5 "ale"
+  revision 3
+  modified_by 2 "acornagl"
 
 
   
@@ -988,6 +988,15 @@ ${members}}
 "
 	    classrelation_ref 129541 // <directional aggregation>
 	  b parent class_ref 128514 // GestionePunteggiD
+      end
+
+      classrelation 134530 // <directional aggregation>
+	relation 134530 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 134530 // <directional aggregation>
+	  b parent class_ref 128258 // GestioneLog
       end
     end
   end
