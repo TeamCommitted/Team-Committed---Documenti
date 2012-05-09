@@ -13,11 +13,11 @@ classcanvas 128514 class_ref 128130 // DataOra
 end
 classcanvas 128770 class_ref 134658 // Dipendente
   draw_all_relations default hide_attributes no hide_operations no hide_getset_operations no show_members_full_definition yes show_members_visibility yes show_members_stereotype no show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir no show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
-  xyz 6.1 4.8 2000
+  xyz 3.1 6.8 2000
 end
 classcanvas 129026 class_ref 134786 // Badge
   draw_all_relations default hide_attributes no hide_operations no hide_getset_operations no show_members_full_definition yes show_members_visibility yes show_members_stereotype yes show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir no show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
-  xyz 638.4 15.2 2000
+  xyz 585.4 13.2 2000
 end
 classcanvas 129666 class_ref 135042 // Punteggio
   draw_all_relations default hide_attributes no hide_operations no hide_getset_operations no show_members_full_definition yes show_members_visibility yes show_members_stereotype yes show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir no show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
@@ -33,10 +33,10 @@ classcanvas 130178 class_ref 141698 // TrofeoAssegnato
 end
 classcanvas 130818 class_ref 148226 // Recupero
   draw_all_relations default hide_attributes no hide_operations no hide_getset_operations no show_members_full_definition yes show_members_visibility yes show_members_stereotype yes show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir no show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language uml show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
-  xyz 577 223.1 2005
+  xyz 578 264.1 2005
 end
 relationcanvas 128642 relation_ref 128002 // <directional aggregation>
-  decenter_end 612
+  decenter_end 611
   from ref 128002 z 2006 to ref 128514
   role_a_pos 669 721 3000 no_role_b
   multiplicity_a_pos 644 721 3000 no_multiplicity_b
@@ -44,7 +44,7 @@ end
 relationcanvas 128898 relation_ref 134530 // <directional aggregation>
   decenter_end 842
   from ref 128002 z 2001 to ref 128770
-  role_a_pos 569 476 3000 no_role_b
+  role_a_pos 566 477 3000 no_role_b
   no_multiplicity_a no_multiplicity_b
 end
 relationcanvas 129794 relation_ref 134914 // <directional aggregation>
@@ -60,7 +60,7 @@ relationcanvas 130050 relation_ref 135042 // <directional aggregation>
   no_multiplicity_a no_multiplicity_b
 end
 relationcanvas 130690 relation_ref 148226 // <directional aggregation>
-  decenter_begin 125
+  decenter_begin 208
   from ref 128770 z 2001 to ref 129026
   no_role_a no_role_b
   no_multiplicity_a no_multiplicity_b

@@ -1,6 +1,6 @@
 format 74
 "condivisi" // condivisi
-  revision 4
+  revision 5
   modified_by 2 "acornagl"
   // class settings
   //class diagram settings
@@ -1102,10 +1102,12 @@ ${members}}
 
       operation 137602 "Badge"
 	public explicit_return_type ""
-	nparams 1
-	  param in name "nome" explicit_type "string"
+	nparams 3
+	  param in name "n" explicit_type "string"
+	  param in name "d" explicit_type "string"
+	  param in name "p" type class_ref 135042 // Punteggio
 	
-	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}${)}${throws} {
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}${)}${throws} {
   ${body}}
 "
 	
@@ -1162,6 +1164,108 @@ ${members}}
 	
 	idl_name_spec "set_${name}"
 	set_of_attribute attribute_ref 135682 // nome
+      end
+
+      attribute 157058 "descrizione"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 162306 // get_descrizione
+	set_oper operation_ref 162434 // set_descrizione
+      end
+
+      attribute 157186 "soglia"
+	private type class_ref 135042 // Punteggio
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 162562 // get_soglia
+	set_oper operation_ref 162690 // set_soglia
+      end
+
+      operation 162306 "get_descrizione"
+	force_body_gen const cpp_inline public explicit_return_type "string"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return descrizione;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 157058 // descrizione
+      end
+
+      operation 162434 "set_descrizione"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "string"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  descrizione = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 157058 // descrizione
+      end
+
+      operation 162562 "get_soglia"
+	force_body_gen const cpp_inline public return_type class_ref 135042 // Punteggio
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return soglia;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 157186 // soglia
+      end
+
+      operation 162690 "set_soglia"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" type class_ref 135042 // Punteggio
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  soglia = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 157186 // soglia
       end
     end
 
