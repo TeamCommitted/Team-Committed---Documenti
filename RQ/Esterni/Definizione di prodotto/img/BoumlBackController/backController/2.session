@@ -1,7 +1,7 @@
 window_sizes 1366 719 320 1040 645 0
 diagrams
   active  classdiagram_ref 128002 // backController
-    1040 645 100 4 0 0
+    1040 645 100 4 24 0
 end
 show_stereotypes
 selected operation_ref 132610 // recupero
