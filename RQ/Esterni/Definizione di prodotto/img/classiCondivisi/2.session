@@ -4,9 +4,11 @@ diagrams
     1110 645 100 4 0 0
 end
 show_stereotypes
-selected operation_ref 137474 // Dipendente
 open
+  attribute_ref 128898 // dataOra
   attribute_ref 128002 // Dipendente
+  operation_ref 135682 // set_Dipendente
+  operation_ref 184322 // isAutenticato
   attribute_ref 128130 // giorno
   operation_ref 148098 // DataOra
   classrelation_ref 134658 // <directional aggregation>

@@ -1,6 +1,6 @@
 format 74
 "backController"
-  revision 3
+  revision 4
   modified_by 2 "acornagl"
 
 
@@ -328,7 +328,7 @@ ${members}}
       end
 
       operation 129410 "scriviModEmailD"
-	public explicit_return_type ""
+	public explicit_return_type "void"
 	nparams 1
 	  param in name "d" explicit_type "Dipendente"
 	
@@ -340,8 +340,8 @@ ${members}}
 	
       end
 
-      operation 129538 "ottenimentoBadge"
-	public explicit_return_type ""
+      operation 129538 "ScriviOttenimentoBadge"
+	public explicit_return_type "void"
 	nparams 2
 	  param in name "d" explicit_type "Dipendente"
 	  param in name "b" explicit_type "Badge"
