@@ -1,0 +1,12 @@
+window_sizes 1350 700 337 1007 507 136
+diagrams
+  active  classdiagram_ref 128012 // condivisi
+    805 405 103 4 0 0
+end
+show_stereotypes
+selected operation_ref 128652 // getRisposte
+open
+  class_ref 128012 // Dati
+  class_ref 128140 // Domanda
+end
+end
