@@ -1454,8 +1454,27 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAOLogin daoLogin
+\end_layout
+
+\begin_layout Subsubsection*
+- GestioneLog gestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneLogin(DAOLogin d, GestioneLog g)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean checkLogin(Login login)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1622,8 +1641,35 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAODomande daoDomande
+\end_layout
+
+\begin_layout Subsubsection*
+- GestionePunteggiD gestionePunteggiD
+\end_layout
+
+\begin_layout Subsubsection*
+- GestioneLog gestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneDomandeD(DAODomande d, GestionePunteggiD gp, GestioneLog gl)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomanda(Login l)
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRisposta(Login l, Risposta r)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1790,8 +1836,35 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAODomande daDomande
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneDomandeAS(DAODomande d)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] getListaDomande()
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] getListaCalderone()
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomande(int [] idDom)
+\end_layout
+
+\begin_layout Subsubsection*
++ void eliminaDomande(int [] idDom)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1958,8 +2031,31 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAOPunteggi daoPunteggi
+\end_layout
+
+\begin_layout Subsubsection*
+- DAOBadge daoBadge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestionePunteggiD(DAOPunteggi dp, DAOBadge db)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatisticheAzienda()
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatistiche(Login l)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2126,8 +2222,39 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAOPunteggi daoPunteggi
+\end_layout
+
+\begin_layout Subsubsection*
+- DAOBadge daoBadge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestionePunteggiAA(DAOPunteggi dp, DAOBadge db)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatAzienda()
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatDipendente(Dipendente d)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatDomanda(Domanda d)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getBadge(int ultimi, Dipendente d)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2462,8 +2589,35 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAODipendenti daoDipendenti
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneDipendentiAA(DAODipendenti dp)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente [] getDipendenti()
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDipendente(Dipendente d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void eliminaDipendente(Dipendente d)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean modificaDipendente(Dipendente vecchio, Dipendente nuovo)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2531,7 +2685,7 @@ trol
 \SpecialChar \-
 
 \series default
-ler.GestioneTrofeiD
+ler.GestioneBadgeD
 \end_layout
 
 \begin_layout Standard
@@ -2630,8 +2784,35 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAOBadge daoBadge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneBadgeD(DAOBadge db)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getBadges()
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getDistanzaPunti(Login l, Badge b)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getMyBadges(Login l)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getDistanzaD(Login l, Badge b)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2699,7 +2880,7 @@ trol
 \SpecialChar \-
 
 \series default
-ler.GestioneTrofeiAS
+ler.GestioneBadgeAS
 \end_layout
 
 \begin_layout Standard
@@ -2798,8 +2979,27 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAOBadge daoBadge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneBadgeAS(DAOBadge db)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getBadges()
+\end_layout
+
+\begin_layout Subsubsection*
++ void creaBadges(Badge b)
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2966,8 +3166,27 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- String email
+\end_layout
+
+\begin_layout Subsubsection*
+- DAODipendente daoDipendente
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneRecupero(String email, DAODipendente dd)
+\end_layout
+
+\begin_layout Subsubsection*
++ bool recupero(Recupero r)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3134,8 +3353,55 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- UpdateLog updateLog
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneLog(UpdateLog ul)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviLogin(Login l)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviLogout(Login l)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomRic(Login l, Domanda d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomProp(Login l, Domanda d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomPost(Login l, Domanda d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomRisp(Login l, Domanda d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviModPassD(Dipendente d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviModEmailD(Dipendente d)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviOttenimentoBadge(Dipendente d, Badge b)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3374,6 +3640,110 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean loginLimitato(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolena login(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente getInfo(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomanda(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void posticipa(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void rispondi(Stirng username, String risposta)
+\end_layout
+
+\begin_layout Subsubsection*
++ void passD(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void passA(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void mailD(String mail, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getStat(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente [] elencoDipendenti()
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean aggiungiDipendente(String nome, String cognome, String codfis,
+ Stirng mail, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean cancellaDipendente(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modNome(String username, String nome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCognome(String username, String cognome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCodFis(String username, String codfis)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modUsername(String usernameOld, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modImpiego(String username, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean trofei(String username, int n)
+\end_layout
+
+\begin_layout Subsubsection*
++ void reset(String username, String codfis, String mail)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] badgeD(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] domandeA(boolean interne)
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void remDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void logout(String username)
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -5342,7 +5712,7 @@ MVP
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.back.condivisi.Login
+com.safetyGame.back.condivisi.Badge
 \end_layout
 
 \begin_layout Standard
@@ -5453,118 +5823,7 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.back.condivisi.Recupero
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.back.condivisi.Domanda
+com.safetyGame.back.condivisi.DataOra
 \end_layout
 
 \begin_layout Standard
@@ -5786,7 +6045,7 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.back.condivisi.Punteggio
+com.safetyGame.back.condivisi.Domanda
 \end_layout
 
 \begin_layout Standard
@@ -5897,7 +6156,7 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.back.condivisi.Trofeo
+com.safetyGame.back.condivisi.Login
 \end_layout
 
 \begin_layout Standard
@@ -5994,6 +6253,300 @@ MVP
 
 \begin_layout Subsection*
 Attributi
+\end_layout
+
+\begin_layout Subsubsection*
+- Dipendente dipendente
+\end_layout
+
+\begin_layout Subsubsection*
+- DataOra dataOra
+\end_layout
+
+\begin_layout Subsubsection*
+- boolean autenticato
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Login()
+\end_layout
+
+\begin_layout Subsubsection*
++ Login(Dipendente dipendente, DataOra dataora, boolean autenticato)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente getDipendente()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setDipendente(Dipendente dipendente)
+\end_layout
+
+\begin_layout Subsubsection*
++ DataOra getDataOra()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setDataOra(DataOra dataOra)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean isAutenticato()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setAutenticato(boolean autenticato)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Punteggio
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsubsection*
+- int punti
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio()
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio(int punti)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getPunti()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setPunti(int punti)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.condivisi.Recupero
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ la classe si occupa di gestire le richieste sia del 
+\emph on
+Front-end Web
+\emph default
+ che del 
+\emph on
+Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dai 
+\emph on
+Front-end Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra i 
+\emph on
+Front-End Web 
+\emph default
+e 
+\emph on
+Desktop
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Subsubsection*
+- String email
+\end_layout
+
+\begin_layout Subsubsection*
+- String codFiscale
 \end_layout
 
 \begin_layout Subsection*
