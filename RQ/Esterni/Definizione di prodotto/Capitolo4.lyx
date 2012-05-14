@@ -3480,8 +3480,144 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- Indirizzo serverDomande
+\end_layout
+
+\begin_layout Subsubsection*
+- Indirizzo serverAzienda
+\end_layout
+
+\begin_layout Subsubsection*
+- SqlDAOLogin login
+\end_layout
+
+\begin_layout Subsubsection*
+- SqlDAODipendenti dipendenti
+\end_layout
+
+\begin_layout Subsubsection*
+- SqlDAODomande domande
+\end_layout
+
+\begin_layout Subsubsection*
+- SqlDAOPunteggi punteggi
+\end_layout
+
+\begin_layout Subsubsection*
+- SqlDAOBadge badge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ SqlDAOFactory()
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean loginLimitato(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolena login(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente getInfo(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomanda(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void posticipa(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void rispondi(Stirng username, String risposta)
+\end_layout
+
+\begin_layout Subsubsection*
++ void passD(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void passA(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void mailD(String mail, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getStat(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente [] elencoDipendenti()
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean aggiungiDipendente(String nome, String cognome, String codfis,
+ Stirng mail, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean cancellaDipendente(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modNome(String username, String nome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCognome(String username, String cognome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCodFis(String username, String codfis)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modUsername(String usernameOld, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modImpiego(String username, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean trofei(String username, int n)
+\end_layout
+
+\begin_layout Subsubsection*
++ void reset(String username, String codfis, String mail)
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] badgeD(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] domandeA(boolean interne)
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void remDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void logout(String username)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3586,6 +3722,21 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean loginLimitato(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean login(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ void logout(String username)
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3694,6 +3845,21 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean loginLimitato(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean login(String username, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ void logout(String username)
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3798,6 +3964,66 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ void passD(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void passA(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void mailD(String mail, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getStat(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente[] elencoDipendenti()
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean aggiungiDipendente(String nome, String cognome, String codfis,
+ String mail, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean cancellaDipendente(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modNome(String username, String nome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCognome(String username, String cognome)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modCodFis(String username, String codfis)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modUsername(Stirng usernameOld, String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void modImpiego(String username, String impiego)
+\end_layout
+
+\begin_layout Subsubsection*
++ void trofei(String username, int n)
+\end_layout
+
+\begin_layout Subsubsection*
++ void reset(String username, String codfis, String mail)
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3908,60 +4134,60 @@ Attributi
 Metodi
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void passD(String pass, String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void passA(String pass, String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void mailD(String mail, String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + Punteggio getStat(String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + Dipendente[] elencoDipendenti()
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + boolean aggiungiDipendente(String nome, String cognome, String codfis,
  String mail, String impiego)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + boolean cancellaDipendente(String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void modNome(String username, String nome)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void modCognome(String username, String cognome)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void modCodFis(String username, String codfis)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void modUsername(Stirng usernameOld, String username)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void modImpiego(String username, String impiego)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void trofei(String username, int n)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 + void reset(String username, String codfis, String mail)
 \end_layout
 
