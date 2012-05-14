@@ -405,6 +405,13 @@ Diagramma delle classi
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com
 \series bold
@@ -706,6 +713,13 @@ asdasdasdsa
 + void modImpiego(String username, String impiego)
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com
 \series bold
@@ -872,6 +886,13 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1095,12 +1116,11 @@ Diagramma delle classi
 
 \end_layout
 
-\begin_layout Subsection*
-Attributi
-\end_layout
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Subsection*
-Metodi
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1267,6 +1287,13 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com
 \series bold
@@ -1429,6 +1456,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1593,6 +1624,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1757,6 +1792,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1921,6 +1960,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2085,6 +2128,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2249,6 +2296,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2413,6 +2464,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2577,6 +2632,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2741,6 +2800,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2905,6 +2968,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3069,6 +3136,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3165,6 +3236,44 @@ Presenter
  del design pattern 
 \emph on
 MVP
+\end_layout
+
+\begin_layout Standard
+Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
+ che compongono il package.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma delle classi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3265,6 +3374,10 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3369,6 +3482,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3469,6 +3586,10 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3573,6 +3694,10 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3673,6 +3798,10 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3780,6 +3909,70 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection
++ void passD(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection
++ void passA(String pass, String username)
+\end_layout
+
+\begin_layout Subsubsection
++ void mailD(String mail, String username)
+\end_layout
+
+\begin_layout Subsubsection
++ Punteggio getStat(String username)
+\end_layout
+
+\begin_layout Subsubsection
++ Dipendente[] elencoDipendenti()
+\end_layout
+
+\begin_layout Subsubsection
++ boolean aggiungiDipendente(String nome, String cognome, String codfis,
+ String mail, String impiego)
+\end_layout
+
+\begin_layout Subsubsection
++ boolean cancellaDipendente(String username)
+\end_layout
+
+\begin_layout Subsubsection
++ void modNome(String username, String nome)
+\end_layout
+
+\begin_layout Subsubsection
++ void modCognome(String username, String cognome)
+\end_layout
+
+\begin_layout Subsubsection
++ void modCodFis(String username, String codfis)
+\end_layout
+
+\begin_layout Subsubsection
++ void modUsername(Stirng usernameOld, String username)
+\end_layout
+
+\begin_layout Subsubsection
++ void modImpiego(String username, String impiego)
+\end_layout
+
+\begin_layout Subsubsection
++ void trofei(String username, int n)
+\end_layout
+
+\begin_layout Subsubsection
++ void reset(String username, String codfis, String mail)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Interfaccia com.safetyGame.back.access.DAODomande
 \end_layout
 
@@ -3877,6 +4070,37 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomanda(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void posticipa(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void rispondi(String username, String risposta)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda[] domandeA(boolean interne)
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void remDomanda(int id)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3983,6 +4207,37 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ Domanda getDomanda(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void posticipa(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ void rispondi(String username, String risposta)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda[] domandeA(boolean interne)
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomanda(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ void remDomanda(int id)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Interfaccia com.safetyGame.back.access.DAOPunteggi
 \end_layout
@@ -4081,6 +4336,21 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getStat(String username)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean trofei(String username, int n)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -4231,6 +4501,25 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ SqlDAOPunteggi()
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getStat(String username, Indirizzo serverAzienda)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean trofei(String username, int n, Indirizzo serverAzienda)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Interfaccia com.safetyGame.back.access.DAOTrofei
 \end_layout
@@ -4329,6 +4618,13 @@ MVP
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -4435,6 +4731,13 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com.safetyGame.back.access.UpdateLog
 \end_layout
@@ -4535,12 +4838,39 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- PrintWriter out
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ UpdateLog(String s)
+\end_layout
+
+\begin_layout Subsubsection*
++ void finalize()
+\end_layout
+
+\begin_layout Subsubsection*
++ void scrivi(String s)
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviChiudi(String s)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
-com.safetyGame.back.access.Indirizzi
+com.safetyGame.back.access.Indirizzo
 \end_layout
 
 \begin_layout Standard
@@ -4639,8 +4969,47 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- Connection conn
+\end_layout
+
+\begin_layout Subsubsection*
+- Statement connettore
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Indirizzo(Stirng database, String utente, String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ void finalize()
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean inserisciRiga(String tabella, String righe, String [] valori)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean modificaRiga(String tabella, String colonnevalori, String controlli)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean cancellaRiga(String tabella, String controlli)
+\end_layout
+
+\begin_layout Subsubsection*
++ ResultSet selezione(String colonne, String tabella, String controlli)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4737,6 +5106,13 @@ Presenter
  del design pattern 
 \emph on
 MVP
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -4843,6 +5219,13 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com.safetyGame.back.condivisi.Recupero
 \end_layout
@@ -4945,6 +5328,13 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -5051,6 +5441,13 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com.safetyGame.back.condivisi.Dipendente
 \end_layout
@@ -5155,6 +5552,13 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com.safetyGame.back.condivisi.Punteggio
 \end_layout
@@ -5257,6 +5661,13 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
