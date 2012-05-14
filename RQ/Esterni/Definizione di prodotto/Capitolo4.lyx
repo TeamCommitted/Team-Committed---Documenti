@@ -1287,6 +1287,146 @@ Attributi
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ Badge [] getBadge(int ultimi, Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getBadges() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getBadges() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Badge [] getMyBadges(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ bool recupero(Recupero r) 
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean checkLogin(Login login) 
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean modificaDipendente(Dipendente vecchio, Dipendente nuovo) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente [] getDipendenti() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] getListaCalderone() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda [] getListaDomande() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomanda(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomandaD(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ int getDistanzaD(Login l, Badge b) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatAzienda() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatDipendente(Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatDomanda(Domanda d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatistiche(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio [] getStatisticheAzienda() 
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getDistanzaPunti(Login l, Badge b) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDipendente(Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void addDomande(int [] idDom) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void creaBadges(Badge b) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void eliminaDipendente(Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void eliminaDomande(int [] idDom) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomPost(Login l, Domanda d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomProp(Login l, Domanda d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomRic(Login l, Domanda d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviDomRisp(Login l, Domanda d) 
+\end_layout
+
+\begin_layout Subsubsection*
++void scriviLogin(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviLogout(Login l) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviModEmailD(Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviModPassD(Dipendente d) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void scriviOttenimentoBadge(Dipendente d, Badge b) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRisposta(Login l, Risposta r) 
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRisposta(Login l, Risposta r) 
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -2421,8 +2561,35 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- DAODomande daoDomande
+\end_layout
+
+\begin_layout Subsubsection*
+- GestionePunteggiD gestionePunteggiD
+\end_layout
+
+\begin_layout Subsubsection*
+- GestioneLog gestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ GestioneDomandeD(DAODomande dd, GestionePunteggiD gpd, GestioneLog gl)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda getDomandaD(Login l)
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRisposta(Login l, Risposta r)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
