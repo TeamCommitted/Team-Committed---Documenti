@@ -5817,21 +5817,49 @@ connection
 \series bold
 Attività svolte e dati trattati:
 \series default
- fa da connettore fra i 
+ serve a trasferire le informazioni che dovranno essere condivise fra i
+ vari package che compongono il 
 \emph on
-Front-End Web 
+back-end
 \emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+.
+ In particolare si occuperà di contenere le informazioni riguardanti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Badge
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Domande
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Login
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Richieste di recupero password
 \end_layout
 
 \begin_layout Standard
@@ -5845,104 +5873,203 @@ MVP
 com.safetyGame.back.condivisi.Badge
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe fungerà da contenitore per i dati riguardanti i Badge che
+ sono stati inseriti all'interno del database aziendale
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+asdasddsa
 \end_layout
 
 \begin_layout Subsection*
 Attributi
 \end_layout
 
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+String
+\begin_inset space ~
+\end_inset
+
+nome 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Nome del badge
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+String
+\begin_inset space ~
+\end_inset
+
+descrizione 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione del badge (ex.
+ la motivazione per cui si è guadagnato questo badge)
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+Punteggio
+\begin_inset space ~
+\end_inset
+
+soglia 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Indica il quantitativo di punti necessari all'acquisizione del badge
+\end_layout
+
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Badge(String
+\begin_inset space ~
+\end_inset
+
+nome,
+\begin_inset space ~
+\end_inset
+
+String
+\begin_inset space ~
+\end_inset
+
+d,
+\begin_inset space ~
+\end_inset
+
+Punteggio
+\begin_inset space ~
+\end_inset
+
+p) 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questo costruttore dovrà impostare il valore degli attributi secondo il
+ valore dei parametri passati.
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Badge() 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Costruttore di default che dovrà inizializzare ogni attributo a 
+\series bold
+NULL
+\end_layout
+
+\begin_layout Standard
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\end_layout
+
+\begin_layout Subsubsection*
++ String getNome()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setNome(String nome)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getDescrizione()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setDescrizione(String descrizione)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getSoglia()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setSoglia(Punteggio soglia)
 \end_layout
 
 \begin_layout Standard
@@ -6221,7 +6348,7 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection*
-+ void setId(int id)
++ void setId(int id)sia 
 \end_layout
 
 \begin_layout Subsubsection*
