@@ -406,7 +406,7 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -665,11 +665,7 @@ Metodi
 \end_layout
 
 \begin_layout Subsubsection*
-+ void aggiungiDomanda(int id)
-\end_layout
-
-\begin_layout Standard
-asdasdasdsa
++ void aggiungiDomanda(int id
 \end_layout
 
 \begin_layout Subsubsection*
@@ -714,7 +710,7 @@ asdasdasdsa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -889,7 +885,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1117,7 +1113,7 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1428,7 +1424,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1615,7 +1611,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1810,7 +1806,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2005,7 +2001,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2196,7 +2192,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2395,7 +2391,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2590,7 +2586,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2785,7 +2781,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2980,7 +2976,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3166,8 +3162,8 @@ Metodi
 + void creaBadges(Badge b)
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset Newpage pagebreak
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3354,7 +3350,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3569,7 +3565,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3703,7 +3699,7 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3910,8 +3906,8 @@ Metodi
 + void logout(String username)
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset Newpage pagebreak
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4155,7 +4151,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4273,8 +4269,8 @@ Metodi
 + void logout(String username)
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset Newpage pagebreak
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4396,8 +4392,8 @@ Metodi
 + void logout(String username)
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset Newpage pagebreak
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4560,8 +4556,8 @@ Metodi
 + void reset(String username, String codfis, String mail)
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset Newpage pagebreak
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4729,7 +4725,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4860,7 +4856,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -4995,7 +4991,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5110,7 +5106,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5277,7 +5273,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5384,7 +5380,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5495,7 +5491,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5626,7 +5622,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5769,7 +5765,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5784,13 +5780,10 @@ Package com.safetyGame.back.condivisi
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- la classe si occupa di gestire le richieste sia del 
+ il package contiene le classi che conterranno le informazioni che dovranno
+ essere condivise fra i vari strati del 
 \emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+Back-end
 \end_layout
 
 \begin_layout Standard
@@ -5798,24 +5791,9 @@ Front-end Desktop
 \series bold
 Relazioni d'uso di altre componenti:
 \series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
+ non utilizza alcun componente del 
 \emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
+Back-end
 \end_layout
 
 \begin_layout Standard
@@ -5823,30 +5801,15 @@ Back-End
 \series bold
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
+ viene utilizzato da tutte le classi dei package 
 \emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
+controller, access 
 \emph default
 e 
 \emph on
-Desktop
+connection
+\emph default
+ per trasmettere informazioni complesse
 \end_layout
 
 \begin_layout Standard
@@ -5872,7 +5835,7 @@ MVP
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5983,7 +5946,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6094,7 +6057,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6200,12 +6163,145 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- int id
+\end_layout
+
+\begin_layout Subsubsection*
+- String codFiscale
+\end_layout
+
+\begin_layout Subsubsection*
+- ArrayList<Badge> badges
+\end_layout
+
+\begin_layout Subsubsection*
+- Punteggio punteggio
+\end_layout
+
+\begin_layout Subsubsection*
+- String nome
+\end_layout
+
+\begin_layout Subsubsection*
+- String cognome
+\end_layout
+
+\begin_layout Subsubsection*
+- String email
+\end_layout
+
+\begin_layout Subsubsection*
+- String nickname
+\end_layout
+
+\begin_layout Subsubsection*
+- String password
+\end_layout
+
+\begin_layout Subsubsection*
+- String ruolo
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ Dipendente()
+\end_layout
+
+\begin_layout Subsubsection*
++ Dipendente(int id, String cf, String n, String c, String e, String nn,
+ String p, String r, int pu)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getId()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setId(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getCodFiscale()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setCodFiscale(Stirng codFiscale)
+\end_layout
+
+\begin_layout Subsubsection*
++ ArrayList<Badge> getBadges()
+\end_layout
+
+\begin_layout Subsubsection*
++ void addBadge(Badge badge)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getPunteggio()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setPunteggio(Punteggio punteggio)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getNome()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setNome(String nome)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getCognome()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setCognome(String cognome)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getEmail()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setEmail()
+\end_layout
+
+\begin_layout Subsubsection*
++ String getNickname()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setNickname(String nickname)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getPassword()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setPassword(String password)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getRuolo()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRuolo(String ruolo)
+\end_layout
+
+\begin_layout Subsubsection*
++ String toStringID()
+\end_layout
+
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6311,12 +6407,141 @@ MVP
 Attributi
 \end_layout
 
+\begin_layout Subsubsection*
+- int id; 
+\end_layout
+
+\begin_layout Subsubsection*
+- Punteggio punteggio; 
+\end_layout
+
+\begin_layout Subsubsection*
+- String tipologia; 
+\end_layout
+
+\begin_layout Subsubsection*
+- ArrayList<String> risposte; 
+\end_layout
+
+\begin_layout Subsubsection*
+- int corretta; 
+\end_layout
+
+\begin_layout Subsubsection*
+- String testo; 
+\end_layout
+
+\begin_layout Subsubsection*
+- int rispostaData; 
+\end_layout
+
+\begin_layout Subsubsection*
+- boolean mobile; 
+\end_layout
+
+\begin_layout Subsubsection*
+- int tempo; 
+\end_layout
+
+\begin_layout Subsubsection*
+- String ambito;
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
 
+\begin_layout Subsubsection*
++ Domanda(int i, Punteggio p, String ti, ArrayList<String> r, int c, String
+ te, int rd, boolean m, int sec, String a)
+\end_layout
+
+\begin_layout Subsubsection*
++ Domanda()
+\end_layout
+
+\begin_layout Subsubsection*
++ int getId()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setId(int id)
+\end_layout
+
+\begin_layout Subsubsection*
++ Punteggio getPunteggio()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setPunteggio(Punteggio punteggio)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getTipologia()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setTipologia(String tipologia)
+\end_layout
+
+\begin_layout Subsubsection*
++ ArrayList<String> getRisposte()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRisposte(ArrayList<String> risposte)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getCorretta()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setCorretta(int corretta)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getTesto()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setTesto(String testo)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getRispostaData()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setRispostaData(int rispostaData)
+\end_layout
+
+\begin_layout Subsubsection*
++ boolean isMobile()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setMobile(boolean mobile)
+\end_layout
+
+\begin_layout Subsubsection*
++ int getTempo()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setTempo(int tempo)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getAmbito()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setAmbito(String ambito)
+\end_layout
+
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6471,7 +6696,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6602,7 +6827,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6718,6 +6943,30 @@ Attributi
 
 \begin_layout Subsection*
 Metodi
+\end_layout
+
+\begin_layout Subsubsection*
++ Recupero(String email, String codFiscale)
+\end_layout
+
+\begin_layout Subsubsection*
++ Recupero()
+\end_layout
+
+\begin_layout Subsubsection*
++ String getEmail()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setEmail(String email)
+\end_layout
+
+\begin_layout Subsubsection*
++ String getCodFiscale()
+\end_layout
+
+\begin_layout Subsubsection*
++ void setCodFiscale(String codFiscale)
 \end_layout
 
 \end_body
