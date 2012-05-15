@@ -4,7 +4,7 @@ diagrams
     1040 645 100 4 0 0
 end
 show_stereotypes
-selected operation_ref 129538 // ScriviOttenimentoBadge
+selected operation_ref 139650 // scriviDelDomande
 open
   class_ref 128002 // GestioneLogin
   class_ref 128130 // GestioneDomandeD

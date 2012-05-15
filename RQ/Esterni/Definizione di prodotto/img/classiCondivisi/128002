@@ -1,6 +1,6 @@
 format 74
 "condivisi" // condivisi
-  revision 9
+  revision 10
   modified_by 2 "acornagl"
   // class settings
   //class diagram settings
@@ -693,7 +693,7 @@ ${members}}
 
       attribute 135554 "badges"
 	private type class_ref 134786 // Badge
-	stereotype "vector"
+	stereotype "list"
 	cpp_decl ""
 	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
 "
@@ -828,7 +828,7 @@ ${members}}
       end
 
       operation 145794 "getBadges"
-	public explicit_return_type "<<vector>>Badge"
+	public explicit_return_type "<<ArrayList>>Badge"
 	nparams 0
 	
 	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
@@ -1182,6 +1182,19 @@ ${members}}
 	
 	idl_name_spec "get_${name}"
 	get_of_attribute attribute_ref 171010 // id
+      end
+
+      operation 190850 "setBadges"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "b" explicit_type "Badge <<ArrayList>>  [condivisi]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
       end
     end
 
