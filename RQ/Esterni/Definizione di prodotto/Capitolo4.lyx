@@ -6562,8 +6562,8 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe fungerà da contenitore per i dati riguardanti i Dipendenti
+ che sono stati inseriti all'interno del database aziendale
 \end_layout
 
 \begin_layout Description
