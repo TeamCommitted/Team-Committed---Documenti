@@ -1,6 +1,6 @@
 format 74
 "backController"
-  revision 5
+  revision 6
   modified_by 2 "acornagl"
 
 
@@ -143,6 +143,8 @@ ${members}}
 	php_decl ""
 	python_decl ""
 	idl_decl ""
+	get_oper operation_ref 146178 // get_daoDomande
+	set_oper operation_ref 146306 // set_daoDomande
       end
 
       attribute 128386 "gestionePunteggiD"
@@ -153,6 +155,8 @@ ${members}}
 	php_decl ""
 	python_decl ""
 	idl_decl ""
+	get_oper operation_ref 146434 // get_gestionePunteggiD
+	set_oper operation_ref 146562 // set_gestionePunteggiD
       end
 
       operation 128258 "getDomandaD"
@@ -199,6 +203,8 @@ ${members}}
 	php_decl ""
 	python_decl ""
 	idl_decl ""
+	get_oper operation_ref 146690 // get_gestioneLog
+	set_oper operation_ref 146818 // set_gestioneLog
       end
 
       classrelation 128261 // <directional aggregation>
@@ -208,6 +214,132 @@ ${members}}
 "
 	    classrelation_ref 128261 // <directional aggregation>
 	  b parent class_ref 128514 // GestionePunteggiD
+      end
+
+      classrelation 147714 // <directional aggregation>
+	relation 147714 o-->
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 147714 // <directional aggregation>
+	  b parent class_ref 128514 // GestionePunteggiD
+      end
+
+      operation 146178 "get_daoDomande"
+	force_body_gen const cpp_inline public explicit_return_type "DaoDomande"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return daoDomande;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 128258 // daoDomande
+      end
+
+      operation 146306 "set_daoDomande"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "DaoDomande"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  daoDomande = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 128258 // daoDomande
+      end
+
+      operation 146434 "get_gestionePunteggiD"
+	force_body_gen const cpp_inline public explicit_return_type "GestionePunteggiD"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return gestionePunteggiD;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 128386 // gestionePunteggiD
+      end
+
+      operation 146562 "set_gestionePunteggiD"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "GestionePunteggiD"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  gestionePunteggiD = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 128386 // gestionePunteggiD
+      end
+
+      operation 146690 "get_gestioneLog"
+	force_body_gen const cpp_inline public return_type class_ref 128258 // GestioneLog
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return gestioneLog;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 128005 // gestioneLog
+      end
+
+      operation 146818 "set_gestioneLog"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" type class_ref 128258 // GestioneLog
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  gestioneLog = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 128005 // gestioneLog
       end
     end
 
