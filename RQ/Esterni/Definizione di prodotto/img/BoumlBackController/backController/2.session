@@ -1,10 +1,10 @@
 window_sizes 1366 719 320 1040 645 0
 diagrams
   active  classdiagram_ref 128002 // backController
-    1040 645 100 4 204 0
+    1040 645 100 4 0 0
 end
 show_stereotypes
-selected attribute_ref 128005 // gestioneLog
+selected operation_ref 130946 // getDati
 open
   class_ref 128002 // GestioneLogin
   class_ref 128130 // GestioneDomandeD

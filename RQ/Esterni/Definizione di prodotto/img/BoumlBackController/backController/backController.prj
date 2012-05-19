@@ -1,6 +1,6 @@
 format 74
 "backController"
-  revision 6
+  revision 7
   modified_by 2 "acornagl"
 
 
@@ -176,7 +176,7 @@ ${members}}
 	public explicit_return_type "void"
 	nparams 2
 	  param in name "l" explicit_type "Login"
-	  param in name "r" explicit_type "Risposta"
+	  param in name "risposta" explicit_type "Domanda"
 	
 	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
   ${body}}
@@ -819,7 +819,7 @@ ${members}}
 	public explicit_return_type "Dipendnte"
 	nparams 0
 	
-	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
   ${body}}
 "
 	
