@@ -426,6 +426,26 @@ format 67
       idl_decl ""
       explicit_switch_type ""
       
+      attribute 136204 "TAG"
+	class_attribute private explicit_type "string"
+	init_value "IntentIntegrator.class.getSimpleName()"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136844 "BS_PACKAGE"
+	class_attribute private explicit_type "string"
+	init_value "com.google.zxing.client.android"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
       attribute 136076 "REQUEST_CODE"
 	class_attribute public explicit_type "int"
 	init_value "0x0000c0de"
@@ -434,6 +454,419 @@ format 67
 	php_decl ""
 	python_decl ""
 	idl_decl ""
+      end
+
+      attribute 136332 "DEFAULT_TITLE"
+	class_attribute public explicit_type "string"
+	init_value "Install Barcode Scanner?"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136460 "DEFAULT_MESSAGE"
+	class_attribute public explicit_type "string"
+	init_value "This application requires Barrcode Scanner. Would you like to install it"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136588 "DEFAULT_YES"
+	class_attribute public explicit_type "string"
+	init_value "Yes"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136716 "DEFAULT_NO"
+	class_attribute public explicit_type "string"
+	init_value "No"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136972 "PRODUCT_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(\"UPC_A\", \"UPC_E\", \"EAN_8\", \"EAN_13\", \"RSS_14\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137100 "ONE_D_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(\"UPC_A\", \"UPC_E\", \"EAN_8\", \"EAN_13\", \"CODE_39\", \"CODE_93\", \"CODE_128\", \"ITF\", \"RSS_14\", \"RSS_EXPANDED\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137228 "QR_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(\"QR_CODE\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137356 "DATA_MATRIX_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(\"DATA_MATRIX\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137484 "ALL_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "null"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137612 "TARGET_BARCODE_SCANNER_ONLY"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(BS_PACKAGE)"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137740 "TARGET_ALL_KNOWN"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(BS_PACKAGE, \"com.srowen.bs.android\", \"com.srowen.bs.android.simple\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137868 "activity"
+	private explicit_type "activity"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137996 "title"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138124 "message"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138252 "buttonYes"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138380 "buttonNo"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138508 "targetApplications"
+	private explicit_type "Collection<String>"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 136588 "getTitle"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 136716 "setTitle"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "title" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 136844 "setTitleByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "titleID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 136972 "getMessage"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137100 "setMessage"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "message" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137228 "setMessageByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "messageID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 137356 "getButtonYes"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137484 "setButtonYes"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonYes" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137612 "setButtonYesByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonYesID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 137740 "getButtonNo"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137868 "setButtonNo"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonNo" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137996 "setButtonNoByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonNoID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 138124 "getTargetApplications"
+	public explicit_return_type "Collection<String>"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 138252 "setTargetApplications"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "targetApplications" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138380 "setSingleTargetApplication"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "targetApplication" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138508 "initiateScan"
+	public explicit_return_type "AlertDialog"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 138636 "initiateScan"
+	protected explicit_return_type "AlertDialog"
+	nparams 1
+	  param in name "desiredBarcodeFormats" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138764 "startActivityForResult"
+	private explicit_return_type "void"
+	nparams 2
+	  param in name "intent" explicit_type "Intent"
+	  param in name "code" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+
+      operation 138892 "findTargetAppPackage"
+	private explicit_return_type "string"
+	nparams 1
+	  param in name "intent" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      operation 139020 "showDownloadDialog"
+	private explicit_return_type "alertDialog"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 139148 "parseActivityResult"
+	class_operation public explicit_return_type "IntentResult"
+	nparams 3
+	  param in name "int" explicit_type "requestCode"
+	  param in name "int" explicit_type "resultCode"
+	  param in name "intent" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      operation 139276 "shareText"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "text" explicit_type "CharSequence"
+	
+	
+	
+	
+	
+      end
+
+      operation 139404 "list"
+	class_operation private explicit_return_type "Collection<String>"
+	nparams 1
+	  param in name "values" explicit_type "string..."
+	
+	
+	
+	
+	
       end
     end
   end
