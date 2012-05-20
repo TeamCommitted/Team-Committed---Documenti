@@ -59,7 +59,7 @@
 
 \begin_body
 
-\begin_layout Subsection
+\begin_layout Section
 Specifica Front-end Mobile
 \end_layout
 
@@ -125,8 +125,8 @@ Front-end Mobile, diagramma dei package
 
 \end_layout
 
-\begin_layout Subsubsection
-Package com.safetygame.android.view
+\begin_layout Subsection
+Package com.safetygame.mobile.view
 \end_layout
 
 \begin_layout Standard
@@ -241,6 +241,136 @@ Diagramma delle classi
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Classe com.safetygame.android.view.DashboardActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ 
+\series medium
+la classe si occupa di gestire le richieste del 
+\emph on
+Front-End Mobile
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ utilizza il package 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+Ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+back\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler 
+\series default
+per inoltrare le richieste provenienti dal 
+\emph on
+Front-end Mobile 
+\emph default
+ai controlli logici del 
+\emph on
+Back-End
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dalla classe 
+\series bold
+com\SpecialChar \-
+.\SpecialChar \-
+sa\SpecialChar \-
+fe\SpecialChar \-
+ty\SpecialChar \-
+Ga\SpecialChar \-
+me\SpecialChar \-
+.\SpecialChar \-
+back\SpecialChar \-
+.\SpecialChar \-
+con\SpecialChar \-
+trol\SpecialChar \-
+ler\SpecialChar \-
+.\SpecialChar \-
+Ge\SpecialChar \-
+stio\SpecialChar \-
+ne\SpecialChar \-
+Da\SpecialChar \-
+ti 
+\series default
+per inoltrare le elaborazioni compiute dagli strati inferiori del 
+\emph on
+Back-End
+\emph default
+ verso il 
+\emph on
+Front-End Mobile
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attività svolte e dati trattati:
+\series default
+ fa da connettore fra il 
+\emph on
+Front-End Mobile
+\emph default
+ e il back-end, divenendo parte del componente 
+\emph on
+Presenter
+\emph default
+ del design pattern 
+\emph on
+MVP
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+- Context context
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 

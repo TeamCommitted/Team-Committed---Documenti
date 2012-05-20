@@ -46,8 +46,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 4
-\tocdepth 4
+\secnumdepth 5
+\tocdepth 5
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -149,8 +149,8 @@ filename "Capitolo2.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
-filename "Capitolo3.lyx"
+LatexCommand include
+filename "Capitolo4.lyx"
 
 \end_inset
 
@@ -158,6 +158,53 @@ filename "Capitolo3.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitolo5.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitolo6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitolo7.lyx"
+
+\end_inset
+
 
 \end_layout
 

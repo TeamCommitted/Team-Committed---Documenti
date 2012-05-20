@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -42,8 +43,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 5
+\tocdepth 5
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -114,6 +115,11 @@ setter
 \bar default
  e dei costruttori di default saranno invece trascurate, data la semplicità
  e la grande ricorrenza di tali operazioni.
+\end_layout
+
+\begin_layout Standard
+Inoltre, quando si tratteranno le classi relative ad un package, il nome
+ del package di appartenenza verrà omesso.
 \end_layout
 
 \begin_layout Standard

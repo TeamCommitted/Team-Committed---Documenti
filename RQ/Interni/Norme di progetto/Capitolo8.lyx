@@ -583,6 +583,19 @@ Costanti:
  
 \end_layout
 
+\begin_layout Subsubsection
+Convenzioni di formattazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Indentazione:
+\series default
+ l'indentazione del codice dovrà essere effettuata utilizzando 2 caratteri
+ di spaziatura, non tabulazioni
+\end_layout
+
 \begin_layout Subsection
 Procedura di verifica
 \end_layout
