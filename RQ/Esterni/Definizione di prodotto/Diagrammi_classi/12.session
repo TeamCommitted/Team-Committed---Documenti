@@ -1,19 +1,11 @@
 window_sizes 1243 649 337 900 592 0
 diagrams
-  active  classdiagram_ref 134540 // Utils
-    906 508 100 4 711 0
+  active  classdiagram_ref 141068 // View
+    720 473 100 4 0 0
 end
 show_stereotypes
-selected attribute_ref 136588 // DEFAULT_YES
+selected class_ref 142604 // TimerNotifica
 open
-  class_ref 128012 // Dati
-  class_ref 128140 // Domanda
-  class_ref 134668 // Punteggi
-  class_ref 134796 // Quest
-  class_ref 134924 // BootReceiver
-  operation_ref 136332 // rootXML
-  operation_ref 136460 // parseXML
-  attribute_ref 136204 // TAG
-  attribute_ref 136844 // BS_PACKAGE
+  classview_ref 128012 // mobile
 end
 end
