@@ -1,6 +1,6 @@
 format 67
 "Diagrammi_classi"
-  revision 2
+  revision 3
   modified_by 12 "truegek"
 
 
@@ -862,6 +862,121 @@ format 67
 	class_operation private explicit_return_type "Collection<String>"
 	nparams 1
 	  param in name "values" explicit_type "string..."
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 141708 "IntentResult"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 145036 "contents"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145164 "formatName"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145292 "orientation"
+	private explicit_type "Integer"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145420 "rawBytes"
+	private explicit_type "byte[]"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145548 "errorCorrectionLevel"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 145932 "getContents"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146060 "getFormatName"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146188 "getRawBytes"
+	public explicit_return_type "byte[]"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146316 "getOrientation"
+	public explicit_return_type "Integer"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146444 "getErrorCorrectionLevel"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146572 "toString"
+	public explicit_return_type "string"
+	nparams 0
 	
 	
 	
