@@ -1,6 +1,6 @@
 format 74
 "condivisi" // condivisi
-  revision 10
+  revision 11
   modified_by 2 "acornagl"
   // class settings
   //class diagram settings
@@ -1506,6 +1506,261 @@ ${members}}
 	
 	idl_name_spec "set_${name}"
 	set_of_attribute attribute_ref 136066 // punti
+      end
+
+      attribute 184066 "mediaPuntiAzienda"
+	private explicit_type "double"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 197378 // get_mediaPuntiAzienda
+	set_oper operation_ref 197506 // set_mediaPuntiAzienda
+      end
+
+      operation 197378 "get_mediaPuntiAzienda"
+	force_body_gen const cpp_inline public explicit_return_type "double"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return mediaPuntiAzienda;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 184066 // mediaPuntiAzienda
+      end
+
+      operation 197506 "set_mediaPuntiAzienda"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "double"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  mediaPuntiAzienda = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 184066 // mediaPuntiAzienda
+      end
+
+      attribute 184194 "puntiPrec"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 197634 // get_puntiPrec
+	set_oper operation_ref 197762 // set_puntiPrec
+      end
+
+      attribute 184322 "puntiSuc"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 197890 // get_puntiSuc
+	set_oper operation_ref 198018 // set_puntiSuc
+      end
+
+      operation 197634 "get_puntiPrec"
+	force_body_gen const cpp_inline public explicit_return_type "int"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return puntiPrec;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 184194 // puntiPrec
+      end
+
+      operation 197762 "set_puntiPrec"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "int"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  puntiPrec = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 184194 // puntiPrec
+      end
+
+      operation 197890 "get_puntiSuc"
+	force_body_gen const cpp_inline public explicit_return_type "int"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return puntiSuc;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 184322 // puntiSuc
+      end
+
+      operation 198018 "set_puntiSuc"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "int"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  puntiSuc = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 184322 // puntiSuc
+      end
+
+      attribute 184450 "nDomRisp"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 198146 // get_nDomRisp
+	set_oper operation_ref 198274 // set_nDomRisp
+      end
+
+      operation 198146 "get_nDomRisp"
+	force_body_gen const cpp_inline public explicit_return_type "int"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return nDomRisp;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 184450 // nDomRisp
+      end
+
+      operation 198274 "set_nDomRisp"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "int"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  nDomRisp = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 184450 // nDomRisp
+      end
+
+      attribute 184578 "nRispCorr"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	get_oper operation_ref 198402 // get_nRispCorr
+	set_oper operation_ref 198530 // set_nRispCorr
+      end
+
+      operation 198402 "get_nRispCorr"
+	force_body_gen const cpp_inline public explicit_return_type "int"
+	nparams 0
+	
+	cpp_name_spec "get_${name}"
+	final java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  return nRispCorr;
+}
+"
+	java_name_spec "get${Name}"
+	php_final 
+	php_name_spec "get${Name}"
+	
+	python_name_spec "get${Name}"
+	
+	idl_name_spec "get_${name}"
+	get_of_attribute attribute_ref 184578 // nRispCorr
+      end
+
+      operation 198530 "set_nRispCorr"
+	force_body_gen public explicit_return_type "void"
+	nparams 1
+	  param in name "value" explicit_type "int"
+	
+	cpp_name_spec "set_${name}"
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  nRispCorr = ${p0};
+}
+"
+	java_name_spec "set${Name}"
+	
+	php_name_spec "set${Name}"
+	
+	python_name_spec "set${Name}"
+	
+	idl_name_spec "set_${name}"
+	set_of_attribute attribute_ref 184578 // nRispCorr
       end
     end
 
