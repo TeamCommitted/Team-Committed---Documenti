@@ -24,8 +24,8 @@ public boolean cancellaRiga(String tabella, String controlli)
 la funzione esegue la cancellazione della riga con quei valori all'interno della tabella.
 ritorna infine un booleano, che indica se la cancellazione è andata o meno a buon fine
    
-public ResultSet selezione(String colonne, String tabella, String controlli)
+public ResultSet selezione(String colonne, String tabella, String controlli, String extra)
 
   che richiede in ingresso la stringa contenente il nome della tabella, la stringa contenente le colonne (intervallate da una , es. nome, cognome, codicefiscale) e una stringa che contiene i controlli da eseguire per identificare correttamente la riga (es. id=01)
-la funzione esegue la selezione della riga con quei valori all'interno della tabella.
+la funzione esegue la selezione della riga con quei valori all'interno della tabella. extra contiene tutte le clausole per l'esecuzione della query (es. order by)
 ritorna infine un oggetto di tipo ResultSet che contiene i risultati dell'esecuzione della query
