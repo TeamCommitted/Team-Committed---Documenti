@@ -15,5 +15,5 @@ che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tip
   public DAOBadge creaDAOBadge(Indirizzo azienda)
 che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAOBadge 
 
-  public DAOPunteggi creaDAOPunteggi(Indirizzo azienda)
+  public DAOPunteggi creaDAOPunteggi(Indirizzo azienda, Indirizzo domande)
 che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAODomande

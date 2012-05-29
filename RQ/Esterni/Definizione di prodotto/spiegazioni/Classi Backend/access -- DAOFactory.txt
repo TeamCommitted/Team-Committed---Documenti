@@ -15,7 +15,7 @@ per istanziare l'oggetto <tipo>DAODomande
   public abstract DAOBadge creaDAOBadge(Indirizzo azienda);
 per istanziare l'oggetto <tipo>DAOBadge
 
-  public abstract DAOPunteggi creaDAOPunteggi(Indirizzo azienda);
+  public abstract DAOPunteggi creaDAOPunteggi(Indirizzo azienda,Indirizzo domande);
 per istanziare l'oggetto <tipo>DAOPunteggi
 
 con <tipo> si intende un tipo di database.
