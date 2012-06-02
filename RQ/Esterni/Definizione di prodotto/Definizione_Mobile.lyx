@@ -553,10 +553,50 @@ Attività svolte e dati trattati:
  Un timer, in accordo con quanto impostato di default nel dispositivo Android
  in cui sarà installato il software, farà comparire una notifica standard
  di Android che permette di visualizzare una nuova domanda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- long mStartTime
+\end_layout
+
+\begin_layout Standard
+- Handler mHandler = new Handler()
+\end_layout
+
+\begin_layout Standard
+- NotificationManager mNotificationManager
+\end_layout
+
+\begin_layout Standard
+- Notification notification
+\end_layout
+
+\begin_layout Standard
+- SaredPreferences prefs
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ int onStartCommand(Intent intent, int flags, int startId)
+\end_layout
+
+\begin_layout Standard
++ IBinder onBind(Intent arg0)
 \end_layout
 
 \begin_layout Subsubsection
-Struttura base
+com.safetyGame.mobile.condivisi.DashboardLayout
 \end_layout
 
 \begin_layout Standard
@@ -581,6 +621,483 @@ Interfaccie con e relazioni d'uso da altre componenti:
 Attività svolte e dati trattati:
 \series default
  
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.mobile.Utils
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Vi appartengono le classi che comunicano con le API del server.
+ Queste classi ricevono i dati e notificano la View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Comunica con il back-end e quando i dati sono pronti invia notifiche al
+ componente View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene utilizzato dalla View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Invia richieste HTTP al server, il quale gli risponderà inviando i dati
+ richiesti attraverso un XML.
+ In seguito ne estrarrà i dati e li renderà disponibili alla View.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.BootReceiver
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ onReceive(Context context, Intent arg1)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+La classe è utilizzata per effettuare connessioni fisiche tra il 
+\bar under
+front-end
+\series bold
+\bar default
+ 
+\series default
+Mobile ed il 
+\bar under
+back-end
+\bar default
+, ricevere dati, effettuare parser e creare gli opportuni oggetti da notificare
+ alla View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Richiama gli appositi metodi del back-end in relazione alle richieste della
+ View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Le Activity richiamano la classe che invia o riceve dati al back-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ La classe si occupa di effettuare richieste HTTP al server e ricevere le
+ risposte tramite pagine XML.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+Nessuna
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
+- static Element rootXML(HttpResponse response)
+\end_layout
+
+\begin_layout Standard
++ static String parseXML(Element root, String stringa, int position)
+\end_layout
+
+\begin_layout Standard
++ static Object HttpCreateClient(String url, List<NameValuePair> nameValuePairs)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.IntentIntegrator
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
++ static final int REQUEST_CODE = 0x0000c0de 
+\end_layout
+
+\begin_layout Standard
+- static final String TAG = IntentIntegrator.class.getSimpleName()
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_TITLE = "Install Barcode Scanner?"
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_MESSAGE = "This application requires Barcode
+ Scanner.
+ Would you like to install it?"
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_YES = "Yes" 
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_NO = "No"
+\end_layout
+
+\begin_layout Standard
+- static final String BS_PACKAGE = "com.google.zxing.client.android"
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> PRODUCT_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "RSS_14") 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> ONE_D_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "CODE_39", "CODE_93", "CODE_128", "ITF", "RSS_14", "RSS_EXPA
+NDED")
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> QR_CODE_TYPES = Collections.singleton("QR_CODE"
+); 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> DATA_MATRIX_TYPES = Collections.singleton("DATA
+_MATRIX")
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> ALL_CODE_TYPES = null; 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> TARGET_BARCODE_SCANNER_ONLY = Collections.singl
+eton(BS_PACKAGE) 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> TARGET_ALL_KNOWN = list( BS_PACKAGE, "com.srowe
+n.bs.android", "com.srowen.bs.android.simple")
+\end_layout
+
+\begin_layout Standard
+- final Activity activity 
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String message
+\end_layout
+
+\begin_layout Standard
+- String buttonYes 
+\end_layout
+
+\begin_layout Standard
+- String buttonNo 
+\end_layout
+
+\begin_layout Standard
+- Collection<String> targetApplications
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ void setTitle(String title)
+\end_layout
+
+\begin_layout Standard
++ void setTitleByID(int titleID)
+\end_layout
+
+\begin_layout Standard
++ String getMessage()
+\end_layout
+
+\begin_layout Standard
++ void setMessage(String message)
+\end_layout
+
+\begin_layout Standard
++ void setMessageByID(int messageID)
+\end_layout
+
+\begin_layout Standard
++ String getButtonYes()
+\end_layout
+
+\begin_layout Standard
++ void setButtonYes(String buttonYes)
+\end_layout
+
+\begin_layout Standard
++ void setButtonYesByID(int buttonYesID)
+\end_layout
+
+\begin_layout Standard
++ String getButtonNo()
+\end_layout
+
+\begin_layout Standard
++ void setButtonNo(String buttonNo)
+\end_layout
+
+\begin_layout Standard
++ void setButtonNoByID(int buttonNoID)
+\end_layout
+
+\begin_layout Standard
++ Collection<String> getTargetApplications(
+\end_layout
+
+\begin_layout Standard
++ void setTargetApplications(Collection<String> targetApplications)
+\end_layout
+
+\begin_layout Standard
++ void setSingleTargetApplication(String targetApplication)
+\end_layout
+
+\begin_layout Standard
++ AlertDialog initiateScan()
+\end_layout
+
+\begin_layout Standard
++ AlertDialog initiateScan(Collection<String> desiredBarcodeFormats)
+\end_layout
+
+\begin_layout Standard
+# void startActivityForResult(Intent intent, int code)
+\end_layout
+
+\begin_layout Standard
+- AlertDialog showDownloadDialog()
+\end_layout
+
+\begin_layout Standard
+- String findTargetAppPackage(Intent intent)
+\end_layout
+
+\begin_layout Standard
++ static IntentResult parseActivityResult(int requestCode, int resultCode,
+ Intent intent)
+\end_layout
+
+\begin_layout Standard
++ void shareText(CharSequence text)
+\end_layout
+
+\begin_layout Standard
+- private static Collection<String> list(String...
+ values)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.IntentResult
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- final String contents
+\end_layout
+
+\begin_layout Standard
+- final String formatName 
+\end_layout
+
+\begin_layout Standard
+- final byte[] rawBytes
+\end_layout
+
+\begin_layout Standard
+- final Integer orientation
+\end_layout
+
+\begin_layout Standard
+- final String errorCorrectionLevel
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getContents()
+\end_layout
+
+\begin_layout Standard
++ String getFormatName()
+\end_layout
+
+\begin_layout Standard
++ byte[] getRawBytes()
+\end_layout
+
+\begin_layout Standard
++ Integer getOrientation()
+\end_layout
+
+\begin_layout Standard
++ String getErrorCorrectionLevel()
+\end_layout
+
+\begin_layout Standard
++ String toString()
 \end_layout
 
 \end_body

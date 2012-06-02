@@ -1,10 +1,10 @@
-window_sizes 1243 649 337 900 592 0
+window_sizes 1564 877 337 1221 820 0
 diagrams
-  active  classdiagram_ref 141068 // View
-    720 473 100 4 0 0
+  active  classdiagram_ref 134540 // Utils
+    1217 800 98 4 0 0
 end
 show_stereotypes
-selected class_ref 142604 // TimerNotifica
+selected classdiagram_ref 134540 // Utils
 open
   classview_ref 128012 // mobile
 end
