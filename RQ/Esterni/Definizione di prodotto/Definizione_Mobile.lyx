@@ -60,7 +60,7 @@
 \begin_body
 
 \begin_layout Subsection
-Package com.safetyGame.mobile.condivisi
+Package com.safetyGame.mobile.View
 \end_layout
 
 \begin_layout Standard
@@ -123,7 +123,7 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.LoginActivity
+com.safetyGame.mobile.View.LoginActivity
 \end_layout
 
 \begin_layout Standard
@@ -189,7 +189,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.DashboardActivity
+com.safetyGame.mobile.View.DashboardActivity
 \end_layout
 
 \begin_layout Standard
@@ -246,7 +246,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.PunteggiActivity
+com.safetyGame.mobile.View.PunteggiActivity
 \end_layout
 
 \begin_layout Standard
@@ -314,7 +314,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.DatiActivity
+com.safetyGame.mobile.View.DatiActivity
 \end_layout
 
 \begin_layout Standard
@@ -384,7 +384,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.DomandaActivity
+com.safetyGame.mobile.View.DomandaActivity
 \end_layout
 
 \begin_layout Standard
@@ -457,7 +457,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.RecuperoPasswordActivity
+com.safetyGame.mobile.View.RecuperoPasswordActivity
 \end_layout
 
 \begin_layout Standard
@@ -507,7 +507,7 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.TimerNotifica
+com.safetyGame.mobile.View.TimerNotifica
 \end_layout
 
 \begin_layout Standard
@@ -596,23 +596,40 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.DashboardLayout
+com.safetyGame.mobile.View.DashboardLayout
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta la visualizzazione della Dashboard all'avvio dell'applicazione.
+ 
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+.
 \begin_inset Newline newline
 \end_inset
 
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- 
+ Viene usata per costruire il layout 
+\begin_inset Quotes eld
+\end_inset
+
+main.xml
+\begin_inset Quotes erd
+\end_inset
+
+.
 \series bold
 
 \begin_inset Newline newline
@@ -624,6 +641,42 @@ Attività svolte e dati trattati:
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- static final int UNEVEN_GRID_PENALTY_MULTIPLIER = 10
+\end_layout
+
+\begin_layout Standard
+- UNEVEN_GRID_PENALTY_MULTIPLIER = 1
+\end_layout
+
+\begin_layout Standard
+- int mMaxChildWidth = 0
+\end_layout
+
+\begin_layout Standard
+- int mMaxChildHeight = 0
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+# void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
+\end_layout
+
+\begin_layout Standard
+# void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -675,16 +728,25 @@ com.safetyGame.mobile.Utils.BootReceiver
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- 
+Classe che estende BroadcastReceiver e viene automaticamente chiamata al
+ completamento del boot del dispositivo.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti:
+\series default
+ Fa partire il service com.safetygame.mobile.View.TimerNotifica
+\series bold
+ .
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti: 
+\series default
+Nessuna 
 \series bold
 
 \begin_inset Newline newline
@@ -692,7 +754,7 @@ Interfaccie con e relazioni d'uso da altre componenti:
 
 Attività svolte e dati trattati:
 \series default
- 
+ La classe fa avviare il servizio in bacground che propone le domande.
 \begin_inset Newline newline
 \end_inset
 
@@ -801,16 +863,25 @@ com.safetyGame.mobile.Utils.IntentIntegrator
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta l'integrazione dell'applicazione Safety Game con l'applicazione
+ Barrcode Scanner.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+.
 \begin_inset Newline newline
 \end_inset
 
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- 
+ Viene richiamata dall'Activity.
 \series bold
 
 \begin_inset Newline newline
@@ -1024,16 +1095,24 @@ com.safetyGame.mobile.Utils.IntentResult
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta a gestire i risultati dello scan del barcode.
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- 
+ Restituisce i dati all'Activity
 \series bold
 
 \begin_inset Newline newline
@@ -1098,6 +1177,37 @@ Metodi:
 
 \begin_layout Standard
 + String toString()
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.mobile.condivisi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
 \end_layout
 
 \end_body
