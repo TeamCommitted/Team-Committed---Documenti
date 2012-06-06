@@ -676,10 +676,6 @@ Metodi:
 # void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection
 Package com.safetyGame.mobile.Utils
 \end_layout
@@ -1208,6 +1204,282 @@ Interfaccie con e relazioni d'uso da altre componenti:
 \end_inset
 
 Attività svolte e dati trattati:
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Dati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String nome
+\end_layout
+
+\begin_layout Standard
+- String cognome
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getNome()
+\end_layout
+
+\begin_layout Standard
++ String getCognome()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Domanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String type
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String testo
+\end_layout
+
+\begin_layout Standard
+- String[] risposte
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getType()
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ String getTesto()
+\end_layout
+
+\begin_layout Standard
++ String[] getRisposte()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Punteggi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String rispostedate
+\end_layout
+
+\begin_layout Standard
+- String rispostecorrette
+\end_layout
+
+\begin_layout Standard
+- String risposteerrate
+\end_layout
+
+\begin_layout Standard
+- String punti
+\end_layout
+
+\begin_layout Standard
+- String[] badges
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getRispostedate()
+\end_layout
+
+\begin_layout Standard
++ String getRispostecorrette()
+\end_layout
+
+\begin_layout Standard
++ String getRisposteerrate()
+\end_layout
+
+\begin_layout Standard
++ String getPunti()
+\end_layout
+
+\begin_layout Standard
++ String[] getBadges()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Quest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String testo
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ String getTesto()
 \end_layout
 
 \end_body
