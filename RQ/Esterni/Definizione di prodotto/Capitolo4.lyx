@@ -12481,19 +12481,11 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-back.access.SqlDAODipendenti
-\end_layout
-
-\begin_layout Itemize
 back.access.SqlDAODomande
 \end_layout
 
 \begin_layout Itemize
 back.access.SqlDAOPunteggi
-\end_layout
-
-\begin_layout Itemize
-back.condivisi.Badge
 \end_layout
 
 \begin_layout Itemize
@@ -12514,6 +12506,10 @@ back.connection.WebConnection
 
 \begin_layout Itemize
 back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+back.controller.GestioneBadgeD
 \end_layout
 
 \begin_layout Itemize
