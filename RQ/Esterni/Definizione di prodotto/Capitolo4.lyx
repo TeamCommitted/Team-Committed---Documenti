@@ -11739,7 +11739,6 @@ Domanda(int i, Punteggio p, String ti, ArrayList<String> r, int c, String
 \begin_layout Standard
 Costruttore con parametri.
  Dovrà inizializzare i campi dati con le variabili passate
-
 \begin_inset Newline newline
 \end_inset
 
@@ -11756,7 +11755,6 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \end_inset
 
 int getId()
-
 \begin_inset Newline newline
 \end_inset
 
@@ -12193,10 +12191,6 @@ Questa classe verrà utilizzata dalle seguenti classi:
 
 \begin_layout Itemize
 back.access.SqlDAODipendenti
-\end_layout
-
-\begin_layout Itemize
-back.access.SqlDAOFactory
 \end_layout
 
 \begin_layout Itemize
