@@ -9646,75 +9646,79 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-asdasd
+
+\family typewriter
+back.access.SqlDAOBadge
 \end_layout
 
 \begin_layout Itemize
-asdsad
+
+\family typewriter
+back.convidisi.Dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.connection.WebConnection
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeAS
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
 \end_layout
 
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-String
-\begin_inset space ~
-\end_inset
-
-nome 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Nome del badge
+\series bold
+- String nome
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-descrizione 
-\begin_inset space ~
-\end_inset
-
-
+\begin_layout Standard
+Nome del badge
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String descrizione
+\end_layout
+
+\begin_layout Standard
 Descrizione del badge (ex.
  la motivazione per cui si è guadagnato questo badge)
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-soglia 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- Punteggio soglia
+\end_layout
+
+\begin_layout Standard
 Indica il quantitativo di punti necessari all'acquisizione del badge
 \end_layout
 
@@ -9722,149 +9726,65 @@ Indica il quantitativo di punti necessari all'acquisizione del badge
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-Badge(String
-\begin_inset space ~
-\end_inset
-
-nome,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-d,
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-p) 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questo costruttore dovrà impostare il valore degli attributi secondo il
- valore dei parametri passati.
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge() 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore di default che dovrà inizializzare ogni attributo a 
 \series bold
-NULL
++ Badge(String nome, String d, Punteggio p)
 \end_layout
 
 \begin_layout Standard
+Questo costruttore dovrà impostare il valore degli attributi secondo il
+ valore dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Badge()
+\end_layout
+
+\begin_layout Standard
+Costruttore di default che dovrà inizializzare ogni attributo a 
+\series bold
+NULL
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
+
+\series bold
++ String getNome()
+\begin_inset Newline newline
 \end_inset
 
-getNome()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setNome(String nome)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ String getDescrizione()
+\begin_inset Newline newline
 \end_inset
 
-setNome(String
-\begin_inset space ~
++ void setDescrizione(String descrizione)
+\begin_inset Newline newline
 \end_inset
 
-nome)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ Punteggio getSoglia()
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
-\end_inset
-
-getDescrizione()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setDescrizione(String
-\begin_inset space ~
-\end_inset
-
-descrizione)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getSoglia()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setSoglia(Punteggio
-\begin_inset space ~
-\end_inset
-
-soglia)
++ void setSoglia(Punteggio soglia)
 \end_layout
 
 \begin_layout Standard
@@ -9891,7 +9811,7 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore 
+Questa classe fungerà da contenitore per le date e le ore
 \end_layout
 
 \begin_layout Description
@@ -9922,11 +9842,49 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAOBadge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.badge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
+
+\series bold
 -
 \begin_inset space ~
 \end_inset
@@ -9935,10 +9893,10 @@ int
 \begin_inset space ~
 \end_inset
 
-anno 
-\end_layout
+anno
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Description
 -
 \begin_inset space ~
 \end_inset
@@ -9948,21 +9906,17 @@ int
 \end_inset
 
 mese
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-int
+- int
 \begin_inset space ~
 \end_inset
 
 giorno
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Description
 -
 \begin_inset space ~
 \end_inset
@@ -9972,9 +9926,9 @@ int
 \end_inset
 
 ora
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Description
 -
 \begin_inset space ~
 \end_inset
@@ -9984,9 +9938,9 @@ int
 \end_inset
 
 minuti
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Description
 -
 \begin_inset space ~
 \end_inset
@@ -10002,7 +9956,9 @@ secondi
 Metodi
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
+
+\series bold
 +
 \begin_inset space ~
 \end_inset
@@ -10056,14 +10012,16 @@ s)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Costruttore che imposta gli attributi dell'oggetto alla data e all'ora specifica
+ta
 \begin_inset Newline newline
 \end_inset
 
-Costruttore che imposta gli attributi dell'oggetto alla data e all'ora specifica
-ta
-\end_layout
 
-\begin_layout Description
+\series bold
 +
 \begin_inset space ~
 \end_inset
@@ -10073,13 +10031,15 @@ DataOra()
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Costruttore di default che crea l'oggetto con la data e l'ora corrente
 \begin_inset Newline newline
 \end_inset
 
-Costruttore di default che crea l'oggetto con la data e l'ora corrente
-\end_layout
 
-\begin_layout Description
+\series bold
 +
 \begin_inset space ~
 \end_inset
@@ -10101,9 +10061,9 @@ parteData)
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Funzione statica che deve restituire la parte della data (ex.
  giorno) scritta con due cifre (ex.
  se si è al giorno 
@@ -10123,9 +10083,11 @@ Funzione statica che deve restituire la parte della data (ex.
 \end_inset
 
 )
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Description
+
+\series bold
 +
 \begin_inset space ~
 \end_inset
@@ -10139,190 +10101,78 @@ toString()
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-Restituisce una stringa dell'oggetto nel seguente formato:
-\begin_inset Newline newline
-\end_inset
-
-
-\family typewriter
-AAAA/MM/GG HH:MM:SS
 \end_layout
 
 \begin_layout Standard
+Restituisce una stringa dell'oggetto nel seguente formato:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+AAAA/MM/GG HH:MM:SS
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
+
+\series bold
++ int getAnno()
+\begin_inset Newline newline
 \end_inset
 
-getAnno()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setAnno(int anno)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ int getMese()
+\begin_inset Newline newline
 \end_inset
 
-setAnno(int
-\begin_inset space ~
++ void setMese(int mese)
+\begin_inset Newline newline
 \end_inset
 
-anno)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ int getGiorno()
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
++ void setGiorno(int giorno)
+\begin_inset Newline newline
 \end_inset
 
-getMese()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ int getOra()
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ void setOra(int ora)
+\begin_inset Newline newline
 \end_inset
 
-setMese(int
-\begin_inset space ~
++ int getMinuti()
+\begin_inset Newline newline
 \end_inset
 
-mese)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setMinuti(int minuti)
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
++ int getSecondi()
+\begin_inset Newline newline
 \end_inset
 
-getGiorno()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setGiorno(int
-\begin_inset space ~
-\end_inset
-
-giorno)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getOra()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setOra(int
-\begin_inset space ~
-\end_inset
-
-ora)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getMinuti()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setMinuti(int
-\begin_inset space ~
-\end_inset
-
-minuti)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getSecondi()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setSecondi(int
-\begin_inset space ~
-\end_inset
-
-secondi)
++ void setSecondi(int secondi)
 \end_layout
 
 \begin_layout Standard
@@ -10382,82 +10232,122 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOBadge 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODipendenti 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODomande 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOLogin 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOPunteggi 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Domanda 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Login 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Punteggio 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Recupero 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.ApplicazioniConnection 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.WebConnection 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneBadgeD 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDati 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDipendentiAA 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDipendentiD 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDomandeD 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneLog 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneLogin 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestionePunteggiAA 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestionePunteggiD
 \end_layout
 
@@ -10465,285 +10355,145 @@ back.controller.GestionePunteggiD
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-int
-\begin_inset space ~
-\end_inset
+\series bold
+- int id 
+\end_layout
 
-id 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
 Numero univoco che identifica l'utente all'interno del database
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-codFiscale 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String codFiscale
+\end_layout
+
+\begin_layout Standard
 Contiene il codice fiscale dell'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-ArrayList<Badge>
-\begin_inset space ~
-\end_inset
-
-badges 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- ArrayList<Badge>
+\end_layout
+
+\begin_layout Standard
 Array contenente tutti i badge guadagnati da un utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-punteggio 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- Punteggio punteggio
+\end_layout
+
+\begin_layout Standard
 Contiene alcune statistiche riguardanti le risposte date e i punti guadagnati
  dall'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-nome 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String nome
+\end_layout
+
+\begin_layout Standard
 Contiene il nome dell'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-cognome 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String cognome
+\end_layout
+
+\begin_layout Standard
 Contiene il cognome dell'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-email 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String email
+\end_layout
+
+\begin_layout Standard
 Contiene l'indirizzo email dell'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-nickname 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String nickname 
+\end_layout
+
+\begin_layout Standard
 Contiene l'username assegnato all'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-password 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String password
+\end_layout
+
+\begin_layout Standard
 Contiene la password dell'utente
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-ruolo 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String ruolo
+\end_layout
+
+\begin_layout Standard
 Contiene il ruolo che l'utente ha all'interno dell'azienda
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-ammAA 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- boolean ammAA
+\end_layout
+
+\begin_layout Standard
 True = L'utente è un amministratore azienda; False = L'utente è un amministrator
 e sicurezza
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DataOra
-\begin_inset space ~
-\end_inset
-
-dataModPass 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- DataOra dataModPass
+\end_layout
+
+\begin_layout Standard
 Contiene la data e l'ora dell'ultima modifica alla password
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-nuovaPass 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String nuovaPass
+\end_layout
+
+\begin_layout Standard
 Contiene la password che dovrà essere scritta nel database
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-trofei 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int trofei
+\end_layout
+
+\begin_layout Standard
 Contiene il numero di trofei guadagnati
 \end_layout
 
@@ -10751,601 +10501,156 @@ Contiene il numero di trofei guadagnati
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Dipendente()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Dipendente(int
-\begin_inset space ~
-\end_inset
-
-id,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-cf,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-n,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-c,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-e,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-nn,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-p,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-r,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-pu,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-np,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-trf)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Dipendente(boolean
-\begin_inset space ~
-\end_inset
-
-aA,
-\begin_inset space ~
-\end_inset
-
-DataOra
-\begin_inset space ~
-\end_inset
-
-dmp,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-np,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-mail,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-nick,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-pass,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-codfisc,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-i)
-\end_layout
-
 \begin_layout Standard
+
+\series bold
++ Dipendente()
+\begin_inset Newline newline
+\end_inset
+
++ Dipendente(int id, String cf, String n, String c, String e, String nn,
+ String p, String r, int pu, String np, int trf)
+\begin_inset Newline newline
+\end_inset
+
++ Dipendente(boolean aA, DataOra dmp, String np, String mail, String nick,
+ String pass, String codfisc, int i)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
+\series bold
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
++ int getId()
+\begin_inset Newline newline
 \end_inset
 
-getId()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setId(int
-\begin_inset space ~
-\end_inset
-
-id)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getCodFiscale()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setCodFiscale(Stirng
-\begin_inset space ~
-\end_inset
-
-codFiscale)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-ArrayList<Badge>
-\begin_inset space ~
-\end_inset
-
-getBadges()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setBadges(ArrayList<Badge>
-\begin_inset space ~
-\end_inset
-
-badges)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addBadge(Badge
-\begin_inset space ~
-\end_inset
-
-badge)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getPunteggio()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setPunteggio(Punteggio
-\begin_inset space ~
-\end_inset
-
-punteggio)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getNome()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setNome(String
-\begin_inset space ~
-\end_inset
-
-nome)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getCognome()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setCognome(String
-\begin_inset space ~
-\end_inset
-
-cognome)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getEmail()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setEmail(String
-\begin_inset space ~
-\end_inset
-
-email)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
++ void setId(int id)
+\begin_inset Newline newline
 \end_inset
 
-getNickname()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setNickname(String
-\begin_inset space ~
-\end_inset
-
-nickname)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getPassword()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
++ String getCodFiscale()
+\begin_inset Newline newline
 \end_inset
 
-setPassword(String
-\begin_inset space ~
++ void setCodFiscale(Stirng codFiscale)
+\begin_inset Newline newline
 \end_inset
 
-password)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
++ ArrayList<Badge> getBadges()
+\begin_inset Newline newline
 \end_inset
 
-getRuolo()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
++ void setBadges(ArrayList<Badge> badges)
+\begin_inset Newline newline
 \end_inset
 
-setRuolo(String
-\begin_inset space ~
++ void addBadge(Badge badge)
+\begin_inset Newline newline
 \end_inset
-
-ruolo)
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
++ Punteggio getPunteggio()
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
++ void setPunteggio(Punteggio punteggio)
+\begin_inset Newline newline
 \end_inset
 
-toStringID()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ String getNome()
+\begin_inset Newline newline
 \end_inset
 
-boolean
-\begin_inset space ~
++ void setNome(String nome)
+\begin_inset Newline newline
 \end_inset
-
-isAmmAA()
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
++ String getCognome()
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ void setCognome(String cognome)
+\begin_inset Newline newline
 \end_inset
 
-setAmmAA(boolean
-\begin_inset space ~
++ String getEmail()
+\begin_inset Newline newline
 \end_inset
 
-ammAA)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setEmail(String email)
+\begin_inset Newline newline
 \end_inset
 
-DataOra
-\begin_inset space ~
++ String getNickname()
+\begin_inset Newline newline
 \end_inset
-
-getDataModPass()
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
++ void setNickname(String nickname)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ String getPassword()
+\begin_inset Newline newline
 \end_inset
 
-SetDataModPass(DataOra
-\begin_inset space ~
++ void setPassword(String password)
+\begin_inset Newline newline
 \end_inset
 
-dataModPass)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ String getRuolo()
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
++ void setRuolo(String ruolo)
+\begin_inset Newline newline
 \end_inset
-
-getNuovaPass()
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
++ String toStringID()
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ boolean isAmmAA()
+\begin_inset Newline newline
 \end_inset
 
-setNuovaPass(String
-\begin_inset space ~
++ void setAmmAA(boolean ammAA)
+\begin_inset Newline newline
 \end_inset
 
-nuovaPass)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ DataOra getDataModPass()
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
++ void SetDataModPass(DataOra dataModPass)
+\begin_inset Newline newline
 \end_inset
-
-getTrofei()
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
++ String getNuovaPass()
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ void setNuovaPass(String nuovaPass)
+\begin_inset Newline newline
 \end_inset
 
-setTrofei(int
-\begin_inset space ~
++ int getTrofei()
+\begin_inset Newline newline
 \end_inset
 
-trofei)
-\end_layout
++ void setTrofei(int trofei)
+\series default
 
-\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -11369,8 +10674,9 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe fungerà da contenitore per le domande che dovranno essere
+ trasmesse ai vari front-end e le relative risposte che da questi verranno
+ indirizzate al back-end
 \end_layout
 
 \begin_layout Description
@@ -11402,70 +10708,104 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODomande 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOPunteggi 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Punteggio 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.ApplicazioniConnection 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.WebConnection 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneBadgeD 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDati 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDomandeAS 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDomandeD 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneLog 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.condivisi.Domanda 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.Utils.ConnectionUtils 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.DashboardActivity 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.DatiActivity 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.DomandaActivity 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.PunteggiActivity 
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.TimerNotifica
 \end_layout
 
@@ -11473,190 +10813,100 @@ mobile.View.TimerNotifica
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-int
-\begin_inset space ~
-\end_inset
+\series bold
+- int id 
+\end_layout
 
-id 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
 Numero univoco che identifica la domanda all'interno del database
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-punteggio 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- Punteggio punteggio 
+\end_layout
+
+\begin_layout Standard
 Punteggio attribuito alla domanda
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-tipologia 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String tipologia 
+\end_layout
+
+\begin_layout Standard
 Identifica la tipologia della domanda (ex.
  Risposta multipla, risposta aperta, ecc...)
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-ArrayList<String>
-\begin_inset space ~
-\end_inset
-
-risposte 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- ArrayList<String> risposte 
+\end_layout
+
+\begin_layout Standard
 Conterrà tutte le possibili risposte
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-corretta 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int corretta
+\end_layout
+
+\begin_layout Standard
 Identifica all'interno della lista 
 \emph on
 risposte 
 \emph default
 quella corretta
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-testo 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String testo 
+\end_layout
+
+\begin_layout Standard
 Contiene il testo della domanda
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-rispostaData 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int rispostaData 
+\end_layout
+
+\begin_layout Standard
 Identifica qual'è stata la risposta selezionata da un dipendente.
  rispostaData=-1 se non è ancora stata selezionata alcuna risposta
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-mobile 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- boolean mobile
+\end_layout
+
+\begin_layout Standard
 Identifica se la domanda è stata proposta o dovrà essere proposta sarà destinata
  ad un dispositivo mobile
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-tempo 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int tempo
+\end_layout
+
+\begin_layout Standard
 Identifica il tempo permesso per rispondere alla domanda.
  tempo=-1 se non è stato assegnato un parametro temporale alla domanda (ovvero
  si potrà rispondere alla domanda impiegando quanto 
@@ -11668,25 +10918,15 @@ tempo si vuole
 \end_inset
 
 )
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-ambito 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String ambito
+\end_layout
+
+\begin_layout Standard
 Identifica il 
 \begin_inset Quotes eld
 \end_inset
@@ -11697,26 +10937,17 @@ settore
 
  di appartenenza della domanda (per esempio se la domanda è attinente alle
  norme anti-incendio oppure a quelle anti-infortunistica)
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-internaAzienda 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
-Indica se la domanda è 
+
+\series bold
+- boolean internaAzienda
+\end_layout
+
+\begin_layout Standard
+Indica se la domanda può essere proposta ai Dipendenti in quanto selezionata
+ dall'Amminstratore Sicurezza
 \end_layout
 
 \begin_layout Subsection*
@@ -11742,6 +10973,10 @@ Costruttore con parametri.
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
@@ -11750,387 +10985,93 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-int getId()
++ int getId()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setId(int id)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void setId(int
-\begin_inset space ~
-\end_inset
-
-id)
++ Punteggio getPunteggio()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setPunteggio(Punteggio punteggio)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getPunteggio()
++ String getTipologia()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setTipologia(String tipologia)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setPunteggio(Punteggio
-\begin_inset space ~
-\end_inset
-
-punteggio)
++ ArrayList<String> getRisposte()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setRisposte(ArrayList<String> risposte)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getTipologia()
++ int getCorretta()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setCorretta(int corretta)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setTipologia(String
-\begin_inset space ~
-\end_inset
-
-tipologia)
++ String getTesto()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setTesto(String testo)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-ArrayList<String>
-\begin_inset space ~
-\end_inset
-
-getRisposte()
++ int getRispostaData()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setRispostaData(int rispostaData)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setRisposte(ArrayList<String>
-\begin_inset space ~
-\end_inset
-
-risposte)
++ boolean isMobile()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setMobile(boolean mobile)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getCorretta()
++ int getTempo()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setTempo(int tempo)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setCorretta(int
-\begin_inset space ~
-\end_inset
-
-corretta)
++ String getAmbito()
 \begin_inset Newline newline
 \end_inset
 
-
++ void setAmbito(String ambito)
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
++ boolean isInternaAzienda()
+\end_layout
 
-String
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-getTesto()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setTesto(String
-\begin_inset space ~
-\end_inset
-
-testo)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getRispostaData()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setRispostaData(int
-\begin_inset space ~
-\end_inset
-
-rispostaData)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-isMobile()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setMobile(boolean
-\begin_inset space ~
-\end_inset
-
-mobile)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getTempo()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setTempo(int
-\begin_inset space ~
-\end_inset
-
-tempo)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getAmbito()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setAmbito(String
-\begin_inset space ~
-\end_inset
-
-ambito)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-isInternaAzienda()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setInternaAzienda(boolean
-\begin_inset space ~
-\end_inset
-
-internaAzienda)
+\series bold
++ void setInternaAzienda(boolean internaAzienda)
 \end_layout
 
 \begin_layout Standard
@@ -12157,8 +11098,8 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe fungerà da contenitore per i dati riguardanti i tentativi
+ di autenticarsi all'interno della piattaforma
 \end_layout
 
 \begin_layout Description
@@ -12190,74 +11131,110 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODipendenti
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.ApplicazioniConnection
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.WebConnection
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneBadgeD
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDati
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDipendentiD
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDomandeD
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneLog
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestionePunteggiD
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Login
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.Utils.ConnectionUtils
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.Utils.IntentIntegrator
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.LoginActivity
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 mobile.View.TimerNotifica
 \end_layout
 
@@ -12265,43 +11242,23 @@ mobile.View.TimerNotifica
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-String
-\begin_inset space ~
-\end_inset
-
-username 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Username dell'account che tenta di fare login
+\series bold
+- String username
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-password 
-\begin_inset space ~
-\end_inset
-
-
+\begin_layout Standard
+Username dell'account che tenta di fare login
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String password
+\end_layout
+
+\begin_layout Standard
 Password dell'account che tenta di fare login
 \end_layout
 
@@ -12309,112 +11266,54 @@ Password dell'account che tenta di fare login
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-Login() 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore di default senza parametri.
- I campi dati dovranno essere inizializzati con valori di default
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Login(String
-\begin_inset space ~
-\end_inset
-
-u,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-p) 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore con parametri.
- Dovrà inizializzare i campi dati con le variabili passate
+\series bold
++ Login() 
 \end_layout
 
 \begin_layout Standard
+Costruttore di default senza parametri.
+ I campi dati dovranno essere inizializzati con valori di default
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Login(String u, String p) 
+\end_layout
+
+\begin_layout Standard
+Costruttore con parametri.
+ Dovrà inizializzare i campi dati con le variabili passate
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
+
+\series bold
++ String getUsername()
+\begin_inset Newline newline
 \end_inset
 
-getUsername()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setUsername(String username)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ String getPassword()
+\begin_inset Newline newline
 \end_inset
 
-setUsername(String
-\begin_inset space ~
-\end_inset
-
-username)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getPassword()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setPassword(String
-\begin_inset space ~
-\end_inset
-
-password)
++ void setPassword(String password)
 \end_layout
 
 \begin_layout Standard
@@ -12475,42 +11374,62 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODomande
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAOPunteggi
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Dipendente
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Domanda
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.ApplicazioniConnection
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.WebConnection
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDati
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneBadgeD
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestionePunteggiAA
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestionePunteggiD
 \end_layout
 
@@ -12518,64 +11437,34 @@ back.controller.GestionePunteggiD
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-int
-\begin_inset space ~
-\end_inset
+\series bold
+- int punti 
+\end_layout
 
-punti 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
 Indica i punti accumulati da un dipendenti O i punti accumulati da tutti
  i dipendenti dell'azienda
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-double
-\begin_inset space ~
-\end_inset
-
-mediaPuntiAzienda 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- double mediaPuntiAzienda 
+\end_layout
+
+\begin_layout Standard
 Indica il punteggio medio di tutti i dipendenti dell'azienda
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-puntiPrec 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int puntiPrec 
+\end_layout
+
+\begin_layout Standard
 Indica il numero di punti ottenuti dal Dipendente direttamente successivo
  al Dipendente 
 \begin_inset Quotes eld
@@ -12587,25 +11476,15 @@ proprietario
 
  all'interno della classifica dei punteggi (ovvero colui che ha meno punti
  del proprietario di questo oggetto)
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-puntiSuc 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int puntiSuc 
+\end_layout
+
+\begin_layout Standard
 Indica il numero di punti ottenuti dal Dipendente direttamente precedente
  al Dipendente 
 \begin_inset Quotes eld
@@ -12617,46 +11496,26 @@ proprietario
 
  all'interno della classifica dei punteggi (ovvero colui che ha più punti
  del proprietario di questo oggetto)
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-nDomRisp 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int nDomRisp 
+\end_layout
+
+\begin_layout Standard
 Indica il numero di domande a cui o il Dipendente o tutti i Dipendenti dell'azie
 nda hanno dato risposta
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-nRispCorr 
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- int nRispCorr 
+\end_layout
+
+\begin_layout Standard
 Indica il numero di domande a cui o il Dipendente o tutti i Dipendenti dell'azie
 nda hanno dato risposta corretta
 \end_layout
@@ -12665,76 +11524,46 @@ nda hanno dato risposta corretta
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-Punteggio() 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore di default senza parametri.
- I campi dati dovranno essere inizializzati con valori di default
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio(int
-\begin_inset space ~
-\end_inset
-
-punti) 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore con parametri.
- Dovrà inizializzare i campi dati con le variabili passate
+\series bold
++Punteggio() 
 \end_layout
 
 \begin_layout Standard
+Costruttore di default senza parametri.
+ I campi dati dovranno essere inizializzati con valori di default
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Punteggio(int punti) 
+\end_layout
+
+\begin_layout Standard
+Costruttore con parametri.
+ Dovrà inizializzare i campi dati con le variabili passate
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-int
-\begin_inset space ~
+
+\series bold
++ int getPunti()
+\begin_inset Newline newline
 \end_inset
 
-getPunti()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setPunti(int
-\begin_inset space ~
-\end_inset
-
-punti)
++ void setPunti(int punti)
 \end_layout
 
 \begin_layout Standard
@@ -12761,8 +11590,8 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe fungerà da contenitore per i dati riguardanti le richieste
+ di recupero password.
 \end_layout
 
 \begin_layout Description
@@ -12794,10 +11623,14 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.SqlDAODipendenti
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.connection.WebConnection
 \end_layout
 
@@ -12805,43 +11638,23 @@ back.connection.WebConnection
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-String
-\begin_inset space ~
-\end_inset
-
-email 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Indirizzo email a cui si dovrà inviare la mail con la password
+\series bold
+- String email 
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-codFiscale 
-\begin_inset space ~
-\end_inset
-
-
+\begin_layout Standard
+Indirizzo email a cui si dovrà inviare la mail con la password
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- String codFiscale 
+\end_layout
+
+\begin_layout Standard
 Codice fiscale dell'account a cui è collegato anche la mail
 \end_layout
 
@@ -12849,112 +11662,56 @@ Codice fiscale dell'account a cui è collegato anche la mail
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-Recupero(String
-\begin_inset space ~
-\end_inset
-
-email,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-codFiscale) 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore con parametri.
- Dovrà inizializzare i campi dati con le variabili passate
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Recupero() 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Costruttore di default senza parametri.
- I campi dati dovranno essere inizializzati con valori di default
+\series bold
++ Recupero(String email, String codFiscale) 
 \end_layout
 
 \begin_layout Standard
+Costruttore con parametri.
+ Dovrà inizializzare i campi dati con le variabili passate
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Recupero()
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+Costruttore di default senza parametri.
+ I campi dati dovranno essere inizializzati con valori di default
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
+
+\series bold
++ String getEmail()
+\begin_inset Newline newline
 \end_inset
 
-getEmail()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ void setEmail(String email)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ String getCodFiscale()
+\begin_inset Newline newline
 \end_inset
 
-setEmail(String
-\begin_inset space ~
-\end_inset
-
-email)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-getCodFiscale()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setCodFiscale(String
-\begin_inset space ~
-\end_inset
-
-codFiscale)
++ void setCodFiscale(String codFiscale)
 \end_layout
 
 \end_body
