@@ -6225,108 +6225,73 @@ Questa classe verrà utilizzata dalle seguenti classi:
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-Domanda
-\begin_inset space ~
-\end_inset
-
-getDomanda(String
-\begin_inset space ~
-\end_inset
-
-username)
+\series bold
++ Domanda getDomanda(Dipendente d) 
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo che recupera i campi che compongono un oggetto Domanda tramite il
+ suo id.
+\series bold
+
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-posticipa(String
-\begin_inset space ~
++ boolean posticipa(Dipendente d, Domanda dom); 
+\begin_inset Newline newline
 \end_inset
 
-username)
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ boolean rispondi(Dipendente d, Domanda dom);
+\begin_inset Newline newline
 \end_inset
 
-rispondi(String
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-username,
-\begin_inset space ~
++ ArrayList<Domanda> domandeA(); 
+\begin_inset Newline newline
 \end_inset
 
-String
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-risposta)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
++ ArrayList<Domanda> domande(Dipendente d, Domanda dom);
+\begin_inset Newline newline
 \end_inset
 
-Domanda[]
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-domandeA(boolean
-\begin_inset space ~
++ boolean addDomanda(Domanda d); 
+\begin_inset Newline newline
 \end_inset
 
-interne)
-\end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
++ boolean remDomanda(Domanda d); 
+\begin_inset Newline newline
 \end_inset
 
-addDomanda(int
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-id)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-remDomanda(int
-\begin_inset space ~
-\end_inset
-
-id)
++ boolean scriviSottoposta(Dipendente dip, Domanda dom);
 \end_layout
 
 \begin_layout Standard
@@ -6389,112 +6354,149 @@ Questa classe verrà utilizzata dalle seguenti classi:
 Attributi
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+- Indirizzo serverDomande;
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Indirizzo serverAzienda;
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+
+\series bold
++ SqlDAODomande(Indirizzo azienda, Indirizzo domande)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- Domanda prendiCampiDomanda(int id)
+\end_layout
+
+\begin_layout Standard
+Metodo che recupera i campi che compongono un oggetto Domanda tramite il
+ suo id.
+ 
+\end_layout
+
+\begin_layout Standard
+Dovrà innanzitutto recuperare la domanda dal server centrale, quindi creare
+ l'oggetto 
+\emph on
 Domanda
-\begin_inset space ~
+\emph default
+ e inserire al suo interno i dati recuperati.
+ Nel caso una delle query dovesse lanciare un'eccezione, la funzione dovrà
+ ritornare un valore 
+\series bold
+null
+\series default
+.
+\begin_inset Newline newline
 \end_inset
 
-getDomanda(String
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-username)
+
+\series bold
++ Domanda getDomanda(Dipendente d)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-posticipa(String
-\begin_inset space ~
-\end_inset
-
-username)
+\begin_layout Standard
+Metodo che, dato un Dipendente, fornisce un oggetto Domanda che conterrà
+ una domanda a cui il Dipendente o non ha risposto (possibilmente avendo
+ chiesto di posticiparla), o ha risposto erroneamente o non ha mai visto.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Tale metodo dovrà controllare in primis che non esistano domande a cui il
+ Dipendente non ha ancora dato risposta.
+ Se questa condizione dovesse essere verificata, la funzione dovrà prelevare
+ una nuova domanda da sottoporre al Dipendente combinando le domande a cui
+ ha risposto erroneamente con quelle a cui non ha mai dato risposta e che
+ non gli sono state sottoposte.
+ Quindi ritornerà l'oggetto passato dalla funzione 
+\family typewriter
+prendiCampiDomanda(int id)
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\family default
+\series bold
+
+\begin_inset Newline newline
 \end_inset
 
-rispondi(String
-\begin_inset space ~
-\end_inset
-
-username,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-risposta)
++ boolean posticipa(Dipendente d, Domanda dom)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo che dovrà posticipare la Domanda sottoposta al Dipendente, in modo
+ tale che questa possa essere riproposta più tardi allo stesso.
+ 
+\begin_inset Newline newline
 \end_inset
 
-Domanda[]
-\begin_inset space ~
+
+\series bold
+
+\begin_inset Newline newline
 \end_inset
 
-domandeA(boolean
-\begin_inset space ~
-\end_inset
-
-interne)
++ boolean rispondi(Dipendente d, Domanda dom)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-void
-\begin_inset space ~
-\end_inset
-
-addDomanda(int
-\begin_inset space ~
-\end_inset
-
-id)
+\series bold
++ ArrayList<Domanda> domandeA()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-void
-\begin_inset space ~
-\end_inset
+\series bold
++ ArrayList<Domanda> domande(Dipendente d, Domanda dom)
+\end_layout
 
-remDomanda(int
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-id)
+\series bold
++ boolean addDomanda(Domanda d)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ boolean remDomanda(Domanda d)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ boolean scriviSottoposta(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
