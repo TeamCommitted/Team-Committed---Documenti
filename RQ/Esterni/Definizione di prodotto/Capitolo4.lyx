@@ -3636,11 +3636,64 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
- per quanto riguarda il loro recupero dal database, che una loro eventuale
- modifica.
- Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
- dovranno offrire questo tipo di servizio
+Questa classe si occuperà di creare le stringhe che poi andranno inserite
+ all'interno nel file di log.
+\begin_inset Newline newline
+\end_inset
+
+La struttura dovrà essere di questo tipo 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Gli elementi variabili che variano a seconda del messaggio da inserire sono
+ specificati metodo per metodo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\emph on
+<TIPO_OPERAZIONE> DATA ORA 
+\begin_inset Quotes eld
+\end_inset
+
+usr=
+\begin_inset Quotes erd
+\end_inset
+
+USERNAME <VARI>
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -3671,220 +3724,649 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDipendentiD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeD
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.UpdateLog
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Domanda
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-UpdateLog
-\begin_inset space ~
-\end_inset
+\series bold
+- UpdateLog updateLog
+\end_layout
 
-updateLog
+\begin_layout Standard
+
+\series bold
+- String percorso
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- String log
 \end_layout
 
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-GestioneLog(UpdateLog
-\begin_inset space ~
-\end_inset
-
-ul)
+\series bold
++ GestioneLog(UpdateLog u)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-scriviLogin(Login
-\begin_inset space ~
-\end_inset
 
-l)
+\series bold
++ UpdateLog getUpdateLog()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo che consente di recuperare il riferimento all'oggetto di tipo UpdateLog
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-scriviLogout(Login
-\begin_inset space ~
-\end_inset
 
-l)
+\series bold
++ void setUpdateLog(UpdateLog updateLog)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo che consente di impostare il riferimento all'oggetto di tipo UpdateLog
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-scriviDomRic(Login
-\begin_inset space ~
-\end_inset
 
-l,
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-d)
+\series bold
++ void scriviLogin(Login l)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviDomProp(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-d)
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un login effettuato correttamente.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+LOGIN
+\begin_inset Quotes erd
 \end_inset
 
-scriviDomPost(Login
-\begin_inset space ~
+
+\series bold
+\emph default
+
+\begin_inset Newline newline
 \end_inset
 
-l,
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-Domanda
-\begin_inset space ~
-\end_inset
-
-d)
++ void scriviLogout(Login l) 
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviDomRisp(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-d)
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un logout effettuato correttamente
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+LOGOUT
+\begin_inset Quotes erd
 \end_inset
 
-scriviModPassD(Dipendente
-\begin_inset space ~
+
+\series bold
+\emph default
+
+\begin_inset Newline newline
 \end_inset
 
-d)
+
+\begin_inset Newline newline
+\end_inset
+
++ void scriviDomRic(Login l, Domanda d) 
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviModEmailD(Dipendente
-\begin_inset space ~
-\end_inset
-
-d)
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che una domanda viene ricevuta da un Dipendente.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+DOMANDA RICEVUTA
+\begin_inset Quotes erd
 \end_inset
 
-scriviOttenimentoBadge(Dipendente
-\begin_inset space ~
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
 \end_inset
 
-d,
-\begin_inset space ~
+id dom=
+\begin_inset Quotes erd
 \end_inset
 
-Badge
-\begin_inset space ~
+ + <id della domanda>
+\emph default
+
+\begin_inset Newline newline
 \end_inset
 
-b)
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviDomProp(Login l, Domanda d) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che una domanda viene proposta ad un Dipendente 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+DOMANDA PROPOSTA
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+id dom=
+\begin_inset Quotes erd
+\end_inset
+
+ + <id della domanda>
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void scriviDomPost(Login l, Domanda d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che una domanda è stata posticipata da un Dipendente
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+DOMANDA POSTICIPATA
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+id dom=
+\begin_inset Quotes erd
+\end_inset
+
+ + <id della domanda>
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviDomRisp(Login l, Domanda d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che un Dipendente risponde ad una Domanda 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+DOMANDA RISPOSTA
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+id dom=
+\begin_inset Quotes erd
+\end_inset
+
+ + <id della domanda>
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviModPassD(Dipendente d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che un dipendente modifica la propria password 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+MODIFICA PASS D
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviModEmailD(Dipendente d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che un dipendente modifica la propria email 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+MODIFICA EMAIL D
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviOttenimentoBadge(Dipendente d, Badge b)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che un dipendente ottiene un badge
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+OTTENIMENTO BADGE
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+badge=
+\begin_inset Quotes erd
+\end_inset
+
+ + <nome badge>
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+ void scriviAddDip(Dipendente d) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che l'AA aggiunge un dipendente
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+AGGIUNTO DIPENDENTE
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviDelDip(Dipendente d) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che l'AA rimuove un dipendente
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+RIMOSSO DIPENDENTE
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviModDip(Dipendente d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che l'AA modifica un dipendente
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+MODIFICATO DIPENDENTE
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviAddDomande(Domanda [] d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che l'AS aggiunge una o più domande
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE = 
+\begin_inset Quotes eld
+\end_inset
+
+AGGIUNTA DOMANDA
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+id dom=
+\begin_inset Quotes erd
+\end_inset
+
+ + <id delle domande>
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void scriviDelDomande(Domanda [] d) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo che l'AS rimuove una o più domande
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+TIPO_OPERAZIONE= 
+\begin_inset Quotes eld
+\end_inset
+
+RIMOSSA DOMANDA
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+VARI = 
+\begin_inset Quotes eld
+\end_inset
+
+id dom=
+\begin_inset Quotes erd
+\end_inset
+
+ + <id delle domande>
 \end_layout
 
 \begin_layout Standard
@@ -4065,7 +4547,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public GestioneLogin(DAOLogin access, GestioneLog log)
++ GestioneLogin(DAOLogin access, GestioneLog log)
 \end_layout
 
 \begin_layout Standard
@@ -4080,7 +4562,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-public boolean loginAdmin(Login login)
++ boolean loginAdmin(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4095,7 +4577,7 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 \begin_inset Newline newline
 \end_inset
 
-public boolean loginUser(Login login)
++ boolean loginUser(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4110,7 +4592,7 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 
 
 \series bold
-public void logout(Login l)
++ void logout(Login l)
 \end_layout
 
 \begin_layout Standard
@@ -4277,7 +4759,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-# DAOPunteggi accessP
+- DAOPunteggi accessP
 \begin_inset Newline newline
 \end_inset
 
@@ -4285,7 +4767,7 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-# DAODipendenti accessDip
+- DAODipendenti accessDip
 \end_layout
 
 \begin_layout Subsection*
@@ -4295,7 +4777,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public GestionePunteggiAA(DAOPunteggi accessP, DAODipendenti accessDip)
++ GestionePunteggiAA(DAOPunteggi accessP, DAODipendenti accessDip)
 \end_layout
 
 \begin_layout Standard
@@ -4310,7 +4792,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-public ArrayList<Dipendente> getPunteggi()
++ ArrayList<Dipendente> getPunteggi()
 \end_layout
 
 \begin_layout Standard
@@ -4335,7 +4817,7 @@ Punteggio
 
 
 \series bold
-public boolean setTrofei(Dipendente Dip, int n)
++ boolean setTrofei(Dipendente Dip, int n)
 \end_layout
 
 \begin_layout Standard
@@ -4540,7 +5022,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public GestionePunteggiD(DAOPunteggi dP, DAOBadge dB, DAODipendenti dD)
++ GestionePunteggiD(DAOPunteggi dP, DAOBadge dB, DAODipendenti dD)
 \end_layout
 
 \begin_layout Standard
@@ -4555,7 +5037,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \begin_inset Newline newline
 \end_inset
 
-public Punteggio getStatisticheD(Login l)
++ Punteggio getStatisticheD(Login l)
 \end_layout
 
 \begin_layout Standard
@@ -4574,7 +5056,7 @@ Login
 
 
 \series bold
-public Punteggio getStatisticheGlob(Login l)
++ Punteggio getStatisticheGlob(Login l)
 \end_layout
 
 \begin_layout Standard
@@ -4728,15 +5210,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-# DAODipendenti accessDip
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-# GestioneLog log
+- DAODipendenti accessDip
 \end_layout
 
 \begin_layout Subsection*
@@ -4746,7 +5220,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneRecupero(DAODipendenti accessDip, GestioneLog log)
++ GestioneRecupero(DAODipendenti accessDip)
 \end_layout
 
 \begin_layout Standard
@@ -4761,12 +5235,13 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ boolean recupero(String username, String codfis, String mail)
++ boolean recuperoD(Recupero dip)
 \end_layout
 
 \begin_layout Standard
 Metodo che controlla la validità dei dati inseriti dall'utente e, nel caso
- questi siano validi, genera una nuova password.
+ questi siano validi, genera una nuova password, andando ad inserirla nel
+ database.
 \end_layout
 
 \begin_layout Standard
@@ -4791,6 +5266,28 @@ username
  Se i controlli non dovessero segnalare incongruenze, allora il metodo dovrà
  generare una nuova password e modificare quella che è attualmente presente
  nel database.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean recuperoA(Recupero amm)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente ad un amministratore di resettare la propria password.
+\end_layout
+
+\begin_layout Standard
+Dovrà generare la password casuale, quindi dovrà chiamare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè modifichi la riga riferita ai dati di accesso dell'Amministratore.
 \begin_inset Newline newline
 \end_inset
 
