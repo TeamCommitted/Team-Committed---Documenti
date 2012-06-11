@@ -1595,99 +1595,461 @@ trol
 \SpecialChar \-
 
 \series default
+ler.GestioneBadgeAS
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+DAOBadge
+\begin_inset space ~
+\end_inset
+
+daoBadge
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+GestioneBadgeAS(DAOBadge
+\begin_inset space ~
+\end_inset
+
+db)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Badge[]
+\begin_inset space ~
+\end_inset
+
+getBadges()
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+void
+\begin_inset space ~
+\end_inset
+
+creaBadges(Badge
+\begin_inset space ~
+\end_inset
+
+b)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneBadgeD
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+DAOBadge
+\begin_inset space ~
+\end_inset
+
+daoBadge
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+GestioneBadgeD(DAOBadge
+\begin_inset space ~
+\end_inset
+
+db)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Badge[]
+\begin_inset space ~
+\end_inset
+
+getBadges()
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Punteggio
+\begin_inset space ~
+\end_inset
+
+getDistanzaPunti(Login
+\begin_inset space ~
+\end_inset
+
+l,
+\begin_inset space ~
+\end_inset
+
+Badge
+\begin_inset space ~
+\end_inset
+
+b)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+Badge[]
+\begin_inset space ~
+\end_inset
+
+getMyBadges(Login
+\begin_inset space ~
+\end_inset
+
+l)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+int
+\begin_inset space ~
+\end_inset
+
+getDistanzaD(Login
+\begin_inset space ~
+\end_inset
+
+l,
+\begin_inset space ~
+\end_inset
+
+Badge
+\begin_inset space ~
+\end_inset
+
+b)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
 ler.GestioneDati
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -2370,99 +2732,55 @@ trol
 \SpecialChar \-
 
 \series default
-ler.GestioneLogin
+ler.GestioneDipendentiAA
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -2474,23 +2792,11 @@ Attributi
 \begin_inset space ~
 \end_inset
 
-DAOLogin
+DAODipendenti
 \begin_inset space ~
 \end_inset
 
-daoLogin
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-GestioneLog
-\begin_inset space ~
-\end_inset
-
-gestioneLog
+daoDipendenti
 \end_layout
 
 \begin_layout Subsection*
@@ -2502,19 +2808,55 @@ Metodi
 \begin_inset space ~
 \end_inset
 
-GestioneLogin(DAOLogin
+GestioneDipendentiAA(DAODipendenti
 \begin_inset space ~
 \end_inset
 
-d,
+dp)
+\end_layout
+
+\begin_layout Description
++
 \begin_inset space ~
 \end_inset
 
-GestioneLog
+Dipendente[]
 \begin_inset space ~
 \end_inset
 
-g)
+getDipendenti()
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+void
+\begin_inset space ~
+\end_inset
+
+addDipendente(Dipendente
+\begin_inset space ~
+\end_inset
+
+d)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+void
+\begin_inset space ~
+\end_inset
+
+eliminaDipendente(Dipendente
+\begin_inset space ~
+\end_inset
+
+d)
 \end_layout
 
 \begin_layout Description
@@ -2526,1055 +2868,11 @@ boolean
 \begin_inset space ~
 \end_inset
 
-checkLogin(Login
+modificaDipendente(Dipendente
 \begin_inset space ~
 \end_inset
 
-login)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestioneDomandeD
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAODomande
-\begin_inset space ~
-\end_inset
-
-daoDomande
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-GestionePunteggiD
-\begin_inset space ~
-\end_inset
-
-gestionePunteggiD
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-GestioneLog
-\begin_inset space ~
-\end_inset
-
-gestioneLog
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestioneDomandeD(DAODomande
-\begin_inset space ~
-\end_inset
-
-d,
-\begin_inset space ~
-\end_inset
-
-GestionePunteggiD
-\begin_inset space ~
-\end_inset
-
-gp,
-\begin_inset space ~
-\end_inset
-
-GestioneLog
-\begin_inset space ~
-\end_inset
-
-gl)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-getDomanda(Login
-\begin_inset space ~
-\end_inset
-
-l)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-setRisposta(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Risposta
-\begin_inset space ~
-\end_inset
-
-r)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestioneDomandeAS
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAODomande
-\begin_inset space ~
-\end_inset
-
-daDomande
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestioneDomandeAS(DAODomande
-\begin_inset space ~
-\end_inset
-
-d)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Domanda[]
-\begin_inset space ~
-\end_inset
-
-getListaDomande()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Domanda[]
-\begin_inset space ~
-\end_inset
-
-getListaCalderone()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addDomande(int[]
-\begin_inset space ~
-\end_inset
-
-idDom)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-eliminaDomande(int[]
-\begin_inset space ~
-\end_inset
-
-idDom)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestionePunteggiD
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAOPunteggi
-\begin_inset space ~
-\end_inset
-
-daoPunteggi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-daoBadge
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestionePunteggiD(DAOPunteggi
-\begin_inset space ~
-\end_inset
-
-dp,
-\begin_inset space ~
-\end_inset
-
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-db)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatisticheAzienda()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatistiche(Login
-\begin_inset space ~
-\end_inset
-
-l)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestionePunteggiAA
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAOPunteggi
-\begin_inset space ~
-\end_inset
-
-daoPunteggi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-daoBadge
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestionePunteggiAA(DAOPunteggi
-\begin_inset space ~
-\end_inset
-
-dp,
-\begin_inset space ~
-\end_inset
-
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-db)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatAzienda()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatDomanda(Domanda
-\begin_inset space ~
-\end_inset
-
-d)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getBadge(int
-\begin_inset space ~
-\end_inset
-
-ultimi,
+vecchio,
 \begin_inset space ~
 \end_inset
 
@@ -3582,7 +2880,7 @@ Dipendente
 \begin_inset space ~
 \end_inset
 
-d)
+nuovo)
 \end_layout
 
 \begin_layout Standard
@@ -3656,96 +2954,52 @@ trol
 ler.GestioneDipendentiD
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -3928,99 +3182,55 @@ trol
 \SpecialChar \-
 
 \series default
-ler.GestioneDipendentiAA
+ler.GestioneDomandeAS
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -4032,11 +3242,11 @@ Attributi
 \begin_inset space ~
 \end_inset
 
-DAODipendenti
+DAODomande
 \begin_inset space ~
 \end_inset
 
-daoDipendenti
+daDomande
 \end_layout
 
 \begin_layout Subsection*
@@ -4048,35 +3258,7 @@ Metodi
 \begin_inset space ~
 \end_inset
 
-GestioneDipendentiAA(DAODipendenti
-\begin_inset space ~
-\end_inset
-
-dp)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Dipendente[]
-\begin_inset space ~
-\end_inset
-
-getDipendenti()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addDipendente(Dipendente
+GestioneDomandeAS(DAODomande
 \begin_inset space ~
 \end_inset
 
@@ -4088,15 +3270,11 @@ d)
 \begin_inset space ~
 \end_inset
 
-void
+Domanda[]
 \begin_inset space ~
 \end_inset
 
-eliminaDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d)
+getListaDomande()
 \end_layout
 
 \begin_layout Description
@@ -4104,23 +3282,43 @@ d)
 \begin_inset space ~
 \end_inset
 
-boolean
+Domanda[]
 \begin_inset space ~
 \end_inset
 
-modificaDipendente(Dipendente
+getListaCalderone()
+\end_layout
+
+\begin_layout Description
++
 \begin_inset space ~
 \end_inset
 
-vecchio,
+void
 \begin_inset space ~
 \end_inset
 
-Dipendente
+addDomande(int[]
 \begin_inset space ~
 \end_inset
 
-nuovo)
+idDom)
+\end_layout
+
+\begin_layout Description
++
+\begin_inset space ~
+\end_inset
+
+void
+\begin_inset space ~
+\end_inset
+
+eliminaDomande(int[]
+\begin_inset space ~
+\end_inset
+
+idDom)
 \end_layout
 
 \begin_layout Standard
@@ -4191,99 +3389,55 @@ trol
 \SpecialChar \-
 
 \series default
-ler.GestioneBadgeD
+ler.GestioneDomandeD
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -4295,11 +3449,35 @@ Attributi
 \begin_inset space ~
 \end_inset
 
-DAOBadge
+DAODomande
 \begin_inset space ~
 \end_inset
 
-daoBadge
+daoDomande
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+GestionePunteggiD
+\begin_inset space ~
+\end_inset
+
+gestionePunteggiD
+\end_layout
+
+\begin_layout Description
+-
+\begin_inset space ~
+\end_inset
+
+GestioneLog
+\begin_inset space ~
+\end_inset
+
+gestioneLog
 \end_layout
 
 \begin_layout Subsection*
@@ -4311,11 +3489,27 @@ Metodi
 \begin_inset space ~
 \end_inset
 
-GestioneBadgeD(DAOBadge
+GestioneDomandeD(DAODomande
 \begin_inset space ~
 \end_inset
 
-db)
+d,
+\begin_inset space ~
+\end_inset
+
+GestionePunteggiD
+\begin_inset space ~
+\end_inset
+
+gp,
+\begin_inset space ~
+\end_inset
+
+GestioneLog
+\begin_inset space ~
+\end_inset
+
+gl)
 \end_layout
 
 \begin_layout Description
@@ -4323,47 +3517,11 @@ db)
 \begin_inset space ~
 \end_inset
 
-Badge[]
+Domanda
 \begin_inset space ~
 \end_inset
 
-getBadges()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getDistanzaPunti(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Badge
-\begin_inset space ~
-\end_inset
-
-b)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getMyBadges(Login
+getDomanda(Login
 \begin_inset space ~
 \end_inset
 
@@ -4375,11 +3533,11 @@ l)
 \begin_inset space ~
 \end_inset
 
-int
+void
 \begin_inset space ~
 \end_inset
 
-getDistanzaD(Login
+setRisposta(Login
 \begin_inset space ~
 \end_inset
 
@@ -4387,461 +3545,7 @@ l,
 \begin_inset space ~
 \end_inset
 
-Badge
-\begin_inset space ~
-\end_inset
-
-b)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestioneBadgeAS
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-daoBadge
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestioneBadgeAS(DAOBadge
-\begin_inset space ~
-\end_inset
-
-db)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getBadges()
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-creaBadges(Badge
-\begin_inset space ~
-\end_inset
-
-b)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-sa
-\series bold
-\SpecialChar \-
-
-\series default
-fe
-\series bold
-\SpecialChar \-
-
-\series default
-ty
-\series bold
-\SpecialChar \-
-
-\series default
-Ga
-\series bold
-\SpecialChar \-
-
-\series default
-me
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-back
-\series bold
-\SpecialChar \-
-
-\series default
-.
-\series bold
-\SpecialChar \-
-
-\series default
-con
-\series bold
-\SpecialChar \-
-
-\series default
-trol
-\series bold
-\SpecialChar \-
-
-\series default
-ler.GestioneRecupero
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-email
-\end_layout
-
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
-
-DAODipendente
-\begin_inset space ~
-\end_inset
-
-daoDipendente
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-GestioneRecupero(String
-\begin_inset space ~
-\end_inset
-
-email,
-\begin_inset space ~
-\end_inset
-
-DAODipendente
-\begin_inset space ~
-\end_inset
-
-dd)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-bool
-\begin_inset space ~
-\end_inset
-
-recupero(Recupero
+Risposta
 \begin_inset space ~
 \end_inset
 
@@ -4919,96 +3623,52 @@ trol
 ler.GestioneLog
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -5234,6 +3894,980 @@ b)
 
 \end_layout
 
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneLogin
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizza le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- DAOLogin access
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLog log
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+public GestioneLogin(DAOLogin access, GestioneLog log)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public boolean loginAdmin(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
+ nel sistema come Amministratore
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+public boolean loginUser(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
+ nel sistema come Dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public void logout(Login l)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un utente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestionePunteggiAA
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizza le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOPunteggi
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Punteggio
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# DAOPunteggi accessP
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# DAODipendenti accessDip
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+public GestionePunteggiAA(DAOPunteggi accessP, DAODipendenti accessDip)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public ArrayList<Dipendente> getPunteggi()
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere i punteggi medi dell'azienda e i punteggi di tutti i
+ dipendenti.
+ Dovrà costruire un array di oggetti 
+\emph on
+Dipendente
+\emph default
+ con al loro interno i dati di ogni Dipendente (per poterlo identificare)
+ e al loro interno un oggetto 
+\emph on
+Punteggio
+\emph default
+ con sia i punteggi del Dipendente che dell'intera azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public boolean setTrofei(Dipendente Dip, int n)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare il numero di trofei di un dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestionePunteggiD
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeD
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizza le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOBadge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOPunteggi
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Punteggio
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- DAOPunteggi daoPunteggi
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAOBadge daoBadge
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAODipendenti daoDipendenti
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+public GestionePunteggiD(DAOPunteggi dP, DAOBadge dB, DAODipendenti dD)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+public Punteggio getStatisticheD(Login l)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperare le statistiche di un Dipendente identificato
+ dal 
+\emph on
+Login
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public Punteggio getStatisticheGlob(Login l)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperare le statistiche dell'intera azienda e del
+ Dipendente identificato dal 
+\emph on
+Login.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+con
+\series bold
+\SpecialChar \-
+
+\series default
+trol
+\series bold
+\SpecialChar \-
+
+\series default
+ler.GestioneRecupero
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le richieste di recupero delle password.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+Inoltre verranno utilizzate le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# DAODipendenti accessDip
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# GestioneLog log
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ GestioneRecupero(DAODipendenti accessDip, GestioneLog log)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean recupero(String username, String codfis, String mail)
+\end_layout
+
+\begin_layout Standard
+Metodo che controlla la validità dei dati inseriti dall'utente e, nel caso
+ questi siano validi, genera una nuova password.
+\end_layout
+
+\begin_layout Standard
+Dovrà prima di tutto controllare che i dati inseriti siano corretti, chiamando
+ l'
+\emph on
+Access-Tier 
+\emph default
+affinchè verifichi che 
+\emph on
+codice fiscale
+\emph default
+ e indirizzo
+\emph on
+ mail
+\emph default
+ appartengano effettivamente all'account identificato dall'
+\emph on
+username
+\emph default
+.
+ Se i controlli non dovessero segnalare incongruenze, allora il metodo dovrà
+ generare una nuova password e modificare quella che è attualmente presente
+ nel database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- String generaPassCasuale()
+\end_layout
+
+\begin_layout Standard
+Metodo che genera una nuova password di 16 caratteri di lunghezza.
+ Questa password dovrà contenere almeno un carattere maiuscolo, uno minuscolo,
+ un numero e un carattere non alfa-numerico contenuto fra questi: 
+\end_layout
+
+\begin_layout Itemize
+@
+\end_layout
+
+\begin_layout Itemize
+#
+\end_layout
+
+\begin_layout Itemize
+*
+\end_layout
+
+\begin_layout Itemize
++
+\end_layout
+
+\begin_layout Itemize
+?
+\end_layout
+
+\begin_layout Itemize
+^
+\end_layout
+
+\begin_layout Itemize
+%
+\end_layout
+
+\begin_layout Itemize
+&
+\end_layout
+
+\begin_layout Itemize
+/
+\end_layout
+
+\begin_layout Itemize
+$
+\end_layout
+
+\begin_layout Itemize
+!
+\end_layout
+
+\begin_layout Itemize
++
+\end_layout
+
+\begin_layout Itemize
+-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Package com.safetyGame.back.access
 \end_layout
@@ -5243,13 +4877,12 @@ Package com.safetyGame.back.access
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- la classe si occupa di gestire le richieste sia del 
+ il package contiene tutte le classi che si occupano di eseguire le operazioni
+ che il 
 \emph on
-Front-end Web
+Controller-Tier
 \emph default
- che del 
-\emph on
-Front-end Desktop
+ chiede che vengano eseguite sui database aziendali e centrali.
 \end_layout
 
 \begin_layout Standard
@@ -5259,22 +4892,11 @@ Relazioni d'uso di altre componenti:
 \series default
  utilizza il package 
 \series bold
-com.safetyGame.back.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
+com.safetyGame.back.condivisi 
 \series default
-per inoltrare le richieste provenienti dai 
+per trasmettere le informazioni trovate all'interno dei database al 
 \emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
+Controller-Tier
 \end_layout
 
 \begin_layout Standard
@@ -5282,48 +4904,31 @@ Back-End
 \series bold
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
- viene utilizzato dalla classe 
+ viene utilizzato dall package 
 \series bold
 com.safetyGame.back.\SpecialChar \-
 con\SpecialChar \-
 trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
+ler 
 \series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
+per riceve tutti i dati dal database di cui ha bisogno per le sue elaborazioni
+ e per essere mostrati agli utenti tramite i 
 \emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
+Front-end
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Attività svolte e dati trattati:
+Attività svolte e dati trattati: 
 \series default
- fa da connettore fra i 
+fa da connettore fra il 
 \emph on
-Front-End Web 
+Back-end
 \emph default
-e 
+ e i database, divenendo parte del componente 
 \emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
+Model
 \emph default
  del design pattern 
 \emph on
@@ -5385,8 +4990,11 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
 \begin_layout Description
@@ -5535,8 +5143,9 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i Badge, sia
+ per quanto riguarda il loro recupero dal database, che una loro eventuale
+ modifica.
 \end_layout
 
 \begin_layout Description
@@ -5706,8 +5315,9 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i Dipendenti.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
 \begin_layout Description
@@ -6103,8 +5713,7 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i Dipendenti.
 \end_layout
 
 \begin_layout Description
@@ -6477,8 +6086,9 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti le domande.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
 \begin_layout Description
@@ -6707,8 +6317,7 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti le domande.
 \end_layout
 
 \begin_layout Description
@@ -7009,8 +6618,7 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+
 \end_layout
 
 \begin_layout Description
@@ -7206,8 +6814,7 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+
 \end_layout
 
 \begin_layout Description
@@ -7391,8 +6998,10 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i tentativi
+ di autenticazione all'interno del sistema.
+ Fornisce l'interfaccia minima necessaria a tutte le classi derivate che
+ dovranno offrire questo tipo di servizio
 \end_layout
 
 \begin_layout Description
@@ -7502,8 +7111,8 @@ Funzione
 \begin_inset Newline newline
 \end_inset
 
-Questa classe fungerà da contenitore per i dati riguardanti i Badge che
- sono stati inseriti all'interno del database aziendale
+Questa classe si occuperà di gestire tutti i dati riguardanti i tentativi
+ di autenticazione all'interno del sistema.
 \end_layout
 
 \begin_layout Description
