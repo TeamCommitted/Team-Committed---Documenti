@@ -104,5 +104,147 @@ i dei requisiti.
  emersi dallo studio del capitolato e dagli use case.
 \end_layout
 
+\begin_layout Subsection*
+TA1 Test di Autenticazione utente
+\end_layout
+
+\begin_layout Standard
+Si verificherà che un utente non autenticato possa effettuare il login all'inter
+no del sistema e quindi autenticarsi.
+ Una volta inserite le credenziali di un 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+ o 
+\bar under
+Amministratore Sicurezza
+\bar default
+, si verificherà che il sistema visualizzi la relativa pagina.
+ Si verificherà inoltre che, inserendo una coppia di e-mail e password non
+ presenti nel database, il sistema non esegua l'autenticazione ma visualizzi
+ un messaggio d'errore.
+\end_layout
+
+\begin_layout Subsection*
+TA2 Test di Richiesta nuova domanda
+\end_layout
+
+\begin_layout Standard
+Si verificherà che un 
+\bar under
+Dipendente
+\bar default
+ autenticato possa richiedere una nuova domanda al sistema.
+ Questo dovrà rispondere alla richiesta con una nuova domanda a cui l'utente
+ potrà quindi rispondere.
+\end_layout
+
+\begin_layout Subsection*
+TA3 Test di Proposta di domanda
+\end_layout
+
+\begin_layout Standard
+Si verificherà che il sistema, ad intervalli di tempo regolari, fornisca
+ al Dipendente autenticato nuove domande a cui rispondere.
+ Si verificherà inoltre che al dipendente sia fornita la possibilità di
+ posticipare la domanda oppure di rispondervi.
+\end_layout
+
+\begin_layout Subsection*
+TA4 Test di Visualizzazione risultato
+\end_layout
+
+\begin_layout Standard
+Una volta che un Dipendente autenticato avrà risposto ad una domanda, si
+ verificherà che il sistema visualizzi se è stata fornita una risposta corretta
+ oppure no.
+\end_layout
+
+\begin_layout Subsection*
+TA5 Test di Visualizzazione e modifica dati personali
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che un utente autenticato, di tipo Dipendente, Amministratore
+ Azienda o Amministratore Sicurezza, possa accedere al pannello di visualizzazio
+ne dei propri dati personali e questi dovranno essere visualizzati correttamente.
+ Si verificherà inoltre che sia possibile poter modificare i dati personali
+ e che i cambiamenti effettuati vengano correttamente salvati all'interno
+ del database.
+\end_layout
+
+\begin_layout Subsection*
+TA6 Test di Visualizzazione dei punteggi personali
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che un Dipendente autenticato possa accedere correttamente
+ alla sezione dedicata alla visualizzazione dei propri punteggi e che questi
+ siano visualizzati nella maniera corretta.
+\end_layout
+
+\begin_layout Subsection*
+TA7 Test di Gestione degli account dipendente
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che Amministratore Azienda possa accedere correttamente
+ alla pagina di gestione degli account dipendente.
+ Si verificherà che l'amministratore possa gestire i vari account, con la
+ possibilità di visualizzare, modificare e salvare i dati dei dipendenti
+ o di creare nuovi dipendenti qual'ora fosse necessario.
+\end_layout
+
+\begin_layout Subsection*
+TA7.1 Test di Ivio mail registrazione dipendente
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che alla creazione di un nuovo Dipendente da parte dell'Amminis
+tratore Azienda venga inviata una mail a tale dipendente contenente le credenzia
+li per l'accesso.
+ Verrà quindi verificato ciò attendendo un ragionevole quantitativo di tempo
+ per la ricezione di tale mail.
+\end_layout
+
+\begin_layout Subsection*
+TA8 Test di Consultazione e modifica domande
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che un Amministratore Sicurezza possa accedere correttamente
+ al pannello di gestione delle domande dell'azienda.
+ Verrà poi verificato se l'amministratore sicurezza possa visualizzare tali
+ domandi, aggiungerne di nuove alla lista di quelle disponibili oppure eliminarn
+e di non necessarie, e che il sistema salvi correttamente queste modifiche.
+\end_layout
+
+\begin_layout Subsection*
+TA9 Test di Modifica degli obiettivi di gamification
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che il sistema permetta all'Amministratore Sicurezza di
+ modificare nel modo corretto gli obiettivi di gamification ed i badge dell'azie
+nda e che tali modifiche vangano salvate correttamente all'interno del database.
+\end_layout
+
+\begin_layout Subsection*
+TA10 Test di installazione del software
+\end_layout
+
+\begin_layout Standard
+Verrà verificato che l'
+\bar under
+Amministratore Installatore
+\bar default
+ possa installare correttamente il sistema all'interno dei vari dispositivo
+ per cui è stato progettato.
+\end_layout
+
 \end_body
 \end_document
