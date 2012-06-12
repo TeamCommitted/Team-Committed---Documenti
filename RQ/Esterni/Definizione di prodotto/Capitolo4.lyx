@@ -1646,64 +1646,74 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+back.access.DAOBadge
+\end_layout
+
+\begin_layout Itemize
+back.condivisi.Badge
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-DAOBadge
-\begin_inset space ~
-\end_inset
-
-daoBadge
+\series bold
+- DAOBadge accessB
 \end_layout
 
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-GestioneBadgeAS(DAOBadge
-\begin_inset space ~
-\end_inset
-
-db)
+\series bold
++ GestioneBadgeAS(DAOBadge accessB)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
 \end_inset
 
-Badge[]
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-getBadges()
+
+\series bold
++ ArrayList<Badge> getBadgesAS()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
+Metodo per ottenere tutti i badge possibili.
+\end_layout
 
-void
-\begin_inset space ~
-\end_inset
-
-creaBadges(Badge
-\begin_inset space ~
-\end_inset
-
-b)
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier 
+\emph default
+affinchè ritorni un array con gli oggetti 
+\emph on
+Badge
+\series bold
+ 
+\series default
+\emph default
+che rappresenteranno tutti i badge presenti nel database.
 \end_layout
 
 \begin_layout Standard
@@ -1825,112 +1835,246 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeD
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOBadge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODomande
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Badge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Domanda
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
+\begin_layout Standard
+
+\series bold
+- DAOBadge accessB
+\begin_inset Newline newline
 \end_inset
 
-DAOBadge
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-daoBadge
+- DAODipendenti accessDip
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAODomande accessDom
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLog log
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLogin login
 \end_layout
 
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-GestioneBadgeD(DAOBadge
-\begin_inset space ~
-\end_inset
-
-db)
+\series bold
+public GestioneBadgeD(DAOBadge accessB,DAODipendenti accessDip, DAODomande
+ accessDom, GestioneLog log, GestioneLogin login)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
 \end_inset
 
-Badge[]
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-getBadges()
+
+\series bold
+public ArrayList<Badge> getBadgeD(Login l, int n)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
+Metodo per ottenere i dati dei badge per un dato utente.
+\end_layout
 
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getDistanzaPunti(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà verificare che esista un 
+\emph on
+Dipendente
+\emph default
+ collegato alla 
+\emph on
+Login
+\emph default
+ passata come parametro.
+ Se esiste, allora dovrà recuperare l'oggetto 
+\emph on
+Dipendente
+\emph default
+ e la lista dei suoi badge, quindi seleziona i primi 
+\emph on
+n
+\emph default
+ Badge e li restituisce.
+ Nel caso non esistesse il 
+\emph on
+Dipendente
+\emph default
+ o non avesse alcun 
+\emph on
 Badge
-\begin_inset space ~
+\emph default
+, la funzione dovrà ritornare 
+\series bold
+null
+\emph on
+.
+\begin_inset Newline newline
 \end_inset
 
-b)
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+public boolean assegnaBadge(Domanda D, Login l)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getMyBadges(Login
-\begin_inset space ~
-\end_inset
-
-l)
+\begin_layout Standard
+Metodo per controllare se l'utente ha soddisfatto dei requisiti per ottenere
+ un badge.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getDistanzaD(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà verificare che esista un 
+\emph on
+Dipendente
+\emph default
+ collegato alla 
+\emph on
+Login
+\emph default
+ passata come parametro.
+ Se esiste, allora dovrà controllare tutti i possibili 
+\emph on
 Badge
-\begin_inset space ~
-\end_inset
+\emph default
+ assegnabili al 
+\emph on
+Dipendente
+\emph default
+ e, nel caso ne trovasse almeno uno, dovrà chiamare la funzione deputata
+ all'assegnazione di tale 
+\emph on
+Badge
+\emph default
+ nella classe 
+\emph on
+DAOBadge
+\emph default
+ e chiamare la classe 
+\emph on
+GestioneLog
+\emph default
+ deputata alla scrittura sul file di log di tale assegnazione.
+\end_layout
 
-b)
+\begin_layout Standard
+Se dovesse aver assegnato almeno un 
+\emph on
+Badge
+\emph default
+, la funzione dovrà ritornare 
+\series bold
+true
+\series default
+, altrimenti 
+\series bold
+false
+\series default
+\emph on
+.
 \end_layout
 
 \begin_layout Standard
@@ -2052,616 +2196,1001 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.connection.ApplicazioniConnection
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.connection.WebConnection
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneRecupero
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeAS
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDipendentiD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDipendentiAA
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeAS
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestionePunteggiD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestionePunteggiAA
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Badge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
 \begin_layout Subsection*
 Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- GestioneRecupero gestioneRecupero
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLogin gestioneLogin
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDomandeD gestioneDomandeD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDomandeAS gestioneDomandeAS
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiD gestioneDipendentiD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiAA gestioneDipendentiAA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeD gestioneBadgeD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeAS gestioneBadgeAS
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiD gestionePunteggiD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiAA gestionePunteggiAA
 \end_layout
 
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+
+\series bold
++ GestioneDati(GestioneRecupero gr,GestioneLogin gl, GestioneDomandeD gdd,
+ GestioneDomandeAS gda, GestioneDipendentiD gdip, GestioneDipendentiAA gdipa,
+ GestioneBadgeD gbd, GestioneBadgeAS gba, GestionePunteggiD gpd, GestionePuntegg
+iAA gpaa)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
 \end_inset
 
-Badge[]
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-getBadge(int
-\begin_inset space ~
+
+\series bold
++ ArrayList<Badge> getBadgesAS()
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere tutti i badge possibili.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare la classse 
+\emph on
+GestioneBadgeAS 
+\emph default
+affinchè ritorni un array con gli oggetti 
+\emph on
+Badge
+\series bold
+ 
+\series default
+\emph default
+che rappresenteranno tutti i badge presenti nel database.
+\begin_inset Newline newline
 \end_inset
 
-ultimi,
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
+
+\series bold
++ ArrayList<Badge> getBadgeD(Login l, int n)
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere i dati delle badge per un dato utente.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare la classse 
+\emph on
+GestioneBadgeD 
+\emph default
+affinchè ritorni un array con gli oggetti 
+\emph on
+Badge
+\series bold
+ 
+\series default
+\emph default
+che rappresenteranno tutti i badge guadagnati da un 
+\emph on
 Dipendente
-\begin_inset space ~
+\emph default
+ rappresentato dall'oggetto 
+\emph on
+Login
+\emph default
+.
+\begin_inset Newline newline
 \end_inset
 
-d) 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean assegnaBadge(Domanda D, Login l)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getBadges() 
+\begin_layout Standard
+Metodo per controllare se l'utente ha soddisfatto dei requisiti per ottenere
+ un badge.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Badge[]
-\begin_inset space ~
-\end_inset
-
-getMyBadges(Login
-\begin_inset space ~
-\end_inset
-
-l) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-bool
-\begin_inset space ~
-\end_inset
-
-recupero(Recupero
-\begin_inset space ~
-\end_inset
-
-r) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-checkLogin(Login
-\begin_inset space ~
-\end_inset
-
-login) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-modificaDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-vecchio,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà interrogare la classse 
+\emph on
+GestioneBadgeD 
+\emph default
+affinchè assegni un nuovo badge al 
+\emph on
 Dipendente
-\begin_inset space ~
-\end_inset
-
-nuovo) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Dipendente[]
-\begin_inset space ~
-\end_inset
-
-getDipendenti() 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Domanda[]
-\begin_inset space ~
-\end_inset
-
-getListaCalderone() 
-\end_layout
-
-\begin_layout Description
-+Domanda[]
-\begin_inset space ~
-\end_inset
-
-getListaDomande() 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
+\emph default
+ data la 
+\emph on
 Domanda
-\begin_inset space ~
+\emph default
+ in oggetto.
+\begin_inset Newline newline
 \end_inset
 
-getDomanda(Login
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-l) 
+
+\series bold
++ ArrayList<Dipendente> getElencoDipendenti()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo per ottenere i dati dei dipendenti dell'azienda.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare la classse 
+\emph on
+GestioneDipendentiAA 
+\emph default
+affinchè ritorni un array contente oggetti 
+\emph on
+Dipendente
+\emph default
+ rappresentazione di tutti i Dipendenti presenti in database
+\begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean aggiungiDipendente(Dipendente Dip) 
+\end_layout
+
+\begin_layout Standard
+Metodo per aggiungere un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiAA 
+\emph default
+atta ad inserire il 
+\emph on
+Dipendente
+\emph default
+ in oggetto all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean cancellaDipendente(Dipendente Dip)
+\end_layout
+
+\begin_layout Standard
+Metodo per eliminare un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiAA 
+\emph default
+atta a eliminare il 
+\emph on
+Dipendente
+\emph default
+ in oggetto all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean modDipendente(Dipendente newDip, Dipendente oldDip)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare i dati di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiAA 
+\emph default
+atta a modificare i dati del 
+\emph on
+Dipendente oldDip
+\emph default
+ con quelli contenuti in 
+\emph on
+newDip 
+\emph default
+all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Dipendente getDati(Login l)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di reperire le informazioni di un dipendente a partire
+ dal suo login.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiD 
+\emph default
+atta a reperire i dati del 
+\emph on
+Dipendente
+\emph default
+, identificato dall'oggetto 
+\emph on
+Login
+\emph default
+ passato come parametro, all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean modificaPass(Dipendente dip)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente la modifica della password da parte di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiD 
+\emph default
+atta a modificare la password del 
+\emph on
+Dipendente
+\emph default
+ all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean modificaEmail(Dipendente dip, String nEmail)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente la modifica della mail da parte di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiD 
+\emph default
+atta a modificare l'indirizzo email del 
+\emph on
+Dipendente
+\emph default
+ all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<Domanda> getElencoDomande()
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere la lista di tutte le domande.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare la classse 
+\emph on
+GestioneDomandeAS 
+\emph default
+affinchè ritorni un array contente oggetti 
+\emph on
 Domanda
-\begin_inset space ~
+\emph default
+ rappresentazione di tutte le Domande scelte dall'Amministratore Sicurezza
+ all'interno del database centrale per l'azienda.
+\begin_inset Newline newline
 \end_inset
 
-getDomandaD(Login
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-l) 
+
+\series bold
++ boolean addDomanda(Domanda Dom)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-getDistanzaD(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Badge
-\begin_inset space ~
-\end_inset
-
-b) 
+\begin_layout Standard
+Metodo per inserire una domanda dal server domande al server dell'azienda.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatAzienda() 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatDomanda(Domanda
-\begin_inset space ~
-\end_inset
-
-d) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatistiche(Login
-\begin_inset space ~
-\end_inset
-
-l) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio[]
-\begin_inset space ~
-\end_inset
-
-getStatisticheAzienda() 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-Punteggio
-\begin_inset space ~
-\end_inset
-
-getDistanzaPunti(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Badge
-\begin_inset space ~
-\end_inset
-
-b) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addDomande(int[]
-\begin_inset space ~
-\end_inset
-
-idDom) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-creaBadges(Badge
-\begin_inset space ~
-\end_inset
-
-b) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-eliminaDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-eliminaDomande(int[]
-\begin_inset space ~
-\end_inset
-
-idDom) 
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviDomPost(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDomandeAS 
+\emph default
+atta ad inserire una nuova 
+\emph on
 Domanda
-\begin_inset space ~
+\emph default
+ fra quelle proponibili ai 
+\emph on
+Dipendenti
+\emph default
+ dell'azienza.
+\begin_inset Newline newline
 \end_inset
 
-d) 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean remDomanda(Domanda Dom)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
+Metodo per eliminare una domanda dal server dell'azienda.
+\end_layout
 
-void
-\begin_inset space ~
-\end_inset
-
-scriviDomProp(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDomandeAS 
+\emph default
+atta a rimuovere una 
+\emph on
 Domanda
-\begin_inset space ~
+\emph default
+ fra quelle proponibili ai 
+\emph on
+Dipendenti
+\emph default
+ dell'azienza.
+\begin_inset Newline newline
 \end_inset
 
-d) 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ Domanda getDomandaD(Login l) 
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviDomRic(Login
-\begin_inset space ~
-\end_inset
-
-l,
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-d) 
+\begin_layout Standard
+Metodo che consente di recuperare una domanda.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDomandeD 
+\emph default
+atta a recuperare una domanda a cui il 
+\emph on
+Dipendente
+\emph default
+, identificato dall'oggetto 
+\emph on
+Login
+\emph default
+, o non ha ancora visualizzato, o ha chiesto di posticiparla.
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-scriviDomRisp(Login
-\begin_inset space ~
-\end_inset
 
-l,
-\begin_inset space ~
-\end_inset
-
-Domanda
-\begin_inset space ~
-\end_inset
-
-d) 
+\series bold
++ boolean setRisposta(Login l,Domanda risposta)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviLogin(Login
-\begin_inset space ~
-\end_inset
-
-l) 
+\begin_layout Standard
+Metodo che si occupa di controllare la risposta data da un dipendente ad
+ una domanda e tenta di scrivere tali informazioni sul DB.
+ Se la risposta è corretta assegna il punteggio al dipendente.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDomandeD 
+\emph default
+atta a controllare che la risposta data dal 
+\emph on
+Dipendente
+\emph default
+, identificato dall'oggetto 
+\emph on
+Login
+\emph default
+ una domanda e tenta di scrivere tali informazioni sul DB.
+ Se la risposta è corretta assegna il punteggio al dipendente.
+\begin_inset Newline newline
 \end_inset
 
-void
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-scriviLogout(Login
-\begin_inset space ~
-\end_inset
 
-l) 
+\series bold
++ boolean loginAdmin(Login login)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviModEmailD(Dipendente
-\begin_inset space ~
-\end_inset
-
-d) 
+\begin_layout Standard
+Metodo per il login degli utenti amministratori.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+passare la chiamata
+\begin_inset Quotes erd
 \end_inset
 
-scriviModPassD(Dipendente
-\begin_inset space ~
+ al metodo deputato alla gestione dei tentativi di login da parte degli
+ 
+\emph on
+Amministratori 
+\emph default
+nella classe 
+\emph on
+GestioneLogin.
+\begin_inset Newline newline
 \end_inset
 
-d) 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ boolean loginUser(Login login) 
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-scriviOttenimentoBadge(Dipendente
-\begin_inset space ~
-\end_inset
-
-d,
-\begin_inset space ~
-\end_inset
-
-Badge
-\begin_inset space ~
-\end_inset
-
-b) 
+\begin_layout Standard
+Metodo per il login dei Dipendenti.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+passare la chiamata
+\begin_inset Quotes erd
 \end_inset
 
-setRisposta(Login
-\begin_inset space ~
+ al metodo deputato alla gestione dei tentativi di login da parte dei 
+\emph on
+Dipendenti 
+\emph default
+nella classe 
+\emph on
+GestioneLogin.
+\begin_inset Newline newline
 \end_inset
 
-l,
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-Risposta
-\begin_inset space ~
-\end_inset
 
-r) 
+\series bold
+\emph default
++ ArrayList<Dipendente> getPunteggi()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Metodo per ottenere i punteggi medi dell'azienda e i punteggi di tutti i
+ dipendenti.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
 \end_inset
 
-void
-\begin_inset space ~
+passare la chiamata
+\begin_inset Quotes erd
 \end_inset
 
-setRisposta(Login
-\begin_inset space ~
+ al metodo deputato al recupero di tutti i punteggi dei 
+\emph on
+Dipendenti 
+\emph default
+nella classe 
+\emph on
+GestionePunteggiAA.
+\begin_inset Newline newline
 \end_inset
 
-l,
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-Risposta
-\begin_inset space ~
+
+\series bold
+\emph default
++ boolean setTrofei(Dipendente Dip, int n)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare i trofei di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
 \end_inset
 
-r) 
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato alla modifica del numero di trofei di un 
+\emph on
+Dipendente 
+\emph default
+nella classe 
+\emph on
+GestionePunteggiAA.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ Punteggio getStatisticheD(Login l) 
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperare le statistiche di un determinato dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato al recupero delle statistiche di un 
+\emph on
+Dipendente 
+\emph default
+nella classe 
+\emph on
+GestionePunteggiD.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ boolean posticipa(Login l, Domanda d)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di controllare quando una domanda viene posticipata.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato alla posticipazione di una domanda sottoposta ad un
+ 
+\emph on
+Dipendente 
+\emph default
+nella classe 
+\emph on
+GestionePunteggiD.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ void logout(Login l)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un utente.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato alla gestione dei logout
+\emph on
+ 
+\emph default
+nella classe 
+\emph on
+GestioneLogin.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ Punteggio getStatisticheGlob(Login l) 
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperare le statistiche globali.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato al recupero delle statistiche dell'intera azienda all'intern
+o di 
+\emph on
+GestionePunteggiD 
+\emph default
+a partire dal 
+\emph on
+Dipendente
+\emph default
+ identificato tramite l'oggetto 
+\emph on
+Login
+\emph default
+ passato come parametro.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean recuperoD(Recupero dip)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente ad un Dipendente di resettare la propria password.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato al reset della password di un 
+\emph on
+Dipendente
+\emph default
+ all'interno della classe 
+\emph on
+GestioneRecupero
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ boolean recuperoA(Recupero amm)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente ad un amministratore di resettare la propria password.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato al reset della password di un 
+\emph on
+Amministratore
+\emph default
+ all'interno della classe 
+\emph on
+GestioneRecupero.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ boolean modPassA(Dipendente admin)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare la password di un amministratore
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiD 
+\emph default
+atta a modificare la password del 
+\emph on
+Dipendente
+\emph default
+ all'interno del database.
 \end_layout
 
 \begin_layout Standard
@@ -2783,104 +3312,185 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.condivisi.Dipendente
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
 
-\begin_layout Description
--
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-DAODipendenti
-\begin_inset space ~
-\end_inset
-
-daoDipendenti
+\series bold
+- DAODipendenti accessDip
 \end_layout
 
 \begin_layout Subsection*
 Metodi
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
+\begin_layout Standard
 
-GestioneDipendentiAA(DAODipendenti
-\begin_inset space ~
-\end_inset
-
-dp)
+\series bold
++ GestioneDipendentiAA(DAODipendenti accessDip)
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\series bold
+
+\begin_inset Newline newline
 \end_inset
 
-Dipendente[]
-\begin_inset space ~
+
+\begin_inset Newline newline
 \end_inset
 
-getDipendenti()
++ ArrayList<Dipendente> getElencoDipendenti()
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-addDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d)
+\begin_layout Standard
+Metodo per ottenere i dati dei dipendenti dell'azienda.
 \end_layout
 
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-eliminaDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-d)
-\end_layout
-
-\begin_layout Description
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-modificaDipendente(Dipendente
-\begin_inset space ~
-\end_inset
-
-vecchio,
-\begin_inset space ~
-\end_inset
-
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè restituisca un array contente tutti gli oggetti 
+\emph on
 Dipendente
-\begin_inset space ~
+\emph default
+ relativi ai Dipendenti registrati nel sistema.
+\begin_inset Newline newline
 \end_inset
 
-nuovo)
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean aggiungiDipendente(Dipendente Dip)
+\end_layout
+
+\begin_layout Standard
+Metodo per aggiungere un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè inserisca il contenuto dell'oggetto 
+\emph on
+Dipendente
+\emph default
+ passato come parametro all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean cancellaDipendente(Dipendente Dip)
+\end_layout
+
+\begin_layout Standard
+Metodo per eliminare un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè elimini
+\emph on
+ 
+\emph default
+il 
+\emph on
+Dipendente
+\emph default
+ passato come parametro dall'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean modDipendente(Dipendente newDip, Dipendente oldDip)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare i dati di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè modifichi i dati del 
+\emph on
+Dipendente
+\emph default
+ all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean modPassA(Dipendente admin)
+\end_layout
+
+\begin_layout Standard
+Metodo per modificare la password di un amministratore.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè modifichi i dati dell'
+\emph on
+Amministratore
+\emph default
+ all'interno del database.
 \end_layout
 
 \begin_layout Standard
