@@ -93,6 +93,17 @@ filename "capitolo1.lyx"
 \end_inset
 
 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitolo2.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
