@@ -3003,8 +3003,6 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.controller.GestioneDati
 \end_layout
 
@@ -3013,27 +3011,15 @@ Inoltre utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.access.DAODipendenti
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.controller.GestioneLog
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
-back.condivisi.Login
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-back.condivisi.Dipendente
+back.condivisi
 \end_layout
 
 \begin_layout Subsection*
