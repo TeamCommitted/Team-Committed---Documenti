@@ -1001,8 +1001,16 @@ Dipendente
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per aggiungere un dipendente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata all'aggiunta di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
 
 \begin_inset Newline newline
@@ -1016,8 +1024,16 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero del
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per eliminare un Dipendente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rimozione di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
 
 \begin_inset Newline newline
@@ -1031,8 +1047,16 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero del
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per modificare i dati di un dipendente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
 
 \begin_inset Newline newline
@@ -1046,8 +1070,16 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero del
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per ottenere tutti i badge
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero di tutti
+ i 
+\emph on
+Badge
+\emph default
+ inseriti nel database
 \series bold
 
 \begin_inset Newline newline
@@ -1061,9 +1093,20 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero del
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per assegnare un badge
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata all'assegnazione
+ di un 
+\emph on
+Badge
+\emph default
+ ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
 
 \begin_inset Newline newline
 \end_inset
@@ -1076,8 +1119,17 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero del
 \end_layout
 
 \begin_layout Standard
-Dovrà chiamare la funzione della classe Façade deputata al recupero del
- punteggio di un Dipendente
+Metodo per ottenere i punteggi medi dell'azineda e i punteggi di tutti i
+ dipendenti
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ punteggi di tutti i 
+\emph on
+Dipendenti
+\emph default
+, oltre che ai punteggi medi dell'azienda.
 \end_layout
 
 \begin_layout Standard
@@ -1241,63 +1293,263 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \end_layout
 
 \begin_layout Standard
+Metodo per il login.
+\end_layout
 
+\begin_layout Standard
+Dovrà creare un oggetto 
+\emph on
+Login
+\emph default
+ a partire dai parametri passati e quindi chiamare la funzione della classe
+ Façade deputata alla gestione del login.
+ Poichè l'uso del front-end mobile e desktop è riservato ai 
+\emph on
+Dipendenti
+\emph default
+, questo metodo dovrà chiamare il metodo per il login dei 
+\emph on
+Dipendenti
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Dipendente getDati(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di reperire le informazioni di un dipendente a partire
+ dal suo login.
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ dati di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Punteggio getStat(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare le statistiche globali
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero delle
+ statistiche dell'intera azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void modPass(Dipendente d)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della password da parte di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica della
+ password di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void modMail(Dipendente d, String mail)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della mail da parte di un dipendente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica dell'indir
+izzo email di un 
+\emph on
+Dipendente
+
+
+
 
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void resetPass(Recupero r)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la rigenerazione della password per un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rigenerazione
+ della password di un 
+\emph on
+Dipendente
+\emph default
+, visto che
 \series bold
+ 
+\series default
+l'uso del front-end mobile e desktop è riservato a
+\emph on
+ 
+\emph default
+questi ultimi.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Domanda mostraDomanda(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare una domanda 
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero di una
+ nuova domanda da sottoporre ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void posticipa(Login l, Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo per posticipare una domanda
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al posticipo della
+ 
+\emph on
+Domanda
+\emph default
+ sottoposta ad un 
+\emph on
+Dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 
 \series bold
+\emph default
 + boolean rispondi(Login l, Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo che si occupa di comunicare la risposta data
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al controllo della
+ correttezza della risposta data ad una 
+\emph on
+Domanda
+\emph default
+ da un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void logout(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo per segnalare al sistema il logout di un utente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla gestione della
+ richiesta di logout da parte di un utente
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Badge> getBadge(Login l, int n)
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere i dati dei badge per un dato utente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ primi n 
+\emph on
+Badge
+\emph default
+ guadagnati da un 
+\emph on
+Dipendente
 \end_layout
 
 \begin_layout Standard
