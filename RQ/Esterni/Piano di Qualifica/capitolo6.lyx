@@ -4638,32 +4638,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CDESK1 (login 
-\backslash
-uline{Dipendente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 1.1 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per l'autenticazione, verrà riportato un errore
+ 
 \backslash
 
 \backslash
@@ -4679,37 +4656,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CDESK2 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Notifica nuova domanda secondo i tempi impostati
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Rifiuto o accettazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Apertura browser se viene accettata la domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 1.2 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per l'autenticazione, si otterrà come risposta uno degli
+ output attesi
 \backslash
 
 \backslash
@@ -4725,39 +4674,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Riconoscimento tipologia 
-\backslash
-uline{Utente}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 1.3 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per il recupero della password, verrà riportato un errore
 \backslash
 
 \backslash
@@ -4773,34 +4691,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB2 (gestione dati 
-\backslash
-uline{Utente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione dati 
-\backslash
-uline{Utente} loggato
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 1.4 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per il recupero della password, si otterrà come risposta
+ uno degli output attesi
 \backslash
 
 \backslash
@@ -4816,37 +4709,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB3 (amministrazione utenti) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Inserimento nuovi utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Modifica utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Eliminazione utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.1 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la visualizzazione delle informazioni di un utente,
+ verrà riportato un errore 
 \backslash
 
 \backslash
@@ -4862,37 +4727,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB4 (rispondere ad una domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione esito risposta
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.2 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la visualizzazione delle informazioni di un utente,
+ si otterrà come risposta uno degli output attesi 
 \backslash
 
 \backslash
@@ -4908,24 +4745,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB5 (amministrazione domande) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Inserimento e rimozione delle domande relative ad un'azienda dall'insieme
- delle domande globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.3 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per la creazione di un utente, verrà riportato
+ un errore 
 \backslash
 
 \backslash
@@ -4941,23 +4763,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB6 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione propri punteggi aggiornati
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.4 & Verificare se, all'inserimento di valori corretti all'interno
+ dei campi dati per la creazione di un utente, si otterrà come risposta
+ uno degli output attesi 
 \backslash
 
 \backslash
@@ -4973,23 +4781,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB7 (gestione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione punteggi globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.5 & Verifica che il salvataggio dei dati relativi ad un nuovo
+ utente avvenga correttamente 
 \backslash
 
 \backslash
@@ -5005,30 +4798,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB8 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Notifica nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Rifiuto o accettazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.6 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per la modifica delle informazioni utente, verrà
+ riportato un errore 
 \backslash
 
 \backslash
@@ -5044,30 +4816,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.7 & Verificare se, all'inserimento di valori corretti all'interno
+ dei campi dati per la modifica delle informazioni utente, si otterrà come
+ risposta uno degli output attesi  
 \backslash
 
 \backslash
@@ -5083,34 +4834,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB2 (gestione dati 
-\backslash
-uline{Utente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione dati 
-\backslash
-uline{Utente} loggato
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 2.8 & Verifica che il salvataggio dei dati modificati di un utente
+ avvenga correttamente 
 \backslash
 
 \backslash
