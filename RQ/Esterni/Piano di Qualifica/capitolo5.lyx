@@ -68,6 +68,10 @@ Resoconto attività di verifica
 Revisione dei Requisiti
 \end_layout
 
+\begin_layout Subsubsection
+Verifica della documentazione
+\end_layout
+
 \begin_layout Standard
 Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
  verifica sui documenti prodotti.
@@ -100,6 +104,10 @@ Infine, per effettuare il doppio tracciamento, si sono controllate le apposite
 Revisione di Progettazione
 \end_layout
 
+\begin_layout Subsubsection
+Verifica della documentazione
+\end_layout
+
 \begin_layout Standard
 Anche in tale fase è stata effettuata un'accurata analisi statica sui documenti
  in maniera simile a quanto avvenuto nella fase di Revisione dei Requisiti.
@@ -119,6 +127,10 @@ per segnalare eventuali irregolarità ed errori che sono stati poi presi
 
 \begin_layout Subsection
 Revisione di Qualifica
+\end_layout
+
+\begin_layout Subsubsection
+Verifica della documentazione
 \end_layout
 
 \begin_layout Standard
@@ -143,6 +155,39 @@ Nella stesura del documento di Definizione di Prodotto è stata effettuata
  le classi e metodi appartenenti al progetto ed è stato anche valutato il
  loro livello di chiarezza e descrizione, in modo che risultassero sufficienteme
 nte esaustive.
+ Anche in questa fase è stata logicamente svolta un'accurata analisi statica
+ dei documenti e dei diagrammi realizzati tramite accurate operazioni di
+ inspection.
+ Esse sono state svolte tenendo conto degli errori più spesso commessi e
+ delle aree maggiormente a rischio.
+\end_layout
+
+\begin_layout Subsubsection
+Verifica del codice
+\end_layout
+
+\begin_layout Standard
+I documenti non sono però stati i soldi ad essere sottoposti ad un'accurata
+ fase di verifica: anche il codice prodotto infatti è stato adeguatamente
+ verificato grazie agli strumenti a nostra disposizione.
+ E' stata svolta un'accurata inspection su tutto il codice prodotto per
+ la Revisione di Qualifica, andando a verificare che fossero stati adottati
+ tutti i punti guida individuati nel paragrafo 
+\begin_inset Quotes eld
+\end_inset
+
+2.5.2 Tecniche - Inspection del codice
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Tali punti guida sono stati fondammentali per poter mantenere innanzitutto
+ un'uniformità di stesura del codice per tutte le varie componenti di cui
+ è composto e poi, cosa ben più importante, evitare il verificarsi di errori
+ più o meno gravi.
+ Nella fase di inspection è stato infatti rilevato più di qualche errore
+ dato dalla non osservanza di questi punti che è però stato prontamente
+ segnalato e corretto.
 \end_layout
 
 \end_body
