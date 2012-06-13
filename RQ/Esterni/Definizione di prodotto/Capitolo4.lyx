@@ -1396,10 +1396,6 @@ Dovrà chiamare la funzione della classe Façade deputata alla modifica dell'ind
 izzo email di un 
 \emph on
 Dipendente
-
-
-
-
 \series bold
 \emph default
 
@@ -7004,7 +7000,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \end_layout
 
 \begin_layout Standard
-Metodo che prende le badge ottenute da un Dipendente dal database.
+Metodo che prende i badge ottenute da un Dipendente dal database.
  
 \end_layout
 
