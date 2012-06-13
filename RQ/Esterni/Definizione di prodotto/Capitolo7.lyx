@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -112,6 +113,7 @@ end{center}
 \begin_layout Plain Layout
 
 \emph on
+\lang english
 Front-end Mobile, diagramma dei package
 \end_layout
 
@@ -186,82 +188,6 @@ Attività svolte e dati trattati:
 \series default
  Definisce l'aspetto dell'applicazione Android definendone l'interfaccia
  con cui l'utente dovrà interagire.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.LoginActivity
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Consente ad un Dipendente di effettuare il login.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Viene richiamato ConnectionUtils per inviare i dati al server, inoltre consente
- di arrivare alle classi DashboardActivity e RecuperoPasswordActivity.
- Oggetti di tipo Login sono utilizzati per trasferire i dati.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Riceve dati da ConnectionUtils.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Raccoglie i dati che il 
-\bar under
-Dipendente Autenticato
-\bar default
- inserisce ed invia l'apposita richiesta di login al 
-\bar under
-back-end
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi:
-\end_layout
-
-\begin_layout Standard
-- Context context
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Metodi:
-\end_layout
-
-\begin_layout Standard
-+ void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -272,445 +198,75 @@ Metodi:
 com.safetyGame.mobile.View.DashboardActivity
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione 
 \series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Permette di raggiungere le altre Activity del programma.
-\series bold
+ Dovrà intercettare gli input dell'utente e lanciare le altre Activity.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
-\series default
-Ha la possibilità di richiamare le classi PunteggioActivity, DomandeActivity,
- DatiActivity.
-\series bold
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Viene chiamato da LoginActivity.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Intercetta gli input e lancia altre Activity.
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Subsection*
 
 \series bold
 Attributi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - Context context
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Subsection*
 
 \series bold
-Metodi:
+Metodi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 + void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.PunteggiActivity
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
 \series default
-Permette ad un 
-\bar under
-Dipendente Autenticato
-\series bold
-\bar default
- 
-\series default
-di visualizzare i vari punteggi e trofei.
-\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-ConnectionUtils è usato per richiedere dati al server, Punteggi invece è
- usato per trasferire i dati.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Viene chiamato da DashboardActivity e riceve i dati da ConnectionUtils.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Permette la visualizzazione dei trofei del DIpendente Autenticato.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi:
-\end_layout
-
-\begin_layout Standard
-- Context context
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Metodi:
-\end_layout
-
-\begin_layout Standard
-+ void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
-+ boolean onOptionsItemSelected(MenuItem item)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.DatiActivity
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Permette ad un 
-\bar under
-Dipendente Autenticato
-\bar default
- di visionare e modificare i dati personali personali.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-ConnectionUtils è usato per richiedere ed inviare modifiche riguardanti
- i dati personali del Dipendente Autenticato
-\series bold
-.
- 
-\series default
-Usa inoltre oggetti di tipo Dipendente per trasferire i dati.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Chiamato da DashboardActivity e riceve dati richiesti da ConnectionUtils.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Visualizzazione e modifica dei dati personali di un DipendenteAutenticato.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi:
-\end_layout
-
-\begin_layout Standard
-- Context context
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Metodi:
-\end_layout
-
-\begin_layout Standard
-+ void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
-+ boolean onOptionsItemSelected(MenuItem item)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.DomandaActivity
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Mette a disposizione del 
-\bar under
-Dipendente Autenticato
-\series bold
-\bar default
- 
-\series default
-la possibilità di visualizzare, richiedere e rispondere alle domande.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-ConnectionUtils viene utilizzato per richiedere dati al server.
- Domanda è usato per trasferire dati.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Chiamato da DashboardActivity o TimerNotifica e riceve dati da ConnectionUtils.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Consente ad un Dipendente Autenticato di richiedere, visualizzare e rispondere
- a domande.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi:
-\end_layout
-
-\begin_layout Standard
-- Context context
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Metodi:
-\end_layout
-
-\begin_layout Standard
-+ void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
-+ boolean onOptionsItemSelected(MenuItem item)
-\end_layout
-
-\begin_layout Standard
-+ void onActivityResult(int requestCode, int resultCode, Intent intent)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.RecuperoPasswordActivity
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Permette il recupero della password di un 
-\bar under
-Dipendente
-\series bold
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-ConnectionUtils è utilizzato per l'invio dei dati al server.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Chiamato da LoginActivity e riceve dati da ConnectionUtils.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati: 
-\series default
-Effettua la raccolta dei dati del Dipendente per richiedere il recupero
- della password.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\begin_inset Newline newline
-\end_inset
-
-Metodi:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.View.TimerNotifica
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Servizio di temporizzazioen che propone al 
-\bar under
-Dipendente Autenticato
-\series bold
-\bar default
- 
-\series default
-una domanda secondo quanto impostato tramite le notifiche standard di 
-\bar under
-Android
-\bar default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Viene chiamata la classe DomandaActivity.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Un timer, in accordo con quanto impostato di default nel dispositivo Android
- in cui sarà installato il software, farà comparire una notifica standard
- di Android che permette di visualizzare una nuova domanda.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi:
-\end_layout
-
-\begin_layout Standard
-- long mStartTime
-\end_layout
-
-\begin_layout Standard
-- Handler mHandler = new Handler()
-\end_layout
-
-\begin_layout Standard
-- NotificationManager mNotificationManager
-\end_layout
-
-\begin_layout Standard
-- Notification notification
-\end_layout
-
-\begin_layout Standard
-- SaredPreferences prefs
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Metodi:
-\end_layout
-
-\begin_layout Standard
-+ int onStartCommand(Intent intent, int flags, int startId)
-\end_layout
-
-\begin_layout Standard
-+ IBinder onBind(Intent arg0)
-\end_layout
-
-\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -719,6 +275,53 @@ Metodi:
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DashboardLayout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Standard
@@ -805,6 +408,1563 @@ Metodi:
 
 \end_layout
 
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visionare e modificare i dati personali personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils è usato per richiedere ed inviare modifiche riguardanti
+ i dati personali del Dipendente Autenticato
+\series bold
+.
+ 
+\series default
+Usa inoltre oggetti di tipo Dipendente per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Chiamato da DashboardActivity e riceve dati richiesti da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Visualizzazione e modifica dei dati personali di un DipendenteAutenticato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.DatiActivity.DatiTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consente ad un Dipendente di effettuare il login di un Dipendente, recuperando
+ i dati immessi dal Dipendente e inviandoli al Back-End per la verifica
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# ProgressDialog dialog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText user
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText passw
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# void onPreExecute()
+\end_layout
+
+\begin_layout Standard
+Metodo che viene eseguito prima di mostrare la grafica.
+\end_layout
+
+\begin_layout Standard
+Dovrà mostrare all'utente una 
+\emph on
+ProgressDialog 
+\emph default
+con scritto sotto 
+\begin_inset Quotes eld
+\end_inset
+
+Loading.
+ Please wait...
+\begin_inset Quotes erd
+\end_inset
+
+ fino a quando non è stata creata la vista dei campi dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# String doInBackground(Object...
+ params).
+\end_layout
+
+\begin_layout Standard
+Metodo che crea la grafica deputata a raccogliere le credenziali d'accesso
+ al sistema.
+\end_layout
+
+\begin_layout Standard
+Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
+ inserire username e password, scrivendone al loro interno l'indicazione
+ di cosa dovrà essere inserito.
+ Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
+; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+ comunichi con il Back-End per controllare la correttezza dei dati inseriti.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# void onPostExecute(String status) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
+ mostrando a schermo un messaggio d'errore o facendo si che il gestore della
+ grafica mostri tutte le opzioni che erano nascoste all'utente che non abbia
+ fatto accesso all'applicazione.
+\end_layout
+
+\begin_layout Standard
+Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
+) e cotrollare che la stringa passata come parametro non sia vuota e che
+ contenga 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ Se una di queste due condizioni non dovesse essere verificata, dovrà far
+ comparire un messaggio d'errore all'utente.
+ Altrimenti dovrà notificare al gestore della grafica che il Dipendente
+ è stato identificato, quindi mostrare al Dipendente le opzioni che prima
+ non erano visibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DomandaActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Mette a disposizione del 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+la possibilità di visualizzare, richiedere e rispondere alle domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils viene utilizzato per richiedere dati al server.
+ Domanda è usato per trasferire dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Chiamato da DashboardActivity o TimerNotifica e riceve dati da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Consente ad un Dipendente Autenticato di richiedere, visualizzare e rispondere
+ a domande.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Standard
++ void onActivityResult(int requestCode, int resultCode, Intent intent)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.DomandaActivity.DomandaTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consente ad un Dipendente di effettuare il login di un Dipendente, recuperando
+ i dati immessi dal Dipendente e inviandoli al Back-End per la verifica
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# ProgressDialog dialog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText user
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText passw
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# void onPreExecute()
+\end_layout
+
+\begin_layout Standard
+Metodo che viene eseguito prima di mostrare la grafica.
+\end_layout
+
+\begin_layout Standard
+Dovrà mostrare all'utente una 
+\emph on
+ProgressDialog 
+\emph default
+con scritto sotto 
+\begin_inset Quotes eld
+\end_inset
+
+Loading.
+ Please wait...
+\begin_inset Quotes erd
+\end_inset
+
+ fino a quando non è stata creata la vista dei campi dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# String doInBackground(Object...
+ params).
+\end_layout
+
+\begin_layout Standard
+Metodo che crea la grafica deputata a raccogliere le credenziali d'accesso
+ al sistema.
+\end_layout
+
+\begin_layout Standard
+Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
+ inserire username e password, scrivendone al loro interno l'indicazione
+ di cosa dovrà essere inserito.
+ Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
+; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+ comunichi con il Back-End per controllare la correttezza dei dati inseriti.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# void onPostExecute(String status) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
+ mostrando a schermo un messaggio d'errore o facendo si che il gestore della
+ grafica mostri tutte le opzioni che erano nascoste all'utente che non abbia
+ fatto accesso all'applicazione.
+\end_layout
+
+\begin_layout Standard
+Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
+) e cotrollare che la stringa passata come parametro non sia vuota e che
+ contenga 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ Se una di queste due condizioni non dovesse essere verificata, dovrà far
+ comparire un messaggio d'errore all'utente.
+ Altrimenti dovrà notificare al gestore della grafica che il Dipendente
+ è stato identificato, quindi mostrare al Dipendente le opzioni che prima
+ non erano visibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.DomandaActivity.QuestTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consente ad un Dipendente di effettuare il login di un Dipendente, recuperando
+ i dati immessi dal Dipendente e inviandoli al Back-End per la verifica
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# ProgressDialog dialog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText user
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText passw
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# void onPreExecute()
+\end_layout
+
+\begin_layout Standard
+Metodo che viene eseguito prima di mostrare la grafica.
+\end_layout
+
+\begin_layout Standard
+Dovrà mostrare all'utente una 
+\emph on
+ProgressDialog 
+\emph default
+con scritto sotto 
+\begin_inset Quotes eld
+\end_inset
+
+Loading.
+ Please wait...
+\begin_inset Quotes erd
+\end_inset
+
+ fino a quando non è stata creata la vista dei campi dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# String doInBackground(Object...
+ params).
+\end_layout
+
+\begin_layout Standard
+Metodo che crea la grafica deputata a raccogliere le credenziali d'accesso
+ al sistema.
+\end_layout
+
+\begin_layout Standard
+Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
+ inserire username e password, scrivendone al loro interno l'indicazione
+ di cosa dovrà essere inserito.
+ Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
+; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+ comunichi con il Back-End per controllare la correttezza dei dati inseriti.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# void onPostExecute(String status) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
+ mostrando a schermo un messaggio d'errore o facendo si che il gestore della
+ grafica mostri tutte le opzioni che erano nascoste all'utente che non abbia
+ fatto accesso all'applicazione.
+\end_layout
+
+\begin_layout Standard
+Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
+) e cotrollare che la stringa passata come parametro non sia vuota e che
+ contenga 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ Se una di queste due condizioni non dovesse essere verificata, dovrà far
+ comparire un messaggio d'errore all'utente.
+ Altrimenti dovrà notificare al gestore della grafica che il Dipendente
+ è stato identificato, quindi mostrare al Dipendente le opzioni che prima
+ non erano visibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.LoginActivity
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Classe di gestione della parte grafica dell'attività di login, gestendo
+ l'ingresso alla pagina che permette l'inserimento delle credenziali d'accesso
+ e contenendo la classe deputata alla visualizzazione dei campi dati per
+ l'immissione
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DomandaActivity.LoginTask
+\family default
+ 
+\emph on
+(classe privata interna alla classe LoginActivity)
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Context context
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
+Metodo per la creazione dell'oggetto LoginActivity.
+ Questo oggetto verrà creato all'avvio dell'applicazione.
+\end_layout
+
+\begin_layout Standard
+Dovrà creare un pulsante che permetta l'accesso alla funzionalità di login,
+ collegando l'azione di pressione del pulsante alla creazione di un oggetto
+ 
+\emph on
+LoginTask
+\emph default
+ che permetterà l'inserimento delle credenziali d'accesso al sistema.
+ Il pulsante così creato dovrà poi essere inserito all'interno della grafica
+ dell'applicazione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.LoginActivity.LoginTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consente ad un Dipendente di effettuare il login di un Dipendente, recuperando
+ i dati immessi dal Dipendente e inviandoli al Back-End per la verifica
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# ProgressDialog dialog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText user
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# EditText passw
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# void onPreExecute()
+\end_layout
+
+\begin_layout Standard
+Metodo che viene eseguito prima di mostrare la grafica.
+\end_layout
+
+\begin_layout Standard
+Dovrà mostrare all'utente una 
+\emph on
+ProgressDialog 
+\emph default
+con scritto sotto 
+\begin_inset Quotes eld
+\end_inset
+
+Loading.
+ Please wait...
+\begin_inset Quotes erd
+\end_inset
+
+ fino a quando non è stata creata la vista dei campi dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# String doInBackground(Object...
+ params).
+\end_layout
+
+\begin_layout Standard
+Metodo che crea la grafica deputata a raccogliere le credenziali d'accesso
+ al sistema.
+\end_layout
+
+\begin_layout Standard
+Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
+ inserire username e password, scrivendone al loro interno l'indicazione
+ di cosa dovrà essere inserito.
+ Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
+; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+ comunichi con il Back-End per controllare la correttezza dei dati inseriti.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# void onPostExecute(String status) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
+ mostrando a schermo un messaggio d'errore o facendo si che il gestore della
+ grafica mostri tutte le opzioni che erano nascoste all'utente che non abbia
+ fatto accesso all'applicazione.
+\end_layout
+
+\begin_layout Standard
+Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
+) e cotrollare che la stringa passata come parametro non sia vuota e che
+ contenga 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ Se una di queste due condizioni non dovesse essere verificata, dovrà far
+ comparire un messaggio d'errore all'utente.
+ Altrimenti dovrà notificare al gestore della grafica che il Dipendente
+ è stato identificato, quindi mostrare al Dipendente le opzioni che prima
+ non erano visibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.PunteggiActivity
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Permette ad un 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+di visualizzare i vari punteggi e trofei.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Context context
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ void onCreate(Bundle savedInstanceState)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.PunteggiActivity.PunteggiTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Permette ad un 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+di visualizzare i vari punteggi e trofei.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Context context
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ void onCreate(Bundle savedInstanceState)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.TimerNotifica
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Servizio di temporizzazioen che propone al 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+una domanda secondo quanto impostato tramite le notifiche standard di 
+\bar under
+Android
+\bar default
+.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- long mStartTime
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Handler mHandler = new Handler()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- NotificationManager mNotificationManager
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Notification notification
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- SaredPreferences prefs
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ int onStartCommand(Intent intent, int flags, int startId)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ IBinder onBind(Intent arg0)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.TimerNotifica.mUpdateTimeTask
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Servizio di temporizzazioen che propone al 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+una domanda secondo quanto impostato tramite le notifiche standard di 
+\bar under
+Android
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Viene chiamata la classe DomandaActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Un timer, in accordo con quanto impostato di default nel dispositivo Android
+ in cui sarà installato il software, farà comparire una notifica standard
+ di Android che permette di visualizzare una nuova domanda.
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ void run()
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Package com.safetyGame.mobile.Utils
 \end_layout
@@ -859,6 +2019,53 @@ com.safetyGame.mobile.Utils.BootReceiver
 \begin_layout Standard
 
 \series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 Tipo, obiettivo e funzionamento del componente: 
 \series default
 Classe che estende BroadcastReceiver e viene automaticamente chiamata al
@@ -887,25 +2094,23 @@ Nessuna
 Attività svolte e dati trattati:
 \series default
  La classe fa avviare il servizio in bacground che propone le domande.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Variabili:
 \end_layout
 
-\begin_layout Standard
-Nessuna
-\begin_inset Newline newline
-\end_inset
+\begin_layout Subsection*
 
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Subsection*
 
 \series bold
 Metodi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 + onReceive(Context context, Intent arg1)
 \end_layout
 
@@ -920,11 +2125,19 @@ Metodi:
 com.safetyGame.mobile.Utils.ConnectionUtils
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione 
 \series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 La classe è utilizzata per effettuare connessioni fisiche tra il 
 \bar under
 front-end
@@ -938,59 +2151,67 @@ back-end
 \bar default
 , ricevere dati, effettuare parser e creare gli opportuni oggetti da notificare
  alla View.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Richiama gli appositi metodi del back-end in relazione alle richieste della
- View.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Le Activity richiamano la classe che invia o riceve dati al back-end.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- La classe si occupa di effettuare richieste HTTP al server e ricevere le
- risposte tramite pagine XML.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Variabili:
 \end_layout
 
-\begin_layout Standard
-Nessuna
-\series bold
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
 Metodi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - static Element rootXML(HttpResponse response)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + static String parseXML(Element root, String stringa, int position)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + static Object HttpCreateClient(String url, List<NameValuePair> nameValuePairs)
 \end_layout
 
@@ -1005,235 +2226,419 @@ Metodi:
 com.safetyGame.mobile.Utils.IntentIntegrator
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione 
 \series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Classe che aiuta l'integrazione dell'applicazione Safety Game con l'applicazione
- Barrcode Scanner.
-\series bold
+ Barcode Scanner.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
-\series default
-Nessuna
-\series bold
-.
-\begin_inset Newline newline
-\end_inset
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
 
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Viene richiamata dall'Activity.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- 
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Subsection*
 
 \series bold
-Variabili:
+Attributi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 + static final int REQUEST_CODE = 0x0000c0de 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 - static final String TAG = IntentIntegrator.class.getSimpleName()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + static final String DEFAULT_TITLE = "Install Barcode Scanner?"
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + static final String DEFAULT_MESSAGE = "This application requires Barcode
  Scanner.
  Would you like to install it?"
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-+ static final String DEFAULT_YES = "Yes" 
-\end_layout
-
-\begin_layout Standard
-+ static final String DEFAULT_NO = "No"
-\end_layout
-
-\begin_layout Standard
-- static final String BS_PACKAGE = "com.google.zxing.client.android"
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> PRODUCT_CODE_TYPES = list("UPC_A", "UPC_E",
- "EAN_8", "EAN_13", "RSS_14") 
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> ONE_D_CODE_TYPES = list("UPC_A", "UPC_E",
- "EAN_8", "EAN_13", "CODE_39", "CODE_93", "CODE_128", "ITF", "RSS_14", "RSS_EXPA
-NDED")
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> QR_CODE_TYPES = Collections.singleton("QR_CODE"
-); 
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> DATA_MATRIX_TYPES = Collections.singleton("DATA
-_MATRIX")
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> ALL_CODE_TYPES = null; 
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> TARGET_BARCODE_SCANNER_ONLY = Collections.singl
-eton(BS_PACKAGE) 
-\end_layout
-
-\begin_layout Standard
-+ static final Collection<String> TARGET_ALL_KNOWN = list( BS_PACKAGE, "com.srowe
-n.bs.android", "com.srowen.bs.android.simple")
-\end_layout
-
-\begin_layout Standard
-- final Activity activity 
-\end_layout
-
-\begin_layout Standard
-- String title
-\end_layout
-
-\begin_layout Standard
-- String message
-\end_layout
-
-\begin_layout Standard
-- String buttonYes 
-\end_layout
-
-\begin_layout Standard
-- String buttonNo 
-\end_layout
-
-\begin_layout Standard
-- Collection<String> targetApplications
-\series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Metodi:
++ static final String DEFAULT_YES = "Yes" 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final String DEFAULT_NO = "No"
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- static final String BS_PACKAGE = "com.google.zxing.client.android"
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> PRODUCT_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "RSS_14") 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> ONE_D_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "CODE_39", "CODE_93", "CODE_128", "ITF", "RSS_14", "RSS_EXPA
+NDED")
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> QR_CODE_TYPES = Collections.singleton("QR_CODE"
+); 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> DATA_MATRIX_TYPES = Collections.singleton("DATA
+_MATRIX")
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> ALL_CODE_TYPES = null; 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> TARGET_BARCODE_SCANNER_ONLY = Collections.singl
+eton(BS_PACKAGE) 
+\begin_inset Newline newline
+\end_inset
+
++ static final Collection<String> TARGET_ALL_KNOWN = list( BS_PACKAGE, "com.srowe
+n.bs.android", "com.srowen.bs.android.simple")
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- final Activity activity 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String title
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String message
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String buttonYes 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String buttonNo 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Collection<String> targetApplications
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
 \end_layout
 
 \begin_layout Standard
-+ String getTitle()
-\end_layout
 
-\begin_layout Standard
-+ void setTitle(String title)
-\end_layout
+\series bold
++ IntentIntegrator(Activity activity)
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-+ void setTitleByID(int titleID)
-\end_layout
 
-\begin_layout Standard
-+ String getMessage()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-+ void setMessage(String message)
-\end_layout
-
-\begin_layout Standard
-+ void setMessageByID(int messageID)
-\end_layout
-
-\begin_layout Standard
-+ String getButtonYes()
-\end_layout
-
-\begin_layout Standard
-+ void setButtonYes(String buttonYes)
-\end_layout
-
-\begin_layout Standard
-+ void setButtonYesByID(int buttonYesID)
-\end_layout
-
-\begin_layout Standard
-+ String getButtonNo()
-\end_layout
-
-\begin_layout Standard
-+ void setButtonNo(String buttonNo)
-\end_layout
-
-\begin_layout Standard
-+ void setButtonNoByID(int buttonNoID)
-\end_layout
-
-\begin_layout Standard
-+ Collection<String> getTargetApplications(
-\end_layout
-
-\begin_layout Standard
-+ void setTargetApplications(Collection<String> targetApplications)
-\end_layout
-
-\begin_layout Standard
-+ void setSingleTargetApplication(String targetApplication)
-\end_layout
-
-\begin_layout Standard
 + AlertDialog initiateScan()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + AlertDialog initiateScan(Collection<String> desiredBarcodeFormats)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 # void startActivityForResult(Intent intent, int code)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 - AlertDialog showDownloadDialog()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 - String findTargetAppPackage(Intent intent)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + static IntentResult parseActivityResult(int requestCode, int resultCode,
  Intent intent)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + void shareText(CharSequence text)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 - private static Collection<String> list(String...
  values)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
++ String getTitle()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setTitle(String title)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setTitleByID(int titleID)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getMessage()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setMessage(String message)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setMessageByID(int messageID)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getButtonYes()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setButtonYes(String buttonYes)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setButtonYesByID(int buttonYesID)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getButtonNo()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setButtonNo(String buttonNo)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setButtonNoByID(int buttonNoID)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ Collection<String> getTargetApplications(Collection<String> targetApplications
+)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setTargetApplications(Collection<String> targetApplications)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setSingleTargetApplication(String targetApplication)
+\series default
+
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1247,89 +2652,157 @@ com.safetyGame.mobile.Utils.IntentResult
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione 
 \series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Classe che aiuta a gestire i risultati dello scan del barcode.
-\series bold
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
-\series default
-Nessuna
-\series bold
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Restituisce i dati all'Activity
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- 
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Subsection*
 
 \series bold
-Variabili:
+Attributi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - final String contents
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-- final String formatName 
-\end_layout
-
-\begin_layout Standard
-- final byte[] rawBytes
-\end_layout
-
-\begin_layout Standard
-- final Integer orientation
-\end_layout
-
-\begin_layout Standard
-- final String errorCorrectionLevel
-\series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Metodi:
+- final String formatName 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- final byte[] rawBytes
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- final Integer orientation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- final String errorCorrectionLevel
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
++ IntentResult(String contents, String formatName, byte[] rawBytes, Integer
+ orientation, String errorCorrectionLevel) 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + String getContents()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getFormatName()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + byte[] getRawBytes()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + Integer getOrientation()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getErrorCorrectionLevel()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String toString()
 \end_layout
 
 \begin_layout Standard
-+ String toString()
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1341,7 +2814,7 @@ Package com.safetyGame.mobile.condivisi
 \series bold
 Tipo, obiettivo e funzionamento del componente:
 \series default
- Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ Package che raggruppa tutti i tipi di dato non nativi usati dall'applicazione.
  
 \series bold
 
@@ -1371,61 +2844,119 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 com.safetyGame.mobile.condivisi.Dati
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente:
+Funzione 
 \series default
- Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
- 
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si contenere i dati dei Dipendenti
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\begin_inset Newline newline
-\end_inset
-
-Variabili:
+Attributi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - String nome
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String cognome
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
 \end_layout
 
 \begin_layout Standard
-- String cognome
+
+\series bold
+public Dati(String nome, String cognome)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-Metodi:
-\end_layout
 
-\begin_layout Standard
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
 + String getNome()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getCognome()
 \end_layout
 
@@ -1437,77 +2968,151 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 com.safetyGame.mobile.condivisi.Domanda
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente:
+Funzione 
 \series default
- Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
- 
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe fungerà da contenitore per le domande.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\begin_inset Newline newline
-\end_inset
-
-Variabili:
+Attributi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - String type
-\end_layout
-
-\begin_layout Standard
-- String title
-\end_layout
-
-\begin_layout Standard
-- String testo
-\end_layout
-
-\begin_layout Standard
-- String[] risposte
 \begin_inset Newline newline
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+- String title
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String testo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String[] risposte
+\end_layout
+
+\begin_layout Subsection*
+
 \series bold
-Metodi:
+Metodi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+public Domanda(String type, String title, String testo)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + String getType()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getTitle()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getTesto()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String[] getRisposte()
 \end_layout
 
@@ -1519,89 +3124,175 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 com.safetyGame.mobile.condivisi.Punteggi
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzionamento del componente:
+Funzione 
 \series default
- Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
- 
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe fungerà da contenitore per i dati riguardanti i punteggi dei
+ dipendenti
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Subsection*
+
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\begin_inset Newline newline
-\end_inset
-
-Variabili:
+Attributi
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 - String rispostedate
-\end_layout
-
-\begin_layout Standard
-- String rispostecorrette
-\end_layout
-
-\begin_layout Standard
-- String risposteerrate
-\end_layout
-
-\begin_layout Standard
-- String punti
-\end_layout
-
-\begin_layout Standard
-- String[] badges
 \begin_inset Newline newline
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+- String rispostecorrette
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String risposteerrate
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String punti
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- String[] badges
+\end_layout
+
+\begin_layout Subsection*
+
 \series bold
-Metodi:
+Metodi
 \end_layout
 
 \begin_layout Standard
++ 
+\series bold
+Punteggi(String rispostedate, String rispostecorrette, String risposteerrate,
+ String punti, String[] badge, int numeroBadge)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + String getRispostedate()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getRispostecorrette()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getRisposteerrate()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String getPunti()
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 + String[] getBadges()
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1609,39 +3300,59 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
 com.safetyGame.mobile.condivisi.Quest
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente:
+Funzione 
 \series default
- Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
- 
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di gestire le operazioni che l'Amministratore
+ Sicurezza può effettuare sui Badge.
+ In particolare potrà recuperare la lista di tutti i badge disponibili all'inter
+no dell'azienda.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Standard
+
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\begin_inset Newline newline
-\end_inset
-
 Variabili:
 \end_layout
 

@@ -9,7 +9,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -322,7 +322,7 @@ per inoltrare le richieste che provengono dai vari front-end verso gli strati
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacci con e relazioni d'uso da altre componenti:
 \series default
  viene utilizzato dalla classe 
 \series bold
@@ -476,114 +476,49 @@ nec
 tion.WebConnection
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- la classe si occupa di gestire le richieste sia del 
-\emph on
-Front-end Web
-\emph default
- che del 
-\emph on
-Front-end Desktop
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di presentare al front-end web tutte le funzionalità
+ decise in fase di Progettazione Architetturale a cui ha accesso
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com\SpecialChar \-
-.\SpecialChar \-
-sa\SpecialChar \-
-fe\SpecialChar \-
-ty\SpecialChar \-
-Ga\SpecialChar \-
-me\SpecialChar \-
-.\SpecialChar \-
-back\SpecialChar \-
-.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dai 
-\emph on
-Front-end Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com\SpecialChar \-
-.\SpecialChar \-
-sa\SpecialChar \-
-fe\SpecialChar \-
-ty\SpecialChar \-
-Ga\SpecialChar \-
-me\SpecialChar \-
-.\SpecialChar \-
-back\SpecialChar \-
-.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra i 
-\emph on
-Front-End Web 
-\emph default
-e 
-\emph on
-Desktop
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -622,153 +557,579 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \end_layout
 
 \begin_layout Standard
+Metodo per il login dei dipendenti.
+\end_layout
+
+\begin_layout Standard
+Dovrà creare un oggetto 
+\emph on
+Login
+\emph default
+ a partire dai parametri passati e quindi chiamare la funzione della classe
+ Façade deputata alla gestione del login.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 
 \series bold
 + boolean loginAdmin(String username, String password)
 \end_layout
 
 \begin_layout Standard
+Metodo per il login degli utenti amministratori.
+\end_layout
 
+\begin_layout Standard
+Dovrà creare un oggetto 
+\emph on
+Login
+\emph default
+ a partire dai parametri passati e quindi chiamare la funzione della classe
+ Façade deputata alla gestione del login.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Dipendente getDati(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di reperire le informazioni di un dipendente a partire
+ dal suo login.
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ dati di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Punteggio getPunteggio(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare le statistiche di un determinato dipendente.
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero del
+ punteggio di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Punteggio getStat(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare le statistiche globali
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero delle
+ statistiche dell'intera azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Badge> getBadge(Login l, int n)
 \end_layout
 
 \begin_layout Standard
+Metodo per ottenere i dati dei badge per un dato utente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ primi n 
+\emph on
+Badge
+\emph default
+ guadagnati da un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean modPassD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della password da parte di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica della
+ password di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean modPassA(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della password da parte di un amministratore
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica della
+ password di un 
+\emph on
+Amministratore
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean modMail(Dipendente d, String mail)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della mail da parte di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica dell'indir
+izzo email di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean resetPassD(Recupero r)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la rigenerazione della password per un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rigenerazione
+ della password di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean resetPassA(Recupero r)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la rigenerazione della password per un amministratore
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica della
+ password di un 
+\emph on
+Amministratore
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Domanda mostraDomanda(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare una domanda 
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero di una
+ nuova domanda da sottoporre ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean setRisposta(Login l,Domanda risposta)
 \end_layout
 
 \begin_layout Standard
+Metodo che si occupa di comunicare la risposta data
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al controllo della
+ correttezza della risposta data ad una 
+\emph on
+Domanda
+\emph default
+ da un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean posticipa(Login l, Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo per posticipare una domanda
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al posticipo della
+ 
+\emph on
+Domanda
+\emph default
+ sottoposta ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void logout(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo per segnalare al sistema il logout di un utente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla gestione della
+ richiesta di logout da parte di un utente
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Domanda> getElencoDomande()
 \end_layout
 
 \begin_layout Standard
+Metodo per ottenere la lista di tutte le domande
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla generazione
+ dell'elenco di tutte le domande selezionate dall'Amministratore Sicurezza
+ per l'azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean aggiungiDomanda(Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo per inserire una domanda dal server domande al server dell'azienda
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata all'inserimento
+ di una nuova domanda all'interno dell'elenco delle domande selezionate
+ dall'Amministratore Sicurezza per l'azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean cancellaDomanda(Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo per eliminare una domanda dal server dell'azienda
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rimozione di
+ una domanda all'interno dell'elenco delle domande selezionate dall'Amministrato
+re Sicurezza per l'azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Dipendente> getElencoDipendenti()
 \end_layout
 
 \begin_layout Standard
+Metodo per ottenere i dati dei dipendenti dell'azienda
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dell'elenco
+ di tutti i 
+\emph on
+Dipendenti
+\emph default
+ registrati nel sistema
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean setTrofei(Dipendente d, int n)
 \end_layout
 
 \begin_layout Standard
+Metodo per modificare il numero di trofei di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica del
+ numero di trofei di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean aggiungiDipendente(Dipendente d)
 \end_layout
 
 \begin_layout Standard
+Metodo per aggiungere un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata all'aggiunta di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean cancellaDipendente(Dipendente d)
 \end_layout
 
 \begin_layout Standard
+Metodo per eliminare un Dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rimozione di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean modDipendente(Dipendente dOld, Dipendente dNew)
 \end_layout
 
 \begin_layout Standard
+Metodo per modificare i dati di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica di
+ un 
+\emph on
+Dipendente
+\emph default
+ all'interno del database
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Badge> getBadgesAS() 
 \end_layout
 
 \begin_layout Standard
+Metodo per ottenere tutti i badge
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero di tutti
+ i 
+\emph on
+Badge
+\emph default
+ inseriti nel database
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + boolean assegnaBadge(Domanda D, Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo per assegnare un badge
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata all'assegnazione
+ di un 
+\emph on
+Badge
+\emph default
+ ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Dipendente> getPunteggi()
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere i punteggi medi dell'azineda e i punteggi di tutti i
+ dipendenti
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ punteggi di tutti i 
+\emph on
+Dipendenti
+\emph default
+, oltre che ai punteggi medi dell'azienda.
 \end_layout
 
 \begin_layout Standard
@@ -842,100 +1203,50 @@ nec
 tion.MobileConnection
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
 
 \series bold
-Tipo, obiettivo e funzione del componente:
+Funzione 
 \series default
- 
-\series medium
-la classe si occupa di gestire le richieste del 
-\emph on
-Front-End Mobile
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di presentare al front-end mobile e desktop tutte
+ le funzionalità decise in fase di Progettazione Architetturale a cui ha
+ accesso
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
 
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- utilizza il package 
-\series bold
-com\SpecialChar \-
-.\SpecialChar \-
-sa\SpecialChar \-
-fe\SpecialChar \-
-ty\SpecialChar \-
-Ga\SpecialChar \-
-me\SpecialChar \-
-.\SpecialChar \-
-back\SpecialChar \-
-.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler 
-\series default
-per inoltrare le richieste provenienti dal 
-\emph on
-Front-end Mobile 
-\emph default
-ai controlli logici del 
-\emph on
-Back-End
-\end_layout
+d'uso
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+con
+\begin_inset space ~
+\end_inset
 
-\series bold
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- viene utilizzato dalla classe 
-\series bold
-com\SpecialChar \-
-.\SpecialChar \-
-sa\SpecialChar \-
-fe\SpecialChar \-
-ty\SpecialChar \-
-Ga\SpecialChar \-
-me\SpecialChar \-
-.\SpecialChar \-
-back\SpecialChar \-
-.\SpecialChar \-
-con\SpecialChar \-
-trol\SpecialChar \-
-ler\SpecialChar \-
-.\SpecialChar \-
-Ge\SpecialChar \-
-stio\SpecialChar \-
-ne\SpecialChar \-
-Da\SpecialChar \-
-ti 
-\series default
-per inoltrare le elaborazioni compiute dagli strati inferiori del 
-\emph on
-Back-End
-\emph default
- verso il 
-\emph on
-Front-End Mobile
-\end_layout
+altri
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+moduli 
+\begin_inset space ~
+\end_inset
 
-\series bold
-Attività svolte e dati trattati:
-\series default
- fa da connettore fra il 
-\emph on
-Front-End Mobile
-\emph default
- e il back-end, divenendo parte del componente 
-\emph on
-Presenter
-\emph default
- del design pattern 
-\emph on
-MVP
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Subsection*
@@ -982,63 +1293,259 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \end_layout
 
 \begin_layout Standard
+Metodo per il login.
+\end_layout
 
+\begin_layout Standard
+Dovrà creare un oggetto 
+\emph on
+Login
+\emph default
+ a partire dai parametri passati e quindi chiamare la funzione della classe
+ Façade deputata alla gestione del login.
+ Poichè l'uso del front-end mobile e desktop è riservato ai 
+\emph on
+Dipendenti
+\emph default
+, questo metodo dovrà chiamare il metodo per il login dei 
+\emph on
+Dipendenti
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Dipendente getDati(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di reperire le informazioni di un dipendente a partire
+ dal suo login.
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ dati di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Punteggio getStat(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare le statistiche globali
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero delle
+ statistiche dell'intera azienda
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void modPass(Dipendente d)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della password da parte di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica della
+ password di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void modMail(Dipendente d, String mail)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la modifica della mail da parte di un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla modifica dell'indir
+izzo email di un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void resetPass(Recupero r)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente la rigenerazione della password per un dipendente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla rigenerazione
+ della password di un 
+\emph on
+Dipendente
+\emph default
+, visto che
 \series bold
+ 
+\series default
+l'uso del front-end mobile e desktop è riservato a
+\emph on
+ 
+\emph default
+questi ultimi.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + Domanda mostraDomanda(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo che consente di recuperare una domanda 
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero di una
+ nuova domanda da sottoporre ad un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void posticipa(Login l, Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo per posticipare una domanda
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al posticipo della
+ 
+\emph on
+Domanda
+\emph default
+ sottoposta ad un 
+\emph on
+Dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 
 \series bold
+\emph default
 + boolean rispondi(Login l, Domanda d)
 \end_layout
 
 \begin_layout Standard
+Metodo che si occupa di comunicare la risposta data
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al controllo della
+ correttezza della risposta data ad una 
+\emph on
+Domanda
+\emph default
+ da un 
+\emph on
+Dipendente
 \series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void logout(Login l)
 \end_layout
 
 \begin_layout Standard
+Metodo per segnalare al sistema il logout di un utente
+\end_layout
 
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla gestione della
+ richiesta di logout da parte di un utente
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + ArrayList<Badge> getBadge(Login l, int n)
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere i dati dei badge per un dato utente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ primi n 
+\emph on
+Badge
+\emph default
+ guadagnati da un 
+\emph on
+Dipendente
 \end_layout
 
 \begin_layout Standard
@@ -1151,11 +1658,11 @@ ler
 Tipo, obiettivo e funzione del componente:
 \series default
  contiene gli oggetti deputati al controllo dei dati immessi nei vari front-end
- e del loro eventuale reindirizzamento verso l'
+ e del loro eventuale indirizzamento verso l'
 \emph on
 Access-Tier
 \emph default
- per una eventuale memorizzazione.
+ per la memorizzazione.
  Inoltre si occupa di chiedere all'
 \emph on
 Access-Tier
@@ -1164,7 +1671,7 @@ Access-Tier
 \emph on
 Presentation-Tier
 \emph default
- affinchè vengano spediti al front-end di competenza
+ affinché vengano spediti al front-end di competenza
 \series bold
 
 \begin_inset Newline newline
@@ -1187,13 +1694,13 @@ ck\SpecialChar \-
 .ac\SpecialChar \-
 cess 
 \series default
-per memorizare i dati da lui elaborati
+per memorizzare i dati da lui elaborati
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
  viene utilizzato dal package 
 \series bold
@@ -1435,7 +1942,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier 
 \emph default
-affinchè ritorni un array con gli oggetti 
+affinché ritorni un array con gli oggetti 
 \emph on
 Badge
 \series bold
@@ -2151,11 +2658,11 @@ Metodo per ottenere tutti i badge possibili.
 \end_layout
 
 \begin_layout Standard
-Dovrà interrogare la classse 
+Dovrà interrogare la classe 
 \emph on
 GestioneBadgeAS 
 \emph default
-affinchè ritorni un array con gli oggetti 
+affinché ritorni un array con gli oggetti 
 \emph on
 Badge
 \series bold
@@ -2180,11 +2687,11 @@ Metodo per ottenere i dati delle badge per un dato utente.
 \end_layout
 
 \begin_layout Standard
-Dovrà interrogare la classse 
+Dovrà interrogare la classe 
 \emph on
 GestioneBadgeD 
 \emph default
-affinchè ritorni un array con gli oggetti 
+affinché ritorni un array con gli oggetti 
 \emph on
 Badge
 \series bold
@@ -2218,11 +2725,11 @@ Metodo per controllare se l'utente ha soddisfatto dei requisiti per ottenere
 \end_layout
 
 \begin_layout Standard
-Dovrà interrogare la classse 
+Dovrà interrogare la classe 
 \emph on
 GestioneBadgeD 
 \emph default
-affinchè assegni un nuovo badge al 
+affinché assegni un nuovo badge al 
 \emph on
 Dipendente
 \emph default
@@ -2248,11 +2755,11 @@ Metodo per ottenere i dati dei dipendenti dell'azienda.
 \end_layout
 
 \begin_layout Standard
-Dovrà interrogare la classse 
+Dovrà interrogare la classe 
 \emph on
 GestioneDipendentiAA 
 \emph default
-affinchè ritorni un array contente oggetti 
+affinché ritorni un array contente oggetti 
 \emph on
 Dipendente
 \emph default
@@ -2439,11 +2946,11 @@ Metodo per ottenere la lista di tutte le domande.
 \end_layout
 
 \begin_layout Standard
-Dovrà interrogare la classse 
+Dovrà interrogare la classe 
 \emph on
 GestioneDomandeAS 
 \emph default
-affinchè ritorni un array contente oggetti 
+affinché ritorni un array contente oggetti 
 \emph on
 Domanda
 \emph default
@@ -2478,7 +2985,7 @@ Domanda
 \emph on
 Dipendenti
 \emph default
- dell'azienza.
+ dell'azienda.
 \begin_inset Newline newline
 \end_inset
 
@@ -2508,7 +3015,7 @@ Domanda
 \emph on
 Dipendenti
 \emph default
- dell'azienza.
+ dell'azienda.
 \begin_inset Newline newline
 \end_inset
 
@@ -2553,7 +3060,7 @@ Login
 
 \begin_layout Standard
 Metodo che si occupa di controllare la risposta data da un dipendente ad
- una domanda e tenta di scrivere tali informazioni sul DB.
+ una domanda e tenta di scrivere tali informazioni sul database.
  Se la risposta è corretta assegna il punteggio al dipendente.
 \end_layout
 
@@ -2570,7 +3077,7 @@ Dipendente
 \emph on
 Login
 \emph default
- una domanda e tenta di scrivere tali informazioni sul DB.
+ una domanda e tenta di scrivere tali informazioni sul database.
  Se la risposta è corretta assegna il punteggio al dipendente.
 \begin_inset Newline newline
 \end_inset
@@ -3122,7 +3629,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè restituisca un array contente tutti gli oggetti 
+ affinché restituisca un array contente tutti gli oggetti 
 \emph on
 Dipendente
 \emph default
@@ -3148,7 +3655,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè inserisca il contenuto dell'oggetto 
+ affinché inserisca il contenuto dell'oggetto 
 \emph on
 Dipendente
 \emph default
@@ -3174,7 +3681,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè elimini
+ affinché elimini
 \emph on
  
 \emph default
@@ -3204,7 +3711,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè modifichi i dati del 
+ affinché modifichi i dati del 
 \emph on
 Dipendente
 \emph default
@@ -3230,7 +3737,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè modifichi i dati dell'
+ affinché modifichi i dati dell'
 \emph on
 Amministratore
 \emph default
@@ -3440,7 +3947,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè gli ritorni un oggetto 
+ affinché gli ritorni un oggetto 
 \emph on
 Dipendente
 \emph default
@@ -3470,7 +3977,7 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè modifichi la password del 
+ affinché modifichi la password del 
 \emph on
 Dipendente 
 \emph default
@@ -3480,7 +3987,7 @@ Dipendente
 \emph default
  passato come parametro.
  Se non ci sono problemi, dovrà chiamare la classe deputata alla gestione
- del file di log affinchè scriva che il 
+ del file di log affinché scriva che il 
 \emph on
 Dipendente
 \emph default
@@ -3506,13 +4013,13 @@ Dovrà interrogare l'
 \emph on
 Access-Tier
 \emph default
- affinchè modifichi la mail del 
+ affinché modifichi la mail del 
 \emph on
 Dipendente
 \emph default
  con la stringa passata in oggetto.
  Quindi, se non ci sono problemi, dovrà chiamare la classe deputata alla
- gestione del file di log affinchè scriva che il 
+ gestione del file di log affinché scriva che il 
 \emph on
 Dipendente
 \emph default
@@ -3745,7 +4252,7 @@ Dovrà chiamare l'
 \emph on
 Access-Tier
 \emph default
- affinchè gli restituisca un array di tutte le domande selezionate fino
+ affinché gli restituisca un array di tutte le domande selezionate fino
  ad ora dall'
 \emph on
 Amministratore
@@ -3772,7 +4279,7 @@ Dovrà chiamare l'
 \emph on
 Access-Tier
 \emph default
- affinchè inserisca la 
+ affinché inserisca la 
 \emph on
 Domanda
 \emph default
@@ -3801,7 +4308,7 @@ Dovrà chiamare l'
 \emph on
 Access-Tier
 \emph default
- affinchè elimini la 
+ affinché elimini la 
 \emph on
 Domanda
 \emph default
@@ -4117,8 +4624,8 @@ Domanda
 \emph on
 Access-Tier 
 \emph default
-affinchè scriva nel database e la classe deputata alla gestione dei log
- affinchè scriva nel file di log che è stata sottoposta una nuova 
+affinché scriva nel database e la classe deputata alla gestione dei log
+ affinché scriva nel file di log che è stata sottoposta una nuova 
 \emph on
 Domanda
 \emph default
@@ -4140,7 +4647,7 @@ Dipendente.
 
 \begin_layout Standard
 Metodo che si occupa di controllare la risposta data da un dipendente ad
- una domanda e tenta di scrivere tali informazioni sul DB.
+ una domanda e tenta di scrivere tali informazioni sul database.
  Se la risposta è corretta assegna il punteggio al dipendente.
 \end_layout
 
@@ -6006,7 +6513,7 @@ Dovrà prima di tutto controllare che i dati inseriti siano corretti, chiamando
 \emph on
 Access-Tier 
 \emph default
-affinchè verifichi che 
+affinché verifichi che 
 \emph on
 codice fiscale
 \emph default
@@ -6043,7 +6550,7 @@ Dovrà generare la password casuale, quindi dovrà chiamare l'
 \emph on
 Access-Tier
 \emph default
- affinchè modifichi la riga riferita ai dati di accesso dell'Amministratore.
+ affinché modifichi la riga riferita ai dati di accesso dell'Amministratore.
 \begin_inset Newline newline
 \end_inset
 
@@ -6155,9 +6662,9 @@ Controller-Tier
 \begin_layout Standard
 
 \series bold
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacci con e relazioni d'uso da altre componenti:
 \series default
- viene utilizzato dall package 
+ viene utilizzato dal package 
 \series bold
 com.safetyGame.back.\SpecialChar \-
 con\SpecialChar \-
@@ -6493,7 +7000,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \end_layout
 
 \begin_layout Standard
-Metodo che prende le badge ottenute da un Dipendente dal database.
+Metodo che prende i badge ottenute da un Dipendente dal database.
  
 \end_layout
 
@@ -6695,7 +7202,7 @@ Metodi
 
 \begin_layout Standard
 Metodo che prende le informazioni di un Dipendente dal database e le inserisce
- all'interno di un oggetto Dipedente.
+ all'interno di un oggetto Dipendente.
 \begin_inset Newline newline
 \end_inset
 
@@ -6710,7 +7217,7 @@ Metodo che prende le informazioni di un Dipendente dal database e le inserisce
 
 \begin_layout Standard
 Metodo che prende le informazioni di un Amministratore dal database e le
- inserisce all'interno di un oggetto Dipedente.
+ inserisce all'interno di un oggetto Dipendente.
 \begin_inset Newline newline
 \end_inset
 
@@ -6827,7 +7334,7 @@ Metodo che aggiunge un Dipendente nel database
 \end_layout
 
 \begin_layout Standard
-Metodo che cancella un Dipendente nelal database
+Metodo che cancella un Dipendente dal database
 \begin_inset Newline newline
 \end_inset
 
@@ -7068,7 +7575,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 \begin_layout Standard
 Metodo che prende le informazioni di un Dipendente dal database e le inserisce
- all'interno di un oggetto Dipedente.
+ all'interno di un oggetto Dipendente.
 \begin_inset Newline newline
 \end_inset
 
@@ -7083,7 +7590,7 @@ Metodo che prende le informazioni di un Dipendente dal database e le inserisce
 
 \begin_layout Standard
 Metodo che prende le informazioni di un Amministratore dal database e le
- inserisce all'interno di un oggetto Dipedente.
+ inserisce all'interno di un oggetto Dipendente.
 \begin_inset Newline newline
 \end_inset
 
@@ -8399,7 +8906,7 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \begin_layout Itemize
 
 \family typewriter
-back.acecss.SqlDAOFactory
+back.access.SqlDAOFactory
 \end_layout
 
 \begin_layout Standard
@@ -8584,7 +9091,7 @@ back.controller.GestioneDomandeD
 \begin_layout Itemize
 
 \family typewriter
-back.controller.GesteionePunteggiAA
+back.controller.GestionePunteggiAA
 \end_layout
 
 \begin_layout Itemize
@@ -9028,7 +9535,7 @@ back.access.SqlDAOBadge
 \begin_layout Itemize
 
 \family typewriter
-back.access.SqlDAODipententi
+back.access.SqlDAODipendenti
 \end_layout
 
 \begin_layout Itemize
@@ -9319,7 +9826,7 @@ controlli)
 Modifica una tupla di valori all'interno della tabella indicata, selezionandola
  secondo i parametri di controllo indicati.
  Nel caso l'esecuzione della query ritornasse un'eccezione, la funzione
- dovrà ritoranre 
+ dovrà ritornare 
 \series bold
 false
 \series default
@@ -9361,7 +9868,7 @@ controlli)
 \end_layout
 
 \begin_layout Standard
-Elimina una tupla di valori all'interno della tabella indicata, seleziondola
+Elimina una tupla di valori all'interno della tabella indicata, selezionandola
  secondo i parametri di controllo indicati.
  Se la stringa 
 \emph on
@@ -9397,7 +9904,7 @@ ResultSet selezione(String tabella, String colonne, String controlli, String
 \end_layout
 
 \begin_layout Standard
-Prevela una tupla di valori all'interno della tabella indicata, selezionandola
+Preleva una tupla di valori all'interno della tabella indicata, selezionandola
  secondo i parametri di controllo indicati.
  Dovrà eseguire una query sulla 
 \emph on
@@ -9463,7 +9970,7 @@ Back-end
 \begin_layout Standard
 
 \series bold
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacci con e relazioni d'uso da altre componenti:
 \series default
  viene utilizzato da tutte le classi dei package 
 \emph on
@@ -9591,7 +10098,7 @@ back.access.SqlDAOBadge
 \begin_layout Itemize
 
 \family typewriter
-back.convidisi.Dipendente
+back.condivisi.Dipendente
 \end_layout
 
 \begin_layout Itemize
