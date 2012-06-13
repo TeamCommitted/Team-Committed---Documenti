@@ -4851,37 +4851,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB3 (rispondere nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione esito risposta
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.1 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la creazione delle domande, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -4897,23 +4869,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB4 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione punteggi aggiornati
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.2 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la creazione delle domande, si otterrà come risposta
+ uno degli output attesi 
 \backslash
 
 \backslash
@@ -4929,23 +4887,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB5 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.3 & Verifica che il salvataggio di una nuova domanda avvenga
+ correttamente 
 \backslash
 
 \backslash
@@ -4961,30 +4904,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.4 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la modifica delle domande, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -5000,30 +4922,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK2 (amministrazione utenti) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione dati utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.5 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la modifica delle domande, si otterrà come risposta
+ uno degli output attesi  
 \backslash
 
 \backslash
@@ -5039,37 +4940,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK3 (gestione domande e risposte) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Inserimento nuove domande
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica domande
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Eliminazione domande
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.6 & Verifica che il salvataggio dei dati modificati di una domanda
+ avvenga correttamente  
 \backslash
 
 \backslash
@@ -5085,30 +4957,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK4 (amministrazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione punteggi globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Inserimento e modifica criteri di attribuzione punteggi e badge
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU CBACK 3.7 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la risposta ad una domanda, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -5120,6 +4971,268 @@ end{itemize}
 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 3.8 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la risposta ad una domanda, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 3.9 & Verifica che il salvataggio di una risposta ad una domanda
+ avvenga correttamente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.1 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la visualizzazione dei punteggi, verrà riportato un
+ errore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.2 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la visualizzazione dei punteggi, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.3 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la creazione di nuovi trofei, verrà riportato un errore
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.4 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la creazione di nuovi trofei, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.5 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la modifica di trofei, verrà riportato un errore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.6 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la modifica di trofei, si otterrà come risposta uno
+ degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU CBACK 4.7 & Verifica se si otterrà una risposta corretta ad una richiesta
+ di visualizzazione punteggi.
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
