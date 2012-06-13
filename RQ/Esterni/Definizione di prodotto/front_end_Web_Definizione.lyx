@@ -1,0 +1,1136 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection
+com.safetyGame.frontWeb.pagine
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ questo livello costituisce la parte del sistema che definisce ed implementa
+ l’interfaccia web usurfruibile dagli Utenti mediante pagine web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso di altre componenti
+\series default
+: il componente è costituito dal package pagine, e comunica con il Logic
+ Tier per rendere possibile la memorizzazione delle informazioni immesse
+ nel sistema dagli utenti attraverso l’interfaccia web e per controllare
+ i dati in transito per il sistema, dovuti all’interazione dell’utente con
+ il sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe Login definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un untente di effettuare il login al sistema
+ via web.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Menu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe Menu definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che mostra ad un utente, una volta autenticato, il menu
+ contenente le varie azioni che questo può compiere nel sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Notifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe Notifica definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che segnala ad un utente autenticato, una notifica del
+ sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe MostraDomanda definisce la struttura, e la conseguente visualizzazio
+ne, della pagina web che mostra ad un utente autenticato, una delle domande
+ presenti nel sistema ed attende la sua risposta.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe MostraDatiD definisce la struttura, e la conseguente visualizzazione
+, della pagina web che mostra ad un Dipendente, i propri dati personali
+ presenti nel sistema
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatuAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe MostraDatiAA definisce la struttura, e la conseguente visualizzazion
+e, della pagina web che mostra ad un Amministratore Azienda autenticato
+ i dati personali di un Dipendente a scelta.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ModDatiD definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un Dipendente autenticato di modificare
+ alcuni dati personali dell’account, ed ad un Amministratore Azienda, quasi
+ tutti i dati di un Dipendente a scelta.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ModDatiAA definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un Amminnistratore Azienda autenticato
+ di modificare alcuni dati personali dell’azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAs
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ModDatiAS definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un Amminnistratore Sicurezza autenticato
+ di modificare alcuni dati personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ElencoDomAS definisce la struttura, e la conseguente visualizzazione
+, della pagina web che mostra ad un Amministratore Sicurezza autenticato
+ le domande presenti nel calderone centrale e quelle a cui possono essere
+ sottoposti i dipendenti di una certa ditta.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ModDomAS definisce la struttura, e la conseguente visualizzazione,
+ della pagina web che consente ad un Amministratore Sicurezza autenticato
+ di scegliere le domande a cui saranno sottoposti i dipiendenti di una certa
+ azienda fra quelle già presenti nel database generale.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe MostraStatD definisce la struttura, e la conseguente visualizzazione
+, della pagina web che consente ad un Dipendente autenticato di visualizzare
+ i propri punteggi e statistiche.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe MostraStatAA definisce la struttura, e la conseguente visualizzazion
+e, della pagina web che consente ad un Amministratore autenticato di visualizzar
+e i punteggi dei dipen- denti e le statistiche aziendali.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.RecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe RecuperoPass definisce la struttura, e la conseguente visualizzazion
+e, della pagina web che consente ad un Dipendente autenticato di visualizzare
+ la schermata di recupero password quando smarrita.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso con altri moduli
+\begin_inset Newline newline
+\end_inset
+
+Attributi
+\begin_inset Newline newline
+\end_inset
+
+Metodi
+\end_layout
+
+\begin_layout Subsection
+com.safetyGame.frontWeb.control
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ questo livello costituisce la parte del sistema che si occupa sostanzialmente
+ di controllare e gestire i dati che riceve in ingresso l’applicazione dall’inte
+razione con l’utente, attraverso le varie pagine web, e di mantenerle sempre
+ aggiornate attuando le comunicazioni necessarie con il back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d’uso di altre componenti:
+\series default
+ il componente è costituito dal pack- age control, e comunica sia con il
+ View Tier per mantenere aggiornato lo stato dell’interfaccia web visibile
+ agli utenti, che con il back-end per gestire le infor- mazioni che l’utente
+ scambia con l’applicazione.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlLogin si oc- cupa di controllare le credenziali che un
+ utente inserisce al momento dell’autenticazione per poi trasmetterle al
+ back-end.
+ A seconda della risposta che riceve aggiorna la pagina web visibile agli
+ utenti.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMenu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMenu si oc- cupa di controllare le azioni che un utente,
+ una volta autenticato, compie nella schermata di menu.
+ A seconda dell’azione che viene eseguita si occupa di ag- giornare correttament
+e la schermata.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlNotifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlNotifica si occupa di gestire le pagine web che mostrano
+ agli utenti le notifiche del sistema.
+ Si occupa inoltre di catturare le risposte per poi passare queste informazioni
+ al back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDom
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMostraDom si occupa di gestire le pagine web che mostrano
+ agli utenti le domande.
+ Si occupa inoltre di catturare le risposte per poi passare queste informazioni
+ al back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMostra- DatiD si occupa di gestire le pagine web che
+ mostrano ai Dipendenti autenticati i loro dati personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMostraDa- tiAA si occupa di gestire le pagine web che
+ mostrano ad un Amministratore Azienda autenticato i dati personali dell’azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlModDatiD si occupa di gestire le pagine web che consentono
+ ai Dipendenti autenticati di modificare alcuni loro dati personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlModDatiAA si occupa di gestire le pagine web che consentono
+ ad un Amministratore Azienda autenticato di modificare alcuni dati personali
+ dell’azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlElencoDomAS si occupa di gestire le pagine web che consentono
+ ad un Amministratore Si- curezza autenticato di visualizzare le domande
+ presenti nel database generale.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlModDo- mAS si occupa di controllare e tenere aggiornate
+ le pagine web che consentono ad un Amministratore Sicurezza autenticato
+ di gestire l’insieme delle domande adeguate per una ben precisa azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMostraStatD si occupa di controllare e tenere aggiornate
+ le pagine web che consentono ad un Dipendente autenticato di visualizzare
+ i premi e le statistiche personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlMostraStatAA si occupa di controllare e tenere aggiornate
+ le pagine web che consentono ad un Amministratore Azienda autenticato di
+ visualizzare i premi e le statistiche azien- dali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlModDatiAS si occupa di gestire le pagine web che consentono
+ ad un Amministratore Si- curezza autenticato di modificare alcuni dati
+ personali.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlRecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ControlRecuper- oPass si occupa di gestire le pagine web che
+ consentono ad un Dipendente aut- enticato, che ha smarrito la propria password,
+ di recuperarla.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.Timer
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe Timer si occupa di gestire le varie temporizzazioni richieste
+ dalle pagine web.
+ Relazioni d’uso di altre componenti: nessuna.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ConnHandler
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: La classe ConnHandler si oc- cupa di gestire la connessione fra back-end
+ e front-end web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazione d'uso con altri moduli
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attribut
+\series default
+i:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi
+\series default
+:
+\end_layout
+
+\end_body
+\end_document

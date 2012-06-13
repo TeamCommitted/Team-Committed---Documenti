@@ -1,0 +1,19 @@
+la classe SqlDAOFactory non contiene variabili interne e non ha metodi propri.
+La classe semplicemente definisce i metodi della classe astratta DAOFactory "istanziando" gli oggetti che le servono per l'accesso al database.
+
+I metodi sono:
+
+  public DAOLogin creaDAOLogin(Indirizzo azienda)
+che ritorna un oggetto istanziato della classe interfaccia (DAOLogin)di tipo SqlDAOLogin
+
+  public DAODipendenti creaDAODipendenti(Indirizzo azienda)
+che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAODipendenti
+  
+  public DAODomande creaDAODomande(Indirizzo azienda, Indirizzo domande)
+che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAODDomande
+
+  public DAOBadge creaDAOBadge(Indirizzo azienda)
+che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAOBadge 
+
+  public DAOPunteggi creaDAOPunteggi(Indirizzo azienda, Indirizzo domande)
+che ritorna un oggetto istanziato della classe interfaccia (DAODipendenti)di tipo SqlDAODomande

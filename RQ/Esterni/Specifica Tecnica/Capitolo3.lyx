@@ -192,15 +192,7 @@ Svantaggi
 
 \begin_deeper
 \begin_layout Itemize
-
-\series bold
-Lentezza 
-\series default
-causata dal passaggio attraverso la 
-\bar under
-JVM
-\bar default
- e dal fatto di essere un linguaggio interpretato
+Non sono stati rilevati particolari svantaggi
 \end_layout
 
 \end_deeper
@@ -223,7 +215,7 @@ assieme a
 \series bold
 CSS
 \bar default
- 3
+ 2.1
 \series default
  
 \begin_inset Foot
@@ -251,6 +243,14 @@ utenti
 utenti autenticati
 \bar default
 .
+ Si è scelto di utilizzare XHTML 1.1 anziché HTML5 in quanto quest'ultimo
+ è uno standard ancora in fase di definizione e quindi soggetto ad eventuali
+ modifiche.
+ Inoltre l'applicazione sviluppata deve essere compatibile con il maggior
+ numero di dispositivi e browser web possibili ed attualmente HTML5 è supportato
+ unicamente dai browser web più moderni.
+ Motivazioni simili ci hanno spinto ad utilizzare CSS 2.1 anziché CSS3 che,
+ come HTML5, non è ancora supportato pienamente da tutti i browser web.
 \end_layout
 
 \begin_layout Itemize
@@ -386,7 +386,7 @@ N.B.
 \end_inset
 
  il database sarà oberato di lavoro e/o conterrà una quantità di dati abnorme
- le sue prestazioni risulteranno per lo meno fastidiose.
+ le sue prestazioni potrebbero subire dei cali qualitativi.
  Per il momento abbiamo comunque deciso di tenere questa versione, a dispetto
  della 
 \emph on

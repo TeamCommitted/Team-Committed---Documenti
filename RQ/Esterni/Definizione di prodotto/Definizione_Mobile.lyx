@@ -59,72 +59,6 @@
 
 \begin_body
 
-\begin_layout Section
-Specifica Front-end Mobile
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/frontEndMobile.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Front-end Mobile, diagramma dei package
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Package com.safetyGame.mobile.View
 \end_layout
@@ -186,13 +120,6 @@ Attività svolte e dati trattati:
 \series default
  Definisce l'aspetto dell'applicazione Android definendone l'interfaccia
  con cui l'utente dovrà interagire.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -261,13 +188,6 @@ Metodi:
 + void onCreate(Bundle savedInstanceState)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DashboardActivity
 \end_layout
@@ -323,13 +243,6 @@ Metodi:
 
 \begin_layout Standard
 + void onCreate(Bundle savedInstanceState)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -400,13 +313,6 @@ Metodi:
 + boolean onOptionsItemSelected(MenuItem item)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DatiActivity
 \end_layout
@@ -475,13 +381,6 @@ Metodi:
 
 \begin_layout Standard
 + boolean onOptionsItemSelected(MenuItem item)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -557,13 +456,6 @@ Metodi:
 + void onActivityResult(int requestCode, int resultCode, Intent intent)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.RecuperoPasswordActivity
 \end_layout
@@ -612,13 +504,6 @@ Attributi:
 \end_inset
 
 Metodi:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -710,13 +595,6 @@ Metodi:
 + IBinder onBind(Intent arg0)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DashboardLayout
 \end_layout
@@ -798,13 +676,6 @@ Metodi:
 # void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Package com.safetyGame.mobile.Utils
 \end_layout
@@ -843,13 +714,6 @@ Attività svolte e dati trattati:
  Invia richieste HTTP al server, il quale gli risponderà inviando i dati
  richiesti attraverso un XML.
  In seguito ne estrarrà i dati e li renderà disponibili alla View.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -907,13 +771,6 @@ Metodi:
 
 \begin_layout Standard
 + onReceive(Context context, Intent arg1)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -992,13 +849,6 @@ Metodi:
 
 \begin_layout Standard
 + static Object HttpCreateClient(String url, List<NameValuePair> nameValuePairs)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1233,13 +1083,6 @@ Metodi:
  values)
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 com.safetyGame.mobile.Utils.IntentResult
 \end_layout
@@ -1363,13 +1206,6 @@ Interfaccie con e relazioni d'uso da altre componenti:
 Attività svolte e dati trattati:
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 
 \series bold
@@ -1427,13 +1263,6 @@ Metodi:
 
 \begin_layout Standard
 + String getCognome()
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1509,13 +1338,6 @@ Metodi:
 
 \begin_layout Standard
 + String[] getRisposte()
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1601,13 +1423,6 @@ Metodi:
 + String[] getBadges()
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 
 \series bold
@@ -1665,13 +1480,6 @@ Metodi:
 
 \begin_layout Standard
 + String getTesto()
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \end_body

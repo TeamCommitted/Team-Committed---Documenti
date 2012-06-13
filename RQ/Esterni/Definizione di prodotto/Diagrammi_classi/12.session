@@ -1,12 +1,11 @@
-window_sizes 1350 700 337 1007 507 136
+window_sizes 1564 877 337 1221 820 0
 diagrams
-  active  classdiagram_ref 128012 // condivisi
-    805 405 103 4 0 0
+  active  classdiagram_ref 134540 // Utils
+    1217 800 98 4 0 0
 end
 show_stereotypes
-selected operation_ref 128652 // getRisposte
+selected classdiagram_ref 134540 // Utils
 open
-  class_ref 128012 // Dati
-  class_ref 128140 // Domanda
+  classview_ref 128012 // mobile
 end
 end
