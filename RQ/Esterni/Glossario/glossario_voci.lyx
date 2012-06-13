@@ -1274,6 +1274,42 @@ begin{flushright}
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{GUI}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Graphical User Interface, acronimo che individua un componente grafico
+ che aiuta l'utente utilizzatore del dispositivo / applicativo a interagire
+ con il sistema con immagini al posto di testo.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
 \end_inset
 
 
