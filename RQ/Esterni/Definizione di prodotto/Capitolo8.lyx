@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{longtable}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -66,7 +69,382 @@
 \begin_body
 
 \begin_layout Section
-Tracciamento requisiti
+Tracciamento
+\end_layout
+
+\begin_layout Subsection
+Packages naming
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{|p{10cm}|r|} 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Nome package & Sigla 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame & SG 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.back & BK 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.back.access & BK.A 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.back.condivisi & BK.COND 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.back.connection & BK.CONN 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.back.controller & BK.CONT 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.desktop & DT 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.desktop.condivisi & DT.COND 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.desktop.logic & DT.L 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.desktop.view & DT.V 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.mobile & MB 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.mobile.condivisi & MB.COND 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.mobile.Utils & MB.U 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.mobile.View & MB.V 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.web & WB 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	safetygame.web.pagine & WB.P 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tracciamento componenti-requisiti
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{|p{10cm}|r|} 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Componente & Requisiti 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+ 	BK.A.(Sql)DAOBadge & RFOB 15.1 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+						& RFOB 23.1 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+						& RFOB 24   
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+						& RVOB 3    
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.(Sql)DAODipendenti & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.(Sql)DAODomande & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.(Sql)DAOFactory &
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.(Sql)DAOLogin & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.(Sql)DAOPunteggi & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.Indirizzo & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	BK.A.UpdateLog & 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -136,7 +136,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} |}
 \end_layout
 
 \begin_layout Plain Layout
@@ -156,9 +156,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica } 
 \backslash
 
 \backslash
@@ -185,12 +183,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: il server su cui risiede il sistema dovrà dimostrarsi
- funzionante rispondendo alle richieste dei vari componenti  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ funzionante rispondendo alle richieste dei vari componenti
 \backslash
 
 \backslash
@@ -226,12 +219,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato testando la possibilità di connettersi
- al servizio da differenti dispositivi &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ al servizio da differenti dispositivi
 \backslash
 
 \backslash
@@ -269,12 +257,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Gamification}, il sistema assegnerà effettivamente dei badge  
 \backslash
 
 \backslash
@@ -312,12 +295,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Gamification}, il sistema assegnerà effettivamente dei badge 
 \backslash
 
 \backslash
@@ -355,12 +333,7 @@ hline
 		Prova dinamica: viene verificato se, al raggiungimento di determinati
  obiettivi di 
 \backslash
-uline{Gamification}, il sistema assegnerà effettivamente dei badge &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Gamification}, il sistema assegnerà effettivamente dei badge  
 \backslash
 
 \backslash
@@ -401,12 +374,7 @@ hline
 
 		Prova dinamica: viene verificato che, in caso di intenso traffico nella
  rete, il sistema sia comunque in grado di garantire una corretta gestione
- dei dati evitandone la perdita &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ dei dati evitandone la perdita  
 \backslash
 
 \backslash
@@ -448,12 +416,7 @@ hline
 		Prova dimanima: viene verificato testando se, con l'utilizzo di un database
  test di domande risiedente nel medesimo server, il sistema funzioni correttamen
 te ed in egual modo che con l'utilizzo di un database test di domande risiedente
- in un server remoto &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ in un server remoto  
 \backslash
 
 \backslash
@@ -494,12 +457,7 @@ hline
 
 		Prova dinamica: viene verificato se, al passaggio del mouse sopra determinati
  campi o sezioni del servizio, questo sia in grado di restituire appositi
- consigli sull'utilizzo dello stesso &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ consigli sull'utilizzo dello stesso  
 \backslash
 
 \backslash
@@ -535,12 +493,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato se, da ogni schermata, il sistema renderà
- possibile accedere ad un'apposita area di aiuto  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ possibile accedere ad un'apposita area di aiuto 
 \backslash
 
 \backslash
@@ -576,12 +529,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato testando l'applicativo desktop su sistemi
- operativi di diverso tipo &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ operativi di diverso tipo
 \backslash
 
 \backslash
@@ -646,7 +594,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -666,9 +614,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica } 
 \backslash
 
 \backslash
@@ -697,12 +643,7 @@ hline
 		Prova dinamica: viene verifiato se il sistema effettivamente tiene traccia,
  nel tempo, di tutte le azioni di tutti gli 
 \backslash
-uline{Utilizzatori} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Utilizzatori} 
 \backslash
 
 \backslash
@@ -741,12 +682,7 @@ hline
  in diversi file di log, divisi per macro tipologia di azione, tutte le
  azioni di ogni 
 \backslash
-uline{Utilizzatore}  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Utilizzatore}  
 \backslash
 
 \backslash
@@ -785,12 +721,7 @@ hline
  la possibilità all'
 \backslash
 uline{Utente} che ha smarrito la password di connettersi all'apposita pagina
- per richiederne il recupero &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ per richiederne il recupero 
 \backslash
 
 \backslash
@@ -827,12 +758,7 @@ hline
 
 		Prova dinamica: viene verificato che, se la procedura di richiesta modifica
  password è stata eseguita correttamente, il sistema invierà effettivamente
- una mail contenente una password  temporanea generata randomicamente  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ una mail contenente una password  temporanea generata randomicamente 
 \backslash
 
 \backslash
@@ -868,12 +794,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che al primo login dopo il recupero password,
- il sistema chieda effettivamente che questa venga modificata &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ il sistema chieda effettivamente che questa venga modificata
 \backslash
 
 \backslash
@@ -915,12 +836,7 @@ hline
 		Prova dinamica: viene verificato che il sistema invii una mail di conferma
  qual'ora i dati personali del dell'
 \backslash
-uline{Utente} siano stati modificati&
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Utente} siano stati modificati
 \backslash
 
 \backslash
@@ -960,12 +876,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema invii una mail di conferma
- qual'ora venisse modificata la password di accesso &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ qual'ora venisse modificata la password di accesso  
 \backslash
 
 \backslash
@@ -1026,7 +937,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -1046,9 +957,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica } 
 \backslash
 
 \backslash
@@ -1075,12 +984,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
- email o password non validi il sistema risponda in maniera negativa &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ email o password non validi il sistema risponda in maniera negativa  
 \backslash
 
 \backslash
@@ -1116,12 +1020,7 @@ RFOB 5 &
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato se a fronte dell'inserimento di un indirizzo
- email e password validi il sistema risponda in maniera positiva &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ email e password validi il sistema risponda in maniera positiva 
 \backslash
 
 \backslash
@@ -1158,12 +1057,7 @@ hline
 
 		Prova dinamica: viene verificato se il sistema permetterà effettivamente
  di effettuare il login tramite l'apposita applicazione web, desktop o android
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -1201,12 +1095,7 @@ hline
 		Prova dinamica: viene verificato che il sistema sia in grado di fornire,
  grazie ad un timer, periodiche domande precaricate al 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente}
 \backslash
 
 \backslash
@@ -1244,12 +1133,7 @@ hline
 		Prova dinamica: viene verificato che il sistema sia in grado di fornire
  delle domande al 
 \backslash
-uline{Dipendente} qual'ora le richiedesse &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} qual'ora le richiedesse 
 \backslash
 
 \backslash
@@ -1291,12 +1175,7 @@ hline
 		Prova dinamica: viene verificato che il sistema limiti, grazie ad un timer,
  il numero di domande che il 
 \backslash
-uline{Dipendente} può richiedere &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} può richiedere 
 \backslash
 
 \backslash
@@ -1339,12 +1218,7 @@ hline
  la possibilità al 
 \backslash
 uline{Dipendente} di accedere all'area di modifica dei propri dati personali
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -1385,12 +1259,7 @@ hline
 
 		Prova dinamica: viene verificato che il sistema risponda negativamente
  alla modifica delle informazioni qual'ora fossero stati inseriti dati non
- corretti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ corretti 
 \backslash
 
 \backslash
@@ -1431,12 +1300,7 @@ hline
 
 		Prova dinamica: viene verificato che il sistema risponda positivamente
  alla modifica delle informazioni qual'ora fossero stati inseriti dati corretti
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+  
 \backslash
 
 \backslash
@@ -1476,12 +1340,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema invii una mail di conferma
- qual'ora venisse modificato l'indirizzo email &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ qual'ora venisse modificato l'indirizzo email 
 \backslash
 
 \backslash
@@ -1523,12 +1382,7 @@ hline
 		Prova dinamica: viene verificato se un 
 \backslash
 uline{Dipendente} autenticato è in grado di accedere ai propri dati personali
-  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -1570,12 +1424,7 @@ hline
 		Prova dinamica: viene verificato se il sistema risponderà positivamente
  alla scelta di un 
 \backslash
-uline{Utente} di rispondere ad una domanda proposta &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Utente} di rispondere ad una domanda proposta 
 \backslash
 
 \backslash
@@ -1613,12 +1462,7 @@ RFOB 13 &
 		Prova dinamica: viene verificato se il sistema risponderà positivamente
  alla scelta di un 
 \backslash
-uline{Utente} di rinviare una domanda proposta &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Utente} di rinviare una domanda proposta
 \backslash
 
 \backslash
@@ -1659,12 +1503,7 @@ hline
 
 		Prova dinamica: viene verificato se il sistema è in grado di riconoscere
  ed offrire informazioni sulla tipologia di domanda (nuova, posticipata,
- sbagliata) &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ sbagliata)
 \backslash
 
 \backslash
@@ -1706,12 +1545,7 @@ hline
 		Prova dinamica: viene verificato se un 
 \backslash
 uline{Dipendente} sarà in grado di visualizzare lo storico dei propri punteggi
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -1748,13 +1582,7 @@ hline
 
 		Prova dinamica: viene verificato se un 
 \backslash
-uline{Dipendente} sarà in grado di poter terminare la propria sessione 
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} sarà in grado di poter terminare la propria sessione
 \backslash
 
 \backslash
@@ -1792,12 +1620,7 @@ hline
 		Prova dinamica: viene verificato se un 
 \backslash
 uline{Dipendente} potrà modificare la sua password al primo accesso dopo
- la registrazione  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ la registrazione 
 \backslash
 
 \backslash
@@ -1858,7 +1681,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} |}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1878,9 +1701,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica }  
 \backslash
 
 \backslash
@@ -1914,12 +1735,7 @@ hline
  all'inserimento di username e password validi nella sezione dedicata al
  login di un 
 \backslash
-uline{Amministratore Azienda} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Azienda} 
 \backslash
 
 \backslash
@@ -1962,12 +1778,7 @@ RFOB 17 &
  all'inserimento di username e password non validi nella sezione dedicata
  al login di un 
 \backslash
-uline{Amministratore Azienda} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Azienda}  
 \backslash
 
 \backslash
@@ -2005,12 +1816,7 @@ hline
 		Prova dinamica: viene verificato se il sistema è in grado di offrire all'
 \backslash
 uline{Amministratore Azienda Autenticato} la possibilità di visionare la
- pagina di gestione dipendenti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ pagina di gestione dipendenti 
 \backslash
 
 \backslash
@@ -2055,12 +1861,7 @@ hline
 uline{Amministratore Azienda Autenticato}, di dati corretti relativi ad
  un nuovo 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente}  
 \backslash
 
 \backslash
@@ -2101,12 +1902,7 @@ hline
 uline{Amministratore Azienda Autenticato}, di dati non corretti relativi
  ad un nuovo 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} 
 \backslash
 
 \backslash
@@ -2151,12 +1947,7 @@ hline
 uline{Dipendente} da parte dell'
 \backslash
 uline{Amministratore Azienda Autenticato}, invierà una mail contenente i
- dati del nuovo account all'indirizzo specificato &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ dati del nuovo account all'indirizzo specificato 
 \backslash
 
 \backslash
@@ -2198,12 +1989,7 @@ hline
 		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
  l'username del nuovo accout 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} 
 \backslash
 
 \backslash
@@ -2245,12 +2031,7 @@ hline
 		Prova dinamica: viene verificato se il sistema inserirà nella mail inviata
  la password del nuovo accout 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} 
 \backslash
 
 \backslash
@@ -2294,12 +2075,7 @@ hline
 \backslash
 uline{Amministratore Azienda Autenticato} un account 
 \backslash
-uline{Dipendente} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} 
 \backslash
 
 \backslash
@@ -2342,12 +2118,7 @@ hline
  all'
 \backslash
 uline{Amministratore Azienda Autenticato} di accedere alla pagina di modifica
- degli account dei Dipendenti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ degli account dei Dipendenti  
 \backslash
 
 \backslash
@@ -2387,12 +2158,7 @@ hline
 \backslash
 uline{Dipendente} da parte dell'
 \backslash
-uline{Amministratore Azienda Autenticato} con informazioni valide &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Azienda Autenticato} con informazioni valide 
 \backslash
 
 \backslash
@@ -2436,12 +2202,7 @@ hline
 \backslash
 uline{Dipendente} da parte dell'
 \backslash
-uline{Amministratore Azienda Autenticato} con informazioni non valide &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Azienda Autenticato} con informazioni non valide 
 \backslash
 
 \backslash
@@ -2485,12 +2246,7 @@ hline
 uline{Amministratore Azienda Autenticato} di visionare le informazioni di
  ogni 
 \backslash
-uline{Dipendente} registrato &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} registrato 
 \backslash
 
 \backslash
@@ -2534,12 +2290,7 @@ hline
 uline{Amministratore Azienda Autenticato} di visionare le informazioni relative
  ai punteggi di ogni 
 \backslash
-uline{Dipendente} registrato &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente} registrato
 \backslash
 
 \backslash
@@ -2583,12 +2334,7 @@ hline
 uline{Amministratore Azienda Autenticato} di modificare i trofei di ogni
  singolo 
 \backslash
-uline{Dipendente}  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendente}  
 \backslash
 
 \backslash
@@ -2626,12 +2372,7 @@ hline
 		Prova dinamica: viene verificato che il sistema permetta all'
 \backslash
 uline{Amministratore Azienda Autenticato} di terminare la propria sessione
-  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+  
 \backslash
 
 \backslash
@@ -2700,7 +2441,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} |  }
 \end_layout
 
 \begin_layout Plain Layout
@@ -2720,9 +2461,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica }
 \backslash
 
 \backslash
@@ -2752,12 +2491,7 @@ hline
  all'inserimento di username e password validi nella sezione dedicata al
  login di un 
 \backslash
-uline{Amministratore Sicurezza}  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Sicurezza}  
 \backslash
 
 \backslash
@@ -2800,12 +2534,7 @@ hline
  all'inserimento di username e password non validi nella sezione dedicata
  al login di un 
 \backslash
-uline{Amministratore Sicurezza} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Amministratore Sicurezza} 
 \backslash
 
 \backslash
@@ -2844,12 +2573,7 @@ hline
  ad un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} di consultare le domande dell'aziend
-a &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+a  
 \backslash
 
 \backslash
@@ -2888,12 +2612,7 @@ hline
  un 
 \backslash
 uline{Amministratore Sicurezza Autenticato} di accedere all'interfaccia
- per la modifica delle domande di un'azienda &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ per la modifica delle domande di un'azienda  
 \backslash
 
 \backslash
@@ -2935,12 +2654,7 @@ hline
 		Prova dinamica: viene verificato che il sistema offra la possibilità all'
 \backslash
 uline{Amministratore Sicurezza Autenticato} di aggiungere nuove domande
- da sottoporre ai dipendenti da un'apposito database generale &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ da sottoporre ai dipendenti da un'apposito database generale 
 \backslash
 
 \backslash
@@ -2984,12 +2698,7 @@ hline
 uline{Amministratore Sicurezza Autenticato} di eliminare domande dalla lista
  di quelle che possono essere somministrate ai 
 \backslash
-uline{Dipendenti} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Dipendenti} 
 \backslash
 
 \backslash
@@ -3033,12 +2742,7 @@ hline
 uline{Amministratore Sicurezza Autenticato} di poter modificare gli obiettivi
  di 
 \backslash
-uline{Gamification} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Gamification} 
 \backslash
 
 \backslash
@@ -3081,12 +2785,7 @@ hline
  modifica dei badge assegnabili ai dipendenti al raggiungimento di obiettivi
  di 
 \backslash
-uline{Gamification} &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+uline{Gamification} 
 \backslash
 
 \backslash
@@ -3128,12 +2827,7 @@ hline
 		Prova dinamica: viene verificato che il sistema esegua permetta all'
 \backslash
 uline{Amministratore Sicurezza Autenticato} di terminare correttamente la
- propria sessione &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ propria sessione 
 \backslash
 
 \backslash
@@ -3198,7 +2892,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | m{2cm} | }
+begin{longtable}{ | C{2cm} | m{2,5cm} | m{6cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -3218,9 +2912,7 @@ textbf{ Cod.
 textbf{ Cod.
  verifica } & 
 \backslash
-textbf{ Modalità verifica } & 
-\backslash
-textbf{ Stato verifica } 
+textbf{ Modalità verifica } 
 \backslash
 
 \backslash
@@ -3260,12 +2952,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che sia possibile eseguire una corretta
- installazione del sistema in alcuni dispositivi fissi di test &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ installazione del sistema in alcuni dispositivi fissi di test 
 \backslash
 
 \backslash
@@ -3301,12 +2988,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che sia possibile eseguire una corretta
- installazione del sistema in alcuni dispositivi mobili di test &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ installazione del sistema in alcuni dispositivi mobili di test 
 \backslash
 
 \backslash
@@ -3346,12 +3028,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che sia possibile una corretta installazione
- del servizio web in un server test &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ del servizio web in un server test 
 \backslash
 
 \backslash
@@ -3392,12 +3069,7 @@ hline
 
 		Prova dinamica: viene verificato che sia possibile una corretta creazione
  di un database test per garantire il corretto funzionamento del sistema
- &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -3437,12 +3109,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema risponda positivamente
- all'inserimento di una domanda con dati corretti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ all'inserimento di una domanda con dati corretti 
 \backslash
 
 \backslash
@@ -3482,12 +3149,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema negativamente  all'inserimento
- di una domanda con dati non corretti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ di una domanda con dati non corretti  
 \backslash
 
 \backslash
@@ -3527,12 +3189,7 @@ hline
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema risponda positivamente
- alla modifica di una domanda con l'inserimento di dati corretti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ alla modifica di una domanda con l'inserimento di dati corretti 
 \backslash
 
 \backslash
@@ -3572,12 +3229,7 @@ RFOP 35 &
 \begin_layout Plain Layout
 
 		Prova dinamica: viene verificato che il sistema risponda negativamente
- alla modifica di una domanda con l'inserimento di dati non corretti &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ alla modifica di una domanda con l'inserimento di dati non corretti 
 \backslash
 
 \backslash
@@ -3615,12 +3267,7 @@ RFOP 35 &
 		Prova dinamica: viene verificato che il sistema permetta al'
 \backslash
 uline{Amministratore Installatore} di eliminare correttamente una domanda
-  &
-\end_layout
-
-\begin_layout Plain Layout
-
-		Pianificata 
+ 
 \backslash
 
 \backslash
@@ -3710,7 +3357,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{3cm} | m{10cm} | }
+begin{longtable}{ | C{3cm} | m{8cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -4606,7 +4253,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{3cm} | m{10cm} | }
+begin{longtable}{ | C{3cm} | m{8cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -4638,32 +4285,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CDESK1 (login 
-\backslash
-uline{Dipendente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 1.1 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per l'autenticazione, verrà riportato un errore
+ 
 \backslash
 
 \backslash
@@ -4679,37 +4303,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CDESK2 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Notifica nuova domanda secondo i tempi impostati
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Rifiuto o accettazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Apertura browser se viene accettata la domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 1.2 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per l'autenticazione, si otterrà come risposta uno degli
+ output attesi
 \backslash
 
 \backslash
@@ -4725,39 +4321,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Riconoscimento tipologia 
-\backslash
-uline{Utente}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 1.3 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per il recupero della password, verrà riportato un errore
 \backslash
 
 \backslash
@@ -4773,34 +4338,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB2 (gestione dati 
-\backslash
-uline{Utente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione dati 
-\backslash
-uline{Utente} loggato
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 1.4 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per il recupero della password, si otterrà come risposta
+ uno degli output attesi
 \backslash
 
 \backslash
@@ -4816,37 +4356,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB3 (amministrazione utenti) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Inserimento nuovi utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Modifica utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Eliminazione utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.1 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la visualizzazione delle informazioni di un utente,
+ verrà riportato un errore 
 \backslash
 
 \backslash
@@ -4862,37 +4374,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB4 (rispondere ad una domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione esito risposta
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.2 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la visualizzazione delle informazioni di un utente,
+ si otterrà come risposta uno degli output attesi 
 \backslash
 
 \backslash
@@ -4908,24 +4392,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB5 (amministrazione domande) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Inserimento e rimozione delle domande relative ad un'azienda dall'insieme
- delle domande globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.3 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per la creazione di un utente, verrà riportato
+ un errore 
 \backslash
 
 \backslash
@@ -4941,23 +4410,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB6 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione propri punteggi aggiornati
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.4 & Verificare se, all'inserimento di valori corretti all'interno
+ dei campi dati per la creazione di un utente, si otterrà come risposta
+ uno degli output attesi 
 \backslash
 
 \backslash
@@ -4973,23 +4428,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB7 (gestione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione punteggi globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.5 & Verifica che il salvataggio dei dati relativi ad un nuovo
+ utente avvenga correttamente 
 \backslash
 
 \backslash
@@ -5005,30 +4445,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CWEB8 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Notifica nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Rifiuto o accettazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.6 & Verificare se, all'inserimento di valori non consentiti
+ all'interno dei campi dati per la modifica delle informazioni utente, verrà
+ riportato un errore 
 \backslash
 
 \backslash
@@ -5044,30 +4463,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.7 & Verificare se, all'inserimento di valori corretti all'interno
+ dei campi dati per la modifica delle informazioni utente, si otterrà come
+ risposta uno degli output attesi  
 \backslash
 
 \backslash
@@ -5083,34 +4481,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB2 (gestione dati 
-\backslash
-uline{Utente}) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione dati 
-\backslash
-uline{Utente} loggato
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 2.8 & Verifica che il salvataggio dei dati modificati di un utente
+ avvenga correttamente 
 \backslash
 
 \backslash
@@ -5126,37 +4498,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB3 (rispondere nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione della domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Gestione risposta, aggiornamento punteggi
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Visualizzazione esito risposta
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.1 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la creazione delle domande, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -5172,23 +4516,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB4 (visualizzazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				    
-\backslash
-item Visualizzazione punteggi aggiornati
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.2 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la creazione delle domande, si otterrà come risposta
+ uno degli output attesi 
 \backslash
 
 \backslash
@@ -5204,23 +4534,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CMOB5 (notifica nuova domanda) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione nuova domanda
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.3 & Verifica che il salvataggio di una nuova domanda avvenga
+ correttamente 
 \backslash
 
 \backslash
@@ -5236,30 +4551,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK1 (login) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Login tramite username e password
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Recupero password dimenticata
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.4 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la modifica delle domande, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -5275,30 +4569,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK2 (amministrazione utenti) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione dati utenti
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Modifica degli stessi
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.5 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la modifica delle domande, si otterrà come risposta
+ uno degli output attesi  
 \backslash
 
 \backslash
@@ -5314,37 +4587,8 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK3 (gestione domande e risposte) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Inserimento nuove domande
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Modifica domande
-\end_layout
-
-\begin_layout Plain Layout
-
-					
-\backslash
-item Eliminazione domande
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.6 & Verifica che il salvataggio dei dati modificati di una domanda
+ avvenga correttamente  
 \backslash
 
 \backslash
@@ -5360,30 +4604,9 @@ hline
 
 \begin_layout Plain Layout
 
-		CBACK4 (amministrazione punteggi) & 
-\backslash
-begin{itemize}
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Visualizzazione punteggi globali
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-item Inserimento e modifica criteri di attribuzione punteggi e badge
-\end_layout
-
-\begin_layout Plain Layout
-
-				
-\backslash
-end{itemize} 
+		TU-CBACK 3.7 & Verifica se, all'inserimento di valori non consentiti all'intern
+o dei campi dati per la risposta ad una domanda, si otterrà come risposta
+ un errore 
 \backslash
 
 \backslash
@@ -5395,6 +4618,268 @@ end{itemize}
 
 \backslash
 hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 3.8 & Verifica se, all'inserimento di valori corretti all'interno
+ dei campi dati per la risposta ad una domanda, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 3.9 & Verifica che il salvataggio di una risposta ad una domanda
+ avvenga correttamente
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.1 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la visualizzazione dei punteggi, verrà riportato un
+ errore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.2 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la visualizzazione dei punteggi, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.3 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la creazione di nuovi trofei, verrà riportato un errore
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.4 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la creazione di nuovi trofei, si otterrà come risposta
+ uno degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.5 & Verifica se, all'inserimento di dati non consentiti all'interno
+ dei campi dati per la modifica di trofei, verrà riportato un errore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.6 & Verifica se, all'inserimento di dati corretti all'interno
+ dei campi dati per la modifica di trofei, si otterrà come risposta uno
+ degli output attesi 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		TU-CBACK 4.7 & Verifica se si otterrà una risposta corretta ad una richiesta
+ di visualizzazione punteggi.
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -5414,6 +4899,20 @@ end{center}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Descrizione dei Test effettuatis
+\end_layout
+
+\begin_layout Standard
+Di seguito saranno definiti i test di verifica effettuati sulle componenti
+ controller del back-end.
+ I test implementati e descritti relativi alla componente controller sono
+ quindi dei test che cercano di verificare singolarmente il comportamento
+ delle funzioni di una componente, ossia quella specifica alla quale il
+ test fa riferimento.
+ 
 \end_layout
 
 \end_body
