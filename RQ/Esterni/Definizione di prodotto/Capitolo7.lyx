@@ -114,7 +114,11 @@ end{center}
 
 \emph on
 \lang english
-Front-end Mobile, diagramma dei package
+F
+\lang italian
+ront-end Mobile, diagramma dei packag
+\lang english
+e
 \end_layout
 
 \end_inset
@@ -153,7 +157,7 @@ Activity
 \end_inset
 
  e che quindi sono inerenti la grafica dell'applicazione.
- La classe TimenNotifica è parte di questo componente nonostante estenda
+ La classe TimerNotifica è parte di questo componente nonostante estenda
  la classe Java Android 
 \begin_inset Quotes eld
 \end_inset
@@ -176,7 +180,7 @@ Vengono utilizzate funzioni del package Utils.
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
  Nel momento dell'arrivo dei dati Utils notifica View.
 \series bold
@@ -320,7 +324,7 @@ Visualizzazione propri dati
 
 \begin_deeper
 \begin_layout Standard
-Quindi dovranno essere ridefiniti le azioni di pressione dei pulsanti affinchè
+Quindi dovranno essere ridefiniti le azioni di pressione dei pulsanti affinché
  creino gli oggetti deputati all'azione richiesta.
 \end_layout
 
@@ -802,7 +806,7 @@ Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
  inserire username e password, scrivendone al loro interno l'indicazione
  di cosa dovrà essere inserito.
  Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
-; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+; una volta compilati, dovrà interrogare il package mobile.Utils affinché
  comunichi con il Back-End per controllare la correttezza dei dati inseriti.
 \begin_inset Newline newline
 \end_inset
@@ -825,7 +829,7 @@ Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
 
 \begin_layout Standard
 Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
-) e cotrollare che la stringa passata come parametro non sia vuota e che
+) e controllare che la stringa passata come parametro non sia vuota e che
  contenga 
 \emph on
 
@@ -1099,7 +1103,7 @@ Loading.
 
 \begin_layout Standard
 Metodo che recupera dal Back-End la domanda che dovrà essere sottoposta
- al Dipedente.
+ al Dipendente.
 \begin_inset Newline newline
 \end_inset
 
@@ -1122,7 +1126,7 @@ Dovrà inserire all'interno dell'interfaccia grafica il testo della domanda
  e le possibili risposte con a fianco un pulsante che permetterà di selezionarne
  solo una alla volta.
  Inoltre dovrà essere presente un pulsante che permetterà di inviare la
- risposta al Back-end per verificare che questa sia corretta
+ risposta al Back-End per verificare che questa sia corretta
 \end_layout
 
 \begin_layout Standard
@@ -1282,7 +1286,7 @@ Metodo che crea la grafica deputata a mostrare la domanda e a ricevere la
 Dovrà inserire all'interno dell'interfaccia grafica il testo della domanda
  e dovrà integrare un lettore di codici sia QR che a barre.
  Inoltre dovrà essere presente un pulsante che permetterà di inviare la
- risposta al Back-end per verificare che questa sia corretta
+ risposta al Back-End per verificare che questa sia corretta
 \end_layout
 
 \begin_layout Standard
@@ -1544,7 +1548,7 @@ Dovrà inserire all'interno dell'interfaccia grafica i due campi dove poter
  inserire username e password, scrivendone al loro interno l'indicazione
  di cosa dovrà essere inserito.
  Quindi, una volta inseriti, dovrà controllare che i campi siano stati compilati
-; una volta compilati, dovrà interrogare il package mobile.Utils affinchè
+; una volta compilati, dovrà interrogare il package mobile.Utils affinché
  comunichi con il Back-End per controllare la correttezza dei dati inseriti.
 \begin_inset Newline newline
 \end_inset
@@ -1567,7 +1571,7 @@ Metodo che si occupa di segnalare all'utente la correttezza o meno del login,
 
 \begin_layout Standard
 Dovrà rimuovere dalla grafica il pannello creato con la funzione doInBackground(...
-) e cotrollare che la stringa passata come parametro non sia vuota e che
+) e controllare che la stringa passata come parametro non sia vuota e che
  contenga 
 \emph on
 
@@ -1825,11 +1829,11 @@ Loading.
 \end_layout
 
 \begin_layout Standard
-Metodo che interroga il Back-end per recuperare i punteggi del Dipendente.
+Metodo che interroga il Back-End per recuperare i punteggi del Dipendente.
 \end_layout
 
 \begin_layout Standard
-Dovrà mandare una richiesta al Back-end interrogando la pagina deputata
+Dovrà mandare una richiesta al Back-End interrogando la pagina deputata
  a restituire un oggetto di tipo 
 \emph on
 Punteggi
@@ -1860,7 +1864,7 @@ Risposte date
 \end_layout
 
 \begin_layout Itemize
-Risposte corrrette
+Risposte corrette
 \end_layout
 
 \begin_layout Itemize
@@ -2130,14 +2134,14 @@ Vi appartengono le classi che comunicano con le API del server.
 
 Relazione d'uso di altre componenti: 
 \series default
-Comunica con il back-end e quando i dati sono pronti invia notifiche al
+Comunica con il Back-End e quando i dati sono pronti invia notifiche al
  componente View.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
  Viene utilizzato dalla View.
 \series bold
@@ -2227,7 +2231,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-Metodo chiamato all'inzializzazione della classe, dovrà connettere al contatore
+Metodo chiamato all'inizializzazione della classe, dovrà connettere al contatore
  interno al sistema operativo il timer delle notifiche.
 \end_layout
 
@@ -2264,7 +2268,7 @@ front-end
 \series default
 Mobile ed il 
 \bar under
-back-end
+Back-End
 \bar default
 , ricevere dati, effettuare parser e creare gli opportuni oggetti da notificare
  alla View.
@@ -2404,7 +2408,7 @@ Funzione
 
 Classe che aiuta l'integrazione dell'applicazione Safety Game con l'applicazione
  Barcode Scanner.
- Poichè è una libreria esterna, i metodi non sono specificati, ma vengono
+ Poiché è una libreria esterna, i metodi non sono specificati, ma vengono
  solo elencati.
 \end_layout
 
@@ -2828,7 +2832,7 @@ Funzione
 \end_inset
 
 Classe che aiuta a gestire i risultati dello scan del barcode.
- Poichè è una libreria esterna, i metodi non sono specificati, ma vengono
+ Poiché è una libreria esterna, i metodi non sono specificati, ma vengono
  solo elencati.
 \end_layout
 
@@ -2992,7 +2996,7 @@ Relazione d'uso di altre componenti:
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
  
 \series bold
