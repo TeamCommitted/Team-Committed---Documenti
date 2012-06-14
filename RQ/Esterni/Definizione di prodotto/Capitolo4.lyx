@@ -1119,7 +1119,7 @@ Dipendente
 \end_layout
 
 \begin_layout Standard
-Metodo per ottenere i punteggi medi dell'azineda e i punteggi di tutti i
+Metodo per ottenere i punteggi medi dell'azienda e i punteggi di tutti i
  dipendenti
 \end_layout
 
@@ -1303,7 +1303,7 @@ Login
 \emph default
  a partire dai parametri passati e quindi chiamare la funzione della classe
  Façade deputata alla gestione del login.
- Poichè l'uso del front-end mobile e desktop è riservato ai 
+ Poiché l'uso del front-end mobile e desktop è riservato ai 
 \emph on
 Dipendenti
 \emph default

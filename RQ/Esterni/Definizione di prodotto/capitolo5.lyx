@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -99,6 +100,7 @@ status open
 \begin_layout Plain Layout
 
 \emph on
+\lang english
 Front-end Desktop, diagramma dei package
 \end_layout
 
@@ -145,7 +147,7 @@ Package com.safetyGame.desktop.view
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -154,10 +156,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Package 
 \series bold
 com.safetyGame.desktop.view 
@@ -202,7 +206,7 @@ com.safetyGame.desktop.condivisi
 \begin_layout Standard
 
 \series bold
-Interfaccie con e relazioni d'uso da altre componenti: 
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
 viene utilizzato dal package 
 \series bold
@@ -238,7 +242,7 @@ Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -247,10 +251,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Diagramma delle classi
 \end_layout
 
@@ -266,7 +272,7 @@ Diagramma delle classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -274,36 +280,58 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.L
-\series bold
-ogin
+com.safetyGame.desktop.view.Login
 \end_layout
 
 \begin_layout Description
-Funzione
-\end_layout
+Funzione 
+\begin_inset space ~
+\end_inset
 
-\begin_layout Description
 
 \series medium
-Questa classe si occuperà di presentare al 
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
 \series default
+classe si occuperà di presentare al 
 \bar under
 Dipendente 
-\series medium
 \bar default
 un popup che gli permetta di effettuare il login nel sistema
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -354,7 +382,7 @@ actionPerformed(ActionEvent e)
 \begin_layout Standard
 metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
  della grafica
-\lang italian
+\lang english
 
 \begin_inset Newpage newpage
 \end_inset
@@ -363,37 +391,59 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Notifica
+com.safetyGame.desktop.view.Notifica
 \end_layout
 
 \begin_layout Description
-Funzione
-\end_layout
+Funzione 
+\begin_inset space ~
+\end_inset
 
-\begin_layout Description
 
 \series medium
-Questa classe si occuperà di presentare al 
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
 \series default
+classe si occuperà di presentare al 
 \bar under
 Dipendente Autenticato 
-\series medium
 \bar default
 un popup che gli permetta di accettare o posticipare la visualizzazione
  di una domanda
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -448,7 +498,7 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -456,41 +506,63 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Menu
+com.safetyGame.desktop.view.Menu
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe si occuperà di presentare al 
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
 \series default
+classe si occuperà di presentare al 
 \bar under
 Dipendente 
 \bar default
 e al 
 \bar under
 Dipendente Autenticato 
-\series medium
 \bar default
 tutta la serie di menù della System Tray che gli permetteranno di utilizzare
  le varie funzioni previste
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -579,7 +651,7 @@ metodo che dovrà creare la System Tray e creare l'oggetto ControlMenu
 \end_layout
 
 \begin_layout Standard
-metodo che dovrà creare i menu della Sistem Tray
+metodo che dovrà creare i menu della System Tray
 \begin_inset Newline newline
 \end_inset
 
@@ -655,7 +727,7 @@ metodo che dovrà inizializzare l'oggetto grafico Menu, istanziare la connession
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -668,7 +740,7 @@ Package com.safetyGame.desktop.logic
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -677,10 +749,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Package 
 \series bold
 com.safetyGame.desktop.logic 
@@ -733,7 +807,7 @@ Dipendente
 \begin_layout Standard
 
 \series bold
-Interfaccie con e relazioni d'uso da altre componenti: 
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
 viene utilizzato dal package 
 \series bold
@@ -756,7 +830,7 @@ Dipendente
 \bar default
 la corretta scelta di opzioni del menu.
  Gestisce il timer per la notifica della proposta di una nuova domanda e
- gestisce l'interfacciamento con il web per la maggiorparte delle funzioni
+ gestisce l'interfacciamento con il web per la maggior parte delle funzioni
  a disposizione del 
 \bar under
 Dipendente Autenticato
@@ -775,7 +849,7 @@ Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -784,10 +858,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Diagramma delle classi
 \end_layout
 
@@ -803,7 +879,7 @@ Diagramma delle classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -811,31 +887,55 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.ControlL
-\series bold
-ogin
+com.safetyGame.desktop.view.ControlLogin
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe gestirà le informazioni inserite nell'oggetto grafico Login
- e si occuperà di mandare l'autenticazione al Back-end
-\end_layout
-
-\begin_layout Description
-
-\series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe gestirà le informazioni inserite nell'oggetto grafico Login e si
+ occuperà di mandare l'autenticazione al Back-end
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -927,7 +1027,7 @@ metodo che richiamerà il connettore al Back-end e farà recuperare una password
 \bar under
 Dipendente
 \bar default
-\lang italian
+\lang english
 
 \begin_inset Newpage newpage
 \end_inset
@@ -941,27 +1041,53 @@ com.safetyGame.desktop.view.ControlNotifica
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe gestirà le informazioni date dall'oggetto grafico Notifica
- e si occuperà di mandare le corrette informazioni al Back-end eventualmente
- richiamando il web.
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe gestirà le informazioni date dall'oggetto grafico Notifica e si occuperà
+ di mandare le corrette informazioni al Back-end eventualmente richiamando
+ il web.
  Si occuperà inoltre di gestire il timer per sapere quando effettuare il
  popup.
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1054,7 +1180,7 @@ metodo che richiamerà il browser per aprire il Front-end web con la domanda
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1062,31 +1188,54 @@ metodo che richiamerà il browser per aprire il Front-end web con la domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-ControlMenu
+com.safetyGame.desktop.view.ControlMenu
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe si occuperà di gestire tutte le funzionalità che la System
- Tray offre
-\end_layout
-
-\begin_layout Description
-
-\series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di gestire tutte le funzionalità che la System Tray offre
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1244,7 +1393,7 @@ metodo che richiamerà il browser per aprire il Front-end web con la pagina
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1252,32 +1401,56 @@ metodo che richiamerà il browser per aprire il Front-end web con la pagina
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Timer
+com.safetyGame.desktop.view.Timer
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe si occuperà di tenere il tempo per proporre una domanda e
- per abilitare l'opzione di richiedere una domanda.
- Per semplificare estenederà la classe Thread
-\end_layout
-
-\begin_layout Description
-
-\series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di tenere il tempo per proporre una domanda e per abilitare
+ l'opzione di richiedere una domanda.
+ Per semplificare estenderà la classe Thread
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1423,7 +1596,7 @@ metodo che ritorna il tempo con cui è stato inizializzato l'oggetto
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1431,31 +1604,55 @@ metodo che ritorna il tempo con cui è stato inizializzato l'oggetto
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-DatiLogin
+com.safetyGame.desktop.view.DatiLogin
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe wrapper si occupa di ritornare in maniera più semplice e corretta
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe wrapper si occupa di ritornare in maniera più semplice e corretta
  i valori contenuti nella classe desktop.condivisi.Login
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1563,7 +1760,7 @@ metodo che ritorna l'oggetto Login da passare al Back-end
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1571,38 +1768,60 @@ metodo che ritorna l'oggetto Login da passare al Back-end
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Parser
+com.safetyGame.desktop.view.Parser
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe si occuperà di recuperare i dati del server dell'azienda dal
- file di testo dedicato.
- Se il file non esiste, viene creato e viene richiesto all'
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
 \series default
+classe si occuperà di recuperare i dati del server dell'azienda dal file
+ di testo dedicato.
+ Se il file non esiste, viene creato e viene richiesto all'
 \bar under
 Utente
-\series medium
 \bar default
  di inserire un indirizzo 
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1671,7 +1890,7 @@ metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1679,41 +1898,63 @@ metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-ConnBack
+com.safetyGame.desktop.view.ConnBack
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-Questa classe si occuperà di presentare al 
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
 \series default
+classe si occuperà di presentare al 
 \bar under
 Dipendente 
 \bar default
 e al 
 \bar under
 Dipendente Autenticato 
-\series medium
 \bar default
 tutta la serie di menù della System Tray che gli permetteranno di utilizzare
  le varie funzioni previste
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -1855,7 +2096,7 @@ metodo che chiamerà la funzione recupero password del
 Dipendente
 \bar default
  del Back-end
-\lang italian
+\lang english
 
 \begin_inset Newpage newpage
 \end_inset
@@ -1869,7 +2110,7 @@ Package com.safetyGame.desktop.condivisi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -1878,10 +2119,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Package 
 \series bold
 com.safetyGame.desktop.condivisi 
@@ -1923,7 +2166,7 @@ non utilizza alcuna altra classe.
 \begin_layout Standard
 
 \series bold
-Interfaccie con e relazioni d'uso da altre componenti: 
+Interfacce con e relazioni d'uso da altre componenti: 
 \series default
 viene utilizzato dal package 
 \series bold
@@ -1951,7 +2194,7 @@ Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -1960,10 +2203,12 @@ status open
 
 \begin_layout Plain Layout
 
-\lang italian
+\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
+
+\lang english
 Diagramma delle classi
 \end_layout
 
@@ -1979,7 +2224,7 @@ Diagramma delle classi
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1987,35 +2232,59 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.L
-\series bold
-ogin
+com.safetyGame.desktop.view.Login
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-La funzione di questa classe è identica a quella della classe contenuta
- in 
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La 
+\series default
+funzione di questa classe è identica a quella della classe contenuta in
+ 
 \series bold
 com.safetyGame.back.condivisi.Login
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -2038,29 +2307,28 @@ Attributi
 \begin_layout Description
 
 \series medium
-Tutti gli attributi di questa classe sono identici a quelli della classe
- contenuta in 
-\series bold
-com.safetyGame.back.condivisi.Login
-\series medium
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Tutti i metodi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Login
-\series medium
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
+Tutti 
 \series default
-\lang italian
+gli attributi di questa classe sono identici a quelli della classe contenuta
+ in 
+\series bold
+com.safetyGame.back.condivisi.Login
+\series default
+, per ogni dubbio si faccia riferimento alla documentazione di quella classe
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+Tutti i metodi di questa classe sono identici a quelli della classe contenuta
+ in 
+\series bold
+com.safetyGame.back.condivisi.Login
+\series default
+, per ogni dubbio si faccia riferimento alla documentazione di quella classe
+\lang english
 
 \begin_inset Newpage newpage
 \end_inset
@@ -2069,35 +2337,59 @@ com.safetyGame.back.condivisi.Login
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Domanda
+com.safetyGame.desktop.view.Domanda
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-La funzione di questa classe è identica a quella della classe contenuta
- in 
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La 
+\series default
+funzione di questa classe è identica a quella della classe contenuta in
+ 
 \series bold
 com.safetyGame.back.condivisi.Domanda
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -2114,11 +2406,13 @@ Attributi
 \begin_layout Description
 
 \series medium
-Tutti gli attributi di questa classe sono identici a quelli della classe
- contenuta in 
+Tutti 
+\series default
+gli attributi di questa classe sono identici a quelli della classe contenuta
+ in 
 \series bold
 com.safetyGame.back.condivisi.Domanda
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
@@ -2127,19 +2421,17 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-
-\series medium
 Tutti i metodi di questa classe sono identici a quelli della classe contenuta
  in 
 \series bold
 com.safetyGame.back.condivisi.Domanda
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Standard
 
-\lang italian
+\lang english
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2147,35 +2439,59 @@ com.safetyGame.back.condivisi.Domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.
-\series bold
-Pnuteggio
+com.safetyGame.desktop.view.Punteggio
 \end_layout
 
 \begin_layout Description
 Funzione
-\end_layout
-
-\begin_layout Description
-
 \series medium
-La funzione di questa classe è identica a quella della classe contenuta
- in 
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La 
+\series default
+funzione di questa classe è identica a quella della classe contenuta in
+ 
 \series bold
 com.safetyGame.back.condivisi.Punteggio
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Description
-
+Relazioni
 \series bold
-Relazioni d'uso con altri moduli
-\begin_inset Newline newline
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
 \end_inset
 
 
-\series medium
+\begin_inset Newline newline
+\end_inset
+
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
@@ -2192,11 +2508,13 @@ Attributi
 \begin_layout Description
 
 \series medium
-Tutti gli attributi di questa classe sono identici a quelli della classe
- contenuta in 
+Tutti 
+\series default
+gli attributi di questa classe sono identici a quelli della classe contenuta
+ in 
 \series bold
 com.safetyGame.back.condivisi.Punteggio
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
@@ -2205,13 +2523,11 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-
-\series medium
 Tutti i metodi di questa classe sono identici a quelli della classe contenuta
  in 
 \series bold
 com.safetyGame.back.condivisi.Punteggio
-\series medium
+\series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 

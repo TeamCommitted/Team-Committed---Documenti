@@ -194,7 +194,7 @@ Vengono utilizzate funzioni del package com.safetyGame.connection.
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
  In alcuni casi le informazioni vengono trasmesse ad altre pagine che fanno
- parte del package com.safetyGame.frontWeb.control.
+ parte del package com.safetyGame.frontWeb.control
 \series bold
 
 \begin_inset Newline newline
