@@ -382,13 +382,41 @@ moduli
 \begin_inset Newline newline
 \end_inset
 
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.PunteggiActivity
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DomandaActivity
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
 Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.LoginActivity
 \end_layout
 
 \begin_layout Subsection*
 
 \series bold
-Attributi:
+Attributi
 \end_layout
 
 \begin_layout Standard
@@ -724,6 +752,22 @@ Questa classe utilizzerà le seguenti classi:
 mobile.Utils.ConnectionUtils
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
+Inoltre verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DatiActivity
+\end_layout
+
 \begin_layout Subsection*
 
 \series bold
@@ -910,6 +954,14 @@ moduli
 \end_inset
 
 Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+mobile.View.DashboardActivity
+\end_layout
+
+\begin_layout Itemize
+mobile.Utils.TimerNotifica
 \end_layout
 
 \begin_layout Subsection*
@@ -1344,6 +1396,16 @@ moduli
 \begin_inset Newline newline
 \end_inset
 
+Questa classe verrà utilizzata da:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Standard
 Questa classe utilizzerà le seguenti classi:
 \end_layout
 
@@ -1361,6 +1423,24 @@ mobile.View.DomandaActivity.LoginTask
 
 \family typewriter
 mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DashboardActivity
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.RecuperoPasswordActivity
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Condivisi.Login
 \end_layout
 
 \begin_layout Subsection*
@@ -1457,6 +1537,16 @@ moduli
 \begin_inset Newline newline
 \end_inset
 
+La classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.LoginActivity
+\end_layout
+
+\begin_layout Standard
 Questa classe utilizzerà le seguenti classi:
 \end_layout
 
@@ -1651,7 +1741,35 @@ moduli
 \begin_inset Newline newline
 \end_inset
 
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.condivisi.Punteggio
+\end_layout
+
+\begin_layout Standard
 Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.Dashboard
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
 \end_layout
 
 \begin_layout Subsection*

@@ -308,10 +308,14 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
@@ -320,11 +324,7 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-- 
-\series default
-non sono stati ancora previsti degli attributi
+Non sono stati ancora previsti degli attributi
 \end_layout
 
 \begin_layout Subsection*
@@ -339,6 +339,10 @@ Login()
 
 \begin_layout Standard
 costruttore che dovrà inizializzare gli attributi
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -394,10 +398,14 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlNotifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
@@ -406,10 +414,6 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-- 
-\series default
 non sono stati ancora previsti degli attributi
 \end_layout
 
@@ -425,6 +429,10 @@ Notifica()
 
 \begin_layout Standard
 costruttore che dovrà inizializzare gli attributi
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -487,18 +495,26 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlNotifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.Timer
 \end_layout
 
@@ -517,7 +533,11 @@ boolean loggato
 \begin_inset Newline newline
 \end_inset
 
--ControlMenu control
+
+\begin_inset Newline newline
+\end_inset
+
+- ControlMenu control
 \end_layout
 
 \begin_layout Subsection*
@@ -535,6 +555,10 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 creaIcon()
@@ -546,12 +570,20 @@ metodo che dovrà creare la System Tray e creare l'oggetto ControlMenu
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
 \series bold
 -creaMenu()
 \end_layout
 
 \begin_layout Standard
 metodo che dovrà creare i menu della Sistem Tray
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -566,6 +598,10 @@ metodo che dovrà ricreare un oggetto grafico Login e chiedere l'autenticazione
 \bar under
 Dipendente
 \bar default
+
+\begin_inset Newline newline
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
@@ -587,6 +623,10 @@ Dipendente
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
 \bar default
 +
 \series bold
@@ -595,6 +635,10 @@ actionPerformed(ActionEvent e)
 
 \begin_layout Standard
 metodo che dovrà gestire i click sulle varie opzioni del menu
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -796,18 +840,26 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Login
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
@@ -819,6 +871,10 @@ Attributi
 
 \series bold
 - String testo
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -841,6 +897,10 @@ costruttore che dovrà inizializzare gli attributi con i parametri passati
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 tryLogin(String username, String password)
@@ -849,6 +909,10 @@ tryLogin(String username, String password)
 \begin_layout Standard
 metodo che richiamerà il connettore al Back-end e gli farà effettuare il
  login
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -902,18 +966,26 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Notifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.Timer
 \end_layout
 
@@ -925,6 +997,10 @@ Attributi
 
 \series bold
 - String testo
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -947,6 +1023,10 @@ costruttore che dovrà inizializzare gli attributi con i parametri passati
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 posticipa()
@@ -955,6 +1035,10 @@ posticipa()
 \begin_layout Standard
 metodo che richiamerà il connettore al Back-end e gli farà posticipare la
  domanda
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1007,30 +1091,44 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Menu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Notifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlNotifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.Timer
 \end_layout
 
@@ -1038,7 +1136,7 @@ desktop.logic.Timer
 Attributi
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
 
 \series bold
 -ConnBack connessione
@@ -1059,6 +1157,10 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 logout(String username)
@@ -1075,12 +1177,20 @@ Dipendente
 
 
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 +richiediDomanda()
 \end_layout
 
 \begin_layout Standard
 metodo che richiamerà il browser per aprire il Front-end web con la domanda
  richiesta, sempre se il controllo sul timer è corretto
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1099,6 +1209,10 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 visualizzaDati()
@@ -1109,6 +1223,10 @@ metodo che richiamerà il browser per aprire il Front-end web con i dati
  personali del 
 \bar under
 Dipendente
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1164,18 +1282,26 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Menu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlNotifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
@@ -1194,6 +1320,10 @@ Attributi
 
 
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 - boolean cambiato
 \series default
 
@@ -1202,6 +1332,10 @@ Attributi
 
 
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
 - boolean finito
 \end_layout
 
@@ -1217,6 +1351,10 @@ Timer(int t)
 
 \begin_layout Standard
 costruttore che dovrà inizializzare il tempo in millisecondi
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1241,6 +1379,10 @@ prossimo giro
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 setTempo(int t)
@@ -1252,6 +1394,10 @@ metodo che permette di resettare il tempo dell'oggetto, così da evitare
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 getFinito()
@@ -1259,6 +1405,10 @@ getFinito()
 
 \begin_layout Standard
 metodo che ritorna lo stato del termine di un ciclo di attesa
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1310,26 +1460,38 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.condivisi.Login
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Menu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.view.Login
 \end_layout
 
@@ -1358,6 +1520,10 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 getUsername()
@@ -1368,6 +1534,10 @@ metodo che ritorna lo username
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 getPassword()
@@ -1375,6 +1545,10 @@ getPassword()
 
 \begin_layout Standard
 metodo che ritorna la password
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1433,6 +1607,8 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
@@ -1443,9 +1619,9 @@ Attributi
 \begin_layout Standard
 
 \series bold
--
+N
 \series default
- non sono stati ancora previsti degli attributi
+on sono stati ancora previsti degli attributi
 \end_layout
 
 \begin_layout Subsection*
@@ -1464,6 +1640,10 @@ costruttore che dovrà inizializzare gli attributi e provare ad aprire il
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 leggi()
@@ -1472,6 +1652,10 @@ leggi()
 \begin_layout Standard
 metodo che servirà a leggere la stringa contenente l'indirizzo del database
  dell'azienda
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1534,38 +1718,56 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlNotifica
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ControlLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.Timer
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.Parser
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.condivisi.Login
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.condivisi.Domanda
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.condivisi.Punteggio
 \end_layout
 
@@ -1574,11 +1776,7 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-
-\series bold
--
-\series default
- non sono stati ancora previsti degli attributi
+Non sono stati ancora previsti degli attributi
 \end_layout
 
 \begin_layout Subsection*
@@ -1596,6 +1794,10 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 login(String username, String password)
@@ -1606,6 +1808,10 @@ metodo che chiamerà la funzione login del Back-end
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 logout(String username)
@@ -1613,6 +1819,10 @@ logout(String username)
 
 \begin_layout Standard
 metodo che chiamerà la funzione logout del Back-end
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1630,6 +1840,10 @@ metodo che chiamerà la funzione posticipa del Back-end
 
 
 \bar default
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 recupera(String username)
@@ -1806,10 +2020,14 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.DatiLogin
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
@@ -1884,6 +2102,8 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
@@ -1960,6 +2180,8 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 desktop.logic.ConnBack
 \end_layout
 
