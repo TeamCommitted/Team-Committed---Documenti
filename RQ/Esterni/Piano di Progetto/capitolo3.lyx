@@ -1142,14 +1142,14 @@ Progettazione Architetturale
 Progettazione di Dettaglio e Codifica
 \emph default
 .
- Di conseguenza vi sarà un periodo di tempo, che va dal 2012/03/07 al giorno
- di scadenza della Revisione di Accettazione (il giorno 2012/04/07, con
+ Di conseguenza vi sarà un periodo di tempo, che va dal 2012/06/21 al giorno
+ di scadenza della Revisione di Accettazione (il giorno 2012/07/23, con
  possibilità di posticipare la consegna), in cui la fase di 
 \emph on
 Verifica e Validazione
 \emph default
  non si sovrapporrà ad altre fasi.
- Di conseguenza è opportuno pianificare le attività relative a questa fase
+ Di conseguenza è opportuno pianificare le attività relative a questo periodo
  ed esterne alle altre, distinguendo due periodi:
 \end_layout
 
@@ -1200,9 +1200,7 @@ name "fig:Diagramma-di-Gantt-RA"
 
 \end_inset
 
-Diagramma di Gantt per la fase di 
-\emph on
-Verifica e Validazione
+Diagramma di Gantt
 \end_layout
 
 \end_inset
@@ -1253,9 +1251,7 @@ name "tab:Dettaglio-delle-ore-RA"
 
 \end_inset
 
-Dettaglio delle ore per ruolo nella fase di 
-\emph on
-Verifica e Validazione
+Dettaglio delle ore per ruolo
 \end_layout
 
 \end_inset
@@ -1300,9 +1296,7 @@ name "tab:Riassuntivo-delle-ore-RA"
 
 \end_inset
 
-Riassuntivo delle ore per ruolo e relativo costo nella fase di 
-\emph on
-Verifica e Validazione
+Riassuntivo delle ore per ruolo e relativo costo
 \end_layout
 
 \end_inset
@@ -1359,9 +1353,7 @@ name "tab:Ripartizione-dei-ruoli-RA"
 
 \end_inset
 
-Ripartizione dei ruoli fra i membri del gruppo nella fase di 
-\emph on
-Verifica e Validazione
+Ripartizione dei ruoli fra i membri del gruppo
 \end_layout
 
 \end_inset

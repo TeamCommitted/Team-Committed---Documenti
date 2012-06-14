@@ -544,5 +544,364 @@ Progettazione di Dettaglio e Codifica
 .
 \end_layout
 
+\begin_layout Subsection
+Consuntivo Progettazione di Dettaglio e Codifica
+\end_layout
+
+\begin_layout Standard
+La fase di Progettazione di Dettaglio e Codifica si sarebbe dovuta concludere
+ il giorno 2012/03/01 in modo da permettere di consegnare il materiale prodotto
+ in questa fase alla Revisione di Qualifica.
+ Tuttavia ciò non è stato possibile per diversi motivi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Apprendimento delle nuove tecnologie:
+\series default
+ mentre per la progettazione di dettaglio non è stato necessario apprendere
+ nessun nuovo strumento, la codifica ha portato ad un ingente aumento dei
+ tempi a causa delle tecnologie adottate.
+ Per la realizzazione del back-end è stato necessario approfondire le conoscenze
+ Java di ciascuno di noi, in particolare per quanto riguarda l'applicazione
+ dei design patterns scelti nella fase di progettazione.
+ Per quanto riguarda la realizzazione del front-end web abbiamo dovuto apprender
+e completamente la tecnologia jsp, la quale ha causato a sua volta ingenti
+ ritardi nell'integrazione del codice java prodotto per il back-end.
+ Oltretutto abbiamo riscontrato dei problemi sia nell'utilizzo di server
+ fisici per l'esecuzione del codice server-side, sia nell'utilizzo di server
+ emulati con esecuzione in locale.
+ Infine, vi sono stati dei ritardi anche a causa dell'integrazione fra java
+ e database SQL.
+ 
+\begin_inset Newline newline
+\end_inset
+
+In generale le difficoltà incontrate nell'approfondimento delle nostre conoscenz
+e sono dovute in minima parte alla nostra capacità di autoapprendimento,
+ in maggior parte all'errata valutazione della complessità delle tecnologie
+ e soprattutto della loro interazione.
+ Tutto ciò ha portato ad un ritardo complessivo di circa 4 settimane.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Difficoltà ed impedimenti dovuti agli impegni universitari concorrenti:
+\series default
+ erroneamente non era stata presa in considerazione l'eventualità che i
+ corsi universitari svolti in concomitanza al progetto potessero variare
+ la propria natura e quindi la quantità di tempo necessaria al loro corretto
+ svolgimento.
+ In particolare, il corso di Gestione di Imprese Informatiche ha richiesto
+ un impegno extracurricolare maggiore di quanto ci aspettassimo, richiedendo
+ lo svolgimento di un ulteriore progetto obbligatorio.
+ Inoltre, nello stesso periodo è stato svolto il corso di Tecnologie Web,
+ altrettanto impegnativo in termini di tempo, e decisamente interessante
+ ed estremamente inerente al corso di studi.
+ Ciascuno di noi ha preferito svolgere le attività di studio inerenti a
+ questi corsi parallelamente alle ore di svolgimento delle lezioni degli
+ stessi.
+ Questo ha permesso un maggior controllo sulla quantità e qualità del lavoro
+ per entrambe le discipline.
+ Tuttavia ciò ha inevitabilemente portato ad un ritardo di 9 - 10 settimane
+ nello sviluppo del materiale, costringendo il gruppo a posticipare la consegna
+ dello stesso per la Revisione di Qualifica per ben due volte.
+ 
+\end_layout
+
+\begin_layout Standard
+Riassumendo, i ritardi dovuti all'insorgere di questi problemi hanno portato
+ ad un ritardo molto significativo nella consegna del materiale, di circa
+ 13 settimane.
+ Tuttavia il lavoro preventivato è stato svolto come previsto, ovvero rispettand
+o la quantità di ore cadauno, la turnazione dei ruoli e soprattutto l'ordine
+ di esecuzione dei singoli compiti come descritto nel diagramma di Gantt
+ realizzato per la fase di Progettazione di Dettaglio e Codifica (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-Gantt-RQ-1"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Img/Gantt-RQ.eps
+	scale 45
+	rotateAngle 270
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-Gantt-RQ-1"
+
+\end_inset
+
+Diagramma di Gantt per la fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La realizzazione di un nuovo diagramma di Gantt per questo consuntivo risulta
+ molto difficoltosa, in quanto ci è quasi impossibile ricostruire il corretto
+ svolgimento dei vari compiti lungo l'ultimo periodo.
+ Ad esempio, lo svolgimento della Progettazione (task PDC 2) è stato portato
+ a termine correttamente, nel periodo di tempo previsto.
+ La parte di Codifica (PDC 4) invece ha richiesto diverso tempo per l'apprendime
+nto delle nuove tecnologie, causando il primo spostamento.
+ Questo ha fatto scalare l'intero programma di diverse settimane, portando
+ il lavoro successivo ad essere svolto in parallelo agli altri corsi di
+ studi, con le conseguene descritte precedentemente.
+ Il nuovo diagramma di Gantt, dunque, sarebbe il medesimo in termini di
+ rapporto fra i vari compiti, con l'unica differenza di venire estremamente
+ dilatato nell'arco di tre mesi, diventando quindi di difficile lettura
+ e comprensione (la dilatazione della fase di Codifica risulterebbe estremamente
+ sproporzionata rispetto alle fasi precedenti e successive, rendendo in
+ parte errato il diagramma stesso).
+\end_layout
+
+\begin_layout Subsubsection
+Consuntivo delle ore di lavoro
+\end_layout
+
+\begin_layout Standard
+Nonostante i notevoli ritardi facciano pensare diversamente, le ore di lavoro
+ non sono state modificate eccessivamente.
+ A seguire una tabella rissuntiva che riporta le ore in eccesso (+) e quelle
+ in difetto (-) rispetto a quanto preventivato.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Img/Consuntivo PDC/oreruolo-PDC.eps
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabella-ore-consuntivo-pdc"
+
+\end_inset
+
+Consuntivo delle ore per ruolo nella fase di
+\emph on
+ Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analizzando la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tabella-ore-consuntivo-pdc"
+
+\end_inset
+
+ possiamo vedere come ci sia stato un risparmio di tempo da parte di Progettisti
+ e Verificatori nella fase di progettazione.
+ Questo è dovuto in massima parte ad una previsione pessimistica fatta in
+ precedenza.
+ 
+\end_layout
+
+\begin_layout Standard
+Tuttavia, la fase di Codifica ha richiesto molto più tempo di quanto previsto.
+ L'aumento delle ore fortunatamente è pari a quanti risparmiato nella fase
+ di Progettazione, ma la previsione ottimistica dei tempi e delle difficoltà
+ nella codifica ha portato ad un aumento delle ore da parte dei Programmatori
+ (e in minima parte anche da Verificatori e Responsabile) che ha portato
+ anche ad un aumento dei costi (come vedremo nel paragrafo 5.2.2).
+\end_layout
+
+\begin_layout Subsubsection
+Consuntivo dei costi di lavoro
+\end_layout
+
+\begin_layout Standard
+A seguire, il consuntivo dei costi di lavoro.
+ I costi in eccesso (+) o in difetto (-) rispetto a quanto preventivato
+ saranno segnalati fra parentesi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Img/Consuntivo PDC/oreruolosomm-PDC.eps
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabella-costi-consuntivo-pdc"
+
+\end_inset
+
+Consuntivo delle ore per ruolo e relativo costo nella fase di 
+\emph on
+Progettazione di Dettaglio e Codifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come si può vedere, i costi relativi ai ruoli di Verificatore e Analista
+ sono diminuiti a fronte di un aumento dei costi per i Programmatori e per
+ il Responsabile.
+ Il totale è aumentato a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+6992,00, con un aumento di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+10 rispetto a quanto preventivato.
+ Tuttavia, il risparmio di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+30 consuntivato al termine della fase di Progettazione Architetturale mantiene
+ i costi totali ancora inferiori a quanto preventivato.
+\end_layout
+
+\begin_layout Subsubsection
+Analisi del consuntivo
+\end_layout
+
+\begin_layout Standard
+Il consuntivo dei costi per la fase di Progettazione di Dettaglio e Codifica
+ riporta un leggero aumento dei costi.
+ Fortunatamente il risparmio ricavato nella fase di Progettazione Architetturale
+ ci permette comunque di non superare il preventivo, permettendoci dunque
+ di affrontare l'ultima fase senza obblighi di ridurre i costi in altri
+ modi e di attenerci a quanto preventivato.
+ 
+\end_layout
+
+\begin_layout Standard
+Il onsuntivo delle ore di lavoro mostra un discreto risparmio di tempo per
+ quanto riguarda la fase di Progettazione.
+ Questo è probabilmente dovuto non tanto ad una accurata progettazione fatta
+ nella fase di Progettazione Architetturale quanto ad una buona comprensione
+ degli errori e delle problematiche insorti, la quale ci ha portato a lavorare
+ in maniera più produttiva in questa fase.
+ 
+\end_layout
+
+\begin_layout Standard
+Diverso è il discorso per quanto riguarda la fase di Codifica.
+ Questa fase ha subito un aumento considerevole delle ore di lavoro (10
+ in più di quanto preventivato, per un aumento del 10% circa), e oltretutto
+ non siamo riusciti a raggiungere il livello di copertura del codice desiderato.
+ Questo fattore è di gran lunga il più preoccupante, in quanto nella fase
+ successiva dovremo probabilmente far fronte ad un ulteriore aumento dei
+ tempi di lavoro e della quantità di lavoro, il che porterebbe ad un aumento
+ significativo dei costi finali (il quale, eventualmente, non sarà rendicontato).
+ Se l'aumento dei tempi di lavoro (10%) è un dato affidabile, ci aspettiamo
+ un aumento pari per quanto riguarda i tempi di codifica per la fase successiva,
+ al quale si dovrà sommare il tempo necessario per codificare ciò che non
+ si è riuscito a terminare in questa fase.
+\end_layout
+
 \end_body
 \end_document
