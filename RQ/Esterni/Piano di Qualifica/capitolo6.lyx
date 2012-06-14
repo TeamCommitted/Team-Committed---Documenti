@@ -4915,5 +4915,160 @@ Di seguito saranno definiti i test di verifica effettuati sulle componenti
  
 \end_layout
 
+\begin_layout Subsubsection*
+testRegistrazioneLog(Login l, Domanda d, Dipendente d, Badge b):
+\end_layout
+
+\begin_layout Standard
+Funzione di test creata per verificare la corretta esecuzione delle funzioni
+ scriviLogin(), scriviLogout(), scriviDomRic(), scriviDomProp(), scriviDomRisp()
+, scriviModPassD(), scriviModEmailD(), scriviOttenimentoBadge(), della component
+e GestioneLog.
+ Come precondizione al test si assume che siano stati inseriti dati corretti
+ secondo la tipologia di input di ogni specifica funzione.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Input:
+\series default
+ Sono forniti in input oggetti di tipo Login, Domanda, Dipendente, Badge
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Nonostante le varie funzioni abbiano input file di diverso tipo svolgono
+ comunque funzioni molto simili e l'interazione con i vari file di log è
+ la medesima.
+ Come prima cosa verrà stabilità la data ed ora in cui viene eseguita la
+ specifica operazione creando un oggetto di tipo DataOra; il secondo passo
+ consiste nel creare il percorso del file log da scrivere; creo poi la stringa
+ che dovrà essere aggiunta al file di log inserendo i vari dati passati
+ in input alla funzione; infine effettuerò l'operazione di login tramite
+ la funzione scriviChiudi(), passando in input l'oggetto stringa precedentemente
+ creato
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato atteso:
+\series default
+ Le varie funzioni devono essere in grado di scrivere all'interno degli
+ specifici file di log i dati che sono stati passati in input
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato conseguito:
+\series default
+ Il test ha riscontrato che le tutte le funzioni di scrittura sui file di
+ log hanno avuto esito positivo
+\end_layout
+
+\begin_layout Subsubsection*
+testPassCasuale() 
+\end_layout
+
+\begin_layout Standard
+Funzione di test creata per verificare la corretta esecuzione della funzione
+ generaPassCasuale() della componente GestioneRecupero.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Input:
+\series default
+ nessuno 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ La funzione andrà a richiamare, su di un oggetto di tipo GestioneRecupero,
+ il metodo generaPassCasuale() .
+ Tale metodo andrà a scegliere casualmente 16 caratteri tra array di lettere,
+ numeri e caratteri speciali, componendo così la nuova password
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato atteso:
+\series default
+ La funzione deve essere in grado di generare una password casuale e restituire
+ tale valore 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato conseguito:
+\series default
+ Il test ha riscontrato che la funzione di generazione password casuale
+ ha creato correttamente la stringa e quindi l'esito è positivo
+\end_layout
+
+\begin_layout Subsubsection*
+testMail(string i)
+\end_layout
+
+\begin_layout Standard
+Funzione di test creata per verificare la corretta esecuzione della funzione
+ sendMail().
+ Come precondizione al test si assume che sia stato inserito un corretto
+ indirizzo di posta elettronica.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Input:
+\series default
+ è fornito in input un indirizzo di posta elettronica che deve essere corretto
+ e registrato all'interno del sistema SafetyGame
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ La funzione andrà a richiamare, su di un oggetto di tipo GestioneRecupero,
+ il metodo sendMail().
+ Tale metodo definirà innanzitutto una connessione con il server mail grazie
+ al quale inviare il messaggio di recupero password all'utente.
+ Una volta eseguito tale passaggio, il metodo creerà il testo della mail
+ ed eseguirà infine l'invio di quest'ultima.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato atteso:
+\series default
+ La funzione deve essere in grado di inviare all'indirizzo mail indicato
+ un messaggio contenente la nuova password richiesta dall'utente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Risultato ottenuto:
+\series default
+ La funzione è stata in grado di inviare una mail contenente una nuova password
+ all'indirizzo di posta indicato, quindi il test ha avuto esito positivo.
+\end_layout
+
 \end_body
 \end_document
