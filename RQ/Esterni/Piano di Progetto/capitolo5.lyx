@@ -743,7 +743,7 @@ Consuntivo delle ore per ruolo nella fase di
 \end_layout
 
 \begin_layout Standard
-Analizzando la 
+Analizzando la tabella
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Tabella-ore-consuntivo-pdc"
