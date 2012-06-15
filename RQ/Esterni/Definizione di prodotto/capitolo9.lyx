@@ -489,9 +489,112 @@ Diagramma di sequenza relativo alla modifica di un utente da parte di un
 \end_layout
 
 \begin_layout Itemize
-asd
+L'
+\emph on
+Amministratore Azienda
+\emph default
+ modificherà i dati di un 
+\emph on
+Dipendente
+\emph default
+ all'interno della pagina 
+\series bold
+admin_page.jsp
+\series default
+.
+ Quest'ultima creerà due oggetti di tipo 
+\series bold
+Dipendente
+\series default
+: uno contenente i vecchi dati del 
+\emph on
+Dipedente
+\emph default
+ in questione e uno con i dati modificati dall'
+\emph on
+Amministratore Azienda
+\emph default
+, quindi chiederà alla classe 
+\series bold
+Inizializzatore 
+\series default
+il puntatore alla classe 
+\series bold
+WebConnection
+\series default
+, sulla quale invocherà il metodo 
+\series bold
+modDipendente
 \end_layout
 
+\begin_layout Itemize
+
+\series bold
+WebConnection
+\series default
+ dovrà invocare il metodo 
+\series bold
+modDipendente
+\series default
+ sulla classe 
+\series bold
+GestioneDipendenteAA
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneDipendenteAA 
+\series default
+dovrà controllare quali sono i campi dati che sono stati modificati e, per
+ ognuno di essi, dovrà:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Invocare il metodo di modifica opportuno della classe 
+\series bold
+DAODipendenti
+\series default
+, il quale chiamerà il metodo 
+\series bold
+modificaRiga
+\series default
+ della classe 
+\series bold
+Indirizzo
+\end_layout
+
+\begin_layout Itemize
+Scrivere nel file di log opportuno la modifica tramite l'invocazione del
+ metodo 
+\series bold
+scriviMod<XXX>AA
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+<XXX>=nome del campo dato modificato
+\end_layout
+
+\end_inset
+
+
+\series default
+ della classe 
+\series bold
+GestioneLog
+\series default
+, il quale invocherà il metodo 
+\series bold
+scriviChiudi
+\series default
+ della classe 
+\series bold
+UpdateLog
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 
 \series bold
