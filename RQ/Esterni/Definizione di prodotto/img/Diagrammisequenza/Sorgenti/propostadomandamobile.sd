@@ -1,53 +1,47 @@
-DT:DomandaTask[a]
-Domanda:API.Domanda[a]
-init:Inizializzatore[a]
-appC:ApplicazioniConnection [a]
-/l:Login[a]
-dati:GestioneDati[a]
-gestioneLogin:GestioneLogin[a]
-access:DAOLogin[a]
-serverAzienda:Indirizzo[a]
-log:GestioneLog[a]
-/dataOra:DataOra[xa]
-/updateLog:UpdateLog[ax]
-gestioneDomandeD:GestioneDomande[a]
-daoDipendenti:DAODipendenti[a]
-daoDomande:DAODomande[a]
-/dataOra2:DataOra[ax] "dataOra:DataOra"
-/updateLog2:UpdateLog[ax] "updateLog:UpdateLog"
+iniz:Inizializzatore[a]
+/indirizzoAz:Indirizzo
+/indirizzoDom:Indirizzo
+/daoDipendenti:SqlDAODipendenti
+/daoPunteggi:SqlDAOPunteggi
+/daoLogin:SqlDAOLogin
+/updateLog:UpdateLog
+/daoDomande:SqlDAODomande
+/daoBadge:SqlDAOBadge
+/gestioneRecupero:GestioneRecupero
+/gestionePunteggiD:GestionePunteggiD
+/gestionePunteggiAA:GestionePunteggiAA
+/gestioneLog:GestioneLog
+/gestioneLogin:GestioneLogin
+/gestioneBadgeD:GestioneBadgeD
+/gestioneDomandeD:GestioneDomandeD
+/gestioneDomandeAS:GestioneDomandeAS
+/gestioneDipendentiD:GestioneDipendentiD
+/gestioneDipendentiAA:GestioneDipendentiAA
+/gestioneBadgeAS:GestioneBadgeAS
+/gestioneDati:GestioneDati
+/webConnection:WebConnection
+/appConnection:ApplicazioniConnection
 
-DT:Domanda.HttpCreateClient(<ADDRESS>, nameValuePairs)
-Domanda:init.getWebConnection()
-Domanda:appC.Login(user, passw)
-appC:l.new(user,pass)
-appC:result=dati.loginUser(l)
-dati:result=gestioneLogin.loginUser(login)
-gestioneLogin:result=access.loginDipendente(login)
-access:rs=serverAzienda.selezione(<QUERY>,"")
-[c:opt rs == true]
-	access:log.scriviLogin(login)
-	log:dataOra.new()
-	log:updateLog.new("/"+l.getUsername(),this.percorso)
-	log:dataOra.toString()
-	log:updateLog.scriviChiudi(log)
-[/c]
-[c:opt l:Login != null]
-	Domanda:appC.mostraDomanda(l)
-	appC:dati.getDomandaD(l)
-	dati:gestioneDomandeD.getDomandaD(l)
-	gestioneDomandeD:dip=daoDipendenti.getInfoD(l)
-	[c:opt dip != null]
-		gestioneDomandeD:ritorno=daoDomande.getDomanda(dip)
-		[c:opt ritorno != null]
-			gestioneDomandeD:controllo=daoDomande.scriviSottoposta(dip, ritorno)
-			[c:opt] controllo == true]
-				gestioneDomandeD:log.scriviDomRic(l,ritorno)
-				log:dataOra2.new()
-				log:updateLog2.new()
-				log:dataOra2.toString()
-				log:updateLog2.scriviChiudi(<MESSAGE>)
-			[/c]
-		[/c]
-	[/c]
-[/c]
+iniz:indirizzoAz.new(<Percorso_DB_azienda>,"root","")
+iniz:indirizzoDom.new(<Percorso_DB_domande>,"root","")
+iniz:daoDipendenti.new(indirizzoAz)
+iniz:daoPunteggi.new(indirizzoAz, indirizzoDom)
+iniz:daoLogin.new(indirizzoAz)
+iniz:daoDomande.new(indirizzoAz, indirizzoDom)
+iniz:daoBadge.new(indirizzoAz)
 
+iniz:gestioneRecupero.new(daoDipendenti)
+iniz:gestionePunteggiD.new(daoPunteggi,daoDipendenti)
+iniz:gestionePunteggiAA.new(daoPunteggi,daoDipendenti)
+iniz:gestioneLog.new()
+iniz:gestioneLogin.new(daoLogin,gestioneLog)
+iniz:gestioneBadgeD.new(daoBadge,daoDipendenti,daoDomande, gestioneLog, gestioneLogin)
+iniz:gestioneDomandeD.new(daoDomande,daoPunteggi,daoDipendenti,gestionePunteggiD, gestioneLog, gestioneBadgeD)
+iniz:gestioneDomandeAS(daoDomande)
+iniz:gestioneDipendentiD.new(daoDipendenti, gestioneLog)
+iniz:gestioneDipendentiAA.new(daoDipendenti)
+iniz:gestioneBadgeAS(daoBadge)
+iniz:gestioneDati.new(gestioneRecupero,gestioneLogin,gestioneDomandeD,gestioneDomandeAS,gestioneDipendentiD,gestioneDipendentiAA,gestioneBadgeD, gestioneBadgeAS,gestionePunteggiD, gestionePunteggiAA)
+
+iniz:webConnection.new(gestioneDati)
+iniz:appConnection.new(gestioneDati)
