@@ -1,5 +1,6 @@
 moddom:mod_domande.jsp[a]
 /d1:Domanda[a]
+init:Inizializzatore[a]
 webConn:WebConnection[a]
 dati:GestioneDati[a]
 gestioneDomandeAS:GestioneDomandeAS[a]
@@ -7,6 +8,7 @@ accessDom:DAODomande
 serverAzienda:Indirizzo[a]
 
 moddom:d1.new(...)
+moddom:init.getWebConnection()
 moddom:webConn.aggiungiDomanda(d)
 webConn:dati.addDomanda(d)
 dati:gestioneDomandeAS.addDomanda(dom)
