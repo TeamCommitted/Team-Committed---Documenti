@@ -1,0 +1,14 @@
+moddom:mod_domande.jsp[a]
+/d1:Domanda[a]
+webConn:WebConnection[a]
+dati:GestioneDati[a]
+gestioneDomandeAS:GestioneDomandeAS[a]
+accessDom:DAODomande
+serverAzienda:Indirizzo[a]
+
+moddom:d1.new(...)
+moddom:webConn.aggiungiDomanda(d)
+webConn:dati.addDomanda(d)
+dati:gestioneDomandeAS.addDomanda(dom)
+gestioneDomandeAS:accessDom.addDomanda(dom)
+accessDom:serverAzienda.inserisciRiga("Domanda", "ID",s)

@@ -105,7 +105,7 @@ Modifica utente da parte di un Amministratore Azienda
 \begin_layout Itemize
 
 \series bold
-Modifica elenco domande da parte di un Amministratore Sicurezza
+Aggiunta domanda da parte di un Amministratore Sicurezza
 \end_layout
 
 \begin_layout Subsection
@@ -184,6 +184,7 @@ Risposta domanda da dispositivo mobile
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -257,10 +258,150 @@ Diagramma di sequenza relativo alla risposta di un utente ad una domanda
 Modifica utente da parte di un Amministratore Azienda
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/moddipAA.eps
+	scale 80
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo alla modifica di un utente da parte di un
+ Amministratore Azienda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 
 \series bold
-Modifica elenco domande da parte di un Amministratore Sicurezza
+Aggiunta domanda da parte di un Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/moddomAS.eps
+	scale 80
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo all'aggiunta di una domanda da parte di un
+ Amministratore Sicurezza
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
