@@ -178,6 +178,12 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-sequenza"
+
+\end_inset
+
 Diagramma di sequenza relativo alla risposta di un utente ad una domanda
  da dispositivo mobile
 \end_layout
@@ -186,6 +192,21 @@ Diagramma di sequenza relativo alla risposta di un utente ad una domanda
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La classe 
+\series bold
+Inizializzatore
+\series default
+ dovrà seguire la lista di inizializzazione indicata in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-sequenza"
 
 \end_inset
 
@@ -465,6 +486,10 @@ Diagramma di sequenza relativo alla modifica di un utente da parte di un
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+asd
 \end_layout
 
 \begin_layout Subsection

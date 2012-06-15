@@ -1,4 +1,4 @@
-adminPage:admin_page.jps[a]
+adminPage:admin_page.jsp[a]
 /oldDip:Dipendente
 /newDip:Dipendente
 init:Inizializzatore[a]
