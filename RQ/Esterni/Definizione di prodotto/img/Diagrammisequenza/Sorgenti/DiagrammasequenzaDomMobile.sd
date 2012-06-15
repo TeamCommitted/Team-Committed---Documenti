@@ -9,8 +9,8 @@ gestioneLogin:GestioneLogin[a]
 access:DAOLogin[a]
 serverAzienda:Indirizzo[a]
 log:GestioneLog[a]
-/dataOra:DataOra[xa]
-/updateLog:UpdateLog[xa]
+dataOra:DataOra[a]
+updateLog:UpdateLog[a]
 
 ext:AN.Request Login
 AN[0]:DomandaAPI[m].HttpCreateClient(<SERVER_ADDRESS>, nameValuePairs)
@@ -23,8 +23,6 @@ gestioneLogin:result=access.loginDipendente(login)
 access:rs=serverAzienda.selezione(<QUERY>,"")
 [c:opt rs == true]
 	access:log.scriviLogin(login)
-	log:dataOra.new()
-	log:updateLog.new("/"+l.getUsername(),this.percorso)
 	log:dataOra.toString()
 	log:updateLog.scriviChiudi(log)
 [/c]

@@ -6,6 +6,9 @@ dati:GestioneDati[a]
 gestioneDomandeAS:GestioneDomandeAS[a]
 accessDom:DAODomande
 serverAzienda:Indirizzo[a]
+log:GestioneLog[a]
+dataOra:DataOra[a]
+updateLog:UpdateLog[a]
 
 moddom:d1.new(...)
 moddom:init.getWebConnection()
@@ -14,3 +17,6 @@ webConn:dati.addDomanda(d)
 dati:gestioneDomandeAS.addDomanda(dom)
 gestioneDomandeAS:accessDom.addDomanda(dom)
 accessDom:serverAzienda.inserisciRiga("Domanda", "ID",s)
+gestioneDomandeAS:log.scriviModDomandeAS(d)
+log:dataOra.toString()
+log:updateLog.scriviChiudi(log)

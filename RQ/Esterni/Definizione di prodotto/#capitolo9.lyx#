@@ -489,7 +489,42 @@ Diagramma di sequenza relativo alla modifica di un utente da parte di un
 \end_layout
 
 \begin_layout Itemize
-asd
+L'
+\emph on
+Amministratore Azienda
+\emph default
+ modifica i dati all'interno della pagina 
+\series bold
+admin_page.jsp
+\series default
+.
+ Quest'ultima creerà due oggetti di tipo 
+\series bold
+Dipendente
+\series default
+: uno contenente i vecchi dati del 
+\emph on
+Dipedente
+\emph default
+ in questione e uno con i dati modificati dall'
+\emph on
+Amministratore Azienda
+\emph default
+, quindi chiederà alla classe 
+\series bold
+Inizializzatore 
+\series default
+il puntatore alla classe 
+\series bold
+WebConnection
+\series default
+, sulla quale invocherà il metodo 
+\series bold
+modDipendente
+\end_layout
+
+\begin_layout Itemize
+
 \end_layout
 
 \begin_layout Subsection
