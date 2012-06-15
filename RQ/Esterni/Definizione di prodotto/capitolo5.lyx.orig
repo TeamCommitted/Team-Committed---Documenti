@@ -2439,8 +2439,13 @@ com.safetyGame.back.condivisi.Domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.Punteggio
+<<<<<<< HEAD
+com.safetyGame.desktop.view.
+\series bold
 Punteggio
+=======
+com.safetyGame.desktop.view.Punteggio
+>>>>>>> d769477868579a61f7d1fab021d5b36b5ab4d4ba
 \end_layout
 
 \begin_layout Description
