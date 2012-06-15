@@ -287,7 +287,7 @@ Tipo, obiettivo e funzione del componente:
  contiene gli oggetti deputati all'interfacciamento dei vari front-end con
  il back-end
 \series bold
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -318,11 +318,11 @@ ti
 per inoltrare le richieste che provengono dai vari front-end verso gli strati
  inferiori del back-end
 \series bold
-
+ 
 \begin_inset Newline newline
 \end_inset
 
-Interfacci con e relazioni d'uso da altre componenti:
+Interfacce con e relazioni d'uso da altre componenti:
 \series default
  viene utilizzato dalla classe 
 \series bold
@@ -349,7 +349,7 @@ ti
 per inoltrare le elaborazioni compiute dagli strati inferiori del back-end
  verso i vari front-end
 \emph on
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -367,7 +367,7 @@ Presenter
 \emph on
 MVP
 \emph default
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -375,6 +375,10 @@ MVP
 \begin_inset Newline newline
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
  che compongono il package.
 \end_layout
