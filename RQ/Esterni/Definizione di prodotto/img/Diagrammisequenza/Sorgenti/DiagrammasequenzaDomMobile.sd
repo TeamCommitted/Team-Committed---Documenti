@@ -1,6 +1,7 @@
 ext:External[pe]
-AN:DomandaTask[a]
+AN:LoginTask[a]
 DomandaAPI:API[a]
+init:Inizializzatore[a]
 appC:ApplicazioniConnection [a]
 /l:Login[a]
 dati:GestioneDati[a]
@@ -13,6 +14,7 @@ log:GestioneLog[a]
 
 ext:AN.Request Login
 AN[0]:DomandaAPI[m].HttpCreateClient(<SERVER_ADDRESS>, nameValuePairs)
+DomandaAPI:init.getWebConnection()
 DomandaAPI:appC.Login(user, passw)
 appC:l.new(user,pass)
 appC:result=dati.loginUser(l)

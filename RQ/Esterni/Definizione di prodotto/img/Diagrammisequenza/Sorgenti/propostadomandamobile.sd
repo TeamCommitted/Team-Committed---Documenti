@@ -1,21 +1,23 @@
 DT:DomandaTask[a]
-Domanda:API.Domanda
-appC:ApplicazioniConnection 
-/l:Login
-dati:GestioneDati
-gestioneLogin:GestioneLogin
-access:DAOLogin
-serverAzienda:Indirizzo
-log:GestioneLog
-/dataOra:DataOra[x]
-/updateLog:UpdateLog[x]
-gestioneDomandeD:GestioneDomande
-daoDipendenti:DAODipendenti
-daoDomande:DAODomande
-/dataOra2:DataOra[x] "dataOra:DataOra"
-/updateLog2:UpdateLog[x] "updateLog:UpdateLog"
+Domanda:API.Domanda[a]
+init:Inizializzatore[a]
+appC:ApplicazioniConnection [a]
+/l:Login[a]
+dati:GestioneDati[a]
+gestioneLogin:GestioneLogin[a]
+access:DAOLogin[a]
+serverAzienda:Indirizzo[a]
+log:GestioneLog[a]
+/dataOra:DataOra[xa]
+/updateLog:UpdateLog[ax]
+gestioneDomandeD:GestioneDomande[a]
+daoDipendenti:DAODipendenti[a]
+daoDomande:DAODomande[a]
+/dataOra2:DataOra[ax] "dataOra:DataOra"
+/updateLog2:UpdateLog[ax] "updateLog:UpdateLog"
 
 DT:Domanda.HttpCreateClient(<ADDRESS>, nameValuePairs)
+Domanda:init.getWebConnection()
 Domanda:appC.Login(user, passw)
 appC:l.new(user,pass)
 appC:result=dati.loginUser(l)

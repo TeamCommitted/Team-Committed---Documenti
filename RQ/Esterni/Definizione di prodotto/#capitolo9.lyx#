@@ -175,6 +175,79 @@ Diagramma di sequenza relativo al login di un Dipendente da dispositivo
 \end_layout
 
 \begin_layout Itemize
+L'utente inserisce all'interno dei campi dati della grafica le sue credenziali
+ d'accesso che verranno passate alla classe 
+\series bold
+LoginTask
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+LoginTask
+\series default
+ dovrà avviare una comunicazione 
+\emph on
+HTTP
+\emph default
+ con le pagine 
+\emph on
+JSP
+\emph default
+ deputate alla ricezione delle richieste del 
+\emph on
+Front-end Mobile
+\emph default
+.
+ In particolare dovrà comunicare con la pagina deputata alla ricezione di
+ richieste riguardanti le domande
+\end_layout
+
+\begin_layout Itemize
+Le 
+\series bold
+API
+\series default
+ richiederanno alla classe 
+\series bold
+Inizializzatore 
+\series default
+un oggetto di tipo 
+\series bold
+ApplicazioniConnection
+\series default
+, sul quale poi si invocherà il metodo 
+\emph on
+Login
+\emph default
+, passando come parametri l'username e password come 
+\emph on
+Stringhe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ApplicazioniConnection
+\series default
+ dovrà generare un oggetto di tipo 
+\series bold
+Login
+\series default
+ a partire dalle informazioni trasmesse dal 
+\emph on
+Front-End
+\emph default
+, quindi invocherà sulla classe Façade 
+\series bold
+GestioneDati
+\series default
+ il metodo 
+\emph on
+loginUser
+\end_layout
+
+\begin_layout Itemize
 
 \end_layout
 
