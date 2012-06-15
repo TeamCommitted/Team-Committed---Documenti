@@ -76,7 +76,25 @@ In questa sezione sono descritta in maniera più approfondita alcune importanti
 Lo scopo è di mostrare come i metodi delle classi dei vari package interagiscano
  per ottenere il risultato richiesto.
  Sarà dunque possibile osservare come il flusso delle operazioni nasca dalle
- varie View e raggiunga il Model, per poi invertirsi.
+ varie View e raggiunga il Model, per poi invertirsi
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dove si parlerà di interfacce (ex.
+ 
+\emph on
+DAOLogin
+\emph default
+) si intenderà la sua implementazione in una classe concreta.
+ Per semplicità continueremo a riferirci all'interfaccia, tenendo a mente
+ però che in realtà verranno chiamati metodi e/o campi dati sulle classi
+ concrete
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -87,13 +105,13 @@ Analizzeremo in particolare le seguenti azioni:
 \begin_layout Itemize
 
 \series bold
-Login da dispositivo mobile
+Creazione del back-end
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Risposta da dispositivo mobile
+Login da dispositivo mobile
 \end_layout
 
 \begin_layout Itemize
@@ -106,6 +124,72 @@ Modifica utente da parte di un Amministratore Azienda
 
 \series bold
 Aggiunta domanda da parte di un Amministratore Sicurezza
+\end_layout
+
+\begin_layout Subsection
+Creazione del back-end
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/propostadomandamobile.eps
+	scale 70
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo alla risposta di un utente ad una domanda
+ da dispositivo mobile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -249,80 +333,62 @@ loginUser
 
 \begin_layout Itemize
 
+\series bold
+GestioneDati
+\series default
+ dovrà inoltrare la chamata alla classe deputata alla gestione delle operazioni
+ di login/logout, 
+\series bold
+GestioneLogin
+\series default
+, invocando su di essa il metodo 
+\emph on
+loginUser
 \end_layout
 
-\begin_layout Subsection
-Risposta domanda da dispositivo mobile
+\begin_layout Itemize
+
+\series bold
+GestioneLogin
+\series default
+ chiamerà 
+\series bold
+DAOLogin
+\series default
+ invocando il metodo 
+\emph on
+loginDipendente
+\emph default
+.
+ 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
+\begin_layout Itemize
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/Diagrammisequenza/propostadomandamobile.eps
-	scale 70
-	rotateAngle 90
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Diagramma di sequenza relativo alla risposta di un utente ad una domanda
- da dispositivo mobile
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+\series bold
+DAOLogin
+\series default
+ dovrà interrogare il database attraverso la classe 
+\series bold
+Indirizzo
+\series default
+ per verificare che all'interno del database esista un dipendente con le
+ credenziali d'accesso inserite.
+ Se esiste, dovrà ritornare 
+\series bold
+true
+\series default
+, altrimenti 
+\series bold
+false
+\series default
+.
+ Questo valore dovrà propagarsi fino al 
+\emph on
+Front-end Mobile
+\emph default
+, il quale dovrà far visualizzare o la schermata principale o un messaggio
+ d'errore.
 \end_layout
 
 \begin_layout Subsection
