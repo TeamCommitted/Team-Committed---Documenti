@@ -114,7 +114,20 @@ RFOB 1 & DT.L & ConnBack
 
 \begin_layout Plain Layout
 
-&  
+& BK.A & Indirizzi 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -126,11 +139,20 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 1.1 & & 
+RFOB 1.1 & BK.A & Indirizzi 
 \backslash
 
 \backslash
  
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -263,7 +285,20 @@ RFOB 3 & BK.CONT & GestioneLog
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & UpdateLog 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -284,7 +319,29 @@ RFOB 3.1 & BK.CONT & GestioneLog
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & UpdateLog 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & DataOra 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -359,7 +416,20 @@ RFOB 4 & DT.V & Login
 
 \begin_layout Plain Layout
 
-& 
+& BK.COND & Recupero 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -416,7 +486,20 @@ RFOB 4.1 & MB.V & LoginActivity
 
 \begin_layout Plain Layout
 
-& 
+& BK.COND & Recupero 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -473,7 +556,20 @@ RFOB 4.1.1 & MB.V & LoginActivity
 
 \begin_layout Plain Layout
 
-& 
+& BK.COND & Recupero 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -584,7 +680,38 @@ RFOB 5 & DT.V & Login
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Login 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -668,7 +795,11 @@ RFOB 5.1 & DT.V & Notifica
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -761,7 +892,11 @@ RFOB 6 & DT.V & Notifica
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -836,7 +971,11 @@ RFOB 6.1 & DT.L & ControlNotifica
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -929,7 +1068,11 @@ RFOB 7 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1022,7 +1165,11 @@ RFOB 7.1 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1106,7 +1253,38 @@ RFOB 8 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1190,7 +1368,38 @@ RFOB 9 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1313,7 +1522,38 @@ RFOB 9.1.1 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1433,7 +1673,38 @@ RFD 9.1.2 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1517,7 +1788,38 @@ RFOP 9.1.3 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1601,7 +1903,38 @@ RFD 9.2 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1685,7 +2018,38 @@ RFD 9.2.1 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1769,7 +2133,11 @@ RFOB 10 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1826,7 +2194,38 @@ RFOB 11 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1883,7 +2282,11 @@ RFOB 11.1 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1931,7 +2334,11 @@ RFOB 11.2 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2033,7 +2440,38 @@ RFOB 12 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2108,7 +2546,38 @@ RFOB 12.1 & MB.V & DatiTask
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2145,7 +2614,38 @@ RFOB 14 & MB.COND & Domanda
 
 \begin_layout Plain Layout
 
-&  
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2175,7 +2675,65 @@ RFOB 14.1 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-&  
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2196,7 +2754,7 @@ RFOB 15 & DT.V & Menu
 
 \begin_layout Plain Layout
 
- & DT.L & ControlMenu 
+& DT.L & ControlMenu 
 \backslash
 
 \backslash
@@ -2286,7 +2844,11 @@ RFOB 15 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2379,7 +2941,83 @@ RFOB 15.1 & DT.COND & Punteggio
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & SqlDAOBadge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOPunteggi 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOBadge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Punteggio 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Badge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2445,7 +3083,11 @@ RFOB 16 & DT.V & Menu
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2493,7 +3135,38 @@ RFOB 17 & DT.COND & Login
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Login 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2532,7 +3205,11 @@ RFOB 18 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2571,7 +3248,11 @@ RFOB 19 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2610,7 +3291,11 @@ RFOB 19.1 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2649,7 +3334,11 @@ RFOB 19.2 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2736,7 +3425,29 @@ RFOB 20 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2775,7 +3486,29 @@ RFOB 21 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2814,7 +3547,29 @@ RFOB 21.1 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2853,7 +3608,38 @@ RFOB 22 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2892,7 +3678,38 @@ RFOB 22.1 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Dipendente 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2940,7 +3757,20 @@ RFOB 23 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAOBadge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2988,7 +3818,47 @@ RFOB 23.1 & DT.COND & Punteggio
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & DAOPunteggi 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOBadge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Punteggio 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Badge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3018,7 +3888,29 @@ RFOB 24 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODipendenti 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3030,11 +3922,11 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 25 & & 
+RFOB 25 & BK & Inizializzatore 
 \backslash
 
 \backslash
- 
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3082,7 +3974,38 @@ RFOB 26 & DT.COND & Login
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAOLogin 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Login 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3121,7 +4044,11 @@ RFOB 27 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3169,7 +4096,38 @@ RFOB 27.1 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3208,7 +4166,11 @@ RFOB 28 & BK.CONN & WebConnection
 
 \begin_layout Plain Layout
 
-& 
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3256,7 +4218,38 @@ RFOB 28.1 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
-& 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3304,39 +4297,84 @@ RFOB 28.2 & DT.COND & Domanda
 
 \begin_layout Plain Layout
 
+& BK.A & SqlDAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & DAODomande 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.COND & Domanda 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 29 & BK.COND & Badge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK & Inizializzatore 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+RFOP 29.1 & BK.COND & Badge 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
 & 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOP 29 & & 
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline 
-\end_layout
-
-\begin_layout Plain Layout
-
-RFOP 29.1 & & 
-\backslash
-
-\backslash
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -3584,6 +4622,15 @@ RPOB 1 & DT.L & ConnBack
 
 \begin_layout Plain Layout
 
+& BK.A & Indirizzi 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
 & 
 \end_layout
 
@@ -3615,6 +4662,24 @@ RPOB 2 & BK.CONN & WebConnection
 \begin_layout Plain Layout
 
 & BK.A & DAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & SqlDAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & Indirizzi 
 \backslash
 
 \backslash
@@ -3864,6 +4929,15 @@ RQOB 1 & DT.V & Notifica
 \begin_layout Plain Layout
 
 & BK.A & DAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & SqlDAOFactory 
 \backslash
 
 \backslash
@@ -4578,6 +5652,15 @@ RVOB 1 & MB.U & ConnectionUtils
 
 \begin_layout Plain Layout
 
+& BK.A & SqlDAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
 & 
 \end_layout
 
@@ -4869,6 +5952,24 @@ RVOB 2 & DT.L & Parser
 \begin_layout Plain Layout
 
 & BK.A & DAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & SqlDAOFactory 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+& BK.A & Indirizzi 
 \backslash
 
 \backslash
