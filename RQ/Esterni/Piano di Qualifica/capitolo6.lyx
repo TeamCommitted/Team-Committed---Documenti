@@ -4902,21 +4902,137 @@ end{center}
 \end_layout
 
 \begin_layout Subsection
-Descrizione dei Test effettuatis
+Descrizione dei Test effettuati
 \end_layout
 
 \begin_layout Standard
 Di seguito saranno definiti i test di verifica effettuati sulle componenti
- controller del back-end.
- I test implementati e descritti relativi alla componente controller sono
- quindi dei test che cercano di verificare singolarmente il comportamento
- delle funzioni di una componente, ossia quella specifica alla quale il
- test fa riferimento.
+ del back-end.
+ I test implementati e descritti sono quindi dei test che cercano di verificare
+ singolarmente il comportamento delle funzioni di una componente, ossia
+ quella specifica alla quale il test fa riferimento.
  
 \end_layout
 
 \begin_layout Subsubsection*
+SqlDAOBadgeTest
+\end_layout
 
+\begin_layout Standard
+Classe verificata: SqlDAOBadge
+\begin_inset Newline newline
+\end_inset
+
+Descrizione: 
+\begin_inset Newline newline
+\end_inset
+
+Esito:
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAODipendentiTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAODipendenti
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database SQL.
+ Nel dettaglio viene controllato se è possibile aggiungere un nuovo dipendente
+ al DB aziendale, visualizzare le informazioni di un dipendente, modificare
+ le informazioni di un dipendente, modificare i trofei di un dipendente,
+ eliminare un dipendente, ottenere l'elenco dei dipendenti, ottenere le
+ informazioni di un amministratore e modificare le informazioni di un amministra
+tore.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAODomandeTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAODomande
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database SQL.
+ Nel dettaglio viene controllato se è possibile aggiungere una nuova domanda,
+ eliminare una domanda, ottenere una domanda specifica, ottenere i campi
+ di una domanda specifica, ottenere la lista di domande di un'azienda, segnalare
+ una domanda come risposta e segnalare una domanda come posticipata.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAOLoginTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAOLogin
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database SQL.
+ Nel dettaglio viene controllato se è possibile effettuare il login di un
+ dipendente o di un amministratore.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato
 \end_layout
 
 \end_body
