@@ -682,7 +682,7 @@ La realizzazione di un nuovo diagramma di Gantt per questo consuntivo risulta
 nto delle nuove tecnologie, causando il primo spostamento.
  Questo ha fatto scalare l'intero programma di diverse settimane, portando
  il lavoro successivo ad essere svolto in parallelo agli altri corsi di
- studi, con le conseguene descritte precedentemente.
+ studi, con le conseguenze descritte precedentemente.
  Il nuovo diagramma di Gantt, dunque, sarebbe il medesimo in termini di
  rapporto fra i vari compiti, con l'unica differenza di venire estremamente
  dilatato nell'arco di tre mesi, diventando quindi di difficile lettura
@@ -743,7 +743,7 @@ Consuntivo delle ore per ruolo nella fase di
 \end_layout
 
 \begin_layout Standard
-Analizzando la 
+Analizzando la tabella
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Tabella-ore-consuntivo-pdc"
@@ -817,7 +817,7 @@ Progettazione di Dettaglio e Codifica
 \end_layout
 
 \begin_layout Standard
-Come si può vedere, i costi relativi ai ruoli di Verificatore e Analista
+Come si può vedere, i costi relativi ai ruoli di Verificatore e Progettista
  sono diminuiti a fronte di un aumento dei costi per i Programmatori e per
  il Responsabile.
  Il totale è aumentato a 
@@ -879,8 +879,8 @@ Il consuntivo dei costi per la fase di Progettazione di Dettaglio e Codifica
 \end_layout
 
 \begin_layout Standard
-Il onsuntivo delle ore di lavoro mostra un discreto risparmio di tempo per
- quanto riguarda la fase di Progettazione.
+Il consuntivo delle ore di lavoro mostra un discreto risparmio di tempo
+ per quanto riguarda la fase di Progettazione.
  Questo è probabilmente dovuto non tanto ad una accurata progettazione fatta
  nella fase di Progettazione Architetturale quanto ad una buona comprensione
  degli errori e delle problematiche insorti, la quale ci ha portato a lavorare

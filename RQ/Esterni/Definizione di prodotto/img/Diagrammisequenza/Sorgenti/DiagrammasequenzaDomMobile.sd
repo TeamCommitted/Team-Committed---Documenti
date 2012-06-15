@@ -1,15 +1,15 @@
 ext:External[pe]
-AN:DomandaTask
-DomandaAPI:API
-appC:ApplicazioniConnection 
-/l:Login
-dati:GestioneDati
-gestioneLogin:GestioneLogin
-access:DAOLogin
-serverAzienda:Indirizzo
-log:GestioneLog
-/dataOra:DataOra
-/updateLog:UpdateLog
+AN:DomandaTask[a]
+DomandaAPI:API[a]
+appC:ApplicazioniConnection [a]
+/l:Login[a]
+dati:GestioneDati[a]
+gestioneLogin:GestioneLogin[a]
+access:DAOLogin[a]
+serverAzienda:Indirizzo[a]
+log:GestioneLog[a]
+/dataOra:DataOra[xa]
+/updateLog:UpdateLog[xa]
 
 ext:AN.Request Login
 AN[0]:DomandaAPI[m].HttpCreateClient(<SERVER_ADDRESS>, nameValuePairs)
@@ -23,6 +23,7 @@ access:rs=serverAzienda.selezione(<QUERY>,"")
 	access:log.scriviLogin(login)
 	log:dataOra.new()
 	log:updateLog.new("/"+l.getUsername(),this.percorso)
+	log:dataOra.toString()
 	log:updateLog.scriviChiudi(log)
 [/c]
 AN:ext.result

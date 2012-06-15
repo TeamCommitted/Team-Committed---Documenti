@@ -1,0 +1,51 @@
+DT:DomandaTask[a]
+Domanda:API.Domanda
+appC:ApplicazioniConnection 
+/l:Login
+dati:GestioneDati
+gestioneLogin:GestioneLogin
+access:DAOLogin
+serverAzienda:Indirizzo
+log:GestioneLog
+/dataOra:DataOra[x]
+/updateLog:UpdateLog[x]
+gestioneDomandeD:GestioneDomande
+daoDipendenti:DAODipendenti
+daoDomande:DAODomande
+/dataOra2:DataOra[x] "dataOra:DataOra"
+/updateLog2:UpdateLog[x] "updateLog:UpdateLog"
+
+DT:Domanda.HttpCreateClient(<ADDRESS>, nameValuePairs)
+Domanda:appC.Login(user, passw)
+appC:l.new(user,pass)
+appC:result=dati.loginUser(l)
+dati:result=gestioneLogin.loginUser(login)
+gestioneLogin:result=access.loginDipendente(login)
+access:rs=serverAzienda.selezione(<QUERY>,"")
+[c:opt rs == true]
+	access:log.scriviLogin(login)
+	log:dataOra.new()
+	log:updateLog.new("/"+l.getUsername(),this.percorso)
+	log:dataOra.toString()
+	log:updateLog.scriviChiudi(log)
+[/c]
+[c:opt l:Login != null]
+	Domanda:appC.mostraDomanda(l)
+	appC:dati.getDomandaD(l)
+	dati:gestioneDomandeD.getDomandaD(l)
+	gestioneDomandeD:dip=daoDipendenti.getInfoD(l)
+	[c:opt dip != null]
+		gestioneDomandeD:ritorno=daoDomande.getDomanda(dip)
+		[c:opt ritorno != null]
+			gestioneDomandeD:controllo=daoDomande.scriviSottoposta(dip, ritorno)
+			[c:opt] controllo == true]
+				gestioneDomandeD:log.scriviDomRic(l,ritorno)
+				log:dataOra2.new()
+				log:updateLog2.new()
+				log:dataOra2.toString()
+				log:updateLog2.scriviChiudi(<MESSAGE>)
+			[/c]
+		[/c]
+	[/c]
+[/c]
+
