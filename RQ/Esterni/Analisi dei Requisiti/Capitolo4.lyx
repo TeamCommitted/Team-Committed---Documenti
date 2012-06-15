@@ -728,7 +728,7 @@ hline
 RFOB 15.1 & Le informazioni che un 
 \backslash
 uline{Dipendente Autenticato} potrà consultare sono: storico delle risposte
- (sia corrette che errate), classifica aziendale, trofei/badge raccolti,
+ (sia corrette che errate), classifica aziendale, trofei e/o badge raccolti,
  statistiche derivanti dalle risposte & UCDA 5 & Statica 
 \backslash
 
@@ -953,8 +953,8 @@ hline
 
 \begin_layout Plain Layout
 
-RFOB 23.1 & Le statistiche personali sono: punti, trofei/badge & UCAAA 4
- & Statica 
+RFOB 23.1 & Le statistiche personali sono: punti, trofei e/o badge & UCAAA
+ 4 & Statica 
 \backslash
 
 \backslash
