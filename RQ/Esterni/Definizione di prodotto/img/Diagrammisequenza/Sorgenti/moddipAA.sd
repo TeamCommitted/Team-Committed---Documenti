@@ -1,0 +1,15 @@
+adminPage:admin_page.jps[a]
+/oldDip:Dipendente
+/newDip:Dipendente
+init:Inizializzatore[a]
+webConn:WebConnection[a]
+gestDati:GestioneDati[a]
+gestDipAA:GestioneDipendentiAA[a]
+
+adminPage:oldDip.new()
+adminPage:newDip.new()
+adminPage:init.getWebConnection()
+adminPage:webConn.modDipendente(oldDip,newDip)
+webConn:gestDati.modDipendente(dOld, dNew)
+gestDati:gestDipAA.modDipendente(newDip, oldDip)
+
