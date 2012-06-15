@@ -4,7 +4,7 @@ init:Inizializzatore[a]
 webConn:WebConnection[a]
 dati:GestioneDati[a]
 gestioneDomandeAS:GestioneDomandeAS[a]
-accessDom:DAODomande
+accessDom:DAODomande[a]
 serverAzienda:Indirizzo[a]
 log:GestioneLog[a]
 dataOra:DataOra[a]
@@ -16,7 +16,9 @@ moddom:webConn.aggiungiDomanda(d)
 webConn:dati.addDomanda(d)
 dati:gestioneDomandeAS.addDomanda(dom)
 gestioneDomandeAS:accessDom.addDomanda(dom)
-accessDom:serverAzienda.inserisciRiga("Domanda", "ID",s)
-gestioneDomandeAS:log.scriviModDomandeAS(d)
-log:dataOra.toString()
-log:updateLog.scriviChiudi(log)
+accessDom:result=serverAzienda.inserisciRiga("Domanda", "ID",s)
+[c:opt result == true]
+	gestioneDomandeAS:log.scriviModDomandeAS(d)
+	log:dataOra.toString()
+	log:updateLog.scriviChiudi(log)
+[/c]
