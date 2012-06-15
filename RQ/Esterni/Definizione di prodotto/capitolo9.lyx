@@ -566,8 +566,8 @@ Indirizzo
 \end_layout
 
 \begin_layout Itemize
-Scrivere nel file di log opportuno la modifica tramite l'invocazione del
- metodo 
+Scrivere nel file di log opportuno, nel caso non venga riportato alcun errore,
+ la modifica tramite l'invocazione del metodo 
 \series bold
 scriviMod<XXX>AA
 \begin_inset Foot
@@ -662,13 +662,105 @@ Diagramma di sequenza relativo all'aggiunta di una domanda da parte di un
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+L'
+\emph on
+Amministratore Sicurezza
+\emph default
+ aggiungerà una domanda all'elenco di domande disponibili per l'azienda
+ prelevata dal database centrale all'interno della pagina 
+\series bold
+admin_page.jsp
+\series default
+.
+ Quest'ultima creerà un oggetto di tipo 
+\series bold
+Domanda
+\series default
+ e recupererà dall'oggetto 
+\series bold
+Inizializzatore
+\series default
+ il puntatore alla classe 
+\series bold
+WebConnection
+\series default
+.
+ Quindi invocherà su di essa il metodo 
+\series bold
+aggiungiDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+WebConnection
+\series default
+ quindi redirigerà la chiamata verso la classe 
+\series bold
+GestioneDati
+\series default
+ invocando il metodo 
+\series bold
+addDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneDati
+\series default
+, a sua volta, invocherà il metodo 
+\series bold
+addDomanda
+\series default
+ della classe 
+\series bold
+GestioneDomandeAS
+\series default
+, il quale chiamerà l'oggetto 
+\series bold
+DAODomande
+\series default
+ invocando il metodo 
+\series bold
+addDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+DAODomanda
+\series default
+ invocherà sull'oggetto 
+\series bold
+Indirizzo
+\series default
+ il metodo 
+\series bold
+inserisciRiga
+\series default
+ e, nel caso non ci siano errori, scrivere nel file di log opportuno tramite
+ l'invocazione del metodo 
+\series bold
+scriviAddDomande
+\series default
+ della classe 
+\series bold
+GestioneLog
+\series default
+ la quale invocherà la classe 
+\series bold
+UpdateLog
+\series default
+ chiamandone il metodo 
+\series bold
+scriviChiudi
 \end_layout
 
 \end_body
