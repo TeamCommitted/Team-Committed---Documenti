@@ -155,7 +155,7 @@ name "sub:Glossario"
 Tutti i termini marcati da apposita sottolineatura saranno approfonditi
  e descritti all'interno del file 
 \family typewriter
-Glossario-v2.0.pdf
+Glossario-v3.0.pdf
 \family default
  al fine di evitare ambiguità.
 \end_layout
@@ -203,7 +203,7 @@ Analisi dei requisiti
 \series default
 (Allegato 
 \family typewriter
-Analisi_Dei_Requisiti_v2.0.pdf
+Analisi_Dei_Requisiti_v3.0.pdf
 \family default
 )
 \end_layout
@@ -215,7 +215,7 @@ Norme di progetto
 \series default
  (Allegato 
 \family typewriter
-Norme_Di_Progetto_v2.0.pdf
+Norme_Di_Progetto_v3.0.pdf
 \family default
 )
 \end_layout
