@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -145,7 +146,7 @@ Il package com.safetyGame.frontWeb, diversamente dagli altri, è stato sviluppat
 \end_layout
 
 \begin_layout Subsection
-Package com.safetyGame.frontWeb.pagine
+Package com.safetyGame.frontWeb.View
 \end_layout
 
 \begin_layout Standard
@@ -214,64 +215,28 @@ Attività svolte e dati trattati:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.frontWeb.pagine.Login
+com.safetyGame.frontWeb.View.admin_page
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consentirà ad un utente di effettuare operazioni di amministrazione sia
+ dei Dipendenti (per l'Amministratore Azienda) sia delle Domande che il
+ sistema potrà sottoporre ad essi (per l'Amministratore Sicurezza)
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Consente ad un 
-\bar under
-Utente
-\bar default
- di effettuare il login.
- E' implementata nella pagina login.jsp.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Comunica i dati inseriti 
-\bar under
-dall'Utente
-\bar default
- a ControlLogin tramite metodo post.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Raccoglie i dati che l'Utente inserisce per poi comunicarli a ControlLogin.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
 \begin_inset Newpage newpage
 \end_inset
 
@@ -279,70 +244,28 @@ Nessuno
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.frontWeb.pagine.Menu
+com.safetyGame.frontWeb.Logic.checkLogin
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina deputata alla comunicazione con il Back-End per il controllo della
+ validità delle credenziali di accesso inserite da un Dipendente o da un
+ Amministratore
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Mostra ad un 
-\bar under
-Utente
-\bar default
- le possibili attività che può effetuare.
-
-\series bold
- 
-\series default
-E' implementato nelle pagine user_page.jsp e admin_page.jsp.
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- A seconda del tipo di 
-\bar under
-Utente
-\bar default
- cui fa riferimento fornisce un menù di navigazione per svolgere determinate
- attività.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
 \begin_inset Newpage newpage
 \end_inset
 
@@ -350,52 +273,28 @@ Nessuno
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.frontWeb.pagine.Notifica
+com.safetyGame.frontWeb.View.checkRisposta
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina deputata alla comunicazione con il Back-End per il controllo della
+ correttezza della risposta fornita da un Dipendente ad una Domanda a lui
+ sottoposta
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-.
- 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- .
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- .
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-
 \begin_inset Newpage newpage
 \end_inset
 
@@ -403,66 +302,141 @@ Metodi:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.frontWeb.pagine.MostraDomanda
+com.safetyGame.frontWeb.View.index
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina iniziale dell'interno Front-End Web.
+ Dovrà permettere il login di Dipendenti, Amministratore Azienda e Amministrator
+e Sicurezza.
+ Una volta autenticati, invece, dovrà permettere la visualizzazione delle
+ operazioni che la persona connessa può effettuare con l'account utilizzato
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.View.Login
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina deputata alla ricezione delle credenziali di un Utente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.View.logout
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina che permetterà di effettuare il logout dal Front-End Web
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.View.nuovaDomanda
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina deputata ad offrire la possibilità ad un Dipendente di poter rispondere
+ ad una nuova domanda a lui sottoposta
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.View.user_page
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pagina deputata alla visualizzazione delle informazioni personali di un
+ Dipendente.
 \end_layout
 
 \begin_layout Standard
 
-\series bold
-Tipo, obiettivo e funzionamento del componente: 
-\series default
-Si occupa di far visualizzare al 
-\bar under
-Dipendente
-\bar default
- la domanda appena richiesta.
- Implementato nella pagina nuovaDomanda.jsp 
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Relazione d'uso di altre componenti: 
-\series default
-Le informazioni relative alla domanda vengono comunicate dalla classe ControlDom
-anda.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Riceve i dati relativa ad una domanda da ControlDomanda e si occupa di
- farli visualizzare al 
-\bar under
-Dipendente
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
 \end_layout
 
 \end_body
