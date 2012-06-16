@@ -102,6 +102,12 @@ begin{center}
 \end_inset
 
 
+\begin_inset Graphics
+	filename img/ThreeTier.jpg
+
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -118,7 +124,7 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Diagramma dei design pattern TwoTier
+Diagramma dei design pattern TwoTier e ThreeTier
 \end_layout
 
 \end_inset
@@ -132,9 +138,13 @@ Diagramma dei design pattern TwoTier
 
 \end_inset
 
-Il design pattern di tipo Multitier utilizzato sarà un 
+Il design pattern di tipo Multitier verrà implementato in forma 
 \emph on
-TwoTier.
+TwoTier 
+\emph default
+e 
+\emph on
+ThreeTier.
 \end_layout
 
 \begin_layout Itemize
@@ -156,7 +166,8 @@ Motivazione:
 \series default
  il beneficio principale apportato da questo paradigma risiede nel fatto
  che ogni livello può venir cambiato/aggiornato senza dover propagare gli
- effetti ai livelli adiacenti.
+ effetti ai livelli adiacenti, essendo state definite delle precise interfacce
+ fra i tier.
  
 \begin_inset Newline newline
 \end_inset
@@ -169,11 +180,6 @@ Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
  adattato in relazione allo specifico ambiente di rete in cui esegue: nel
  caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
  nel determinato ambiente.
-\begin_inset Newline newline
-\end_inset
-
-Inoltre la suddivisione in due livelli differenti è utile come sotto categoria
- del design pattern MVP dove la parte View rappresenta ognuno dei Front-end
 \end_layout
 
 \begin_layout Itemize
@@ -209,6 +215,59 @@ Logic-tier
 \emph default
  si occuperà di gestire la temporizzazione delle domande, lo scambio di
  dati e la logica in generale
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+ThreeTier:
+\series default
+ questo design patter verrà utilizzato come struttura portante del Back-End
+ in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier
+\series bold
+ 
+\series default
+\emph default
+offrirà un'interfaccia di comunicazione fra i vari Front-End e i livelli
+ sottostanti del Back-End
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier 
+\emph default
+si occuperà di gestire la parte algoritmica dell'applicazione, controllando
+ la consistenza dei dati ricevuti dal Presentation-tier e dei dati richiesti
+ al Data-tier
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà dell'interazione con le basi di dati in cui saranno memorizzati
+ i dati persistenti
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ad esempio le informazioni sugli utenti registrati nel sistema e le relative
+ informazioni personali
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -263,9 +322,11 @@ Presenter:
 Motivazione:
 \series default
  Questo design pattern è stato scelto, e viene impiegato, per definire un'archit
-ettura del sistema che consente di ottenere un buon livello di disaccoppiamento
+ettura del sistema che consenta di ottenere un buon livello di disaccoppiamento
  tra le viste e i modelli.
- L'architettura risulta inoltre essere solida e manutenibile
+ L'architettura risulta inoltre essere solida e manutenibile, in quanto
+ la modifica di una delle te componenti non comporta alcun lavoro aggiuntivo
+ sulle altre due componenti.
 \end_layout
 
 \begin_layout Itemize
@@ -285,7 +346,13 @@ il design pattern verrà utilizzato nello sviluppo dell'architettura generale
 Model 
 \emph default
 ha il compito di astrarre i database dove sono presenti i dati del sistema
- e consentire il recupero di essi o l'inserimento di nuovi
+ e consentire il recupero di essi o l'inserimento di nuovi, senza che si
+ debba intervenire sulle altre due componenti.
+ Questo infatti perchè le altre due componenti avranno solamente una visione
+ di metodi esposti pubblicamente da parte di alcune classi, mentre l'implementaz
+ione effettiva dei metodi per interagire con le basi di dati sono nascosti
+ ai vari componenti.
+ Esso sarà implementato nel Data-tier del Back-end
 \end_layout
 
 \begin_layout Itemize
@@ -294,7 +361,8 @@ ha il compito di astrarre i database dove sono presenti i dati del sistema
 View
 \emph default
  ha il compito di rappresentare l'interfaccia grafica che consente l'interazione
- degli utenti con il sistema
+ degli utenti con il sistema.
+ Questo componente verrà implementato nei vari Front-end
 \end_layout
 
 \begin_layout Itemize
@@ -307,7 +375,9 @@ consente la comunicazione tra la componente View e quella Model.
  forma di chiamate ai metodi di questo, consentendo l'effettiva interazione
  tra utente e sistema.
  Inoltre Presenter indica alla View cosa deve essere mostrato agli utenti
- attraverso le opportune chiamate ad essa
+ attraverso le opportune chiamate ad essa.
+ Questo componente verrà implementato dai Presentation-tier e Logic-tier
+ del Back-end
 \end_layout
 
 \end_deeper

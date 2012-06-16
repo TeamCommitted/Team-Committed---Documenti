@@ -210,6 +210,29 @@ OP:
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Per ogni requisito, inoltre, si dovrà specificare quale metodologia di verifica
+ si dovrà attuare per verificare che sia stato soddisfatto:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Statica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dinamica
+\end_layout
+
+\begin_layout Standard
+Per la spiegazione delle metodologie di verifica, si rimanda al 
+\emph on
+Piano di Qualifica V3.0
+\end_layout
+
 \begin_layout Subsection
 
 \family roman

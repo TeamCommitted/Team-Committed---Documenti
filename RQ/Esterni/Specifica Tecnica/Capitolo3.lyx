@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -76,7 +77,7 @@ Java
  
 \series bold
 \bar default
-6
+7
 \series default
  è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
  con il 
@@ -512,9 +513,33 @@ JSP
 \series bold
 Servlet e JavaBeans:
 \series default
- 
+ Oltre che sul server Tomcat, JSP si appoggia a due componenti vitali per
+ il corretto funzionamento di un'applicazione web: 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Servlet:
+\series default
+ applicazioni lato server che potenziano la capacità di fornire contenuti
+ dinamici all'applicazione, alleggerendo il carico di lavoro al client e,
+ sopratutto, riducendo il rischio di reverse-engeneering sul codice creato
+ per cercare eventuali falle di sicurezza
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+JavaBeans:
+\series default
+ piccole classi Java che permettono l'interazione fra differenti pagine
+ JSP, quindi passibili di riutilizzo anche in componenti differenti dalla
+ mera applicazione web
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 
