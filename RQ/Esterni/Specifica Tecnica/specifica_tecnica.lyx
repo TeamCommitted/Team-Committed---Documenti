@@ -130,11 +130,14 @@ filename "Capitolo1.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitolo2.lyx"
+filename "Capitolo4.lyx"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -144,7 +147,7 @@ filename "Capitolo2.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitolo4.lyx"
+filename "Capitolo2.lyx"
 
 \end_inset
 

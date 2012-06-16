@@ -193,6 +193,29 @@ Informativi
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+Java 7 JDK
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://docs.oracle.com/javase/7/docs/api/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 W3School 
 \series bold
 XHTML 1.1
