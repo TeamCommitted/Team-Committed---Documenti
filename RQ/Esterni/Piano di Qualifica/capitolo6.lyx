@@ -5179,6 +5179,10 @@ Di seguito saranno definiti i test di verifica effettuati sulle componenti
  
 \end_layout
 
+\begin_layout Subsubsection
+Test Package com.safetyGame.back.access
+\end_layout
+
 \begin_layout Subsubsection*
 SqlDAODipendentiTest
 \end_layout
@@ -5352,6 +5356,10 @@ Esito
 : nessun errore riscontrato.
 \end_layout
 
+\begin_layout Subsubsection
+Test package com.safetyGame.back.condivisi
+\end_layout
+
 \begin_layout Subsubsection*
 DataOraTest
 \end_layout
@@ -5382,6 +5390,10 @@ Descrizione
 Esito
 \series default
 : nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection
+Test package com.safetyGame.back.controller
 \end_layout
 
 \begin_layout Subsubsection*
