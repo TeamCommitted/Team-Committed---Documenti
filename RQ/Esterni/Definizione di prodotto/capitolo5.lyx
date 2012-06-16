@@ -281,6 +281,53 @@ Dipendenti
 com.safetyGame.desktop.view.Login
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/view/Login.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 Funzione 
 \begin_inset space ~
@@ -380,118 +427,6 @@ actionPerformed(ActionEvent e)
 \begin_layout Standard
 metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
  della grafica
-\lang english
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.Notifica
-\end_layout
-
-\begin_layout Description
-Funzione 
-\begin_inset space ~
-\end_inset
-
-
-\series medium
-
-\begin_inset Newline newline
-\end_inset
-
-Questa 
-\series default
-classe si occuperà di presentare al 
-\bar under
-Dipendente Autenticato 
-\bar default
-un popup che gli permetta di accettare o posticipare la visualizzazione
- di una domanda
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli 
-\begin_inset space ~
-\end_inset
-
-
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlNotifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Standard
-non sono stati ancora previsti degli attributi
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-+
-\series bold
-Notifica()
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-actionPerformed(ActionEvent e)
-\end_layout
-
-\begin_layout Standard
-metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
- della grafica
 \end_layout
 
 \begin_layout Standard
@@ -505,6 +440,53 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 
 \begin_layout Subsubsection
 com.safetyGame.desktop.view.Menu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/view/Menu.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -721,6 +703,165 @@ main(String args[])
 metodo che dovrà inizializzare l'oggetto grafico Menu, istanziare la connessione
  al Back-end, creare la System Tray, chiedere il login e comportarsi nel
  modo corretto nel caso di un successo di autenticazione
+\lang english
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.view.Notifica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/view/Notifica.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione 
+\begin_inset space ~
+\end_inset
+
+
+\series medium
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di presentare al 
+\bar under
+Dipendente Autenticato 
+\bar default
+un popup che gli permetta di accettare o posticipare la visualizzazione
+ di una domanda
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlNotifica
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+non sono stati ancora previsti degli attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++
+\series bold
+Notifica()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+actionPerformed(ActionEvent e)
+\end_layout
+
+\begin_layout Standard
+metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
+ della grafica
 \end_layout
 
 \begin_layout Standard
@@ -869,6 +1010,260 @@ Dipendente Autenticato
 \end_inset
 
 
+\lang english
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.view.ConnBack
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ConnBack.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di presentare al 
+\bar under
+Dipendente 
+\bar default
+e al 
+\bar under
+Dipendente Autenticato 
+\bar default
+tutta la serie di menù della System Tray che gli permetteranno di utilizzare
+ le varie funzioni previste
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlNotifica
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.DatiLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.Timer
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.Parser
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Domanda
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Punteggio
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+Non sono stati ancora previsti degli attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++ 
+\series bold
+ConnBack()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+login(String username, String password)
+\end_layout
+
+\begin_layout Standard
+metodo che chiamerà la funzione login del Back-end
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+logout(String username)
+\end_layout
+
+\begin_layout Standard
+metodo che chiamerà la funzione logout del Back-end
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+posticipa()
+\end_layout
+
+\begin_layout Standard
+metodo che chiamerà la funzione posticipa del Back-end
+\bar under
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+recupera(String username)
+\end_layout
+
+\begin_layout Standard
+metodo che chiamerà la funzione recupero password del 
+\bar under
+Dipendente
+\bar default
+ del Back-end
 \end_layout
 
 \begin_layout Standard
@@ -881,7 +1276,54 @@ Dipendente Autenticato
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.ControlLogin
+com.safetyGame.desktop.logic.ControlLogin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ControlLogin.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -1020,156 +1462,6 @@ metodo che richiamerà il connettore al Back-end e farà recuperare una password
  al 
 \bar under
 Dipendente
-\bar default
-\lang english
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.ControlNotifica
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa 
-\series default
-classe gestirà le informazioni date dall'oggetto grafico Notifica e si occuperà
- di mandare le corrette informazioni al Back-end eventualmente richiamando
- il web.
- Si occuperà inoltre di gestire il timer per sapere quando effettuare il
- popup.
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.view.Notifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-- String testo
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- ConnBack connessione
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-+
-\series bold
-ControlNotifica(String s, ConnBack b)
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi con i parametri passati
- per riferimento
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-posticipa()
-\end_layout
-
-\begin_layout Standard
-metodo che richiamerà il connettore al Back-end e gli farà posticipare la
- domanda
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-rispondi()
-\end_layout
-
-\begin_layout Standard
-metodo che richiamerà il browser per aprire il Front-end web con la domanda
- proposta
 \end_layout
 
 \begin_layout Standard
@@ -1182,7 +1474,54 @@ metodo che richiamerà il browser per aprire il Front-end web con la domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.ControlMenu
+com.safetyGame.desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ControlMenu.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -1383,6 +1722,202 @@ modificaDati()
 \begin_layout Standard
 metodo che richiamerà il browser per aprire il Front-end web con la pagina
  di modifica dei dati personali
+\lang english
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.logic.ControlNotifica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ControlNotifica.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe gestirà le informazioni date dall'oggetto grafico Notifica e si occuperà
+ di mandare le corrette informazioni al Back-end eventualmente richiamando
+ il web.
+ Si occuperà inoltre di gestire il timer per sapere quando effettuare il
+ popup.
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.view.Notifica
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.Timer
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- String testo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- ConnBack connessione
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++
+\series bold
+ControlNotifica(String s, ConnBack b)
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi con i parametri passati
+ per riferimento
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+posticipa()
+\end_layout
+
+\begin_layout Standard
+metodo che richiamerà il connettore al Back-end e gli farà posticipare la
+ domanda
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+rispondi()
+\end_layout
+
+\begin_layout Standard
+metodo che richiamerà il browser per aprire il Front-end web con la domanda
+ proposta
 \end_layout
 
 \begin_layout Standard
@@ -1395,7 +1930,442 @@ metodo che richiamerà il browser per aprire il Front-end web con la pagina
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.Timer
+com.safetyGame.desktop.logic.DatiLogin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ControlLogin.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe wrapper si occupa di ritornare in maniera più semplice e corretta
+ i valori contenuti nella classe desktop.condivisi.Login
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.view.Menu
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.view.Login
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Login l
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++ 
+\series bold
+DatiLogin(String username, String password)
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+getUsername()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna lo username
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+getPassword()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna la password
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+getLogin()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna l'oggetto Login da passare al Back-end
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.logic.Parser
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/Parser.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di recuperare i dati del server dell'azienda dal file
+ di testo dedicato.
+ Se il file non esiste, viene creato e viene richiesto all'
+\bar under
+Utente
+\bar default
+ di inserire un indirizzo 
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+N
+\series default
+on sono stati ancora previsti degli attributi
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
++ 
+\series bold
+Parser()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi e provare ad aprire il
+ file in lettura
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+leggi()
+\end_layout
+
+\begin_layout Standard
+metodo che servirà a leggere la stringa contenente l'indirizzo del database
+ dell'azienda
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+scrivi(String s)
+\end_layout
+
+\begin_layout Standard
+metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
+ da non doverlo richiedere ad ogni avvio del programma
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.logic.Timer
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/Timer.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -1597,507 +2567,6 @@ metodo che ritorna il tempo con cui è stato inizializzato l'oggetto
 
 \end_layout
 
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.DatiLogin
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa 
-\series default
-classe wrapper si occupa di ritornare in maniera più semplice e corretta
- i valori contenuti nella classe desktop.condivisi.Login
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Login
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.view.Menu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.view.Login
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-- Login l
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-+ 
-\series bold
-DatiLogin(String username, String password)
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-getUsername()
-\end_layout
-
-\begin_layout Standard
-metodo che ritorna lo username
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-getPassword()
-\end_layout
-
-\begin_layout Standard
-metodo che ritorna la password
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-getLogin()
-\end_layout
-
-\begin_layout Standard
-metodo che ritorna l'oggetto Login da passare al Back-end
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.Parser
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa 
-\series default
-classe si occuperà di recuperare i dati del server dell'azienda dal file
- di testo dedicato.
- Se il file non esiste, viene creato e viene richiesto all'
-\bar under
-Utente
-\bar default
- di inserire un indirizzo 
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-N
-\series default
-on sono stati ancora previsti degli attributi
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-+ 
-\series bold
-Parser()
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi e provare ad aprire il
- file in lettura
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-leggi()
-\end_layout
-
-\begin_layout Standard
-metodo che servirà a leggere la stringa contenente l'indirizzo del database
- dell'azienda
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-scrivi(String s)
-\end_layout
-
-\begin_layout Standard
-metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
- da non doverlo richiedere ad ogni avvio del programma
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.ConnBack
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa 
-\series default
-classe si occuperà di presentare al 
-\bar under
-Dipendente 
-\bar default
-e al 
-\bar under
-Dipendente Autenticato 
-\bar default
-tutta la serie di menù della System Tray che gli permetteranno di utilizzare
- le varie funzioni previste
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlNotifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.DatiLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Parser
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Login
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Domanda
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Punteggio
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Standard
-Non sono stati ancora previsti degli attributi
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-+ 
-\series bold
-ConnBack()
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-login(String username, String password)
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione login del Back-end
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-logout(String username)
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione logout del Back-end
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-posticipa()
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione posticipa del Back-end
-\bar under
-
-\begin_inset Newline newline
-\end_inset
-
-
-\bar default
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-recupera(String username)
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione recupero password del 
-\bar under
-Dipendente
-\bar default
- del Back-end
-\lang english
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Package com.safetyGame.desktop.condivisi
 \end_layout
@@ -2209,16 +2678,19 @@ gestisce correttamente i dati ricevuti e inviati al Back-end
 \end_inset
 
 
-\begin_inset Newline newline
+\lang english
+
+\begin_inset Newpage newpage
 \end_inset
 
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.condivisi.Domanda
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 placement H
 wide false
@@ -2226,14 +2698,34 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\lang english
-\begin_inset Caption
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
-\lang english
-Diagramma delle classi
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/condivisi/Domanda.png
+	scale 50
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
 \end_layout
 
 \end_inset
@@ -2244,6 +2736,95 @@ Diagramma delle classi
 \end_inset
 
 
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La 
+\series default
+funzione di questa classe è identica a quella della classe contenuta in
+ 
+\series bold
+com.safetyGame.back.condivisi.Domanda
+\series default
+, per ogni dubbio si faccia riferimento alla documentazione di quella classe
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Description
+
+\series medium
+Tutti 
+\series default
+gli attributi di questa classe sono identici a quelli della classe contenuta
+ in 
+\series bold
+com.safetyGame.back.condivisi.Domanda
+\series default
+, per ogni dubbio si faccia riferimento alla documentazione di quella classe
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+Tutti i metodi di questa classe sono identici a quelli della classe contenuta
+ in 
+\series bold
+com.safetyGame.back.condivisi.Domanda
+\series default
+, per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Standard
@@ -2256,7 +2837,54 @@ Diagramma delle classi
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.Login
+com.safetyGame.desktop.condivisi.Login
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/condivisi/Login.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -2352,105 +2980,6 @@ Tutti i metodi di questa classe sono identici a quelli della classe contenuta
 com.safetyGame.back.condivisi.Login
 \series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\lang english
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.view.Domanda
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-La 
-\series default
-funzione di questa classe è identica a quella della classe contenuta in
- 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
-
-\series medium
-Tutti 
-\series default
-gli attributi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-Tutti i metodi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
 
 \begin_layout Standard
@@ -2463,7 +2992,55 @@ com.safetyGame.back.condivisi.Domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.PunteggioPunteggio
+com.safetyGame.desktop.condivisi.Punteggio
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/condivisi/Punteggio.png
+	scale 75
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
