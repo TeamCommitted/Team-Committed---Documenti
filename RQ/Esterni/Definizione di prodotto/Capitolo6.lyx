@@ -206,61 +206,50 @@ Attività svolte e dati trattati:
  cui l'utente dovrà interagire.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 com.safetyGame.frontWeb.pagine.Login
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \series bold
-Funzione 
+Funzione: 
 \series default
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 Consente ad un 
 \bar under
 Utente
 \bar default
  di tipo Dipendente, Amministratore Azienda o Amministratore Sicurezza di
  effettuare il login.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
-File JSP che utilizzano la classe: 
-\end_layout
 
-\begin_layout Itemize
+\begin_inset Newline newline
+\end_inset
 
-\family typewriter
-login.jsp
-\family default
- 
+FIle JSP che implementano il componente
+\series default
+:login.jsp utilizza tale classe.
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 com.safetyGame.frontWeb.pagine.Menu
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \series bold
-Funzione 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Funzione: 
 \series default
 Mostra ad un 
 \bar under
@@ -271,44 +260,36 @@ Utente
  
 \series default
 per interagire con il sistema Safety-Game.
-\end_layout
-
-\begin_layout Standard
-
 \series bold
-File JSP che utilizzano la classe
+
+\begin_inset Newline newline
+\end_inset
+
+FIle JSP che implementano il componente
 \series default
- 
-\end_layout
+: user_page.jsp ed admin_page.jsp utilizzano tale classe.
+\series bold
 
-\begin_layout Itemize
+\begin_inset Newline newline
+\end_inset
 
-\family typewriter
-user_page.jsp 
-\end_layout
 
-\begin_layout Itemize
+\series default
 
-\family typewriter
-admin_page.jsp 
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 com.safetyGame.frontWeb.pagine.Notifica
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \series bold
-Funzione 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
- 
+Funzione: 
 \series default
 Mostra ad un 
 \bar under
@@ -316,65 +297,680 @@ Dipendente autenticato
 \bar default
  la notifica di una nuova domanda disponibile a cui rispondere.
  
-\end_layout
-
-\begin_layout Standard
-
 \series bold
-File JSP che utilizzano la classe
-\end_layout
 
-\begin_layout Itemize
+\begin_inset Newline newline
+\end_inset
 
-\family typewriter
-user_page.jsp 
-\family default
+FIle JSP che implementano il componente
+\series default
+:user_page.jsp utilizza tale classe.
+
 \series bold
  
+\series default
+
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 com.safetyGame.frontWeb.pagine.MostraDomanda
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \series bold
-Funzione 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Funzione: 
 \series default
 Si occupa di far visualizzare al 
 \bar under
 Dipendente
 \bar default
  la domanda appena richiesta.
- Implementato nella pagina nuovaDomanda.jsp 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-File JSP che utilizzano la classe
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-nuovaDomanda.jsp
-\family default
+ 
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
+FIle JSP che implementano il componente
+\series default
+:
+\series bold
+ 
+\series default
+nuovaDomanda.jsp utilizza tale classe.
+\end_layout
 
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Si occupa di far visualizzare le informazioni di un determinato dipendente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:admin_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.RecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.EsitoDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.frontWeb.control
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.Timer
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMenu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ConnHandler
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlNotifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDom
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlEsitoDom
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlRecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:
 \end_layout
 
 \end_body
