@@ -5771,7 +5771,41 @@ done l'output.
 \series bold
 Esito
 \series default
-:nessun errore riscontrato.
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDomandeDTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneDomande
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di gestione delle interazioni tra un dipendente ed una domanda
+ del sistema.
+ Nel dettaglio si andranno a verificare le funzioni di ottenimento di una
+ domanda, di risposta ad una domanda e di posticipo di una domanda.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
 \end_layout
 
 \end_body
