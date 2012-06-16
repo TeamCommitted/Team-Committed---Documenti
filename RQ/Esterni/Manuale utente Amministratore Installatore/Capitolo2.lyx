@@ -195,7 +195,116 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Popolazione DB
+Popolazione DB Domande
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Installazione database Azienda
+\end_layout
+
+\begin_layout Standard
+L'Amministratore Installatore potrà installare il database Azienda da noi
+ fornito in un qualsiasi server a discrezione delle ditte stesse.
+ Anche per la buona riuscita di tale operazione, come per la precedente,
+ si presuppone che l'Amministratore Installatore sia in possesso di sufficienti
+ conoscenze utili all'installazione e popolamento di un database MySQL.
+\end_layout
+
+\begin_layout Standard
+Risulta essere necessario che l'Amministratore Installatore verifichi il
+ buon funzionamento del servizio MySQL nel server scelto dall'azienda.
+ Una volta accertata questa condizione può avere inizio l'installazione
+ del database Azienda.
+\end_layout
+
+\begin_layout Standard
+Innannzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
+ la struttura delle tabelle da noi fornita caricando il file 
+\emph on
+azienda.sql
+\emph default
+ come mostrato in 
+\emph on
+Figura 4
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/instDbAz-ok.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Creazione DB Azienda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se le procedure appena elencate non hanno riportato errori, allora l'Amministrat
+ore Installatore può procedere al popolamento delle tabelle caricando il
+ file 
+\emph on
+popAz.sql 
+\emph default
+come in 
+\emph on
+Figura 5
+\emph default
+, terminando così la procedura di installazione del DB Azienda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/popAz-ok.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Popolazione DB Azienda
 \end_layout
 
 \end_inset
