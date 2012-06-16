@@ -81,8 +81,12 @@ Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
  inerenti la formattazione del testo, effettuando le dovute procedure per
  la correzione degli errori rilevati.
  Nel dettaglio, i documenti sono stati revisionato effettuando quindi il
- controllo ortografico tramite Aspell, il plugin per LyX, mentre il controllo
- grammaticale, sintattico e lessicale è avvenuto tramite 
+ controllo ortografico tramite Aspell, il plugin per 
+\bar under
+LyX
+\bar default
+, mentre il controllo grammaticale, sintattico e lessicale è avvenuto tramite
+ 
 \lang interlingua
 un'accurata
 \lang italian
@@ -112,9 +116,13 @@ Verifica della documentazione
 Anche in tale fase è stata effettuata un'accurata analisi statica sui documenti
  in maniera simile a quanto avvenuto nella fase di Revisione dei Requisiti.
  Una particolare attenzione è stata però posta nella fase di verifica dei
- diagrammi UML in quanto la gran parte degli errori e delle imprecisioni
- rilevate nei documenti presentati durante la precedente revisione erano
- concentrati in tale sezione.
+ diagrammi 
+\bar under
+UML
+\bar default
+ in quanto la gran parte degli errori e delle imprecisioni rilevate nei
+ documenti presentati durante la precedente revisione erano concentrati
+ in tale sezione.
  Nei documenti di Specifica Tecnica e Piano di Qualifica è poi stato fondamental
 e effetuare un'adeguata ed attenta fase di tracciamento.
  Come in precedenza sono stati infine utilizzati i 
