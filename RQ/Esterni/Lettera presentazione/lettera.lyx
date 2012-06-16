@@ -246,11 +246,11 @@ Manuale_Installatore_V1.0.pdf
 \begin_layout Itemize
 
 \series bold
-Manuale Utente Android - V1.0
+Manuali Utente - V1.0
 \series default
  (allegato 
 \family typewriter
-Manuale_Utente_Android_V1.0.pdf
+Manuali_Utente_V1.0.zip
 \family default
 )
 \end_layout
@@ -258,11 +258,11 @@ Manuale_Utente_Android_V1.0.pdf
 \begin_layout Itemize
 
 \series bold
-Manuali Utente e Amministratore Azienda Front-end Web - V1.0
+Manuale Amministratore Azienda - V1.0
 \series default
  (allegato 
 \family typewriter
-Manuali_web.zip
+Manuale_Amministratore_Azienda_V1.0.zip
 \family default
 )
 \end_layout
@@ -320,8 +320,8 @@ Si fa presente che tutti i manuali forniti attualmente subiranno aggiornamenti
  relativi alle funzionalità, che verranno successivamente implementate,
  e all'aspetto grafico.
  Verrà inotre fornito per la successiva consegna il manuale utente relativo
- all'applicazione desktop, il manuale per l'Amministratore Sicurezza relativo
- all'applicativo web e il manuale utente relativo all'applicazione mobile.
+ all'applicazione desktop e il manuale per l'Amministratore Sicurezza relativo
+ all'applicativo web.
 \end_layout
 
 \begin_layout Standard
@@ -402,8 +402,8 @@ status open
 ./Documenti/Esterni/Analisi_dei_Requisiti_V3.0.pdf, ./Documenti/Esterni/Definizione_
 di_Prodotto_V1.0.pdf, ./Documenti/Esterni/Elementi_di_Gamification_V1.0.pdf,
  ./Documenti/Esterni/Glossario_V3.0.pdf, ./Documenti/Esterni/Manuale_Installatore_V1.
-0.pdf, ./Documenti/Esterno/Manuale_Utente_Android_V1.0.pdf, ./Documenti/Esterno/Manua
-li_web.zip, ./Documenti/Interni/Norme_di_Progetto_V3.0.pdf,
+0.pdf, ./Documenti/Esterno/Manuali_utente.zip, ./Documenti/Esterno/Manuale_Amministr
+atore_Azienda.zip, ./Documenti/Interni/Norme_di_Progetto_V3.0.pdf,
 \series bold
  
 \series default

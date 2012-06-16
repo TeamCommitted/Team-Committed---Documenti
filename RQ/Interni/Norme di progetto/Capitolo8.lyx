@@ -156,37 +156,37 @@ status open
 
 \begin_layout Plain Layout
 
- * +----------+------------+---------------------
+ * +-----------+-------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
 
- * |   Date   | Programmer | Changes
+ * |   Date    | Programmer  | Changes
 \end_layout
 
 \begin_layout Plain Layout
 
- * +----------+------------+---------------------
+ * +-----------+-------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
 
- * | AAAAMMGG | NomeCognome| - [label]method1
+ * | AAAAMMGG  | Nome Cognome| - [label]method1
 \end_layout
 
 \begin_layout Plain Layout
 
- * |          |            | - [label]method2
+ * |           |             | - [label]method2
 \end_layout
 
 \begin_layout Plain Layout
 
- * |          |            | - ....
+ * |           |             | - ....
 \end_layout
 
 \begin_layout Plain Layout
 
- * +----------+------------+---------------------
+ * +-----------+-------------+---------------------
 \end_layout
 
 \begin_layout Plain Layout
@@ -265,8 +265,7 @@ rappresenta la tabella di avanzamento del file.
 \series bold
 NomeCognome:
 \series default
- dovrà contenere le prime 4 lettere del nome seguite dalle prime 4 lettere
- del cognome
+ dovrà contenere il nome completo e il cognome completo
 \end_layout
 
 \begin_layout Itemize
