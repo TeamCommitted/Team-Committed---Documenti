@@ -424,7 +424,7 @@ reference "fig:Architettura-generale-dell'inter-1"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -459,6 +459,207 @@ name "fig:Architettura-generale-dell'inter-1"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Incorpora l'intero sistema SafetyGame
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Desktop
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop.view
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Definisce ed implementa l'interfaccia grafica usufruibile dagli utenti su
+ di un dispositivo desktop
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop.logic
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Si occupa di controllare e gestire i dati che riceve in ingresso dall'interazion
+e con l'utente tramite interfaccia grafica e di mantenere quest'ultima aggiornat
+a
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Web 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb.pagine
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Costituisce la parte del sistema che definisce ed implementa l'interfaccia
+ web usufruibile dagli utenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb.control
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Costituisce la parte del sistema che si occupa di controllare e gestire
+ i dati che riceve in ingresso l'applicazione dall'interazione con l'utente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Mobile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.view
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene tutte le classi che definiscono la grafica dell'applicazione Android
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.utils
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene le classi che comunicano con le API del server
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.condivisi
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Package che contiene tutti i tipi di dato non nativi usati dall'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati alla creazione dell'intero back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.connection
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati all'interfacciamento dei vari front-end con
+ il back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.controller
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati al controllo dei dati immessi nei vari front-end
+ e del loro eventuale indirizzamento verso l'acces-tier
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.access
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene tutte le classi che si occupano di eseguire le operazioni che il
+ controller-tier chiede che vengano eseguite sui database aziendali e centrali
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.condivisi
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Contiene le classi che conterranno le informazioni che dovranno essere condivise
+ fra i vari strati del back-end
 \end_layout
 
 \end_body
