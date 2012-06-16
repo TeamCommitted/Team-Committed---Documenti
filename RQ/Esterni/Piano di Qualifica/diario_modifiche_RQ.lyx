@@ -141,7 +141,13 @@ hline
 
 	
 \backslash
-emph{Approvato.} & Giacomo Quadrio & 2012/06/16 & V3.0
+emph{Approvato.} & Giacomo Quadrio & 2012/06/16 & V3.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -149,7 +155,7 @@ emph{Approvato.} & Giacomo Quadrio & 2012/06/16 & V3.0
 	
 \backslash
 emph{Verificato.
- In attesa di approvazione.} & Lorenzo Braghetto & 2012/06/15 &V2.3 
+ In attesa di approvazione.} & Lorenzo Braghetto & 2012/06/15 & V2.3 
 \backslash
 
 \backslash

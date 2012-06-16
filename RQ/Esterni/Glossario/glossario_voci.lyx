@@ -2366,6 +2366,13 @@ item Scansione di tag RFID
 
 \begin_layout Plain Layout
 
+									
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 end{flushright}

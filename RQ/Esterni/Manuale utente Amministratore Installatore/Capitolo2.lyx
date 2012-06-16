@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -79,10 +80,10 @@ Una volta accertatosi che tale sistema funziona correttamente, può procedere
 \end_layout
 
 \begin_layout Standard
-Innannzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
+Innanzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
  la struttura delle tabelle da noi fornita.
  Si suppone che tale amministratore abbia sufficienti conoscenze del linguaggio
- mysql e non avrà difficoltà nel caricare il file 
+ MySQL e non avrà difficoltà nel caricare il file 
 \emph on
 domande.sql
 \emph default
@@ -228,7 +229,7 @@ Risulta essere necessario che l'Amministratore Installatore verifichi il
 \end_layout
 
 \begin_layout Standard
-Innannzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
+Innanzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
  la struttura delle tabelle da noi fornita caricando il file 
 \emph on
 azienda.sql
@@ -318,12 +319,12 @@ Popolazione DB Azienda
 \end_layout
 
 \begin_layout Subsection
-Installazione e avviamento Back-end
+Installazione e avviamento Back-End
 \end_layout
 
 \begin_layout Standard
 L'Amministratore Installatore deve accertarsi che i permessi sul server
- dove verrà installato il Back-end siano settati propriamente.
+ dove verrà installato il Back-End siano settati propriamente.
  L'applicazione deve avere la possibilità di scrivere e leggere, pienamente,
  nelle proprie cartelle.
  
@@ -331,12 +332,12 @@ L'Amministratore Installatore deve accertarsi che i permessi sul server
 
 \begin_layout Standard
 L'installazione di questa parte del sistema richiede il possesso dell'eseguibile
- correlato dalle varie librerie necessarie per la corretta compilazion ed
- esecuzione.
+ correlato dalle varie librerie necessarie per la corretta compilazione
+ ed esecuzione.
 \end_layout
 
 \begin_layout Standard
-Una volta che l'eseguibile è stato posizionato correttamente il Back-end
+Una volta che l'eseguibile è stato posizionato correttamente il Back-End
  risulta essere pronto per l'avvio dell'installazione.
  Durante questa procedura dovranno essere inseriti gli indirizzi dei database
  delle domande e dell'azienda.
@@ -356,7 +357,7 @@ Installazione Front-end web
 
 \begin_layout Standard
 L'Amministratore Installatore deve posizionare i file che compongono l'applicazi
-one web nelle cartelle appropriate perchè queste possano essere accedute
+one web nelle cartelle appropriate perché queste possano essere accedute
  con i corretti diritti dai vari tipi di Utenti.
  Deve inoltre assicurarsi, grazie alle proprie competenze, che i servizi
  web offerti dal server ospitante funzionino correttamente.
