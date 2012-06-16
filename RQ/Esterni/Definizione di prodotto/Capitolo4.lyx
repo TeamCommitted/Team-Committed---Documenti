@@ -832,7 +832,7 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- static WebConnection webConnection = null
+- static WebConnection webConnection
 \begin_inset Newline newline
 \end_inset
 
@@ -850,12 +850,11 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneBadgeAS(DAOBadge accessB)
++ Inizializzatore()
 \end_layout
 
 \begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
+Crea tutto il Back-End
 \begin_inset Newline newline
 \end_inset
 
@@ -865,26 +864,25 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ ArrayList<Badge> getBadgesAS()
++ WebConnection getWeb()
 \end_layout
 
 \begin_layout Standard
-Metodo per ottenere tutti i badge possibili.
-\end_layout
+Ritorna il riferimento all'oggetto statico WebConnection
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Dovrà interrogare l'
-\emph on
-Access-Tier 
-\emph default
-affinché ritorni un array con gli oggetti 
-\emph on
-Badge
+
+\begin_inset Newline newline
+\end_inset
+
+
 \series bold
- 
-\series default
-\emph default
-che rappresenteranno tutti i badge presenti nel database.
++ static ApplicazioniConnection getApp()
+\end_layout
+
+\begin_layout Standard
+Ritorna il riferimento all'oggetto statico ApplicazioniConnection
 \end_layout
 
 \begin_layout Standard
