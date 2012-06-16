@@ -2302,6 +2302,81 @@ end{flushright}
 \end_layout
 
 \begin_layout Section*
+Q
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\backslash
+emph{Quest}} 
+\backslash
+
+\backslash
+ 
+\backslash
+rule[-0.1cm]{12cm}{0.01cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Tipologia di 
+\backslash
+uline{Domanda} che non corrisponde alla tipologia di 
+\backslash
+emph{domanda classica}.
+ Ad esempio: 
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Plain Layout
+
+									
+\backslash
+item Scansione codici a barre
+\end_layout
+
+\begin_layout Plain Layout
+
+									
+\backslash
+item Scansione di codici QR
+\end_layout
+
+\begin_layout Plain Layout
+
+									
+\backslash
+item Scansione di tag RFID
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 R
 \end_layout
 

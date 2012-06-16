@@ -143,21 +143,54 @@ TeamCommitted
 \end_inset
 
  intende comunicarLe ufficialmente l'intenzione di partecipare alla prossima
- Revisione di Progettazione.
+ Revisione di Qualifica.
 \end_layout
 
 \begin_layout Standard
-La richiesta è corredata dai seguenti documenti:
+Il materiale consegnato è diviso come segue:
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Analisi dei Requisiti - V2.0 
+Documenti:
+\series default
+ cartella contenente la documentazione prodotta
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Source
+\series default
+: cartella contenente i sorgenti del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Viene allegata la seguente documentazione:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei Requisiti - V3.0 
 \series default
 (allegato 
 \family typewriter
-Analisi_dei_Requisiti_V2.0.pdf
+Analisi_dei_Requisiti_V3.0.pdf
 \family default
 )
 \end_layout
@@ -165,11 +198,11 @@ Analisi_dei_Requisiti_V2.0.pdf
 \begin_layout Itemize
 
 \series bold
-Glossario - V1.0 
+Definizione di prodotto - V1.0 
 \series default
 (allegato 
 \family typewriter
-Glossario_V2.0.pdf
+Definizione_di_Prodotto_V1.0.pdf
 \family default
 )
 \end_layout
@@ -177,11 +210,11 @@ Glossario_V2.0.pdf
 \begin_layout Itemize
 
 \series bold
-Norme di Progetto - V2.0
+Elementi di Gamification - V1.0
 \series default
  (allegato 
 \family typewriter
-Norme_di_Progetto_V2.0.pdf
+Elementi_di_Gamification_V1.0.pdf
 \family default
 )
 \end_layout
@@ -189,11 +222,11 @@ Norme_di_Progetto_V2.0.pdf
 \begin_layout Itemize
 
 \series bold
-Piano di Progetto - V2.0 
+Glossario - V3.0 
 \series default
 (allegato 
 \family typewriter
-Piano_di_Progetto_V2.0.pdf
+Glossario_V3.0.pdf
 \family default
 )
 \end_layout
@@ -201,11 +234,23 @@ Piano_di_Progetto_V2.0.pdf
 \begin_layout Itemize
 
 \series bold
-Piano di Qualifica - V2.0
+Manuale Installatore - V1.0 
+\series default
+(allegato 
+\family typewriter
+Manuale_Installatore_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuale Utente Android - V1.0
 \series default
  (allegato 
 \family typewriter
-Piano_di_Qualifica_V2.0.pdf
+Manuale_Utente_Android_V1.0.pdf
 \family default
 )
 \end_layout
@@ -213,11 +258,11 @@ Piano_di_Qualifica_V2.0.pdf
 \begin_layout Itemize
 
 \series bold
-Specifica Tecnica - V1.0 
+Manuali Utente e Amministratore Azienda Front-end Web - V1.0
 \series default
-(allegato 
+ (allegato 
 \family typewriter
-Specifica_Tecnica_V1.0.pdf
+Manuali_web.zip
 \family default
 )
 \end_layout
@@ -225,62 +270,58 @@ Specifica_Tecnica_V1.0.pdf
 \begin_layout Itemize
 
 \series bold
-Verbale incontro proponente 2012/01/26 
+Norme di Progetto - V3.0
+\series default
+ (allegato 
+\family typewriter
+Norme_di_Progetto_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto - V3.0 
 \series default
 (allegato 
 \family typewriter
-verbale20120126.pdf
+Piano_di_Progetto_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica - V3.0
+\series default
+ (allegato 
+\family typewriter
+Piano_di_Qualifica_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica Tecnica - V2.0 
+\series default
+(allegato 
+\family typewriter
+Specifica_Tecnica_V2.0.pdf
 \family default
 )
 \end_layout
 
 \begin_layout Standard
-I dettagli architetturali del prodotto sono trattati in maniera approfondita
- nei documenti allegati.
-\end_layout
-
-\begin_layout Standard
-La informiamo inoltre che il prezzo consuntivato per la fase di Progettazione
- Architetturale è di 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-euro
-\end_layout
-
-\end_inset
-
-4187.00; di conseguenza il preventivo è stato aggiornato a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-euro
-\end_layout
-
-\end_inset
-
- 13381.00, con un Vostro risparmio di 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-euro
-\end_layout
-
-\end_inset
-
-30.00.
+Si fa presente che tutti i manuali forniti attualmente subiranno aggiornamenti
+ relativi alle funzionalità, che verranno successivamente implementate,
+ e all'aspetto grafico.
+ Verrà inotre fornito per la successiva consegna il manuale utente relativo
+ all'applicazione desktop e il manuale per l'Amministratore Sicurezza relativo
+ all'applicativo web.
 \end_layout
 
 \begin_layout Standard
@@ -288,10 +329,6 @@ euro
 \end_inset
 
 Rimaniamo a Sua completa disposizione per evenutali chiarimenti.
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -327,7 +364,7 @@ flushright{
 \begin_layout Standard
 
 \emph on
-Massimo Dalla Pietà
+Alessandro Cornaglia
 \begin_inset Newline newline
 \end_inset
 
@@ -337,7 +374,7 @@ Responsabile del Team Committed
 
 
 \begin_inset Graphics
-	filename img/Cetto.jpg
+	filename img/Corni.jpg
 	scale 10
 
 \end_inset
@@ -362,24 +399,23 @@ status open
 \begin_layout encl
 
 \family typewriter
-./Esterni/Analisi_dei_Requisiti_V2.0.pdf, ./Esterni/Glossario_V2.0.pdf, ./Interni/Norme
-_di_Progetto_V2.0.pdf,
+./Documenti/Esterni/Analisi_dei_Requisiti_V3.0.pdf, ./Documenti/Esterni/Definizione_
+di_Prodotto_V1.0.pdf, ./Documenti/Esterni/Elementi_di_Gamification_V1.0.pdf,
+ ./Documenti/Esterni/Glossario_V3.0.pdf, ./Documenti/Esterni/Manuale_Installatore_V1.
+0.pdf, ./Documenti/Esterno/Manuale_Utente_Android_V1.0.pdf, ./Documenti/Esterno/Manua
+li_web.zip, ./Documenti/Interni/Norme_di_Progetto_V3.0.pdf,
 \series bold
  
 \series default
-./Esterni/Piano_di_Progetto_V2.0.pdf
+./Documenti/Esterni/Piano_di_Progetto_V3.0.pdf
 \series bold
 , 
 \series default
-./Esterni/Piano_di_Qualifica_V2.0.pdf
+./Documenti/Esterni/Piano_di_Qualifica_V3.0.pdf
 \series bold
 , 
 \series default
-./Esterni/Specifica_Tecnica_V1.0.pdf
-\series bold
-, 
-\series default
-./Esterni/verbale20120126.pdf
+./Documenti/Esterni/Specifica_Tecnica_V2.0.pdf, ./Source.zip
 \end_layout
 
 \end_body
