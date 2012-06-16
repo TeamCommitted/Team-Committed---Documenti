@@ -350,5 +350,17 @@ Se durante queste procedure non si verificano errori allora l'installazione
  e l'avviamento possono considerarsi concluse con successo.
 \end_layout
 
+\begin_layout Subsection
+Installazione Front-end web
+\end_layout
+
+\begin_layout Standard
+L'Amministratore Installatore deve posizionare i file che compongono l'applicazi
+one web nelle cartelle appropriate perchè queste possano essere accedute
+ con i corretti diritti dai vari tipi di Utenti.
+ Deve inoltre assicurarsi, grazie alle proprie competenze, che i servizi
+ web offerti dal server ospitante funzionino correttamente.
+\end_layout
+
 \end_body
 \end_document
