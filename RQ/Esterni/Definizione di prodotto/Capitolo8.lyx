@@ -330,6 +330,10 @@ DT.V& Notifica& RFOB 6
 \backslash
 
 \backslash
+ && RFOB 13 
+\backslash
+
+\backslash
  && RQOB 1 
 \backslash
 
@@ -2067,7 +2071,15 @@ BK.CONT & GestioneDipendentiAA & RFOB 11
 \backslash
 
 \backslash
- && ROFB 19.2 
+&& ROFB 19.2 
+\backslash
+
+\backslash
+ && ROFB 19.2.1 
+\backslash
+
+\backslash
+ && ROFB 19.2.2 
 \backslash
 
 \backslash
