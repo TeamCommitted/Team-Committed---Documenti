@@ -317,5 +317,38 @@ Popolazione DB Azienda
 
 \end_layout
 
+\begin_layout Subsection
+Installazione e avviamento Back-end
+\end_layout
+
+\begin_layout Standard
+L'Amministratore Installatore deve accertarsi che i permessi sul server
+ dove verrà installato il Back-end siano settati propriamente.
+ L'applicazione deve avere la possibilità di scrivere e leggere, pienamente,
+ nelle proprie cartelle.
+ 
+\end_layout
+
+\begin_layout Standard
+L'installazione di questa parte del sistema richiede il possesso dell'eseguibile
+ correlato dalle varie librerie necessarie per la corretta compilazion ed
+ esecuzione.
+\end_layout
+
+\begin_layout Standard
+Una volta che l'eseguibile è stato posizionato correttamente il Back-end
+ risulta essere pronto per l'avvio dell'installazione.
+ Durante questa procedura dovranno essere inseriti gli indirizzi dei database
+ delle domande e dell'azienda.
+ Una volta inseriti questi parametri l'installazione avverrà in maniera
+ automatica istanziando tutte le componenti necessarie all'avviamento.
+ 
+\end_layout
+
+\begin_layout Standard
+Se durante queste procedure non si verificano errori allora l'installazione
+ e l'avviamento possono considerarsi concluse con successo.
+\end_layout
+
 \end_body
 \end_document
