@@ -136,6 +136,103 @@ Package com.safetyGame.mobile.View
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/mobile-view generale.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com
+\emph default
+\SpecialChar \-
+
+\emph on
+.
+\emph default
+\SpecialChar \-
+
+\emph on
+sa
+\emph default
+\SpecialChar \-
+
+\emph on
+fe
+\emph default
+\SpecialChar \-
+
+\emph on
+ty
+\emph default
+\SpecialChar \-
+
+\emph on
+Ga
+\emph default
+\SpecialChar \-
+
+\emph on
+me
+\emph default
+\SpecialChar \-
+
+\emph on
+.\SpecialChar \-
+mobile.View
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
@@ -200,6 +297,53 @@ Attività svolte e dati trattati:
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DashboardActivity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_DashboardActivity.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -338,6 +482,54 @@ Quindi dovranno essere ridefiniti le azioni di pressione dei pulsanti affinché
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DashboardLayout
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_DashboardLayout.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -565,6 +757,54 @@ Dovrà provare calcolando ogni possibile combinazione di righe e colonne,
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_DatiActivity.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -903,6 +1143,54 @@ OK
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.View.DomandaActivity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_DomandaActivity.png
+	scale 75
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1352,6 +1640,53 @@ Dovrà inserire all'interno dell'interfaccia grafica il testo della domanda
 com.safetyGame.mobile.View.LoginActivity
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_LoginActivity.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 
 \series bold
@@ -1693,6 +2028,53 @@ OK
 com.safetyGame.mobile.View.PunteggiActivity
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_PunteggioActivity.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 
 \series bold
@@ -2017,6 +2399,54 @@ Nel caso ci siano problemi, dovrà far visualizzare un messaggio d'errore.
 com.safetyGame.mobile.View.TimerNotifica
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/View/Mobile_TimerNotifica.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 
 \series bold
@@ -2239,6 +2669,102 @@ Package com.safetyGame.mobile.Utils
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/M-U.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com
+\emph default
+\SpecialChar \-
+
+\emph on
+.
+\emph default
+\SpecialChar \-
+
+\emph on
+sa
+\emph default
+\SpecialChar \-
+
+\emph on
+fe
+\emph default
+\SpecialChar \-
+
+\emph on
+ty
+\emph default
+\SpecialChar \-
+
+\emph on
+Ga
+\emph default
+\SpecialChar \-
+
+\emph on
+me
+\emph default
+\SpecialChar \-
+
+\emph on
+.mobile.Utils
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
@@ -2283,6 +2809,54 @@ Attività svolte e dati trattati:
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.Utils.BootReceiver
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Utils/Mobile_BootReceiver.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2362,6 +2936,54 @@ Metodo chiamato all'inizializzazione della classe, dovrà connettere al contator
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Utils/Mobile_ConnectionUtils.png
+	scale 66
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -2509,6 +3131,54 @@ root
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.Utils.IntentIntegrator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Utils/Mobile_IntentIntegrator.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -2937,6 +3607,53 @@ com.safetyGame.mobile.Utils.IntentResult
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Utils/Mobile_InsertResult.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Funzione 
@@ -3099,6 +3816,102 @@ Package com.safetyGame.mobile.condivisi
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/M-Cond.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com
+\emph default
+\SpecialChar \-
+
+\emph on
+.
+\emph default
+\SpecialChar \-
+
+\emph on
+sa
+\emph default
+\SpecialChar \-
+
+\emph on
+fe
+\emph default
+\SpecialChar \-
+
+\emph on
+ty
+\emph default
+\SpecialChar \-
+
+\emph on
+Ga
+\emph default
+\SpecialChar \-
+
+\emph on
+me
+\emph default
+\SpecialChar \-
+
+\emph on
+.mobile.condivisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzionamento del componente:
@@ -3134,6 +3947,53 @@ Attività svolte e dati trattati:
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.condivisi.Dati
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Condivisi/Mobile_Dati.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -3258,6 +4118,53 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.condivisi.Domanda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Condivisi/Mobile_Domanda.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -3414,6 +4321,53 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.condivisi.Punteggi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Condivisi/Mobile_Punteggi.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -3590,6 +4544,53 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 
 \begin_layout Subsubsection
 com.safetyGame.mobile.condivisi.Quest
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Mobile/Condivisi/Mobile_Quest.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
