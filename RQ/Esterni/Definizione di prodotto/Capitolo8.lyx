@@ -330,6 +330,10 @@ DT.V& Notifica& RFOB 6
 \backslash
 
 \backslash
+ && RFOB 13 
+\backslash
+
+\backslash
  && RQOB 1 
 \backslash
 
@@ -910,7 +914,7 @@ hline
 
 \begin_layout Plain Layout
 
-MB.V & DomandaActivity.QuestTask & RFOB 7 
+MB.V & DomandaActivity.QuestTask & RFD 9.1.2 
 \backslash
 
 \backslash
@@ -1011,6 +1015,14 @@ hline
 \begin_layout Plain Layout
 
 MB.V & LoginActivity & RFOB 4 
+\backslash
+
+\backslash
+ && RFOB 4.1 
+\backslash
+
+\backslash
+ && RFOB 4.1.1 
 \backslash
 
 \backslash
@@ -1307,7 +1319,7 @@ MB.U & IntentIntegrator & RFOB 9.1
 \backslash
 
 \backslash
- && ROFB 9.1.1 
+ && ROFB 9.1.2 
 \backslash
 
 \backslash
@@ -1322,7 +1334,7 @@ MB.U & IntentResult & RFOB 9.1
 \backslash
 
 \backslash
- && ROFB 9.1.1 
+ && ROFB 9.1.2 
 \backslash
 
 \backslash
@@ -1364,14 +1376,7 @@ MB.COND & Dati & RFOB 5
 \backslash
 
 \backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-MB.COND & Dati & RFOB 10 
+ && RFOB 10 
 \backslash
 
 \backslash
@@ -1452,7 +1457,7 @@ hline
 
 \begin_layout Plain Layout
 
-MB.COND & Quest & RFOB 15.1 
+MB.COND & Quest & RFD 9.1.2 
 \backslash
 
 \backslash
@@ -2066,7 +2071,15 @@ BK.CONT & GestioneDipendentiAA & RFOB 11
 \backslash
 
 \backslash
- && ROFB 19.2 
+&& ROFB 19.2 
+\backslash
+
+\backslash
+ && ROFB 19.2.1 
+\backslash
+
+\backslash
+ && ROFB 19.2.2 
 \backslash
 
 \backslash
@@ -2398,19 +2411,19 @@ BK.A & SqlDAODipendenti & RFOB 11
 \backslash
 
 \backslash
- && RFOB 14 
-\backslash
-
-\backslash
- && RFOB 14.1 
-\backslash
-
-\backslash
  && RFOB 12 
 \backslash
 
 \backslash
  && RFOB 12.1 
+\backslash
+
+\backslash
+ && RFOB 14 
+\backslash
+
+\backslash
+ && RFOB 14.1 
 \backslash
 
 \backslash
@@ -2553,19 +2566,19 @@ BK.A & DAODipendenti & RFOB 11
 \backslash
 
 \backslash
- && RFOB 14 
-\backslash
-
-\backslash
- && RFOB 14.1 
-\backslash
-
-\backslash
  && RFOB 12 
 \backslash
 
 \backslash
  && RFOB 12.1 
+\backslash
+
+\backslash
+ && RFOB 14 
+\backslash
+
+\backslash
+ && RFOB 14.1 
 \backslash
 
 \backslash
@@ -2769,19 +2782,19 @@ BK.COND & Dipendente & RFOB 11
 \backslash
 
 \backslash
- && RFOB 14 
-\backslash
-
-\backslash
- && RFOB 14.1 
-\backslash
-
-\backslash
  && RFOB 12 
 \backslash
 
 \backslash
  && RFOB 12.1 
+\backslash
+
+\backslash
+ && RFOB 14 
+\backslash
+
+\backslash
+ && RFOB 14.1 
 \backslash
 
 \backslash
