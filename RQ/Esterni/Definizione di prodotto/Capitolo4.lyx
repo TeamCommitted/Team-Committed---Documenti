@@ -91,7 +91,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename img/BackEnd.png
-	scale 42.5
+	scale 40
 
 \end_inset
 
@@ -112,16 +112,9 @@ Back-end, diagramma dei package
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -132,6 +125,770 @@ status open
 end{center}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ contiene gli oggetti deputati alla creazione dell'intero back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ crea le classi dei package
+\series bold
+ 
+\series default
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.con
+\series bold
+\SpecialChar \-
+
+\series default
+nec
+\series bold
+\SpecialChar \-
+
+\series default
+tion,
+\series bold
+ 
+\series default
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.controller,
+\series bold
+ 
+\series default
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.access
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ viene utilizzato dal Front-end web per recuperare il puntatore alla classe
+ back.connection.WebConnection e dal Front-end Mobile per recuperare il puntatore
+\emph on
+ 
+\emph default
+alla classe back.connection.ApplicationConnection
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
+Attività svolte e dati trattati:
+\series default
+ fa da istanziatore del back-end
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+sa
+\series bold
+\SpecialChar \-
+
+\series default
+fe
+\series bold
+\SpecialChar \-
+
+\series default
+ty
+\series bold
+\SpecialChar \-
+
+\series default
+Ga
+\series bold
+\SpecialChar \-
+
+\series default
+me
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+\SpecialChar \-
+
+\series default
+back
+\series bold
+\SpecialChar \-
+
+\series default
+.
+\series bold
+Inizializzatore
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe si occuperà di istanziare l'intero Back-end e di fornire i
+ puntatori alle classi back.connection.WebConnection e back.connection.ApplicationCo
+nnection
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.View.checkLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.View.checkRisposta
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.View.nuovaDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.View.userPage
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.connection.WebConnection
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.connection.ApplicationConnection
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeAS
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneBadgeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDipendentiD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeAS
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDomandeD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestionePunteggiAA
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestionePunteggiD
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneRecupero
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOBadge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAODomande
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOFactory
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.DAOPunteggi
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.Indirizzo
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAOBadge
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAODomande
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAOFactory
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAOLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.SqlDAOPunteggi
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.UpdateLog
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Indirizzo indirizzoAz 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Indirizzo indirizzoDom
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAODipendenti daoDipendenti 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAOPunteggi daoPunteggi 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAOLogin daoLogin 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- UpdateLog updateLog 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAODomande daoDomande 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- DAOBadge daoBadge
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneRecupero gestioneRecupero 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiD gestionePunteggiD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiAA gestionePunteggiAA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLog gestioneLog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLogin gestioneLogin 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeD gestioneBadgeD 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDomandeD gestioneDomandeD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDomandeAS gestioneDomandeAS 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiD gestioneDipendentiD
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiAA gestioneDipendentiAA 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeAS gestioneBadgeAS 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+# GestioneDati gestioneDati 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- static WebConnection webConnection = null
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- static ApplicazioniConnection appConnection
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ GestioneBadgeAS(DAOBadge accessB)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<Badge> getBadgesAS()
+\end_layout
+
+\begin_layout Standard
+Metodo per ottenere tutti i badge possibili.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier 
+\emph default
+affinché ritorni un array con gli oggetti 
+\emph on
+Badge
+\series bold
+ 
+\series default
+\emph default
+che rappresenteranno tutti i badge presenti nel database.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -6975,7 +7732,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- Indirizzo serverAzienda;
+- Indirizzo serverAzienda
 \end_layout
 
 \begin_layout Subsection*
@@ -7549,7 +8306,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- Indirizzo serverAzienda;
+- Indirizzo serverAzienda
 \end_layout
 
 \begin_layout Subsection*
@@ -8147,7 +8904,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- Indirizzo serverDomande;
+- Indirizzo serverDomande
 \begin_inset Newline newline
 \end_inset
 
@@ -8155,7 +8912,7 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- Indirizzo serverAzienda;
+- Indirizzo serverAzienda
 \end_layout
 
 \begin_layout Subsection*
@@ -8576,6 +9333,17 @@ Funzione
 
 
 \begin_inset Newline newline
+\end_inset
+
+Questa classe istanzia i corretti oggetti afferenti alla gestione di un
+ database Sql in base alle interfacce definite dal Design Pattern DAO
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Data Access Object
+\end_layout
+
 \end_inset
 
 
@@ -9280,7 +10048,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- Indirizzo serverAzienda; 
+- Indirizzo serverAzienda 
 \begin_inset Newline newline
 \end_inset
 
@@ -9288,7 +10056,7 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- Indirizzo serverDomande;
+- Indirizzo serverDomande
 \end_layout
 
 \begin_layout Subsection*
