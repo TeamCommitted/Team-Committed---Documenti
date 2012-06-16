@@ -204,10 +204,11 @@ Attività svolte e dati trattati:
 \series default
  Definisce l'aspetto dell'applicazione web definendone l'interfaccia con
  cui l'utente dovrà interagire.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-\begin_inset Newpage newpage
+
+\begin_inset Newline newline
 \end_inset
 
 
@@ -222,12 +223,11 @@ com.safetyGame.frontWeb.pagine.Login
 \series bold
 Funzione: 
 \series default
-Consente ad un 
+Fornisce ad un 
 \bar under
 Utente
 \bar default
- di tipo Dipendente, Amministratore Azienda o Amministratore Sicurezza di
- effettuare il login.
+ l'interfaccia grafica per poter effettuare il login.
 \series bold
 
 \begin_inset Newline newline
@@ -235,11 +235,7 @@ Utente
 
 FIle JSP che implementano il componente
 \series default
-:login.jsp utilizza tale classe.
-\begin_inset Newpage newpage
-\end_inset
-
-
+:login.jsp 
 \end_layout
 
 \begin_layout Subsubsection
@@ -251,11 +247,11 @@ com.safetyGame.frontWeb.pagine.Menu
 \series bold
 Funzione: 
 \series default
-Mostra ad un 
+Fornisce ad un 
 \bar under
 Utente
 \bar default
- le possibili attività che può effetuare
+ l'interfaccia grafica per cegliere fra le possibili attività che può effetuare
 \series bold
  
 \series default
@@ -267,19 +263,7 @@ per interagire con il sistema Safety-Game.
 
 FIle JSP che implementano il componente
 \series default
-: user_page.jsp ed admin_page.jsp utilizzano tale classe.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-
-\begin_inset Newpage newpage
-\end_inset
-
-
+: user_page.jsp, admin_page.jsp 
 \end_layout
 
 \begin_layout Subsubsection
@@ -304,16 +288,7 @@ Dipendente autenticato
 
 FIle JSP che implementano il componente
 \series default
-:user_page.jsp utilizza tale classe.
-
-\series bold
- 
-\series default
-
-\begin_inset Newpage newpage
-\end_inset
-
-
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -342,7 +317,7 @@ FIle JSP che implementano il componente
 \series bold
  
 \series default
-nuovaDomanda.jsp utilizza tale classe.
+nuovaDomanda.jsp 
 \end_layout
 
 \begin_layout Subsubsection
@@ -362,27 +337,7 @@ Si occupa di far visualizzare le informazioni di un determinato dipendente.
 \series bold
 FIle JSP che implementano il componente
 \series default
-:admin_page.jsp
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.frontWeb.pagine.Login
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Funzione
-\series default
-: 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-FIle JSP che implementano il componente
-\series default
-:
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -394,7 +349,11 @@ com.safetyGame.frontWeb.pagine.MostraDatiAA
 \series bold
 Funzione
 \series default
-:
+: Si occupa di far visualizzare i dati relativi ad un 
+\bar under
+Amministratore Azienda
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -402,7 +361,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: admin_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -414,7 +373,11 @@ com.safetyGame.frontWeb.pagine.MostraStatD
 \series bold
 Funzione
 \series default
-:
+: Si occupa di far visualizzare le statistiche relative ad un 
+\bar under
+Dipendente
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -422,7 +385,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -434,7 +397,15 @@ com.safetyGame.frontWeb.pagine.ModDatiD
 \series bold
 Funzione
 \series default
-:
+: Si occupa di fornire l'interfaccia per modificare i dati di un 
+\bar under
+Dipendente
+\bar default
+ e per inserire un nuovo 
+\bar under
+Dipendente
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -442,7 +413,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: aggiungiDipendente.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -454,7 +425,7 @@ com.safetyGame.frontWeb.pagine.MostraStatAA
 \series bold
 Funzione
 \series default
-:
+: Si occupa di far visualizzare le statistiche di un'Azienda
 \begin_inset Newline newline
 \end_inset
 
@@ -462,7 +433,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -474,7 +445,11 @@ com.safetyGame.frontWeb.pagine.ModDatiAA
 \series bold
 Funzione
 \series default
-:
+: Fornisce l'interfaccia per permettere di modificare i dati di un 
+\bar under
+Amministratore Azienda
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -482,7 +457,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -494,7 +469,11 @@ com.safetyGame.frontWeb.pagine.RecuperoPass
 \series bold
 Funzione
 \series default
-:
+: Fornisce all'
+\bar under
+Utente
+\bar default
+ l'interfaccia per poter effettuare il recupero della propria password
 \begin_inset Newline newline
 \end_inset
 
@@ -502,7 +481,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -514,7 +493,11 @@ com.safetyGame.frontWeb.pagine.ModDatiAS
 \series bold
 Funzione
 \series default
-:
+: Fornisce l'interfaccia per permettere di modificare i dati di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -522,7 +505,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -534,7 +517,11 @@ com.safetyGame.frontWeb.pagine.EsitoDomanda
 \series bold
 Funzione
 \series default
-:
+: Si occupa di far vsualizzare l'esito di una domanda cui l'
+\bar under
+Utente
+\bar default
+ ha risposto.
 \begin_inset Newline newline
 \end_inset
 
@@ -542,7 +529,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -554,7 +541,11 @@ com.safetyGame.frontWeb.pagine.ElencoDomAS
 \series bold
 Funzione
 \series default
-:
+: Fornisce l'interfaccia ad un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ per poter visualizzare le possibili domande importabili
 \begin_inset Newline newline
 \end_inset
 
@@ -562,7 +553,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -574,7 +565,11 @@ com.safetyGame.frontWeb.pagine.ModDomAS
 \series bold
 Funzione
 \series default
-:
+: Fornisce l'interfaccia ad un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ per poter selezionare le possibili domande importabili
 \begin_inset Newline newline
 \end_inset
 
@@ -582,7 +577,14 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -593,16 +595,35 @@ Package com.safetyGame.frontWeb.control
 
 \series bold
 Tipo, obiettivo e funzionamento del componente: 
-\begin_inset Newline newline
-\end_inset
+\series default
+Contiene le pagine .jsp che si occupano di scambaire dati fra l'Interfaccia
+ utente (Package com.safetyGame.frontWeb.pagine) ed il back-end.
+ Queste pagine non hanno alcun compito di far visualizzare informazioni
+ agli utenti (se non brevi messaggi di conferma); tuttavia si occupano di
+ creare una connessione con il back-end e di ottenere dati dall'utente verso
+ il back-end e viceversa.
+\series bold
 
-Relazione d'uso di altre componenti: 
 \begin_inset Newline newline
 \end_inset
 
 Interfaccie con e relazioni d'uso da altre componenti:
 \series default
+ i component di questo package possono sia ricevere informazioni (passate
+ tramite metodo 
+\begin_inset Quotes eld
+\end_inset
+
+post
+\begin_inset Quotes erd
+\end_inset
+
+) dalle pagine appartenenti al package com.safetyGame.frontWeb.pagine
+\series bold
  
+\series default
+sia inviare, richiedere e ricevere dati con il package com.safetyGame.back.connecti
+on.
 \series bold
 
 \begin_inset Newline newline
@@ -610,7 +631,11 @@ Interfaccie con e relazioni d'uso da altre componenti:
 
 Attività svolte e dati trattati:
 \series default
- 
+ Implementa le funzionalità dell'applicazione web richiamando funzioni ed
+ oggetti dal back-end.
+ Spesso utilizza le classi del package com.safetyGame.back.condivisi per riuscire
+ ad interpretare oggetti forniti dal back-end o per creare dati da inviare
+ allo stesso.
 \end_layout
 
 \begin_layout Subsubsection
@@ -622,7 +647,17 @@ com.safetyGame.frontWeb.control.ControlLogin
 \series bold
 Funzione
 \series default
-:
+: Si occupa di gestire i dati di login inseriti dall'
+\bar under
+Utente
+\bar default
+ e di richiedere al back-end la loro consistenza.
+ Si occupa inoltre di inizializzare dei cookie per mantenere le informazioni
+ riguardanti un 
+\bar under
+Utente
+\bar default
+ durante la navigazione.
 \begin_inset Newline newline
 \end_inset
 
@@ -630,27 +665,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.frontWeb.control.ControlLogin
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Funzione
-\series default
-:
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-FIle JSP che implementano il componente
-\series default
-:
+: checkLogin.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -662,7 +677,11 @@ com.safetyGame.frontWeb.control.ControlMostraDatiD
 \series bold
 Funzione
 \series default
-:
+: Si occupa di richiedere i dati di un 
+\bar under
+Dipendente
+\bar default
+ al back-end e di fornirli al componente MostraDatiD
 \begin_inset Newline newline
 \end_inset
 
@@ -670,7 +689,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -682,7 +701,12 @@ com.safetyGame.frontWeb.control.ControlModDomAS
 \series bold
 Funzione
 \series default
-:
+: Si occupa di gestire la richiesta di rimozione e inserimento di nuove
+ domande da parte di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -690,7 +714,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -702,7 +726,11 @@ com.safetyGame.frontWeb.control.Timer
 \series bold
 Funzione
 \series default
-:
+: Si occupa di mantenere il controllo del tempo per assegnare ad un 
+\bar under
+Dipendente
+\bar default
+ una nuova domanda.
 \begin_inset Newline newline
 \end_inset
 
@@ -710,7 +738,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -722,7 +750,11 @@ com.safetyGame.frontWeb.control.ControlMenu
 \series bold
 Funzione
 \series default
-:
+: Si occupa di riconoscere il tipo di 
+\bar under
+Utente
+\bar default
+ e di fornirgli il menu con le funzioni che gli compeono.
 \begin_inset Newline newline
 \end_inset
 
@@ -730,7 +762,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+:admin_page.jsp e user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -742,7 +774,11 @@ com.safetyGame.frontWeb.control.ControlMostraDatiAA
 \series bold
 Funzione
 \series default
-:
+: Si occupa di recuperare i dati dell'azienda di appertenenza dell'
+\bar under
+Utente
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -750,7 +786,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -762,7 +798,8 @@ com.safetyGame.frontWeb.control.ControlMostraStatD
 \series bold
 Funzione
 \series default
-:
+: Si occupa di recuperare dal back-end le statistiche relative ad un dato
+ utente.
 \begin_inset Newline newline
 \end_inset
 
@@ -770,27 +807,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.frontWeb.control.ConnHandler
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Funzione
-\series default
-:
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-FIle JSP che implementano il componente
-\series default
-:
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -802,7 +819,8 @@ com.safetyGame.frontWeb.control.ControlNotifica
 \series bold
 Funzione
 \series default
-:
+: Si occupa di comunicare all'interfaccia utente la disponibilità di una
+ nuova domanda comunicando periodicamente con il back -end
 \begin_inset Newline newline
 \end_inset
 
@@ -810,7 +828,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -822,7 +840,8 @@ com.safetyGame.frontWeb.control.ControlModDatiD
 \series bold
 Funzione
 \series default
-:
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica o all'inserimento di un nuovo Dipendente
 \begin_inset Newline newline
 \end_inset
 
@@ -830,7 +849,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: checkAggiungiDipendente.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -842,7 +861,7 @@ com.safetyGame.frontWeb.control.ControlMostraStatAA
 \series bold
 Funzione
 \series default
-:
+: Si occupa di recuperare le statistiche relative ad un'azienda dal back-end
 \begin_inset Newline newline
 \end_inset
 
@@ -850,7 +869,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -862,7 +881,8 @@ com.safetyGame.frontWeb.control.ControlMostraDom
 \series bold
 Funzione
 \series default
-:
+: Si occupa di recuperare una nuova domanda per un Dipendente e di comunicarla
+ all'interfaccia utente.
 \begin_inset Newline newline
 \end_inset
 
@@ -870,7 +890,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: nuovaDomanda.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -882,7 +902,12 @@ com.safetyGame.frontWeb.control.ControlModDatiAA
 \series bold
 Funzione
 \series default
-:
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica di un 
+\bar under
+Amministratore Azienda
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -890,7 +915,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -902,7 +927,12 @@ com.safetyGame.frontWeb.control.ControlModDatiAS
 \series bold
 Funzione
 \series default
-:
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -910,7 +940,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -922,7 +952,8 @@ com.safetyGame.frontWeb.control.ControlEsitoDom
 \series bold
 Funzione
 \series default
-:
+: Si occupa di inviare la risposta ricevuta dall'utente al back-end e di
+ comunicare l'eventuale esito all'interfaccia utente.
 \begin_inset Newline newline
 \end_inset
 
@@ -930,7 +961,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: checkRisposta.jsp.
 \end_layout
 
 \begin_layout Subsubsection
@@ -942,7 +973,8 @@ com.safetyGame.frontWeb.control.ControlElencoDomAS
 \series bold
 Funzione
 \series default
-:
+: Si occupa di recuperare l'elenco delle domande disponibili dal back-end
+ e di comunicarlo all'interfaccia utente.
 \begin_inset Newline newline
 \end_inset
 
@@ -950,7 +982,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -962,7 +994,8 @@ com.safetyGame.frontWeb.control.ControlRecuperoPass
 \series bold
 Funzione
 \series default
-:
+: SI occupa di inoltrare la richiesta ed i dati utente per il recupero password
+ al back-end.
 \begin_inset Newline newline
 \end_inset
 
@@ -970,7 +1003,7 @@ Funzione
 \series bold
 FIle JSP che implementano il componente
 \series default
-:
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \end_body
