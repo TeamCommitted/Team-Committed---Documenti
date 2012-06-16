@@ -80,12 +80,18 @@ status open
 
 
 \backslash
-begin{longtable}{|p{5cm}|p{5cm}|r|}
+begin{longtable}{|p{3.25cm}|p{3.25cm}|r|}
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
  Requisito & Package & Classe 
+\backslash
+
+\backslash
+ 
 \backslash
 hline 
 \end_layout
