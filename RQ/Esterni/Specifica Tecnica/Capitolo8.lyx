@@ -123,11 +123,6 @@ Il Presentation Tier si occupa di gestire le connessioni con i vari Front-End,
  e traducendo eventualmente le risposte in xml per poi rimandarle ai relativi
  Front-End; 
 \series bold
-\emph on
-\bar under
-!!!!!gestisce inoltre eventuali crash dei Front-End.!!!!!
-\emph default
-\bar default
 
 \begin_inset Newline newline
 \end_inset
@@ -138,7 +133,7 @@ Relazioni d'uso di altre componenti:
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.back.connection.DesktopConnection
+com.safetyGame.back.connection.ApplicationConnection
 \end_layout
 
 \begin_layout Standard
@@ -146,9 +141,9 @@ com.safetyGame.back.connection.DesktopConnection
 \series bold
 Tipo, obiettivo e funzione del componente:
 \series default
- La classe DesktopConnection viene utilizzata per gestire le connessioni
- del Back-End con i vari Front-End Desktop e trasferire richieste e dati
- tra loro ed i livelli inferiori del Back-End.
+ La classe ApplicationConnection viene utilizzata per gestire le connessioni
+ del Back-End con i vari Front-End Desktop e Mobile e trasferire richieste
+ e dati tra loro ed i livelli inferiori del Back-End.
 \begin_inset Newline newline
 \end_inset
 
@@ -158,7 +153,7 @@ Relazioni d'uso di altre componenti:
 \series default
  La classe utilizza metodi della classe Facade GestioneDati per inviare
  richieste di inserimento o lettura dati da database, inviandone le relative
- risposte alla classe richiedente del relativo Front-End Desktop.
+ risposte alla classe richiedente del relativo Front-End Desktop e Mobile.
 \begin_inset Newline newline
 \end_inset
 
@@ -167,7 +162,7 @@ Relazioni d'uso di altre componenti:
 Interfacce con e relazioni d'uso da altre componenti: 
 \series default
 La classe viene utilizzata dalle classi del livello Controller dei Front-End
- Desktop.
+ Desktop e Mobile.
 \begin_inset Newline newline
 \end_inset
 
@@ -175,11 +170,11 @@ La classe viene utilizzata dalle classi del livello Controller dei Front-End
 \series bold
 Attività svolte e dati trattati: 
 \series default
-La classe riceve richieste di connessione dai vari Front-End Deskop e si
- occupa di mantenerle, gestendo eventuali errori come per esempio il crash
- di un Desktop, inoltre riceve tutte le richieste di scambio dati tramite
- protocollo http e le invia alla classe GestioneDati del package controller,
- traducendo le risposte ottenute in xml e reinviandole al Front-End richiedente.
+La classe riceve richieste di connessione dai vari Front-End Deskop e Mobile
+ e si occupa di mantenerle, gestendo eventuali errori, inoltre riceve tutte
+ le richieste di scambio dati tramite protocollo http e le invia alla classe
+ GestioneDati del package controller, traducendo le risposte ottenute in
+ xml e reinviandole al Front-End richiedente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -225,52 +220,6 @@ La classe riceve tutte le richieste di scambio dati dai vari Front-End Web
  controller, traducendo le risposte ottenute in xml e reinviandole al Front-End
  richiedente, inoltre gestisce eventuali errori come l'improvvisa chiusura
  della pagina web durante la visione di una domanda da parte di un Dipendente.
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.back.connection.MobileConnection
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Tipo, obiettivo e funzione del componente:
-\series default
- La classe MobileConnection viene utilizzata per gestire le connessioni
- del Back-End con i vari Front-End Mobile e trasferire richieste e dati
- tra loro ed i livelli inferiori del Back-End.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Relazioni d'uso di altre componenti:
-\series default
- La classe utilizza metodi della classe Façade GestioneDati per inviare
- richieste di inserimento o lettura dati da database, inviandone le relative
- risposte alla classe richiedente del relativo Front-End Mobile.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Interfacce con e relazioni d'uso da altre componenti: 
-\series default
-La classe viene utilizzata dalle classi del livello Controller dei Front-End
- Mobile.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attività svolte e dati trattati: 
-\series default
-La classe riceve richieste di connessione dai vari Front-End Mobile e si
- occupa di mantenerle, gestendo eventuali errori come per esempio il crash
- di un Dispositivo Mobile, inoltre riceve tutte le richieste di scambio
- dati tramite protocollo http e le invia alla classe GestioneDati del package
- controller, traducendo le risposte ottenute in xml e reinviandole al Front-End
- richiedente.
 \end_layout
 
 \begin_layout Subsection

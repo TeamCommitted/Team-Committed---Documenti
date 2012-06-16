@@ -220,58 +220,22 @@ com.safetyGame.frontWeb.pagine.Login
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione: 
 \series default
 Consente ad un 
 \bar under
 Utente
 \bar default
- di effettuare il login.
- E' implementata nella pagina login.jsp.
+ di tipo Dipendente, Amministratore Azienda o Amministratore Sicurezza di
+ effettuare il login.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
+File JSP che utilizzano la classe: 
 \series default
-Nessuna.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Comunica i dati inseriti 
-\bar under
-dall'Utente
-\bar default
- a ControlLogin tramite metodo post.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Raccoglie i dati che l'Utente inserisce per poi comunicarli a ControlLogin.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
+login.jsp utilizza tale classe.
 \begin_inset Newpage newpage
 \end_inset
 
@@ -285,64 +249,33 @@ com.safetyGame.frontWeb.pagine.Menu
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione: 
 \series default
 Mostra ad un 
 \bar under
 Utente
 \bar default
- le possibili attività che può effetuare.
-
+ le possibili attività che può effetuare
 \series bold
  
 \series default
-E' implementato nelle pagine user_page.jsp e admin_page.jsp.
- 
+per interagire con il sistema Safety-Game.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
+File JSP che utilizzano la classe:
 \series default
-Nessuna.
+ user_page.jsp ed admin_page.jsp utilizzano tale classe.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
+
 \series default
- Nessuna.
-\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- A seconda del tipo di 
-\bar under
-Utente
-\bar default
- cui fa riferimento fornisce un menù di navigazione per svolgere determinate
- attività.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
 \begin_inset Newpage newpage
 \end_inset
 
@@ -356,44 +289,25 @@ com.safetyGame.frontWeb.pagine.Notifica
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione: 
 \series default
-.
+Mostra ad un 
+\bar under
+Dipendente autenticato
+\bar default
+ la notifica di una nuova domanda disponibile a cui rispondere.
  
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
+File JSP che utilizzano la classe: 
 \series default
-.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- .
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- .
-\begin_inset Newline newline
-\end_inset
-
+user_page.jsp utilizza tale classe.
 
 \series bold
-Attributi: 
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
+ 
 \series default
 
 \begin_inset Newpage newpage
@@ -409,7 +323,7 @@ com.safetyGame.frontWeb.pagine.MostraDomanda
 \begin_layout Standard
 
 \series bold
-Tipo, obiettivo e funzionamento del componente: 
+Funzione: 
 \series default
 Si occupa di far visualizzare al 
 \bar under
@@ -422,47 +336,15 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-Relazione d'uso di altre componenti: 
+File JSP che utilizzano la classe: 
 \series default
-Le informazioni relative alla domanda vengono comunicate dalla classe ControlDom
-anda.
+nuovaDomanda.jsp utilizza tale classe.
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-Interfaccie con e relazioni d'uso da altre componenti:
-\series default
- Nessuna.
-\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-Attività svolte e dati trattati:
-\series default
- Riceve i dati relativa ad una domanda da ControlDomanda e si occupa di
- farli visualizzare al 
-\bar under
-Dipendente
-\bar default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Attributi: 
-\series default
-Nessuno
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Metodi: 
-\series default
-Nessuno
 \end_layout
 
 \end_body
