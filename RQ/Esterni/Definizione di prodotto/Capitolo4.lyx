@@ -175,6 +175,107 @@ back
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/B.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com
+\emph default
+\SpecialChar \-
+
+\emph on
+.
+\emph default
+\SpecialChar \-
+
+\emph on
+sa
+\emph default
+\SpecialChar \-
+
+\emph on
+fe
+\emph default
+\SpecialChar \-
+
+\emph on
+ty
+\emph default
+\SpecialChar \-
+
+\emph on
+Ga
+\emph default
+\SpecialChar \-
+
+\emph on
+me
+\emph default
+\SpecialChar \-
+
+\emph on
+.
+\emph default
+\SpecialChar \-
+
+\emph on
+back
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -964,6 +1065,38 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/B-Conn.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1020,8 +1153,6 @@ back
 con\SpecialChar \-
 nec\SpecialChar \-
 tion
-\series default
- e le sue relazioni
 \end_layout
 
 \end_inset
@@ -1124,41 +1255,6 @@ MVP
 \emph default
  
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Diagramma delle classi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -2386,6 +2482,39 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename img/B-Cont.png
+	scale 33.299999999999997
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -2397,8 +2526,6 @@ com.safetyGame.back.\SpecialChar \-
 con\SpecialChar \-
 trol\SpecialChar \-
 ler
-\series default
- e le sue relazioni
 \end_layout
 
 \end_inset
@@ -2487,37 +2614,6 @@ Attività svolte e dati trattati:
 \series default
  è deputato alla computazione su tutti i dati da e per i front-end 
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Diagramma delle classi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -2958,7 +3054,34 @@ Attributi
 \end_layout
 
 \begin_layout Subsection*
-Metodi
+MetodiIl seguente diagramma delle classi fornisce una panoramica di tutte
+ le classi che compongono il package.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma delle classi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7392,6 +7515,68 @@ Package com.safetyGame.back.access
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename img/back-access generale.png
+	scale 33.299999999999997
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+access
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Tipo, obiettivo e funzione del componente:
@@ -7452,37 +7637,6 @@ Model
  del design pattern 
 \emph on
 MVP
-\end_layout
-
-\begin_layout Standard
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Diagramma delle classi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10714,6 +10868,68 @@ Altrimenti dovrà ritornare quanto ritornato dalla query.
 
 \begin_layout Subsection
 Package com.safetyGame.back.condivisi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename img/B-Cond.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Package 
+\series bold
+com.safetyGame.back.\SpecialChar \-
+condivisi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -155,6 +155,41 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/D-V.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \lang english
 \begin_inset Caption
@@ -164,9 +199,7 @@ status open
 \lang english
 Package 
 \series bold
-com.safetyGame.desktop.view 
-\series default
-e le sue relazioni
+com.safetyGame.desktop.view
 \end_layout
 
 \end_inset
@@ -230,41 +263,6 @@ Dipendenti
 \bar default
  
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\lang english
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang english
-Diagramma delle classi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -750,6 +748,39 @@ status open
 \begin_layout Plain Layout
 
 \lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/D-L.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -757,9 +788,7 @@ status open
 \lang english
 Package 
 \series bold
-com.safetyGame.desktop.logic 
-\series default
-e le sue relazioni
+com.safetyGame.desktop.logic
 \end_layout
 
 \end_inset
@@ -837,41 +866,6 @@ Dipendente Autenticato
 \bar default
 
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Il seguente diagramma delle classi fornisce una panoramica di tutte le classi
- che compongono il package.
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\lang english
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang english
-Diagramma delle classi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -2120,6 +2114,38 @@ status open
 \begin_layout Plain Layout
 
 \lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/D-C.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -2127,9 +2153,7 @@ status open
 \lang english
 Package 
 \series bold
-com.safetyGame.desktop.condivisi 
-\series default
-e le sue relazioni
+com.safetyGame.desktop.condivisi
 \end_layout
 
 \end_inset
@@ -2439,8 +2463,7 @@ com.safetyGame.back.condivisi.Domanda
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.view.Punteggio
-Punteggio
+com.safetyGame.desktop.view.PunteggioPunteggio
 \end_layout
 
 \begin_layout Description

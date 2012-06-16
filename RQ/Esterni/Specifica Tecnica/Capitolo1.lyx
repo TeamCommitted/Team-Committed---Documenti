@@ -151,7 +151,7 @@ Glossario
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario-V2.0.pdf
+Glossario-V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -167,7 +167,7 @@ Normativi
 \begin_layout Itemize
 
 \series bold
-Norme di Progetto, v 2.0 
+Norme di Progetto, v 3.0 
 \series default
 (allegato 
 \family typewriter
@@ -179,7 +179,7 @@ Norme_di_Progetto_V3.0.pdf
 \begin_layout Itemize
 
 \series bold
-Analisi dei Requisiti, v 2.0
+Analisi dei Requisiti, v 3.0
 \series default
  (allegato 
 \family typewriter
@@ -190,29 +190,6 @@ Analisi_dei_Requisiti_V3.0.pdf
 
 \begin_layout Subsubsection
 Informativi
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Java 6 SDK
-\series default
- Documentation
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://docs.oracle.com/javase/6/docs/
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Itemize

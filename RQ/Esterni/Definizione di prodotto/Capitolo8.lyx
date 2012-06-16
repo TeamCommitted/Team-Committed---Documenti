@@ -84,7 +84,9 @@ status open
 
 
 \backslash
-begin{longtable}{|p{10cm}|r|}
+begin{longtable}{|p{9.5cm}|r|}
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -304,7 +306,9 @@ status open
 
 
 \backslash
-begin{longtable}{|p{5cm}|p{5cm}|r|}
+begin{longtable}{|p{4.5cm}|p{4.5cm}|r|}
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -747,7 +751,9 @@ status open
 
 
 \backslash
-begin{longtable}{|p{5cm}|p{5cm}|r|}
+begin{longtable}{|p{4.5cm}|p{4.5cm}|r|}
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
@@ -1490,7 +1496,7 @@ status open
 
 
 \backslash
-begin{longtable}{|p{5cm}|p{5cm}|r|}
+begin{longtable}{|p{4.5cm}|p{4.5cm}|r|}
 \end_layout
 
 \begin_layout Plain Layout
