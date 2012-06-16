@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -62,7 +63,6 @@
 \begin_layout Section*
 
 \emph on
-\lang italian
 Diario delle modifiche
 \end_layout
 
@@ -71,8 +71,6 @@ Diario delle modifiche
 \end_layout
 
 \begin_layout Standard
-
-\lang italian
 \begin_inset ERT
 status open
 
@@ -135,6 +133,55 @@ begin{tabular}{ p{6cm} | c | c | r }
 		
 \backslash
 hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Approvato.} & Giacomo Quadrio & 2012/06/16 & V3.0
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Verificato.
+ In attesa di approvazione.} & Lorenzo Braghetto & 2012/06/15 &V2.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Conclusa redazione programma di test e modifiche richieste.
+ In attesa di verifica} & Marco Begolo & 2012/06/14 & V2.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Inserito programma di test} & Alessandro Cornaglia & 2012/02/15 & V2.1
+ 
+\backslash
+
+\backslash
+ 
 \backslash
 hline
 \end_layout

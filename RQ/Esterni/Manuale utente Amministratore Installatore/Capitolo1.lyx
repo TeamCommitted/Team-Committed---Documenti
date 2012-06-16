@@ -181,23 +181,19 @@ Come leggere il manuale
 
 \begin_layout Standard
 Il manuale è strutturato a seconda delle funzionalità offerte all'Amministratore
- Azienda:
+ Installatore:
 \end_layout
 
 \begin_layout Enumerate
-Installazione Database
+Installazione Database Azienda
 \end_layout
 
 \begin_layout Enumerate
-Installazione Web
+Installazione Database Domande
 \end_layout
 
 \begin_layout Enumerate
-Installazione Desktop
-\end_layout
-
-\begin_layout Enumerate
-Installazione Mobile
+Installazione e avviamento Back-End
 \end_layout
 
 \begin_layout Standard
