@@ -1966,7 +1966,7 @@ reference "sub:Grafici-UML-1"
 \end_layout
 
 \begin_layout Subsection
-Incompatibilità
+Incompatibilità 
 \end_layout
 
 \begin_layout Standard
@@ -1978,22 +1978,6 @@ redattori
  che verificavano i documenti scritti da loro stessi piuttosto che documenti
  approvati da chi ha verificato o contribuito alla redazione dei documenti
  stessi.
- Per questo motivo vengono poste le seguenti norme che serviranno a specificare
- sia le norme l'assegnazione del personale di 
-\emph on
-redazione
-\emph default
-, 
-\emph on
-verifica
-\emph default
- e 
-\emph on
-approvazione
-\emph default
- di un documento, sia le procedure da adotare nel caso ci siano conflitti
- e/o incompatibilità.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -2005,18 +1989,12 @@ Redattori-verificatori:
 \emph on
 redattori 
 \emph default
-di una
-\series bold
- determinata versione di un documento
-\series default
- non possono esserne anche i 
+di una determinata versione di un documento non possono esserne anche i
+ 
 \emph on
 verificatori 
-\series bold
 \emph default
 della stessa versione
-\series default
-
 \begin_inset Foot
 status collapsed
 
@@ -2036,20 +2014,7 @@ Potranno tuttavia verificare versioni future del documento
 Mancanza di verificatori:
 \series default
  nel caso in cui non sia possibile assicurare che i documenti vengano verificate
- da persone che non abbiano contribuito alla redazione del documento, il
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-respProg
-\end_layout
-
-\end_inset
-
+ da persone che non abbiano contribuito alla redazione del documento, si
  procederà alla nomina di (almeno) un 
 \emph on
 verificatore 
@@ -2075,8 +2040,8 @@ Informazioni aggiuntive sui documenti
 \end_layout
 
 \begin_layout Standard
-In questa sezione verranno aggiunte delle informazioni aggiuntive sulla
- redazione dei documenti e/o su alcune compoenenti dei documenti.
+In questa sezione verranno aggiunte delle norme sulla redazione dei documenti
+ che aggiungono informazioni o norme rispetto a quanto detto precedentemente.
  
 \end_layout
 
