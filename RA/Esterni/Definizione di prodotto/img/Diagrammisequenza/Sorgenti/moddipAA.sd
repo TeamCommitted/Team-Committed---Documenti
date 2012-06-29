@@ -1,0 +1,74 @@
+adminPage:admin_page.jsp[a]
+/oldDip:Dipendente
+/newDip:Dipendente
+init:Inizializzatore[a]
+webConn:WebConnection[a]
+gestDati:GestioneDati[a]
+gestDipAA:GestioneDipendentiAA[a]
+accessDip:DAODipendenti[a]
+serverAzienda:Indirizzo[a]
+log:GestioneLog[a]
+dataOra:DataOra[a]
+updateLog:UpdateLog[a]
+
+adminPage:oldDip.new()
+adminPage:newDip.new()
+adminPage:init.getWebConnection()
+adminPage:webConn.modDipendente(oldDip,newDip)
+webConn:gestDati.modDipendente(dOld, dNew)
+gestDati:gestDipAA.modDipendente(newDip, oldDip)
+[c:opt !newDip.getNome().equals(oldDip.getNome())]
+	gestDipAA:result=accessDip.modNome(oldDip, newDip.getNome())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModNomeAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+[/c]
+[/c]
+[c:opt !newDip.getCognome().equals(oldDip.getCognome())]
+	gestDipAA:result=accessDip.modCognome(oldDip, newDip.getCognome())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModCognomeAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+	[/c]
+[/c]
+[c:opt !newDip.getEmail().equals(oldDip.getEmail())]
+	gestDipAA:result=accessDip.modNome(oldDip, newDip.getEmail())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModNomeAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+	[/c]
+[/c]
+[c:opt !newDip.getRuolo().equals(oldDip.getRuolo())]
+	gestDipAA:result=accessDip.modNome(oldDip, newDip.getRuolo())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModEmailAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+	[/c]
+[/c]
+[c:opt !newDip.getNickname().equals(oldDip.getNickname())]
+	gestDipAA:result=accessDip.modNome(oldDip, newDip.getNickname())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModNickAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+	[/c]
+[/c]
+[c:opt !newDip.getPassword().equals(oldDip.getPassword())]
+	gestDipAA:result=accessDip.modNome(oldDip, newDip.getPassword())
+	accessDip:result=serverAzienda.modificaRiga(<QUERY>, "ID="+d\.getId())
+	[c:opt result == true]
+		gestDipAA:log.scriviModPassAA(newdip)
+		log:dataOra.toString()
+		log:updateLog.scriviChiudi(log)
+	[/c]
+[/c]
+

@@ -1,0 +1,47 @@
+iniz:Inizializzatore[a]
+/indirizzoAz:Indirizzo
+/indirizzoDom:Indirizzo
+/daoDipendenti:SqlDAODipendenti
+/daoPunteggi:SqlDAOPunteggi
+/daoLogin:SqlDAOLogin
+/updateLog:UpdateLog
+/daoDomande:SqlDAODomande
+/daoBadge:SqlDAOBadge
+/gestioneRecupero:GestioneRecupero
+/gestionePunteggiD:GestionePunteggiD
+/gestionePunteggiAA:GestionePunteggiAA
+/gestioneLog:GestioneLog
+/gestioneLogin:GestioneLogin
+/gestioneBadgeD:GestioneBadgeD
+/gestioneDomandeD:GestioneDomandeD
+/gestioneDomandeAS:GestioneDomandeAS
+/gestioneDipendentiD:GestioneDipendentiD
+/gestioneDipendentiAA:GestioneDipendentiAA
+/gestioneBadgeAS:GestioneBadgeAS
+/gestioneDati:GestioneDati
+/webConnection:WebConnection
+/appConnection:ApplicazioniConnection
+
+iniz:indirizzoAz.new(<Percorso_DB_azienda>,"root","")
+iniz:indirizzoDom.new(<Percorso_DB_domande>,"root","")
+iniz:daoDipendenti.new(indirizzoAz)
+iniz:daoPunteggi.new(indirizzoAz, indirizzoDom)
+iniz:daoLogin.new(indirizzoAz)
+iniz:daoDomande.new(indirizzoAz, indirizzoDom)
+iniz:daoBadge.new(indirizzoAz)
+
+iniz:gestioneRecupero.new(daoDipendenti)
+iniz:gestionePunteggiD.new(daoPunteggi,daoDipendenti)
+iniz:gestionePunteggiAA.new(daoPunteggi,daoDipendenti)
+iniz:gestioneLog.new()
+iniz:gestioneLogin.new(daoLogin,gestioneLog)
+iniz:gestioneBadgeD.new(daoBadge,daoDipendenti,daoDomande, gestioneLog, gestioneLogin)
+iniz:gestioneDomandeD.new(daoDomande,daoPunteggi,daoDipendenti,gestionePunteggiD, gestioneLog, gestioneBadgeD)
+iniz:gestioneDomandeAS(daoDomande)
+iniz:gestioneDipendentiD.new(daoDipendenti, gestioneLog)
+iniz:gestioneDipendentiAA.new(daoDipendenti)
+iniz:gestioneBadgeAS(daoBadge)
+iniz:gestioneDati.new(gestioneRecupero,gestioneLogin,gestioneDomandeD,gestioneDomandeAS,gestioneDipendentiD,gestioneDipendentiAA,gestioneBadgeD, gestioneBadgeAS,gestionePunteggiD, gestionePunteggiAA)
+
+iniz:webConnection.new(gestioneDati)
+iniz:appConnection.new(gestioneDati)

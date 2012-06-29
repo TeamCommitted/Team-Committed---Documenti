@@ -1,0 +1,546 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Diagrammi di attività
+\end_layout
+
+\begin_layout Standard
+In questa sezione si illustreranno diagrammi di attività relativi alle possibili
+ interazioni di un 
+\bar under
+utente
+\bar default
+ con il 
+\bar under
+front-end
+\bar default
+, suddividendo tali attivita nei tre ambiti di 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Sicurezza
+\bar default
+ e 
+\bar under
+Amministratore Azienda
+\bar default
+.
+ Tutti e tre gli 
+\bar under
+utenti 
+\bar default
+possono chiedere la modifica da parte del sistema della propria password
+ prima di accedere al sistema, il quale ne genererà una e la renderà nota
+ solo a quell'
+\bar under
+utente
+\bar default
+; oppure possono effettuare il login all'interno del sistema e utilizzare
+ quello che il sistema gli offre.
+ 
+\end_layout
+
+\begin_layout Subsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/Dipendente.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Dipendente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il 
+\bar under
+Dipendente
+\bar default
+, dopo che ha effettuato il login, si trova a disposizione diverse opportunità
+ di azioni.
+\end_layout
+
+\begin_layout Standard
+L'azione base che può fare è semplicemente aspettare che il sistema gli
+ proponga di rispondere ad una domanda, alla quale può decidere se rifiutare
+ (posticipandola) oppure accettare e quindi facendosela mostrare.
+ L'azione di mostrare una domanda obbliga il 
+\bar under
+Dipendente
+\bar default
+ a rispondere alla domanda, nel caso che il 
+\bar under
+Dipendente
+\bar default
+ non sappia la risposta, può dare risposta nulla, ma deve in ogni caso risponder
+e.
+ L'applicazione che fa vedere questa domanda (
+\bar under
+browser
+\bar default
+ o applicazione 
+\bar under
+Android
+\bar default
+) impedirà la chiusura da parte dell'utente dell'applicazione.
+\end_layout
+
+\begin_layout Standard
+È prevista una alternativa all'attesa di proposta domanda, ovvero la richiesta
+ di una domanda, alla quale il sistema reagirà controllando il tempo trascorso
+ dall'ultima domanda richiesta.
+ Se il lasso di tempo trascorso si rivelerà essere sufficientemente grande,
+ allora all'utente verrà mostrata la domanda alla quale si applicano le
+ stesse regole riportate nel caso precedente.
+ Nel caso in cui, invece, il tempo trascorso non fosse sufficiente, il sistema
+ risponderà con un messaggio d'allerta e ritornerà alla pagina principale
+ delle azioni.
+\end_layout
+
+\begin_layout Standard
+Il 
+\bar under
+Dipendente
+\bar default
+ può inoltre modificare il proprio recapito e-mail e la propria password
+ di autenticazione.
+ Una volta che una di queste due azioni è stata effettuata, il sistema si
+ riporterà sulla schermata principale.
+\end_layout
+
+\begin_layout Standard
+L'ultimo insieme di azioni che può fare il 
+\bar under
+Dipendente
+\bar default
+ è la visualizzazione dei propri punteggi ottenuti durante l'utilizzo del
+ sistema e i propri dati personali salvati in esso.
+ 
+\end_layout
+
+\begin_layout Standard
+Infine può effettuare il logout, il quale consentirà al 
+\bar under
+Dipendente
+\bar default
+ di uscire dalla sessione autenticata, salvando ogni azione che è stata
+ effettuata, senza però permettere di chiudere qualsiasi applicazione (nel
+ caso si tratti di una applicazione per 
+\bar under
+dispositivi fissi
+\bar default
+ o 
+\bar under
+dispositivi mobili
+\bar default
+).
+ 
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/Amministratore Azienda.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Azienda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'
+\bar under
+Amministratore Azienda
+\bar default
+, dopo che ha effettuato il login, si trova a disposizione diverse opportunità
+ di azioni.
+\end_layout
+
+\begin_layout Standard
+Come azione principale, l'
+\bar under
+Amministratore Azienda
+\bar default
+ può gestire i dipendenti.
+ La gestione dei 
+\bar under
+Dipendenti
+\bar default
+ si intende una scelta tra l'aggiunta di un account 
+\bar under
+Dipendente
+\bar default
+ al sistema, la cancellazione di un account 
+\bar under
+Dipendente
+\bar default
+ dal sistema (e di tutte le informazioni ad esso associate) e infine alla
+ modifica dei dati personali del 
+\bar under
+Dipendente
+\bar default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+L'aggiunta di un account
+\series default
+ 
+\bar under
+Dipendente
+\series bold
+\bar default
+ 
+\series default
+richiede dei campi personali in modo da identificare univocamente una persona,
+ in seguito username e password saranno associate automaticamente dal sistema
+ e, sempre automaticamente, inviate alla e-mail specificata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+La modifica dei dati
+\series default
+ dell'account di un 
+\bar under
+Dipendente
+\bar default
+, permette all'
+\bar under
+Amministratore Azienda
+\bar default
+ di modificare, in casi eccezionali, i dati che sono stati messi nel sistema
+ per identificare quella persona
+\end_layout
+
+\begin_layout Standard
+Oltre alla modifica dei dati personali dei 
+\bar under
+Dipendenti
+\bar default
+, è prevista la possibilità di modificare la propria password di autenticazione
+ ricevendone conferma nell'indirizzo specificato.
+\end_layout
+
+\begin_layout Standard
+L'ultimo insieme di azioni che può fare l'
+\bar under
+Amministratore Azienda
+\bar default
+, dopo aver selezionato un 
+\bar under
+Dipendente
+\bar default
+, è la visualizzazione dei punteggi ottenuti durante l'utilizzo del sistema,
+ i dati personali del 
+\bar under
+Dipendente
+\bar default
+ e infine la possibilità di aggiungere o rimuovere manualmente 
+\bar under
+trofei
+\bar default
+/
+\bar under
+badge
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Infine può effettuare il logout, il quale consentirà al 
+\bar under
+Amministratore Azienda
+\bar default
+ di uscire dalla sessione autenticata, salvando ogni azione che è stata
+ effettuata.
+\end_layout
+
+\begin_layout Subsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/Amministratore Sicurezza.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ambito Amministratore Sicurezza
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'
+\bar under
+Amministratore Sicurezza
+\bar default
+, dopo che ha effettuato il login, si trova a disposizione diverse opportunità
+ di azioni.
+\end_layout
+
+\begin_layout Standard
+Come azione principale, l'
+\bar under
+Amministratore Sicurezza
+\bar default
+ può gestire il database di domande interno dell'azienda.
+ La gestione database di domande viene effettuata dal sito dell'azienda
+ da parte di un unico 
+\bar under
+Amministratore Sicurezza
+\bar default
+, il quale può:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+aggiungere 
+\series default
+una domanda all'insieme di domande interno (prese da un database generale
+ esterno)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+cancellare
+\series default
+ una domanda, sempre dal database locale
+\end_layout
+
+\begin_layout Standard
+Oltre alla modifica database di domande, è prevista la possibilità consultare
+ l'elenco in dettaglio delle domande locali.
+\end_layout
+
+\begin_layout Standard
+Può inoltre modificare la propria password personale per l'accesso a quell'azien
+da.
+ Una volta modificata la password, viene inviata una notifica all'indirizzo
+ mail dell'
+\bar under
+Amministratore Sicurezza
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+Infine può effettuare il logout, il quale consentirà al 
+\bar under
+Amministratore Sicurezza
+\bar default
+ di uscire dalla sessione autenticata, salvando ogni azione che è stata
+ effettuata.
+ 
+\end_layout
+
+\begin_layout Subsection
+Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Gli ambiti dell'
+\bar under
+Amministratore Azienda
+\bar default
+ e 
+\bar under
+Amministratore Sicurezza
+\bar default
+, verranno gestiti unicamente tramite 
+\bar under
+web
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+L'Ambito Dipendente invece, verrà gestito tramite 
+\bar under
+web
+\bar default
+, applicazione 
+\bar under
+Android
+\bar default
+ e applicazione per 
+\bar under
+dispositivi fissi
+\bar default
+.
+ Tutte e tre le applicazioni permettono di eseguire ogni attività illustrata,
+ tuttavia, l'applicazione per 
+\bar under
+dispositivi fissi
+\bar default
+ fornirà un comodo menu per ogni azione (una volta effettuato il login);
+ il quale, una volta attivata la corrispondente voce nel menù, aprirà il
+ browser e quindi sfrutterà la parte 
+\bar under
+web
+\bar default
+ del sistema.
+ Invece l'applicazione 
+\bar under
+Android
+\bar default
+ sfrutterà le peculiarità del sistema stesso per gestire ogni singolo aspetto
+ delle azioni intraprendibili dal 
+\bar under
+Dipendente
+\bar default
+.
+\end_layout
+
+\end_body
+\end_document

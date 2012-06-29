@@ -1,0 +1,545 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+%\usepackage{fullpage}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\doctitle}{Norme di progetto }
+\newcommand{\asd}{asd}
+\newcommand{\versiondoc}{V0.2 }
+\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
+\fancyhead[RE, RO]{\doctitle}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Progettazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Progettazione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durante la fase di progettazione, i progettisti dovranno attenersi alle
+ seguenti specifiche.
+\end_layout
+
+\begin_layout Subsection
+Diagrammi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Diagrammi"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si dovrà utilizzare il linguaggio UML per definire:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi dei package:
+\series default
+ dovranno essere presenti per 
+\emph on
+l'architettura generale
+\emph default
+ 
+\emph on
+e di dettaglio
+\emph default
+.
+ Sarà fondamentale definire in maniera univoca i vari 
+\bar under
+package
+\bar default
+, in modo da poter distribuire a più codificatori, in fase di 
+\emph on
+codifica
+\emph default
+, 
+\bar under
+package
+\bar default
+ differenti che interagiscono fra loro
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi delle attività:
+\series default
+ dovranno essere presenti per
+\emph on
+ l'architettura generale e di dettaglio
+\emph default
+, qualora il comportamento dell'architettura di dettaglio non sia stato
+ esplicato precedentemente.
+ Si dovrà presentare con questo diagramma un generico flusso di esecuzione
+ dell'intera applicazione.
+ Qualora l'intero flusso dovesse risultate troppo approssimativo o complicato
+ per un solo diagramma, si dovranno creare dei sotto-diagrammi per ampliare
+ o suddividere il diagramma generale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diagrammi di sequenza:
+\series default
+ dovranno essere presenti per 
+\emph on
+l'architettura di dettaglio
+\emph default
+.
+ Dovranno definire in maniera precisa le responsabilità dei vari package
+ e/o classi nel portare a termine un certo compito.
+ Si dovrà limitare la rappresentazione di cicli o condizioni alternative
+ ai soli casi in cui la loro omissione comporti gravi scompensi alla comprension
+e del funzionamento dell'applicazione
+\end_layout
+
+\begin_layout Subsection
+Design Pattern
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Design-Pattern"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si dovrà ricorrere alla seguente specifica per descrivere i vari 
+\bar under
+design pattern 
+\bar default
+utilizzati:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione generale: 
+\series default
+descrivere brevemente la struttura generale del 
+\bar under
+design pattern
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ descrivere il motivo della scelta di tale 
+\bar under
+design pattern
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ elencare i contesti ove il 
+\bar under
+design pattern
+\bar default
+ è stato applicato
+\end_layout
+
+\begin_layout Subsection
+Classi di verifica
+\end_layout
+
+\begin_layout Standard
+Si dovranno sviluppare, quando possibile e sopratutto per le classi più
+ generali, delle classi fittizie da utilizzare durante le fasi di verifica.
+\end_layout
+
+\begin_layout Subsection
+Stile di progettazione
+\end_layout
+
+\begin_layout Standard
+Per semplificare la lettura degli schemi e per la futura fase di verifica,
+ sarà necessario prestare attenzione a:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ricorsione:
+\series default
+ si cercherà di evitare il più possibile l'utilizzo della ricorsione.
+ Qualora il suo uso si dovesse rivelare strettamente necessario, si dovrà
+ fornire adeguata dimostrazione di terminazione; nel caso la dimostrazione
+ sia adeguata e corretta, sarà altresì necessario stimare l'occupazione
+ di memoria indotta dalla ricorsione: se l'occupazione di memoria sarà eccessiva
+, la ricorsione dovrà essere eliminata, anche se formalmente corretta
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Concorrenza:
+\series default
+ nel caso di utilizzo di flussi di esecuzione concorrenti, sarà necessario
+ fornire, oltre ai diagrammi di flusso, anche una stima di risorse necessarie
+ all'implementazione.
+ Se i benefici ricavati dalla concorrenza
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso quindi non sia fondamentale per il corretto funzionamento dell'applicaz
+ione
+\end_layout
+
+\end_inset
+
+ non saranno equivalenti o superiori alle risorse utilizzate, la concorrenza
+ sarà eliminata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Annidamento di chiamate:
+\series default
+ non dovranno esserci chiamate annidate con una profondità maggiore di 10(dieci)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Flussi condizionali:
+\series default
+ per la chiarezza e comprensione del futuro codice e per migliorare la verifica
+ di esso, qualora vengano utilizzati costrutti condizionali
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per esempio costrutti del tipo 
+\family typewriter
+if-then-else
+\end_layout
+
+\end_inset
+
+, l'annidamento di tali costrutti non potrà essere maggiore di 5(cinque).
+ Questo parametro potrà essere aumentato previo accordo con il Responsabile
+ di Progetto, nei casi in cui si renda necessario
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Numero di parametri:
+\series default
+ i metodi creati non potranno avere più di 10(dieci) parametri.
+ Questo limite non si applica al numero di variabili interne alle singole
+ classi
+\end_layout
+
+\begin_layout Subsection
+Tracciamento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tracciamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dovrà essere presente in forma tabellare il tracciamento di ogni requisito
+ con l'entità che ne assicura la soddisfacibilità e viceversa.
+\end_layout
+
+\begin_layout Subsection
+Architettura generale
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Architettura-generale"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il documento relativo all'architettura generale
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Specifica Tecnica
+\end_layout
+
+\end_inset
+
+ dovrà contenere al suo interno:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Design pattern: 
+\series default
+trattazione dei vari 
+\bar under
+design pattern
+\bar default
+ utilizzati come specificato in sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Design-Pattern"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Struttura generale dell'architettura
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diagramma di 
+\bar under
+package
+\bar default
+ con una sintetica spiegazione
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Struttura generale delle sottoparti dell'architettura
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Diagramma delle classi
+\end_layout
+
+\begin_layout Enumerate
+Descrizione del diagramma delle classi ove, per ogni classe, dovrà comparire:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Nome completo comprensivo della gerarchia dei 
+\bar under
+package
+\end_layout
+
+\begin_layout Enumerate
+Breve descrizione interna e motivo di esistenza
+\end_layout
+
+\begin_layout Enumerate
+Funzionalità offerte 
+\end_layout
+
+\begin_layout Enumerate
+Utilizzatori ipotetici 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Diagramma di attività della specifica sottoparte
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Si-può-omettere"
+
+\end_inset
+
+Si può omettere tale diagramma qualora la sua definizione risulti talmente
+ banale da risultare immediata conseguenza delle descrizioni e dei diagrammi
+ precedenti
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Architettura di dettaglio
+\end_layout
+
+\begin_layout Standard
+Il documento relativo all'architettura di dettaglio
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Definizione di Prodotto
+\end_layout
+
+\end_inset
+
+ dovrà contenere al suo interno:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Standard di progetto:
+\series default
+ sezione in cui si dovrà parlare degli standard che si sono applicati per
+ il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica delle classi: 
+\series default
+ogni classe dovrà essere trattata seguendo il seguente schema risportato:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Funzione
+\series default
+ svolta dalla specifica classe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazione d'uso
+\series default
+ che tale classe possiede a seconda delle diverse relazioni.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attributi presenti
+\series default
+ nella classe con breve descrizione del significato
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metodi pubblici
+\series default
+ della classe con annessa descrizione qualora il comportamento non sia banale.
+ Si porrà poi attenzione nella descrizione delle eccezioni lanciate o gestite
+ e negli oggetti di ritorno
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,212 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Resoconto attività di verifica
+\end_layout
+
+\begin_layout Subsection
+Revisione dei Requisiti
+\end_layout
+
+\begin_layout Subsubsection
+Verifica della documentazione
+\end_layout
+
+\begin_layout Standard
+Nella fase di Revisione dei Requisiti è stata effettuata un'attività di
+ verifica sui documenti prodotti.
+ Nel dettaglio è stato effettuata un'analisi statica come indicato nella
+ sezione 2.5.2 tramite walkthrough prima ed inspection poi, verificando che
+ i documenti rispettino i punti individuati e riportati in tale sezione
+ inerenti la formattazione del testo, effettuando le dovute procedure per
+ la correzione degli errori rilevati.
+ Nel dettaglio, i documenti sono stati revisionato effettuando quindi il
+ controllo ortografico tramite Aspell, il plugin per 
+\bar under
+LyX
+\bar default
+, mentre il controllo grammaticale, sintattico e lessicale è avvenuto tramite
+ 
+\lang interlingua
+un'accurata
+\lang italian
+ rilettura da parte dei revisori.
+ Sono stati poi controllati anche i contenuti tabellari e grafici.
+ La segnalazione di irregolarità è avvenuta tramite 
+\bar under
+Ticket
+\bar default
+ che sono state prese in carico successivamente dal redattore e risolte.
+\begin_inset Newline newline
+\end_inset
+
+Infine, per effettuare il doppio tracciamento, si sono controllate le apposite
+ tabelle come descritto nel capitolo 2.1.
+\end_layout
+
+\begin_layout Subsection
+Revisione di Progettazione
+\end_layout
+
+\begin_layout Subsubsection
+Verifica della documentazione
+\end_layout
+
+\begin_layout Standard
+Anche in tale fase è stata effettuata un'accurata analisi statica sui documenti
+ in maniera simile a quanto avvenuto nella fase di Revisione dei Requisiti.
+ Una particolare attenzione è stata però posta nella fase di verifica dei
+ diagrammi 
+\bar under
+UML
+\bar default
+ in quanto la gran parte degli errori e delle imprecisioni rilevate nei
+ documenti presentati durante la precedente revisione erano concentrati
+ in tale sezione.
+ Nei documenti di Specifica Tecnica e Piano di Qualifica è poi stato fondamental
+e effetuare un'adeguata ed attenta fase di tracciamento.
+ Come in precedenza sono stati infine utilizzati i 
+\bar under
+Ticket 
+\bar default
+per segnalare eventuali irregolarità ed errori che sono stati poi presi
+ in carico dal redattore e risolti.
+\end_layout
+
+\begin_layout Subsection
+Revisione di Qualifica
+\end_layout
+
+\begin_layout Subsubsection
+Verifica della documentazione
+\end_layout
+
+\begin_layout Standard
+A causa degli esiti conseguiti nella Revisione di Progettazione, è stata
+ posta particolare attenzione alla ristesura del documento di Specifica
+ Tecnica.
+ Si è innanzitutto valutata l'architettura prodotta ed i design pattern
+ utilizzati, dopodiché è stata effettuata un'ulteriore fase di studio ed
+ analisi di altri design pattern in modo da verificare se fosse necessario
+ implementarne di nuovi.
+ Tale fase ha in conclusione comportato una notevole riprogettazione dell'archit
+ettura generale del prodotto e dei componenti di cui è composto.
+ E' quindi stata posta particolare attenzione all'implementazione più corretta
+ ed efficiente possibile dei vecchi e nuovi design pattern per evitare incongrue
+nze strutturali.
+\begin_inset Newline newline
+\end_inset
+
+Nella stesura del documento di Definizione di Prodotto è stata effettuata
+ una verifica sulla correttezza grammaticale e la chiarezza dell'esposizione.
+ Inoltre è stata verificata la presenza di apposite descrizioni per tutte
+ le classi e metodi appartenenti al progetto ed è stato anche valutato il
+ loro livello di chiarezza e descrizione, in modo che risultassero sufficienteme
+nte esaustive.
+ Anche in questa fase è stata logicamente svolta un'accurata analisi statica
+ dei documenti e dei diagrammi realizzati tramite accurate operazioni di
+ inspection.
+ Esse sono state svolte tenendo conto degli errori più spesso commessi e
+ delle aree maggiormente a rischio.
+\end_layout
+
+\begin_layout Subsubsection
+Verifica del codice
+\end_layout
+
+\begin_layout Standard
+I documenti non sono però stati i soldi ad essere sottoposti ad un'accurata
+ fase di verifica: anche il codice prodotto infatti è stato adeguatamente
+ verificato grazie agli strumenti a nostra disposizione.
+ E' stata svolta un'accurata inspection su tutto il codice prodotto per
+ la Revisione di Qualifica, andando a verificare che fossero stati adottati
+ tutti i punti guida individuati nel paragrafo 
+\begin_inset Quotes eld
+\end_inset
+
+2.5.2 Tecniche - Inspection del codice
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Tali punti guida sono stati fondammentali per poter mantenere innanzitutto
+ un'uniformità di stesura del codice per tutte le varie componenti di cui
+ è composto e poi, cosa ben più importante, evitare il verificarsi di errori
+ più o meno gravi.
+ Nella fase di inspection è stato infatti rilevato più di qualche errore
+ dato dalla non osservanza di questi punti che è però stato prontamente
+ segnalato e corretto.
+ Il resto delle attività di verifica e test sul codice sono state riportate
+ all'interno del paragrafo 5 
+\begin_inset Quotes eld
+\end_inset
+
+Pianificazione ed esecuzione del collaudo
+\begin_inset Quotes erd
+\end_inset
+
+ di questo stesso documento.
+\end_layout
+
+\end_body
+\end_document

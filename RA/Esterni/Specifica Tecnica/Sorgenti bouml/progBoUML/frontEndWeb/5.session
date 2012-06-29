@@ -1,0 +1,12 @@
+window_sizes 1280 975 221 1053 901 0
+diagrams
+  active  classdiagram_ref 128005 // frontEndWeb
+    1048 901 130 4 72 64
+end
+show_stereotypes
+selected 
+  package_ref 128389 // com::safetyGame::web::condivisi
+open
+  classview_ref 128005 // frontEndWeb
+end
+end

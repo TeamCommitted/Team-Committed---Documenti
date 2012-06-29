@@ -1,0 +1,565 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+%\usepackage{fullpage}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\doctitle}{Norme di progetto }
+\newcommand{\asd}{asd}
+\newcommand{\versiondoc}{V0.2 }
+\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
+\fancyhead[RE, RO]{\doctitle}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Analisi dei Requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Analisi-dei-Requisiti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'Analisi dei Requisiti dovrà essere redatta dagli analisti.
+\end_layout
+
+\begin_layout Standard
+In tale documento dovranno comparire ordinatamente tutti i requisiti evinti
+ dal Capitolato e/o dagli incontri effettuati con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+/ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+commitProg
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ogni requisito dovrà essere il più completo e non ambiguo possibile.
+ Per tale motivo si richiede che per ogni requisito venga specificato:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fonte:
+\series default
+ ovvero da dove è emerso il requisito
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Classificazione:
+\series default
+ ovvero raggruppare i requisiti in insiemi coerenti in modo da poter definire
+ una segnatura specifica, univoca e gerarchica secondo il seguente formalismo
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+R{X}{Y}
+\family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Queste sigle dovranno essere seguite dal numero del requisito.
+ Qualora si trattasse di un sottorequisito, si dovrà usare il sistema di
+ numerazione per indici/sotto-indici
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{X}: 
+\series default
+indica la categoria del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+F: 
+\series default
+requisito funzionale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Q: 
+\series default
+requisito di qualità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+P: 
+\series default
+requisito di prestazionale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+V:
+\series default
+ requisito di vincolo
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+{Y}: 
+\series default
+indica la classe del requisito.
+ In particolare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+OB: 
+\series default
+requisito obbligatorio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+D: 
+\series default
+requisito desiderabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+OP:
+\series default
+ requisito opzionale
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Descrizione grafica:
+\series default
+ utilizzare il formalismo UML per creare diagrammi di casi d'uso che facilitino
+ la comprensione di tali requisiti.
+\begin_inset Newline newline
+\end_inset
+
+I diagrammi dei casi d'uso utilizzeranno una nomenclatura simile alla precedente
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+UC{XX}{YY}
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+dove:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+UC: 
+\series default
+Use Case
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{XX}:
+\series default
+ iniziali dell'attore principale del caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso si tratti di un caso d'uso generale, 
+\series bold
+\size normal
+{XX}=G
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+{YY}
+\series default
+: numero sequenziale che contraddistingue il caso d'uso
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Se è un'
+\emph on
+esplosione
+\emph default
+ di un caso d'uso, sarà formato dal numero del caso d'uso che espande seguito
+ da 
+\family typewriter
+.{ZZ}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Descrizione didascalica:
+\series default
+ al fine di non lasciare ambiguità ai casi d'uso, si dovranno correlare
+ con una descrizione narrativa in cui dovranno comparire le seguenti informazion
+i:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Attori coinvolti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Scopo e descrizione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Precondizione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Postcondizione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Flusso base degli eventi
+\end_layout
+
+\begin_layout Itemize
+(Possibile) 
+\series bold
+Flussi alternativi
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Per ogni requisito dovrà essere inoltre definito un metodo per verificare
+ se tale requisito, all'interno del sistema, sia stato soddisfatto o meno.
+ Tale verifica potrà essere di tipo:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Statica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dinamica, 
+\series default
+tramite test
+\end_layout
+
+\begin_layout Subsection
+Classificazione dei requisiti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Classificazione-dei-requisiti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ogni requisito dovrà essere classificato in una di queste categorie:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Funzionale:
+\series default
+ requisiti che determinano le capacità richieste al sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Non funzionale:
+\series default
+ proprietà interne al sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Di qualità:
+\series default
+ requisiti volti a portare valore aggiunto al sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Di interfacciamento:
+\series default
+ requisito che svolge la funzionalità di connessione fra sistema e utente
+ che vuole interagire con il sistema stesso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Di vincolo:
+\series default
+ requisiti espressamente indicati nel capitolato d'appalto o nei verbali
+ d'incontro con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+ o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+commitProg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inoltre ogni requisito dovrà appartenere ad una classe di requisiti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Obbligatorio:
+\series default
+ requisito da considerarsi irrinunciabile per il cliente.
+ Senza di esso l'applicazione è da considerarsi 
+\series bold
+non soddisfacente
+\series default
+ per il cliente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Desiderabile:
+\series default
+ requisiti non strettamente necessari, ma che apportano valore aggiunto
+ importante al prodotto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Opzionale:
+\series default
+ requisito relativamente utile/importante o che potrebbe essere soggetto
+ di ulteriore contrattazione
+\end_layout
+
+\end_body
+\end_document

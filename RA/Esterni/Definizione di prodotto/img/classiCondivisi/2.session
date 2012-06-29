@@ -1,0 +1,26 @@
+window_sizes 1366 719 250 1110 645 0
+diagrams
+  active  classdiagram_ref 128002 // classi
+    1110 645 100 4 492 0
+end
+show_stereotypes
+selected attribute_ref 184578 // nRispCorr
+open
+  attribute_ref 128898 // dataOra
+  attribute_ref 128002 // Dipendente
+  operation_ref 135682 // set_Dipendente
+  operation_ref 184322 // isAutenticato
+  attribute_ref 128130 // giorno
+  operation_ref 148098 // DataOra
+  classrelation_ref 134658 // <directional aggregation>
+  classrelation_ref 134914 // <directional aggregation>
+  operation_ref 137346 // set_nome
+  class_ref 134914 // AssegnazTrofeo
+  operation_ref 147714 // Punteggio
+  operation_ref 137986 // Punteggio
+  operation_ref 137858 // set_punti
+  operation_ref 148610 // Domanda
+  class_ref 141698 // TrofeoAssegnato
+  class_ref 148226 // Recupero
+end
+end

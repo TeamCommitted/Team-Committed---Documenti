@@ -1,0 +1,214 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language italian
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Comunicazioni
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Comunicazioni"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Comunicazioni interne
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Comunicazioni-interne"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le comunicazioni interne dovranno passare attraverso i canali Facebook o
+ tramite il servizio di 
+\bar under
+ticket
+\bar default
+ di 
+\bar under
+Github
+\bar default
+.
+ In particolare: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nota su Facebook: 
+\series default
+le note su Facebook dovranno essere solo ed esclusivamente per comunicare
+ con tutti i membri del progetto (a.k.a.
+ Mailing List) e dovranno essere pubblicate all'interno del gruppo privato
+ nel social network.
+ Tutti i membri del progetto dovranno confermare la lettura della nota apponendo
+ un messaggio in risposta ad essa.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ticket:
+\series default
+ il servizio di 
+\bar under
+ticket
+\bar default
+ offerto da 
+\bar under
+Github
+\bar default
+ dovrà essere usato per tutte le comunicazioni 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+point-to-point
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, ovvero da persona a persona.
+ Basterà creare un nuovo 
+\bar under
+ticket
+\bar default
+ apponendo all'oggetto dello stesso il tag 
+\series bold
+[MES\SpecialChar \textcompwordmark{}
+SAG\SpecialChar \textcompwordmark{}
+GIO]
+\series default
+, per evidenziare in questo modo la natura del 
+\bar under
+ticket
+\bar default
+, senza indicare alcuna 
+\emph on
+\bar under
+milestone
+\bar default
+.
+\end_layout
+
+\begin_layout Subsection
+Comunicazioni esterne
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Comunicazioni-esterne"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Responsabile di Progetto sarà colui dovrà mantenere i contatti con 
+\bar under
+Committente
+\bar default
+, 
+\bar under
+Proponente
+\bar default
+ e qualsiasi altra figura esterna al gruppo.
+\end_layout
+
+\begin_layout Standard
+A tale proposito è stato creato un indirizzo e-mail tramite il quale il
+ Responsabile potrà parlare per conto e nel nome dell'intero gruppo di progetto.
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Tale mail è:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+teamcommitted@gmail.com
+\end_layout
+
+\begin_layout Standard
+Il Responsabile dovrà tenere informato il gruppo rispetto ad eventuali comunicaz
+ioni da e per gli esterni tramite quanto scritto nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

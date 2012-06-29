@@ -1,0 +1,485 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Introduzione
+\end_layout
+
+\begin_layout Subsection
+Scopo del documento
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scopo-del-documento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il documento 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Elementi di Gamification
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ viene redatto allo scopo di illustrare al proponente, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+propProg
+\end_layout
+
+\end_inset
+
+, quali sono gli elementi di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ che il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ intende introdurre all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A questo proposito il documento verterà sui seguenti punti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Definizione di 
+\emph on
+Gamification
+\emph default
+: 
+\series default
+definizione data dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ della 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ con vari esempi a supporto di questa, per vedere le realtà che sono state
+ studiate per arrivare alla definizione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di applicazione della 
+\emph on
+Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Sviluppo attuale:
+\series default
+ in questa sezione si parlerà di quali elementi si applicheranno al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ per renderlo efficace e sopratutto interessante per gli utenti, facendo
+ anche un'analisi delle potenzialità inserite
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Possibili sviluppi futuri:
+\series default
+ qui tratteremo tutti i possibili sviluppi futuri dell'applicazione, sempre
+ nell'ottica di renderla più efficace, efficiente ed interessante per gli
+ utenti, dando alcuni suggerimenti su come sarà possibile integrare questi
+ elementi di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Ambiguità
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ambiguitá"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario-V3.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
+ 
+\end_layout
+
+\begin_layout Subsection
+Riferimenti
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riferimenti-informativi"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti normativi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Team Committed (2012), 
+\series bold
+\emph default
+Norme di Progetto V3.0
+\end_layout
+
+\begin_layout Subsubsection
+Riferimenti informativi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Christopher Cunningam (2011),
+\series bold
+\emph default
+ Gamification by Design, 
+\series default
+\emph on
+Canada, O'REILLY Ed.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Gabe Zichermann & Joselin Linder (2010), 
+\series bold
+\emph default
+Game-Based Marketing, 
+\series default
+\emph on
+Canada, John Wiley & Sons, Inc.
+\end_layout
+
+\begin_layout Itemize
+Beintoo, (2010) 
+\series bold
+Beintoo
+\series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.beintoo.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
+Focus Coop, (2007) 
+\series bold
+CriticalCity Upload
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
+Onefeat, (2010) 
+\series bold
+Onefeat
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://onefeat.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
+Fabio Viola, (2011) 
+\series bold
+Gaemifications
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.gameifications.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
+Fabio Viola, (2011) 
+\series bold
+Guida alla Gamification
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.slideshare.net/akiraa/lezione-di-gamification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\begin_layout Itemize
+Stefano Mazzella, (2011) 
+\series bold
+Gamification
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.slideshare.net/SocialBizForum/gamification-for-an-empowered-company
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Riportato il 2012/02/10
+\end_layout
+
+\end_body
+\end_document

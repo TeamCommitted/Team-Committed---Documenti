@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="I tuoi punteggi"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#ffcccccc"
+	android:layout_x="0dp"
+	android:layout_y="51dp" />
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="279px"
+	android:layout_height="wrap_content"
+	android:text="Risposte date: 29"
+	android:layout_x="23dp"
+	android:layout_y="79dp" />
+<TextView
+	android:id="@+id/widget33_copy"
+	android:layout_width="279px"
+	android:layout_height="wrap_content"
+	android:text="Risposte corrette: 27"
+	android:layout_x="22dp"
+	android:layout_y="100dp" />
+<TextView
+	android:id="@+id/widget33_copy_copy"
+	android:layout_width="279px"
+	android:layout_height="wrap_content"
+	android:text="Risposte errate: 2"
+	android:layout_x="23dp"
+	android:layout_y="119dp" />
+<TextView
+	android:id="@+id/widget33_copy_copy_copy"
+	android:layout_width="279px"
+	android:layout_height="wrap_content"
+	android:text="Punti totalizzati: 512"
+	android:layout_x="22dp"
+	android:layout_y="140dp" />
+<TextView
+	android:id="@+id/widget32_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="I tuoi Badge"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#ffcccccc"
+	android:layout_x="2dp"
+	android:layout_y="166dp" />
+<ImageView
+	android:id="@+id/widget42"
+	android:layout_width="43px"
+	android:layout_height="42px"
+	android:layout_x="13dp"
+	android:layout_y="207dp" />
+<TextView
+	android:id="@+id/widget43"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Pompiere"
+	android:textStyle="bold"
+	android:layout_x="57dp"
+	android:layout_y="201dp" />
+<TextView
+	android:id="@+id/widget44"
+	android:layout_width="233px"
+	android:layout_height="wrap_content"
+	android:text="Hai risposto correttamente a tutte le domande di sicurezza riguardanti gli incendi."
+	android:layout_x="69dp"
+	android:layout_y="221dp" />
+<ImageView
+	android:id="@+id/widget42_copy"
+	android:layout_width="43px"
+	android:layout_height="42px"
+	android:layout_x="11dp"
+	android:layout_y="286dp" />
+<TextView
+	android:id="@+id/widget43_copy"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Infermiere"
+	android:textStyle="bold"
+	android:layout_x="55dp"
+	android:layout_y="283dp" />
+<TextView
+	android:id="@+id/widget44_copy"
+	android:layout_width="235px"
+	android:layout_height="wrap_content"
+	android:text="Hai risposto correttamente a tutte le domande di sicurezza riguardanti il primo soccorso."
+	android:layout_x="66dp"
+	android:layout_y="304dp" />
+</AbsoluteLayout>

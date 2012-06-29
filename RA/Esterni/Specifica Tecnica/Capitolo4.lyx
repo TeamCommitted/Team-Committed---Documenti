@@ -1,0 +1,666 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Architettura Generale
+\end_layout
+
+\begin_layout Standard
+L'applicativo è stato progettato come unione di quattro sottoinsiemi, come
+ mostrato in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Architettura-generale-dell'inter-1"
+
+\end_inset
+
+.
+ Ogni sottosistema è stato inoltre suddiviso in componenti, i quali sono
+ indipendenti tra di loro o, in ogni caso, con un basso indice di accoppiamento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/architettura generale.jpg
+	scale 30
+	scaleBeforeRotation
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Architettura-generale-dell'inter"
+
+\end_inset
+
+Architettura generale dell'intero sistema SafetyGame
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Come specificato nell'
+\emph on
+Analisi dei Requisiti
+\emph default
+, il 
+\bar under
+front-end
+\bar default
+ è stato diviso in tre parti e principalmente si occuperanno di fornire
+ l'interfaccia grafica agli utenti del sistema, quindi 
+\bar under
+Dipendenti
+\bar default
+, 
+\bar under
+Amministratori Installatori
+\bar default
+, 
+\bar under
+Amministratori Sicurezza 
+\bar default
+e 
+\bar under
+Amministratori Azienda
+\bar default
+.
+ In particolare abbiamo suddiviso il 
+\bar under
+front-end
+\bar default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Desktop: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+desktop
+\begin_inset Quotes erd
+\end_inset
+
+ si occuperà di gestire la temporizzazione delle domande da sottoporre al
+ 
+\bar under
+Dipendente
+\bar default
+, mostrandogli un pop-up di notifica ogni qualvolta sia giunto il tempo
+ di proporre una nuova domanda.
+ Questo sistema è formato dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CDESK 1: 
+\series default
+Login dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CDESK 2: 
+\series default
+Notifica nuova domanda
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Mobile: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+mobile
+\begin_inset Quotes erd
+\end_inset
+
+ si occuperà dei 
+\bar under
+dispositivi mobili Android
+\bar default
+.
+ È composto dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CMOB 1:
+\series default
+ Login
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 2:
+\series default
+ Gestione dati utente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 3:
+\series default
+ Rispondere nuova domanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 4:
+\series default
+ Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CMOB 5:
+\series default
+ Notifica nuova domanda
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Web: 
+\series default
+il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\bar under
+front-end 
+\bar default
+web
+\begin_inset Quotes erd
+\end_inset
+
+ gestirà la somministrazione delle domande sia al 
+\bar under
+Dipendente 
+\bar default
+connesso tramite applicazione desktop, sia a tutti gli utenti che sono connessi
+ tramite browser.
+ Esso è composto dai seguenti componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+CWEB 1:
+\series default
+ Login
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 2:
+\series default
+ Gestione dati utente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 3:
+\series default
+ Amministrazione utenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 4:
+\series default
+ Rispondere nuova domanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 5:
+\series default
+ Amministrazione domande
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 6: 
+\series default
+Visualizzazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 7: 
+\series default
+Amministrazione punteggi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CWEB 8:
+\series default
+ Notifica nuova domanda
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Il 
+\bar under
+back-end 
+\bar default
+si occuperà della persistenza delle informazioni e del loro recupero, in
+ modo da renderle disponibili agli altri sottosistemi.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+`E
+\end_layout
+
+\end_inset
+
+ formato dai seguenti componenti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 1:
+\series default
+ Login
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 2:
+\series default
+ Amministrazione utenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 3:
+\series default
+ Gestione domande e Risposte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CBACK 4: 
+\series default
+Amministrazione punteggi
+\end_layout
+
+\begin_layout Standard
+Oltre a questa separazione in componenti, i sottosistemi sono stati divisi
+ in livelli orizzontali, composti da elementi affini tra di loro, come mostrato
+ in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Architettura-generale-dell'inter-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/DiagrammadiClasse.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Architettura generale dell'intero sistema
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Architettura-generale-dell'inter-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Incorpora l'intero sistema SafetyGame
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Desktop
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop.view
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Definisce ed implementa l'interfaccia grafica usufruibile dagli utenti su
+ di un dispositivo desktop
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.desktop.logic
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Si occupa di controllare e gestire i dati che riceve in ingresso dall'interazion
+e con l'utente tramite interfaccia grafica e di mantenere quest'ultima aggiornat
+a
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Web 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb.pagine
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Costituisce la parte del sistema che definisce ed implementa l'interfaccia
+ web usufruibile dagli utenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.frontWeb.control
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Costituisce la parte del sistema che si occupa di controllare e gestire
+ i dati che riceve in ingresso l'applicazione dall'interazione con l'utente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Racchiude al suo interno il Front-End Mobile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.view
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene tutte le classi che definiscono la grafica dell'applicazione Android
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.utils
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene le classi che comunicano con le API del server
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.mobile.condivisi
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Package che contiene tutti i tipi di dato non nativi usati dall'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati alla creazione dell'intero back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.connection
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati all'interfacciamento dei vari front-end con
+ il back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.controller
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene gli oggetti deputati al controllo dei dati immessi nei vari front-end
+ e del loro eventuale indirizzamento verso l'acces-tier
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.access
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Contiene tutte le classi che si occupano di eseguire le operazioni che il
+ controller-tier chiede che vengano eseguite sui database aziendali e centrali
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+com.safetyGame.back.condivisi
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Contiene le classi che conterranno le informazioni che dovranno essere condivise
+ fra i vari strati del back-end
+\end_layout
+
+\end_body
+\end_document

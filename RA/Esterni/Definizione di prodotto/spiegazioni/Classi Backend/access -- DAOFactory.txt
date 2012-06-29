@@ -1,0 +1,21 @@
+la classe DAOFactory non contiene variabili interne e i metodi non sono definiti in quanto è una classe astratta.
+Questa classe serve a definire i prototipi dei metodi che dovranno essere definiti in ogni tipo di factory (tipo SqlDAOFactory).
+
+I metodi sono 5, uno per ogni interfaccia del DAO:
+
+  public abstract DAOLogin creaDAOLogin(Indirizzo azienda);
+per istanziare l'oggetto <tipo>DAOLogin
+  
+  public abstract DAODipendenti creaDAODipendenti(Indirizzo azienda);
+per istanziare l'oggetto <tipo>DAODipendenti
+  
+  public abstract DAODomande creaDAODomande(Indirizzo azienda, Indirizzo domande);
+per istanziare l'oggetto <tipo>DAODomande
+  
+  public abstract DAOBadge creaDAOBadge(Indirizzo azienda);
+per istanziare l'oggetto <tipo>DAOBadge
+
+  public abstract DAOPunteggi creaDAOPunteggi(Indirizzo azienda,Indirizzo domande);
+per istanziare l'oggetto <tipo>DAOPunteggi
+
+con <tipo> si intende un tipo di database.

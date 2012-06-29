@@ -1,0 +1,83 @@
+%% NON MODIFICARE QUESTE IMPOSTAZIONI
+\date{}
+\usepackage[latin9]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\usepackage{longtable}
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\rhead{\doctitle \versiondoc - \TeamCommitted}
+\lhead{\setlength{\unitlength}{1mm}
+	\begin{picture}(0,0)
+		\put(5,0){\includegraphics[scale=0.07]{img/LogoTeam}}
+	\end{picture}}
+\cfoot{\thepage\ di \pageref{LastPage}}
+
+%%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
+\newcommand{\TeamCommitted}{\emph{Team Committed }}
+\newcommand{\respProg}{\emph{Responsabile di Progetto }}
+\newcommand{\ammProg}{\emph{Amministratore di Progetto }}
+\newcommand{\analProg}{\emph{Analista }}
+\newcommand{\verifProg}{\emph{Verificatore }}
+\newcommand{\programProg}{\emph{Programmatore }}
+\newcommand{\progetProg}{\emph{Progettista }}
+\newcommand{\proponProg}{\emph{Proponente }}
+\newcommand{\commitProg}{\emph{Committente }}
+\newcommand{\propProg}{\emph{Prof. Amir Baldissera }}
+\newcommand{\commProg}{\emph{Prof. Tullio Vardanega }}
+\newcommand{\nameproject}{\emph{Progetto SafetyGame}}
+
+%%DA QUI IN POI POTETE MODIFICARE
+
+%% INSERIRE QUI IL NOME DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DEL NOME)
+\newcommand{\doctitle}{Norme di Progetto }
+
+%% INSERIRE QUI LA VERSIONE ATTUALE DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DELLA VERSIONE)
+\newcommand{\versiondoc}{V3.0}
+
+%%INSERITE QUI LA DATA DI COMPILAZIONE FINALE DEL DOCUMENTO
+\newcommand{\datared}{2012/06/16}
+
+%%INSERIRE QUI IL/I REDATTORI
+\newcommand{\redattore}{\begin{itemize}
+\item Giorgio Maggiolo
+\item Alessandro Cornaglia
+\item Massimo Dalla Piet\'a
+\end{itemize}}
+
+%%INSERIRE IL/I NOME DEI VERIFICATORI CHE HANNO VERIFICATO IL DOCUMENTO
+\newcommand{\verificatori}{\begin{itemize}
+\item Lorenzo Braghetto
+\item Massimo Dalla Piet\`a
+\item Marco Begolo
+\end{itemize}}
+
+%%INSERIRE IL NOME DI CHI HA APPROVATO IL DOCUMENTO
+\newcommand{\approvazione}{\begin{itemize}
+\item Giorgio Maggiolo
+\item Giacomo Quadrio
+\item Lorenzo Braghetto
+\end{itemize}}
+
+%%INSERIRE LA TIPOLOGIA DI USO DEL DOCUMENTO [Interno/Esterno]
+\newcommand{\usodoc}{Interno}
+
+%%INSERIRE LA LISTA DI DISTRIBUZIONE DEL DOCUMENTO
+\newcommand{\listadistr}{\TeamCommitted}
+
+%%INSERIRE IL SOMMARIO DEL DOCUMENTO
+\newcommand{\testosommario}{Questo documento vuol definire le norme volte alla regolamentazione del gruppo \TeamCommitted necessarie al processo di sviluppo del progetto SecurityGame}
+
+

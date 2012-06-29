@@ -1,0 +1,1346 @@
+format 67
+"Diagrammi_classi"
+  revision 3
+  modified_by 12 "truegek"
+
+
+  
+  // class settings
+  default_attribute_visibility private default_relation_visibility private default_operation_visibility public
+  //class diagram settings
+  draw_all_relations yes hide_attributes no hide_operations no show_members_full_definition yes show_members_visibility yes show_members_stereotype no show_members_multiplicity no show_members_initialization yes show_attribute_modifiers no member_max_width 127 show_parameter_dir yes show_parameter_name yes package_name_in_tab no class_drawing_mode natural drawing_language uml show_context_mode no auto_label_position yes show_relation_modifiers no show_infonote no shadow yes show_stereotype_properties no
+  //use case diagram settings
+  package_name_in_tab no show_context no auto_label_position yes draw_all_relations yes class_drawing_mode actor shadow yes show_stereotype_properties no
+  //sequence diagram settings
+  show_full_operations_definition no write_horizontally yes class_drawing_mode natural drawing_language uml draw_all_relations yes shadow yes show_stereotype_properties no
+  //collaboration diagram settings
+  show_full_operations_definition no show_hierarchical_rank no write_horizontally yes drawing_language uml package_name_in_tab no show_context no draw_all_relations yes shadow yes show_stereotype_properties no
+  //object diagram settings
+   write_horizontally yes package_name_in_tab no show_context no auto_label_position yes draw_all_relations yes shadow yes show_stereotype_properties no
+  //component diagram settings
+  package_name_in_tab no show_context no auto_label_position yes draw_all_relations yes shadow yes
+  draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no
+  //deployment diagram settings
+  package_name_in_tab no show_context no write_horizontally yes auto_label_position yes draw_all_relations yes shadow yes
+  draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no
+  //state diagram settings
+  package_name_in_tab no show_context no auto_label_position yes write_trans_label_horizontally yes show_trans_definition no draw_all_relations yes shadow yes
+  show_activities yes region_horizontally yes drawing_language uml show_stereotype_properties no
+  //activity diagram settings
+  package_name_in_tab no show_context no show_opaque_action_definition no auto_label_position yes write_flow_label_horizontally no draw_all_relations yes shadow yes
+  show_infonote yes drawing_language uml show_stereotype_properties no
+  
+  class_color yellow duration_color transparent continuation_color gray note_color blue fragment_color transparent subject_color transparent usecase_color yellow package_color transparent component_color green artifact_color green deploymentnode_color gray state_color yellow stateaction_color transparent activity_color transparent activityregion_color transparent activitypartition_color transparent activityaction_color transparent parameterpin_color white 
+  font_size 13
+  diagram_format A4
+
+  mark_for_import
+  
+  classview 128012 "mobile"
+    //class diagram settings
+    draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_infonote default shadow default show_stereotype_properties default
+    //collaboration diagram settings
+    show_full_operations_definition default show_hierarchical_rank default write_horizontally default drawing_language default package_name_in_tab default show_context default draw_all_relations default shadow default show_stereotype_properties default
+    //object diagram settings
+     write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+    //sequence diagram settings
+    show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default
+    //state diagram settings
+    package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+    show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+    //class settings
+    //activity diagram settings
+    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+    show_infonote default drawing_language default show_stereotype_properties default
+    classdiagram 128012 "condivisi"
+      draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    class 128012 "Dati"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 128012 "nome"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 128140 "cognome"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 128012 "getNome"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128140 "getCognome"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 128140 "Domanda"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 128268 "type"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 128396 "title"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 128524 "testo"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 128652 "risposte"
+	private explicit_type "string[]"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 128268 "getType"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128396 "getTitle"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128524 "getTesto"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128652 "getRisposte"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 134668 "Punteggi"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 135180 "rispostedate"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 135308 "rispostecorrette"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 135436 "risposteerrate"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 135564 "punti"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 135692 "badges"
+	private explicit_type "string[]"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 135180 "getRisposteDate"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135308 "getRispostecorrette"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135436 "getRisposteerrate"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135564 "getPunti"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135692 "getBadge"
+	public explicit_return_type "string[]"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 134796 "Quest"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 135820 "title"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 135948 "testo"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 135820 "getTitle"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135948 "getTesto"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    classdiagram 134540 "Utils"
+      draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    class 134924 "BootReceiver"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      operation 136076 "onReceive"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "context" explicit_type "context"
+	  param in name "arg1" explicit_type "intent"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 135052 "ConnectionUtils"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      operation 136332 "rootXML"
+	class_operation private explicit_return_type "Element"
+	nparams 1
+	  param in name "response" explicit_type "HttpResponse"
+	
+	
+	
+	
+	
+      end
+
+      operation 136204 "HttpCreateClient"
+	class_operation public explicit_return_type "Object"
+	nparams 2
+	  param in name "url" explicit_type "string"
+	  param in name "nameValuePairs" explicit_type "list<NameValuePair>"
+	
+	
+	
+	
+	
+      end
+
+      operation 136460 "parseXML"
+	class_operation public explicit_return_type "string"
+	nparams 3
+	  param in name "root" explicit_type "Element"
+	  param in name "stringa" explicit_type "string"
+	  param in name "position" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 135180 "IntentIntegrator"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 136204 "TAG"
+	class_attribute private explicit_type "string"
+	init_value "IntentIntegrator.class.getSimpleName()"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136844 "BS_PACKAGE"
+	class_attribute private explicit_type "string"
+	init_value "com.google.zxing.client.android"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136076 "REQUEST_CODE"
+	class_attribute public explicit_type "int"
+	init_value "0x0000c0de"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136332 "DEFAULT_TITLE"
+	class_attribute public explicit_type "string"
+	init_value "Install Barcode Scanner?"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136460 "DEFAULT_MESSAGE"
+	class_attribute public explicit_type "string"
+	init_value "This application requires Barrcode Scanner. Would you like to install it"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136588 "DEFAULT_YES"
+	class_attribute public explicit_type "string"
+	init_value "Yes"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136716 "DEFAULT_NO"
+	class_attribute public explicit_type "string"
+	init_value "No"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 136972 "PRODUCT_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(\"UPC_A\", \"UPC_E\", \"EAN_8\", \"EAN_13\", \"RSS_14\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137100 "ONE_D_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(\"UPC_A\", \"UPC_E\", \"EAN_8\", \"EAN_13\", \"CODE_39\", \"CODE_93\", \"CODE_128\", \"ITF\", \"RSS_14\", \"RSS_EXPANDED\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137228 "QR_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(\"QR_CODE\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137356 "DATA_MATRIX_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(\"DATA_MATRIX\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137484 "ALL_CODE_TYPES"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "null"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137612 "TARGET_BARCODE_SCANNER_ONLY"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "Collections.singleton(BS_PACKAGE)"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137740 "TARGET_ALL_KNOWN"
+	class_attribute public explicit_type "Collection<String>"
+	init_value "list(BS_PACKAGE, \"com.srowen.bs.android\", \"com.srowen.bs.android.simple\")"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137868 "activity"
+	private explicit_type "activity"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 137996 "title"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138124 "message"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138252 "buttonYes"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138380 "buttonNo"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 138508 "targetApplications"
+	private explicit_type "Collection<String>"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 136588 "getTitle"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 136716 "setTitle"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "title" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 136844 "setTitleByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "titleID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 136972 "getMessage"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137100 "setMessage"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "message" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137228 "setMessageByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "messageID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 137356 "getButtonYes"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137484 "setButtonYes"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonYes" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137612 "setButtonYesByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonYesID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 137740 "getButtonNo"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 137868 "setButtonNo"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonNo" explicit_type "string"
+	
+	
+	
+	
+	
+      end
+
+      operation 137996 "setButtonNoByID"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "buttonNoID" explicit_type "Int"
+	
+	
+	
+	
+	
+      end
+
+      operation 138124 "getTargetApplications"
+	public explicit_return_type "Collection<String>"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 138252 "setTargetApplications"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "targetApplications" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138380 "setSingleTargetApplication"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "targetApplication" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138508 "initiateScan"
+	public explicit_return_type "AlertDialog"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 138636 "initiateScan"
+	protected explicit_return_type "AlertDialog"
+	nparams 1
+	  param in name "desiredBarcodeFormats" explicit_type "Collection<String>"
+	
+	
+	
+	
+	
+      end
+
+      operation 138764 "startActivityForResult"
+	private explicit_return_type "void"
+	nparams 2
+	  param in name "intent" explicit_type "Intent"
+	  param in name "code" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+
+      operation 138892 "findTargetAppPackage"
+	private explicit_return_type "string"
+	nparams 1
+	  param in name "intent" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      operation 139020 "showDownloadDialog"
+	private explicit_return_type "alertDialog"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 139148 "parseActivityResult"
+	class_operation public explicit_return_type "IntentResult"
+	nparams 3
+	  param in name "int" explicit_type "requestCode"
+	  param in name "int" explicit_type "resultCode"
+	  param in name "intent" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      operation 139276 "shareText"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "text" explicit_type "CharSequence"
+	
+	
+	
+	
+	
+      end
+
+      operation 139404 "list"
+	class_operation private explicit_return_type "Collection<String>"
+	nparams 1
+	  param in name "values" explicit_type "string..."
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 141708 "IntentResult"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 145036 "contents"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145164 "formatName"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145292 "orientation"
+	private explicit_type "Integer"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145420 "rawBytes"
+	private explicit_type "byte[]"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145548 "errorCorrectionLevel"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 145932 "getContents"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146060 "getFormatName"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146188 "getRawBytes"
+	public explicit_return_type "byte[]"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146316 "getOrientation"
+	public explicit_return_type "Integer"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146444 "getErrorCorrectionLevel"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 146572 "toString"
+	public explicit_return_type "string"
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    classdiagram 141068 "View"
+      draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    class 141836 "DashboardActivity"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 145676 "context"
+	private explicit_type "Context"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 146700 "onCreate"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "savedInstanceState" explicit_type "bundle"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 141964 "DashboardLayout"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 145804 "UNEVEN_GRID_PENALITY_MULTIPIER"
+	class_attribute private explicit_type "int"
+	init_value "10"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 145932 "mMaxChildWidth"
+	private explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 146060 "mMaxChildHeight"
+	private explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 146828 "onMeasure"
+	protected explicit_return_type "void"
+	nparams 2
+	  param in name "widthMeasureSpace" explicit_type "int"
+	  param in name "heightMeasureSpace" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+
+      operation 146956 "onLayout"
+	public explicit_return_type "void"
+	nparams 5
+	  param in name "changed" explicit_type "boolean"
+	  param in name "l" explicit_type "int"
+	  param in name "t" explicit_type "int"
+	  param in name "r" explicit_type "int"
+	  param in name "b" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142092 "DatiActivity"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 146188 "context"
+	private explicit_type "Context"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 147084 "onCreate"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "savedInstanceState" explicit_type "bundle"
+	
+	
+	
+	
+	
+      end
+
+      operation 147212 "onOptionsItemSelected"
+	public explicit_return_type "boolean"
+	nparams 1
+	  param in name "item" explicit_type "MenuItem"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142220 "DomandaActivity"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 146316 "context"
+	private explicit_type "Context"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 147340 "onCreate"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "savedInstanceState" explicit_type "bundle"
+	
+	
+	
+	
+	
+      end
+
+      operation 147468 "onActivityResult"
+	public explicit_return_type "void"
+	nparams 3
+	  param in name "requestCode" explicit_type "int"
+	  param in name "resultCode" explicit_type "int"
+	  param in name "intent" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      operation 147596 "onOptionsItemSelected"
+	public explicit_return_type "boolean"
+	nparams 1
+	  param in name "item" explicit_type "MenuItem"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142348 "LoginActivity"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 146444 "context"
+	private explicit_type "Context"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 147724 "onCreate"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "savedInstanceState" explicit_type "bundle"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142476 "PunteggioActivity"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 146572 "context"
+	private explicit_type "Context"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 147852 "onCreate"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "savedInstanceState" explicit_type "Bundle"
+	
+	
+	
+	
+	
+      end
+
+      operation 147980 "onOptionsItemSelected"
+	public explicit_return_type "boolean"
+	nparams 1
+	  param in name "item" explicit_type "MenuItem"
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142604 "TimerNotifica"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      attribute 146700 "mStartTime"
+	private explicit_type "long"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 146828 "mHandler"
+	private explicit_type "Handler"
+	init_value "new Handler()"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 146956 "mNotificationManager"
+	private explicit_type "NotificationManager"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 147084 "notification"
+	private explicit_type "Notification"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 147212 "prefs"
+	private explicit_type "SharedPreferences"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      operation 148108 "onStartCommand"
+	public explicit_return_type "int"
+	nparams 3
+	  param in name "intent" explicit_type "Intent"
+	  param in name "flags" explicit_type "int"
+	  param in name "startId" explicit_type "int"
+	
+	
+	
+	
+	
+      end
+
+      operation 148236 "onBind"
+	public explicit_return_type "IBinder"
+	nparams 1
+	  param in name "arg0" explicit_type "Intent"
+	
+	
+	
+	
+	
+      end
+
+      attribute 147340 "mUpdateTimeTask"
+	private explicit_type "Runnable"
+	init_value "new Runnable()"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+    end
+  end
+end

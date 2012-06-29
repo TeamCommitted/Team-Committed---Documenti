@@ -1,0 +1,422 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass letter
+\begin_preamble
+\include{preface}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout My Address
+\begin_inset Graphics
+	filename img/LogoTeam.pdf
+	scale 17
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Send To Address
+Prof.
+ Vardanega, Tullio
+\begin_inset Newline newline
+\end_inset
+
+Università degli Studi di Padova
+\begin_inset Newline newline
+\end_inset
+
+Via Trieste 63
+\begin_inset Newline newline
+\end_inset
+
+35100, Padova (PD)
+\end_layout
+
+\begin_layout Opening
+Egregio Prof.
+ Vardanega,
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\series bold
+Revisione di Qualifica
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con la presente il gruppo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ intende comunicarLe ufficialmente l'intenzione di partecipare alla prossima
+ Revisione di Qualifica.
+\end_layout
+
+\begin_layout Standard
+Il materiale consegnato è diviso come segue:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Documenti:
+\series default
+ cartella contenente la documentazione prodotta
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Source
+\series default
+: cartella contenente i sorgenti del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Viene allegata la seguente documentazione:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei Requisiti - V3.0 
+\series default
+(allegato 
+\family typewriter
+Analisi_dei_Requisiti_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Definizione di prodotto - V1.0 
+\series default
+(allegato 
+\family typewriter
+Definizione_di_Prodotto_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di Gamification - V1.0
+\series default
+ (allegato 
+\family typewriter
+Elementi_di_Gamification_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Glossario - V3.0 
+\series default
+(allegato 
+\family typewriter
+Glossario_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuale Installatore - V1.0 
+\series default
+(allegato 
+\family typewriter
+Manuale_Installatore_V1.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuali Utente - V1.0
+\series default
+ (allegato 
+\family typewriter
+Manuali_Utente_V1.0.zip
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuale Amministratore Azienda - V1.0
+\series default
+ (allegato 
+\family typewriter
+Manuale_Amministratore_Azienda_V1.0.zip
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V3.0
+\series default
+ (allegato 
+\family typewriter
+Norme_di_Progetto_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto - V3.0 
+\series default
+(allegato 
+\family typewriter
+Piano_di_Progetto_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica - V3.0
+\series default
+ (allegato 
+\family typewriter
+Piano_di_Qualifica_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica Tecnica - V2.0 
+\series default
+(allegato 
+\family typewriter
+Specifica_Tecnica_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+Si fa presente che tutti i manuali forniti attualmente subiranno aggiornamenti
+ relativi alle funzionalità, che verranno successivamente implementate,
+ e all'aspetto grafico.
+ Verrà inotre fornito per la successiva consegna il manuale utente relativo
+ all'applicazione desktop e il manuale per l'Amministratore Sicurezza relativo
+ all'applicativo web.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+Rimaniamo a Sua completa disposizione per evenutali chiarimenti.
+\end_layout
+
+\begin_layout Standard
+RingraziandoLa per la cortese attenzione, 
+\end_layout
+
+\begin_layout Standard
+Le auguro un buon proseguimento di giornata.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+flushright{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Alessandro Cornaglia
+\begin_inset Newline newline
+\end_inset
+
+Responsabile del Team Committed
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Corni.jpg
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout encl
+
+\family typewriter
+./Documenti/Esterni/Analisi_dei_Requisiti_V3.0.pdf, ./Documenti/Esterni/Definizione_
+di_Prodotto_V1.0.pdf, ./Documenti/Esterni/Elementi_di_Gamification_V1.0.pdf,
+ ./Documenti/Esterni/Glossario_V3.0.pdf, ./Documenti/Esterni/Manuale_Installatore_V1.
+0.pdf, ./Documenti/Esterno/Manuali_utente.zip, ./Documenti/Esterno/Manuale_Amministr
+atore_Azienda.zip, ./Documenti/Interni/Norme_di_Progetto_V3.0.pdf,
+\series bold
+ 
+\series default
+./Documenti/Esterni/Piano_di_Progetto_V3.0.pdf
+\series bold
+, 
+\series default
+./Documenti/Esterni/Piano_di_Qualifica_V3.0.pdf
+\series bold
+, 
+\series default
+./Documenti/Esterni/Specifica_Tecnica_V2.0.pdf, ./Source.zip
+\end_layout
+
+\end_body
+\end_document

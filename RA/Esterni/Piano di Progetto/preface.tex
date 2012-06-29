@@ -1,0 +1,86 @@
+%%!!ATTENZIONE!!
+%QUESTO FILE E' UN ESEMPIO. COPIATE ALL'INTERNO DELLA CARTELLA DEL DOCUMENTO SU CUI STATE LAVORANDO E MODIFICATE
+%% NON MODIFICARE QUESTE IMPOSTAZIONI
+\date{}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\usepackage{longtable}
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{eurosym}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\fancyhead[RE, RO]{\doctitle \versiondoc - \TeamCommitted}
+\lhead{\setlength{\unitlength}{1mm}
+	\begin{picture}(0,0)
+		\put(5,0){\includegraphics[scale=0.07]{Img/LogoTeam}}
+	\end{picture}}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+
+%%Comandi particolari per i nomi delle figure. Chiamare come una funzione LaTeX
+\newcommand{\TeamCommitted}{\emph{Team Committed }}
+\newcommand{\respProg}{\emph{Responsabile di Progetto }}
+\newcommand{\ammProg}{\emph{Amministratore di Progetto }}
+\newcommand{\analProg}{\emph{Analista }}
+\newcommand{\verifProg}{\emph{Verificatore }}
+\newcommand{\programProg}{\emph{Programmatore }}
+\newcommand{\progetProg}{\emph{Progettista }}
+\newcommand{\proponProg}{\emph{Proponente }}
+\newcommand{\commitProg}{\emph{Committente }}
+\newcommand{\propProg}{\emph{Prof. Amir Baldissera }}
+\newcommand{\commProg}{\emph{Prof. Tullio Vardanega }}
+\newcommand{\nameproject}{\emph{Progetto SafetyGame}}
+
+%%DA QUI IN POI POTETE MODIFICARE
+%% ATTENZIONE a riscrivere le date nel formato AAAA/MM/GG
+%% ATTENZIONE a non cambiare il nome del Redattore. Infatti, chi redige il documento (il responsabile) continua a restare lo stesso che l'ha redatto la prima volta. Nel nostro caso, il responsabile cambia (quindi atenzione a chi fa le modifiche nel diario delle modifiche), ma il redattore continua ad essere chi l'ha scritto per la prima volta. 
+
+%% INSERIRE QUI IL NOME DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DEL NOME)
+\newcommand{\doctitle}{Piano di Progetto }
+
+%% INSERIRE QUI LA VERSIONE ATTUALE DEL DOCUMENTO (INSERITE SEMPRE UNO SPAZIO ALLA FINE DELLA VERSIONE)
+\newcommand{\versiondoc}{V3.0 }
+
+%%INSERITE QUI LA DATA DI COMPILAZIONE FINALE DEL DOCUMENTO
+\newcommand{\datared}{2012/01/30}
+
+%%INSERIRE QUI IL/I REDATTORI
+\newcommand{\redattore}{\begin{itemize}
+\item Giorgio Maggiolo
+\item Marco Begolo
+\end{itemize}}
+
+%%INSERIRE IL/I NOME DEI VERIFICATORI CHE HANNO VERIFICATO IL DOCUMENTO
+\newcommand{\verificatori}{\begin{itemize}
+\item Marco Begolo
+\item Lorenzo Braghetto
+\end{itemize}}
+
+%%INSERIRE IL NOME DI CHI HA APPROVATO IL DOCUMENTO
+\newcommand{\approvazione}{\begin{itemize}
+\item Alessandro Cornaglia
+\end{itemize}}
+
+%%INSERIRE LA TIPOLOGIA DI USO DEL DOCUMENTO [Interno/Esterno]
+\newcommand{\usodoc}{Esterno}
+
+%%INSERIRE LA LISTA DI DISTRIBUZIONE DEL DOCUMENTO
+\newcommand{\listadistr}{\begin{itemize}
+\item \TeamCommitted
+\item \commProg
+\item \propProg
+\end{itemize}}
+
+%%INSERIRE IL SOMMARIO DEL DOCUMENTO
+\newcommand{\testosommario}{Questo documento vuol definire la pianificazione delle attivit\`a che il \TeamCommitted vuole attuare per il \emph{Progetto SafetyGame}}
+

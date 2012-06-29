@@ -1,0 +1,767 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Diagrammi di sequenza
+\end_layout
+
+\begin_layout Standard
+In questa sezione sono descritta in maniera più approfondita alcune importanti
+ operazioni prevista dal sistema facendo uso dei diagrammi di sequenza.
+ Questi diagrammi sono stati introdotti solo a questo punto del documento
+ in quanto, al loro interno, si fa riferimento a metodi di varie classi,
+ che dovevano essere quindi prima definiti.
+\end_layout
+
+\begin_layout Standard
+Lo scopo è di mostrare come i metodi delle classi dei vari package interagiscano
+ per ottenere il risultato richiesto.
+ Sarà dunque possibile osservare come il flusso delle operazioni nasca dalle
+ varie View e raggiunga il Model, per poi invertirsi
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dove si parlerà di interfacce (ex.
+ 
+\emph on
+DAOLogin
+\emph default
+) si intenderà la sua implementazione in una classe concreta.
+ Per semplicità continueremo a riferirci all'interfaccia, tenendo a mente
+ però che in realtà verranno chiamati metodi e/o campi dati sulle classi
+ concrete
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Analizzeremo in particolare le seguenti azioni:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Creazione del back-end
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Login da dispositivo mobile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Modifica utente da parte di un Amministratore Azienda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aggiunta domanda da parte di un Amministratore Sicurezza
+\end_layout
+
+\begin_layout Subsection
+Creazione del back-end
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/propostadomandamobile.eps
+	scale 85
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramma-di-sequenza"
+
+\end_inset
+
+Diagramma di sequenza relativo alla risposta di un utente ad una domanda
+ da dispositivo mobile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La classe 
+\series bold
+Inizializzatore
+\series default
+ dovrà seguire la lista di inizializzazione indicata in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramma-di-sequenza"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Login mobile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/LoginMobile.eps
+	scale 80
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo al login di un Dipendente da dispositivo
+ mobile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+L'utente inserisce all'interno dei campi dati della grafica le sue credenziali
+ d'accesso che verranno passate alla classe 
+\series bold
+LoginTask
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+LoginTask
+\series default
+ dovrà avviare una comunicazione 
+\emph on
+HTTP
+\emph default
+ con le pagine 
+\emph on
+JSP
+\emph default
+ deputate alla ricezione delle richieste del 
+\emph on
+Front-end Mobile
+\emph default
+.
+ In particolare dovrà comunicare con la pagina deputata alla ricezione di
+ richieste riguardanti le domande
+\end_layout
+
+\begin_layout Itemize
+Le 
+\series bold
+API
+\series default
+ richiederanno alla classe 
+\series bold
+Inizializzatore 
+\series default
+un oggetto di tipo 
+\series bold
+ApplicazioniConnection
+\series default
+, sul quale poi si invocherà il metodo 
+\emph on
+Login
+\emph default
+, passando come parametri l'username e password come 
+\emph on
+Stringhe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ApplicazioniConnection
+\series default
+ dovrà generare un oggetto di tipo 
+\series bold
+Login
+\series default
+ a partire dalle informazioni trasmesse dal 
+\emph on
+Front-End
+\emph default
+, quindi invocherà sulla classe Façade 
+\series bold
+GestioneDati
+\series default
+ il metodo 
+\emph on
+loginUser
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneDati
+\series default
+ dovrà inoltrare la chamata alla classe deputata alla gestione delle operazioni
+ di login/logout, 
+\series bold
+GestioneLogin
+\series default
+, invocando su di essa il metodo 
+\emph on
+loginUser
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneLogin
+\series default
+ chiamerà 
+\series bold
+DAOLogin
+\series default
+ invocando il metodo 
+\emph on
+loginDipendente
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+DAOLogin
+\series default
+ dovrà interrogare il database attraverso la classe 
+\series bold
+Indirizzo
+\series default
+ per verificare che all'interno del database esista un dipendente con le
+ credenziali d'accesso inserite.
+ Se esiste, dovrà ritornare 
+\series bold
+true
+\series default
+, altrimenti 
+\series bold
+false
+\series default
+.
+ Questo valore dovrà propagarsi fino al 
+\emph on
+Front-end Mobile
+\emph default
+, il quale dovrà far visualizzare o la schermata principale o un messaggio
+ d'errore.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Modifica utente da parte di un Amministratore Azienda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/moddipAA.eps
+	scale 80
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo alla modifica di un utente da parte di un
+ Amministratore Azienda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+L'
+\emph on
+Amministratore Azienda
+\emph default
+ modificherà i dati di un 
+\emph on
+Dipendente
+\emph default
+ all'interno della pagina 
+\series bold
+admin_page.jsp
+\series default
+.
+ Quest'ultima creerà due oggetti di tipo 
+\series bold
+Dipendente
+\series default
+: uno contenente i vecchi dati del 
+\emph on
+Dipedente
+\emph default
+ in questione e uno con i dati modificati dall'
+\emph on
+Amministratore Azienda
+\emph default
+, quindi chiederà alla classe 
+\series bold
+Inizializzatore 
+\series default
+il puntatore alla classe 
+\series bold
+WebConnection
+\series default
+, sulla quale invocherà il metodo 
+\series bold
+modDipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+WebConnection
+\series default
+ dovrà invocare il metodo 
+\series bold
+modDipendente
+\series default
+ sulla classe 
+\series bold
+GestioneDipendenteAA
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneDipendenteAA 
+\series default
+dovrà controllare quali sono i campi dati che sono stati modificati e, per
+ ognuno di essi, dovrà:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Invocare il metodo di modifica opportuno della classe 
+\series bold
+DAODipendenti
+\series default
+, il quale chiamerà il metodo 
+\series bold
+modificaRiga
+\series default
+ della classe 
+\series bold
+Indirizzo
+\end_layout
+
+\begin_layout Itemize
+Scrivere nel file di log opportuno, nel caso non venga riportato alcun errore,
+ la modifica tramite l'invocazione del metodo 
+\series bold
+scriviMod<XXX>AA
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+<XXX>=nome del campo dato modificato
+\end_layout
+
+\end_inset
+
+
+\series default
+ della classe 
+\series bold
+GestioneLog
+\series default
+, il quale invocherà il metodo 
+\series bold
+scriviChiudi
+\series default
+ della classe 
+\series bold
+UpdateLog
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+
+\series bold
+Aggiunta domanda da parte di un Amministratore Sicurezza
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Diagrammisequenza/moddomAS.eps
+	scale 80
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma di sequenza relativo all'aggiunta di una domanda da parte di un
+ Amministratore Sicurezza
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+L'
+\emph on
+Amministratore Sicurezza
+\emph default
+ aggiungerà una domanda all'elenco di domande disponibili per l'azienda
+ prelevata dal database centrale all'interno della pagina 
+\series bold
+admin_page.jsp
+\series default
+.
+ Quest'ultima creerà un oggetto di tipo 
+\series bold
+Domanda
+\series default
+ e recupererà dall'oggetto 
+\series bold
+Inizializzatore
+\series default
+ il puntatore alla classe 
+\series bold
+WebConnection
+\series default
+.
+ Quindi invocherà su di essa il metodo 
+\series bold
+aggiungiDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+WebConnection
+\series default
+ quindi redirigerà la chiamata verso la classe 
+\series bold
+GestioneDati
+\series default
+ invocando il metodo 
+\series bold
+addDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GestioneDati
+\series default
+, a sua volta, invocherà il metodo 
+\series bold
+addDomanda
+\series default
+ della classe 
+\series bold
+GestioneDomandeAS
+\series default
+, il quale chiamerà l'oggetto 
+\series bold
+DAODomande
+\series default
+ invocando il metodo 
+\series bold
+addDomanda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+DAODomanda
+\series default
+ invocherà sull'oggetto 
+\series bold
+Indirizzo
+\series default
+ il metodo 
+\series bold
+inserisciRiga
+\series default
+ e, nel caso non ci siano errori, scrivere nel file di log opportuno tramite
+ l'invocazione del metodo 
+\series bold
+scriviAddDomande
+\series default
+ della classe 
+\series bold
+GestioneLog
+\series default
+ la quale invocherà la classe 
+\series bold
+UpdateLog
+\series default
+ chiamandone il metodo 
+\series bold
+scriviChiudi
+\end_layout
+
+\end_body
+\end_document

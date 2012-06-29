@@ -1,0 +1,1292 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 4
+\tocdepth 4
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Definizione di Gamification
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Definizione-di-Gamification"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, secondo le varie definizioni trovate all'interno dei vari documenti trovati,
+ è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\emph on
+Possiamo definire la Gamification come un insieme di regole con l’obiettivo
+ di applicare meccaniche ludiche ad attività che non hanno direttamente
+ a che fare con il gioco; in questo modo è possibile modificare il comportamento
+ delle persone e favorire l’interesse attivo degli utenti verso il messaggio
+ da comunicare, anche di impresa.
+\emph default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tratto da 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.gameifications.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Per poter esprimere al meglio quali saranno gli elementi di 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+che applicheremo all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ , vorremmo prima condividere l'analisi che abbiamo effettuato su alcuni
+ contesti in cui la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stata applicata.
+\end_layout
+
+\begin_layout Subsection
+Contesti applicativi studiati
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Contesti-applicativi-studiati"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per esprimere al meglio lo studio fatto sui vari contesti applicativi, ogni
+ caso verrà diviso nei seguenti elementi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione
+\series default
+: descrizione testuale del caso di studio
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di gamification:
+\series default
+ elementi di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ che il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha rilevato all'interno del caso di studio e le differenti tipologie di
+ giocatori coinvolti dalla 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La nomenclatura utilizzata, così come il loro significato, è la stessa usata
+ all'interno del libro 
+\series bold
+Gamification by Design
+\series default
+, pagg.
+ 22-23.
+ I termini sono stati mantenuti in inglese
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Esempi:
+\series default
+ qui verranno inseriti alcuni esempi (che possono essere immagini piuttosto
+ che testo) di quanto specificato prima
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo le realtà che abbiamo studiato per poter comprendere
+ al meglio la 
+\emph on
+\bar under
+Gamification:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CriticalCity Upload
+\series default
+, Focus Coop (2007)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+CriticalCity Upload
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:CriticalCity-Upload"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/Logo_CCU_horizzontal.eps
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logo di 
+\emph on
+CriticalCity Upload
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ è un 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Gioco urbano
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ in cui il 
+\emph on
+\bar under
+Gamification
+\bar default
+ 
+\emph default
+è un elemento fondamentale, capace di mettere in campo la nostra creatività,
+ l'intelligenza, di competere per migliorare e poter condividere i risultati,
+ è la relazione che fonda la voglia di incontrarsi e fare un pezzo di strada
+ insieme.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'E
+\end_layout
+
+\end_inset
+
+ stato scelto come caso di studio sia per la sua ovvia applicazione dei
+ concetti di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, sia per studiare un caso già concretamente realizzato e funzionante di
+ cooperazione esterna ad ogni ambito inteso come locazione fisica unitaria
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ad esempio uffici o comunque strutture che possono essere ricondotte ad
+ 
+\bar under
+aziende
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+
+\series bold
+Missioni:
+\series default
+ l'intero gioco è basato sul concetto di missioni
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Denominate 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Istruzioni
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, dove vedono i giocatori scegliere e svolgere queste missioni
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Una volta svolte, le 
+\emph on
+istruzioni
+\emph default
+ divengono 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Esecuzioni
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ L'elemento caratterizzante è la documentazione dello svolgimento tramite
+ foto, video e/o semplice testo; questa documentazione verrà poi pubblicata
+ per poter dichiarare conclusa la missione
+\end_layout
+
+\begin_layout Description
+Punti
+\begin_inset space ~
+\end_inset
+
+esperienza: i punti esperienza servono per valutare sia la difficoltà di
+ un'istruzione, sia il numero di voti che un'esecuzione ha ricevuto.
+ Dopo un determinato numero di punti esperienza, è possibile salire di livello
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Livelli:
+\series default
+ ad ogni giocatore è assegnato un livello che varierà in base a quante missioni
+ ha fatto.
+ In particolare ad ogni missione viene attribuito un punteggio calcolato
+ a partire dalla sua difficoltà.
+ Ogni 
+\series bold
+tot
+\series default
+ punti il sistema assegnerà un nuovo livello, dando la possibilità di svolgere
+ nuove missioni e dando nuovi voti disponbili
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Valutazioni:
+\series default
+ ogni giocatore avrà un numero limitato di voti da dare alle esecuzioni
+ fatte dagli altri giocatori.
+ In questo modo, il giocatore che riceverà un voto avrà un incremento di
+ 5 punti al valore della missione conclusa
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Badge:
+\series default
+ il 
+\emph on
+badge
+\emph default
+, all'interno di 
+\emph on
+CriticalCity Upload
+\emph default
+, è implementato in maniera leggermente differente rispetto alla normale
+ definizione: al raggiungimento del 7° livello, i mantainer del sito inviano
+ a casa del giocatore la 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Scatola Inversa
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, pacchetto il cui contenuto è sconosciuto ai più e sul quale si cerca di
+ mantenere il massimo riserbo proprio per poter invogliare i giocatori a
+ raggiungere il 7° livello
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Aiuto
+\begin_inset space ~
+\end_inset
+
+reciproco:
+\series default
+ è possibile che un giocatore si proponga come 
+\begin_inset Quotes eld
+\end_inset
+
+aiutante
+\begin_inset Quotes erd
+\end_inset
+
+ nei confronti di una missione.
+ 
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Riprova
+\begin_inset space ~
+\end_inset
+
+sociale:
+\series default
+ questo elemento è diviso in due 
+\emph on
+sottocategorie:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Email:
+\series default
+ ogni mese arriva una mailing list dove viene mostrata l'esecuzione migliore
+ di quel mese, dando risalto al giocatore che l'ha effettuata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sito web:
+\series default
+ nell'home page del sito c'è un riquadro che mostra la migliore esecuzione
+ del momento, calcolata in base ai voti assegnati durante un periodo di
+ tempo
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\series bold
+GeoTagging:
+\series default
+ ogni esecuzione permette di inserire il luogo dove questa è stata fatta
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Definiti come 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Nodi
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ I nodi dove sono state eseguite più missioni acquistano valore, dando più
+ punti alle missioni che sono state eseguite al loro interno
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
+ noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
+\end_layout
+
+\begin_layout Description
+Explorer, in quanto pensiamo che, essendoci il blocco delle istruzioni sul
+ livello raggiunto dall'utente, gli 
+\emph on
+esploratori
+\emph default
+ vogliano raggiungere un livello sempre superiore per poter esplorare le
+ missioni che sono a lui precluse in quel momento
+\end_layout
+
+\begin_layout Description
+Achiever, per la 
+\emph on
+Scatola Inversa
+\emph default
+, obiettivo che sancisce l'arrivo al 7° livello
+\end_layout
+
+\begin_layout Description
+Socializer, sia per la possibilità di commentare le esecuzioni degli altri
+ utenti, sia per la possibilità di cooperare per svolgere un'istruzione
+ o per l'obbligatorietà dell'interazione con altri giocatori
+\end_layout
+
+\begin_layout Standard
+La componente che più di tutte cerca di fare leva sui giocatori è la 
+\series bold
+creazione di un legame 
+\series default
+sia con altri giocatori, sia con le missioni, sviluppando in particolare
+ una voglia di ricercare il lato ludico delle istruzioni, ma al contempo
+ cercando di far interagire i giocatori con l'ambiente circostante
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Esempi:
+\series default
+ seguono alcune immagini dal sito del progetto
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityhome.jpg
+	scale 16
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityprofilo.jpg
+	scale 16
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Home page e pagina profilo di un utente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityistruzioni.jpg
+	scale 15
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/CriticalCity/CriticalCityesecuzioni.jpg
+	scale 15
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pagina delle istruzioni e delle esecuzioni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I video di alcune esecuzioni possono essere trovati ai seguenti indirzzi:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://youtu.be/Q9pMVrqKFMg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://youtu.be/CY2Gk7Yw1t0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://youtu.be/lTEaRFmD_5k
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qui invece si potranno trovare alcune esecuzioni all'interno di 
+\emph on
+CriticalCity Upload
+\emph default
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/24619
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25084
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://criticalcity.org/posts/25081
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Altre realtà osservate
+\end_layout
+
+\begin_layout Standard
+Poichè il tempo a disposizione del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ per studiare la 
+\emph on
+\bar under
+Gamification
+\emph default
+ 
+\bar default
+è stato relativamente poco, elenchiamo qui una serie di altre realtà che
+ il gruppo ha osservato, ma che, per questioni di tempo, non sono state
+ studiate attentamente.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Beintoo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/Beintoo/logo.png
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logo di 
+\emph on
+Beintoo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Beintoo è una community in forte crescita di appassionati di apps che vogliono
+ condividere la loro apps life con i loro amici e scoprire nuovi amici con
+ i loro stessi interessi ed anche geograficamente vicini.
+ Unisciti a Beintoo, mostrerai agli altri membri della community quanto
+ sei bravo ad utilizzare le tue apps preferite.
+ Aumenterai il tuo Bescore passando da Novice fino a Master e vincerai i
+ nostri Bedollars.
+ Ma siamo andati oltre: i nostri Bedollars ti permetteranno di ottenere
+ eccezionali beni virtuali come premi all'interno delle tue apps e sulla
+ nostra community, potrai poi convertire i tuoi premi in buoni sconto per
+ beni reali visitando i negozi dei nostri inserzionisti, nella tua città
+ o sul Web.
+ Trasforma la tua passione per le apps in vere opportunità
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Descrizione tratta dal sito di Beintoo, all'indirizzo 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.beintoo.com/aboutus.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elementi di Gamification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Riprova
+\begin_inset space ~
+\end_inset
+
+sociale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Premi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Punti
+\begin_inset space ~
+\end_inset
+
+spendibili
+\end_layout
+
+\begin_layout Standard
+Poichè 
+\emph on
+Beintoo
+\emph default
+ è collegata a moltissime altre realtà che applicano la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, in realtà non è così semplice dire con certezza quali elementi sono stati
+ applicati.
+ Per questo motivo la lista di elementi che abbiamo trovato è abbastanza
+ esigua.
+\end_layout
+
+\begin_layout Standard
+Di seguito elenchiamo quindi le differenti tipologie di giocatori che, secondo
+ noi, vengono coinvolti con l'uso degli elementi precedentemente indicati:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Achiever
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Onefeat
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/OneFeat/onefeat.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Particolare della home page di 
+\emph on
+OneFeat
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Onefeat include una serie di missioni che puoi scegliere di completare,
+ scattando una fotografia che rientra secondo una determinata descrizione
+ o criteri.
+ Puoi creare le tue missioni, incoraggiare altre persone a completarle,
+ così come puoi completare le missioni di altre persone o, nel gergo di
+ Onefeat, fare un'impresa
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Onefeat
+\emph default
+ è, per quanto riguarda la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+, molto simile a 
+\emph on
+CriticalCity Upload
+\emph default
+, anche se si differenzia per alcuni particolari:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Obiettivi:
+\series default
+ al contrario di 
+\emph on
+CriticalCity
+\emph default
+, il cui obiettivo consiste nel raggiungere il 7° livello per poter ricevere
+ la 
+\emph on
+Scatola Inversa
+\emph default
+, Onefeat non ha alcuno di questi obiettivi.
+ Il motore di gioco consiste interamente nel effettuare più 
+\emph on
+feat
+\emph default
+ possibili per guadagnare più livelli possibili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tipologia di input
+\series default
+: in 
+\emph on
+Onefeat
+\emph default
+ è possibile svolgere le missioni solamente documentando tramite foto ed
+ eventualmente con una piccola descrizione testuale della foto
+\end_layout
+
+\begin_layout Standard
+Proprio per questi motivi possiamo affermare che le categorie di giocatori
+ coinvolti sono:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Explorer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Socializer
+\end_layout
+
+\end_body
+\end_document

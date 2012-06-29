@@ -1,0 +1,15 @@
+la classe indirizzo ha una variabile oggetto interna, out di tipo PrintWriter che apre i file in scrittura (append)
+
+la classe ha definito un costruttore e un distruttore:
+-) il costruttore apre il file, se non ci riesce lancia un'eccezione alla classe che lo ha invocato (IOException)
+-) il distruttore, semplicemente, chiude la connessione al file rilasciando le risorse.
+
+vi sono 2 funzioni per la scrittura di log:
+
+public void scrivi(String s)
+
+  che richiede in ingresso la stringa contenente i dati completi da scrivere all'interno del file (oggetto d'invocazione), e li scrive sul file tramite la funzione println e svuota il buffer tramite la funzione flush.
+   
+public synchronized void scriviChiudi(String s)
+
+  il funzionamento è lo stesso di sopra solo che in aggiunta, chiude l'accesso al file rilasciando le risorse (per avere della dinamicità nella gestione dei file utente)

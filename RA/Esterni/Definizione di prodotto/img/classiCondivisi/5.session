@@ -1,0 +1,11 @@
+window_sizes 1200 896 300 894 702 120
+diagrams
+  active  classdiagram_ref 128002 // classi
+    894 702 100 4 503 0
+end
+show_stereotypes
+selected classdiagram_ref 128002 // classi
+open
+  classview_ref 128130 // classi
+end
+end

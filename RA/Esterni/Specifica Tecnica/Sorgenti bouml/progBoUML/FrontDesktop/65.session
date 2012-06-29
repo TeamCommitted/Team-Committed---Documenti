@@ -1,0 +1,13 @@
+window_sizes 1366 706 320 960 597 35
+diagrams
+  active  classdiagram_ref 134658 // frontDesktop
+    1040 597 70 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 134658 // frontDesktop
+open
+  classview_ref 134658 // frontDesktop
+  
+  package_ref 134530 // com::safetyGame::desktop::view
+end
+end

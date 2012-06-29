@@ -1,0 +1,666 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Design Pattern
+\end_layout
+
+\begin_layout Standard
+Presenteremo qui di seguito i vari design pattern impiegati nella progettazione
+ dell'architettura del progetto SafetyGame.
+\end_layout
+
+\begin_layout Subsection
+Multitier
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/TwoTier.jpg
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/ThreeTier.jpg
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramma dei design pattern TwoTier e ThreeTier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Il design pattern di tipo Multitier verrà implementato in forma 
+\emph on
+TwoTier 
+\emph default
+e 
+\emph on
+ThreeTier.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ tale design pattern permette una disgiunzione fra i vari gruppi di entità
+ che cooperano nell'erogazione del servizio.
+ Esisterà un livello che si occuperà di interagire con il cliente offrendo
+ l'interfaccia grafica e un secondo livello per l'esecuzione della parte
+ algoritmica dell'applicazione.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ il beneficio principale apportato da questo paradigma risiede nel fatto
+ che ogni livello può venir cambiato/aggiornato senza dover propagare gli
+ effetti ai livelli adiacenti, essendo state definite delle precise interfacce
+ fra i tier.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Sebbene tale vantaggio derivi principalmente dal raggruppamento delle varie
+ funzionalità in gruppi disgiunti, ma in stretta collaborazione, la struttura
+ di tale design pattern risulta perticolarmente calzante per dei servizi
+ basati sull'architettura client-server, in quanto ogni livello non esiste
+ semplicemente come raggruppamento logico a se stante, ma il suo ruolo viene
+ adattato in relazione allo specifico ambiente di rete in cui esegue: nel
+ caso la morfologia della rete cambi, basterà aggiornare lo strato che lavorava
+ nel determinato ambiente.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+TwoTier:
+\series default
+ questo design pattern verrà utilizzato come struttura portante di tutti
+ i Front-end in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+View-tier 
+\emph default
+offrirà l'interfaccia grafica agli utenti e si occuperà di reindirizzare
+ le richieste dell'utente alle corrette operazioni
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier
+\emph default
+ si occuperà di gestire la temporizzazione delle domande, lo scambio di
+ dati e la logica in generale
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+ThreeTier:
+\series default
+ questo design patter verrà utilizzato come struttura portante del Back-End
+ in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Presentation-tier
+\series bold
+ 
+\series default
+\emph default
+offrirà un'interfaccia di comunicazione fra i vari Front-End e i livelli
+ sottostanti del Back-End
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Logic-tier 
+\emph default
+si occuperà di gestire la parte algoritmica dell'applicazione, controllando
+ la consistenza dei dati ricevuti dal Presentation-tier e dei dati richiesti
+ al Data-tier
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Data-tier
+\emph default
+ si occuperà dell'interazione con le basi di dati in cui saranno memorizzati
+ i dati persistenti
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ad esempio le informazioni sugli utenti registrati nel sistema e le relative
+ informazioni personali
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+MVP
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Il design pattern MVP consente una completa disgiunzione fra le funzionalità
+ che il prodotto deve offrire.
+ È strutturato su tre componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Model: 
+\series default
+rappresenta la parte logica dell'applicazione, consente la memorizzazione
+ ed il recupero dei dati presenti nel sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+View:
+\series default
+ rappresenta l'interfaccia grafica attraverso la quale gli utenti possono
+ interagire con il sistema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Presenter:
+\series default
+ rappresenta la componente che riceve richieste dalla componente View per
+ la visualizzazione e le traduce in operazioni che agiranno sia sui dati
+ che sulle viste
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ Questo design pattern è stato scelto, e viene impiegato, per definire un'archit
+ettura del sistema che consenta di ottenere un buon livello di disaccoppiamento
+ tra le viste e i modelli.
+ L'architettura risulta inoltre essere solida e manutenibile, in quanto
+ la modifica di una delle te componenti non comporta alcun lavoro aggiuntivo
+ sulle altre due componenti.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo: 
+\series default
+il design pattern verrà utilizzato nello sviluppo dell'architettura generale
+ per garantire al sistema una struttura ben organizzata e manutenibile.
+ Sono state individuate tre macro componenti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Model 
+\emph default
+ha il compito di astrarre i database dove sono presenti i dati del sistema
+ e consentire il recupero di essi o l'inserimento di nuovi, senza che si
+ debba intervenire sulle altre due componenti.
+ Questo infatti perchè le altre due componenti avranno solamente una visione
+ di metodi esposti pubblicamente da parte di alcune classi, mentre l'implementaz
+ione effettiva dei metodi per interagire con le basi di dati sono nascosti
+ ai vari componenti.
+ Esso sarà implementato nel Data-tier del Back-end
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+View
+\emph default
+ ha il compito di rappresentare l'interfaccia grafica che consente l'interazione
+ degli utenti con il sistema.
+ Questo componente verrà implementato nei vari Front-end
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Presenter 
+\emph default
+consente la comunicazione tra la componente View e quella Model.
+ Presenter riceve le richieste da parte del View e le inoltra al Model sotto
+ forma di chiamate ai metodi di questo, consentendo l'effettiva interazione
+ tra utente e sistema.
+ Inoltre Presenter indica alla View cosa deve essere mostrato agli utenti
+ attraverso le opportune chiamate ad essa.
+ Questo componente verrà implementato dai Presentation-tier e Logic-tier
+ del Back-end
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Singleton
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Singleton.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Esempio di Singleton
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Singleton rappresenta un design pattern creazionale che ha la funzione
+ di garantire che di una data classe venga creata un'unica istanza, fornendo
+ inoltre un punto di accesso globale ad essa.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ Si è scelto di utilizzare Singleton in quanto porta numerosi vantaggi tra
+ i quali avere, come già detto, un accesso controllato all'unica istanza
+ della classe, avere uno spazio di nomi ridotto ed evitare la dichiarazione
+ di variabili globali.
+ Un altro vantaggio rilevante è costituito dalla possibilità data dal principio
+ della Lazy Initialization che permette la creazione dell'istanza della
+ classe solo quando ciò diventa strettamente necessario.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Tutte le varie caratteristiche del design pattern Singleton comportano infine
+ un ultimo vantaggio non da poco: il suo utilizzo comporta un notevole risparmio
+ di risorse fisiche e questo lo rende particolarmente apprezzabile all'interno
+ di applicativi web, migliorandone le prestazioni.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ Singleton ha trovato applicazione nello strato Control Tier in ConnBack
+ del front-end desktop, nello strato Logic Tier in ConnHandler del front-end
+ web e nello strato Logic in ConnectionUtils del front-end mobile.
+ Si è ritenuto utile utilizzare Singleton in queste circostanze per gestire
+ in maniera unica le connessioni al back-end dei fari front-end del sistema.
+\end_layout
+
+\begin_layout Subsection
+Façade
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Facade.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Esempio di façade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione: 
+\series default
+Il design pattern façade permette, attraverso un'interfaccia più semplice,
+ l'accesso a sottosistemi che espongono interfacce complesse e molto diverse
+ tra loro, nonché a blocchi di codice complessi ed è utilizzato, per esempio,
+ nelle librerie di classi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ L'implementazione di façade è molto semplice e comporta vantaggi molto
+ interessanti.
+ Nel dettaglio permette un migliore uso, comprensione e fase di testing
+ delle classi che lo adottano, una maggiore leggibilità e riduce le dipendenze
+ del codice esterno.
+ In sostanza façade permette di nascondere la complessità di alcune operazioni
+ e renderle più facilmente accessibili tramite l'unica interfaccia principale
+ anziché andando a rivolgersi alle singole classi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo: 
+\series default
+Façade ha trovato applicazione nella parte del Back-end, in dettaglio all'intern
+o del Logic-Tier.
+ Il Controller è infatti strutturato per fornire un'interfaccia unica dalla
+ quale accedere per utilizzare tutt le varie classi necessarie come GestioneLogi
+n, GestioneDomandeD, ecc.
+\end_layout
+
+\begin_layout Subsection
+Data Access Object (DAO)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Un Data Access Object (DAO) è un oggetto che fornisce un'interfaccia astratta
+ ad alcuni tipi di database, fornendo specifiche operazioni senza esporre
+ dettagli del database.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ I motivi di implementazione si possono riscontrare nel fatto che DAO offre
+ un'isolamento tale che separa i dati d'accesso di cui l'applicazione ha
+ bisogno, in termini di oggetti e tipi di dato specifici del dominio (l'interfac
+cia pubblica di DAO), e come queste necessità possono essere soddisfatte
+ da uno specifico DBMS (l'implementazione effettiva di DAO).
+\begin_inset Newline newline
+\end_inset
+
+Questo design pattern è stato scelto anche per la sua versatilità: esso
+ si adatta a molti linguaggi di programmazione, tipologie di software con
+ necessita di persistenza e a molti tipi di database.
+ Il suo punto di forza è quindi permettere maggiore espandibilità al software
+ che lo utilizza in quanto permette di, eventualmente, cambiare tipologia
+ di database in maniera più semplice ed immediata.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ DAO verrà utilizzato nel back-end del software SafetyGame, all'interno
+ del Data Access Tier e avrà il compito di fornire i dovuti collegamenti
+ ai vari database.
+\end_layout
+
+\begin_layout Subsection
+Factory Method
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/FactoryMethod.png
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schema del Factory Method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Descrizione:
+\series default
+ Il Factory Method è un design pattern creazionale che fornisce un metodo
+ per istanziare un oggetto senza sapere a priori la sua esatta classe.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Motivazione:
+\series default
+ Il motivo per cui si è scelto questo design pattern va ricercato nel fatto
+ che innanzitutto è uno dei design pattern fondamentali della programmazione
+ ad oggetti e quindi, in quanto tale, risulta essere molto usato e supportato
+ ed inoltre esso è particolarmente adatto allo sviluppo volto ai test.
+ Nel dettaglio il pattern è molto interessanto in quando fornisce un'interfaccia
+ per creare un oggetto ma lascia che le sottoclassi decidano quale oggetto
+ istanziare.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contesto applicativo:
+\series default
+ Factory Method è utilizzato nel back-end, in particolare nello strato Data
+ Access Tier - access.
+ DAOFactory rappresenta il Creator cioè l'interfaccia che è fornita per
+ creare un oggetto, SQLDAOFactory il ConcreteCreator ed i vari SqlDAOLogic,
+ Dipendenti ecc.
+ i vari Product che permetteranno di istanziare l'oggetto necessario.
+\end_layout
+
+\end_body
+\end_document

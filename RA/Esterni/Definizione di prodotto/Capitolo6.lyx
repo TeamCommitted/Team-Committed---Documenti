@@ -1,0 +1,1010 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Specifica Front-end Web
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/frontEndWeb.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Front-end Web, Diagramma dei Package
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Il package com.safetyGame.frontWeb, diversamente dagli altri, è stato sviluppato
+ tramite tecnologia jsp.
+ La forte caratterizzazione web-oriented di questa tecnologia ha impedito
+ lo sviluppo dei vari componenti in modo standard, come avvenuto per l'intero
+ back-end.
+ Infatti, ad ogni componente non corrisponde una classe, nonostante sia
+ possibile creare le proprie classi personali in Java per poi poterle utilizzare
+ nella propria applicazione jsp.
+ I vari componenti dei due package (Package com.safetyGame.frontWeb.pagine
+ e Package com.safetyGame.frontWeb.control) sono stati implementati tramite
+ pagine .jsp, le quali possono svolgere le funzionalità di uno o più componenti
+ del package.
+ Un esempio può essere il componente Menu; questo componente risulta essere
+ unico nella rappresentazione dei package, tuttavia viene implementato in
+ due pagine jsp differenti, a seconda che si tratti del menu relativo a
+ Dipendete o ad Amministratore.
+ Viceversa, una stessa pagina jsp può concorrere all'implementazione di
+ più di un componente del package.
+ Un esempio sono i componenti MostraDatiD e MostraStatD, i cui compiti vengono
+ assolti da una stessa pagina (user_panel.jsp).
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.frontWeb.pagine
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Contiene le pagine .jsp che si occupano di fornire un'
+\bar under
+interfaccia utente
+\bar default
+.
+ Queste pagine servono a dare all'
+\bar under
+utente
+\bar default
+ gli strumenti per utilizzare il software e possono sia richiedere delle
+ informazioni dall'
+\bar under
+utente
+\bar default
+ per poi comunicarle al package com.safetyGame.frontWeb.control, sia ricevere
+ informazioni dal 
+\bar under
+back-end
+\bar default
+ per poi mostrarle all'
+\bar under
+utente
+\bar default
+.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Vengono utilizzate funzioni del package com.safetyGame.connection.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ In alcuni casi le informazioni vengono trasmesse ad altre pagine che fanno
+ parte del package com.safetyGame.frontWeb.control
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Definisce l'aspetto dell'applicazione web definendone l'interfaccia con
+ cui l'utente dovrà interagire.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Login
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Fornisce ad un 
+\bar under
+Utente
+\bar default
+ l'interfaccia grafica per poter effettuare il login.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+FIle JSP che implementano il componente
+\series default
+:login.jsp 
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Menu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Fornisce ad un 
+\bar under
+Utente
+\bar default
+ l'interfaccia grafica per cegliere fra le possibili attività che può effetuare
+\series bold
+ 
+\series default
+per interagire con il sistema Safety-Game.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+FIle JSP che implementano il componente
+\series default
+: user_page.jsp, admin_page.jsp 
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.Notifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Mostra ad un 
+\bar under
+Dipendente autenticato
+\bar default
+ la notifica di una nuova domanda disponibile a cui rispondere.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Si occupa di far visualizzare al 
+\bar under
+Dipendente
+\bar default
+ la domanda appena richiesta.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+FIle JSP che implementano il componente
+\series default
+:
+\series bold
+ 
+\series default
+nuovaDomanda.jsp 
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione: 
+\series default
+Si occupa di far visualizzare le informazioni di un determinato dipendente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di far visualizzare i dati relativi ad un 
+\bar under
+Amministratore Azienda
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: admin_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di far visualizzare le statistiche relative ad un 
+\bar under
+Dipendente
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di fornire l'interfaccia per modificare i dati di un 
+\bar under
+Dipendente
+\bar default
+ e per inserire un nuovo 
+\bar under
+Dipendente
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: aggiungiDipendente.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.MostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di far visualizzare le statistiche di un'Azienda
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Fornisce l'interfaccia per permettere di modificare i dati di un 
+\bar under
+Amministratore Azienda
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.RecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Fornisce all'
+\bar under
+Utente
+\bar default
+ l'interfaccia per poter effettuare il recupero della propria password
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Fornisce l'interfaccia per permettere di modificare i dati di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.EsitoDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di far vsualizzare l'esito di una domanda cui l'
+\bar under
+Utente
+\bar default
+ ha risposto.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Fornisce l'interfaccia ad un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ per poter visualizzare le possibili domande importabili
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.pagine.ModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Fornisce l'interfaccia ad un 
+\bar under
+Amministratore Sicurezza
+\bar default
+ per poter selezionare le possibili domande importabili
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.frontWeb.control
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Contiene le pagine .jsp che si occupano di scambaire dati fra l'Interfaccia
+ utente (Package com.safetyGame.frontWeb.pagine) ed il back-end.
+ Queste pagine non hanno alcun compito di far visualizzare informazioni
+ agli utenti (se non brevi messaggi di conferma); tuttavia si occupano di
+ creare una connessione con il back-end e di ottenere dati dall'utente verso
+ il back-end e viceversa.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ i component di questo package possono sia ricevere informazioni (passate
+ tramite metodo 
+\begin_inset Quotes eld
+\end_inset
+
+post
+\begin_inset Quotes erd
+\end_inset
+
+) dalle pagine appartenenti al package com.safetyGame.frontWeb.pagine
+\series bold
+ 
+\series default
+sia inviare, richiedere e ricevere dati con il package com.safetyGame.back.connecti
+on.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Implementa le funzionalità dell'applicazione web richiamando funzioni ed
+ oggetti dal back-end.
+ Spesso utilizza le classi del package com.safetyGame.back.condivisi per riuscire
+ ad interpretare oggetti forniti dal back-end o per creare dati da inviare
+ allo stesso.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di gestire i dati di login inseriti dall'
+\bar under
+Utente
+\bar default
+ e di richiedere al back-end la loro consistenza.
+ Si occupa inoltre di inizializzare dei cookie per mantenere le informazioni
+ riguardanti un 
+\bar under
+Utente
+\bar default
+ durante la navigazione.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: checkLogin.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di richiedere i dati di un 
+\bar under
+Dipendente
+\bar default
+ al back-end e di fornirli al componente MostraDatiD
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di gestire la richiesta di rimozione e inserimento di nuove
+ domande da parte di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.Timer
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di mantenere il controllo del tempo per assegnare ad un 
+\bar under
+Dipendente
+\bar default
+ una nuova domanda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMenu
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di riconoscere il tipo di 
+\bar under
+Utente
+\bar default
+ e di fornirgli il menu con le funzioni che gli compeono.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+:admin_page.jsp e user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare i dati dell'azienda di appertenenza dell'
+\bar under
+Utente
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare dal back-end le statistiche relative ad un dato
+ utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlNotifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di comunicare all'interfaccia utente la disponibilità di una
+ nuova domanda comunicando periodicamente con il back -end
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiD
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica o all'inserimento di un nuovo Dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: checkAggiungiDipendente.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare le statistiche relative ad un'azienda dal back-end
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDom
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare una nuova domanda per un Dipendente e di comunicarla
+ all'interfaccia utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: nuovaDomanda.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica di un 
+\bar under
+Amministratore Azienda
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlModDatiAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di ricevere dall'interfaccia utente (quindi dall'utente) i dati
+ relativi alla modifica di un 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlEsitoDom
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di inviare la risposta ricevuta dall'utente al back-end e di
+ comunicare l'eventuale esito all'interfaccia utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: checkRisposta.jsp.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlElencoDomAS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare l'elenco delle domande disponibili dal back-end
+ e di comunicarlo all'interfaccia utente.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlRecuperoPass
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: SI occupa di inoltrare la richiesta ed i dati utente per il recupero password
+ al back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+FIle JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
+\end_layout
+
+\end_body
+\end_document

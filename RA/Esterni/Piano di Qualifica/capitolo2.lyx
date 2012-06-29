@@ -1,0 +1,1476 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Visione generale delle strategie di verifica
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Visione-generale-delle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Organizzazione
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Organizzazione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per poter effettuare un corretto processo di verifica si è scelto di effettuare
+ le dovute operazioni di controllo quando il prodotto sotto analisi avrà
+ raggiunto uno stadio tale per cui risulta presentare sostanziali modifiche
+ rispetto alla precedente versione.
+ Lo svolgimento di tale fase sarà agevolato grazie all'apposito registro
+ delle modifiche.
+ Inoltre, per garantire una migliore verifica si è adottato il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+Broken Window Theory
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+ secondo il quale, non appena un errore viene rilevato, questo andrà segnalato
+ e corretto il prima possibile onde evitarne la propagazione incontrollata.
+\end_layout
+
+\begin_layout Standard
+Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita
+ incrementale (vedi 
+\emph on
+Piano di Progetto - V2.0
+\emph default
+ per approfondimenti) e di conseguenza le operazioni di verifica verranno
+ realizzate in modo tale da intervenire in maniera coerente nelle varie
+ fasi del progetto come illustrato di seguito: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei requisiti
+\series default
+: ogni documento necessario alla 
+\bar under
+RR
+\bar default
+, quando verrà completato, entrerà nella dedicata fase di revisione per
+ controllare la presenza di eventuali irregolarità lessico/grammaticali
+ e nei contenuti esposti.
+ Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti
+ messi a disposizione da LyX, per la precisione tramite il plugin 
+\series bold
+Aspell
+\series default
+, mentre il controllo lessicale, grammaticale e sintattico da un'accurata
+ rilettura del testo.
+ I contenuti verranno invece controllati in modo tale da verificare la copertura
+ delle richieste del 
+\bar under
+proponente
+\bar default
+ e questo tramite un'accurata rilettura e confronto con il capitolato d'appalto
+ ed i verbali degli incontri.
+ Si constaterà poi che ogni caso d'uso abbia almeno un requisito corrispondente,
+ effettuando un controllo delle apposite tabelle di tracciamento.
+ Verranno verificati inoltre i contenuti grafici e tabellari e la conformità
+ dei documenti alle Norme di Progetto stabilite.
+ Se durante la verifica saranno state rilevate irregolarità queste verranno
+ segnalate tramite un apposito 
+\bar under
+ticket 
+\bar default
+dal verificatore e corrette dal redattore.
+ Il processo di verifica si concluderà quindi con la validazione del documento
+ da parte del verificatore e l'approvazione da parte del responsabile per
+ la presentazione al 
+\bar under
+committente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Progettazione
+\series default
+: il processo di verifica riguardante la fase di Progettazione consisterà
+ nel verificare che tutti i requisiti descritti durante la fase di Analisi
+ dei Requisiti rientrino nei componenti individuati; ciò verrà effettuato
+ tramite un'accurata analisi delle tabelle di tracciamento.
+ Qualora dalla verifica sorgano incongruenze o mancanze, queste verranno
+ segnalate tramite 
+\bar under
+ticket 
+\bar default
+e successivamente risolte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Realizzazione
+\series default
+: la verifica in questa fase verrà effettuata sia da parte dei programmatori
+ stessi che utilizzando appositi e specifici strumenti di verifica automatizzata
+ del codice, come elencato nella sezione 2.5.1 dove si possono visionare quelli
+ adottati da Team Committed con una relativa descrizione della loro funzione.
+ La presenza di errori verrà segnalata da un apposito 
+\bar under
+Ticket 
+\bar default
+che verrà preso in carico dai programmatori e chiuso una volta risolto il
+ problema
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Validazione
+\series default
+: il team si impegna a fornire al collaudo una versione funzionante e possibilme
+nte completa del prodotto.
+ Eventuali difetti o incongruenze saranno corretti ed eliminati da Team
+ Committed
+\end_layout
+
+\begin_layout Subsection
+Pianificazione strategica e temporale
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Pianificazione-strategica-e"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La strategia di verifica adottata prevede, come scritto in sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Organizzazione"
+
+\end_inset
+
+, una verifica ogni qualvolta il prodotto da noi realizzato abbia raggiunto
+ uno stadio tale che si differenzi dalla sua precedente versione.
+ Questa, unita alla tecnica 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Broken Window Theory
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, cerca di garantire un alto livello di qualità al fine di raggiungere il
+ totale soddisfacimento dei requisiti richiesti dal capitolato d'appalto
+ oltre che del cliente.
+ Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ avrà quindi il compito di coordinare e definire le attività volte alla
+ verifica del materiale prodotto, sia esso software, documenti o materiale
+ d'altro genere, oltre che a far rispettare le scadenze previste.
+\end_layout
+
+\begin_layout Subsection
+Responsabilità
+\end_layout
+
+\begin_layout Standard
+Al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ saranno affidate le responsabilità riguardanti tutte le attività di verifica
+ e validazione, ponendosi quindi come garante del corretto svolgimento delle
+ attività volte alla qualità del materiale prodotto nei confronti del committent
+e.
+ L'
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg
+\end_layout
+
+\end_inset
+
+ si occuperà invece di assicurare che l'ambiente in cui tutte le attività
+ di realizzazione del prodotto si svolgeranno sia adeguato a tale scopo.
+ 
+\end_layout
+
+\begin_layout Subsection
+Risorse
+\end_layout
+
+\begin_layout Standard
+La gestione della qualità prevede l'utilizzo di alcune risorse
+\end_layout
+
+\begin_layout Subsubsection
+Risorse Necessarie
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Umane
+\end_layout
+
+\begin_layout Standard
+I ruoli necessari per garantire un'adeguata qualità sono i seguenti:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Responsabile: 
+\series default
+è il referente e responsabile nei confronti del committente, supervisiona
+ i processi interni e si preoccupa di valutare le proposte di modifica correttiv
+a o migliorativa dei Verificatori
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Amministratore:
+\series default
+ definisce i piani per la gestione della qualità, come i processi di verifica,
+ test e individuazione e risoluzione delle anomalie e discrepanze
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verificatore:
+\series default
+ esegue le attività di verifica sul prodotto a seconda delle norme redatte,
+ ne riassumerà gli esiti e in caso di discrepanze presenterà il problema
+ al Responsabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Programmatore: 
+\series default
+è incentivato a eseguire attività di debugging quando ne riterrà necessario
+ ed è coinvolto dai verificatori nella risoluzione dei 
+\bar under
+ticket
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Software
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Software
+\series default
+ per la verifica dei requisiti richiesti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Software
+\series default
+ di gestione e commento di 
+\bar under
+ticket
+\bar default
+, codice e documentazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Software
+\series default
+ necessario alla corretta configurazione dell'ambiente di sviluppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Software
+\series default
+ utile alla comunicazione fra i membri del team
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Hardware
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Computer
+\series default
+ su cui eseguire il software necessario all'ambiente di sviluppo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Luogo
+\series default
+ fisico per incontri fra i membri del team
+\end_layout
+
+\begin_layout Subsubsection
+Risorse Disponibili
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Software
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Github e correlati: 
+\series default
+risorse messe a disposizione dal servizio 
+\bar under
+web
+\bar default
+ Github per gestire commenti o problemi a codice, documentazione e 
+\bar under
+ticket
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aspell
+\series default
+ per il controllo ortografico dei documenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eclipse
+\series default
+ con relativi strumenti già inclusi o aggiunti tramite plugin
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+BlueJ 
+\series default
+con i relativi strumenti già inclusi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strumenti W3C 
+\series default
+per validazione 
+\bar under
+web
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Gruppo Facebook
+\series default
+ per poter comunicare fra membri del team
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Risorse Hardware
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Computer
+\series default
+ personali, portatili e fissi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Computer
+\series default
+ messi a disposizione nei laboratori dal Dipartimento di Matematica Pura
+ ed Applicata dell'Università di Padova
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aule
+\series default
+ studio del Dipartimento di Matematica Pura ed Applicata dell'Università
+ di Padova
+\end_layout
+
+\begin_layout Subsection
+Strumenti, tecniche e metodi
+\end_layout
+
+\begin_layout Subsubsection
+Strumenti
+\end_layout
+
+\begin_layout Standard
+Il gruppo potrà avvalersi dei seguenti strumenti, quelli che seguiranno
+ saranno gli strumenti utili alle fasi di verifica e vengono presi in consideraz
+ione per la loro utilità in questa fase.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aspell (
+\begin_inset Formula $\geqslant0.60.6$
+\end_inset
+
+)
+\series default
+: strumento per la correzione grammaticale dei documenti redatti.
+ L'utilizzo di Aspell avverrà tramite apposito plugin per LyX (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://aspell.net/
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eclipse (
+\series default
+
+\begin_inset Formula $\geqslant3.7.1$
+\end_inset
+
+
+\series bold
+)
+\series default
+: IDE multi-linguaggio e multi-piattaforma che mette a disposizione alcune
+ funzionalità di debugging quali l'esecuzione step-by-step, l'impostazione
+ di beaking point ecc (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.eclipse.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+BlueJ (
+\series default
+
+\begin_inset Formula $\geqslant3.0.7$
+\end_inset
+
+
+\series bold
+)
+\series default
+: editor realizzato in 
+\bar under
+Java
+\bar default
+ dall'università di Kent per la scrittura di classi 
+\bar under
+Java
+\bar default
+, fornisce un'ottima interfaccia grafica generale per le classi, tramite
+ UML e un comodo strumento per creare oggetti, utilizzare i metodi della
+ classe di quell'oggetto o di quelle a lui connesse, ottimo per effettuare
+ i test di unità e di integrazione (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.bluej.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+FindBugs (
+\series default
+
+\begin_inset Formula $\geqslant2.0.0$
+\end_inset
+
+
+\series bold
+)
+\series default
+: strumento utilizzato nell'analisi statica e volto ad individuare errori
+ nella scrittura di codice
+\bar under
+ Java
+\bar default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://findbugs/sourceforge.net/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+EclEmma (
+\begin_inset Formula $\geqslant1.5.3$
+\end_inset
+
+)
+\series default
+: strumento in grado di determinare la copertura del codice 
+\bar under
+Java
+\bar default
+ prodotto sia durante le fasi di esecuzione che di testing e disponibile
+ sotto forma di plugin per 
+\emph on
+Eclipse
+\emph default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.eclemma.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Android Lint (
+\begin_inset Formula $\geqslant16.0.0$
+\end_inset
+
+): 
+\series default
+strumento utilizzato per individuare i principali errori di programmazione
+ all'interno di applicazioni 
+\bar under
+Android
+\bar default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://tools.android.com/tips/lint
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metrics (
+\begin_inset Formula $\geqslant1.3.6$
+\end_inset
+
+)
+\series default
+: plugin per 
+\emph on
+Eclipse
+\emph default
+ che permette di effettuare analisi metrica del codice prodotto.
+ Fornisce informazioni relative a misure statiche del codice:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complessità ciclomatica 
+\end_layout
+
+\begin_layout Itemize
+Peso delle classi 
+\end_layout
+
+\begin_layout Itemize
+Numero di parametri 
+\end_layout
+
+\begin_layout Itemize
+Numero di campi dati per classe 
+\end_layout
+
+\begin_layout Itemize
+Numero livelli di annidamento 
+\end_layout
+
+\begin_layout Itemize
+Indice di utilità - Indice di dipendenza
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://metrics.sourceforge.net
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+JUnit (
+\begin_inset Formula $\geqslant4.10$
+\end_inset
+
+)
+\series default
+: Framework utilizzato per effettuare test di unità per il linguaggio 
+\bar under
+Java
+\bar default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.junit.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Selenium IDE (
+\begin_inset Formula $\geqslant1.4.1$
+\end_inset
+
+)
+\series default
+: plugin per 
+\emph on
+Firefox
+\emph default
+ utilizzato per registrare ed eseguire test tramite 
+\bar under
+browser
+\bar default
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://seleniumhq.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ApacheBrench (
+\begin_inset Formula $\geqslant2.0$
+\end_inset
+
+)
+\series default
+: strumento a linea di comando utilizzato per misurare l'efficienza di un
+ server 
+\bar under
+web
+\bar default
+ ed in grado di simulare situazioni di sovraccarico della rete (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.apache.org/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+SpeedTracer (
+\begin_inset Formula $\geqslant2.4$
+\end_inset
+
+)
+\series default
+: plugin per 
+\emph on
+Google Chrome
+\emph default
+ che permette di verificare l'efficienza di un'applicazione 
+\bar under
+web
+\bar default
+ durante la sua esecuzione (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://code.google.com/intl/it-IT/webtoolkit/speedtracer/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strumenti di validazione W3C
+\series default
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Markup Validation Service
+\series default
+: per effettuare test sulle pagine di cui l'
+\bar under
+applicativo
+\bar default
+ 
+\bar under
+web
+\bar default
+ è costituita e verificarne l'aderenza agli standard HTML5 (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://validator.w3.org/
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CSS Validation Service
+\series default
+: per effettuare test sui fogli di stile utilizzati nell'
+\bar under
+applicativo
+\bar default
+ 
+\bar under
+web
+\bar default
+ e verificarne l'aderenza allo standard 
+\bar under
+CSS
+\bar default
+ 2.1 (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://jigsaw.w3.org/css-validator/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Tecniche
+\end_layout
+
+\begin_layout Paragraph
+Analisti statica
+\end_layout
+
+\begin_layout Standard
+L'analisi statica consisterà nella verifica critica del codice, controllandone
+ requisiti e la corretta progettazione.
+ Ogni attività svolta verrà registrata e documentata.
+\end_layout
+
+\begin_layout Standard
+Questo tipo di analisi è usualmente fatta con due tecniche complementari:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Walkthrough
+\series default
+: consiste in un'ispezione generale del codice o dei documenti senza prerequisit
+i iniziali e pianificazione.
+ È utile nelle fasi iniziali di verifica quando va considerato il software
+ nel suo intero senza sapere quali saranno le parti più critiche.
+ Ogni problema rilevato verrà discusso fra i verificatori e gli sviluppatori
+ (tutti quelli che hanno realizzato la parte di prodotto in questione)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Inspection
+\series default
+: consiste in una verifica mirata del codice o dei documenti, è possibile
+ solo quando si è raggiunto un buon grado di conoscenze e si è già consapevoli
+ degli errori più comuni o delle aree più critiche.
+ Riguardo l'Inspection dei documenti seguiremo questi punti:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Latex: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Impostazione generale del documento affinchè aderisca alle Norme di Progetto
+\end_layout
+
+\begin_layout Itemize
+Controllo della sillabazione automatica 
+\end_layout
+
+\begin_layout Itemize
+Controllo punteggiatura e leggibilità del testo 
+\end_layout
+
+\begin_layout Itemize
+Presenza di una e una sola spaziatura dopo la punteggiatura
+\end_layout
+
+\begin_layout Itemize
+Posizionamento corretto delle immagini all’interno della pagina
+\end_layout
+
+\begin_layout Itemize
+Accentazioni corrette (scelta corretta tra acuti e gravi)
+\end_layout
+
+\begin_layout Itemize
+Lettere maiuscole accentate
+\end_layout
+
+\begin_layout Itemize
+Termini definiti nel glossario ma non sottolineati nel documento
+\end_layout
+
+\begin_layout Itemize
+Termini sottolineati nel documento ma non presenti nel glossario
+\end_layout
+
+\begin_layout Itemize
+Sottolineatura di tutti i termini che sono stati sottolineati almeno una
+ volta all’interno del documento
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UML:	 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mantenimento della consistenza tra la nomenclatura dei grafici UML e la
+ nomenclatura adottata nelle sezioni in cui i grafici saranno inseriti
+\end_layout
+
+\begin_layout Itemize
+Controllo ortografico dettagliato, data l’impossibilità di automatizzare
+ tali controlli sui grafici
+\end_layout
+
+\begin_layout Itemize
+Attenzione alla direzione delle frecce nei diagrammi
+\end_layout
+
+\begin_layout Itemize
+Attenzione alla perfetta orizzontalità o verticalità di frecce orizzontali
+ o verticali 
+\end_layout
+
+\begin_layout Itemize
+Controllo del nome del sistema
+\end_layout
+
+\begin_layout Itemize
+Posizione degli include e degli extend
+\end_layout
+
+\begin_layout Itemize
+Eliminazione di caratteri extra, non previsti dalle norme, creati da Bouml
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Per quanto riguarda invece l'inspection del codice, seguiremo alcuni punti
+ guida:
+\end_layout
+
+\begin_layout Itemize
+Le variabili di programma devono essere inizializzate prima che il loro
+ valore sia utilizzato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Tutte le costanti devono avere un nome.
+ 
+\end_layout
+
+\begin_layout Itemize
+Il limite superiore degli array deve essere uguale alla loro dimensione
+ o alla dimensione-1.
+ 
+\end_layout
+
+\begin_layout Itemize
+Controllare la presenza di eventuali buffer overflow.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare che la condizione delle istruzioni condizionali sia corretta.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ogni ciclo deve essere ultimato.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le istruzioni composte devono essere correttamente messe fra parentesi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+ 
+\end_layout
+
+\begin_layout Itemize
+I break devono essere correttamente utilizzati se richiesti.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di input devono essere tutte utilizzate.
+\end_layout
+
+\begin_layout Itemize
+Le variabili di output devono possedere un valore prima che vengano restituite.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verificare gli effetti degli input imprevisti.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le chiamate a funzione e a metodo devono possedere il corretto numero di
+ parametri.
+\end_layout
+
+\begin_layout Itemize
+Il tipo dei parametri formali e reali deve corrispondere.
+\end_layout
+
+\begin_layout Itemize
+Corretta disposizione dei parametri.
+\end_layout
+
+\begin_layout Itemize
+Verificare che siano state prese in considerazione tutte le possibili condizioni
+ di errore.
+\end_layout
+
+\begin_layout Standard
+Chiaramente la tecnica dell'
+\emph on
+inspection
+\emph default
+ è più efficace, ma sarà possibile attuarla solo dopo aver appreso la consapevol
+ezza iniziale del proprio codice e delle proprie capacità.
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Metodi di Analisi Statica:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso di controllo
+\series default
+: si accerta che il codice segua il flusso aspettato, che non si possa entrare
+ in porzioni di codice che possano non terminare, che non esista codice
+ non raggiungibile
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso dei dati
+\series default
+: si accerta che il software non acceda mai a variabili non inizializzate
+ o scriva inutilmente più volte prima di usare una variabile
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi del flusso di informazione
+\series default
+: verifica che gli input e gli output di ogni unità di codice o di più unità
+ rientrino nelle specifiche del programma
+\end_layout
+
+\begin_layout Paragraph
+Analisi dinamica
+\end_layout
+
+\begin_layout Standard
+L'analisi dinamica consisterà nella verifica dei componenti del software
+ o del sistema in generale.
+ Verranno effettuati test mirati e ripetuti in diversi contesti.
+ Il programmatore, durante i test, dovrà essere cosciente dello stato dell'ambie
+nte, degli input e dei risultati in ogni momento dell'esecuzione.
+ Questi risultati saranno utili solo nel caso vengano trovati errori da
+ correggere, nel caso non vengano trovati, non significa necessariamente
+ che non ve ne siano.
+\end_layout
+
+\begin_layout Paragraph
+Metodi di Analisi Dinamica
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di unità
+\series default
+: test che si effettuano per ogni unità del software con il massimo grado
+ di parallelismo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di integrazione:
+\series default
+ verifica dei componenti formati dall'integrazione delle varie unità che
+ hanno passato il test di unità
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di sistema e di collaudo
+\series default
+: verifica che il sistema in cui andrà installato il software rispetti i
+ requisiti richiesti, o che il software riesca ad adattarsi correttamente
+ al contesto dell'azienda 
+\bar under
+proponente
+\bar default
+.
+ Il collaudo sarà sul software installato, finito il quale avverrà il rilascio
+ del prodotto
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Test di regressione
+\series default
+: nel caso di una modifica ad un singolo componente, andranno effettuati
+ nuovamente tutti i test di unità e, se necessario, di integrazione riferiti
+ a quel componente
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Strategie per la verifica
+\end_layout
+
+\begin_layout Standard
+Le strategie per effettuare operazioni di verifica prevedono quattro fasi
+ principali che verranno di seguito descritte:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica di accettabilità: 
+\series default
+per l'accettazione, Team Committed si prefiggerà di testare che le funzionalità
+ illustrate all'interno dei requisiti siano coperte dagli appositi test
+ di unità ed integrazione oltre che da prove funzionali sul sistema.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica del disegno architetturale:
+\series default
+ Dopo aver realizzato lo schema architetturale del prodotto verrà ferificato
+ che siano rispettati alcuni precisi principi di seguito elencati:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Layering: le classi devono rispettare una struttura gerarchica
+\end_layout
+
+\begin_layout Itemize
+Packaging: le classi devono essere accorpate con una certa logica
+\end_layout
+
+\begin_layout Itemize
+Coesione: una unità è progettata in modo tale da rispondere unicamente ai
+ requisiti ad essa associati nel tracciamento dei requisiti
+\end_layout
+
+\begin_layout Itemize
+Accoppiamento ridotto: le classi saranno progettate in modo tale che siano
+ il più possibile indipendenti
+\end_layout
+
+\begin_layout Standard
+Questa fase di verifica verrà eseguita anche grazie all'ausilio di apposite
+ metriche descritte in 
+\begin_inset Quotes eld
+\end_inset
+
+Misure e Metriche
+\begin_inset Quotes erd
+\end_inset
+
+ ( 2.5.4)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Verifica del codice: 
+\series default
+La verifica del codica ha diversi obiettivi, il primo può essere identificato
+ nel trovare, segnalare ed isolare quelle parti di codice che non sono conformi
+ alle norme stabilite in precedenza nel documento Norme di progetto, attraverso
+ una fase di analisi statica.
+ Un altro obiettivo può essere l'identificazione di quelle parti di codice
+ soggette ad errori di programmazione mediante analisi dinamica.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Verifica di performance e criticità:
+\series default
+ le performance e la criticità sono elementi che dipendono fortemente dall'infra
+struttura di rete e dai server su cui risiederà l'applicazione.
+ Team Committed si impegna quindi ad effettuare le dovute misurazioni riguardant
+i il carico di lavoro e la stabilità del sistema nel caso di picchi di richieste
+, questo per verificare la robustezza e reattività del sistema.
+\end_layout
+
+\begin_layout Subsubsection
+Misure e Metriche
+\end_layout
+
+\begin_layout Standard
+Le misure e le metriche che adotteremo per la verifica della qualità del
+ software si ispireranno alle indicazioni dello standard 
+\emph on
+ISO-14598
+\emph default
+.
+ Sono misure spesso focalizzate al miglioramento della capacità di prevedere
+ e contenere il costo del software, Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ le utilizzerà per valutare la qualità del prodotto sia nel processo di
+ progettazione che di codifica.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Complessità ciclomatica:
+\series default
+ la complessità ciclomatica di un metodo è il numero di cammini linearmente
+ indipendenti attraverso il codice sorgente.
+ Per esempio, se il codice sorgente non contiene if o for, allora il livello
+ di complessità sarà 1, poichè esiste un solo cammino
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Misure nella progettazione: 
+\series default
+permettono di stimare il costo di un software e la sua qualità.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Numero di classi, coesione tra di esse e peso
+\series default
+.
+ il peso di una classe è identificato dalla somma della complessità ciclomatica
+ di tutti i metodi appartenenti alla classe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Complessità di flusso
+\series default
+: misura la quantità di informazioni in entrata ed uscita da una funzione
+ (fan in e fan out)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Misure sul codice 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Linee di codice 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Misure di coesione funzionale
+\series default
+: misurano le istanze di definizione e utilizzo di variabili e costanti
+ (1994).
+ Un numero elevato di parametri può essere abbassato, e quindi migliorato,
+ raggruppando parametri tra loro correlati in classi diverse, aumentando
+ manutenibilità e astrazione del codice
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Livello di copertura di istruzioni, dei rami, dei percorsi base:
+\series default
+ una non buona copertura del codice è indice di scarsa qualità dello stesso,
+ inoltre vanno evitati eccessivi annidamenti  dei metodi
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document

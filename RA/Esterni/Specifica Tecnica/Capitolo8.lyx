@@ -1,0 +1,1109 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Back-end
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/BackEnd.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Back-end
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Presentation-Tier-1"
+
+\end_inset
+
+Presentation Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Il Presentation Tier si occupa di gestire le connessioni con i vari Front-End,
+ passando le richieste di lettura o inserimento dati al livello inferiore
+ e traducendo eventualmente le risposte in xml per poi rimandarle ai relativi
+ Front-End; 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Il Presentation Tier richiama funzioni dal Logic Tier.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.connection.ApplicationConnection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe ApplicationConnection viene utilizzata per gestire le connessioni
+ del Back-End con i vari Front-End Desktop e Mobile e trasferire richieste
+ e dati tra loro ed i livelli inferiori del Back-End.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe Facade GestioneDati per inviare
+ richieste di inserimento o lettura dati da database, inviandone le relative
+ risposte alla classe richiedente del relativo Front-End Desktop e Mobile.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi del livello Controller dei Front-End
+ Desktop e Mobile.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di connessione dai vari Front-End Deskop e Mobile
+ e si occupa di mantenerle, gestendo eventuali errori, inoltre riceve tutte
+ le richieste di scambio dati tramite protocollo http e le invia alla classe
+ GestioneDati del package controller, traducendo le risposte ottenute in
+ xml e reinviandole al Front-End richiedente.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.connection.WebConnection
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe WebConnection viene utilizzata per gestire le connessioni del
+ Back-End con i vari Front-End Web e trasferire richieste e dati tra loro
+ ed i livelli inferiori del Back-End.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe Facade GestioneDati per inviare
+ richieste di inserimento o lettura dati da database, inviandone le relative
+ risposte alla classe richiedente del relativo Front-End Web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi del livello Controller dei Front-End
+ Web.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve tutte le richieste di scambio dati dai vari Front-End Web
+ tramite protocollo http e le invia alla classe GestioneDati del package
+ controller, traducendo le risposte ottenute in xml e reinviandole al Front-End
+ richiedente, inoltre gestisce eventuali errori come l'improvvisa chiusura
+ della pagina web durante la visione di una domanda da parte di un Dipendente.
+\end_layout
+
+\begin_layout Subsection
+Logic Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Il Logic Tier è deputato allo svolgimento di tutte le funzioni di sistema,
+ fornendo metodi di richiesta ed elaborazione dati allo strato superiore.
+ Comunica inoltre con il Data Access Tier, deputato al recupero dei dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Il Logic Tier richiama funzioni dal Data AccessTier, mentre espone funzioni
+ al Presentation Tier.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.back.controller.GestioneDati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ Fa parte del Façade.
+ Offre tutte le funzioni delle classi Gestione (tranne GestioneLog) al package
+ connection del Presentation-tier.
+ Quando una funzione viene chiamata, chiama la relativa funzione della classe
+ che la contiene, non possiedendo altre istruzioni che 
+\begin_inset Quotes eld
+\end_inset
+
+reindirizzamenti
+\begin_inset Quotes erd
+\end_inset
+
+ delle chiamate di metodi.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ I metodi interni alla classe chiamano i metodi delle altre classe facenti
+ parte del package 
+\emph on
+back.controller
+\emph default
+ quando, a loro volta, verranno chiamati.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dai membri del package 
+\emph on
+back.connection
+\emph default
+ per svolgere tutte le operazioni deputate dal back-end.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La sua funzione è quella di reindirizzare le chiamate dal Presentation-Tier
+ alle classi deputate alla gestione delle richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C"
+
+\end_inset
+
+com.safetyGame.back.controller.GestioneLogin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente:
+\series default
+ La classe GestioneLogin viene utilizzata per fornire funzioni di login
+ agli applicativi
+\bar under
+ front-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe 
+\emph on
+SqlDAOLogin
+\emph default
+ del package 
+\emph on
+back.access
+\emph default
+ ed utilizza oggetti di tipo Login del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti: 
+\series default
+La classe viene utilizzata dalle classi ClientBackEnd dei vari 
+\bar under
+front-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di autenticazione tramite la ricezione di oggetti
+ Login e le invia a SqlDAOLogin per verificarne la consistenza, notificando
+ alla classe GestioneDati il successo o fallimento dell'operazione.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-1"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerDomanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDomanda viene utilizzata per gestire richieste di visualizza
+zione di domande e di invio risposte da parte dei componenti 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckRispostaDomanda del package
+ checker ed utilizza oggetti di tipo Domanda del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalle classi ClientBackEnd dei vari 
+\bar under
+front-end
+\bar default
+ e provvede metodi a CheckRispostaDomanda per inviare i dati ottenuti ai
+ relativi 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione o risposta di una domanda
+ da parte di un ClientBackEnd, richiamando i metodi di CheckRispostaDomanda
+ per ottenere una domanda da visualizzare o verificare la risposta data.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-2"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerCalderone
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerCalderone viene utilizzata per gestire richieste di
+ visualizzazione, aggiunta ed eliminazione di domande nel database locale
+ di domande, inoltre viene utilizzata per richieste di visualizzazione di
+ domande presenti nel database centrale di domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckModificaDomanda del package
+ checker ed utilizza oggetti di tipo Domanda del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del 
+\bar under
+front-end
+\bar default
+ web e provvede metodi a CheckModificaDomanda per inviare i dati ottenuti
+ al 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta od eliminazione
+ di una o più domande dal database locale di domande o di visualizzazione
+ di domande dal database centrale di domande e richiama i relativi metodi
+ di CheckModificaDomanda per effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-3"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerDipendenti
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDipendenti viene utilizzata per gestire richieste di
+ visualizzazione, aggiunta, modifica ed eliminazione di account 
+\bar under
+Dipendente
+\bar default
+ dal database aziendale di 
+\bar under
+dipendenti
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+La classe utilizza metodi della classe CheckDipendenti del package checker
+ ed utilizza oggetti di tipo
+\bar under
+ Dipendente
+\bar default
+ del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+La classe viene utilizzata dalla classe ClientBackEnd del front-end web
+ e provvede metodi a CheckDipendenti per inviare i dati ottenuti al 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta, modifica od eliminazion
+e di account 
+\bar under
+Dipendente
+\bar default
+ e richiama i relativi metodi di CheckDipendente per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-4"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerTrofei
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerTrofei viene utilizzata per gestire richieste di visualizzaz
+ione, aggiunta, modifica ed eliminazione di 
+\bar under
+Trofei
+\bar default
+ dal database aziendale di trofei.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe CheckTrofei del package checker
+ ed utilizza oggetti di tipo 
+\bar under
+Trofeo
+\bar default
+ del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalla classe ClientBackEnd del 
+\bar under
+front-end
+\bar default
+ web per aggiunta, modifica ed eliminazione di
+\bar under
+ trofei
+\bar default
+, mentre viene utilizzata da tutti i 
+\bar under
+front-end
+\bar default
+ per la visualizzazione di 
+\bar under
+trofei
+\bar default
+; Provvede metodi a CheckTrofei per inviare i dati ottenuti ai relativi
+ 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione, aggiunta, modifica od eliminazion
+e di 
+\bar under
+trofei
+\bar default
+ e richiama i relativi metodi di CheckTrofei per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-5"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerDati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerDati viene utilizzata per gestire richieste di visualizzazio
+ne e modifica di dati account Dipendente dal database aziendale di 
+\bar under
+dipendenti
+\bar default
+ o per gestire richieste di modifica password di account Amministratore
+ Azienda.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe CheckDati del package checker ed
+ utilizza oggetti di tipo 
+\bar under
+Dipendente
+\bar default
+ del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+front-end
+\bar default
+ per i dati account 
+\bar under
+Dipendente
+\bar default
+ e dal ClientBackEnd web per la password Amministratore Azienda; Provvede
+ metodi a CheckDipendenti per inviare i dati ottenuti ai relativi front-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione o modifica di dati account
+ 
+\bar under
+Dipendente
+\bar default
+ o di modifica password di account 
+\bar under
+Amministratore Azienda
+\bar default
+ e richiama i relativi metodi di CheckDati per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-6"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerRecupero
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerRecupero viene utilizzata per gestire richieste di recupero
+ password per account 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+ ed 
+\bar under
+Amministratore Sicurezza
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe CheckRecupero del package checker
+ ed utilizza oggetti di tipo Recupero del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+front-end
+\bar default
+ web e mobile, provvede metodi a CheckRecupero per inviare i dati ottenuti
+ ai relativi 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di recupero password di account 
+\bar under
+Dipendente
+\bar default
+, 
+\bar under
+Amministratore Azienda
+\bar default
+ ed 
+\bar under
+Amministratore Sicurezza
+\bar default
+ e richiama i relativi metodi di CheckRecupero per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-7"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerPunteggi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerPunteggi viene utilizzata per gestire richieste di visualizz
+azione di punteggi relativi ad account 
+\bar under
+Dipendente
+\bar default
+ dal database aziendale di dipendenti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe CheckPunteggi del package checker
+ ed utilizza oggetti di tipo Punteggio del package condivisi per scambiare
+ dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+front-end
+\bar default
+ e provvede metodi a CheckPunteggi per inviare i dati ottenuti ai 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di visualizzazione di punteggi relativi ad account
+ 
+\bar under
+Dipendente
+\bar default
+ e richiama i relativi metodi di CheckPunteggi per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.controller.C-8"
+
+\end_inset
+
+com.safetyGame.back.controller.ControllerLog
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+La classe ControllerLog viene utilizzata per gestire richieste di aggiunta
+ di Log per il tracciamento delle azioni dei 
+\bar under
+Dipendenti
+\bar default
+ all'interno del sistema.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ La classe utilizza metodi della classe CheckLog del package checker ed
+ utilizza oggetti di tipo Log del package condivisi per scambiare dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ La classe viene utilizzata dalle classi ClientBackEnd dei 
+\bar under
+front-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+La classe riceve richieste di aggiunta di Log relativi ad account 
+\bar under
+Dipendente
+\bar default
+ e richiama i relativi metodi di CheckLog per controllare la consistenza
+ ed effettuare le operazioni richieste.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Logic-Tier-1"
+
+\end_inset
+
+Logic Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Il Logic Tier si occupa di far scambiare gli oggetti contenenti dati tra
+ il Presentation Tier ed il Data Access Tier, controllandone la conformità
+ dei dati contenuti.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Il Logic Tier richiama funzioni sia dal Presentation Tier che dal Data
+ Access Tier.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.checker.Chec"
+
+\end_inset
+
+com.safetyGame.back.checker.CheckXxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi CheckXxx vengono utilizzate per il controllo ed il trasferimento
+ dei dati richiesti dal Presentation Tier e dal Data Access Tier
+\series bold
+.
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Le classi CheckXxx utilizzano metodi delle classi del package access per
+ ottenere ed inviare i dati richiesti dal package controller ed utilizzano
+ metodi delle classi controller per inviare i dati ottenuti dal package
+ access a chi li ha richiesti; utilizzano oggetti del package condivisi
+ per scambiare dati con gli altri due package.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+Le classi CheckXxx vengono richiamate dalle relative classi controller per
+ ricevere le richieste degli utenti e dalle classi access per effettuare
+ il passaggio di dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Le classi CheckXxx forniscono metodi alle relative classi dei package controlle
+r e access per far transitare oggetti contenenti dati dal Presentation Tier
+ al Data Access Tier e viceversa, effettuando controlli di conformità dei
+ dati contenuti in tali oggetti.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Data-Access-Tier"
+
+\end_inset
+
+Data Access Tier
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Il Data Access Tier si occupa di accedere ai vari database e di creare oggetti
+ del package condivisi per trasferire i dati ottenuti ai livelli superiori.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Il Data Access Tier richiama funzioni dal Logic Tier.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.access.Acces"
+
+\end_inset
+
+com.safetyGame.back.access.AccessXxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi AccessXxx vengono utilizzate per interrogare le tabelle dei database
+ secondo le richieste del Logic Tier.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Le classi utilizzano metodi del package checker per inviare dati al Presentatio
+n Tier ed usa query per interrogare i database
+\series bold
+.
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Le classi vengono utilizzate dalle relative classi del package checker
+ per cercare o modificare dati presenti nei database.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Le classi ricevono richieste dalle classi del package cecker riguardanti
+ interrogazioni del database, una volta ottenuti i dati richiesti li inviano
+ tramite metodi del package checker ai livelli più alti.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:com.safetyGame.back.condivisi.Xx"
+
+\end_inset
+
+com.safetyGame.back.condivisi.Xxx
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzione del componente: 
+\series default
+Le classi Xxx vengono utilizzate come contenitori per trasferire dati tra
+ i vari Tier.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazioni d'uso di altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfacce con e relazioni d'uso da altre componenti:
+\series default
+ Le classi vengono utilizzate da tutti gli altri package per trasferire
+ informazioni tra i vari livelli del 
+\bar under
+Back-end
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Ogni classe contiene metodi per leggere, inserire o modificare i dati contenuti
+ al suo interno.
+\end_layout
+
+\end_body
+\end_document

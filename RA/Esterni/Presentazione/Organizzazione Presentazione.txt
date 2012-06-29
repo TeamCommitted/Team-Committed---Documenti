@@ -1,0 +1,20 @@
+LA presentazione penso che vada divisa in due parti:
+1) PResentazione dell'attività di test fatta fino ad ora + consuntivo (Giacomo, Alessandro, Krarknalg ed io)
+2) problemi riscontrati nella codifica e motivi del ritardo
+3) Mostra dei prototipi che abbiamo sviluppato fino ad ora (Lorenzo, Marco).
+
+Nella presentazione vera e propria, dovremo mettere:
+a) spiegazione dell'architettura generale
+b) risultati dei test effettuati (mettiamo un qualcosa di generale)
+c) consuntivo e preventivo a finire
+
+La dimostrazione dei prototipi, mi pare sia abbastanza chiara.
+
+Ora, la cosa potrebbe essere:
+1a) Giacomo
+1b) Alessandro e Cetto
+2) Gabriele
+1c) Io
+3) Lorenzo e Marco (qui dividetevi voi, visto che non abbiamo molto da mostrare....)
+
+SCrivete sotto per eventuali aggiunte.

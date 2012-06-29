@@ -1,0 +1,31 @@
+la classe indirizzo ha due variabili oggetto interne, la prima è l'oggetto Connection, che permette la connessione al database Sql, la seconda è l'oggetto Statement che contiene l'insieme delle risorse indirizzate al, o di ritorno dal, databaseSql.
+
+la classe ha definito un costruttore e un distruttore:
+-) il costruttore crea un oggetto Indirizzi che punta ad un server con un database sql, inizializzando l'oggetto  Connection e Statement. Richiede la stringa contenente il link al database, le stringhe utente e password per accedere al database.
+-) il distruttore, semplicemente, chiude le connessioni al database, quindi rilascia le risorse occupate dall'oggetto Statement e chiude la connessione dell'oggetto Connection
+
+vi sono 4 funzioni per i database:
+
+public boolean inserisciRiga(String tabella, String righe, String [] valori)
+
+  che richiede in ingresso la stringa contenente il nome della tabella, la stringa contenente l'intestazione delle colonne (intervallate da una , es. nome, cognome, codicefiscale) e un array con i valori da inizializzare per colonna.
+la funzione esegue l'inserimento della riga con quei valori all'interno della tabella.
+ritorna infine un booleano, che indica se l'inserimento è andato o meno a buon fine.
+   
+public boolean modificaRiga(String tabella, String colonnevalori, String controlli)
+
+  che richiede in ingresso la stringa contenente il nome della tabella, la stringa contenente le coppie intestazione delle colonne e valori da modificare (intervallati da una , es. nome="gabriele", cognome="facchin", codicefiscale"xxxyyyzzz") e una stringa che contiene i controlli da eseguire per identificare correttamente la riga (es. id=01)
+la funzione esegue l'aggiornamento della riga con quei valori all'interno della tabella.
+ritorna infine un booleano, che indica se l'aggiornamento è andato o meno a buon fine.
+   
+public boolean cancellaRiga(String tabella, String controlli)
+
+  che richiede in ingresso la stringa contenente il nome della tabella, e la stringa contenente  i controlli da eseguire per identificare correttamente la riga (es. id=01)
+la funzione esegue la cancellazione della riga con quei valori all'interno della tabella.
+ritorna infine un booleano, che indica se la cancellazione è andata o meno a buon fine
+   
+public ResultSet selezione(String colonne, String tabella, String controlli, String extra)
+
+  che richiede in ingresso la stringa contenente il nome della tabella, la stringa contenente le colonne (intervallate da una , es. nome, cognome, codicefiscale) e una stringa che contiene i controlli da eseguire per identificare correttamente la riga (es. id=01)
+la funzione esegue la selezione della riga con quei valori all'interno della tabella. extra contiene tutte le clausole per l'esecuzione della query (es. order by)
+ritorna infine un oggetto di tipo ResultSet che contiene i risultati dell'esecuzione della query

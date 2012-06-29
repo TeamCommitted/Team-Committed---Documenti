@@ -1,0 +1,29 @@
+ext:External[pe]
+AN:LoginTask[a]
+DomandaAPI:API[a]
+init:Inizializzatore[a]
+appC:ApplicazioniConnection [a]
+/l:Login[a]
+dati:GestioneDati[a]
+gestioneLogin:GestioneLogin[a]
+access:DAOLogin[a]
+serverAzienda:Indirizzo[a]
+log:GestioneLog[a]
+dataOra:DataOra[a]
+updateLog:UpdateLog[a]
+
+ext:AN.Request Login
+AN[0]:DomandaAPI[m].HttpCreateClient(<SERVER_ADDRESS>, nameValuePairs)
+DomandaAPI:init.getWebConnection()
+DomandaAPI:appC.Login(user, passw)
+appC:l.new(user,pass)
+appC:result=dati.loginUser(l)
+dati:result=gestioneLogin.loginUser(login)
+gestioneLogin:result=access.loginDipendente(login)
+access:rs=serverAzienda.selezione(<QUERY>,"")
+[c:opt rs == true]
+	access:log.scriviLogin(login)
+	log:dataOra.toString()
+	log:updateLog.scriviChiudi(log)
+[/c]
+AN:ext.result

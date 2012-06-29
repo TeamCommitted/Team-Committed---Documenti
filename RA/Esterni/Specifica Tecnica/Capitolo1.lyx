@@ -1,0 +1,349 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Introduzione
+\end_layout
+
+\begin_layout Subsection
+Scopo del documento
+\end_layout
+
+\begin_layout Standard
+Il presente documento ha lo scopo di definire e mostrare le scelte progettuali,
+ ad alto livello, che il gruppo 
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+
+\series default
+ ha deciso di rispettare per la realizzazione del prodotto.
+ Al suo interno verranno presentati i vari 
+\bar under
+design pattern
+\bar default
+ utilizzati nella creazione del prodotto, la struttura dei packages e le
+ principali classi che li compongono.
+\end_layout
+
+\begin_layout Subsection
+Scopo del prodotto
+\end_layout
+
+\begin_layout Standard
+Il prodotto denominato 
+\series bold
+\bar under
+SafetyGame
+\series default
+\bar default
+ si propone di fornire uno strumento informatico per la gestione delle pratiche
+ di sicurezza sul lavoro in modo dinamico, evitando corsi di formazione
+ che spesso si dimostrano inutili per la poca attenzione prestata dai partecipan
+ti.
+\end_layout
+
+\begin_layout Standard
+Lo strumento si basa sul concetto di 
+\series bold
+\bar under
+gamification
+\bar default
+ 
+\series default
+che comporta competizione tra i dipendenti all'interno delle aziende creando
+ un sano interesse per un argomento delicato come la sicurezza sul luogo
+ di lavoro.
+\end_layout
+
+\begin_layout Standard
+Il sistema è pensato sia per lavoratori che hanno una postazione fissa dotata
+ di 
+\bar under
+PC
+\bar default
+, sia per quelli che hanno la necessità di spostarsi e che quindi sono forniti
+ di 
+\bar under
+dispositivi mobili
+\bar default
+.
+ Ad essi verranno poste periodicamente domande, di varia tipologia, le cui
+ risposte comporteranno l'assegnazione di un punteggio generando una classifica
+ aziendale.
+\end_layout
+
+\begin_layout Subsection
+Glossario
+\end_layout
+
+\begin_layout Standard
+Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
+ nei documenti formali, il glossario viene incluso nel file 
+\family typewriter
+Glossario-V3.0.pdf
+\family default
+, dove vengono definiti e descritti i termini marcati da una sottolineatura.
+\end_layout
+
+\begin_layout Subsection
+Riferimenti
+\end_layout
+
+\begin_layout Subsubsection
+Normativi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto, v 3.0 
+\series default
+(allegato 
+\family typewriter
+Norme_di_Progetto_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analisi dei Requisiti, v 3.0
+\series default
+ (allegato 
+\family typewriter
+Analisi_dei_Requisiti_V3.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Subsubsection
+Informativi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Java 7 JDK
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://docs.oracle.com/javase/7/docs/api/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+W3School 
+\series bold
+XHTML 1.1
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.w3school.com/html/html_xhtml.asp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+W3School 
+\series bold
+CSS 3
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.w3school.com/css/default.asp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MySql
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://dev.mysql.com/doc/refman/5.5/en/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+JSP
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://java.sun.com/products/jsp/syntax/2.0/synstaxref20.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tomcat
+\series default
+ Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://tomcat.apache.org/tomcat-6.0-doc/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+E.
+ Gamma, R.
+ Helm, R.
+ Johnson, J.Vlissides (1995),
+\series bold
+\emph default
+ Design Patterns , 
+\series default
+\emph on
+USA-Canada, Addison-Wesley.
+\end_layout
+
+\end_body
+\end_document

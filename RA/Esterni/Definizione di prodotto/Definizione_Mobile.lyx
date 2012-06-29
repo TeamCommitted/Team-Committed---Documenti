@@ -1,0 +1,1486 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection
+Package com.safetyGame.mobile.View
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Contiene le classi 
+\bar under
+Java
+\bar default
+ che estendono quelle 
+\bar under
+Android
+\bar default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Activity
+\begin_inset Quotes erd
+\end_inset
+
+ e che quindi sono inerenti la grafica dell'applicazione.
+ La classe TimenNotifica è parte di questo componente nonostante estenda
+ la classe Java Android 
+\begin_inset Quotes eld
+\end_inset
+
+Service
+\begin_inset Quotes erd
+\end_inset
+
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Vengono utilizzate funzioni del package Utils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Nel momento dell'arrivo dei dati Utils notifica View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Definisce l'aspetto dell'applicazione Android definendone l'interfaccia
+ con cui l'utente dovrà interagire.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.LoginActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Consente ad un Dipendente di effettuare il login.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Viene richiamato ConnectionUtils per inviare i dati al server, inoltre consente
+ di arrivare alle classi DashboardActivity e RecuperoPasswordActivity.
+ Oggetti di tipo Login sono utilizzati per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Riceve dati da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Raccoglie i dati che il 
+\bar under
+Dipendente Autenticato
+\bar default
+ inserisce ed invia l'apposita richiesta di login al 
+\bar under
+back-end
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DashboardActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Permette di raggiungere le altre Activity del programma.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Ha la possibilità di richiamare le classi PunteggioActivity, DomandeActivity,
+ DatiActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene chiamato da LoginActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Intercetta gli input e lancia altre Activity.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.PunteggiActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Permette ad un 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+di visualizzare i vari punteggi e trofei.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils è usato per richiedere dati al server, Punteggi invece è
+ usato per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene chiamato da DashboardActivity e riceve i dati da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Permette la visualizzazione dei trofei del DIpendente Autenticato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Permette ad un 
+\bar under
+Dipendente Autenticato
+\bar default
+ di visionare e modificare i dati personali personali.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils è usato per richiedere ed inviare modifiche riguardanti
+ i dati personali del Dipendente Autenticato
+\series bold
+.
+ 
+\series default
+Usa inoltre oggetti di tipo Dipendente per trasferire i dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Chiamato da DashboardActivity e riceve dati richiesti da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Visualizzazione e modifica dei dati personali di un DipendenteAutenticato.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DomandaActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Mette a disposizione del 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+la possibilità di visualizzare, richiedere e rispondere alle domande.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils viene utilizzato per richiedere dati al server.
+ Domanda è usato per trasferire dati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Chiamato da DashboardActivity o TimerNotifica e riceve dati da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Consente ad un Dipendente Autenticato di richiedere, visualizzare e rispondere
+ a domande.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- Context context
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ void onCreate(Bundle savedInstanceState)
+\end_layout
+
+\begin_layout Standard
++ boolean onOptionsItemSelected(MenuItem item)
+\end_layout
+
+\begin_layout Standard
++ void onActivityResult(int requestCode, int resultCode, Intent intent)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.RecuperoPasswordActivity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Permette il recupero della password di un 
+\bar under
+Dipendente
+\series bold
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+ConnectionUtils è utilizzato per l'invio dei dati al server.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Chiamato da LoginActivity e riceve dati da ConnectionUtils.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati: 
+\series default
+Effettua la raccolta dei dati del Dipendente per richiedere il recupero
+ della password.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi: 
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.TimerNotifica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Servizio di temporizzazioen che propone al 
+\bar under
+Dipendente Autenticato
+\series bold
+\bar default
+ 
+\series default
+una domanda secondo quanto impostato tramite le notifiche standard di 
+\bar under
+Android
+\bar default
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Viene chiamata la classe DomandaActivity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Nessuna.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Un timer, in accordo con quanto impostato di default nel dispositivo Android
+ in cui sarà installato il software, farà comparire una notifica standard
+ di Android che permette di visualizzare una nuova domanda.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- long mStartTime
+\end_layout
+
+\begin_layout Standard
+- Handler mHandler = new Handler()
+\end_layout
+
+\begin_layout Standard
+- NotificationManager mNotificationManager
+\end_layout
+
+\begin_layout Standard
+- Notification notification
+\end_layout
+
+\begin_layout Standard
+- SaredPreferences prefs
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ int onStartCommand(Intent intent, int flags, int startId)
+\end_layout
+
+\begin_layout Standard
++ IBinder onBind(Intent arg0)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.View.DashboardLayout
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta la visualizzazione della Dashboard all'avvio dell'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+.
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene usata per costruire il layout 
+\begin_inset Quotes eld
+\end_inset
+
+main.xml
+\begin_inset Quotes erd
+\end_inset
+
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Attributi:
+\end_layout
+
+\begin_layout Standard
+- static final int UNEVEN_GRID_PENALTY_MULTIPLIER = 10
+\end_layout
+
+\begin_layout Standard
+- UNEVEN_GRID_PENALTY_MULTIPLIER = 1
+\end_layout
+
+\begin_layout Standard
+- int mMaxChildWidth = 0
+\end_layout
+
+\begin_layout Standard
+- int mMaxChildHeight = 0
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
+# void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
+\end_layout
+
+\begin_layout Standard
+# void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.mobile.Utils
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Vi appartengono le classi che comunicano con le API del server.
+ Queste classi ricevono i dati e notificano la View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Comunica con il back-end e quando i dati sono pronti invia notifiche al
+ componente View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene utilizzato dalla View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ Invia richieste HTTP al server, il quale gli risponderà inviando i dati
+ richiesti attraverso un XML.
+ In seguito ne estrarrà i dati e li renderà disponibili alla View.
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.BootReceiver
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che estende BroadcastReceiver e viene automaticamente chiamata al
+ completamento del boot del dispositivo.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti:
+\series default
+ Fa partire il service com.safetygame.mobile.View.TimerNotifica
+\series bold
+ .
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti: 
+\series default
+Nessuna 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ La classe fa avviare il servizio in bacground che propone le domande.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+Nessuna
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ onReceive(Context context, Intent arg1)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+La classe è utilizzata per effettuare connessioni fisiche tra il 
+\bar under
+front-end
+\series bold
+\bar default
+ 
+\series default
+Mobile ed il 
+\bar under
+back-end
+\bar default
+, ricevere dati, effettuare parser e creare gli opportuni oggetti da notificare
+ alla View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Richiama gli appositi metodi del back-end in relazione alle richieste della
+ View.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Le Activity richiamano la classe che invia o riceve dati al back-end.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ La classe si occupa di effettuare richieste HTTP al server e ricevere le
+ risposte tramite pagine XML.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+Nessuna
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
+- static Element rootXML(HttpResponse response)
+\end_layout
+
+\begin_layout Standard
++ static String parseXML(Element root, String stringa, int position)
+\end_layout
+
+\begin_layout Standard
++ static Object HttpCreateClient(String url, List<NameValuePair> nameValuePairs)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.IntentIntegrator
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta l'integrazione dell'applicazione Safety Game con l'applicazione
+ Barrcode Scanner.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+.
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Viene richiamata dall'Activity.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
++ static final int REQUEST_CODE = 0x0000c0de 
+\end_layout
+
+\begin_layout Standard
+- static final String TAG = IntentIntegrator.class.getSimpleName()
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_TITLE = "Install Barcode Scanner?"
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_MESSAGE = "This application requires Barcode
+ Scanner.
+ Would you like to install it?"
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_YES = "Yes" 
+\end_layout
+
+\begin_layout Standard
++ static final String DEFAULT_NO = "No"
+\end_layout
+
+\begin_layout Standard
+- static final String BS_PACKAGE = "com.google.zxing.client.android"
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> PRODUCT_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "RSS_14") 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> ONE_D_CODE_TYPES = list("UPC_A", "UPC_E",
+ "EAN_8", "EAN_13", "CODE_39", "CODE_93", "CODE_128", "ITF", "RSS_14", "RSS_EXPA
+NDED")
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> QR_CODE_TYPES = Collections.singleton("QR_CODE"
+); 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> DATA_MATRIX_TYPES = Collections.singleton("DATA
+_MATRIX")
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> ALL_CODE_TYPES = null; 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> TARGET_BARCODE_SCANNER_ONLY = Collections.singl
+eton(BS_PACKAGE) 
+\end_layout
+
+\begin_layout Standard
++ static final Collection<String> TARGET_ALL_KNOWN = list( BS_PACKAGE, "com.srowe
+n.bs.android", "com.srowen.bs.android.simple")
+\end_layout
+
+\begin_layout Standard
+- final Activity activity 
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String message
+\end_layout
+
+\begin_layout Standard
+- String buttonYes 
+\end_layout
+
+\begin_layout Standard
+- String buttonNo 
+\end_layout
+
+\begin_layout Standard
+- Collection<String> targetApplications
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ void setTitle(String title)
+\end_layout
+
+\begin_layout Standard
++ void setTitleByID(int titleID)
+\end_layout
+
+\begin_layout Standard
++ String getMessage()
+\end_layout
+
+\begin_layout Standard
++ void setMessage(String message)
+\end_layout
+
+\begin_layout Standard
++ void setMessageByID(int messageID)
+\end_layout
+
+\begin_layout Standard
++ String getButtonYes()
+\end_layout
+
+\begin_layout Standard
++ void setButtonYes(String buttonYes)
+\end_layout
+
+\begin_layout Standard
++ void setButtonYesByID(int buttonYesID)
+\end_layout
+
+\begin_layout Standard
++ String getButtonNo()
+\end_layout
+
+\begin_layout Standard
++ void setButtonNo(String buttonNo)
+\end_layout
+
+\begin_layout Standard
++ void setButtonNoByID(int buttonNoID)
+\end_layout
+
+\begin_layout Standard
++ Collection<String> getTargetApplications(
+\end_layout
+
+\begin_layout Standard
++ void setTargetApplications(Collection<String> targetApplications)
+\end_layout
+
+\begin_layout Standard
++ void setSingleTargetApplication(String targetApplication)
+\end_layout
+
+\begin_layout Standard
++ AlertDialog initiateScan()
+\end_layout
+
+\begin_layout Standard
++ AlertDialog initiateScan(Collection<String> desiredBarcodeFormats)
+\end_layout
+
+\begin_layout Standard
+# void startActivityForResult(Intent intent, int code)
+\end_layout
+
+\begin_layout Standard
+- AlertDialog showDownloadDialog()
+\end_layout
+
+\begin_layout Standard
+- String findTargetAppPackage(Intent intent)
+\end_layout
+
+\begin_layout Standard
++ static IntentResult parseActivityResult(int requestCode, int resultCode,
+ Intent intent)
+\end_layout
+
+\begin_layout Standard
++ void shareText(CharSequence text)
+\end_layout
+
+\begin_layout Standard
+- private static Collection<String> list(String...
+ values)
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.mobile.Utils.IntentResult
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente: 
+\series default
+Classe che aiuta a gestire i risultati dello scan del barcode.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\series default
+Nessuna
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ Restituisce i dati all'Activity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- final String contents
+\end_layout
+
+\begin_layout Standard
+- final String formatName 
+\end_layout
+
+\begin_layout Standard
+- final byte[] rawBytes
+\end_layout
+
+\begin_layout Standard
+- final Integer orientation
+\end_layout
+
+\begin_layout Standard
+- final String errorCorrectionLevel
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getContents()
+\end_layout
+
+\begin_layout Standard
++ String getFormatName()
+\end_layout
+
+\begin_layout Standard
++ byte[] getRawBytes()
+\end_layout
+
+\begin_layout Standard
++ Integer getOrientation()
+\end_layout
+
+\begin_layout Standard
++ String getErrorCorrectionLevel()
+\end_layout
+
+\begin_layout Standard
++ String toString()
+\end_layout
+
+\begin_layout Subsection
+Package com.safetyGame.mobile.condivisi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Dati
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String nome
+\end_layout
+
+\begin_layout Standard
+- String cognome
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getNome()
+\end_layout
+
+\begin_layout Standard
++ String getCognome()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Domanda
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String type
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String testo
+\end_layout
+
+\begin_layout Standard
+- String[] risposte
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getType()
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ String getTesto()
+\end_layout
+
+\begin_layout Standard
++ String[] getRisposte()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Punteggi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String rispostedate
+\end_layout
+
+\begin_layout Standard
+- String rispostecorrette
+\end_layout
+
+\begin_layout Standard
+- String risposteerrate
+\end_layout
+
+\begin_layout Standard
+- String punti
+\end_layout
+
+\begin_layout Standard
+- String[] badges
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getRispostedate()
+\end_layout
+
+\begin_layout Standard
++ String getRispostecorrette()
+\end_layout
+
+\begin_layout Standard
++ String getRisposteerrate()
+\end_layout
+
+\begin_layout Standard
++ String getPunti()
+\end_layout
+
+\begin_layout Standard
++ String[] getBadges()
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+com.safetyGame.mobile.condivisi.Quest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo, obiettivo e funzionamento del componente:
+\series default
+ Package che raggruppa tutti i tipi di dato non nativo usati dall'applicazione.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Relazione d'uso di altre componenti: 
+\begin_inset Newline newline
+\end_inset
+
+Interfaccie con e relazioni d'uso da altre componenti:
+\series default
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Attività svolte e dati trattati:
+\begin_inset Newline newline
+\end_inset
+
+Variabili:
+\end_layout
+
+\begin_layout Standard
+- String title
+\end_layout
+
+\begin_layout Standard
+- String testo
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Metodi:
+\end_layout
+
+\begin_layout Standard
++ String getTitle()
+\end_layout
+
+\begin_layout Standard
++ String getTesto()
+\end_layout
+
+\end_body
+\end_document

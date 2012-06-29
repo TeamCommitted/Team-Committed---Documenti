@@ -1,0 +1,585 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Strumenti utilizzati
+\end_layout
+
+\begin_layout Subsection
+Java
+\end_layout
+
+\begin_layout Standard
+L'utilizzo di 
+\series bold
+\bar under
+Java
+\series default
+ 
+\series bold
+\bar default
+7
+\series default
+ è legato all'approvazione ricevuta dal proponente durante l'incontro avuto
+ con il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+ in data 2011/12/05
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Rif: 
+\family typewriter
+\emph on
+verbale05122011.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Multipiattaforma:
+\series default
+ permettendo l'astrazione dalla macchina fisica tramite la 
+\bar under
+JVM
+\bar default
+, assicura che l'applicativo risulti funzionante qualsiasi sia il sistema
+ operativo installato sulla macchina che lo esegue
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\emph on
+RVOB 1.1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Indipendenza dalle risorse fisiche:
+\series default
+ per lo stesso motivo descritto sopra, l'esecuzione dell'applicativo risulterà
+ uniforme indipendentemente dalle risorse fisiche utilizzate
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Librerie:
+\series default
+ alta disponibilità di librerie presenti in rete che semplificano l'interfacciam
+ento con altri dispositivi e applicativi già esistenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Compatibilità con piattaforme mobili:
+\series default
+ considerata la richiesta di un'applicazione per 
+\bar under
+dispositivi mobili
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In particolare Android, come da requisito 
+\emph on
+RVOB 1.2
+\end_layout
+
+\end_inset
+
+
+\bar default
+, l'utilizzo di tale linguaggio semplifica lo sviluppo dello stesso dell'applica
+zione mobile
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non sono stati rilevati particolari svantaggi
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+XHTML
+\end_layout
+
+\begin_layout Standard
+Si è deciso di utilizzare
+\series bold
+ 
+\bar under
+XHTML 
+\bar default
+1.1 
+\series default
+assieme a
+\bar under
+ 
+\series bold
+CSS
+\bar default
+ 2.1
+\series default
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requisito 
+\emph on
+RQD 6.2 
+\emph default
+e 
+\emph on
+RQD 6.1
+\end_layout
+
+\end_inset
+
+ per la presentazione dell'interfaccia grafica dell'applicativo web sia
+ agli 
+\bar under
+utenti
+\bar default
+ che per gli 
+\bar under
+utenti autenticati
+\bar default
+.
+ Si è scelto di utilizzare XHTML 1.1 anziché HTML5 in quanto quest'ultimo
+ è uno standard ancora in fase di definizione e quindi soggetto ad eventuali
+ modifiche.
+ Inoltre l'applicazione sviluppata deve essere compatibile con il maggior
+ numero di dispositivi e browser web possibili ed attualmente HTML5 è supportato
+ unicamente dai browser web più moderni.
+ Motivazioni simili ci hanno spinto ad utilizzare CSS 2.1 anziché CSS3 che,
+ come HTML5, non è ancora supportato pienamente da tutti i browser web.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Piattaforma mobile: 
+\series default
+poichè la piattaforma deve essere fruibile anche da browser mobile, il semplice
+ 
+\bar under
+XHTML 
+\bar default
+permette di definire agevolmente pagine web che si adattino al 
+\bar under
+browser
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Uniformità di stile:
+\series default
+ è possibile scrivere facilmente una struttura base dell'applicazione web
+ dove poi andare ad inserire il contenuto tramite 
+\bar under
+JSP
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Browser:
+\series default
+ è possibile che alcuni browser (sopratutto quelli più datati) non riescano
+ ad interpretare correttamente le informazioni contenute nelle pagine, rendendo
+ difficoltosa, se non impossibile, la lettura delle pagine create con questo
+ linguaggio
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+MySql
+\end_layout
+
+\begin_layout Standard
+Per memorizzare tutti i dati che verranno immessi nel sistema 
+\bar under
+SafetyGame
+\bar default
+, si è scelto di utilizzare la base di dati 
+\series bold
+MySql Community Server 5.5.20
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Facilità d'uso:
+\series default
+ poichè durante il corso di Basi di Dati abbiamo studiato i database relazioni
+ (ed in particolare proprio MySql), l'uso di MySql ci è sembrata una scelta
+ quasi obbligata
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni con i vari componenti del sistema:
+\series default
+ la documentazione riguardante l'interfacciamento con questa 
+\bar under
+base di dati
+\bar default
+ è di grande quantità, rispetto alle altre basi di dati
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Prestazioni:
+\series default
+ poichè la versione Community Server non è stata pensata per supportare
+ grandi carichi di lavoro
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Inteso, ad esempio, come migliaia di query nello stesso istante, piuttosto
+ che contenere milioni di record in una singola tabella
+\end_layout
+
+\end_inset
+
+, quando
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+N.B.
+ Non se, ma quando
+\end_layout
+
+\end_inset
+
+ il database sarà oberato di lavoro e/o conterrà una quantità di dati abnorme
+ le sue prestazioni potrebbero subire dei cali qualitativi.
+ Per il momento abbiamo comunque deciso di tenere questa versione, a dispetto
+ della 
+\emph on
+Enterprise
+\emph default
+ (ovvero quella a pagamento), perchè come base di dati per un prototipo
+ è più che sufficiente
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Android SDK
+\end_layout
+
+\begin_layout Standard
+L'utilizzo dell'
+\series bold
+\bar under
+Android
+\bar default
+ SDK r16
+\series default
+ è essenziale per lo sviluppo per l'applicazione mobile su 
+\bar under
+Android
+\end_layout
+
+\begin_layout Subsection
+JSP
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+JSP 2.1
+\series default
+ verrà utilizzato per generare dinamicamente le pagine che compongono l'applicat
+ivo web.
+ A JSP si affiancherà l'uso dei 
+\emph on
+\bar under
+JavaBeans
+\emph default
+\bar default
+, che permetteranno la possibilità di estendere agevolmente il codice senza
+ dover creare alcuna nuova entità logica (secondo il modello MVC)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Compatibilità con 
+\bar under
+Java
+\bar default
+:
+\series default
+ poichè gran parte del progetto sarà scritto in 
+\bar under
+Java
+\bar default
+, l'utilizzo di 
+\bar under
+JSP 
+\bar default
+garantirà, con un certo grado di sicurezza, la compatibilità con i messaggi
+ mandati dagli applicativi Java / Android
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sicurezza:
+\series default
+ rispetto ad altri linguaggi di programmazione web (ex.
+ php), 
+\bar under
+JSP 
+\bar default
+ha degli elevati standard di sicurezza interni che permettono di definire
+ le funzionalità del programma senza troppi pensieri riguardanti la sicurezza
+ interna dell'applicazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vasta libreria:
+\series default
+ poichè basato su 
+\bar under
+Java
+\bar default
+, 
+\bar under
+JSP 
+\bar default
+integra tutte le librerie native di 
+\bar under
+Java
+\bar default
+.
+ Questo ci permette, oltre che ad accedere a tutta una serie di codici già
+ scritti, di riutilizzare parte della logica scritta per l'applicativo mobile,
+ ovviamente modificando il codice da 
+\bar under
+Java 
+\bar default
+a 
+\bar under
+JSP
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Servlet e JavaBeans:
+\series default
+ Oltre che sul server Tomcat, JSP si appoggia a due componenti vitali per
+ il corretto funzionamento di un'applicazione web: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Servlet:
+\series default
+ applicazioni lato server che potenziano la capacità di fornire contenuti
+ dinamici all'applicazione, alleggerendo il carico di lavoro al client e,
+ sopratutto, riducendo il rischio di reverse-engeneering sul codice creato
+ per cercare eventuali falle di sicurezza
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+JavaBeans:
+\series default
+ piccole classi Java che permettono l'interazione fra differenti pagine
+ JSP, quindi passibili di riutilizzo anche in componenti differenti dalla
+ mera applicazione web
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Svantaggi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Compilazione run-time: 
+\series default
+ogni volta che si deve caricare una pagina 
+\bar under
+JSP
+\bar default
+, se sono state fatte modifiche al contenuto della suddetta, il server dovrà
+ compilare a run-time la pagina, provocando così un piccolo ritardo nel
+ caricamento della stessa
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Tomcat
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tomcat 6.0.35
+\series default
+ è un 
+\bar under
+servlet
+\bar default
+ reso necessario dall'uso di 
+\bar under
+JSP.
+\end_layout
+
+\end_body
+\end_document

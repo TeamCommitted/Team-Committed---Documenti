@@ -1,0 +1,620 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Gamification applicata al 
+\emph on
+progetto SafetyGame
+\end_layout
+
+\begin_layout Standard
+In questo capitolo vedremo quali elementi di 
+\emph on
+\bar under
+Gamification 
+\emph default
+\bar default
+il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeamCommitted
+\end_layout
+
+\end_inset
+
+ ha deciso di applicare per il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Premessa
+\end_layout
+
+\begin_layout Standard
+La creazione di un sistema di 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ serio, efficace, ma sopratutto perfettamente funzionante richiede molto
+ più tempo di quello che abbiamo preventivato nel 
+\emph on
+Piano di Progetto - V3.0
+\emph default
+.
+ Per questo motivo la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+ che applicheremo al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ è 
+\series bold
+\emph on
+minimale
+\series default
+\emph default
+ rispetto a quanto avremmo voluto fare.
+ Nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Gamification-futura"
+
+\end_inset
+
+, in ogni caso, introdurremo tutti gli elementi che avremmo voluto introdurre
+ e che potranno essere introdotti in un secondo momento, con un'ulteriore
+ fase di progettazione e, conseguentemente, di codifica.
+\end_layout
+
+\begin_layout Subsection
+Gamification applicata
+\end_layout
+
+\begin_layout Subsubsection
+Punti e classifiche
+\end_layout
+
+\begin_layout Standard
+Il fulcro del nostro sistema sarà incentrato sul punteggio che ogni giocatore
+ guadagnerà rispondendo correttamente alle domande che gli verranno sottoposte.
+\end_layout
+
+\begin_layout Standard
+Questi punti sono di tipo 
+\series bold
+Experience Points
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+D'ora in poi chiamati 
+\emph on
+PX
+\end_layout
+
+\end_inset
+
+, ovvero una tipologia di punti che non ha alcun valore 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+economico
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ all'interno del sistema
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Nel senso che gli 
+\emph on
+PX
+\emph default
+ non possono essere spesi per avere dei vantaggi dentro il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ I 
+\emph on
+PX
+\emph default
+ servono per vedere, giudicare e guidare il giocatore.
+ 
+\end_layout
+
+\begin_layout Standard
+Pensiamo infatti che attribuendo un valore in 
+\emph on
+PX
+\emph default
+ ad ogni domanda, si possa facilmente verificare l'andamento di un giocatore,
+ verificando il suo punteggio e, tramite l'incrocio con lo storico, vedere
+ quali progressi il giocatore abbia fatto nell'apprendimento della normativa
+ sulla sicurezza del lavoro.
+ 
+\end_layout
+
+\begin_layout Standard
+Come ovvia conseguenza di tutto ciò, verranno generate delle 
+\series bold
+classifiche
+\series default
+ che mostreranno in ogni istante sia quali siano i migliori giocatori in
+ ogni categoria delle domande, sia il miglior giocatore in quel momento,
+ identificato dal punteggio totale.
+\end_layout
+
+\begin_layout Subsubsection
+Badge
+\end_layout
+
+\begin_layout Standard
+Una conseguenza diretta dei punti è l'attribuzione dei 
+\series bold
+badge
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+I 
+\emph on
+badge
+\emph default
+ sono un eccellente modo per incoraggiare la promozione sociale dei propri
+ prodotti e servizi.
+ I 
+\emph on
+badge
+\emph default
+ segnano inoltre il completamento di obiettivi e il continuo progresso del
+ gioco all'interno del sistema.
+\end_layout
+
+\begin_layout Standard
+Nel 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+, i badge sono dei premi che l'
+\bar under
+Amministratore Azienda
+\bar default
+ potrà assegnare autonomamente ai 
+\bar under
+Dipendenti
+\bar default
+, a prescindere che quest'ultimo abbia raggiunto determinati obiettivi o
+ meno.
+ Quindi è a discrezione dell'
+\bar under
+Amministratore Azienda
+\bar default
+ l'assegnazione o meno dei badge.
+ 
+\end_layout
+
+\begin_layout Standard
+Come si potrà vedere comunque dall'
+\emph on
+Analisi dei Requisiti - V3.0
+\emph default
+, la creazione di un sistema di assegnazione automatica dei 
+\emph on
+badge
+\emph default
+ è stata segnata come requisito desiderabile, quindi verrà sviluppato dopo
+ aver finito la scrittura dell'interno sistema 
+\emph on
+SafetyGame
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Esempi
+\end_layout
+
+\begin_layout Standard
+Per chiarire al meglio quanto scritto sopra, ecco alcune immagini che pensiamo
+ possano esemplificare al meglio quanto scritto precedentemente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+!ATTENZIONE! Le immagini che seguono sono concept e come tali bisognerà
+ considerarli.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/concept gui/Classifica.jpg
+	scale 23
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esempio di Classifica (Front-end Web)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/concept gui/Elenco badge.jpg
+	scale 23
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esempio di lista dei Badge (Front-end Web)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/concept gui/Gui-Mob-Risposta.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/concept gui/Gui-Mob-Statistiche.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esempio di Domanda e di visualizzazione Statistiche (Front-end Mobile)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni finali
+\end_layout
+
+\begin_layout Standard
+Il sistema che verrà quindi introdotto all'interno del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nameproject
+\end_layout
+
+\end_inset
+
+ non riuscirà a sfruttare appieno le potenzialità che la 
+\emph on
+\bar under
+Gamification
+\emph default
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In ogni caso, l'uso di 
+\emph on
+PX
+\emph default
+ e di 
+\emph on
+badge
+\emph default
+ dovrebbe riuscire ad attirare i giocatori di tipo:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Achiever:
+\series default
+ i giocatori 
+\emph on
+achiever
+\emph default
+ vorranno guadagnare quanti più trofei possibili
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Killer:
+\series default
+ i giocatori 
+\emph on
+killer
+\emph default
+ saranno invogliati ad utilizzare la nostra piattaforma poichè, ipotiziamo,
+ vorranno raggiungere il vertice di tutte le classifiche presenti nel nostro
+ sistema
+\end_layout
+
+\end_body
+\end_document

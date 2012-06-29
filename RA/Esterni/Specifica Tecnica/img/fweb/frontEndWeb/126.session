@@ -1,0 +1,11 @@
+window_sizes 1912 1002 450 1456 928 0
+diagrams
+  active  classdiagram_ref 128126 // few
+    1464 931 112 4 0 0
+end
+show_stereotypes
+selected class_ref 132094 // ConnHandler
+open
+  class_ref 132094 // ConnHandler
+end
+end

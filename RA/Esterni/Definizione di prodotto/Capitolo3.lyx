@@ -1,0 +1,166 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 5
+\tocdepth 5
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Specifica delle componenti
+\end_layout
+
+\begin_layout Standard
+In questo capitolo vengono analizzate singolarmente tutte le componenti
+ del sistema.
+ In ogni paragrafo si prende in esame un 
+\bar under
+package
+\bar default
+ contente alcune classi o interfacce.
+ Tale package è brevemente contestualizzato all'interno dell'architettura
+ globale.
+ Successivamente tutte classi o interfacce al suo interno vengono descritte
+ in dettaglio esplicitando, per ognuna: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tipo, obiettivo e funzione del componente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso di altre componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interfacce con e relazioni d'uso da altre componenti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività svolte e dati trattati
+\end_layout
+
+\begin_layout Standard
+Le descrizione dei metodi più complessi sono accompagnate da opportuni diagrammi
+ di sequenza.
+ Quelle dei metodi 
+\bar under
+getter
+\bar default
+/
+\bar under
+setter
+\bar default
+ e dei costruttori di default saranno invece trascurate, data la semplicità
+ e la grande ricorrenza di tali operazioni.
+\end_layout
+
+\begin_layout Standard
+Inoltre, quando si tratteranno le classi relative ad un package, il nome
+ del package di appartenenza verrà omesso.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "capitolo5.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Capitolo7.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

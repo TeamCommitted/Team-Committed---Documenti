@@ -1,0 +1,12 @@
+window_sizes 1280 975 300 974 901 0
+diagrams
+  active  classdiagram_ref 128002 // backController
+    974 901 100 4 180 0
+end
+show_stereotypes
+selected attribute_ref 128133 // gestioneLog
+open
+  class_ref 128130 // GestioneDomandeD
+  class_ref 128770 // GestioneDipendentiD
+end
+end

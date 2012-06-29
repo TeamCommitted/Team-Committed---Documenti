@@ -1,0 +1,533 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+%\usepackage{fullpage}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{ucs}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\doctitle}{Norme di progetto }
+\newcommand{\asd}{asd}
+\newcommand{\versiondoc}{V0.2 }
+\newcommand{\TeamCommitted}{\emph{Team Committed SET}}
+\fancyhead[RE, RO]{\doctitle}
+\fancyfoot[CE, CO]{\thepage\ di \pageref{LastPage}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Indice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Riunioni
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Riunioni"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Riunioni interne
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riunioni-interne"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le riunioni interne sono indette dal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ e potranno essere indette:
+\end_layout
+
+\begin_layout Itemize
+Su richiesta di un membro del gruppo (via 
+\bar under
+ticket
+\bar default
+ indirizzato al 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+) e con approvazione di almeno due membri (escluso il proponente stesso)
+\end_layout
+
+\begin_layout Itemize
+Su proposta dell'
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg
+\end_layout
+
+\end_inset
+
+ e con l'assenso del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ o viceversa
+\end_layout
+
+\begin_layout Standard
+La proposta di riunione interna, da parte di uno dei membri del gruppo,
+ dovrà contenere il 
+\series bold
+nome 
+\series default
+del proponente e la 
+\series bold
+motivazione
+\series default
+ di tale richiesta.
+ Se almeno due persone sottoscriveranno la richiesta, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ dovrà organizzare suddetta riunione entro 3 giorni proponendo due date
+ possibili (questa comunicazione dovrà seguire quanto scritto nella sezione
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+).
+ La riunione si considererà valida solo nel caso in cui siano presenti il
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ e almeno il membro proponente e i sottoscrittori della riunione
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+D'ora in poi questa condizione verrà chiamata 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+numero legale
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Nel caso di proposta da parte dell'
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ammProg
+\end_layout
+
+\end_inset
+
+ o del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+, si dovrà seguire quanto indicato nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+ e dovrà esserci solamente l'approvazione della controparte responsabile
+ dell'approvazione.
+\end_layout
+
+\begin_layout Subsubsection
+Casi particolari
+\end_layout
+
+\begin_layout Standard
+Viste e considerate tutte le esigenze dei membri del gruppo, si reputa necessari
+o considerare i seguenti casi particolari:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Caso 1:
+\series default
+ 
+\emph on
+vicinanza con una milestone
+\emph default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+Vicinanza = (
+\begin_inset Formula $\Delta t\leq\mathbf{1}settimana)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+In questo caso le regole che prescrivono l'accettazione di una richiesta
+ di riunione non si applicano.
+ In sostituzione: 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Nel caso di richiesta di riunione basterà l'approvazione del solo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ che dovrà indire una riunione di gruppo nel più breve tempo possibile (possibil
+mente il giorno successivo all'approvazione).
+ Queste comunicazioni dovranno seguire l'iter descritto nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Caso 2: 
+\series default
+\emph on
+impossibilità di riunione per mancanza del numero legale alla 2a riunione
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+In questo caso la riunione si considera annullata d'ufficio.
+ Non ci sono ulteriori provvedimenti o modifiche alle regole sopra scritte
+ particolari.
+\end_layout
+
+\begin_layout Subsection
+Riunioni esterne
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Riunioni-esterne"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come 
+\series bold
+riunione esterna
+\series default
+ si intende un qualsiasi incontro fra 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+
+\backslash
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+commitProg
+\end_layout
+
+\end_inset
+
+ e un gruppo di rappresentanza del gruppo di progetto
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+È possibile che l'intero gruppo partecipi all'incontro
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La richiesta di riunione dovrà pervenire attraverso il servizio di 
+\bar under
+ticket
+\bar default
+ con le stesse modalità indicate nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Riunioni-interne"
+
+\end_inset
+
+.
+ Faranno fede solo le richieste da parte di almeno un membro del gruppo
+ di progetto abbinata ad almeno due sottoscrizioni.
+\end_layout
+
+\begin_layout Standard
+Una volta che è stata approvata una richiesta, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ dovrà contattare, con le modalità scritte nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-esterne"
+
+\end_inset
+
+, il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+proponProg
+\end_layout
+
+\end_inset
+
+
+\backslash
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+commitProg
+\end_layout
+
+\end_inset
+
+ e organizzare l'incontro.
+ A questo incontro dovrà esserci il 
+\emph on
+numero legale
+\emph default
+.
+ Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+respProg
+\end_layout
+
+\end_inset
+
+ si assume l'incarico inoltre di informare tutti i membri del progetto della
+ riunione e di verificare il giorno prima la presenza del numero legale.
+\end_layout
+
+\begin_layout Standard
+Di ogni incontro si dovrà redigere un verbale che dovrà essere spedito in
+ copia a tutti i presenti alla riunione per verifica e conferma di quanto
+ scritto.
+ È richiesta conferma scritta di ogni presente attraverso le modalità descritte
+ nella sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Comunicazioni-interne"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

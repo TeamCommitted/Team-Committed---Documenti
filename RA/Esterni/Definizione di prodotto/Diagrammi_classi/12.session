@@ -1,0 +1,11 @@
+window_sizes 1564 877 337 1221 820 0
+diagrams
+  active  classdiagram_ref 134540 // Utils
+    1217 800 98 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 134540 // Utils
+open
+  classview_ref 128012 // mobile
+end
+end
