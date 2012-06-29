@@ -197,6 +197,25 @@ Non sono stati rilevati particolari svantaggi
 \end_layout
 
 \end_deeper
+\begin_layout Subsubsection
+Note sul cambio di versione della JDK e relativa JRE
+\end_layout
+
+\begin_layout Standard
+Nella versione V1.0 era stata indicata la 
+\series bold
+JDK6 
+\series default
+come versione di sviluppo di tutte le parti scritte in 
+\emph on
+\bar under
+Java
+\emph default
+ 
+\bar default
+dell'applicazione 
+\end_layout
+
 \begin_layout Subsection
 XHTML
 \end_layout
