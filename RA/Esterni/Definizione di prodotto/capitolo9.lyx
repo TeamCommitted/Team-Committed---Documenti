@@ -65,8 +65,8 @@ Diagrammi di sequenza
 \end_layout
 
 \begin_layout Standard
-In questa sezione sono descritta in maniera più approfondita alcune importanti
- operazioni prevista dal sistema facendo uso dei diagrammi di sequenza.
+In questa sezione sono descritte in maniera più approfondita alcune importanti
+ operazioni previste dal sistema facendo uso dei diagrammi di sequenza.
  Questi diagrammi sono stati introdotti solo a questo punto del documento
  in quanto, al loro interno, si fa riferimento a metodi di varie classi,
  che dovevano essere quindi prima definiti.
