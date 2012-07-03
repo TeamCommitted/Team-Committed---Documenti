@@ -170,11 +170,11 @@ Riferimenti normativi
 \begin_layout Itemize
 
 \series bold
-Norme di Progetto, v 3.0 
+Norme di Progetto, V4.0 
 \series default
 (allegato 
 \family typewriter
-Norme_di_Progetto_V3.0.pdf
+Norme_di_Progetto_V4.0.pdf
 \family default
 )
 \end_layout
@@ -182,7 +182,7 @@ Norme_di_Progetto_V3.0.pdf
 \begin_layout Itemize
 
 \series bold
-Analisi dei Requisiti, v 3.0
+Analisi dei Requisiti, V3.0
 \series default
  (allegato 
 \family typewriter
@@ -193,6 +193,18 @@ Analisi_dei_Requisiti_V3.0.pdf
 
 \begin_layout Subsubsection
 Riferimenti informativi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica Tecnica, V2.0 
+\series default
+(allegato 
+\family typewriter
+Specifica_Tecnica_V2.0.pdf
+\family default
+)
 \end_layout
 
 \begin_layout Itemize
