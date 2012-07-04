@@ -69,14 +69,7 @@ Installazione database Domande
 \end_layout
 
 \begin_layout Standard
-L'Amministratore Installatore potrà installare il database generale delle
- domande, 'calderone', una volta che ha testato il corretto funzionamento
- del servizio MySQL sul server dedito ad ospitarlo.
-\end_layout
-
-\begin_layout Standard
-Una volta accertatosi che tale sistema funziona correttamente, può procedere
- nel caricare la struttura del database da noi creata.
+La prima cosa 
 \end_layout
 
 \begin_layout Standard

@@ -118,22 +118,15 @@ Destinatario del manuale
 \begin_layout Standard
 Questo manuale è indirizzato agli Ammministratori Installatori, ovvero quegli
  utenti che sono deputati ad installare il sistema all'interno delle aziende.
- Ad essi è permesso di:
+ Ad essi è permesso di installare:
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Installazione
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 
 \series bold
 Database:
 \series default
- installare il database aziendale
+ il database aziendale
 \end_layout
 
 \begin_layout Itemize
@@ -141,7 +134,7 @@ Database:
 \series bold
 Web:
 \series default
- installare il sito internet all'interno dei server aziendali
+ il sito internet all'interno dei server aziendali
 \end_layout
 
 \begin_layout Itemize
@@ -149,18 +142,17 @@ Web:
 \series bold
 Desktop:
 \series default
- installare il programma Desktop all'interno dei dispositivi fissi dell'azienda
+ il programma Desktop all'interno dei dispositivi fissi dell'azienda
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Mobile: 
+Mobile:
 \series default
-installare l'applicazione Mobile all'interno dei dispositivi mobili dell'azienda
+ l'applicazione Mobile all'interno dei dispositivi mobili dell'azienda
 \end_layout
 
-\end_deeper
 \begin_layout Subsection
 Prerequisiti
 \end_layout
@@ -172,7 +164,79 @@ L'Amministratore Installatore dovrà avere accesso ai server aziendali, così
 \emph on
 SafetyGame
 \emph default
- preventivamente.
+ preventivamente e dovrà avere conoscenze dei seguenti sistemi:
+\end_layout
+
+\begin_layout Itemize
+MySQL 5
+\end_layout
+
+\begin_layout Itemize
+GNU/Linux Debian
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Versione
+\begin_inset Formula $\geq$
+\end_inset
+
+6.0.5
+\end_layout
+
+\end_inset
+
+ o GNU/Linux Ubuntu
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Versione
+\begin_inset Formula $\geq$
+\end_inset
+
+12.04
+\end_layout
+
+\end_inset
+
+ e Windows 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Versione XP o successiva
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Android 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Versione
+\begin_inset Formula $\geq1.6$
+\end_inset
+
+ e
+\begin_inset Formula $\leq$
+\end_inset
+
+4.0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tomcat 6
 \end_layout
 
 \begin_layout Subsection
@@ -231,7 +295,7 @@ teamcommitted@gmail.com
  L'oggetto dell'email dovrà essere 
 \series bold
 \emph on
-[SafetyGame - Problema]
+[SafetyGame - Problema installazione]
 \series default
 \emph default
 .
@@ -239,7 +303,7 @@ teamcommitted@gmail.com
 \end_layout
 
 \begin_layout Enumerate
-Contatto email di chi ha riscontrato il problema in modo da poterlo ricontattare
+Contatto email di chi ha riscontrato il problema in modo da poterlo contattare
 \end_layout
 
 \begin_layout Enumerate
@@ -272,7 +336,7 @@ Occasione in cui si è presentato
 \begin_layout Enumerate
 Eventuali allegati o informazioni che possano essere d'aiuto
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Es.
