@@ -142,6 +142,47 @@ hline
 
 \begin_layout Plain Layout
 
+		
+\backslash
+emph{Approvato.} & xxxxxxxxxxxxx & 2012/__/__ & V3.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Verificato.
+ In attesa di approvazione} & xxxxxxxxxxxx & 2012/__/__ & V2.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+emph{Corretta versione errata della JDK indicata.
+ In attesa di verifica.} & Giorgio Maggiolo & 2012/__/__ & V2.1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 emph{Approvato.} & Alessandro Cornaglia & 2012/06/03 & V2.0 
