@@ -1,0 +1,12 @@
+di seguito il significato dei vari system.exit(n):
+n=
+0 --> termine corretto dell'applicazione
+1 --> funzionalità grafiche (System Tray / Icon / Pupup Menu / Listener / action Browse) non supportate
+2 --> funzionalità di richiamo delle impostazioni di default non supportate
+3 --> diritti da parte di java (AWTPermission("showWindowWithoutWarningBanner")) per l'apertura di browser non attribuiti
+4 --> browser predefinito di sistema non impostato
+5 --> problemi nei file in lettura in seguito ad una scrittura (probabili problemi di accesso o tentato hacking)
+6 -->
+7 -->
+8 -->
+9 --> impossibilità di creare una connessione rmi
