@@ -983,12 +983,6 @@ GestioneRecupero
 \series bold
 \emph default
 - GestionePunteggiD gestionePunteggiD
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestionePunteggiD
 \begin_inset Newline newline
 \end_inset
 
@@ -996,19 +990,7 @@ GestionePunteggiD
 \begin_inset Newline newline
 \end_inset
 
-
-\series bold
-\emph default
-- GestionePunteggiAA gestionePunteggiAA 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestionePunteggiAA
-\series bold
-\emph default
-
+- GestionePunteggiAA gestionePunteggiAA
 \begin_inset Newline newline
 \end_inset
 
@@ -1016,16 +998,7 @@ GestionePunteggiAA
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLog gestioneLog 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneLog
-\series bold
-\emph default
-
+- GestioneLog gestioneLog
 \begin_inset Newline newline
 \end_inset
 
@@ -1034,15 +1007,6 @@ GestioneLog
 \end_inset
 
 - GestioneLogin gestioneLogin 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneLogin
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1051,15 +1015,6 @@ GestioneLogin
 \end_inset
 
 - GestioneBadgeD gestioneBadgeD 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneBadgeD
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1067,16 +1022,7 @@ GestioneBadgeD
 \begin_inset Newline newline
 \end_inset
 
-- GestioneDomandeD gestioneDomandeD 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneDomandeD
-\series bold
-\emph default
-
+- GestioneDomandeD gestioneDomandeD
 \begin_inset Newline newline
 \end_inset
 
@@ -1085,15 +1031,6 @@ GestioneDomandeD
 \end_inset
 
 - GestioneDomandeAS gestioneDomandeAS 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneDomandeAS
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1101,16 +1038,7 @@ GestioneDomandeAS
 \begin_inset Newline newline
 \end_inset
 
-- GestioneDipendentiD gestioneDipendentiD 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneDipendentiD
-\series bold
-\emph default
-
+- GestioneDipendentiD gestioneDipendentiD
 \begin_inset Newline newline
 \end_inset
 
@@ -1119,15 +1047,6 @@ GestioneDipendentiD
 \end_inset
 
 - GestioneDipendentiAA gestioneDipendentiAA 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneDipendentiAA
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1136,15 +1055,6 @@ GestioneDipendentiAA
 \end_inset
 
 - GestioneBadgeAS gestioneBadgeAS 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneBadgeAS
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1153,15 +1063,6 @@ GestioneBadgeAS
 \end_inset
 
 # GestioneDati gestioneDati 
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza della classe 
-\emph on
-GestioneDati
-\series bold
-\emph default
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1169,16 +1070,7 @@ GestioneDati
 \begin_inset Newline newline
 \end_inset
 
-- static WebConnection webConnection = null 
-\end_layout
-
-\begin_layout Standard
-Riferimento statico all'istanza della classe 
-\emph on
-WebConnection
-\series bold
-\emph default
-
+- static WebConnection webConnection = null
 \begin_inset Newline newline
 \end_inset
 
@@ -1186,16 +1078,7 @@ WebConnection
 \begin_inset Newline newline
 \end_inset
 
-- static ApplicazioniConnection appConnection = null 
-\end_layout
-
-\begin_layout Standard
-Riferimento statico all'istanza della classe 
-\emph on
-appConnection
-\series bold
-\emph default
-
+- static ApplicazioniConnection appConnection = null
 \begin_inset Newline newline
 \end_inset
 
@@ -1207,13 +1090,7 @@ appConnection
 \series default
 - 
 \series bold
-static Inizializzatore inizializzatore = null 
-\end_layout
-
-\begin_layout Standard
-Riferimento statico all'istanza della classe 
-\emph on
-Inizializzatore
+static Inizializzatore inizializzatore = null
 \end_layout
 
 \begin_layout Subsection*
@@ -1875,12 +1752,6 @@ Attributi
 
 \series bold
 - GestioneDati dati
-\end_layout
-
-\begin_layout Standard
-Riferimento alla classe façade 
-\emph on
-GestioneDati
 \end_layout
 
 \begin_layout Subsection*
@@ -3329,8 +3200,6 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.controller.GestioneDati
 \end_layout
 
@@ -3339,14 +3208,10 @@ Inoltre utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.access.DAOBadge
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 back.condivisi.Badge
 \end_layout
 
@@ -3357,15 +3222,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOBadge accessBadge
-\end_layout
-
-\begin_layout Standard
-Riferimento all'istanza dell'oggetto 
-\emph on
-DAOBadge
-\emph default
-, istanziato nella corretta classe concreta secondo il database utilizzato
+- DAOBadge accessB
 \end_layout
 
 \begin_layout Subsection*
@@ -3375,7 +3232,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneBadgeAS(DAOBadge accessBadge)
++ GestioneBadgeAS(DAOBadge accessB)
 \end_layout
 
 \begin_layout Standard
