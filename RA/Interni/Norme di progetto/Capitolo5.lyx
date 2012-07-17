@@ -2007,9 +2007,9 @@ redattori
 \emph default
 di una
 \series bold
- determinata versione di un documento
+ determinata versione 
 \series default
- non possono esserne anche i 
+di un documento non possono esserne anche i 
 \emph on
 verificatori 
 \series bold
@@ -2018,7 +2018,7 @@ della stessa versione
 \series default
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Potranno tuttavia verificare versioni future del documento
@@ -2035,7 +2035,7 @@ Potranno tuttavia verificare versioni future del documento
 \series bold
 Mancanza di verificatori:
 \series default
- nel caso in cui non sia possibile assicurare che i documenti vengano verificate
+ nel caso in cui non sia possibile assicurare che i documenti vengano verificati
  da persone che non abbiano contribuito alla redazione del documento, il
  
 \begin_inset ERT
@@ -2050,7 +2050,11 @@ respProg
 
 \end_inset
 
- procederà alla nomina di (almeno) un 
+ procederà alla nomina di 
+\series bold
+almeno 
+\series default
+un 
 \emph on
 verificatore 
 \emph default
@@ -2091,10 +2095,10 @@ come scritto precedentemente all'interno delle informazioni generali di
  Queste liste non dovranno essere cancellate da una versione all'altra,
  ma dovranno essere integrate con i nomi delle persone coinvolte nell'aggiorname
 nto di versione.
- Potrebbe succede di conseguenza che persone coinvolte nella redazione di
- un documento compaiano anche fra i verificatori
+ Potrebbe succedere di conseguenza che persone coinvolte nella redazione
+ di un documento compaiano anche fra i verificatori
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Vedere sezione precedente

@@ -500,6 +500,64 @@ nameproject
 \begin_layout Itemize
 
 \series bold
+Specifica dei componenti:
+\series default
+ per ogni componente dovrà essere incluso il diagramma dei package di tale
+ componente, per poter dare una visione globale del componente e poter aiutare
+ i verificatori a controllare che ogni package e classe sia stato creato.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Package:
+\series default
+ di ogni package si dovrà specificare:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Diagramma delle classi 
+\series default
+del package in questione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Funzione 
+\series default
+svolta dal package
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relazioni d'uso 
+\series default
+che il package possiede con gli altri package del componente a cui esso
+ appartiene
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Eventualmente anche dei package degli altri componenti, specificando il
+ nome del package indicandoli con la seguente notazione: 
+\emph on
+componente.package
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
 Specifica delle classi: 
 \series default
 ogni classe dovrà essere trattata seguendo il seguente schema risportato:
@@ -519,7 +577,20 @@ Funzione
 \series bold
 Relazione d'uso
 \series default
- che tale classe possiede a seconda delle diverse relazioni.
+ che tale classe possiede a seconda delle diverse relazioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso in cui un intero package o componente dovesse utilizzare la specifica
+ classe, si dovrà usare la notazione 
+\emph on
+componente.[package.]*
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize

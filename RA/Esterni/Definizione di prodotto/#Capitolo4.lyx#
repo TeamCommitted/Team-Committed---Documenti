@@ -9147,22 +9147,12 @@ RuntimeException.
 
 \begin_layout Standard
 Metodo che si occupa di inviare una mail all'utente che ha richiesto la
- modifica del proprio indirizzo email.
+ modifica del proprio indirizzo email
 \end_layout
 
 \begin_layout Standard
-Dovrà creare una connessione con il server SMTP indicato nella configurazione
- interna al metodo, quindi tentare di inviare il messaggio.
- Nel caso ci sia un errore, dovrà lanciare un'eccezione di tipo 
+
 \series bold
-RuntimeException.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 # static String generaPassCasuale()
 \end_layout
 
