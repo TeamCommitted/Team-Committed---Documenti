@@ -7130,12 +7130,12 @@ Questa classe si occuperà di creare le stringhe che poi andranno inserite
 
 La struttura dovrà essere di questo tipo 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Gli elementi variabili che variano a seconda del messaggio da inserire sono
  specificati metodo per metodo e sono individuati, nella struttura riportata,
- tramite le parentesi angolari
+ tramite le parentesi angolate
 \end_layout
 
 \end_inset
@@ -7271,13 +7271,30 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- UpdateLog updateLog
+- UpdateLog updateLog 
 \end_layout
 
 \begin_layout Standard
-
+Riferimento all'istanza della classe 
+\emph on
+UpdateLog
+\emph default
+.
+ Sarà creata di volta in volta
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 - String percorso
+\end_layout
+
+\begin_layout Standard
+Contiene l'indirizzo di partenza 
 \end_layout
 
 \begin_layout Standard
@@ -7293,50 +7310,42 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneLog(UpdateLog u)
++ GestioneLog()
 \end_layout
 
 \begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-+ UpdateLog getUpdateLog()
+Costruttore senza parametri della classe 
+\emph on
+GestioneLog
+\emph default
+.
+ 
 \end_layout
 
 \begin_layout Standard
-Metodo che consente di recuperare il riferimento all'oggetto di tipo UpdateLog
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Dovrà assegnare alla variabile 
+\emph on
+updateLog
+\emph default
+ il riferimento ad un nuovo oggetto di tipo 
+\emph on
+UpdateLog
+\emph default
+ e, nel caso del sollevamento di un'eccezione, dovrà assegnare il valore
+ 
+\emph on
+null
 \series bold
-+ void setUpdateLog(UpdateLog updateLog)
-\end_layout
-
-\begin_layout Standard
-Metodo che consente di impostare il riferimento all'oggetto di tipo UpdateLog
-\begin_inset Newline newline
-\end_inset
-
+\emph default
 
 \begin_inset Newline newline
 \end_inset
 
 
-\series bold
-+ void scriviLogin(Login l)
+\begin_inset Newline newline
+\end_inset
+
++ void scriviLogin(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -7366,7 +7375,7 @@ LOGIN
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviLogout(Login l) 
++ void scriviLogout(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -7396,7 +7405,7 @@ LOGOUT
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviDomRic(Login l, Domanda d) 
++ void scriviDomRic(Login login, Domanda dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7441,7 +7450,7 @@ id dom=
 
 
 \series bold
-+ void scriviDomProp(Login l, Domanda d) 
++ void scriviDomProp(Login login, Domanda dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7855,6 +7864,36 @@ id dom=
 \end_inset
 
  + <id delle domande>
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ UpdateLog getUpdateLog()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setUpdateLog(UpdateLog updateLog)
 \end_layout
 
 \begin_layout Standard

@@ -7271,13 +7271,30 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- UpdateLog updateLog
+- UpdateLog updateLog 
 \end_layout
 
 \begin_layout Standard
-
+Riferimento all'istanza della classe 
+\emph on
+UpdateLog
+\emph default
+.
+ Sarà creata di volta in volta
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 - String percorso
+\end_layout
+
+\begin_layout Standard
+Contiene l'indirizzo di partenza 
 \end_layout
 
 \begin_layout Standard
@@ -7293,50 +7310,42 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneLog(UpdateLog u)
++ GestioneLog()
 \end_layout
 
 \begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-+ UpdateLog getUpdateLog()
+Costruttore senza parametri della classe 
+\emph on
+GestioneLog
+\emph default
+.
+ 
 \end_layout
 
 \begin_layout Standard
-Metodo che consente di recuperare il riferimento all'oggetto di tipo UpdateLog
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Dovrà assegnare alla variabile 
+\emph on
+updateLog
+\emph default
+ il riferimento ad un nuovo oggetto di tipo 
+\emph on
+UpdateLog
+\emph default
+ e, nel caso del sollevamento di un'eccezione, dovrà assegnare il valore
+ 
+\emph on
+null
 \series bold
-+ void setUpdateLog(UpdateLog updateLog)
-\end_layout
-
-\begin_layout Standard
-Metodo che consente di impostare il riferimento all'oggetto di tipo UpdateLog
-\begin_inset Newline newline
-\end_inset
-
+\emph default
 
 \begin_inset Newline newline
 \end_inset
 
 
-\series bold
-+ void scriviLogin(Login l)
+\begin_inset Newline newline
+\end_inset
+
++ void scriviLogin(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -7366,7 +7375,7 @@ LOGIN
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviLogout(Login l) 
++ void scriviLogout(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -7396,7 +7405,7 @@ LOGOUT
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviDomRic(Login l, Domanda d) 
++ void scriviDomRic(Login login, Domanda dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7441,7 +7450,7 @@ id dom=
 
 
 \series bold
-+ void scriviDomProp(Login l, Domanda d) 
++ void scriviDomProp(Login login, Domanda dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7485,7 +7494,7 @@ id dom=
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviDomPost(Login l, Domanda d)
++ void scriviDomPost(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -7531,7 +7540,7 @@ id dom=
 
 
 \series bold
-+ void scriviDomRisp(Login l, Domanda d)
++ void scriviDomRisp(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -7576,7 +7585,7 @@ id dom=
 
 
 \series bold
-+ void scriviModPassD(Dipendente d)
++ void scriviModPassD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7607,7 +7616,7 @@ MODIFICA PASS D
 
 
 \series bold
-+ void scriviModEmailD(Dipendente d)
++ void scriviModEmailD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7638,7 +7647,7 @@ MODIFICA EMAIL D
 
 
 \series bold
-+ void scriviOttenimentoBadge(Dipendente d, Badge b)
++ void scriviOttenimentoBadge(Dipendente dip, Badge badge)
 \end_layout
 
 \begin_layout Standard
@@ -7683,7 +7692,7 @@ badge=
 
 
 \series bold
- void scriviAddDip(Dipendente d) 
+ void scriviAddDip(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -7714,7 +7723,7 @@ AGGIUNTO DIPENDENTE
 
 
 \series bold
-+ void scriviDelDip(Dipendente d) 
++ void scriviDelDip(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -7745,7 +7754,7 @@ RIMOSSO DIPENDENTE
 
 
 \series bold
-+ void scriviModDip(Dipendente d)
++ void scriviModDip(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7776,7 +7785,7 @@ MODIFICATO DIPENDENTE
 
 
 \series bold
-+ void scriviAddDomande(Domanda [] d)
++ void scriviAddDomande(Domanda [] dom)
 \end_layout
 
 \begin_layout Standard
@@ -7821,7 +7830,7 @@ id dom=
 
 
 \series bold
-+ void scriviDelDomande(Domanda [] d) 
++ void scriviDelDomande(Domanda [] dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7855,6 +7864,52 @@ id dom=
 \end_inset
 
  + <id delle domande>
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+Vengono quindi definiti i metodi getter/setter per i vari attributi della
+ classe.
+ In particolare:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ UpdateLog getUpdateLog()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void setUpdateLog(UpdateLog updateLog)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getPercorso()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getLog()
 \end_layout
 
 \begin_layout Standard
@@ -8062,7 +8117,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOLogin access
+- DAOLogin access 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOLogin, 
+\emph default
+opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -8071,6 +8136,12 @@ Attributi
 \end_inset
 
 - GestioneLog log
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLog
 \end_layout
 
 \begin_layout Subsection*
@@ -8095,7 +8166,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ boolean loginAdmin(Login login)
++ boolean loginAdmin(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -8125,7 +8196,7 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 
 
 \series bold
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -8338,7 +8409,15 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOPunteggi accessP
+- DAOPunteggi accessP 
+\series default
+Riferimento all'istanza della classe 
+\emph on
+DAOPunteggi
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -8347,6 +8426,14 @@ Attributi
 \end_inset
 
 - DAODipendenti accessDip
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
 \end_layout
 
 \begin_layout Subsection*
