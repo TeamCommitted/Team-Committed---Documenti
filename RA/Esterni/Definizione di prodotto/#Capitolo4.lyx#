@@ -835,11 +835,11 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe 
 \emph on
 Indirizzo
 \emph default
- con i riferimenti al database aziendale
+ contenente i riferimenti al database aziendale
 \begin_inset Newline newline
 \end_inset
 
@@ -853,11 +853,11 @@ Indirizzo
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-Indirizzo
+ Indirizzo
 \emph default
- con i riferimenti al database delle domande
+ contenente i riferimenti al database delle domande
 \begin_inset Newline newline
 \end_inset
 
@@ -871,9 +871,9 @@ Indirizzo
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-DAODipendenti
+ DAODipendenti
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
 \begin_inset Newline newline
@@ -889,9 +889,9 @@ DAODipendenti
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-DAOPunteggi
+ DAOPunteggi
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
 \begin_inset Newline newline
@@ -907,9 +907,9 @@ DAOPunteggi
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-DAOLogin
+ DAOLogin
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
 \series bold
@@ -922,6 +922,18 @@ DAOLogin
 \end_inset
 
 - UpdateLog updateLog 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe
+\series bold
+ 
+\series default
+\emph on
+UpdateLog
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -933,9 +945,9 @@ DAOLogin
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-DAODomande
+ DAODomande
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
 \series bold
@@ -951,9 +963,9 @@ DAODomande
 \end_layout
 
 \begin_layout Standard
-Oggetto 
+Riferimento all'istanza della classe
 \emph on
-DAOBadge
+ DAOBadge
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
 \series bold
@@ -983,6 +995,12 @@ GestioneRecupero
 \series bold
 \emph default
 - GestionePunteggiD gestionePunteggiD
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestionePunteggiD
 \begin_inset Newline newline
 \end_inset
 
@@ -990,7 +1008,19 @@ GestioneRecupero
 \begin_inset Newline newline
 \end_inset
 
-- GestionePunteggiAA gestionePunteggiAA
+
+\series bold
+\emph default
+- GestionePunteggiAA gestionePunteggiAA 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestionePunteggiAA
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -998,7 +1028,16 @@ GestioneRecupero
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLog gestioneLog
+- GestioneLog gestioneLog 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLog
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1007,6 +1046,15 @@ GestioneRecupero
 \end_inset
 
 - GestioneLogin gestioneLogin 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLogin
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1015,6 +1063,15 @@ GestioneRecupero
 \end_inset
 
 - GestioneBadgeD gestioneBadgeD 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneBadgeD
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1022,7 +1079,16 @@ GestioneRecupero
 \begin_inset Newline newline
 \end_inset
 
-- GestioneDomandeD gestioneDomandeD
+- GestioneDomandeD gestioneDomandeD 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneDomandeD
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1031,6 +1097,15 @@ GestioneRecupero
 \end_inset
 
 - GestioneDomandeAS gestioneDomandeAS 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneDomandeAS
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1038,7 +1113,16 @@ GestioneRecupero
 \begin_inset Newline newline
 \end_inset
 
-- GestioneDipendentiD gestioneDipendentiD
+- GestioneDipendentiD gestioneDipendentiD 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneDipendentiD
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1047,6 +1131,15 @@ GestioneRecupero
 \end_inset
 
 - GestioneDipendentiAA gestioneDipendentiAA 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneDipendentiAA
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1055,6 +1148,15 @@ GestioneRecupero
 \end_inset
 
 - GestioneBadgeAS gestioneBadgeAS 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneBadgeAS
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1063,6 +1165,32 @@ GestioneRecupero
 \end_inset
 
 # GestioneDati gestioneDati 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneDati
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- static WebConnection webConnection = null 
+\end_layout
+
+\begin_layout Standard
+Riferimento statico all'istanza della classe 
+\emph on
+WebConnection
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1070,15 +1198,16 @@ GestioneRecupero
 \begin_inset Newline newline
 \end_inset
 
-- static WebConnection webConnection = null
-\begin_inset Newline newline
-\end_inset
+- static ApplicazioniConnection appConnection = null 
+\end_layout
 
+\begin_layout Standard
+Riferimento statico all'istanza della classe 
+\emph on
+appConnection
+\series bold
+\emph default
 
-\begin_inset Newline newline
-\end_inset
-
-- static ApplicazioniConnection appConnection = null
 \begin_inset Newline newline
 \end_inset
 
@@ -1090,7 +1219,13 @@ GestioneRecupero
 \series default
 - 
 \series bold
-static Inizializzatore inizializzatore = null
+static Inizializzatore inizializzatore = null 
+\end_layout
+
+\begin_layout Standard
+Riferimento statico all'istanza della classe 
+\emph on
+Inizializzatore
 \end_layout
 
 \begin_layout Subsection*
@@ -1744,6 +1879,28 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.Inizializzatore
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.*
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -1752,6 +1909,12 @@ Attributi
 
 \series bold
 - GestioneDati dati
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe façade 
+\emph on
+GestioneDati
 \end_layout
 
 \begin_layout Subsection*
@@ -2519,6 +2682,28 @@ moduli
 Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.Inizializzatore
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+web.API.*
+\end_layout
+
+\begin_layout Standard
+Inoltre utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneDati
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -2527,14 +2712,12 @@ Attributi
 
 \series bold
 - GestioneDati dati
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-- Parser parser
+\begin_layout Standard
+Riferimento alla classe façade 
+\emph on
+GestioneDati
 \end_layout
 
 \begin_layout Subsection*
@@ -2544,7 +2727,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ ApplicazioniConnection(GestioneDati d, Parser p)
++ ApplicazioniConnection(GestioneDati d)
 \end_layout
 
 \begin_layout Standard
@@ -3025,7 +3208,21 @@ per elaborare i dati in arrivo ed in invio da e per i vari front-end
 
 \series bold
 \emph default
-Attività svolte e dati trattati:
+Attività svolte e dati trattati
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Attenzione: dal diagramma si può notare un forte accoppiamento fra le classi
+ del package.
+ Questo è dovuto alla presenza di una classe che implementa il Design Pattern
+ Façade, che implica quindi un alto grado di accoppiamento [vedere Specifica
+ Tecnica in proposito]
+\end_layout
+
+\end_inset
+
+:
 \series default
  è deputato alla computazione su tutti i dati da e per i front-end 
 \begin_inset Newline newline
@@ -3200,6 +3397,8 @@ Questa classe verrà utilizzata dalle seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.controller.GestioneDati
 \end_layout
 
@@ -3208,10 +3407,14 @@ Inoltre utilizzerà le seguenti classi:
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.access.DAOBadge
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Badge
 \end_layout
 
@@ -3222,7 +3425,15 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOBadge accessB
+- DAOBadge accessBadge
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOBadge
+\emph default
+, istanziato nella corretta classe concreta secondo il database utilizzato
 \end_layout
 
 \begin_layout Subsection*
@@ -3232,7 +3443,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneBadgeAS(DAOBadge accessB)
++ GestioneBadgeAS(DAOBadge accessBadge)
 \end_layout
 
 \begin_layout Standard
@@ -3528,23 +3739,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOBadge accessB
-\begin_inset Newline newline
-\end_inset
+- DAOBadge accessBadge
+\end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOBadge
+\emph default
+, istanziato nella corretta classe concreta secondo il database utilizzato
+\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-- DAODipendenti accessDip
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- DAODomande accessDom
 \begin_inset Newline newline
 \end_inset
 
@@ -3552,7 +3757,17 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLog log
+- DAODipendenti accessDip 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, istanziato nella corretta classe concreta secondo il database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3560,7 +3775,52 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLogin login
+- DAODomande accessDom 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODomande
+\emph default
+, istanziato nella corretta classe concreta secondo il database utilizzato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLog gestLog 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneLog
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLogin gestLogin
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLogin
 \end_layout
 
 \begin_layout Subsection*
@@ -3570,8 +3830,8 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public GestioneBadgeD(DAOBadge accessB,DAODipendenti accessDip, DAODomande
- accessDom, GestioneLog log, GestioneLogin login)
+public GestioneBadgeD(DAOBadge accessBadge,DAODipendenti accessDip, DAODomande
+ accessDom, GestioneLog gestlog, GestioneLogin gestlogin)
 \end_layout
 
 \begin_layout Standard
@@ -3586,7 +3846,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-public ArrayList<Badge> getBadgeD(Login l, int n)
+public ArrayList<Badge> getBadgeD(Login login, int num)
 \end_layout
 
 \begin_layout Standard
@@ -3634,7 +3894,7 @@ null
 
 
 \emph default
-public boolean assegnaBadge(Domanda D, Login l)
+public boolean assegnaBadge(Domanda domanda, Login login)
 \end_layout
 
 \begin_layout Standard
@@ -3963,31 +4223,20 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- GestioneRecupero gestioneRecupero
-\begin_inset Newline newline
-\end_inset
+- GestioneRecupero gestioneRecupero 
+\end_layout
 
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneRecupero
+\series bold
+\emph default
 
-\begin_inset Newline newline
-\end_inset
-
-- GestioneLogin gestioneLogin
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- GestioneDomandeD gestioneDomandeD
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- GestioneDomandeAS gestioneDomandeAS
 \begin_inset Newline newline
 \end_inset
 
@@ -3995,31 +4244,20 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestioneDipendentiD gestioneDipendentiD
-\begin_inset Newline newline
-\end_inset
+- GestioneLogin gestioneLogin 
+\end_layout
 
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneLogin
+\series bold
+\emph default
 
-\begin_inset Newline newline
-\end_inset
-
-- GestioneDipendentiAA gestioneDipendentiAA
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- GestioneBadgeD gestioneBadgeD
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- GestioneBadgeAS gestioneBadgeAS
 \begin_inset Newline newline
 \end_inset
 
@@ -4027,7 +4265,146 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestionePunteggiD gestionePunteggiD
+- GestioneDomandeD gestioneDomandeD 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneDomandeD
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDomandeAS gestioneDomandeAS 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneDomandeAS
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiD gestioneDipendentiD 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneDipendentiD
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneDipendentiAA gestioneDipendentiAA 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneDipendentiAA
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeD gestioneBadgeD 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneBadgeD
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneBadgeAS gestioneBadgeAS 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneBadgeAS
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiD gestionePunteggiD 
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestionePunteggiD
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -4038,6 +4415,16 @@ Attributi
 - GestionePunteggiAA gestionePunteggiAA
 \end_layout
 
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestionePunteggiAA
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -4045,10 +4432,10 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDati(GestioneRecupero gr,GestioneLogin gl, GestioneDomandeD gdd,
- GestioneDomandeAS gda, GestioneDipendentiD gdip, GestioneDipendentiAA gdipa,
- GestioneBadgeD gbd, GestioneBadgeAS gba, GestionePunteggiD gpd, GestionePuntegg
-iAA gpaa)
++ GestioneDati(GestioneRecupero gestRec,GestioneLogin gestLogin, GestioneDomande
+D gestDomD, GestioneDomandeAS gestDomAS, GestioneDipendentiD gestDipD, GestioneD
+ipendentiAA gestDipAA, GestioneBadgeD gestBadgeD, GestioneBadgeAS gestBadgeAS,
+ GestionePunteggiD gestPuntD, GestionePunteggiAA GestPuntAA)
 \end_layout
 
 \begin_layout Standard
@@ -4092,7 +4479,7 @@ che rappresenteranno tutti i badge presenti nel database.
 
 
 \series bold
-+ ArrayList<Badge> getBadgeD(Login l, int n)
++ ArrayList<Badge> getBadgeD(Login login, int numeroBadge)
 \end_layout
 
 \begin_layout Standard
@@ -4129,7 +4516,7 @@ Login
 
 
 \series bold
-+ boolean assegnaBadge(Domanda D, Login l)
++ boolean assegnaBadge(Domanda domanda, Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4268,7 +4655,7 @@ all'interno del database.
 
 
 \series bold
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4284,6 +4671,37 @@ GestioneDipendentiD
 atta a reperire i dati del 
 \emph on
 Dipendente
+\emph default
+, identificato dall'oggetto 
+\emph on
+Login
+\emph default
+ passato come parametro, all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ 
+\series bold
+Dipendente getDatiA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di reperire le informazioni di un amministratore a partire
+ dal suo login.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiAA
+\emph default
+ atta a reperire i dati di un 
+\emph on
+Amministratore
 \emph default
 , identificato dall'oggetto 
 \emph on
@@ -4468,7 +4886,7 @@ Login
 
 
 \series bold
-+ boolean setRisposta(Login l,Domanda risposta)
++ boolean setRisposta(Login login, Domanda risposta)
 \end_layout
 
 \begin_layout Standard
@@ -4501,7 +4919,7 @@ Login
 
 
 \series bold
-+ boolean loginAdmin(Login login)
++ boolean loginAdmin(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -4602,7 +5020,7 @@ GestionePunteggiAA.
 
 \series bold
 \emph default
-+ boolean setTrofei(Dipendente Dip, int n)
++ boolean setTrofei(Dipendente dip, int numTrofei)
 \end_layout
 
 \begin_layout Standard
@@ -4635,7 +5053,7 @@ GestionePunteggiAA.
 
 \series bold
 \emph default
-+ Punteggio getStatisticheD(Login l) 
++ Punteggio getStatisticheD(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -4668,7 +5086,7 @@ GestionePunteggiD.
 
 \series bold
 \emph default
-+ boolean posticipa(Login l, Domanda d)
++ boolean posticipa(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -4702,7 +5120,7 @@ GestionePunteggiD.
 
 \series bold
 \emph default
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4735,7 +5153,7 @@ GestioneLogin.
 
 \series bold
 \emph default
-+ Punteggio getStatisticheGlob(Login l) 
++ Punteggio getStatisticheGlob(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -4857,6 +5275,32 @@ atta a modificare la password del
 Dipendente
 \emph default
  all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperare la lista dei ruoli aziendali.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione contenuta in 
+\emph on
+GestioneDipendentiAA
+\emph default
+ deputata al recupero di tutti i ruoli assegnabili ad un 
+\emph on
+Dipendente
+\emph default
+ inseriti all'interno del database.
 \end_layout
 
 \begin_layout Standard
@@ -5055,6 +5499,14 @@ Attributi
 - DAODipendenti accessDip
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -5202,6 +5654,30 @@ Access-Tier
 Amministratore
 \emph default
  all'interno del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+ Dipendente getDatiA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di reperire le informazioni di un amministratore da
+ parte dal suo login.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè reperisca le informazioni di un amministratore inserite all'interno
+ del database.
 \end_layout
 
 \begin_layout Standard
@@ -5408,7 +5884,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAODipendenti daoDipendenti
+- DAODipendenti daoDipendenti 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipedenti, 
+\emph default
+opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -5416,7 +5902,30 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLog gestioneLog
+- GestioneLog gestioneLog 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLog
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneRecupero gestioneRecupero
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneRecupero
 \end_layout
 
 \begin_layout Subsection*
@@ -5426,7 +5935,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDipendentiD(DAODipendenti d, GestioneLog g)
++ GestioneDipendentiD(DAODipendenti daoDipendenti, GestioneLog gestioneLog)
 \end_layout
 
 \begin_layout Standard
@@ -5441,7 +5950,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -5770,6 +6279,14 @@ Attributi
 
 \series bold
 - DAODomande accessDom
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipedenti, 
+\emph default
+opportunamente istanziato alla corretta tipologia di database utilizzato
 \end_layout
 
 \begin_layout Subsection*
@@ -6130,23 +6647,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAODomande daoDomande
-\begin_inset Newline newline
-\end_inset
+- DAODomande daoDomande 
+\end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODomande
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-- DAOPunteggi daoPunteggi
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- DAODipendenti daoDipendenti
 \begin_inset Newline newline
 \end_inset
 
@@ -6154,7 +6665,17 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestionePunteggiD gestionePunteggiD
+- DAOPunteggi daoPunteggi 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOPunteggi
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -6162,7 +6683,51 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- GestioneLog gestioneLog
+- DAODipendenti daoDipendenti 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestionePunteggiD gestionePunteggiD 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestionePunteggiD
+\series bold
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- GestioneLog gestioneLog 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLog
+\series bold
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -6173,6 +6738,12 @@ Attributi
 - GestioneBadgeD gestioneBadge
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneBadgeD
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -6180,8 +6751,9 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDomandeD(DAODomande d, DAOPunteggi dp, DAODipendenti dd, GestionePunte
-ggiD g, GestioneLog gl, GestioneBadgeD gbd)
++ GestioneDomandeD(DAODomande daoDom, DAOPunteggi daoPunt, DAODipendenti
+ daoDip, GestionePunteggiD gestPuntD, GestioneLog gestLog, GestioneBadgeD
+ gestBadgeD)
 \end_layout
 
 \begin_layout Standard
@@ -6196,7 +6768,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ Domanda getDomandaD(Login l)
++ Domanda getDomandaD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -6244,7 +6816,7 @@ Dipendente.
 \begin_inset Newline newline
 \end_inset
 
-+ boolean setRisposta(Login l,Domanda risposta)
++ boolean setRisposta(Login login, Domanda risposta)
 \end_layout
 
 \begin_layout Standard
@@ -6298,7 +6870,7 @@ Domanda
 \begin_inset Newline newline
 \end_inset
 
-+ boolean posticipa(Login l, Domanda d)
++ boolean posticipa(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -6558,11 +7130,12 @@ Questa classe si occuperà di creare le stringhe che poi andranno inserite
 
 La struttura dovrà essere di questo tipo 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Gli elementi variabili che variano a seconda del messaggio da inserire sono
- specificati metodo per metodo
+ specificati metodo per metodo e sono individuati, nella struttura riportata,
+ tramite le parentesi angolari
 \end_layout
 
 \end_inset
