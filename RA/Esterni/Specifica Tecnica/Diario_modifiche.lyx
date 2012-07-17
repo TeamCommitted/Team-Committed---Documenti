@@ -128,12 +128,7 @@ begin{longtable}{ p{6cm} | c | c | r }
 \backslash
 
 \backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-		
+ 
 \backslash
 hline 
 \backslash
@@ -144,16 +139,9 @@ hline
 
 		
 \backslash
-emph{Corrette immagini diagrammi di attività.} & Gabriele Facchin & 2012/07/16
- & V2.2
-\end_layout
-
-\begin_layout Plain Layout
-
-		
+emph{Corrette immagini diagrammi di attivit
 \backslash
-emph{Corretta versione errata della JDK indicata.
- In attesa di verifica.} & Giorgio Maggiolo & 2012/__/__ & V2.1 
+'a.} & Gabriele Facchin & 2012/07/16 & V2.2 
 \backslash
 
 \backslash
@@ -164,7 +152,21 @@ hline
 
 \begin_layout Plain Layout
 
+		
+\backslash
+emph{Corretta versione errata della JDK indicata.
+ In attesa di verifica.} & Giorgio Maggiolo & 2012/07/10 & V2.1 
+\backslash
 
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
 \backslash
 emph{Approvato.} & Alessandro Cornaglia & 2012/06/03 & V2.0 
 \backslash
@@ -177,7 +179,7 @@ hline
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
 emph{Verificato.
  In attesa di approvazione} & Lorenzo Braghetto & 2012/06/02 & V1.2 
@@ -191,7 +193,7 @@ hline
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
 emph{Apportate correzioni segnalate in RP.
  In attesa di verifica.} & Begolo Marco & 2012/06/01 & V1.1 
@@ -205,7 +207,7 @@ hline
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
 emph{Approvato.} & Massimo Dalla Pietà & 2012/01/30 & V1.0 
 \backslash
@@ -218,7 +220,7 @@ hline
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
 emph{Verificato.
  In attesa di approvazione} & Alessandro Cornaglia & 2012/01/30 & V0.16 
@@ -232,7 +234,7 @@ hline
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
 emph{Completato capitolo 12 (Prototipi di interfaccia utente).
  In attesa di verifica} & Marco Begolo & 2012/01/30 & V0.15 
@@ -246,11 +248,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 11 : Tracciamento requisiti - componenti} & Gabriele
  Facchin & 2012/01/29 & V0.14 
@@ -264,11 +262,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 8 : Back-End} & Gabriele Facchin & 2012/01/29 &
  V0.13 
@@ -282,11 +276,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 10 : Tracciamento componenti - requisiti} & Marco
  Begolo & 2012/01/28 & V0.12 
@@ -300,11 +290,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 9 : Diagramma di attività} & Lorenzo Braghetto
  & 2012/01/25 & V0.11 
@@ -318,11 +304,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 13 : Introduzione} & Giacomo Quadrio & 2012/01/24
  & V0.10 
@@ -336,11 +318,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 6 : Front-End Web} & Giacomo Quadrio & 2012/01/23
  & V0.9 
@@ -354,11 +332,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 5 : Front-End Desktop} & Marco Begolo  & 2012/01/21
  & V0.8 
@@ -372,11 +346,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 7 : Front-End Mobile} & Lorenzo Braghetto & 2012/01/18
  & V0.7 
@@ -390,11 +360,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 4 : Architettura Generale} & Giacomo Quadrio &
  2012/01/16 & V0.6 
@@ -408,11 +374,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 3 : Strumenti} & Marco Begolo & 2012/01/16 & V0.5
  
@@ -426,11 +388,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Iniziata realizzazione Capitolo 2: Design Pattern} & Giacomo Quadrio
  & 2012/01/15 & V0.4 
@@ -444,11 +402,7 @@ hline
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+		
 \backslash
 emph{Realizzato Capitolo 1 : Introduzione} & Bragheto Lorenzo & 2012/01/14
  & V0.3 
@@ -458,14 +412,6 @@ emph{Realizzato Capitolo 1 : Introduzione} & Bragheto Lorenzo & 2012/01/14
  
 \backslash
 hline
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -498,7 +444,9 @@ emph{Inizio creazione del documento.
 \backslash
 
 \backslash
-
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
