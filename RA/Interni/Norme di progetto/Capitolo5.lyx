@@ -2035,7 +2035,7 @@ Potranno tuttavia verificare versioni future del documento
 \series bold
 Mancanza di verificatori:
 \series default
- nel caso in cui non sia possibile assicurare che i documenti vengano verificate
+ nel caso in cui non sia possibile assicurare che i documenti vengano verificati
  da persone che non abbiano contribuito alla redazione del documento, il
  
 \begin_inset ERT
@@ -2050,7 +2050,11 @@ respProg
 
 \end_inset
 
- procederà alla nomina di (almeno) un 
+ procederà alla nomina di 
+\series bold
+almeno 
+\series default
+un 
 \emph on
 verificatore 
 \emph default

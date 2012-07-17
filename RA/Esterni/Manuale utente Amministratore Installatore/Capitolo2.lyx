@@ -330,7 +330,8 @@ L'installazione di questa parte del sistema richiede il possesso dell'eseguibile
 \end_layout
 
 \begin_layout Standard
-Il back-end dovrà
+Poichè il back-end dovrà essere eseguito da Tomcat, questo dovrà essere
+ preventivamente compilato a partire dai sorgenti
 \end_layout
 
 \begin_layout Standard
