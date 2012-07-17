@@ -577,7 +577,20 @@ Funzione
 \series bold
 Relazione d'uso
 \series default
- che tale classe possiede a seconda delle diverse relazioni.
+ che tale classe possiede a seconda delle diverse relazioni
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso in cui un intero package o componente dovesse utilizzare la specifica
+ classe, si dovrà usare la notazione 
+\emph on
+componente.[package.]*
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
