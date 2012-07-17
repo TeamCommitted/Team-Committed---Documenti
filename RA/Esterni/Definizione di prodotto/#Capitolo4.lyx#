@@ -1164,7 +1164,7 @@ GestioneBadgeAS
 \begin_inset Newline newline
 \end_inset
 
-# GestioneDati gestioneDati 
+- GestioneDati gestioneDati 
 \end_layout
 
 \begin_layout Standard
@@ -7275,12 +7275,12 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-Riferimento all'istanza della classe 
+Riferimento all'ultima istanza creata della classe 
 \emph on
 UpdateLog
 \emph default
 .
- Sarà creata di volta in volta
+ 
 \series bold
 
 \begin_inset Newline newline
@@ -7294,13 +7294,42 @@ UpdateLog
 \end_layout
 
 \begin_layout Standard
-Contiene l'indirizzo di partenza 
-\end_layout
+Contiene l'indirizzo base dell'ultimo log scritto.
+ Nel caso l'oggetto 
+\emph on
+GestioneLog
+\emph default
+ sia stato appena inizializzato, 
+\emph on
+percorso=
+\series bold
+null
+\series default
+\emph default
 
-\begin_layout Standard
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 
 \series bold
 - String log
+\end_layout
+
+\begin_layout Standard
+Contiene il messaggio dell'ultimo log scritto.
+ Nel caso l'oggetto 
+\emph on
+GestioneLog
+\emph default
+ sia stato appena inizializzato, 
+\emph on
+log=
+\series bold
+null
 \end_layout
 
 \begin_layout Subsection*
@@ -7329,10 +7358,10 @@ updateLog
 \emph default
  il riferimento ad un nuovo oggetto di tipo 
 \emph on
-UpdateLog
+UpdateLog 
 \emph default
- e, nel caso del sollevamento di un'eccezione, dovrà assegnare il valore
- 
+con parametri vuoti e, nel caso del sollevamento di un'eccezione, dovrà
+ assegnare il valore 
 \emph on
 null
 \series bold
@@ -7494,7 +7523,7 @@ id dom=
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviDomPost(Login l, Domanda d)
++ void scriviDomPost(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -7540,7 +7569,7 @@ id dom=
 
 
 \series bold
-+ void scriviDomRisp(Login l, Domanda d)
++ void scriviDomRisp(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -7585,7 +7614,7 @@ id dom=
 
 
 \series bold
-+ void scriviModPassD(Dipendente d)
++ void scriviModPassD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7616,7 +7645,7 @@ MODIFICA PASS D
 
 
 \series bold
-+ void scriviModEmailD(Dipendente d)
++ void scriviModEmailD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7647,7 +7676,7 @@ MODIFICA EMAIL D
 
 
 \series bold
-+ void scriviOttenimentoBadge(Dipendente d, Badge b)
++ void scriviOttenimentoBadge(Dipendente dip, Badge badge)
 \end_layout
 
 \begin_layout Standard
@@ -7692,7 +7721,7 @@ badge=
 
 
 \series bold
- void scriviAddDip(Dipendente d) 
+ void scriviAddDip(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -7723,7 +7752,7 @@ AGGIUNTO DIPENDENTE
 
 
 \series bold
-+ void scriviDelDip(Dipendente d) 
++ void scriviDelDip(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -7754,7 +7783,7 @@ RIMOSSO DIPENDENTE
 
 
 \series bold
-+ void scriviModDip(Dipendente d)
++ void scriviModDip(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -7785,7 +7814,7 @@ MODIFICATO DIPENDENTE
 
 
 \series bold
-+ void scriviAddDomande(Domanda [] d)
++ void scriviAddDomande(Domanda [] dom)
 \end_layout
 
 \begin_layout Standard
@@ -7830,7 +7859,7 @@ id dom=
 
 
 \series bold
-+ void scriviDelDomande(Domanda [] d) 
++ void scriviDelDomande(Domanda [] dom) 
 \end_layout
 
 \begin_layout Standard
@@ -7894,6 +7923,22 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \end_inset
 
 + void setUpdateLog(UpdateLog updateLog)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getPercorso()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String getLog()
 \end_layout
 
 \begin_layout Standard
@@ -8101,7 +8146,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOLogin access
+- DAOLogin access 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOLogin, 
+\emph default
+opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -8110,6 +8165,12 @@ Attributi
 \end_inset
 
 - GestioneLog log
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+GestioneLog
 \end_layout
 
 \begin_layout Subsection*
@@ -8134,7 +8195,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ boolean loginAdmin(Login login)
++ boolean loginAdmin(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -8164,7 +8225,7 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 
 
 \series bold
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -8377,7 +8438,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOPunteggi accessP
+- DAOPunteggi accessPunti
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOPunteggi
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -8388,6 +8459,14 @@ Attributi
 - DAODipendenti accessDip
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -8395,7 +8474,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestionePunteggiAA(DAOPunteggi accessP, DAODipendenti accessDip)
++ GestionePunteggiAA(DAOPunteggi accessPunti, DAODipendenti accessDip)
 \end_layout
 
 \begin_layout Standard
@@ -8435,7 +8514,7 @@ Punteggio
 
 
 \series bold
-+ boolean setTrofei(Dipendente Dip, int n)
++ boolean setTrofei(Dipendente dip, int num)
 \end_layout
 
 \begin_layout Standard
@@ -8661,15 +8740,17 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- DAOPunteggi daoPunteggi
-\begin_inset Newline newline
-\end_inset
+- DAOPunteggi daoPunteggi 
+\end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAOPunteggi
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-- DAOBadge daoBadge
 \begin_inset Newline newline
 \end_inset
 
@@ -8680,6 +8761,14 @@ Attributi
 - DAODipendenti daoDipendenti
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -8687,7 +8776,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestionePunteggiD(DAOPunteggi dP, DAOBadge dB, DAODipendenti dD)
++ GestionePunteggiD(DAOPunteggi daoPunt, DAODipendenti daoDip)
 \end_layout
 
 \begin_layout Standard
@@ -8702,7 +8791,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getStatisticheD(Login l)
++ Punteggio getStatisticheD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -8721,7 +8810,7 @@ Login
 
 
 \series bold
-+ Punteggio getStatisticheGlob(Login l)
++ Punteggio getStatisticheGlob(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -8925,6 +9014,29 @@ Attributi
 - DAODipendenti accessDip
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+DAODipendenti
+\emph default
+, opportunamente istanziato alla corretta tipologia di database utilizzato
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- static String porta
+\end_layout
+
+\begin_layout Standard
+Stringa che dovrà contenere la porta di comunicazione del back-end con il
+ server SMTP tramite il quale inviare le email
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -9009,7 +9121,39 @@ Access-Tier
 
 
 \series bold
-- String generaPassCasuale()
++ static void sendMailInserito(String destinatario, String messaggio)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare una mail all'utente che ha richiesto il
+ ripristino della password.
+\end_layout
+
+\begin_layout Standard
+Dovrà creare una connessione con il server SMTP indicato nella configurazione
+ interna al metodo, quindi tentare di inviare il messaggio.
+ Nel caso ci sia un errore, dovrà lanciare un'eccezione di tipo 
+\series bold
+RuntimeException.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static void sendMailModMail(String destinatario)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare una mail all'utente che ha richiesto la
+ modifica del proprio indirizzo email
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# static String generaPassCasuale()
 \end_layout
 
 \begin_layout Standard
