@@ -1924,7 +1924,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ WebConnection(GestioneDati d)
++ WebConnection(GestioneDati gestDati)
 \end_layout
 
 \begin_layout Standard
@@ -1985,7 +1985,7 @@ Login
 \begin_inset Newline newline
 \end_inset
 
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2008,7 +2008,30 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getPunteggio(Login l)
++ Dipendente getDatiA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di reperire le informazioni di un amministratore a partire
+ dal suo login.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ dati di un 
+\emph on
+Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ Punteggio getPunteggio(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2030,7 +2053,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getStat(Login l)
++ Punteggio getStat(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2049,7 +2072,7 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero delle
 \begin_inset Newline newline
 \end_inset
 
-+ ArrayList<Badge> getBadge(Login l, int n)
++ ArrayList<Badge> getBadge(Login login, int num)
 \end_layout
 
 \begin_layout Standard
@@ -2119,7 +2142,7 @@ Amministratore
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modMail(Dipendente d, String mail)
++ boolean modMail(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -2141,7 +2164,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean resetPassD(Recupero r)
++ boolean resetPassD(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2163,7 +2186,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean resetPassA(Recupero r)
++ boolean resetPassA(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2185,7 +2208,7 @@ Amministratore
 \begin_inset Newline newline
 \end_inset
 
-+ Domanda mostraDomanda(Login l)
++ Domanda mostraDomanda(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2207,7 +2230,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean setRisposta(Login l,Domanda risposta)
++ boolean setRisposta(Login login, Domanda risposta)
 \end_layout
 
 \begin_layout Standard
@@ -2233,7 +2256,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean posticipa(Login l, Domanda d)
++ boolean posticipa(Login login, Domanda domPost)
 \end_layout
 
 \begin_layout Standard
@@ -2259,7 +2282,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2298,7 +2321,7 @@ Dovrà chiamare la funzione della classe Façade deputata alla generazione
 \begin_inset Newline newline
 \end_inset
 
-+ boolean aggiungiDomanda(Domanda d)
++ boolean aggiungiDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2318,7 +2341,7 @@ Dovrà chiamare la funzione della classe Façade deputata all'inserimento
 \begin_inset Newline newline
 \end_inset
 
-+ boolean cancellaDomanda(Domanda d)
++ boolean cancellaDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2361,7 +2384,7 @@ Dipendenti
 \begin_inset Newline newline
 \end_inset
 
-+ boolean setTrofei(Dipendente d, int n)
++ boolean setTrofei(Dipendente dip, int num)
 \end_layout
 
 \begin_layout Standard
@@ -2383,7 +2406,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean aggiungiDipendente(Dipendente d)
++ boolean aggiungiDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2406,7 +2429,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean cancellaDipendente(Dipendente d)
++ boolean cancellaDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2429,7 +2452,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modDipendente(Dipendente dOld, Dipendente dNew)
++ boolean modDipendente(Dipendente dipOld, Dipendente dipNew)
 \end_layout
 
 \begin_layout Standard
@@ -2475,7 +2498,7 @@ Badge
 \begin_inset Newline newline
 \end_inset
 
-+ boolean assegnaBadge(Domanda D, Login l)
++ boolean assegnaBadge(Domanda dom, Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2516,6 +2539,25 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero dei
 Dipendenti
 \emph default
 , oltre che ai punteggi medi dell'azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo per recuperare la lista dei ruoli aziendali.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ ruoli presenti all'interno dell'azienda.
 \end_layout
 
 \begin_layout Standard
@@ -2727,7 +2769,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ ApplicazioniConnection(GestioneDati d)
++ ApplicazioniConnection(GestioneDati gestDati)
 \end_layout
 
 \begin_layout Standard
@@ -2773,7 +2815,7 @@ Dipendenti
 \begin_inset Newline newline
 \end_inset
 
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2796,7 +2838,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getStat(Login l)
++ Punteggio getStat(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2815,7 +2857,7 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero delle
 \begin_inset Newline newline
 \end_inset
 
-+ void modPass(Dipendente d)
++ void modPass(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2837,7 +2879,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void modMail(Dipendente d, String mail)
++ void modMail(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -2859,7 +2901,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void resetPass(Recupero r)
++ void resetPass(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2890,7 +2932,7 @@ questi ultimi.
 \begin_inset Newline newline
 \end_inset
 
-+ Domanda mostraDomanda(Login l)
++ Domanda mostraDomanda(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2912,7 +2954,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void posticipa(Login l, Domanda d)
++ void posticipa(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2938,7 +2980,7 @@ Dipendente
 
 \series bold
 \emph default
-+ boolean rispondi(Login l, Domanda d)
++ boolean rispondi(Login login, Domanda ddomanda)
 \end_layout
 
 \begin_layout Standard
@@ -2964,7 +3006,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2983,7 +3025,7 @@ Dovrà chiamare la funzione della classe Façade deputata alla gestione della
 \begin_inset Newline newline
 \end_inset
 
-+ ArrayList<Badge> getBadge(Login l, int n)
++ ArrayList<Badge> getBadge(Login login, int num)
 \end_layout
 
 \begin_layout Standard
