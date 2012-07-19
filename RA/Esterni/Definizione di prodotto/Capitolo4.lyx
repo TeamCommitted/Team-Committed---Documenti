@@ -1924,7 +1924,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ WebConnection(GestioneDati d)
++ WebConnection(GestioneDati gestDati)
 \end_layout
 
 \begin_layout Standard
@@ -1985,7 +1985,7 @@ Login
 \begin_inset Newline newline
 \end_inset
 
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2008,7 +2008,30 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getPunteggio(Login l)
++ Dipendente getDatiA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di reperire le informazioni di un amministratore a partire
+ dal suo login.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ dati di un 
+\emph on
+Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ Punteggio getPunteggio(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2030,7 +2053,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getStat(Login l)
++ Punteggio getStat(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2049,7 +2072,7 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero delle
 \begin_inset Newline newline
 \end_inset
 
-+ ArrayList<Badge> getBadge(Login l, int n)
++ ArrayList<Badge> getBadge(Login login, int num)
 \end_layout
 
 \begin_layout Standard
@@ -2119,7 +2142,7 @@ Amministratore
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modMail(Dipendente d, String mail)
++ boolean modMail(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -2141,7 +2164,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean resetPassD(Recupero r)
++ boolean resetPassD(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2163,7 +2186,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean resetPassA(Recupero r)
++ boolean resetPassA(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2185,7 +2208,7 @@ Amministratore
 \begin_inset Newline newline
 \end_inset
 
-+ Domanda mostraDomanda(Login l)
++ Domanda mostraDomanda(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2207,7 +2230,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean setRisposta(Login l,Domanda risposta)
++ boolean setRisposta(Login login, Domanda risposta)
 \end_layout
 
 \begin_layout Standard
@@ -2233,7 +2256,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean posticipa(Login l, Domanda d)
++ boolean posticipa(Login login, Domanda domPost)
 \end_layout
 
 \begin_layout Standard
@@ -2259,7 +2282,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2298,7 +2321,7 @@ Dovrà chiamare la funzione della classe Façade deputata alla generazione
 \begin_inset Newline newline
 \end_inset
 
-+ boolean aggiungiDomanda(Domanda d)
++ boolean aggiungiDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2318,7 +2341,7 @@ Dovrà chiamare la funzione della classe Façade deputata all'inserimento
 \begin_inset Newline newline
 \end_inset
 
-+ boolean cancellaDomanda(Domanda d)
++ boolean cancellaDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2361,7 +2384,7 @@ Dipendenti
 \begin_inset Newline newline
 \end_inset
 
-+ boolean setTrofei(Dipendente d, int n)
++ boolean setTrofei(Dipendente dip, int num)
 \end_layout
 
 \begin_layout Standard
@@ -2383,7 +2406,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean aggiungiDipendente(Dipendente d)
++ boolean aggiungiDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2406,7 +2429,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean cancellaDipendente(Dipendente d)
++ boolean cancellaDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2429,7 +2452,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modDipendente(Dipendente dOld, Dipendente dNew)
++ boolean modDipendente(Dipendente dipOld, Dipendente dipNew)
 \end_layout
 
 \begin_layout Standard
@@ -2475,7 +2498,7 @@ Badge
 \begin_inset Newline newline
 \end_inset
 
-+ boolean assegnaBadge(Domanda D, Login l)
++ boolean assegnaBadge(Domanda dom, Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2516,6 +2539,25 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero dei
 Dipendenti
 \emph default
 , oltre che ai punteggi medi dell'azienda.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo per recuperare la lista dei ruoli aziendali.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata al recupero dei
+ ruoli presenti all'interno dell'azienda.
 \end_layout
 
 \begin_layout Standard
@@ -2727,7 +2769,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ ApplicazioniConnection(GestioneDati d)
++ ApplicazioniConnection(GestioneDati gestDati)
 \end_layout
 
 \begin_layout Standard
@@ -2773,7 +2815,7 @@ Dipendenti
 \begin_inset Newline newline
 \end_inset
 
-+ Dipendente getDati(Login l)
++ Dipendente getDati(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2796,7 +2838,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ Punteggio getStat(Login l)
++ Punteggio getStat(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2815,7 +2857,7 @@ Dovrà chiamare la funzione della classe Façade deputata al recupero delle
 \begin_inset Newline newline
 \end_inset
 
-+ void modPass(Dipendente d)
++ void modPass(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -2837,7 +2879,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void modMail(Dipendente d, String mail)
++ void modMail(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -2859,7 +2901,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void resetPass(Recupero r)
++ void resetPass(Recupero recupero)
 \end_layout
 
 \begin_layout Standard
@@ -2890,7 +2932,7 @@ questi ultimi.
 \begin_inset Newline newline
 \end_inset
 
-+ Domanda mostraDomanda(Login l)
++ Domanda mostraDomanda(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2912,7 +2954,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void posticipa(Login l, Domanda d)
++ void posticipa(Login login, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -2938,7 +2980,7 @@ Dipendente
 
 \series bold
 \emph default
-+ boolean rispondi(Login l, Domanda d)
++ boolean rispondi(Login login, Domanda ddomanda)
 \end_layout
 
 \begin_layout Standard
@@ -2964,7 +3006,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login l)
++ void logout(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -2983,7 +3025,7 @@ Dovrà chiamare la funzione della classe Façade deputata alla gestione della
 \begin_inset Newline newline
 \end_inset
 
-+ ArrayList<Badge> getBadge(Login l, int n)
++ ArrayList<Badge> getBadge(Login login, int num)
 \end_layout
 
 \begin_layout Standard
@@ -9525,7 +9567,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ ArrayList<Badge> badgeD(Dipendente d)
++ ArrayList<Badge> badgeD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -9553,7 +9595,7 @@ Metodo che preleva tutti i badge esistenti nel database
 
 
 \series bold
-+ boolean assegna(Dipendente d, Badge b)
++ boolean assegna(Dipendente dip, Badge badge)
 \end_layout
 
 \begin_layout Standard
@@ -9702,6 +9744,14 @@ Attributi
 - Indirizzo serverAzienda
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server aziendale
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -9724,7 +9774,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ ArrayList<Badge> badgeD(Dipendente d)
++ ArrayList<Badge> badgeD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -9772,7 +9822,7 @@ null
 \begin_inset Newline newline
 \end_inset
 
-+ boolean assegna(Dipendente d, Badge b)
++ boolean assegna(Dipendente dip, Badge badge)
 \end_layout
 
 \begin_layout Standard
@@ -9972,7 +10022,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ Dipendente getInfoD(Login l)
++ Dipendente getInfoD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -9987,7 +10037,7 @@ Metodo che prende le informazioni di un Dipendente dal database e le inserisce
 
 
 \series bold
-+ Dipendente getInfoA(Login l)
++ Dipendente getInfoA(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -10002,7 +10052,7 @@ Metodo che prende le informazioni di un Amministratore dal database e le
 
 
 \series bold
-+ boolean resetPassD(Dipendente d)
++ boolean resetPassD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10016,7 +10066,7 @@ Metodo che resetta il campo password modificata di un Dipendente nel database.
 
 
 \series bold
-+ boolean resetPassA(Dipendente d)
++ boolean resetPassA(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10031,7 +10081,7 @@ Metodo che resetta il campo password modificata di un Amministratore nel
 
 
 \series bold
-+ boolean passD(Dipendente d, String pass)
++ boolean passD(Dipendente dip, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10049,7 +10099,7 @@ pass.
 
 \series bold
 \emph default
-+ boolean passA(Dipendente d, String pass)
++ boolean passA(Dipendente dip, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10063,7 +10113,7 @@ Metodo che setta il campo password (e il campo data pass) di un Amministratore
 
 
 \series bold
-+ boolean mailD(Dipendente d, String mail)
++ boolean mailD(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -10091,7 +10141,7 @@ Metodo che ritorna l'elenco dei Dipendenti dell'Azienda
 
 
 \series bold
-+ boolean aggiungiDipendente(Dipendente d)
++ boolean aggiungiDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10105,7 +10155,7 @@ Metodo che aggiunge un Dipendente nel database
 
 
 \series bold
-+ boolean cancellaDipendente(Dipendente d)
++ boolean cancellaDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10119,7 +10169,7 @@ Metodo che cancella un Dipendente dal database
 
 
 \series bold
-+ boolean modNome(Dipendente d, String nome)
++ boolean modNome(Dipendente dip, String nome)
 \end_layout
 
 \begin_layout Standard
@@ -10133,7 +10183,7 @@ Metodo che modifica il nome di un Dipendente nel database
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modCognome(Dipendente d, String cognome)
++ boolean modCognome(Dipendente dip, String cognome)
 \end_layout
 
 \begin_layout Standard
@@ -10147,7 +10197,7 @@ Metodo che modifica il nome di un Dipendente nel database
 
 
 \series bold
-+ boolean modCodFis(Dipendente d, String codfis)
++ boolean modCodFis(Dipendente dip, String codfis)
 \end_layout
 
 \begin_layout Standard
@@ -10161,7 +10211,7 @@ Metodo che modifica il codice fiscale di un Dipendente nel database
 
 
 \series bold
-+ boolean modUsername(Dipendente d, String username)
++ boolean modUsername(Dipendente dip, String username)
 \end_layout
 
 \begin_layout Standard
@@ -10175,7 +10225,7 @@ Metodo che modifica lo username di un Dipendente nel database
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modImpiego(Dipendente d, String impiego)
++ boolean modImpiego(Dipendente dip, String impiego)
 \end_layout
 
 \begin_layout Standard
@@ -10189,7 +10239,7 @@ Metodo che modifica l'impiego di un Dipendente nel database
 
 
 \series bold
-+ boolean setTrofei(Dipendente d, int n)
++ boolean setTrofei(Dipendente dip, int numTrofei)
 \end_layout
 
 \begin_layout Standard
@@ -10203,7 +10253,7 @@ Metodo che modifica il numero di trofei di un Dipendente nel database
 
 
 \series bold
-+ boolean resetD(Recupero r, String p)
++ boolean resetD(Recupero rec, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10217,7 +10267,7 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 
 \series bold
-+ boolean resetA(Recupero r, String p)
++ boolean resetA(Recupero rec, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10370,6 +10420,14 @@ Attributi
 - Indirizzo serverAzienda
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server aziendale
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -10392,7 +10450,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ Dipendente getInfoD(Login l)
++ Dipendente getInfoD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -10407,7 +10465,7 @@ Metodo che prende le informazioni di un Dipendente dal database e le inserisce
 
 
 \series bold
-+ Dipendente getInfoA(Login l)
++ Dipendente getInfoA(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -10422,7 +10480,7 @@ Metodo che prende le informazioni di un Amministratore dal database e le
 
 
 \series bold
-+ boolean resetPassD(Dipendente d)
++ boolean resetPassD(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10436,7 +10494,7 @@ Metodo che resetta il campo password modificata di un Dipendente nel database.
 
 
 \series bold
-+ boolean resetPassA(Dipendente d)
++ boolean resetPassA(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10451,7 +10509,7 @@ Metodo che resetta il campo password modificata di un Amministratore nel
 
 
 \series bold
-+ boolean passD(Dipendente d, String pass)
++ boolean passD(Dipendente dip, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10469,7 +10527,7 @@ pass.
 
 \series bold
 \emph default
-+ boolean passA(Dipendente d, String pass)
++ boolean passA(Dipendente dip, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10483,7 +10541,7 @@ Metodo che setta il campo password (e il campo data pass) di un Amministratore
 
 
 \series bold
-+ boolean mailD(Dipendente d, String mail)
++ boolean mailD(Dipendente dip, String mail)
 \end_layout
 
 \begin_layout Standard
@@ -10511,7 +10569,7 @@ Metodo che ritorna l'elenco dei Dipendenti dell'Azienda
 
 
 \series bold
-+ boolean aggiungiDipendente(Dipendente d)
++ boolean aggiungiDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10525,7 +10583,7 @@ Metodo che aggiunge un Dipendente nel database
 
 
 \series bold
-+ boolean cancellaDipendente(Dipendente d)
++ boolean cancellaDipendente(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -10539,7 +10597,7 @@ Metodo che cancella un Dipendente nel database
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modNome(Dipendente d, String nome)
++ boolean modNome(Dipendente dip, String nome)
 \end_layout
 
 \begin_layout Standard
@@ -10553,7 +10611,7 @@ Metodo che modifica il nome di un Dipendente nel database
 \begin_inset Newline newline
 \end_inset
 
-+ boolean modCognome(Dipendente d, String cognome)
++ boolean modCognome(Dipendente dip, String cognome)
 \end_layout
 
 \begin_layout Standard
@@ -10567,7 +10625,7 @@ Metodo che modifica il nome di un Dipendente nel database
 
 
 \series bold
-+ boolean modCodFis(Dipendente d, String codfis)
++ boolean modCodFis(Dipendente dip, String codfis)
 \end_layout
 
 \begin_layout Standard
@@ -10581,7 +10639,7 @@ Metodo che modifica il codice fiscale di un Dipendente nel database
 
 
 \series bold
-+ boolean modUsername(Dipendente d, String username)
++ boolean modUsername(Dipendente dip, String username)
 \end_layout
 
 \begin_layout Standard
@@ -10595,7 +10653,7 @@ Metodo che modifica lo username di un Dipendente nel database
 
 
 \series bold
-+ boolean modImpiego(Dipendente d, String impiego)
++ boolean modImpiego(Dipendente dip, String impiego)
 \end_layout
 
 \begin_layout Standard
@@ -10609,7 +10667,7 @@ Metodo che modifica l'impiego di un Dipendente nel database
 
 
 \series bold
-+ boolean setTrofei(Dipendente d, int n)
++ boolean setTrofei(Dipendente dip, int numTrofei)
 \end_layout
 
 \begin_layout Standard
@@ -10623,7 +10681,7 @@ Metodo che modifica il numero di trofei di un Dipendente nel database
 
 
 \series bold
-+ boolean resetD(Recupero r, String p)
++ boolean resetD(Recupero rec, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10637,7 +10695,7 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 
 \series bold
-+ boolean resetA(Recupero r, String p)
++ boolean resetA(Recupero rec, String pass)
 \end_layout
 
 \begin_layout Standard
@@ -10807,7 +10865,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ Domanda getDomanda(Dipendente d) 
++ Domanda getDomanda(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -10823,7 +10881,7 @@ Metodo che, dato un Dipendente, fornisce un oggetto Domanda che conterrà
 \begin_inset Newline newline
 \end_inset
 
-+ boolean posticipa(Dipendente d, Domanda dom)
++ boolean posticipa(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -10839,7 +10897,7 @@ Metodo che dovrà posticipare la Domanda sottoposta al Dipendente, in modo
 \begin_inset Newline newline
 \end_inset
 
-+ boolean rispondi(Dipendente d, Domanda dom)
++ boolean rispondi(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -10869,7 +10927,7 @@ Metodo che ritorna un array contenente tutte le Domande che l'Amministratore
 \begin_inset Newline newline
 \end_inset
 
-+ ArrayList<Domanda> domande(Dipendente d, Domanda dom)
++ ArrayList<Domanda> domande(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -10884,7 +10942,7 @@ Metodo che ritorna un array contenente tutte le Domande a cui un dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ boolean addDomanda(Domanda d)
++ boolean addDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -10899,7 +10957,7 @@ Metodo che aggiunge una Domanda al database aziendale, in modo tale che
 \begin_inset Newline newline
 \end_inset
 
-+ boolean remDomanda(Domanda d)
++ boolean remDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11060,6 +11118,14 @@ Attributi
 
 \series bold
 - Indirizzo serverDomande
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server delle domande
 \begin_inset Newline newline
 \end_inset
 
@@ -11067,7 +11133,17 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
 - Indirizzo serverAzienda
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server aziendale
 \end_layout
 
 \begin_layout Subsection*
@@ -11123,7 +11199,7 @@ null
 
 
 \series bold
-+ Domanda getDomanda(Dipendente d)
++ Domanda getDomanda(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -11152,7 +11228,7 @@ prendiCampiDomanda(int id)
 \begin_inset Newline newline
 \end_inset
 
-+ boolean posticipa(Dipendente d, Domanda dom)
++ boolean posticipa(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11168,7 +11244,7 @@ Metodo che dovrà posticipare la Domanda sottoposta al Dipendente, in modo
 \begin_inset Newline newline
 \end_inset
 
-+ boolean rispondi(Dipendente d, Domanda dom)
++ boolean rispondi(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11212,7 +11288,7 @@ Questo metodo dovrà recuperare gli indici di tutte le domande dal database
 
 
 \series bold
-+ ArrayList<Domanda> domande(Dipendente d, Domanda dom)
++ ArrayList<Domanda> domande(Dipendente dip, Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11232,7 +11308,7 @@ Dovrà associare al Dipendente tutte le possibili domande e da queste estrarre
 
 
 \series bold
-+ boolean addDomanda(Domanda d)
++ boolean addDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11247,7 +11323,7 @@ Metodo che aggiunge una Domanda al database aziendale, in modo tale che
 
 
 \series bold
-+ boolean remDomanda(Domanda d)
++ boolean remDomanda(Domanda dom)
 \end_layout
 
 \begin_layout Standard
@@ -11891,7 +11967,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ boolean loginAmministratore(Login l)
++ boolean loginAmministratore(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -11906,7 +11982,7 @@ Metodo che controllerà la correttezza dei dati inseriti da un utente per
 \begin_inset Newline newline
 \end_inset
 
-+ boolean loginDipendente(Login l)
++ boolean loginDipendente(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -12050,6 +12126,14 @@ Attributi
 - Indirizzo serverAzienda
 \end_layout
 
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server aziendale
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -12072,7 +12156,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \begin_inset Newline newline
 \end_inset
 
-+ boolean loginAmministratore(Login l)
++ boolean loginAmministratore(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -12100,7 +12184,7 @@ false
 \begin_inset Newline newline
 \end_inset
 
-+ boolean loginDipendente(Login l)
++ boolean loginDipendente(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -12269,7 +12353,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ Punteggio getStat(Dipendente d)
++ Punteggio getStat(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -12486,6 +12570,16 @@ Attributi
 
 \series bold
 - Indirizzo serverAzienda 
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server aziendale
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -12494,6 +12588,14 @@ Attributi
 \end_inset
 
 - Indirizzo serverDomande
+\end_layout
+
+\begin_layout Standard
+Riferimento all'istanza della classe 
+\emph on
+Indirizzo
+\emph default
+ contenente i riferimenti al server delle domande
 \end_layout
 
 \begin_layout Subsection*
@@ -12518,7 +12620,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ Punteggio getStat(Dipendente d)
++ Punteggio getStat(Dipendente dip)
 \end_layout
 
 \begin_layout Standard
@@ -12695,7 +12797,13 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- Connection conn
+- Connection conn 
+\end_layout
+
+\begin_layout Standard
+Riferimento alla connessione al database
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -12706,6 +12814,10 @@ Attributi
 - Statement connettore
 \end_layout
 
+\begin_layout Standard
+Riferimento alla risorsa impiegata per eseguire query sul database
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -12713,31 +12825,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-Indirizzo(String
-\begin_inset space ~
-\end_inset
-
-database,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-utente,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-password)
++ Indirizzo(String database, String utente, String password)
 \end_layout
 
 \begin_layout Standard
@@ -12752,15 +12840,7 @@ Costruttore che imposta il valore degli attributi secondo il valore dei
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-void
-\begin_inset space ~
-\end_inset
-
-finalize()
++ void finalize()
 \end_layout
 
 \begin_layout Standard
@@ -12776,39 +12856,7 @@ Distruttore della classe Indirizzo: prova a chiudere la connessione al database
 
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-inserisciRiga(String
-\begin_inset space ~
-\end_inset
-
-tabella,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-colonne,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-[]
-\begin_inset space ~
-\end_inset
-
-valori)
++ boolean inserisciRiga(String tabella, String colonne, String [] valori)
 \end_layout
 
 \begin_layout Standard
@@ -12917,35 +12965,7 @@ false
 
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-modificaRiga(String
-\begin_inset space ~
-\end_inset
-
-tabella,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-colonnevalori,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-controlli)
++ boolean modificaRiga(String tabella, String colonnevalori, String controlli)
 \end_layout
 
 \begin_layout Standard
@@ -12970,27 +12990,7 @@ true
 
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-boolean
-\begin_inset space ~
-\end_inset
-
-cancellaRiga(String
-\begin_inset space ~
-\end_inset
-
-tabella,
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-controlli)
++ boolean cancellaRiga(String tabella, String controlli)
 \end_layout
 
 \begin_layout Standard
@@ -13021,12 +13021,8 @@ true
 
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-ResultSet selezione(String tabella, String colonne, String controlli, String
- extra)
++ ResultSet selezione(String tabella, String colonne, String controlli,
+ String extra)
 \end_layout
 
 \begin_layout Standard
@@ -13180,6 +13176,10 @@ Attributi
 - PrintWriter out
 \end_layout
 
+\begin_layout Standard
+Riferimento al file dei log
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -13187,7 +13187,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ UpdateLog(String s)
++ UpdateLog(String path)
 \end_layout
 
 \begin_layout Standard
@@ -13216,7 +13216,7 @@ Distruttore della classe: dovrà chiudere lo stream al file di log
 \begin_inset Newline newline
 \end_inset
 
-+ void scrivi(String s)
++ void scrivi(String log)
 \end_layout
 
 \begin_layout Standard
@@ -13231,7 +13231,7 @@ Aggiunge una nuova riga al file di log senza chiudere lo stream verso il
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviChiudi(String s)
++ void scriviChiudi(String log)
 \end_layout
 
 \begin_layout Standard
@@ -13593,7 +13593,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ Badge(String nome, String d, Punteggio p)
++ Badge(String nome, String descr, Punteggio punt)
 \end_layout
 
 \begin_layout Standard
@@ -13820,15 +13820,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-anno
+- int anno
 \begin_inset Newline newline
 \end_inset
 
@@ -13836,15 +13828,7 @@ anno
 \begin_inset Newline newline
 \end_inset
 
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-mese
+- int mese
 \begin_inset Newline newline
 \end_inset
 
@@ -13852,11 +13836,7 @@ mese
 \begin_inset Newline newline
 \end_inset
 
-- int
-\begin_inset space ~
-\end_inset
-
-giorno
+- int giorno
 \begin_inset Newline newline
 \end_inset
 
@@ -13864,15 +13844,7 @@ giorno
 \begin_inset Newline newline
 \end_inset
 
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-ora
+- int ora
 \begin_inset Newline newline
 \end_inset
 
@@ -13880,15 +13852,7 @@ ora
 \begin_inset Newline newline
 \end_inset
 
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-minuti
+- int minuti
 \begin_inset Newline newline
 \end_inset
 
@@ -13896,15 +13860,7 @@ minuti
 \begin_inset Newline newline
 \end_inset
 
--
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-secondi
+- int secondi
 \end_layout
 
 \begin_layout Subsection*
@@ -13914,59 +13870,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+
-\begin_inset space ~
-\end_inset
-
-DataOra(int
-\begin_inset space ~
-\end_inset
-
-a,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-me,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-g,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-o,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-mi,
-\begin_inset space ~
-\end_inset
-
-int
-\begin_inset space ~
-\end_inset
-
-s) 
-\begin_inset space ~
-\end_inset
-
-
++ DataOra(int a, int me, int g, int o, int mi, int s) 
 \end_layout
 
 \begin_layout Standard
@@ -13981,15 +13885,7 @@ ta
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-DataOra() 
-\begin_inset space ~
-\end_inset
-
-
++ DataOra()
 \end_layout
 
 \begin_layout Standard
@@ -14003,27 +13899,7 @@ Costruttore di default che crea l'oggetto con la data e l'ora corrente
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-static
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-aggiusta(int
-\begin_inset space ~
-\end_inset
-
-parteData) 
-\begin_inset space ~
-\end_inset
-
-
++ static String aggiusta(int parteData)
 \end_layout
 
 \begin_layout Standard
@@ -14055,19 +13931,7 @@ Funzione statica che deve restituire la parte della data (ex.
 \begin_inset Newline newline
 \end_inset
 
-+
-\begin_inset space ~
-\end_inset
-
-String
-\begin_inset space ~
-\end_inset
-
-toString() 
-\begin_inset space ~
-\end_inset
-
-
++ String toString()
 \end_layout
 
 \begin_layout Standard

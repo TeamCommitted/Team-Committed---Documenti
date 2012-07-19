@@ -131,16 +131,6 @@ end{center}
 
 \end_layout
 
-\begin_layout Standard
-Per quanto riguarda questo Front-end è necessario avvisare che non è stato
- ancora implementato completamente.
- Ne sono state definite le classi (alcune implementate) e parte dei prototipi
- delle funzioni che serviranno (con il loro funzionamento), ma esse non
- sono state implementate.
- Gli stessi design pattern non sono stati completamente implementati, ma
- sono stati realizzati solo in parte.
-\end_layout
-
 \begin_layout Subsection
 Package com.safetyGame.desktop.view
 \end_layout
@@ -195,8 +185,6 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\lang english
 Package 
 \series bold
 com.safetyGame.desktop.view
@@ -397,7 +385,145 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-Non sono stati ancora previsti degli attributi
+
+\series bold
+- JFrame frame
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JFrame frame_recupero 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JButton ok
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JButton annulla
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JButton okr
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JButton annullar
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- JButton passdim
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label userl
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label passl
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label errore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label errorer
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label codfisl
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Label maill
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- TextField mail
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- TextField codfis
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- TextField username
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- TextField password
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- ControlLogin controller
 \end_layout
 
 \begin_layout Subsection*
@@ -407,7 +533,7 @@ Metodi
 \begin_layout Standard
 +
 \series bold
-Login()
+ Login(ControlLogin controllore)
 \end_layout
 
 \begin_layout Standard
@@ -419,14 +545,36 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- void creaSubFrameRecupero()
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
-actionPerformed(ActionEvent e)
+ void actionPerformed(ActionEvent e)
 \end_layout
 
 \begin_layout Standard
 metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
  della grafica
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ boolean isVisible()
 \end_layout
 
 \begin_layout Standard
@@ -590,6 +738,94 @@ boolean loggato
 \end_inset
 
 - ControlMenu control
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private SystemTray tray
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private TrayIcon icon
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JPopupMenu menu
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem login
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem richiedi_domanda
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem visualizza_punteggio
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem visualizza_dati 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem modifica_dati 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem logout
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JMenuItem nascondi
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private MouseEvent old
 \end_layout
 
 \begin_layout Subsection*
@@ -599,7 +835,7 @@ Metodi
 \begin_layout Standard
 +
 \series bold
-Menu()
+ Menu()
 \end_layout
 
 \begin_layout Standard
@@ -611,13 +847,11 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
-+
-\series bold
-creaIcon()
-\end_layout
 
-\begin_layout Standard
-metodo che dovrà creare la System Tray e creare l'oggetto ControlMenu
+\series bold
+- void svuota()
+\series default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -639,17 +873,18 @@ metodo che dovrà creare i menu della System Tray
 \begin_inset Newline newline
 \end_inset
 
-+
+
 \series bold
-chiediLogin()
-\end_layout
++ void finalize()
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-metodo che dovrà ricreare un oggetto grafico Login e chiedere l'autenticazione
- al 
-\bar under
-Dipendente
-\bar default
+
+\begin_inset Newline newline
+\end_inset
+
++ void actionPerformed(ActionEvent e)
+\series default
 
 \begin_inset Newline newline
 \end_inset
@@ -658,51 +893,15 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+
+
 \series bold
-creaNotifica()
-\end_layout
-
-\begin_layout Standard
-metodo che dovrà ricreare un oggetto grafico Notifica e chiedere al 
-\bar under
-Dipendente
-\bar default
- di posticipare o accettare la visualizzazione della domanda
-\bar under
++ void main(String args [])
+\series default
 
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
-\bar default
-+
-\series bold
-actionPerformed(ActionEvent e)
-\end_layout
-
-\begin_layout Standard
-metodo che dovrà gestire i click sulle varie opzioni del menu
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-main(String args[])
-\end_layout
-
-\begin_layout Standard
-metodo che dovrà inizializzare l'oggetto grafico Menu, istanziare la connessione
- al Back-end, creare la System Tray, chiedere il login e comportarsi nel
- modo corretto nel caso di un successo di autenticazione
 \lang english
 
 \begin_inset Newpage newpage
@@ -832,7 +1031,41 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-non sono stati ancora previsti degli attributi
+
+\series bold
+private JFrame frame
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JButton si
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JButton posticipa
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Label testo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private ControlNotifica controller
 \end_layout
 
 \begin_layout Subsection*
@@ -842,7 +1075,7 @@ Metodi
 \begin_layout Standard
 +
 \series bold
-Notifica()
+ Notifica(ControlNotifica controllore)
 \end_layout
 
 \begin_layout Standard
@@ -856,7 +1089,7 @@ costruttore che dovrà inizializzare gli attributi
 
 +
 \series bold
-actionPerformed(ActionEvent e)
+ void actionPerformed(ActionEvent e)
 \end_layout
 
 \begin_layout Standard
@@ -867,6 +1100,205 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 \begin_layout Standard
 
 \lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.view.Richiesta
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/view/Notifica.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione 
+\begin_inset space ~
+\end_inset
+
+
+\series medium
+
+\begin_inset Newline newline
+\end_inset
+
+Questa 
+\series default
+classe si occuperà di presentare al 
+\bar under
+Dipendente Autenticato 
+\bar default
+un popup che gli permetta di accettare o posticipare la visualizzazione
+ di una domanda
+\end_layout
+
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlNotifica
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+private JFrame frame
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JFrame frameerr
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JButton ok
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private JButton ok2
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Label testo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private TextField server
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
++ Richiesta()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- void errore(String err)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void actionPerformed(ActionEvent e)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -925,8 +1357,6 @@ end{center}
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\lang english
 Package 
 \series bold
 com.safetyGame.desktop.logic
@@ -1004,12 +1434,242 @@ la corretta scelta di opzioni del menu.
  a disposizione del 
 \bar under
 Dipendente Autenticato
-\bar default
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.desktop.view.Browser
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/ConnBack.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Funzione
+\series medium
+ 
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
+Questa 
+\series default
+classe si occuperà di presentare al 
+\bar under
+Dipendente 
+\bar default
+e al 
+\bar under
+Dipendente Autenticato 
+\bar default
+tutta la serie di menù della System Tray che gli permetteranno di utilizzare
+ le varie funzioni previste
+\end_layout
 
+\begin_layout Description
+Relazioni
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli
+\series default
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlNotifica
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlMenu
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ControlLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.DatiLogin
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.Timer
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.Parser
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Login
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Domanda
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.condivisi.Punteggio
+\end_layout
+
+\begin_layout Subsection*
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+private static Browser singleton = null
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Desktop desktop
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private URI link
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private String iniziouri
+\end_layout
+
+\begin_layout Subsection*
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+- Browser()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static Browser getInstance()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void apri(String pagina)
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
 \lang english
 
 \begin_inset Newpage newpage
@@ -1185,7 +1845,49 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-Non sono stati ancora previsti degli attributi
+
+\series bold
+private static ConnBack singleton = null
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private DatiLogin loggato
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private String server
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Parser parser
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Pacchetto pack
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+private Domanda da_rispondere
 \end_layout
 
 \begin_layout Subsection*
@@ -1193,7 +1895,7 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-+ 
+- 
 \series bold
 ConnBack()
 \end_layout
@@ -1207,13 +1909,9 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
-+
+
 \series bold
-login(String username, String password)
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione login del Back-end
++ static ConnBack getInstance()
 \begin_inset Newline newline
 \end_inset
 
@@ -1221,13 +1919,7 @@ metodo che chiamerà la funzione login del Back-end
 \begin_inset Newline newline
 \end_inset
 
-+
-\series bold
-logout(String username)
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione logout del Back-end
++ boolean continuaParser(String server_da_grafica)
 \begin_inset Newline newline
 \end_inset
 
@@ -1235,35 +1927,55 @@ metodo che chiamerà la funzione logout del Back-end
 \begin_inset Newline newline
 \end_inset
 
-+
-\series bold
-posticipa()
-\end_layout
-
-\begin_layout Standard
-metodo che chiamerà la funzione posticipa del Back-end
-\bar under
-
++ void continuaRMI()
 \begin_inset Newline newline
 \end_inset
 
 
-\bar default
+\begin_inset Newline newline
+\end_inset
+
++ String getServer()
+\begin_inset Newline newline
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
 
-+
-\series bold
-recupera(String username)
-\end_layout
++ boolean login(DatiLogin login)
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-metodo che chiamerà la funzione recupero password del 
-\bar under
-Dipendente
-\bar default
- del Back-end
+
+\begin_inset Newline newline
+\end_inset
+
++ void logout()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void preleva_domanda()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean posticipa()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean recupera(Recupero rec)
 \end_layout
 
 \begin_layout Standard
@@ -1406,14 +2118,6 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- String testo
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 - ConnBack connessione
 \end_layout
 
@@ -1422,46 +2126,9 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-+
+
 \series bold
-ControlLogin(String s, ConnBack b)
-\end_layout
-
-\begin_layout Standard
-costruttore che dovrà inizializzare gli attributi con i parametri passati
- per riferimento
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-tryLogin(String username, String password)
-\end_layout
-
-\begin_layout Standard
-metodo che richiamerà il connettore al Back-end e gli farà effettuare il
- login
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+
-\series bold
-recupera(String username)
-\end_layout
-
-\begin_layout Standard
-metodo che richiamerà il connettore al Back-end e farà recuperare una password
- al 
-\bar under
-Dipendente
++ ControlLogin()
 \end_layout
 
 \begin_layout Standard
