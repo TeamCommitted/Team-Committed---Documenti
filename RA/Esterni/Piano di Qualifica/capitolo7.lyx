@@ -209,5 +209,78 @@ Specificati in maniera più chiara la quantificazione degli obbiettivi di
  qualita per il loro raggiungimento.
 \end_layout
 
+\begin_layout Subsection
+Revisione di Qualifica
+\end_layout
+
+\begin_layout Standard
+Il lavoro svolto per la fase di Revisione di Qualifica è stato valutato
+ positivamente ed adeguato.
+ Le correzioni degli errori riscontrati nella Revisione di Progettazione
+ sono state valutate positivamente ed hanno adattato i documenti alle richieste
+ sollevate.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Sono state comunque segnalati alcuni errori e problematiche principalmente
+ nei documenti di Specifica Tecnica, Definizione di Prodotto, Manuali, Norme
+ di Progetto e Piano di Qualifica.
+ Di seguito verranno quindi riportate nel dettaglio le operazioni di correzione:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specifica Tecnica: 
+\series default
+Specificato più approfonditamente il cambio di JDK utilizata.
+ Corretti, secondo indicazioni, i diagrammi di attività che ancora presentavano
+ irregolarità ed inesattezze.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Definizione di Prodotto: 
+\series default
+Modificati i riferimenti informativi, migliorate le descrizioni di alcuni
+ costruttori e corretti i vari errori di forma evidenziati.
+ Incrementata poi la leggibilità dei diagrammi poiché era stato evidenziato
+ non essere abbastanza chiari e visibili.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuali: 
+\series default
+Corretti i vari errori di forma individuati.
+ Migliorato il Manuale Installatore come consigliato.
+ Migliorati anche i diagrammi di Amministratore Azienda.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto:
+\series default
+ Specificato nel dettaglio come eseguire una corretta turnazione del ruolo
+ di verificatore tra i vari membri del gruppo.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Qualifica: 
+\series default
+Scissa la parte relativa alle specifiche delle procedure di analisi e presentazi
+one dei relativi risultati dal corpo principale del Piano di Qualifica.
+ Tale parte è stata poi inclusa in un documento a parte, denominato Risultati
+ dei test.
+ 
+\end_layout
+
 \end_body
 \end_document
