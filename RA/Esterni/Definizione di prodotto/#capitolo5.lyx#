@@ -820,13 +820,6 @@ Riferimento alla label associata all'eventuale messaggio di errore contenuto
 \end_inset
 
 - Label codfisl
-\end_layout
-
-\begin_layout Standard
-Riferimento alla label associata al campo testuale per inserire la password
- contenuto nella schermata di login
-\series bold
-
 \begin_inset Newline newline
 \end_inset
 
