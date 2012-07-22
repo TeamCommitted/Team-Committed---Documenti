@@ -1021,6 +1021,182 @@ Esito
 : nessun errore riscontrato.
 \end_layout
 
+\begin_layout Subsubsection
+Test package com.safetyGame.mobile.View
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DatiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DatiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che avvenga correttamente il focus sugli elementi EditText
+ per nuova password, conferma password e vecchia password.
+ Verifica anche che vengano accettati le stringhe in input, esegua correttamente
+ il focus sul bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed avvenga correttamente il click.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DomandaActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DomandaActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione: 
+\series default
+Classe che verifica che il titolo della domanda a cui un utente deve rispondere
+ non sia null e che il pulsante 
+\begin_inset Quotes eld
+\end_inset
+
+Rispondi
+\begin_inset Quotes erd
+\end_inset
+
+ sia in grado di ottenere il focus ed eseguire correttamente il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+LoginActivtyTest 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: LoginActivty
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che verifica che avvenga corretamente il focus sugli elementi EditText
+ e che accettino in input delle stringhe.
+ Controlla anche che avvenga successivamente all'inserimento il focus sul
+ bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed esegua il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+PunteggiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ PunteggiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che il testo che rappresenta i punteggi non sia di
+ tipo 
+\begin_inset Quotes eld
+\end_inset
+
+null
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
 \begin_layout Subsection
 Esiti dei test di Sistema
 \end_layout
