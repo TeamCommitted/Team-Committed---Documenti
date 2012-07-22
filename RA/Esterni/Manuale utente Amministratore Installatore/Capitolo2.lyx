@@ -668,5 +668,86 @@ http://{INDIRIZZO_FRONT-END_WEB}
 Installazione e avviamento del Front-end Desktop
 \end_layout
 
+\begin_layout Standard
+Innanzitutto dovrà copiare tutti i file .class, mantenendo la strutturazione
+ delle cartelle per mantenere la coerenza dei package, all'interno della
+ directory di installazione
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Quindi la cartella di destinazione del Front-end Desktop dovrà essere struttura
+ in: 
+\family typewriter
+com/safetyGame/desktop/{CARTELLE-DEI-PACKAGE}/*.class
+\end_layout
+
+\end_inset
+
+.
+ Quindi, a seconda del sistema operativo su cui si sta operando, nella cartella
+ principale del Front-end Desktop
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La stessa che contiene la cartella 
+\family typewriter
+com/
+\end_layout
+
+\end_inset
+
+ si dovrà creare un file eseguibile.
+ In particolare:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Windows:
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+File
+\family typewriter
+: SafetyGame.bat
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+Contenuto:
+\family typewriter
+ java com.safetyGame.desktop.view.Menu
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+GNU/Linux - Mac OSX
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+File: SafetyGame.sh
+\end_layout
+
+\begin_layout Itemize
+Contenuto: 
+\family typewriter
+java com.safetyGame.desktop.view.Menu
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Infine si dovrà creare un collegamento all'eseguibile appena creato e inserirlo
+ nel desktop.
+\end_layout
+
 \end_body
 \end_document
