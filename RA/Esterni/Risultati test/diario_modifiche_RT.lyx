@@ -153,10 +153,63 @@ hline
 
 \begin_layout Plain Layout
 
+
+\backslash
+emph{Approvato} & Gabriele Facchin & 2012/07/20 & V1.0 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Verificato, in attesa di approvazione} & Giorgio Maggiolo & 2012/07/20
+ & V0.8 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 		
 \backslash
-emph{Inserito capitolo 2.5 Test di copertura} & Marco Begolo & 2012/07/20
- & V0.7 
+emph{Inserito capitolo 2.5 Test di copertura.
+ In attesa di verifica} & Marco Begolo & 2012/07/20 & V0.7 
 \backslash
 
 \backslash
