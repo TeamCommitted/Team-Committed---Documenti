@@ -245,9 +245,7 @@ Inoltre deve avere avuto, in un momento precedente all'installazione, contatti
  dei database e dovrà aver, al momento dell'installazione, inserito i suddetti
  percorsi, associati ai dati di connessione, all'interno della classe 
 \emph on
-Inizializzatore
-\emph default
-, che dovrà anche essere già stata compilata.
+Iniz
 \end_layout
 
 \begin_layout Subsection

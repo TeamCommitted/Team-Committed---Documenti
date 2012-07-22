@@ -69,10 +69,6 @@ Installazione database Domande
 \end_layout
 
 \begin_layout Standard
-La prima cosa 
-\end_layout
-
-\begin_layout Standard
 Innanzitutto dovrà creare un database MySQL vuoto che andrà ad ospitare
  la struttura delle tabelle da noi fornita.
  Si suppone che tale amministratore abbia sufficienti conoscenze del linguaggio
@@ -92,9 +88,35 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/creazDB-ok.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -124,9 +146,35 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/caricaDom-ok.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -179,9 +227,35 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/popDom-ok.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -243,9 +317,35 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/instDbAz-ok.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -288,9 +388,35 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename img/popAz-ok.png
 	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
 
 \end_inset
 
@@ -312,7 +438,7 @@ Popolazione DB Azienda
 \end_layout
 
 \begin_layout Subsection
-Installazione e avviamento Back-End
+Installazione e avviamento Back-End e Front-end Web
 \end_layout
 
 \begin_layout Standard
@@ -320,28 +446,149 @@ L'Amministratore Installatore deve accertarsi che i permessi sul server
  dove verrà installato il Back-End siano settati propriamente.
  L'applicazione deve avere la possibilità di scrivere e leggere, pienamente,
  nelle proprie cartelle.
- 
+ In particolare dovranno essere forniti i seguenti permessi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Back-end intero:
+\series default
+ permessi di lettura/scrittura di file
 \end_layout
 
 \begin_layout Standard
-L'installazione di questa parte del sistema richiede il possesso dell'eseguibile
- correlato dalle varie librerie necessarie per la corretta compilazione
- ed esecuzione.
+Per fare ciò si dovrà modificare il file Catalina.policy contenuto nella
+ cartella dei file di impostazioni di Tomcat, inserendo la seguente stringa:
 \end_layout
 
 \begin_layout Standard
-Poichè il back-end dovrà essere eseguito da Tomcat, questo dovrà essere
- preventivamente compilato a partire dai sorgenti
+\begin_inset listings
+lstparams "breaklines=true,numbers=left"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+grant codeBase "file:${catalina.base}/webapps/{CARTELLA-SAFETYGAME}/WEB-INF/class
+es/-" { 
+\end_layout
+
+\begin_layout Plain Layout
+
+	permission java.net.SocketPermission "*.noaa.gov:80", "connect"; 
+\end_layout
+
+\begin_layout Plain Layout
+
+};
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Una volta che l'eseguibile è stato posizionato correttamente il Back-End
- risulta essere pronto per l'avvio dell'installazione.
- Durante questa procedura dovranno essere inseriti gli indirizzi dei database
- delle domande e dell'azienda.
- Una volta inseriti questi parametri l'installazione avverrà in maniera
- automatica istanziando tutte le componenti necessarie all'avviamento.
- 
+Poichè il Back-end viene istanziato dal Front-end Web (o dalle API del Front-end
+ Mobile e/o Desktop), non ci sono particolari istruzioni riguardanti l'installaz
+ione di questo.
+ La cartella dove dovranno essere copiati i file 
+\family typewriter
+.class
+\family default
+ del Back-end è 
+\family typewriter
+${CATALINA-BASE}/webapps/{CARTELLA-SAFETYGAME}/WEB-INF/classes
+\family default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\size normal
+${CATALINA-BASE} =
+\series default
+ cartella di default
+\size default
+ di Tomcat (si dovrà verificare all'interno delle impostazioni del Web Server
+ la locazione di tale cartella);
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+{CARTELLA-SAFETYGAME} = 
+\series default
+cartella dove verrà installato il Front-End Web
+\end_layout
+
+\begin_layout Plain Layout
+Queste definizioni valgono anche per le occorrenze successive
+\end_layout
+
+\end_inset
+
+.
+ Il Back-end dovrà essere contenuto nella cartella 
+\family typewriter
+com/safetyGame/back
+\family default
+ e dovrà essere rispettata la gerarchia dei package
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ovvero mantenendo la strutturazione delle cartelle
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il Front-end Web dovrà essere installato nella cartella 
+\family typewriter
+
+\begin_inset listings
+lstparams "breaklines=true,numbers=left"
+inline true
+status open
+
+\begin_layout Plain Layout
+
+${CATALINA-BASE}/webapps/{CARTELLA-SAFETYGAME}
+\end_layout
+
+\end_inset
+
+
+\family default
+, copiando tutti i file 
+\family typewriter
+.jsp
+\family default
+ e le cartelle 
+\family typewriter
+html/
+\family default
+, 
+\family typewriter
+style/
+\family default
+ e 
+\family typewriter
+API/
+\family default
+ all'interno della suddetta cartella.
+\end_layout
+
+\begin_layout Standard
+Quindi si dovrà impostare Tomcat affinchè serva un determinato url deciso
+ assieme al cliente.
 \end_layout
 
 \begin_layout Standard
@@ -350,15 +597,75 @@ Se durante queste procedure non si verificano errori allora l'installazione
 \end_layout
 
 \begin_layout Subsection
-Installazione Front-end web
+Installazione e avviamento del Front-end Mobile
 \end_layout
 
 \begin_layout Standard
-L'Amministratore Installatore deve posizionare i file che compongono l'applicazi
-one web nelle cartelle appropriate perché queste possano essere accedute
- con i corretti diritti dai vari tipi di Utenti.
- Deve inoltre assicurarsi, grazie alle proprie competenze, che i servizi
- web offerti dal server ospitante funzionino correttamente.
+L'installatore dovrà verificare preventivamente che sui dispositivi mobili
+ sia installata l'applicazione 
+\emph on
+AppManager
+\emph default
+, applicazione che sarà usata per installare il programma mobile.
+ 
+\end_layout
+
+\begin_layout Standard
+Quindi dovrà scaricare il programma sul dispositivo mobile in formato 
+\family typewriter
+.apk
+\family default
+ ed installarlo tramite la suddetta applicazione: una volta aperto 
+\emph on
+AppManager
+\emph default
+ dovrà cercare all'interno del dispositivo il file 
+\family typewriter
+.apk
+\family default
+, quindi selezionarlo.
+ Il programma proporrà la l'installazione della nostra applicazione, mostrando
+ i permessi necessari al suo installamento; dare conferma e attendere l'avvenuta
+ installazione.
+\end_layout
+
+\begin_layout Standard
+In ultima analisi si dovrà configurare l'applicativo e verificare la sua
+ effettiva installazione.
+ Per fare ciò dovrà attivare la connessione dati mobile
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Se non ci sono reti WiFi disponibili e, ovviamente, se il dispositivo permette
+ l'uso di connessioni dati mobili
+\end_layout
+
+\end_inset
+
+, quindi dovrà avviare il programma SafetyGame.
+ Al suo primo avvio, il programma chiederà di inserire il percorso delle
+ API per il Front-End Mobile
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Di norma: 
+\family typewriter
+http://{INDIRIZZO_FRONT-END_WEB}
+\family default
+ 
+\end_layout
+
+\end_inset
+
+.
+ Infine dovrà effettuare un login di test tramite l'utenza di test creata
+ precedentemente con il popolamento del database aziendale.
+\end_layout
+
+\begin_layout Subsection
+Installazione e avviamento del Front-end Desktop
 \end_layout
 
 \end_body
