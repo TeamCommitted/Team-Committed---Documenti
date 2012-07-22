@@ -104,7 +104,18 @@ LatexCommand tableofcontents
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "/Users/truegek/uni/ingegneria/Team-Committed---Documenti/RA/Esterni/Risultati test/capitolo1.lyx"
+filename "capitolo1.lyx"
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "/Users/truegek/uni/ingegneria/Team-Committed---Documenti/RA/Esterni/Risultati test/capitolo2.lyx"
 
 \end_inset
 

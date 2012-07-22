@@ -1021,6 +1021,182 @@ Esito
 : nessun errore riscontrato.
 \end_layout
 
+\begin_layout Subsubsection
+Test package com.safetyGame.mobile.View
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DatiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DatiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che avvenga correttamente il focus sugli elementi EditText
+ per nuova password, conferma password e vecchia password.
+ Verifica anche che vengano accettati le stringhe in input, esegua correttamente
+ il focus sul bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed avvenga correttamente il click.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DomandaActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DomandaActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione: 
+\series default
+Classe che verifica che il titolo della domanda a cui un utente deve rispondere
+ non sia null e che il pulsante 
+\begin_inset Quotes eld
+\end_inset
+
+Rispondi
+\begin_inset Quotes erd
+\end_inset
+
+ sia in grado di ottenere il focus ed eseguire correttamente il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+LoginActivtyTest 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: LoginActivty
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che verifica che avvenga corretamente il focus sugli elementi EditText
+ e che accettino in input delle stringhe.
+ Controlla anche che avvenga successivamente all'inserimento il focus sul
+ bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed esegua il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+PunteggiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ PunteggiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che il testo che rappresenta i punteggi non sia di
+ tipo 
+\begin_inset Quotes eld
+\end_inset
+
+null
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
 \begin_layout Subsection
 Esiti dei test di Sistema
 \end_layout
@@ -1267,7 +1443,9 @@ TS-RFOB 4.1.1
 \begin_inset Newline newline
 \end_inset
 
-Esito: ???
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1581,7 +1759,7 @@ TS-RFOB 19.2.3
 
 Esito: 
 \series default
-???
+Positivo
 \end_layout
 
 \begin_layout Subsubsection
@@ -1840,7 +2018,7 @@ TS-RFOB 24
 
 Esito: 
 \series default
-???
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -2248,20 +2426,17 @@ Considerazioni sui test eseguiti
 \end_layout
 
 \begin_layout Standard
-Come si evince dalla lista dei test, la quasi totalità dei test che verificano
- il soddisfacimento dei requisiti obbligatori sono stati superati.
- I test non superati riguardano requisiti che, nonostante fossero stati
- indicati come obbligatori, non comportano funzionalità essenziali per il
- funzionamento effettivo dell'applicazione.
- Le motivazioni principali per quanto avvenuto risiedono principalmente
- nelle difficoltà di integrare in maniera completa ed efficiente alcune
- tecnologie ed infine nell'esaurimento del quantitativo orario a disposizione
- del programmatore addetto ad una determinata parte.
+Come si evince dalla lista riportata, la totalità dei test che verificano
+ i requisiti definiti obbligatori hanno avuto esito positivo.
+ Tutte le funzionalità essenziali del sistema sono quindi disponibili ai
+ vari utenti e l'applicazione riesce a soddisfare gli obiettivi di qualità
+ imposti all'interno del Piano di Qualifica, capitolo 3.2 Qualità del prodotto.
+ 
 \begin_inset Newline newline
 \end_inset
 
 I restanti test non superati riguardano la verifica di requisiti desiderabili
- ed opzionali ed anche in questo caso le funzionalità non sono state realizzate
+ ed opzionali ed in questo caso le funzionalità non sono state realizzate
  in quanto è terminato il quantitativo orario a disposizione del programmatore
  addetto ad una determinata parte.
 \end_layout
@@ -2411,16 +2586,7 @@ CWEB7 (gestione punteggi)
 
 Esito: 
 \series default
-Non superato
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Motivazioni: 
-\series default
-La funzione non è stata completamente implementata per esaurimento del quantitat
-ivo orario a disposizione del programmatore addetto a tale parte
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -2588,14 +2754,19 @@ Considerazioni sui test eseguiti
 \end_layout
 
 \begin_layout Standard
-I test di integrazione hanno dato esiti quasi totalmente positivi: le varie
- componenti sono state collaudate con successo, verificandone il loro completo
- funzionamento e raggiungendo un elevato grado di soddisfacimento.
+I test di integrazione hanno dato esiti totalmente positivi: le varie componenti
+ sono state collaudate con successo, verificandone il loro completo funzionament
+o in varie situazioni e raggiungendo un elevato grado di soddisfacimento
+ degli obiettivi di qualità del prodotto.
  
 \end_layout
 
 \begin_layout Subsection
 Test di Copertura
+\end_layout
+
+\begin_layout Standard
+Di seguito verranno elencati i test di copertura effettuati sul codice
 \end_layout
 
 \end_body

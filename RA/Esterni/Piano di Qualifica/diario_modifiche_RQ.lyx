@@ -133,6 +133,91 @@ begin{tabular}{ p{6cm} | c | c | r }
 		
 \backslash
 hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Approvato} & Gabriele Facchin & 2012/07/19 & V4.0 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Verificato.
+ In attesa di approvazione.} & Lorenzo Braghetto & 2012/07/18 & V3.4 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Aggiornato capitolo 7 Resoconto delle attività di verifica.
+ In attesa di verifica} & Marco Begolo & 2012/07/18 & V3.3 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Aggiornato capitolo 6 Dettaglio dell'esito delle revisioni} & Alessandro
+ Cornaglia & 2012/07/17 & V3.2 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+emph{Eliminati e spostati in "Risultati dei test" i capitoli Metriche e
+ Risultati dei test effettuati} & Alessandro Cornaglia & 2012/07/16 &V3.1
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 hline
 \end_layout
