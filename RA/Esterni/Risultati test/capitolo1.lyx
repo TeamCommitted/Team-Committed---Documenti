@@ -1195,24 +1195,13 @@ Cod.
 \series default
 TS-RFOB 3
 \series bold
- ???
+
 \begin_inset Newline newline
 \end_inset
 
 Esito: 
 \series default
-Non superato
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Motivazioni: 
-\series default
-La funzionalità non è completa: è stato riscontrato, in seguito a vari test,
- che non è possibile scrivere nuovi file o modificarne di esistenti poiché
- XAMP, il server virtuale utilizzato, non da i diritti di scrittura alle
- proprie cartelle.
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1223,24 +1212,13 @@ Cod.
 \series default
 TS-RFOB 3.1
 \series bold
- ???
+
 \begin_inset Newline newline
 \end_inset
 
 Esito: 
 \series default
-Non superato
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Motivazioni: 
-\series default
-La funzionalità non è completa: è stato riscontrato, in seguito a vari test,
- che non è possibile scrivere nuovi file o modificarne di esistenti poiché
- XAMP, il server virtuale utilizzato, non da i diritti di scrittura alle
- proprie cartelle.
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1410,22 +1388,13 @@ Cod.
 \series default
 TS-RFOB 7.1
 \series bold
- ATTENZIONE
+
 \begin_inset Newline newline
 \end_inset
 
 Esito: 
 \series default
-Non superato
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Motivazioni: 
-\series default
-La funzione non è stata completamente implementata per esaurimento del quantitat
-ivo orario a disposizione del programmatore addetto a tale parte.
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -2623,6 +2592,14 @@ I test di integrazione hanno dato esiti quasi totalmente positivi: le varie
  componenti sono state collaudate con successo, verificandone il loro completo
  funzionamento e raggiungendo un elevato grado di soddisfacimento.
  
+\end_layout
+
+\begin_layout Subsection
+Test di Copertura
+\end_layout
+
+\begin_layout Standard
+Di seguito verranno elencati i test di copertura effettuati sul codice
 \end_layout
 
 \end_body

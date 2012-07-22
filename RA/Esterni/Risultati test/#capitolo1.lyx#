@@ -59,6 +59,275 @@
 
 \begin_body
 
+\begin_layout Section
+Risultati dei test
+\end_layout
+
+\begin_layout Subsection
+Analisi metrica del codice
+\end_layout
+
+\begin_layout Standard
+Si forniscono in tabella una sintesi riguardante le misure statiche del
+ codice effettuate sulle metriche e calcolate utilizzanto il plug-in per
+ 
+\bar under
+Eclipse Metrics
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+Si evidenzieranno in rosso quei valori che non rispettano le massime misure
+ consentite.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | C{5cm} | m{2cm} | m{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Metrica } & 
+\backslash
+textbf{ Media } & 
+\backslash
+textbf{ Massimo } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Complessità ciclomatica &  1,342 & {
+\backslash
+color{red}13} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di parametri &  0.903 & {
+\backslash
+color{red}11} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di campi dati per classe & 3.34 & 23 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di livelli di annidamento & 1,179 & 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Indice di unità & 6.75 & 32 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Indice di dipendenza & 4.875 & 15 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Nonostante alcuni elementi della colonna massimo superino i valori prefissati
+ è necessario analizzare adeguatamente questi dati prima di trarre conclusioni
+ affrettate.
+ La complessità ciclomatica raggiunge il valore 13 soltanto per la classe
+ GestioneBadgeD in quanto effettua dei controlli molto importanti relativamente
+ alla gestione dei badge di un dipendente.
+ Di conseguenza tale dato può essere considerato tutto sommato accettabile
+ ed infatti, escludendo la complessità ciclomatica di GestioneBadgeD, il
+ valore massimo diviene 8.
+\begin_inset Newline newline
+\end_inset
+
+Il numero di parametri è a sua volta accettabile anche se sopra la soglia
+ massima consentita in relazione al fatto che questo valore è condizionato
+ dai parametri necessari ai metodi del package condivisi per eseguire il
+ loro compito.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Le altre metriche hanno invece evidenziato valori più che accettabili.
+\end_layout
+
 \begin_layout Subsection
 Descrizione dei Test effettuati
 \end_layout
@@ -774,7 +1043,7 @@ Cod.
 \series bold
 Esito:
 \series default
- positivo
+ Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -791,7 +1060,7 @@ Cod.
 
 Esito:
 \series default
- positivo
+ Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -808,37 +1077,7 @@ TS-RFD 2
 
 Esito: 
 \series default
-positivo
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Cod.
- Verifica:
-\series default
- TS-RFD 2
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Esito: 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Cod.
- Verifica: 
-\series default
-TS-RFD 2
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Esito:
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -853,7 +1092,9 @@ TS-RPOB 1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -868,7 +1109,9 @@ TS-RPOB 2
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -884,6 +1127,17 @@ TS-RQOP 3.1
 \end_inset
 
 Esito:
+\series default
+ Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte.
 \end_layout
 
 \begin_layout Itemize
@@ -898,7 +1152,18 @@ TS-RQOP 3.2
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata implementata per esaurimento del quantitativo orario
+ a disposizione del programmatore addetto a tale parte.
 \end_layout
 
 \begin_layout Itemize
@@ -913,7 +1178,9 @@ TS-RVOP 1.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+superato
 \end_layout
 
 \begin_layout Subsubsection
@@ -932,7 +1199,9 @@ TS-RFOB 3
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -947,7 +1216,9 @@ TS-RFOB 3.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -962,7 +1233,9 @@ TS-RFOB 4
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -977,7 +1250,9 @@ TS-RFOB 4.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -992,7 +1267,7 @@ TS-RFOB 4.1.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: ???
 \end_layout
 
 \begin_layout Itemize
@@ -1007,7 +1282,9 @@ TS-RFOB 11
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Subsubsection
@@ -1026,7 +1303,9 @@ TS-RFOB 5a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1047,7 +1326,7 @@ b
 \series bold
 Esito
 \series default
-:
+: Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1062,7 +1341,9 @@ TS-RFOB 5.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1077,7 +1358,9 @@ TS-RFOB 6
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1092,7 +1375,9 @@ TS-RFOB 7
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1107,7 +1392,9 @@ TS-RFOB 7.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1122,7 +1409,9 @@ TS-RFOB 10a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1137,7 +1426,9 @@ TS-RFOB 10b
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1152,7 +1443,9 @@ TS-RFOB 10c
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1167,7 +1460,9 @@ TS-RFOB 11.2
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1182,7 +1477,9 @@ TS-RFOB 12
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1197,7 +1494,9 @@ TS-RFOB 13a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1212,7 +1511,9 @@ TS-RFOB 13b
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1227,7 +1528,9 @@ TS-RFOB 14.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1242,7 +1545,9 @@ TS-RFOB 15
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1257,7 +1562,9 @@ TS-RFOB 16
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1272,7 +1579,9 @@ TS-RFOB 19.2.3
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+???
 \end_layout
 
 \begin_layout Subsubsection
@@ -1291,7 +1600,9 @@ TS-RFOB 17a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1306,7 +1617,9 @@ TS-RFOB 17b
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1321,7 +1634,9 @@ TS-RFOB 18
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1336,7 +1651,9 @@ TS-RFOB 19a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1351,7 +1668,9 @@ TS-RFOB 19b
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1366,7 +1685,9 @@ TS-RFOB 19.2
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1381,7 +1702,9 @@ TS-RFOB 19.2.1
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1396,7 +1719,9 @@ TS-RFOB 19.2.2
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1411,7 +1736,9 @@ TS-RFOB 20
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1426,7 +1753,9 @@ TS-RFOB 21a
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1441,7 +1770,9 @@ TS-RFOB 21b
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1449,10 +1780,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 21c
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1460,10 +1797,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 22
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1471,10 +1814,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 23
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1482,10 +1831,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 24
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+???
 \end_layout
 
 \begin_layout Itemize
@@ -1493,10 +1848,20 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 25
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Sicurezza
 \end_layout
 
 \begin_layout Itemize
@@ -1504,10 +1869,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 26a
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1515,10 +1886,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 26b
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1526,10 +1903,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 27
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1537,10 +1920,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 28
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1548,10 +1937,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 28.1
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1559,10 +1954,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 28.2
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1570,10 +1971,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 29
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non verificato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1581,10 +1997,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 29.1
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non verificato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1592,10 +2023,26 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 30
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Installatore
 \end_layout
 
 \begin_layout Itemize
@@ -1603,10 +2050,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 31
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1614,10 +2067,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 32
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1625,10 +2084,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 33
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1636,10 +2101,16 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOB 34
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1647,10 +2118,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 35a
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1658,10 +2144,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 35b
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1669,10 +2170,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 35c
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1680,10 +2196,25 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 35d
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
 \end_layout
 
 \begin_layout Itemize
@@ -1691,36 +2222,380 @@ Esito:
 \series bold
 Cod.
  Verifica: 
+\series default
+TS-RFOP 35e
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Non superato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni sui test eseguiti
+\end_layout
+
+\begin_layout Standard
+Come si evince dalla lista dei test, la quasi totalità dei test che verificano
+ il soddisfacimento dei requisiti obbligatori sono stati superati.
+ I test non superati riguardano requisiti che, nonostante fossero stati
+ indicati come obbligatori, non comportano funzionalità essenziali per il
+ funzionamento effettivo dell'applicazione.
+ Le motivazioni principali per quanto avvenuto risiedono principalmente
+ nelle difficoltà di integrare in maniera completa ed efficiente alcune
+ tecnologie ed infine nell'esaurimento del quantitativo orario a disposizione
+ del programmatore addetto ad una determinata parte.
+\begin_inset Newline newline
+\end_inset
+
+I restanti test non superati riguardano la verifica di requisiti desiderabili
+ ed opzionali ed anche in questo caso le funzionalità non sono state realizzate
+ in quanto è terminato il quantitativo orario a disposizione del programmatore
+ addetto ad una determinata parte.
+\end_layout
+
+\begin_layout Subsection
+Esito dei test di integrazione
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Cod.
- Verifica: 
+Componente:
+\series default
+ CDESK1 (login Dipendente)
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+
+\series bold
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Cod.
- Verifica: 
+Componente: 
+\series default
+CDESK2 (notifica nuova domanda)
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-Esito:
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB2 (gestione dati Utente) 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB3 (amministrazione utenti)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB4 (rispondere ad una domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB5 (amministrazione domande)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB6 (visualizzazione punteggi)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB7 (gestione punteggi)
+\series bold
+ ???
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
 \begin_inset Newline newline
 \end_inset
 
 
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB8 (notifica nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB2 (gestione dati Utente)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB3 (rispondere nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB4 (visualizzazione punteggi)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB5 (notifica nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK2 (amministrazione utenti)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK3 (gestione domande e risposte)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK4 (amministrazione punteggi)
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni sui test eseguiti
+\end_layout
+
+\begin_layout Standard
+I test di integrazione hanno dato esiti quasi totalmente positivi: le varie
+ componenti sono state collaudate con successo, verificandone il loro completo
+ funzionamento e raggiungendo un elevato grado di soddisfacimento.
+ 
+\end_layout
+
+\begin_layout Subsection
+Test di Copertura
 \end_layout
 
 \end_body

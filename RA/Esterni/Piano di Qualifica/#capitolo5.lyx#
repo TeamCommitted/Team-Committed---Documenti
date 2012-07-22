@@ -261,20 +261,17 @@ Il codice prodotto è stato, anche in questa fase, adeguatamente verificato
 .
  Tali punti guida si sono rivelati molto utili già nella fase di Revisione
  di Qualifica, dimostrando la loro importanza nella rilevazione di errori
- che sono poi s.
- Nella fase di inspection è stato infatti rilevato più di qualche errore
- dato dalla non osservanza di questi punti che è però stato prontamente
- segnalato e corretto.
+ che sono poi stati prontamente corretti.
  Il resto delle attività di verifica e test sul codice sono state riportate
- all'interno del paragrafo 5 
+ all'interno del documento Risultati_dei_Test_v1.0.pdf, capitolo 
 \begin_inset Quotes eld
 \end_inset
 
-Pianificazione ed esecuzione del collaudo
+Risulta
 \begin_inset Quotes erd
 \end_inset
 
- di questo stesso documento.
+.
 \end_layout
 
 \end_body
