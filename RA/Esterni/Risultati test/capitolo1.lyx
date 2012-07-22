@@ -1267,7 +1267,9 @@ TS-RFOB 4.1.1
 \begin_inset Newline newline
 \end_inset
 
-Esito: ???
+Esito: 
+\series default
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -1581,7 +1583,7 @@ TS-RFOB 19.2.3
 
 Esito: 
 \series default
-???
+Positivo
 \end_layout
 
 \begin_layout Subsubsection
@@ -1840,7 +1842,7 @@ TS-RFOB 24
 
 Esito: 
 \series default
-???
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -2248,20 +2250,17 @@ Considerazioni sui test eseguiti
 \end_layout
 
 \begin_layout Standard
-Come si evince dalla lista dei test, la quasi totalità dei test che verificano
- il soddisfacimento dei requisiti obbligatori sono stati superati.
- I test non superati riguardano requisiti che, nonostante fossero stati
- indicati come obbligatori, non comportano funzionalità essenziali per il
- funzionamento effettivo dell'applicazione.
- Le motivazioni principali per quanto avvenuto risiedono principalmente
- nelle difficoltà di integrare in maniera completa ed efficiente alcune
- tecnologie ed infine nell'esaurimento del quantitativo orario a disposizione
- del programmatore addetto ad una determinata parte.
+Come si evince dalla lista riportata, la totalità dei test che verificano
+ i requisiti definiti obbligatori hanno avuto esito positivo.
+ Tutte le funzionalità essenziali del sistema sono quindi disponibili ai
+ vari utenti e l'applicazione riesce a soddisfare gli obiettivi di qualità
+ imposti all'interno del Piano di Qualifica, capitolo 3.2 Qualità del prodotto.
+ 
 \begin_inset Newline newline
 \end_inset
 
 I restanti test non superati riguardano la verifica di requisiti desiderabili
- ed opzionali ed anche in questo caso le funzionalità non sono state realizzate
+ ed opzionali ed in questo caso le funzionalità non sono state realizzate
  in quanto è terminato il quantitativo orario a disposizione del programmatore
  addetto ad una determinata parte.
 \end_layout
@@ -2411,16 +2410,7 @@ CWEB7 (gestione punteggi)
 
 Esito: 
 \series default
-Non superato
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Motivazioni: 
-\series default
-La funzione non è stata completamente implementata per esaurimento del quantitat
-ivo orario a disposizione del programmatore addetto a tale parte
+Positivo
 \end_layout
 
 \begin_layout Itemize
@@ -2588,9 +2578,10 @@ Considerazioni sui test eseguiti
 \end_layout
 
 \begin_layout Standard
-I test di integrazione hanno dato esiti quasi totalmente positivi: le varie
- componenti sono state collaudate con successo, verificandone il loro completo
- funzionamento e raggiungendo un elevato grado di soddisfacimento.
+I test di integrazione hanno dato esiti totalmente positivi: le varie componenti
+ sono state collaudate con successo, verificandone il loro completo funzionament
+o in varie situazioni e raggiungendo un elevato grado di soddisfacimento
+ degli obiettivi di qualità del prodotto.
  
 \end_layout
 

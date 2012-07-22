@@ -1132,6 +1132,164 @@ OK
  Altrimenti dovrà notificare al gestore della grafica che il Dipendente
  è stato identificato, quindi mostrare al Dipendente le opzioni che prima
  non erano visibili.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+com.safetyGame.mobile.View.DatiActivity.InviaDatiTask
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Funzione 
+\series default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Consente ad un Dipendente di effettuare il cambio password
+\end_layout
+
+\begin_layout Description
+Relazioni
+\begin_inset space ~
+\end_inset
+
+d'uso
+\begin_inset space ~
+\end_inset
+
+con
+\begin_inset space ~
+\end_inset
+
+altri
+\begin_inset space ~
+\end_inset
+
+moduli 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa classe utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.Utils.ConnectionUtils
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Standard
+Inoltre verrà utilizzata dalle seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+mobile.View.DatiActivity
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Attributi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# ProgressDialog dialog
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Metodi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+# void onPreExecute()
+\end_layout
+
+\begin_layout Standard
+Metodo che viene eseguito prima di mostrare la grafica.
+\end_layout
+
+\begin_layout Standard
+Dovrà mostrare all'utente una 
+\emph on
+ProgressDialog 
+\emph default
+con scritto sotto 
+\begin_inset Quotes eld
+\end_inset
+
+Loading.
+ Please wait...
+\begin_inset Quotes erd
+\end_inset
+
+ fino a quando non è stata creata la vista dei campi dati.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# String doInBackground(Object...
+ params).
+\end_layout
+
+\begin_layout Standard
+Metodo che controlla che la nuova password e la conferma della nuova password
+ siano uguali e che invia la richiesta al server.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+# void onPostExecute(String status) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di segnalare all'utente la correttezza o meno della
+ richiesta
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1306,6 +1464,17 @@ Dovrà controllare quale pulsante è stato premuto tramite il suo id, quindi
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- void TimerMethod()
+\end_layout
+
+\begin_layout Standard
+Metodo che conta quanti secondi l'utente ci mette a rispondere nel caso
+ di una domanda di tipo isMobile()
 \end_layout
 
 \begin_layout Standard
@@ -1467,166 +1636,10 @@ Dovrà inserire all'interno dell'interfaccia grafica il testo della domanda
  solo una alla volta.
  Inoltre dovrà essere presente un pulsante che permetterà di inviare la
  risposta al Back-End per verificare che questa sia corretta
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph
-com.safetyGame.mobile.View.DomandaActivity.QuestTask
-\end_layout
-
-\begin_layout Description
-
-\series bold
-Funzione 
-\series default
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Consente ad un Dipendente di effettuare una nuova Quest
-\end_layout
-
-\begin_layout Description
-Relazioni
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-mobile.Utils.ConnectionUtils
-\end_layout
-
-\begin_layout Subsection*
-
-\series bold
-Attributi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-# ProgressDialog dialog
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-# EditText user
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-# EditText passw
-\end_layout
-
-\begin_layout Subsection*
-
-\series bold
-Metodi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-# void onPreExecute()
-\end_layout
-
-\begin_layout Standard
-Metodo che viene eseguito prima di mostrare la grafica.
-\end_layout
-
-\begin_layout Standard
-Dovrà mostrare all'utente una 
-\emph on
-ProgressDialog 
-\emph default
-con scritto sotto 
-\begin_inset Quotes eld
-\end_inset
-
-Loading.
- Please wait...
-\begin_inset Quotes erd
-\end_inset
-
- fino a quando non è stata creata la vista dei campi dati.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-# String doInBackground(Object...
- params).
-\end_layout
-
-\begin_layout Standard
-Metodo che recupera dal Back-End la domanda che dovrà essere sottoposta
- al Dipedente.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-# void onPostExecute(String status) 
-\end_layout
-
-\begin_layout Standard
-Metodo che crea la grafica deputata a mostrare la domanda e a ricevere la
- risposta che il Dipendente ha dato alla suddetta domanda
-\end_layout
-
-\begin_layout Standard
-Dovrà inserire all'interno dell'interfaccia grafica il testo della domanda
- e dovrà integrare un lettore di codici sia QR che a barre.
- Inoltre dovrà essere presente un pulsante che permetterà di inviare la
- risposta al Back-End per verificare che questa sia corretta
 \end_layout
 
 \begin_layout Standard
@@ -1817,6 +1830,20 @@ LoginTask
  che permetterà l'inserimento delle credenziali d'accesso al sistema.
  Il pulsante così creato dovrà poi essere inserito all'interno della grafica
  dell'applicazione.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- boolean checkServer()
+\end_layout
+
+\begin_layout Standard
+Metodo che serve per vedere se l'app è stata lanciata la prima volta
 \end_layout
 
 \begin_layout Standard
@@ -4245,6 +4272,26 @@ Attributi
 \end_inset
 
 - String[] risposte
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- 
+\series bold
+boolean mobile
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- int tempo
 \end_layout
 
 \begin_layout Subsection*
@@ -4310,6 +4357,22 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \end_inset
 
 + String[] getRisposte()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ bollean isMobile()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ int getTempo()
 \end_layout
 
 \begin_layout Standard
@@ -4531,201 +4594,6 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \end_inset
 
 + String[] getBadges()
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.mobile.condivisi.Quest
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/Mobile/Condivisi/Mobile_Quest.png
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-
-\series bold
-Funzione 
-\series default
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe fungerà da contenitore per tutte le domande che possono essere
- proposte ai Dipendenti che non sono comprese nella tipologia di 
-\begin_inset Quotes eld
-\end_inset
-
-domanda classica
-\begin_inset Quotes erd
-\end_inset
-
-.
- Ad esempio:
-\end_layout
-
-\begin_layout Itemize
-Scansione di codici a barre
-\end_layout
-
-\begin_layout Itemize
-Scansione di codici QR
-\end_layout
-
-\begin_layout Itemize
-Scansione di tag RFID
-\end_layout
-
-\begin_layout Description
-Relazioni
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata dalle seguenti classi:
-\end_layout
-
-\begin_layout Subsection*
-
-\series bold
-Variabili
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-- String title
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- String testo
-\end_layout
-
-\begin_layout Subsection*
-
-\series bold
-Metodi
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-public Quest(String title, String testo)
-\end_layout
-
-\begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-Vengono quindi definiti i metodi getter/setter per i vari attributi della
- classe.
- In particolare:
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ String getTitle()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ String getTesto()
 \end_layout
 
 \begin_layout Standard
