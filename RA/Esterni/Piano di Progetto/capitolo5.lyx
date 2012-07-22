@@ -1305,7 +1305,7 @@ hline
 
 \begin_layout Plain Layout
 
-		Giorgio Maggiolo & 28 & 52 & 25 & 105 
+	Giorgio Maggiolo & 28 & 52 & 25 & 105 
 \backslash
 
 \backslash
@@ -1316,7 +1316,7 @@ hline
 
 \begin_layout Plain Layout
 
-		Giacomo Quadrio & 28 & 54 & 23 & 105 
+	Giacomo Quadrio & 28 & 54 & 23 & 105 
 \backslash
 
 \backslash
@@ -1382,7 +1382,14 @@ Tabella che indica il consuntivo della ripartizione delle ore dedicate al
 
 \begin_layout Standard
 Com'è possibile notare c'è stato un aumento abbastanza importante nelle
- ore totali
+ ore totali nella fase di Verifica e Validazione, in quanto il monte ore
+ acquisito dal prolungamento della fase di 
+\emph on
+Modifiche Software
+\emph default
+ ci ha permesso di aumentare le ore di programmazione assegnato ad ogni
+ membro.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1401,6 +1408,195 @@ reference "tab:impiego membri"
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}{|c | c c c c c c|r|}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Membro & Responsabile & Amministratore & Analista & Progettista & Programmator
+e & Verificatore & Totale ore 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Begolo & 4 & 10 & 9 & 59 & 13 & 10 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Braghetto & 9 & 11 & 2 & 37 & 26 & 20 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Cornaglia & 10 & 4 & 2 & 33 & 29 & 27 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Dalla Piet
+\backslash
+'a & 15 & 4 & & 35 & 20 & 31 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Facchin & 13 & 18 & & 29 & 12 & 33 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Maggiolo & 2 & 8 & 7 & 10 & 27 & 51 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Quadrio & 6 & 2 & & 40 & 30 & 27 & 105 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Totale ore & 59 & 68 & 23 & 230 & 157 & 198 & 735 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+euro / ora& 
+\backslash
+euro 30 & 
+\backslash
+euro 20 & 
+\backslash
+euro 25 & 
+\backslash
+euro 22 & 
+\backslash
+euro 15 & 
+\backslash
+euro 15 & 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		Totale & 
+\backslash
+euro 1.770 & 
+\backslash
+euro 1.360 & 
+\backslash
+euro 575 & 
+\backslash
+euro 5.060 & 
+\backslash
+euro 2.355 & 
+\backslash
+euro 2.970 & 
+\backslash
+euro 14.090 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1428,6 +1624,26 @@ Tabella che indica il consuntivo finale dell'impegno e dell'impiego di ogni
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Com'è possibile vedere, il consuntivo finale sarebbe differito dal preventivo
+ iniziale di circa 1.000
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+euro
+\end_layout
+
+\end_inset
+
+.
+ Questo è dovuto in gran parte all'aumento delle ore di programmazione,
+ ma anche al consecutivo aumento delle ore di verifica.
 \end_layout
 
 \end_body
