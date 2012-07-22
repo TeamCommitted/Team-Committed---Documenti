@@ -660,7 +660,96 @@ http://{INDIRIZZO_FRONT-END_WEB}
 \end_inset
 
 .
- Infine dovrà effettuare un login 
+ Infine dovrà effettuare un login di test tramite l'utenza di test creata
+ precedentemente con il popolamento del database aziendale.
+\end_layout
+
+\begin_layout Subsection
+Installazione e avviamento del Front-end Desktop
+\end_layout
+
+\begin_layout Standard
+Poichè il Front-end Desktop dovrà funzionare su sistemi operativi differenti,
+ si faccia riferimento alla descrizione dell'installazione sul sistema operativo
+ di destinazione.
+\end_layout
+
+\begin_layout Standard
+Innanzitutto dovrà copiare tutti i file .class, mantenendo la strutturazione
+ delle cartelle per mantenere la coerenza dei package, all'interno della
+ directory di installazione
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Quindi la cartella di destinazione del Front-end Desktop dovrà essere struttura
+ in: 
+\family typewriter
+com/safetyGame/desktop/{CARTELLE-DEI-PACKAGE}/*.class
+\end_layout
+
+\end_inset
+
+.
+ Quindi, nella cartella principale del Front-end Desktop
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La stessa che contiene la cartella 
+\family typewriter
+com/
+\end_layout
+
+\end_inset
+
+, si dovrà creare il file 
+\family typewriter
+SafetyGame.bat
+\family default
+ il cui contenuto dovrà essere:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\family typewriter
+java com.safetyGame.desktop.view.Menu
+\family default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Infine dovrà creare un collegamento al file .bat e dovrà posizionarlo nel
+ desktop
+\end_layout
+
+\begin_layout Subsubsection
+Mac OSX - GNU/Linux
 \end_layout
 
 \end_body
