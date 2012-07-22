@@ -115,7 +115,7 @@ filename "capitolo1.lyx"
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "/Users/truegek/uni/ingegneria/Team-Committed---Documenti/RA/Esterni/Risultati test/capitolo2.lyx"
+filename "capitolo2.lyx"
 
 \end_inset
 

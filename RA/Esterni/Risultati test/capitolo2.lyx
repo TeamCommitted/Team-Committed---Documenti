@@ -2766,7 +2766,49 @@ Test di Copertura
 \end_layout
 
 \begin_layout Standard
-Di seguito verranno elencati i test di copertura effettuati sul codice
+Di seguito verranno elencati i test di copertura effettuati sul codice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{|c|c|c|c}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
