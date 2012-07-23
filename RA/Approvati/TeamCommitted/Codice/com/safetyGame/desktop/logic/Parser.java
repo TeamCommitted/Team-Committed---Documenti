@@ -2,7 +2,7 @@
  * Name: Parserer.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 2012/07/08
+ * Date: 2012/07/20
  * Version: 1.0
  * Copyright: see COPYRIGHT
  * 
@@ -48,7 +48,7 @@ public class Parser{
   /**
    * metodo che ritorna lo stato dell'apertura del file in lettura
    * 
-   * @return aperto true se è stato aperto, false altrimenti
+   * @return aperto true se e` stato aperto, false altrimenti
    */
   public boolean isOpen(){
     return aperto;
@@ -99,7 +99,7 @@ public class Parser{
    * metodo che crea un file in scrittura e ne scrive una stringa (contenente l'indirizzo del server). al termine apre lo stream in lettura.
    * 
    * @param server la stringa con l'indirizzo del server
-   * @return true se l'operazione è stata effettuata con successo, false altrimenti
+   * @return true se l'operazione e` stata effettuata con successo, false altrimenti
    */
   public boolean scrivi(String server){
     if (in==null){

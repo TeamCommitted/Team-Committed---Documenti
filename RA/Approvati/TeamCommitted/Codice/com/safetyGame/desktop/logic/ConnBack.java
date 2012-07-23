@@ -3,7 +3,7 @@
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
  * Date: 
- * Version: 0.2
+ * Version: 1.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
@@ -40,10 +40,11 @@ import java.rmi.*;
 import java.net.UnknownHostException;
 
 /**
- * ConnBack.java
+ * Classe che si occupa di gestire i timer delle domande, il Dipendente 
+ * Autenticato e centralizzare l'esecuzione dell'applicazione
  *
  * @author gfacchin
- * @version 0.2
+ * @version 1.0
  */
 
 public class ConnBack {
@@ -99,6 +100,7 @@ public class ConnBack {
    * Metodo fa continuare la costruzione dell'oggetto ConnBack (seconda parte) una volta che è stata ottenuta la stringa con l'indirizzo del server.
    * Inserisce nel file server.txt l'indirizzo
    * 
+   * @param server_da_grafica indirizzo del server a cui collegarsi
    * @return booleano che indica la corretta scrittura nel file server (true)
    * 
    */  
@@ -130,7 +132,8 @@ public class ConnBack {
   /**
    * Metodo che effettua il login con il backend e istanzia le corrette variabili per l'applicazione
    * 
-   * @param login i dati del login
+   * @param username username del login
+   * @param password password del login
    * 
    */  
   public void login(String username, String password){

@@ -2,13 +2,17 @@
  * Name: ControlLogin.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120714 | Gabriele Facchin    | * ControlLogin
+ * |          |                     | * tryLogin
+ * |          |                     | * Recupera
  * +----------+---------------------+---------------------
  * | 20120609 | Gabriele Facchin    | + ControlLogin
  * |          |                     | + tryLogin
@@ -24,7 +28,7 @@ import com.safetyGame.desktop.condivisi.*;
  * Classe che gestisce i controlli sul login
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 2.0
  */
 public class ControlLogin{
   private Browser browser;

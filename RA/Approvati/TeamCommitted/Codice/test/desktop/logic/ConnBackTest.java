@@ -1,3 +1,24 @@
+/*
+ * Name: ConnBackTest.java
+ * Package: com.safetygame.desktop.logic
+ * Author: Alessandro Cornaglia
+ * Date: 2012/07/20
+ * Version: 1.0
+ * Copyright: see COPYRIGHT
+ * 
+ * Changes:
+ * +----------+---------------------+---------------------
+ * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120719 | Alessandro Cornaglia| + getServerTest
+ * |          |                     | + loginTest
+ * |          |                     | + logoutTest
+ * |          |                     | + notificaDomandaTest
+ * |          |                     | + mayApplyForNewQuestionTest
+ * |          |                     | + isLoggedTest
+ * |          |                     | + userLoggatoTest
+ * +----------+---------------------|---------------------
+ */
 package com.safetyGame.desktop.logic;
 
 import static org.junit.Assert.*;

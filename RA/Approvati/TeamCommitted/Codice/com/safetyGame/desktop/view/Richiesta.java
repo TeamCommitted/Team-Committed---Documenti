@@ -2,8 +2,8 @@
  * Name: Richiesta.java
  * Package: com.safetygame.desktop.view
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 1.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
@@ -26,7 +26,7 @@ import javax.swing.*;
  * Classe che gestisce la richiesta di un nuovo server
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 1.0
  */
 public class Richiesta implements ActionListener{
 

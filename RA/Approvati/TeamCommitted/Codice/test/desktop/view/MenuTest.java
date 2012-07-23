@@ -1,3 +1,19 @@
+/*
+ * Name: MenuTest.java
+ * Package: com.safetygame.desktop.view
+ * Author: Gabriele Facchin
+ * Date: 2012/07/20
+ * Version: 1.0
+ * Copyright: see COPYRIGHT
+ * 
+ * Changes:
+ * +----------+---------------------+---------------------
+ * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120716 | Alessandro Cornaglia| + testMenu
+ * +----------+---------------------|---------------------
+ *
+ */
 package com.safetyGame.desktop.view;
 
 import static org.junit.Assert.*;

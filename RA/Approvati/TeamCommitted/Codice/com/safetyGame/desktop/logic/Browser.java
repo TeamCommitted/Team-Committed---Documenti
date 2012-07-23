@@ -2,8 +2,8 @@
  * Name: Browser.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.2
+ * Date: 2012/07/20
+ * Version: 1.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
@@ -33,7 +33,7 @@ import java.security.NoSuchAlgorithmException;
  * Classe che gestisce l'apertura del browser predefinito di sistema
  *
  * @author gfacchin 
- * @version 0.2
+ * @version 1.0
  */
 
 public class Browser {

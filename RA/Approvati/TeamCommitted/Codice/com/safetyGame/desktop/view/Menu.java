@@ -2,22 +2,23 @@
  * Name: Menu.java
  * Package: com.safetygame.desktop.view
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
+ * | 20120715 | Gabriele Facchin    | + Main
+ * +----------+---------------------|---------------------
  * | 20120609 | Gabriele Facchin    | + Menu
  * |          |                     | + svuota
  * |          |                     | + creaMenu
  * |          |                     | + finalize
  * |          |                     | + actionPerformed
  * +----------+---------------------|---------------------
- * | 201207 | Gabriele Facchin    | + Main
- * +----------+---------------------|---------------------
+ * 
  * 
  */
 
@@ -36,7 +37,7 @@ import java.awt.TrayIcon.*;
  * Classe che gestisce la grafica dell'icona e le interazioni tra le altre componenti grafiche. 
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 2.0
  */
 public class Menu implements ActionListener{
   private boolean loggato=false;
@@ -55,7 +56,7 @@ public class Menu implements ActionListener{
 
   /**
    * Costruttore della classe Menu
-   * 
+   * @param controllo riferimento all'oggetto di tipo ControlMenu
    */
   public Menu(ControlMenu controllo){
     control =controllo;
@@ -179,6 +180,10 @@ public class Menu implements ActionListener{
              }
   }
   
+  /**
+   * Metodo che inizializza il front end
+   * @param args parametri passati dalla JVM all'invocazione del metodo
+   */
   public static void main (String args []){
      new Menu(new ControlMenu());
   }

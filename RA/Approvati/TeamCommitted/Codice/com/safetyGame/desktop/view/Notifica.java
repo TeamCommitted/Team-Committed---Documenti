@@ -2,14 +2,17 @@
  * Name: Notifica.java
  * Package: com.safetygame.desktop.view
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
+ * | 20120716 | Gabriele Facchin    | * Notifica
+ * |          |                     | * actionPerformed
+ * +----------+---------------------|---------------------
  * | 20120608 | Gabriele Facchin    | + Notifica
  * |          |                     | + actionPerformed
  * +----------+---------------------|---------------------
@@ -38,7 +41,7 @@ public class Notifica implements ActionListener{
   
   /**
    * Costruttore della classe Notifica
-   * 
+   * @param controllore riferimento all'oggetti di tipo ControlNotifica
    */
   public Notifica(ControlNotifica controllore){
     controller=controllore;

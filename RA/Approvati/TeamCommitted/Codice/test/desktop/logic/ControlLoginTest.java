@@ -1,4 +1,19 @@
-package com.safetyGame.desktop.logic;
+/*
+ * Name: ControlLoginTest.java
+ * Package: com.safetygame.desktop.logic
+ * Author: Alessandro Cornaglia
+ * Date: 2012/07/20
+ * Version: 1.0
+ * Copyright: see COPYRIGHT
+ * 
+ * Changes:
+ * +----------+---------------------+---------------------
+ * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120719 | Alessandro Cornaglia| + trLoginTest
+ * |          |                     | + recuperaTest
+ * +----------+---------------------|---------------------
+ */package com.safetyGame.desktop.logic;
 
 import static org.junit.Assert.*;
 
@@ -27,7 +42,7 @@ public class ControlLoginTest {
 	  String codfis = "sxrYDTCfvg";
 	  String mail = "teamcommitted@gmail.com";
 	  
-	  assertTrue("Generazione non riuscitao", controlLogin.recupera(codfis, mail));
+	  assertTrue("Generazione non riuscita", controlLogin.recupera(codfis, mail));
 	}
 
 }

@@ -2,18 +2,18 @@
  * Name: ControlNotifica.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
+ * | 20120715 | Gabriele Facchin    | + rispondi
+ * +----------+---------------------|---------------------
  * | 20120609 | Gabriele Facchin    | + ControlNotifica
  * |          |                     | + posticipa
- * +----------+---------------------|---------------------
- * | 20120715 | Gabriele Facchin    | + rispondi
  * +----------+---------------------|---------------------
  *
  */
@@ -25,7 +25,7 @@ import com.safetyGame.desktop.view.Error;
  * Classe che gestisce i controlli sulla notifica
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 2.0
  */
 public class ControlNotifica{
   private ConnBack connessione;

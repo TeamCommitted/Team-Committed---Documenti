@@ -1,3 +1,20 @@
+/*
+ * Name: BrowserTest.java
+ * Package: com.safetygame.desktop.logic
+ * Author: Alessandro Cornaglia
+ * Date: 2012/07/20
+ * Version: 1.0
+ * Copyright: see COPYRIGHT
+ * 
+ * Changes:
+ * +----------+---------------------+---------------------
+ * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120719 | Alessandro Cornaglia| + apriTest
+ * |          |                     | + leggiTest
+ * +----------+---------------------|---------------------
+ *
+ */
 package com.safetyGame.desktop.logic;
 
 import static org.junit.Assert.*;

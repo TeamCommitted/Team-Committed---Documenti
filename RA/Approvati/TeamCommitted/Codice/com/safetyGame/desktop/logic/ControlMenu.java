@@ -2,14 +2,22 @@
  * Name: ControlNotifica.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
+ * | 20120715 | Gabriele Facchin    | * ControlMenu
+ * |          |                     | * logout
+ * |          |                     | * richiediDomanda
+ * |          |                     | * visualizzaPunteggio
+ * |          |                     | * visualizzaDati
+ * |          |                     | * modificaDati 
+ * |          |                     | * isLogged
+ * +----------+---------------------|---------------------
  * | 20120614 | Gabriele Facchin    | + ControlMenu
  * |          |                     | + logout
  * |          |                     | + richiediDomanda
@@ -28,7 +36,7 @@ import com.safetyGame.desktop.condivisi.*;
  * Classe che gestisce i controlli sul Menu
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 2.0
  */
 public class ControlMenu{
   private ConnBack connessione;

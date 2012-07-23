@@ -2,13 +2,16 @@
  * Name: Timer.java
  * Package: com.safetygame.desktop.logic
  * Author: Gabriele Facchin
- * Date: 2012/06/16
- * Version: 1.1
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120713 | Gabriele Facchin    | * Timer
+ * |          |                     | * run
  * +----------+---------------------+---------------------
  * | 20120610 | Gabriele Facchin    | + Timer
  * |          |                     | + run
@@ -25,7 +28,7 @@ package com.safetyGame.desktop.logic;
  * Classe che gestisce il timer per le domande
  * 
  * @author gfacchin
- * @version 1.1
+ * @version 2.0
  */
 public class Timer extends Thread{
   private long tempo;

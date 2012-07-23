@@ -1,3 +1,21 @@
+/*
+ * Name: TimerTest.java
+ * Package: com.safetygame.desktop.logic
+ * Author: Giacomo Quadrio
+ * Date: 2012/06/16
+ * Version: 2.0
+ * Copyright: see COPYRIGHT
+ * 
+ * Changes:
+ * +----------+---------------------+---------------------
+ * |   Date   | Programmer          | Changes
+ * +----------+---------------------+---------------------
+ * | 20120610 | GiacomoQuadrio      | * runTest
+ * +----------+---------------------+---------------------
+ * | 20120610 | GiacomoQuadrio      | + runTest
+ * +----------+---------------------|---------------------
+ *
+ */
 package com.safetyGame.desktop.logic;
 
 import static org.junit.Assert.*;

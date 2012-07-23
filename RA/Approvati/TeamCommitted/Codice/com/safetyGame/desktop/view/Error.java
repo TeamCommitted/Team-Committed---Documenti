@@ -2,15 +2,15 @@
  * Name: Error.java
  * Package: com.safetygame.desktop.view
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.1
+ * Date: 2012/07/20
+ * Version: 1.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
- * | 20120720 | Gabriele Facchin    | + Error
+ * | 20120716 | Gabriele Facchin    | + Error
  * |          |                     | + actionPerformed
  * +----------+---------------------|---------------------
  *
@@ -25,7 +25,7 @@ import javax.swing.*;
  * Classe che fa uscire un popup di errore.
  * 
  * @author gfacchin
- * @version 0.1
+ * @version 1.0
  */
 public class Error implements ActionListener{
   private JFrame frame;
@@ -34,6 +34,8 @@ public class Error implements ActionListener{
 
   /**
    * Costruttore della classe Error
+   * 
+   * @param errore descrizione errore
    */
   public Error(String errore){
     frame=new JFrame("Errore");

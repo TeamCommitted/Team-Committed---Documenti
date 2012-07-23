@@ -2,19 +2,24 @@
  * Name: Login.java
  * Package: com.safetygame.desktop.view
  * Author: Gabriele Facchin
- * Date: 
- * Version: 0.2
+ * Date: 2012/07/20
+ * Version: 2.0
  * Copyright: see COPYRIGHT
  * 
  * Changes:
  * +----------+---------------------+---------------------
  * |   Date   | Programmer          | Changes
  * +----------+---------------------+---------------------
+ * | 20120713 | Gabriele Facchin    | * Login
+ * |          |                     | * actionPerformed
+ * |          |                     | * isVisible
+ * |          |                     | * creaSubFrameRecupero
+ * +----------+---------------------+---------------------
+ * | 20120609 | Gabriele Facchin    | + creaSubFrameRecupero
+ * +----------+---------------------|---------------------
  * | 20120608 | Gabriele Facchin    | + Login
  * |          |                     | + actionPerformed
  * |          |                     | + isVisible
- * +----------+---------------------|---------------------
- * | 20120609 | Gabriele Facchin    | + creaSubFrameRecupero
  * +----------+---------------------|---------------------
  *
  */
@@ -29,7 +34,7 @@ import javax.swing.*;
  * Classe che gestisce la grafica per il login
  * 
  * @author gfacchin
- * @version 0.2
+ * @version 2.0
  */
 public class Login implements ActionListener{
   
@@ -160,15 +165,15 @@ public class Login implements ActionListener{
               errorer.setText("Inserire entrambe i dati");
             }
           } 
-          else{ //e.getSource()==annullar
+          else{ 
             frame_recupero.setVisible(false);
           }      
   }
   
   /**
-   * Metodo che ritorna la visibilità del frame
+   * Metodo che ritorna la visibilita` del frame
    * 
-   * @return boolean che indica se il frame è visibile (true) o non visibile (false)
+   * @return boolean che indica se il frame e` visibile (true) o non visibile (false)
    */  
   public boolean isVisible(){
     return frame.isVisible();
