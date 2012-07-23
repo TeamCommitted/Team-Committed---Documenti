@@ -1,0 +1,35 @@
+INSERT INTO Tipologia VALUES 
+('Multipla');
+
+INSERT INTO Domanda
+(ID,testo_domanda,tipologia,linkV,linkF,punteggio,tempo,ambito,mobile)
+ VALUES 
+(1,'Quanti estintori ci vogliono in 10 m-quadri?','Multipla','','',15,30,'Pompiere',0),
+(2,'Quanti dipendenti devono saper fare il massaggio cardiaco ogni 10?','Multipla','','',30,10,'Dirigente',0),
+(3,'Bisogna usare il tornio con la grata abbassata?','Multipla','','',5,20,'Operaio',0),
+(4,'E` necessario essere in possesso di una regolare patente per guidare un muletto?','Multipla','','',15,20,'Magazziniere',0),
+(5,'E` necessario, per una segretaria, indossare scarpe coperte se nel tragitto che porta all\' ufficio bisogna attraversare una parte di magazzino?','Multipla','','',45,30,'Segretaria',0),
+(6,'In caso di incidente sul lavoro ad un collega, quale e` il numero d emergenza da chiamare?','Multipla','','',20,10,'Magazzinierre',0),
+(7,'In caso di incidente sul lavoro ad un collega, quale e` il numero d emergenza da chiamare?','Multipla','','',20,10,'Operaio',0),
+(8,'In caso di incidente o malore sul lavoro di un dipendente, quale e` il numero d emergenza da chiamare?','Multipla','','',20,10,'Dirigente',0),
+(9,'E` obbligatorio indossare il casco per il carico-scarico della merce?','Multipla','','',10,15,'Mulettista',0),
+(10,'E` responsabilita` del dirigente accertarsi che i propri dipendenti mangino sano?','Multipla','','',5,10,'Dirigente',0),
+(11,'E` obbligatorio l\'uso della mascherina quando si maneggiano sostanze i cui fumi sono nocivi?','Multipla','','',75,20,'Operaio',0),
+(12,'E` consentito l\'uso del telefono cellulare durante la guida per una consegna?','Multipla','','',75,20,'Corriere',0),
+(13,'E` consentito infrangere il codice della strada mentre si accompagna un dirigente su sua richiesta perche` ha fretta di giungere a destinazione?','Multipla','','',75,20,'Autista',0),
+(14,'E` consentito il non utilizzo della cintura di sicurezza nella strada di ritorno dopo un ordine?','Multipla','','',15,10,'Corriere',0),
+(15,'E` consentito il non utilizzo della cintura di sicurezza mentre utilizzi l\'auto aziendale?','Multipla','','',25,30,'Autista',0),
+(16,'Se il computer che stai utilizzando prendesse fuoco, e` corretto provare a spegnerlo gettandoci sopra dell\'acqua?','Multipla','','',80,20,'Operaio',0),
+(17,'Se il computer che stai utilizzando prendesse fuoco, e` corretto provare a spegnerlo gettandoci sopra dell\'acqua?','Multipla','','',80,20,'Segretaria',0),
+(18,'Se il computer che stai utilizzando prendesse fuoco, e` corretto provare a spegnerlo gettandoci sopra dell\'acqua?','Multipla','','',80,20,'Dirigente',0),
+(19,'Nel caso di una forte scossa di terremoto, quale fra i seguenti e` il comportamento corretto da seguire?','Multipla','','',80,20,'Operaio',0),
+(20,'Nel caso di una forte scossa di terremoto, quale fra i seguenti e` il comportamento corretto da seguire?','Multipla','','',80,20,'Segretaria',0),
+(21,'Nel caso di una forte scossa di terremoto, quale fra i seguenti e` il comportamento corretto da seguire?','Multipla','','',80,20,'Dirigente',0),
+(22,'Nel caso di una forte scossa di terremoto, quale fra i seguenti e` il comportamento corretto da seguire?','Multipla','','',80,20,'Mulettista',0),
+(23,'Nel caso di una forte scossa di terremoto, quale fra i seguenti e` il comportamento corretto da seguire?','Multipla','','',80,20,'Magazziniere',0);
+
+INSERT INTO Risposta VALUES
+(1,'si'), (2,'no'),(3,'1'),(4,'5'),(5,'3'),(6,'112'),(7,'113'),(8,'115'),(9,'118'),(10,'911'),(11,'Assolutamente no'),(12,'Dipende da quanto tempo le utilizzo'),(13,'Non sempre'),(14,'Si se a chiamarmi e` il capo'),(15,'Si e se vedo un poliziotto riattacco'),(16,'Si se utilizzo gli appositi strumenti come un auricolare'),(17,'Si perche` e` il capo'),(18,'Una volta ogni tanto'),(19,'Solo se sono sicuro'),(20,'Solo se faccio attenzione'),(21,'Si perchè nessuno mi vede'),(22,'Solo se sono solo'),(23,'Assolutamente si'),(24,'Proseguo tranquillamente con il mio lavoro'),(25,'Mi faccio prendere dal panico e faccio la prima cosa che mi passa per la testa'),(26,'Mantengo la clama e mi accingo ad uscire dall\'edificio'),(27,'Resto impassibile, l\'edificio e` solido!');
+
+INSERT INTO Domanda_Risposta VALUES
+(1,3,FALSE),(1,4,FALSE),(1,5,TRUE),(2,3,FALSE),(2,4,TRUE),(2,5,FALSE),(3,1,TRUE),(3,2,FALSE),(4,1,TRUE),(4,2,FALSE),(5,1,TRUE),(5,2,FALSE),(6,6,FALSE),(6,7,FALSE),(6,8,FALSE),(6,9,TRUE),(6,10,FALSE),(7,6,FALSE),(7,7,FALSE),(7,8,FALSE),(7,9,TRUE),(7,10,FALSE),(8,6,FALSE),(8,7,FALSE),(8,8,FALSE),(8,9,TRUE),(8,10,FALSE),(9,1,TRUE),(9,2,FALSE),(10,1,FALSE),(10,2,TRUE),(11,11,FALSE),(11,12,FALSE),(11,1,TRUE),(11,13,FALSE),(12,14,FALSE),(12,15,FALSE),(12,16,TRUE),(13,17,FALSE),(13,18,FALSE),(13,11,TRUE),(13,19,FALSE),(14,1,FALSE),(14,2,TRUE),(15,11,TRUE),(15,20,FALSE),(15,21,FALSE),(15,22,FALSE),(16,23,FALSE),(16,11,TRUE),(17,23,FALSE),(17,11,TRUE),(18,23,FALSE),(18,11,TRUE),(19,24,FALSE),(19,25,FALSE),(19,26,TRUE),(19,27,FALSE),(20,24,FALSE),(20,25,FALSE),(20,26,TRUE),(20,27,FALSE),(21,24,FALSE),(21,25,FALSE),(21,26,TRUE),(21,27,FALSE),(22,24,FALSE),(22,25,FALSE),(22,26,TRUE),(22,27,FALSE);
