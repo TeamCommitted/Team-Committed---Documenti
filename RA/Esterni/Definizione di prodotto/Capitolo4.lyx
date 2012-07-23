@@ -1962,7 +1962,7 @@ Login
 
 
 \series bold
-+ boolean loginAdmin(String username, String password)
++ boolean loginAdmin(String username, String password, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -2282,11 +2282,30 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login login)
++ void logoutD(Login login)
 \end_layout
 
 \begin_layout Standard
-Metodo per segnalare al sistema il logout di un utente
+Metodo per segnalare al sistema il logout di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla gestione della
+ richiesta di logout da parte di un utente
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void logoutA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un amministratore.
 \end_layout
 
 \begin_layout Standard
@@ -2980,7 +2999,7 @@ Dipendente
 
 \series bold
 \emph default
-+ boolean rispondi(Login login, Domanda ddomanda)
++ boolean rispondi(Login login, Domanda domanda)
 \end_layout
 
 \begin_layout Standard
@@ -3006,11 +3025,30 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+ void logout(Login login)
++ void logoutD(Login login)
 \end_layout
 
 \begin_layout Standard
-Metodo per segnalare al sistema il logout di un utente
+Metodo per segnalare al sistema il logout di un dipendente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare la funzione della classe Façade deputata alla gestione della
+ richiesta di logout da parte di un utente
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void logoutD(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un amministratore
 \end_layout
 
 \begin_layout Standard
@@ -3872,7 +3910,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public GestioneBadgeD(DAOBadge accessBadge,DAODipendenti accessDip, DAODomande
++ GestioneBadgeD(DAOBadge accessBadge, DAODipendenti accessDip, DAODomande
  accessDom, GestioneLog gestlog, GestioneLogin gestlogin)
 \end_layout
 
@@ -3888,7 +3926,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-public ArrayList<Badge> getBadgeD(Login login, int num)
++ ArrayList<Badge> getBadgeD(Login login, int num)
 \end_layout
 
 \begin_layout Standard
@@ -3936,7 +3974,7 @@ null
 
 
 \emph default
-public boolean assegnaBadge(Domanda domanda, Login login)
++ boolean assegnaBadge(Domanda domanda, Login login)
 \end_layout
 
 \begin_layout Standard
@@ -4137,7 +4175,15 @@ GestioneDati
 \end_layout
 
 \begin_layout Description
-Relazioni
+RelazionRiferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneLog
+\emph default
+i
 \begin_inset space ~
 \end_inset
 
@@ -4474,10 +4520,10 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDati(GestioneRecupero gestRec,GestioneLogin gestLogin, GestioneDomande
-D gestDomD, GestioneDomandeAS gestDomAS, GestioneDipendentiD gestDipD, GestioneD
-ipendentiAA gestDipAA, GestioneBadgeD gestBadgeD, GestioneBadgeAS gestBadgeAS,
- GestionePunteggiD gestPuntD, GestionePunteggiAA GestPuntAA)
++ GestioneDati(GestioneRecupero gestRec, GestioneLogin gestLogin, GestioneDomand
+eD gestDomD, GestioneDomandeAS gestDomAS, GestioneDipendentiD gestDipD,
+ GestioneDipendentiAA gestDipAA, GestioneBadgeD gestBadgeD, GestioneBadgeAS
+ gestBadgeAS, GestionePunteggiD gestPuntD, GestionePunteggiAA GestPuntAA)
 \end_layout
 
 \begin_layout Standard
@@ -4898,7 +4944,7 @@ Dipendenti
 
 
 \series bold
-+ Domanda getDomandaD(Login l) 
++ Domanda getDomandaD(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -5162,11 +5208,44 @@ GestionePunteggiD.
 
 \series bold
 \emph default
-+ void logout(Login login)
++ void logoutD(Login login)
 \end_layout
 
 \begin_layout Standard
-Metodo per segnalare al sistema il logout di un utente.
+Metodo per segnalare al sistema il logout di un dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà 
+\begin_inset Quotes eld
+\end_inset
+
+passare la chiamata
+\begin_inset Quotes erd
+\end_inset
+
+ al metodo deputato alla gestione dei logout
+\emph on
+ 
+\emph default
+nella classe 
+\emph on
+GestioneLogin.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph default
++ void logoutA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un amministratore.
 \end_layout
 
 \begin_layout Standard
@@ -5531,6 +5610,12 @@ back.access.DAODipendenti
 back.condivisi.Dipendente
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -5547,6 +5632,26 @@ Riferimento all'istanza della classe
 DAODipendenti
 \emph default
 , opportunamente istanziato alla corretta tipologia di database utilizzato
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- GestioneLog gestLog
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneLog
 \end_layout
 
 \begin_layout Subsection*
@@ -5556,7 +5661,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDipendentiAA(DAODipendenti accessDip)
++ GestioneDipendentiAA(DAODipendenti accessDip, GestioneLog gestLog)
 \end_layout
 
 \begin_layout Standard
@@ -5720,6 +5825,33 @@ Access-Tier
 \emph default
  affinchè reperisca le informazioni di un amministratore inserite all'interno
  del database.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo per recuperare l'elenco dei ruoli di un'azienda.
+\end_layout
+
+\begin_layout Standard
+Dovrà interrogare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè restituisca un 
+\family typewriter
+ArrayList<String>
+\family default
+ contenente tutti i ruoli inseriti in database, quindi dovrà restituirlo
+ al chiamante.
 \end_layout
 
 \begin_layout Standard
@@ -5992,7 +6124,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 
 
 \series bold
-+ Dipendente getDati(Login login)
++ Dipendente getDatiD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -6313,6 +6445,12 @@ back.access.DAODomande
 back.condivisi.Domanda
 \end_layout
 
+\begin_layout Itemize
+
+\family typewriter
+back.controller.GestioneLog
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -6329,6 +6467,26 @@ Riferimento all'istanza della classe
 DAODipedenti, 
 \emph default
 opportunamente istanziato alla corretta tipologia di database utilizzato
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+- GestioneLog gestLog
+\end_layout
+
+\begin_layout Standard
+Riferimento
+\series bold
+ 
+\series default
+all'istanza della classe 
+\emph on
+GestioneLog
 \end_layout
 
 \begin_layout Subsection*
@@ -6338,7 +6496,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneDomandeAS(DAODomande accessDom)
++ GestioneDomandeAS(DAODomande accessDom, GestioneLog gestLog)
 \end_layout
 
 \begin_layout Standard
@@ -7166,64 +7324,7 @@ Funzione
 \end_inset
 
 Questa classe si occuperà di creare le stringhe che poi andranno inserite
- all'interno nel file di log.
-\begin_inset Newline newline
-\end_inset
-
-La struttura dovrà essere di questo tipo 
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Gli elementi variabili che variano a seconda del messaggio da inserire sono
- specificati metodo per metodo e sono individuati, nella struttura riportata,
- tramite le parentesi angolate
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\emph on
-<TIPO_OPERAZIONE> DATA ORA 
-\begin_inset Quotes eld
-\end_inset
-
-usr=
-\begin_inset Quotes erd
-\end_inset
-
-USERNAME <VARI>
-\emph default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
+ nelle tabelle dei log all'interno del database aziendale.
 \end_layout
 
 \begin_layout Description
@@ -7291,6 +7392,12 @@ back.access.UpdateLog
 \begin_layout Itemize
 
 \family typewriter
+back.access.DAODipendenti
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
 back.condivisi.Login
 \end_layout
 
@@ -7317,7 +7424,7 @@ Attributi
 \end_layout
 
 \begin_layout Standard
-Riferimento all'ultima istanza creata della classe 
+Riferimento all'istanza della classe 
 \emph on
 UpdateLog
 \emph default
@@ -7332,46 +7439,15 @@ UpdateLog
 \begin_inset Newline newline
 \end_inset
 
-- String percorso
+- DAODipendenti daoDipendenti
 \end_layout
 
 \begin_layout Standard
-Contiene l'indirizzo base dell'ultimo log scritto.
- Nel caso l'oggetto 
+Riferimento all'istanza della classe 
 \emph on
-GestioneLog
+DAODipendenti
 \emph default
- sia stato appena inizializzato, 
-\emph on
-percorso=
-\series bold
-null
-\series default
-\emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-- String log
-\end_layout
-
-\begin_layout Standard
-Contiene il messaggio dell'ultimo log scritto.
- Nel caso l'oggetto 
-\emph on
-GestioneLog
-\emph default
- sia stato appena inizializzato, 
-\emph on
-log=
-\series bold
-null
+, opportunamente istanziato alla corretta tipologia di database utilizzato
 \end_layout
 
 \begin_layout Subsection*
@@ -7381,33 +7457,13 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ GestioneLog()
++ GestioneLog(UpdateLog upLog, DAODipendenti daoDip)
 \end_layout
 
 \begin_layout Standard
-Costruttore senza parametri della classe 
-\emph on
-GestioneLog
-\emph default
-.
- 
-\end_layout
-
-\begin_layout Standard
-Dovrà assegnare alla variabile 
-\emph on
-updateLog
-\emph default
- il riferimento ad un nuovo oggetto di tipo 
-\emph on
-UpdateLog 
-\emph default
-con parametri vuoti e, nel caso del sollevamento di un'eccezione, dovrà
- assegnare il valore 
-\emph on
-null
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
 \series bold
-\emph default
 
 \begin_inset Newline newline
 \end_inset
@@ -7416,7 +7472,7 @@ null
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviLogin(Login login)
++ void scriviLoginD(Login login)
 \end_layout
 
 \begin_layout Standard
@@ -7425,28 +7481,54 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
+Access-Tier
+\emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginD
+\emph default
+ che un dipendente ha effettuato login.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\begin_inset Newline newline
 \end_inset
 
-LOGIN
-\begin_inset Quotes erd
+
+\begin_inset Newline newline
 \end_inset
 
 
 \series bold
++ void scriviLoginA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un login effettuato correttamente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare l'
+\emph on
+Access-Tier
 \emph default
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginA
+\emph default
+ che un amministratore ha effettuato login.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
 \begin_inset Newline newline
 \end_inset
 
 
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviLogout(Login login) 
++ void scriviLogoutD(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -7455,19 +7537,45 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-LOGOUT
-\begin_inset Quotes erd
-\end_inset
-
-
-\series bold
+Access-Tier
 \emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLogoutD
+\emph default
+ che un dipendente ha effettuato logout.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void scriviLogoutA(Login login) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un logout effettuato correttamente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLogoutA
+\emph default
+ che un amministratore ha effettuato logout.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\series bold
 
 \begin_inset Newline newline
 \end_inset
@@ -7485,42 +7593,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA RICEVUTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogRicevuta 
+\emph default
+che un dipendente ha ricevuto una nuova domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda ricevuta.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDomProp(Login login, Domanda dom) 
 \end_layout
 
@@ -7530,33 +7622,18 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA PROPOSTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
-\series bold
+Access-Tier
 \emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogProposta 
+\emph default
+che ad un dipendente è stata proposta una nuova domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda proposta.
+\series bold
 
 \begin_inset Newline newline
 \end_inset
@@ -7575,42 +7652,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA POSTICIPATA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogPosticipa 
+\emph default
+che un dipendente ha posticipato una domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda posticipata.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDomRisp(Login login, Domanda dom)
 \end_layout
 
@@ -7620,42 +7681,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA RISPOSTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogRisposta 
+\emph default
+che un dipendente ha risposto una domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda a cui si è data risposta.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviModPassD(Dipendente dip)
 \end_layout
 
@@ -7665,28 +7710,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-MODIFICA PASS D
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogModificaDip 
+\emph default
+che un dipendente ha modificato la propria password.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di modifica.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviModEmailD(Dipendente dip)
 \end_layout
 
@@ -7696,28 +7739,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-MODIFICA EMAIL D
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogModificaDip 
+\emph default
+che un dipendente ha modificato il proprio indirizzo email.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di modifica.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviOttenimentoBadge(Dipendente dip, Badge badge)
 \end_layout
 
@@ -7727,43 +7768,27 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-OTTENIMENTO BADGE
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-badge=
-\begin_inset Quotes erd
-\end_inset
-
- + <nome badge>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+OttenimentoBadge 
+\emph default
+che un dipendente ha ottenuto un nuovo badge.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id del badge.
 \series bold
- void scriviAddDip(Dipendente dip) 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void scriviAddDip(Dipendente dip) 
 \end_layout
 
 \begin_layout Standard
@@ -7772,28 +7797,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-AGGIUNTO DIPENDENTE
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+ModDipendente 
+\emph default
+che un nuovo dipendente è stato aggiunto.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di operazione.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDelDip(Dipendente dip) 
 \end_layout
 
@@ -7803,28 +7826,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-RIMOSSO DIPENDENTE
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+ModDipendente 
+\emph default
+che un dipendente è stato rimosso.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di operazione.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviModDip(Dipendente dip)
 \end_layout
 
@@ -7834,28 +7855,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-MODIFICATO DIPENDENTE
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+ModDipendente 
+\emph default
+che le informazioni di un dipendente sono state modificate.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di operazione.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviAddDomande(Domanda [] dom)
 \end_layout
 
@@ -7865,42 +7884,27 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-AGGIUNTA DOMANDA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id delle domande>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+AddRemDomanda 
+\emph default
+che una nuova domanda è stata inserita nella lista delle domande sottoponibili
+ ai dipendenti.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di operazione.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDelDomande(Domanda [] dom) 
 \end_layout
 
@@ -7910,40 +7914,25 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE= 
-\begin_inset Quotes eld
-\end_inset
-
-RIMOSSA DOMANDA
-\begin_inset Quotes erd
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id delle domande>
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Access-Tier
 \emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+AddRemDomanda 
+\emph default
+che una domanda è stata rimossa dalla lista delle domande sottoponibili
+ ai dipendenti.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di operazione.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Vengono quindi definiti i metodi getter/setter per i vari attributi della
  classe.
  In particolare:
@@ -7965,22 +7954,6 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \end_inset
 
 + void setUpdateLog(UpdateLog updateLog)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ String getPercorso()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ String getLog()
 \end_layout
 
 \begin_layout Standard
@@ -8267,11 +8240,25 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 
 
 \series bold
-+ void logout(Login login)
++ void logoutD(Login login)
 \end_layout
 
 \begin_layout Standard
-Metodo per segnalare al sistema il logout di un utente
+Metodo per segnalare al sistema il logout di un dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void logoutA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un amministratore
 \end_layout
 
 \begin_layout Standard
@@ -9163,12 +9150,33 @@ Access-Tier
 
 
 \series bold
-+ static void sendMailInserito(String destinatario, String messaggio)
++ static void sendMail(String destinatario, String messaggio)
 \end_layout
 
 \begin_layout Standard
 Metodo che si occupa di inviare una mail all'utente che ha richiesto il
  ripristino della password.
+\end_layout
+
+\begin_layout Standard
+Dovrà creare una connessione con il server SMTP indicato nella configurazione
+ interna al metodo, quindi tentare di inviare il messaggio.
+ Nel caso ci sia un errore, dovrà lanciare un'eccezione di tipo 
+\series bold
+RuntimeException.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static void sendMailInserito(String destinatario, String messaggio)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare una mail all'utente che è stato inserito
+ all'interno del sistema.
 \end_layout
 
 \begin_layout Standard
@@ -9826,7 +9834,13 @@ null
 \end_layout
 
 \begin_layout Standard
-Metodo che assegna una Badge ad un Dipendente
+Metodo che assegna un Badge ad un Dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà passare dei parametri alla classe deputata all'interazione con il
+ database.
+ Tali parametri dovranno includere l'id del dipendente e del badge assegnato
 \end_layout
 
 \begin_layout Standard
@@ -10272,6 +10286,20 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 \begin_layout Standard
 Metodo che resetta la password (casuale) di un Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperate l'elenco dei ruoli aziendali
 \end_layout
 
 \begin_layout Standard
@@ -10700,6 +10728,20 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 \begin_layout Standard
 Metodo che resetta la password (casuale) di un Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo che restituisce la lista dei ruoli aziendali
 \end_layout
 
 \begin_layout Standard
@@ -11967,7 +12009,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ boolean loginAmministratore(Login login)
++ boolean loginAmministratore(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -12156,7 +12198,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \begin_inset Newline newline
 \end_inset
 
-+ boolean loginAmministratore(Login login)
++ boolean loginAmministratore(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -12559,6 +12601,8 @@ back.condivisi.Dipendente
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Punteggio
 \end_layout
 
@@ -12935,7 +12979,7 @@ colonne:
 \begin_layout Itemize
 
 \series bold
-val: 
+val
 \end_layout
 
 \begin_layout Standard
@@ -13166,6 +13210,16 @@ Questa classe verrà utilizzata dalle seguenti classi:
 back.controller.GestioneLog
 \end_layout
 
+\begin_layout Standard
+Inoltre utilizzerà le segunti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.Indirizzo
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -13173,11 +13227,12 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- PrintWriter out
+- private Indirizzo serverAzienda
 \end_layout
 
 \begin_layout Standard
-Riferimento al file dei log
+Riferimento all'istanza della classe Indirizzo contenente i riferimenti
+ al server aziendale
 \end_layout
 
 \begin_layout Subsection*
@@ -13187,55 +13242,55 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ UpdateLog(String path)
++ UpdateLog(Indirizzo azienda)
 \end_layout
 
 \begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
-\series bold
-
+Costruttore che imposta il valore degli attributi secondo il valore dei
+ parametri passati.
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-+ void finalize()
-\end_layout
-
-\begin_layout Standard
-Distruttore della classe: dovrà chiudere lo stream al file di log
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-+ void scrivi(String log)
++ void scriviLogTre(String nomeTabella, Dipendente dip, String dataOra)
 \end_layout
 
 \begin_layout Standard
-Aggiunge una nuova riga al file di log senza chiudere lo stream verso il
- file
+Metodo che scrive un log di login o logout nelle relative tabelle.
+\end_layout
+
+\begin_layout Standard
+Dovrà prelevare i parametri che gli sono stati passati, riordinarli e chiamare
+ la classe 
+\emph on
+Indirizzo
+\emph default
+ affinchè inserisca una nuova riga nel database aziendale.
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-+ void scriviChiudi(String log)
++ void scriviLogQuattro(String nomeTabella, Dipendente dip, String dataOra,
+ String colonna, String descrizione)
 \end_layout
 
 \begin_layout Standard
-Aggiunge una nuova riga al file e chiude lo stream al file di log
+Metodo che scrive un log specifico nella tabella data.
+\end_layout
+
+\begin_layout Standard
+Dovrà prelevare i parametri che gli sono stati passati, riordinarli e chiamare
+ la classe Indirizzo affinchè inserisca una nuova riga nel database aziendale.
 \end_layout
 
 \begin_layout Standard
