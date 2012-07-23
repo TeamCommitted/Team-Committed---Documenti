@@ -2190,7 +2190,7 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- static Browser singleton = null
+- static Browser singleton
 \end_layout
 
 \begin_layout Standard
@@ -3435,7 +3435,7 @@ Metodi
 \begin_layout Standard
 +
 \series bold
-ControlNotifica(String s, ConnBack b)
+ControlNotifica()
 \end_layout
 
 \begin_layout Standard
@@ -3899,6 +3899,20 @@ metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
 \begin_inset Newline newline
 \end_inset
 
+
+\series bold
+- void apri()
+\end_layout
+
+\begin_layout Standard
+metodo che apre il file in lettura
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 +
 \series bold
 boolean isOpen()
@@ -4157,7 +4171,7 @@ Metodi
 \begin_layout Standard
 + 
 \series bold
-Timer(int t)
+Timer(long tot_tempo, int id)
 \end_layout
 
 \begin_layout Standard
@@ -4171,7 +4185,7 @@ costruttore che dovrà inizializzare il tempo in millisecondi
 
 +
 \series bold
-run()
+void run()
 \end_layout
 
 \begin_layout Standard
@@ -4196,7 +4210,7 @@ prossimo giro
 
 +
 \series bold
-setTempo(int t)
+void setTempo(int t)
 \end_layout
 
 \begin_layout Standard
@@ -4211,7 +4225,7 @@ metodo che permette di resettare il tempo dell'oggetto, così da evitare
 
 +
 \series bold
-getFinito()
+boolean getFinito()
 \end_layout
 
 \begin_layout Standard
@@ -4225,7 +4239,7 @@ metodo che ritorna lo stato del termine di un ciclo di attesa
 
 +
 \series bold
-getTempo()
+long getTempo()
 \end_layout
 
 \begin_layout Standard
@@ -4468,12 +4482,6 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 
 \family typewriter
 desktop.logic.DatiLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Subsection*
