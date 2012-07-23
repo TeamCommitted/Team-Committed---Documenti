@@ -7543,7 +7543,7 @@ Access-Tier
 \emph default
  affinchè scriva all'interno della tabella 
 \emph on
-LogLoginA
+LogLogoutD
 \emph default
  che un dipendente ha effettuato logout.
  Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
@@ -7571,9 +7571,9 @@ Access-Tier
 \emph default
  affinchè scriva all'interno della tabella 
 \emph on
-LogLoginA
+LogLogoutA
 \emph default
- che un dipendente ha effettuato logout.
+ che un amministratore ha effettuato logout.
  Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
 \series bold
 
@@ -7593,42 +7593,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA RICEVUTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogRicevuta 
+\emph default
+che un dipendente ha ricevuto una nuova domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda ricevuta.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDomProp(Login login, Domanda dom) 
 \end_layout
 
@@ -7638,33 +7622,18 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA PROPOSTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
-\series bold
+Access-Tier
 \emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogProposta 
+\emph default
+che ad un dipendente è stata proposta una nuova domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda proposta.
+\series bold
 
 \begin_inset Newline newline
 \end_inset
@@ -7683,42 +7652,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA POSTICIPATA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogPosticipa 
+\emph default
+che un dipendente ha posticipato una domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda posticipata.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviDomRisp(Login login, Domanda dom)
 \end_layout
 
@@ -7728,42 +7681,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-DOMANDA RISPOSTA
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-VARI = 
-\begin_inset Quotes eld
-\end_inset
-
-id dom=
-\begin_inset Quotes erd
-\end_inset
-
- + <id della domanda>
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogRisposta 
+\emph default
+che un dipendente ha risposto una domanda.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e l'id della domanda a cui si è data risposta.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviModPassD(Dipendente dip)
 \end_layout
 
@@ -7773,28 +7710,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-MODIFICA PASS D
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogModificaDip 
+\emph default
+che un dipendente ha modificato la propria password.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di modifica.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviModEmailD(Dipendente dip)
 \end_layout
 
@@ -7804,28 +7739,26 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-MODIFICA EMAIL D
-\begin_inset Quotes erd
-\end_inset
-
-
+Access-Tier
 \emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogModificaDip 
+\emph default
+che un dipendente ha modificato il proprio indirizzo email.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta
+ e la tipologia di modifica.
 \series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + void scriviOttenimentoBadge(Dipendente dip, Badge badge)
 \end_layout
 
