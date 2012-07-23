@@ -1,0 +1,493 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Specifica pagine jsp
+\end_layout
+
+\begin_layout Subsection
+Descrizione di dettaglio delle pagine JSP
+\end_layout
+
+\begin_layout Standard
+Questa sezione descrive nel dettaglio il funzionamento e le caratteristiche
+ delle pagine jsp che implementano il package com.safetyGame.frontWeb.
+\end_layout
+
+\begin_layout Subsubsection
+addTrofeo.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve tramite request method GET l'id del dipendente cui
+ bisogna aggiungere un trofeo.
+ Tramite id recupera il l'oggetto dipendente dal back-end, quindi ne aumenta
+ il numero di Trofei di 1.
+ E' raggiungibile ed utilizzabile esclusivamente da un Amministratore Azienda.
+\end_layout
+
+\begin_layout Subsubsection
+admin_page.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di fornire le informazioni di base sull'account
+ agli amministratori (siano essi Amministratori Azienda o Sicurezza).
+ Tramite cookie riconosce la differenza fra Amministratore Aienda e Amministrato
+re Sicurezza e offre loro due menù differenti.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+aggiungiDomande.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce ad un Amministratore Sicurezza l'interfaccia per
+ inserire nuove domande nel database aziendale.
+ Dopo aver recuperato dal back-end l'elenco delle domande inseribili le
+ inserisce in un form tabellare, dal quale l'utente potrà selezionare una
+ o più domande da inserire.
+ Infine, il form invia (tramite POST) alla pagina checkAggiungiDomande.jsp
+ la lista degli id delle domande da inserire.
+\end_layout
+
+\begin_layout Subsubsection
+checkAggiungiDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina gestioneDipendenti.jsp una
+ 5-upla di elementi (nome, cognome, codice fiscale, email e ruolo) necessari
+ alla creazione di un nuovo dipendente.
+ Dopo aver creato un nuovo oggetto Dipendente con tali dati, invia una richiesta
+ di inserimento al back-end.
+ Prima di inviare tale richiesta effettua un controllo (tramite regular
+ expression) sulla validità dell'indirizzo email (il quale, se errato, genera
+ errore nel componente Javamail).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+checkAggiungiDomande.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina, diversamente da quanto faccia intendere il nome, si occupa
+ sia dell'inserimento che della rimozione delledomande dal database aziendale.
+ Riceve (tramite POST) dalle pagine aggiungiDomande.jsp o rimuoviDomande.jsp
+ l'elenco delle domande da spostare.
+ Quindi, recupera tali domande tramite back-end e tramite la funzione isInternaA
+zienda riconosce se deve aggiungere o rimuovere domande dal database aziendale.
+\end_layout
+
+\begin_layout Subsubsection
+checkDelDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite GET) dalla pagina eliminaDipendente.jsp l'id
+ del dipendente da eliminare.
+ Tramite id ottiene l'oggetto Dipendente da eliminare, quindi fa richiesta
+ al back-end di rimuoverlo.
+\end_layout
+
+\begin_layout Subsubsection
+checkLogin.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) una tripla di valori (username, password
+ e ambito) dalla pagina login.jsp.
+ Con il valore Ambito riconosce se effettuare un login Amministratore o
+ un login Dipendente, quindi richiama la funzione corretta del back-end
+ passando i valori username e password.
+ Il back-end comunica il successo o fallimento dell'operazione.
+ In caso di successo la pagina salva questa tripla di valori in 3 cookie
+ differenti, quindi reindirizza alla pagina index.jsp.
+ In caso di fallimento segnale errore.
+\end_layout
+
+\begin_layout Subsubsection
+checkModDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina modificaDipendente.jsp una
+ 6-upla di valori da assegnare il dipendente.
+ Questivalori vengo quindi assegnati ad un oggetto Dipendente, il quale
+ viene comunicato al back-end per sostiruirlo all'oggetto Dipendente precedente.
+\end_layout
+
+\begin_layout Subsubsection
+checkModEmailD.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina modEmailD.jsp una coppia
+ di valori (nuova email e password), quindi li passa al back-end per richiedere
+ il cambio password.
+ Prima della richiesta al back-end viene effettuato un controllo sulla validità
+ dell'indirizzo email.
+\end_layout
+
+\begin_layout Subsubsection
+checkModPassA.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina modPassA.jsp una tripla
+ di valori (nuova password, conferma nuova password e vecchia password)
+ sui quali esegue una serie di controlli di validità (coerenza delle prime
+ due password, correttezza della vecchia password).
+ Se i controllo vanno a buon fine richiede al back-end il cambiamento di
+ password per quell'Amministratore.
+\end_layout
+
+\begin_layout Subsubsection
+checkModPassD.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina modPassD.jsp una tripla
+ di valori (nuova password, conferma nuova password e vecchia password)
+ sui quali esegue una serie di controlli di validità (coerenza delle prime
+ due password, correttezza della vecchia password).
+ Se i controllo vanno a buon fine richiede al back-end il cambiamento di
+ password per quel Dipendente.
+\end_layout
+
+\begin_layout Subsubsection
+checkRecuperoPass.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina recuperaPass.jsp una tripla
+ di valori (email, codice fiscale e ambito).
+ Utilizza il valore di ambito per differenziare il recupero password da
+ un Amministratore ad un Dipendente.
+ Dopo aver individuato la funzione corretta la richiama passando i parametri
+ email e codice fiscale.
+\end_layout
+
+\begin_layout Subsubsection
+checkRisposta.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite POST) dalla pagina nuovaDomanda.jsp il valore
+ della risposta ottenuta per poi comunicarlo al back-end.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+eliminaDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve (tramite GET) dalla pagina gestioneDipendenti l'id
+ del dipendente da rimuovere.
+ Recupera dal back-end le informazioni relative a quel dipendente, quindi
+ le mostra all'utente per chiedere conferma sull'eliminazione.
+ In caso di conferma richiama la pagina checkDelDipendente.jsp, passando
+ come parametro GET prprio l'id che lei stessa ha ricevuto.
+\end_layout
+
+\begin_layout Subsubsection
+forzaCambioPass.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina contiene solo poche righe di codice e non viene mai utilizzata
+ da sola, ma sempre inclusa in altre pagine.
+ Recupera dal back-end le informazioni relative all'utente che vi accede;
+ nel caso in cui l'utente abbia effettuato l'acesso con la password fornita
+ (tramite email) dal sistema impedisce l'accesso a tutte le pagine che non
+ siano la pagina per il cambio password.
+\end_layout
+
+\begin_layout Standard
+Specifica per i Dipendenti.
+\end_layout
+
+\begin_layout Subsubsection
+forzaCambioPassA.jsp
+\end_layout
+
+\begin_layout Standard
+Ha le stesse funzioni della pagina precedente, ma specifiche per gli amministrat
+ori.
+\end_layout
+
+\begin_layout Subsubsection
+gestioneDipendenti.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce all'Amministratore Azienda l'interfaccia per visualizzare
+, modificare, eliminare o aggiungere un nuovo dipendente.
+ 
+\end_layout
+
+\begin_layout Standard
+Un form tabellare permette di visualizzare l'elenco dei dipendenti, quindi
+ accedere alla loro visualizzazione, modifica o rimozione (richiamando,
+ rispettivamente, le pagine visualizzaDipendente.jsp, modificaDipendente.jsp
+ e eliminaDipendente.jsp) passando l'id del dipendente tramite GET.
+\end_layout
+
+\begin_layout Standard
+Un form classico, invece, permette di raccogliere le informazioni relative
+ ad un nuovo dipendente ed inviarle (tramite POST) alla pagine aggiungiDipendent
+e.jsp
+\end_layout
+
+\begin_layout Subsubsection
+getCookies.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina non viene mai eseguita autonomamente, ma viene sempre inclusa
+ in altre pagine.
+ Serve a recuperare i cookie salvati ed inserirli in variabili differenti.
+ In caso di cookie mancanti effettua un redirect alla pagina login.jsp.
+\end_layout
+
+\begin_layout Subsubsection
+index.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina non comunica con il backend.
+ Si occupa esclusivamente di analizzare i cookie e, tramite essi, riconoscere
+ che tipo di utente sia collegato, quindi effettua un redirect alla user_page.jsp
+ per i Dipendente, admin_page.jsp per gli amministratori e login.jsp in caso
+ in cui non sia stato effettuato alcun login.
+\end_layout
+
+\begin_layout Subsubsection
+login.jsp
+\end_layout
+
+\begin_layout Standard
+Fornisce l'interfaccia e il form per poter effettuare il login.
+ Passa (tramite POST) una tripla di paramentri (username, password e ambito)
+ alla pagina checkLogin.jsp.
+\end_layout
+
+\begin_layout Subsubsection
+logout.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina dealloca tutti i possibili cookie creati dal resto dell'applicazio
+ne.
+ Infine, a seconda che l'utente che effettua il logout sia un Amministratore
+ o un Dipendente, richiama la funzione logoutD() o logoutA() del back-end
+ per permettere la gestione dei log.
+\end_layout
+
+\begin_layout Subsubsection
+modEmailD.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce l'interfaccia per la modifica dell'email di un Dipendente.
+ Richiede una coppia di valori (nuova email e passworrd) che passa (tramite
+ POST) alla pagina checkModEmailD.
+\end_layout
+
+\begin_layout Subsubsection
+modificaDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce l'interfaccia per permettere ad un Amministratore
+ Azienda di modificare i dati di un certo dipendente.
+ Tramite GET ottiene l'ide dell'utente da modificare.
+ Dopodichè recupera le informazioni dal back-end e le inserisce in un form
+ (come valori di default).
+ Tale form comunicherà tali valori (siano essi modificati o meno) alla pagina
+ checkModDipendente.jsp
+\end_layout
+
+\begin_layout Subsubsection
+modPassA.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce l'interfaccia per la modifica della password da parte
+ di un Amministratore.
+ Questi dovrà compilare un form, il quale (tramite POST) invierà una tripla
+ di valori (nuova password, conferma nuova password e vecchia password)
+ alla pagina checkModPassA.jsp.
+\end_layout
+
+\begin_layout Subsubsection
+modPassD.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce l'interfaccia per la modifica della password da parte
+ di un Dipendente.
+ Questi dovrà compilare un form, il quale (tramite POST) invierà una tripla
+ di valori (nuova password, conferma nuova password e vecchia password)
+ alla pagina checkModPassD.jsp.
+\end_layout
+
+\begin_layout Subsubsection
+nuovaDomanda.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di richiedere al back-end una nuova domanda.
+ Ogni Dipendente può scegliere quando richiedere una nuova domanda.
+ Nel caso in cui non sia passato abbastanza tempo dall'ultima domanda la
+ pagina mostra un messaggio di errore.
+ Diversamente, il back-end comunicherà la successiva domanda da somministrare
+ al Dipendente.
+ Nel caso in cui non siano disponibili ulteriori domande verrà vsualizzato
+ un messaggio di errore.
+\end_layout
+
+\begin_layout Subsubsection
+recuperaPass.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina è l'unica (assieme a login.jsp) raggiungibile da un utente
+ non autenticato.
+ Fornisce il form per l'inserimento dei dati necessari al recupero password
+ (la tipla di valori indirizzo email, codice fiscale e ambito) che vengono
+ poi inviati (tramite POST) alla pagine checkRecuperoPass,jsp
+\end_layout
+
+\begin_layout Subsubsection
+rimuoviDomande.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina fornisce ad un Amministratore Sicurezza l'interfaccia per
+ rimuovere domande presenti nel database aziendale.
+ Dopo aver recuperato dal back-end l'elenco delle domande presenti le inserisce
+ in un form tabellare, dal quale l'utente potrà selezionare una o più domande
+ da rimuovere.
+ Infine, il form invia (tramite POST) alla pagina checkAggiungiDomande.jsp
+ la lista degli id delle domande da rimuovere.
+\end_layout
+
+\begin_layout Subsubsection
+subTrofeo.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina riceve tramite request method GET l'id del dipendente cui
+ bisogna rimuovere un trofeo.
+ Tramite id recupera il l'oggetto dipendente dal back-end, quindi ne riduce
+ il numero di Trofei di 1.
+ E' raggiungibile ed utilizzabile esclusivamente da un Amministratore Azienda.
+\end_layout
+
+\begin_layout Subsubsection
+user_page.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di fornire le informazioni di base sull'account
+ ai Dipendenti e le statistiche personali (punteggio, Trofei e Badge).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+visualizzaDatiA.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di recuperare dal back-end le informazioni relative
+ all'Amministratore che ha effettuato l'accesso e di mostrarle a video.
+\end_layout
+
+\begin_layout Subsubsection
+visualizzaDatiD.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di recuperare dal back-end le informazioni relative
+ al Dipendente che ha effettuato l'accesso e di mostrarle a video.
+ A fondo pagina è disponibile un piccolo menù, il quale sarà utilizzato
+ dal dipendente per accedere alle pagine di modifica email e password.
+\end_layout
+
+\begin_layout Subsubsection
+visualizzaDipendente.jsp
+\end_layout
+
+\begin_layout Standard
+Questa pagina si occupa di mostrare ad un Amministratore Azienda le informazioni
+ relative ad un certo Dipendente.
+ Tramite GET riceve l'id del Dipendente interessato, ne recupera i dati
+ dal back-end e li mostra a video.
+ Infine permette (con un piccolo menù acanto la visualizzazione dei trofei)
+ di aggiungere o rimuovere trofei al dipendente.
+\end_layout
+
+\end_body
+\end_document
