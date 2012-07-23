@@ -7325,63 +7325,6 @@ Funzione
 
 Questa classe si occuperà di creare le stringhe che poi andranno inserite
  nelle tabelle dei log all'interno del database aziendale.
-\begin_inset Newline newline
-\end_inset
-
-La struttura dovrà essere di questo tipo 
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Gli elementi variabili che variano a seconda del messaggio da inserire sono
- specificati metodo per metodo e sono individuati, nella struttura riportata,
- tramite le parentesi angolate
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\emph on
-<TIPO_OPERAZIONE> DATA ORA 
-\begin_inset Quotes eld
-\end_inset
-
-usr=
-\begin_inset Quotes erd
-\end_inset
-
-USERNAME <VARI>
-\emph default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Description
@@ -7538,28 +7481,54 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
+Access-Tier
+\emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginD
+\emph default
+ che un dipendente ha effettuato login.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\begin_inset Newline newline
 \end_inset
 
-LOGIN
-\begin_inset Quotes erd
+
+\begin_inset Newline newline
 \end_inset
 
 
 \series bold
++ void scriviLoginA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un login effettuato correttamente.
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare l'
+\emph on
+Access-Tier
 \emph default
-
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginA
+\emph default
+ che un amministratore ha effettuato login.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
 \begin_inset Newline newline
 \end_inset
 
 
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
-+ void scriviLogout(Login login) 
++ void scriviLogoutD(Login login) 
 \end_layout
 
 \begin_layout Standard
@@ -7568,19 +7537,45 @@ Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
 \end_layout
 
 \begin_layout Standard
-
+Dovrà chiamare l'
 \emph on
-TIPO_OPERAZIONE = 
-\begin_inset Quotes eld
-\end_inset
-
-LOGOUT
-\begin_inset Quotes erd
-\end_inset
-
-
-\series bold
+Access-Tier
 \emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginA
+\emph default
+ che un dipendente ha effettuato logout.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void scriviLogoutA(Login login) 
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare alla classe UpdateLog la stringa da inserire
+ nel file di log dopo un logout effettuato correttamente
+\end_layout
+
+\begin_layout Standard
+Dovrà chiamare l'
+\emph on
+Access-Tier
+\emph default
+ affinchè scriva all'interno della tabella 
+\emph on
+LogLoginA
+\emph default
+ che un dipendente ha effettuato logout.
+ Dovrà inoltre specificare la data e l'ora in cui l'operazione è avvenuta.
+\series bold
 
 \begin_inset Newline newline
 \end_inset
