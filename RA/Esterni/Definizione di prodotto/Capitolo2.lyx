@@ -70,7 +70,7 @@ Standard di progettazione architetturale
 \begin_layout Standard
 Per gli standard di progettazione architetturale, si veda il documento 
 \emph on
-Specifica Tecnica - V 2.0
+Specifica Tecnica - V 3.0
 \emph default
 .
 \end_layout
@@ -83,7 +83,7 @@ Standard di documentazione del codice
 La documentazione del codice sarà prodotta come Javadoc.
  Per ulteriori informazioni si vedano le 
 \emph on
-Norme di Progetto - V 3.0
+Norme di Progetto - V 4.0
 \emph default
 .
 \end_layout
@@ -96,7 +96,7 @@ Standard di denominazione di entità e relazioni
 Entità e relazioni devono avere nomi chiari, coincisi ed esplicativi.
  Per ulteriori informazioni si faccia riferimento alle 
 \emph on
-Norme di Progetto - V 3.0
+Norme di Progetto - V 4.0
 \emph default
 .
 \end_layout
@@ -108,7 +108,7 @@ Standard di programmazione
 \begin_layout Standard
 Per gli standard di programmazione si vedano le 
 \emph on
-Norme di Progetto - V 3.0
+Norme di Progetto - V 4.0
 \emph default
 .
 \end_layout
@@ -120,7 +120,7 @@ Strumenti di lavoro
 \begin_layout Standard
 Per gli strumenti di lavoro si faccia riferimento alle 
 \emph on
-Norme di Progetto - V 3.0
+Norme di Progetto - V 4.0
 \emph default
 .
 \end_layout
