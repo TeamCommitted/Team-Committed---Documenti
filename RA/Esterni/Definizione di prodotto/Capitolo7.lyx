@@ -4247,15 +4247,15 @@ Attributi
 \begin_layout Standard
 
 \series bold
+- private id
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 - String type
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-- String title
 \begin_inset Newline newline
 \end_inset
 
@@ -4292,6 +4292,30 @@ boolean mobile
 \end_inset
 
 - int tempo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- int punteggio
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- int corretta
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- int numeroRisposte
 \end_layout
 
 \begin_layout Subsection*
@@ -4303,7 +4327,27 @@ Metodi
 \begin_layout Standard
 
 \series bold
-public Domanda(String type, String title, String testo)
+public Domanda(int id, String type, String testo, int punteggio, int corretta)
+\end_layout
+
+\begin_layout Standard
+Costruttore che dovrà impostare il valore degli attributi secondo il valore
+ dei parametri passati.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+public Domanda(int id, String type, String testo, String[] risposte, int
+ numeroRisposte, int punteggio, int corretta, int tempo, boolean mobile)
 \end_layout
 
 \begin_layout Standard
@@ -4332,15 +4376,15 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \begin_inset Newline newline
 \end_inset
 
++ int getId()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 + String getType()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ String getTitle()
 \begin_inset Newline newline
 \end_inset
 
@@ -4364,7 +4408,31 @@ Vengono quindi definiti i metodi getter/setter per i vari attributi della
 \begin_inset Newline newline
 \end_inset
 
-+ bollean isMobile()
++ int getPunteggio()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ int getCorretta()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ int getNumR()
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean isMobile()
 \begin_inset Newline newline
 \end_inset
 

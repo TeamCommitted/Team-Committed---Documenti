@@ -686,9 +686,7 @@ Utente
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-checkLogin.jsp
+: checkLogin.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -712,9 +710,7 @@ Dipendente
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-user_page.jsp
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -739,9 +735,7 @@ Amministratore Sicurezza
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-checkAggiungiDomande.jsp
+: checkAggiungiDomande.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -791,9 +785,31 @@ Utente
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-admin_page.jsp, user_page.jsp
+:admin_page.jsp, user_page.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraDatiAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare i dati dell'azienda di appertenenza dell'
+\bar under
+Utente
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+File JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -814,9 +830,7 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-user_page.jsp
+: user_page.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -837,9 +851,7 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-js/countdown.js
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -860,9 +872,27 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-checkAggiungiDipendente.jsp
+: checkAggiungiDipendente.jsp
+\end_layout
+
+\begin_layout Subsubsection
+com.safetyGame.frontWeb.control.ControlMostraStatAA
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Funzione
+\series default
+: Si occupa di recuperare le statistiche relative ad un'azienda dal back-end
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+File JSP che implementano il componente
+\series default
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -883,9 +913,7 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-nuovaDomanda.jsp
+: nuovaDomanda.jsp
 \end_layout
 
 \begin_layout Subsubsection
@@ -910,9 +938,7 @@ Amministratore Azienda
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-modPassA.jsp
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -937,9 +963,7 @@ Amministratore Sicurezza
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-modPassA.jsp
+: al momento nessuna pagina implementa questo componente.
 \end_layout
 
 \begin_layout Subsubsection
@@ -960,9 +984,7 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-checkAggiungiDomande.jsp, aggiungiDomande.jsp, rimuoviDomande.jsp
+: checkAggiungiDomande.jsp, 
 \end_layout
 
 \begin_layout Subsubsection
@@ -983,9 +1005,7 @@ Funzione
 \series bold
 File JSP che implementano il componente
 \series default
-: 
-\family typewriter
-checkRecuperoPass.jsp
+: checkRecuperoPass.jsp
 \end_layout
 
 \end_body
