@@ -2911,41 +2911,7 @@ hline
 
 \begin_layout Plain Layout
 
-	com.safetyGame.mobile.view & 760 & 805 & 94,41
-\backslash
-% 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	com.safetyGame.mobile.Utils & 300 & 371 & 80,86
-\backslash
-% 
-\backslash
-
-\backslash
- 
-\backslash
-hline
-\end_layout
-
-\begin_layout Plain Layout
-
-	com.safetyGame.mobile.condivisi & 138 & 138 & 100,00
-\backslash
-% 
-\backslash
-
-\backslash
- 
-\backslash
-hline
+	com.safetyGame.mobile.view 
 \end_layout
 
 \begin_layout Plain Layout
