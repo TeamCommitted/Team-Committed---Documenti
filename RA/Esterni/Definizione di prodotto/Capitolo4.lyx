@@ -12198,7 +12198,7 @@ Costruttore che dovrà impostare il valore degli attributi secondo il valore
 \begin_inset Newline newline
 \end_inset
 
-+ boolean loginAmministratore(Login login)
++ boolean loginAmministratore(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
@@ -12601,6 +12601,8 @@ back.condivisi.Dipendente
 \end_layout
 
 \begin_layout Itemize
+
+\family typewriter
 back.condivisi.Punteggio
 \end_layout
 
@@ -12977,7 +12979,7 @@ colonne:
 \begin_layout Itemize
 
 \series bold
-val: 
+val
 \end_layout
 
 \begin_layout Standard
@@ -13208,6 +13210,16 @@ Questa classe verrà utilizzata dalle seguenti classi:
 back.controller.GestioneLog
 \end_layout
 
+\begin_layout Standard
+Inoltre utilizzerà le segunti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+back.access.Indirizzo
+\end_layout
+
 \begin_layout Subsection*
 Attributi
 \end_layout
@@ -13215,11 +13227,12 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- PrintWriter out
+- private Indirizzo serverAzienda
 \end_layout
 
 \begin_layout Standard
-Riferimento al file dei log
+Riferimento all'istanza della classe Indirizzo contenente i riferimenti
+ al server aziendale
 \end_layout
 
 \begin_layout Subsection*
@@ -13229,55 +13242,55 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ UpdateLog(String path)
++ UpdateLog(Indirizzo azienda)
 \end_layout
 
 \begin_layout Standard
-Costruttore che dovrà impostare il valore degli attributi secondo il valore
- dei parametri passati.
-\series bold
-
+Costruttore che imposta il valore degli attributi secondo il valore dei
+ parametri passati.
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-+ void finalize()
-\end_layout
-
-\begin_layout Standard
-Distruttore della classe: dovrà chiudere lo stream al file di log
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-+ void scrivi(String log)
++ void scriviLogTre(String nomeTabella, Dipendente dip, String dataOra)
 \end_layout
 
 \begin_layout Standard
-Aggiunge una nuova riga al file di log senza chiudere lo stream verso il
- file
+Metodo che scrive un log di login o logout nelle relative tabelle.
+\end_layout
+
+\begin_layout Standard
+Dovrà prelevare i parametri che gli sono stati passati, riordinarli e chiamare
+ la classe 
+\emph on
+Indirizzo
+\emph default
+ affinchè inserisca una nuova riga nel database aziendale.
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
 
 \series bold
-
-\begin_inset Newline newline
-\end_inset
-
-+ void scriviChiudi(String log)
++ void scriviLogQuattro(String nomeTabella, Dipendente dip, String dataOra,
+ String colonna, String descrizione)
 \end_layout
 
 \begin_layout Standard
-Aggiunge una nuova riga al file e chiude lo stream al file di log
+Metodo che scrive un log specifico nella tabella data.
+\end_layout
+
+\begin_layout Standard
+Dovrà prelevare i parametri che gli sono stati passati, riordinarli e chiamare
+ la classe Indirizzo affinchè inserisca una nuova riga nel database aziendale.
 \end_layout
 
 \begin_layout Standard
