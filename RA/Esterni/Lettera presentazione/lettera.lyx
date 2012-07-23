@@ -110,7 +110,7 @@ begin{center}
 
 
 \series bold
-Revisione di Qualifica
+Revisione di Accettazione
 \series default
 
 \begin_inset ERT
@@ -143,7 +143,7 @@ TeamCommitted
 \end_inset
 
  intende comunicarLe ufficialmente l'intenzione di partecipare alla prossima
- Revisione di Qualifica.
+ Revisione di Accettazione.
 \end_layout
 
 \begin_layout Standard
@@ -198,11 +198,11 @@ Analisi_dei_Requisiti_V3.0.pdf
 \begin_layout Itemize
 
 \series bold
-Definizione di prodotto - V1.0 
+Definizione di prodotto - V2.0 
 \series default
 (allegato 
 \family typewriter
-Definizione_di_Prodotto_V1.0.pdf
+Definizione_di_Prodotto_V2.0.pdf
 \family default
 )
 \end_layout
@@ -234,11 +234,83 @@ Glossario_V3.0.pdf
 \begin_layout Itemize
 
 \series bold
-Manuale Installatore - V1.0 
+Manuale Installatore - V2.0 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+(allegato 
+\family typewriter
+Manuali/Manuale_Amministratore_Installatore_V2.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuali Utente - V2.0
+\series default
+ (allegato 
+\family typewriter
+Manuali/Manuali_Dipendente_V2.0.zip
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuale Amministratore Azienda - V2.0
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+(allegato 
+\family typewriter
+Manuali/Manuale_Amministratore_Azienda_V2.0.zip
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Manuale Amministratore Sicurezza - V1.0
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+(allegato 
+\family typewriter
+Manuali/Manuale_Amministratore_Sicurezza_V1.0.zip
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Norme di Progetto - V4.0
+\series default
+ (allegato 
+\family typewriter
+Norme_di_Progetto_V4.0.pdf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Piano di Progetto - V4.0 
 \series default
 (allegato 
 \family typewriter
-Manuale_Installatore_V1.0.pdf
+Piano_di_Progetto_V4.0.pdf
 \family default
 )
 \end_layout
@@ -246,11 +318,11 @@ Manuale_Installatore_V1.0.pdf
 \begin_layout Itemize
 
 \series bold
-Manuali Utente - V1.0
+Piano di Qualifica - V4.0
 \series default
  (allegato 
 \family typewriter
-Manuali_Utente_V1.0.zip
+Piano_di_Qualifica_V4.0.pdf
 \family default
 )
 \end_layout
@@ -258,70 +330,18 @@ Manuali_Utente_V1.0.zip
 \begin_layout Itemize
 
 \series bold
-Manuale Amministratore Azienda - V1.0
-\series default
- (allegato 
-\family typewriter
-Manuale_Amministratore_Azienda_V1.0.zip
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Norme di Progetto - V3.0
-\series default
- (allegato 
-\family typewriter
-Norme_di_Progetto_V3.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Piano di Progetto - V3.0 
+Specifica Tecnica - V3.0 
 \series default
 (allegato 
 \family typewriter
-Piano_di_Progetto_V3.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Piano di Qualifica - V3.0
-\series default
- (allegato 
-\family typewriter
-Piano_di_Qualifica_V3.0.pdf
-\family default
-)
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Specifica Tecnica - V2.0 
-\series default
-(allegato 
-\family typewriter
-Specifica_Tecnica_V2.0.pdf
+Specifica_Tecnica_V3.0.pdf
 \family default
 )
 \end_layout
 
 \begin_layout Standard
-Si fa presente che tutti i manuali forniti attualmente subiranno aggiornamenti
- relativi alle funzionalità, che verranno successivamente implementate,
- e all'aspetto grafico.
- Verrà inotre fornito per la successiva consegna il manuale utente relativo
- all'applicazione desktop e il manuale per l'Amministratore Sicurezza relativo
- all'applicativo web.
+Il consuntivo finale del prodotto, l'esito dei test di sistema ed i requisiti
+ effettivamente copreti sono ampiamente trattati nei documenti allegati.
 \end_layout
 
 \begin_layout Standard
@@ -364,7 +384,7 @@ flushright{
 \begin_layout Standard
 
 \emph on
-Alessandro Cornaglia
+Gabriele Facchin
 \begin_inset Newline newline
 \end_inset
 
@@ -374,7 +394,7 @@ Responsabile del Team Committed
 
 
 \begin_inset Graphics
-	filename img/Corni.jpg
+	filename img/Facco.jpg
 	scale 10
 
 \end_inset
@@ -400,22 +420,24 @@ status open
 
 \family typewriter
 ./Documenti/Esterni/Analisi_dei_Requisiti_V3.0.pdf, ./Documenti/Esterni/Definizione_
-di_Prodotto_V1.0.pdf, ./Documenti/Esterni/Elementi_di_Gamification_V1.0.pdf,
- ./Documenti/Esterni/Glossario_V3.0.pdf, ./Documenti/Esterni/Manuale_Installatore_V1.
-0.pdf, ./Documenti/Esterno/Manuali_utente.zip, ./Documenti/Esterno/Manuale_Amministr
-atore_Azienda.zip, ./Documenti/Interni/Norme_di_Progetto_V3.0.pdf,
+di_Prodotto_V2.0.pdf, ./Documenti/Esterni/Elementi_di_Gamification_V1.0.pdf,
+ ./Documenti/Esterni/Glossario_V3.0.pdf, ./Documenti/Esterni/Manuali/Manuale_Amminis
+tratore_Installatore_V2.0.pdf, ./Documenti/Esterno/Manuali/Manuali_Dipendente_V2.0.zi
+p, ./Documenti/Esterno/Manuali/Manuale_Amministratore_Azienda_V2.0.zip, ./Documenti/
+Esterno/Manuali/Manuale_Amministratore_Sicurezza_V1.0.zip, ./Documenti/Interni/Norm
+e_di_Progetto_V4.0.pdf,
 \series bold
  
 \series default
-./Documenti/Esterni/Piano_di_Progetto_V3.0.pdf
+./Documenti/Esterni/Piano_di_Progetto_V4.0.pdf
 \series bold
 , 
 \series default
-./Documenti/Esterni/Piano_di_Qualifica_V3.0.pdf
+./Documenti/Esterni/Piano_di_Qualifica_V4.0.pdf
 \series bold
 , 
 \series default
-./Documenti/Esterni/Specifica_Tecnica_V2.0.pdf, ./Source.zip
+./Documenti/Esterni/Specifica_Tecnica_V3.0.pdf, ./Source.zip
 \end_layout
 
 \end_body
