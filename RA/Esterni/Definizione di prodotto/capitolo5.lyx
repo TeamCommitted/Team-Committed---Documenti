@@ -291,7 +291,7 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/singole classi/desk/view/Login.png
+	filename img/singole classi/desk/view/Error.png
 
 \end_inset
 
@@ -366,6 +366,18 @@ moduli
 \end_inset
 
 Questa classe verrà utilizzata e utilizzerà le seguenti classi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.logic.ConnBack
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+desktop.view.Richiesta
 \end_layout
 
 \begin_layout Subsection*
@@ -611,7 +623,7 @@ desktop.logic.ControlLogin
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.DatiLogin
+desktop.view.Menu
 \end_layout
 
 \begin_layout Subsection*
@@ -763,8 +775,16 @@ Password dimenticata
 \end_layout
 
 \begin_layout Standard
-Riferimento alla label associata al campo testuale per inserire l'username
- contenuto nella schermata di login
+Riferimento alla label 
+\begin_inset Quotes eld
+\end_inset
+
+Username
+\begin_inset Quotes erd
+\end_inset
+
+ associata al campo testuale per inserire l'username contenuto nella schermata
+ di login
 \series bold
 
 \begin_inset Newline newline
@@ -778,8 +798,16 @@ Riferimento alla label associata al campo testuale per inserire l'username
 \end_layout
 
 \begin_layout Standard
-Riferimento alla label associata al campo testuale per inserire la password
- contenuto nella schermata di login
+Riferimento alla label 
+\begin_inset Quotes eld
+\end_inset
+
+Password
+\begin_inset Quotes erd
+\end_inset
+
+ associata al campo testuale per inserire la password contenuto nella schermata
+ di login
 \series bold
 
 \begin_inset Newline newline
@@ -793,7 +821,7 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_layout
 
 \begin_layout Standard
-Riferimento alla label associata all'eventuale messaggio di errore contenuto
+Riferimento alla label per mostrare un eventuale messaggio di errore contenuto
  nella schermata di login
 \series bold
 
@@ -808,7 +836,7 @@ Riferimento alla label associata all'eventuale messaggio di errore contenuto
 \end_layout
 
 \begin_layout Standard
-Riferimento alla label associata all'eventuale messaggio di errore contenuto
+Riferimento alla label per mostrare un eventuale messaggio di errore contenuto
  nella schermata di recupero password
 \series bold
 
@@ -823,8 +851,8 @@ Riferimento alla label associata all'eventuale messaggio di errore contenuto
 \end_layout
 
 \begin_layout Standard
-Riferimento alla label associata al campo testuale per inserire la password
- contenuto nella schermata di login
+Riferimento alla label associata al campo testuale per inserire il codice
+ fiscale contenuto nella schermata di recupero password
 \series bold
 
 \begin_inset Newline newline
@@ -835,6 +863,13 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - Label maill
+\end_layout
+
+\begin_layout Standard
+Riferimento alla label associata al campo testuale per inserire la email
+ contenuta nella schermata di recupero passord
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -843,6 +878,13 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - TextField mail
+\end_layout
+
+\begin_layout Standard
+Riferimento all'area di testo per inserire la email contenuto nella schermata
+ di recupero password 
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -851,6 +893,13 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - TextField codfis
+\end_layout
+
+\begin_layout Standard
+Riferimento all'area di testo per inserire il codice fiscale contenuto nella
+ schermata di recupero password 
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -859,6 +908,13 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - TextField username
+\end_layout
+
+\begin_layout Standard
+Riferimento all'area di testo per inserire lo username contenuto nella schermata
+ di login
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -867,6 +923,13 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - JPasswordField password
+\end_layout
+
+\begin_layout Standard
+Riferimento all'area di testo mascherata per inserire la password contenuta
+ nella schermata di login
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -875,6 +938,10 @@ Riferimento alla label associata al campo testuale per inserire la password
 \end_inset
 
 - ControlLogin controller
+\end_layout
+
+\begin_layout Standard
+Riferimento al controllore del Login
 \end_layout
 
 \begin_layout Subsection*
@@ -899,6 +966,12 @@ costruttore che dovrà inizializzare gli attributi
 
 \series bold
 - void creaSubFrameRecupero()
+\end_layout
+
+\begin_layout Standard
+metodo che crea una sotto frame per richiedere il recupero password
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -926,6 +999,10 @@ metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
 
 \series bold
 + boolean isVisible()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna la visibilità della finestra principale
 \end_layout
 
 \begin_layout Standard
@@ -1048,25 +1125,13 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.ControlNotifica
+desktop.view.Login
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
 desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.DatiLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
 \end_layout
 
 \begin_layout Subsection*
@@ -1081,6 +1146,12 @@ Attributi
  
 \series bold
 boolean loggato=false
+\end_layout
+
+\begin_layout Standard
+booleano che indica se un dipendente ha effettuato il login
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1089,6 +1160,12 @@ boolean loggato=false
 \end_inset
 
 - ControlMenu control
+\end_layout
+
+\begin_layout Standard
+Riferimento al controllore del Menu
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1097,6 +1174,12 @@ boolean loggato=false
 \end_inset
 
 - SystemTray tray
+\end_layout
+
+\begin_layout Standard
+Riferimento alla icona di sistema nella barra delle applicazioni
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1105,6 +1188,12 @@ boolean loggato=false
 \end_inset
 
 - TrayIcon icon
+\end_layout
+
+\begin_layout Standard
+Riferimento al'immagine dell'icona di sistema
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1113,6 +1202,12 @@ boolean loggato=false
 \end_inset
 
 - JPopupMenu menu
+\end_layout
+
+\begin_layout Standard
+Riferimento al menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1121,6 +1216,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem login
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+login
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1129,6 +1238,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem richiedi_domanda
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+domanda
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1137,6 +1260,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem visualizza_punteggio
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+visualizza punteggio
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1145,6 +1282,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem visualizza_dati 
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+visualizza dati
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1153,6 +1304,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem modifica_dati 
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+modifica dati
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1161,6 +1326,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem logout
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+logout
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1169,6 +1348,20 @@ boolean loggato=false
 \end_inset
 
 - JMenuItem nascondi
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+nascondi
+\begin_inset Quotes erd
+\end_inset
+
+ del menu di popup
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1177,6 +1370,10 @@ boolean loggato=false
 \end_inset
 
 - MouseEvent old
+\end_layout
+
+\begin_layout Standard
+Riferimento al precedente evento del Mouse
 \end_layout
 
 \begin_layout Subsection*
@@ -1201,8 +1398,10 @@ costruttore che dovrà inizializzare gli attributi
 
 \series bold
 - void svuota()
-\series default
+\end_layout
 
+\begin_layout Standard
+metodo che svuota le voci del menu
 \begin_inset Newline newline
 \end_inset
 
@@ -1227,6 +1426,12 @@ metodo che dovrà creare i menu della System Tray
 
 \series bold
 + void finalize()
+\end_layout
+
+\begin_layout Standard
+metodo che chiuderà correttamente l'applicazione eliminando l'icona di sistema
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1235,8 +1440,10 @@ metodo che dovrà creare i menu della System Tray
 \end_inset
 
 + void actionPerformed(ActionEvent e)
-\series default
+\end_layout
 
+\begin_layout Standard
+metodo che gestisce le azioni delle voci del menu
 \begin_inset Newline newline
 \end_inset
 
@@ -1247,8 +1454,10 @@ metodo che dovrà creare i menu della System Tray
 
 \series bold
 + static void main(String args [])
-\series default
+\end_layout
 
+\begin_layout Standard
+metodo che inizializza il front end 
 \begin_inset Newline newline
 \end_inset
 
@@ -1374,7 +1583,7 @@ desktop.logic.ControlNotifica
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.ControlMenu
+desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Subsection*
@@ -1385,6 +1594,12 @@ Attributi
 
 \series bold
 - JFrame frame
+\end_layout
+
+\begin_layout Standard
+Riferimento alla schermata della notifica
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1393,6 +1608,20 @@ Attributi
 \end_inset
 
 - JButton si
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+accetta
+\begin_inset Quotes erd
+\end_inset
+
+ della notifica
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1401,6 +1630,20 @@ Attributi
 \end_inset
 
 - JButton posticipa
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+posticipa
+\begin_inset Quotes erd
+\end_inset
+
+ della notifica
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1409,6 +1652,12 @@ Attributi
 \end_inset
 
 - Label testo
+\end_layout
+
+\begin_layout Standard
+Riferimento alla label per mostrare il testo della proposta di nuova domanda
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1417,6 +1666,10 @@ Attributi
 \end_inset
 
 - ControlNotifica controller
+\end_layout
+
+\begin_layout Standard
+Riferimento al controllore della Notifica
 \end_layout
 
 \begin_layout Subsection*
@@ -1483,7 +1736,7 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/singole classi/desk/view/Notifica.png
+	filename img/singole classi/desk/view/Richiesta.png
 
 \end_inset
 
@@ -1521,12 +1774,11 @@ Funzione
 
 Questa 
 \series default
-classe si occuperà di presentare al 
+classe si occuperà di presentare all'
 \bar under
-Dipendente Autenticato 
+Utilizzatore 
 \bar default
-un popup che gli permetta di accettare o posticipare la visualizzazione
- di una domanda
+una finestra per inserire l'indirizzo del server del Back end
 \end_layout
 
 \begin_layout Description
@@ -1564,13 +1816,7 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.ControlNotifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlMenu
+desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Subsection*
@@ -1581,6 +1827,12 @@ Attributi
 
 \series bold
 - JFrame frame
+\end_layout
+
+\begin_layout Standard
+Riferimento alla schermata della notifica
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1589,6 +1841,20 @@ Attributi
 \end_inset
 
 - JButton ok
+\end_layout
+
+\begin_layout Standard
+Riferimento alla voce 
+\begin_inset Quotes eld
+\end_inset
+
+ok
+\begin_inset Quotes erd
+\end_inset
+
+ della richiesta di indirizzo del server
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1597,6 +1863,13 @@ Attributi
 \end_inset
 
 - Label testo
+\end_layout
+
+\begin_layout Standard
+Riferimento alla label per mostrare la richiesta di inserimento di indirizzo
+ del server
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1607,6 +1880,10 @@ Attributi
 - TextField server
 \end_layout
 
+\begin_layout Standard
+Riferimento all'area di testo per inserire l'indirizzo del server 
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -1615,6 +1892,12 @@ Metodi
 
 \series bold
 + Richiesta()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1623,6 +1906,11 @@ Metodi
 \end_inset
 
 + void actionPerformed(ActionEvent e)
+\end_layout
+
+\begin_layout Standard
+metodo che dovrà gestire in modo corretto gli eventi generati dai pulsanti
+ della grafica
 \end_layout
 
 \begin_layout Standard
@@ -1798,7 +2086,7 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/singole classi/desk/logic/ConnBack.png
+	filename img/singole classi/desk/logic/Browser.png
 
 \end_inset
 
@@ -1836,16 +2124,7 @@ Funzione
 
 Questa 
 \series default
-classe si occuperà di presentare al 
-\bar under
-Dipendente 
-\bar default
-e al 
-\bar under
-Dipendente Autenticato 
-\bar default
-tutta la serie di menù della System Tray che gli permetteranno di utilizzare
- le varie funzioni previste
+classe si occuperà di gestire il browser di sistema
 \end_layout
 
 \begin_layout Description
@@ -1901,37 +2180,7 @@ desktop.logic.ControlLogin
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.DatiLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Parser
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Login
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Domanda
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.condivisi.Punteggio
+desktop.logic.ConnBack
 \end_layout
 
 \begin_layout Subsection*
@@ -1942,6 +2191,12 @@ Attributi
 
 \series bold
 - static Browser singleton = null
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe Browser
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1950,6 +2205,12 @@ Attributi
 \end_inset
 
 - Desktop desktop
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore del sistema per aprire le pagine web
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1958,6 +2219,12 @@ Attributi
 \end_inset
 
 - URI link
+\end_layout
+
+\begin_layout Standard
+Riferimento all'uri completo della pagina web
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1968,6 +2235,10 @@ Attributi
 - String iniziouri
 \end_layout
 
+\begin_layout Standard
+Riferimento all'inizio dell'uri
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -1976,6 +2247,12 @@ Metodi
 
 \series bold
 - Browser()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1984,6 +2261,12 @@ Metodi
 \end_inset
 
 + static Browser getInstance()
+\end_layout
+
+\begin_layout Standard
+metodo statico che ritorna la corretta istanza della classe Browser
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1992,6 +2275,30 @@ Metodi
 \end_inset
 
 + void apri(String pagina)
+\end_layout
+
+\begin_layout Standard
+metodo che apre la pagina web nel browser
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ char leggi(String fineUrl)
+\end_layout
+
+\begin_layout Standard
+metodo che apre una pagina web in lettura
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2069,16 +2376,8 @@ Funzione
 
 Questa 
 \series default
-classe si occuperà di presentare al 
-\bar under
-Dipendente 
-\bar default
-e al 
-\bar under
-Dipendente Autenticato 
-\bar default
-tutta la serie di menù della System Tray che gli permetteranno di utilizzare
- le varie funzioni previste
+classe si occuperà di gestire i timer per le domande, gestire il Dipendente
+ autenticato e centralizzare l'esecuzione dell'applicazione
 \end_layout
 
 \begin_layout Description
@@ -2152,19 +2451,19 @@ desktop.logic.Parser
 \begin_layout Itemize
 
 \family typewriter
-desktop.condivisi.Login
+desktop.logic.Browser
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
-desktop.condivisi.Domanda
+desktop.view.Error
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
-desktop.condivisi.Punteggio
+desktop.view.Richiesta
 \end_layout
 
 \begin_layout Subsection*
@@ -2175,6 +2474,12 @@ Attributi
 
 \series bold
 - static ConnBack singleton = null
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe ConnBack
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2183,6 +2488,16 @@ Attributi
 \end_inset
 
 - DatiLogin loggato
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe DatiLogin, indica il 
+\bar under
+Dipendente 
+\bar default
+loggato
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2191,6 +2506,26 @@ Attributi
 \end_inset
 
 - String server
+\end_layout
+
+\begin_layout Standard
+Riferimento alla server del Back-end
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- static String logged
+\end_layout
+
+\begin_layout Standard
+Riferimento allo username dell'oggetto DatiLogin
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2199,6 +2534,26 @@ Attributi
 \end_inset
 
 - Parser parser
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe Parser
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- boolean pop
+\end_layout
+
+\begin_layout Standard
+Booleano che indica se è stata notificata una domanda
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2206,7 +2561,13 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- Pacchetto pack
+- long tempo_proposta
+\end_layout
+
+\begin_layout Standard
+Long che indica quanto tempo deve passare prima di proporre una nuova domanda
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2214,7 +2575,48 @@ Attributi
 \begin_inset Newline newline
 \end_inset
 
-- Domanda da_rispondere
+- long tempo_richiesta
+\end_layout
+
+\begin_layout Standard
+Long che indica quanto tempo deve passare prima di poter richiedere una
+ nuova domanda
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Timer timer_chiedi
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe Timer che scandisce il tempo per inibire la richiesta
+ di una nuova domanda
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Timer timer_proponi
+\end_layout
+
+\begin_layout Standard
+Riferimento alla classe Timer che scandisce il tempo per la proposta di
+ una nuova domanda
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -2239,6 +2641,12 @@ costruttore che dovrà inizializzare gli attributi
 
 \series bold
 + static ConnBack getInstance()
+\end_layout
+
+\begin_layout Standard
+metodo statico che ritorna la corretta istanza della classe ConnBack
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2247,14 +2655,13 @@ costruttore che dovrà inizializzare gli attributi
 \end_inset
 
 + boolean continuaParser(String server_da_grafica)
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+metodo che fa continuare il costruttore ottenendo l'indirizzo del server
+ dalla grafica e salvandolo
+\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-+ void continuaRMI()
 \begin_inset Newline newline
 \end_inset
 
@@ -2263,6 +2670,12 @@ costruttore che dovrà inizializzare gli attributi
 \end_inset
 
 + String getServer()
+\end_layout
+
+\begin_layout Standard
+metodo statico che ritorna la stringa del server
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2270,7 +2683,13 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
-+ boolean login(DatiLogin login)
++ boolean login(String username, String password)
+\end_layout
+
+\begin_layout Standard
+metodo statico che imposta le variabili interne dell'applicazione al login
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2279,22 +2698,16 @@ costruttore che dovrà inizializzare gli attributi
 \end_inset
 
 + void logout()
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+metodo statico che imposta le variabili in modo corretto all'uscita del
+ 
+\bar under
+Dipendente
+\series bold
+\bar default
 
-\begin_inset Newline newline
-\end_inset
-
-+ void preleva_domanda()
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-+ boolean posticipa()
 \begin_inset Newline newline
 \end_inset
 
@@ -2302,7 +2715,103 @@ costruttore che dovrà inizializzare gli attributi
 \begin_inset Newline newline
 \end_inset
 
-+ boolean recupera(Recupero rec)
++ boolean mayApplyForNewQuestion()
+\end_layout
+
+\begin_layout Standard
+metodo che indica se un 
+\bar under
+Dipendente 
+\bar default
+può o meno venire sottoposto ad una domanda sotto la sua richiesta
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ boolean isLogged()
+\end_layout
+
+\begin_layout Standard
+metodo che indica se 
+\bar under
+Dipendente 
+\bar default
+è loggato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void notificaDomanda()
+\end_layout
+
+\begin_layout Standard
+metodo statico che crea la notifica di una nuova domanda
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String passUserLoggato()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna la password del dipendente loggato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ String userLoggato()
+\end_layout
+
+\begin_layout Standard
+metodo che ritorna lo username del dipendente loggato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void resetTimerProposta()
+\end_layout
+
+\begin_layout Standard
+Metodo che resetta il timer della domanda proposta dall'applicazione
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ void resetTimerRichiesta()
+\end_layout
+
+\begin_layout Standard
+Metodo che resetta il timer della domanda richiesta dal dipendente
 \end_layout
 
 \begin_layout Standard
@@ -2429,7 +2938,7 @@ desktop.logic.ConnBack
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.ControlMenu
+desktop.logic.Browser
 \end_layout
 
 \begin_layout Itemize
@@ -2445,7 +2954,11 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- ConnBack connessione
+- Browser browser
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore del browser
 \end_layout
 
 \begin_layout Subsection*
@@ -2453,9 +2966,42 @@ Metodi
 \end_layout
 
 \begin_layout Standard
-
++
 \series bold
-+ ControlLogin()
+ControlLogin()
+\end_layout
+
+\begin_layout Standard
+costruttore che dovrà inizializzare gli attributi con i parametri passati
+ per riferimento
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+void recupera(String codfis, String mail)
+\end_layout
+
+\begin_layout Standard
+metodo richiamerà il browser per impostare la richiesta di nuova password
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+void tryLogin(String username, String password)
+\end_layout
+
+\begin_layout Standard
+metodo che richiamerà il browser per tentare di effettuare il login
 \end_layout
 
 \begin_layout Standard
@@ -2575,37 +3121,13 @@ desktop.view.Menu
 \begin_layout Itemize
 
 \family typewriter
-desktop.view.Notifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlNotifica
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ControlLogin
+desktop.logic.Browser
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
 desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.DatiLogin
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
 \end_layout
 
 \begin_layout Subsection*
@@ -2615,7 +3137,25 @@ Attributi
 \begin_layout Standard
 
 \series bold
--ConnBack connessione
+- ConnBack connessione
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore della connessione
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Browser browser
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore del browser
 \end_layout
 
 \begin_layout Subsection*
@@ -2639,15 +3179,30 @@ costruttore che dovrà inizializzare gli attributi
 
 +
 \series bold
-logout(String username)
+ boolean isLogged()
 \end_layout
 
 \begin_layout Standard
-metodo che richiamerà il connettore per comunicare al Back-end che il 
+metodo che indica se un 
 \bar under
 Dipendente
 \bar default
- ha terminato la sessione
+ ha effettuato il login
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+ void logout()
+\end_layout
+
+\begin_layout Standard
+metodo che richiamerà il browser per aprire il Front-end web per effettuare
+ il logout
 \begin_inset Newline newline
 \end_inset
 
@@ -2657,7 +3212,7 @@ Dipendente
 \begin_inset Newline newline
 \end_inset
 
-+richiediDomanda()
++void richiediDomanda()
 \end_layout
 
 \begin_layout Standard
@@ -2672,7 +3227,7 @@ metodo che richiamerà il browser per aprire il Front-end web con la domanda
 
 +
 \series bold
-visualizzaPunteggio()
+void visualizzaPunteggio()
 \end_layout
 
 \begin_layout Standard
@@ -2691,7 +3246,7 @@ Dipendente
 
 +
 \series bold
-visualizzaDati()
+void visualizzaDati()
 \end_layout
 
 \begin_layout Standard
@@ -2710,7 +3265,7 @@ Dipendente
 \bar default
 +
 \series bold
-modificaDati()
+void modificaDati()
 \end_layout
 
 \begin_layout Standard
@@ -2842,13 +3397,7 @@ desktop.logic.ConnBack
 \begin_layout Itemize
 
 \family typewriter
-desktop.logic.ControlMenu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.Timer
+desktop.logic.Browser
 \end_layout
 
 \begin_layout Subsection*
@@ -2858,15 +3407,25 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- String testo
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 - ConnBack connessione
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore della connessione
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- Browser browser
+\end_layout
+
+\begin_layout Standard
+Riferimento al gestore del browser
 \end_layout
 
 \begin_layout Subsection*
@@ -2891,12 +3450,11 @@ costruttore che dovrà inizializzare gli attributi con i parametri passati
 
 +
 \series bold
-posticipa()
+void posticipa()
 \end_layout
 
 \begin_layout Standard
-metodo che richiamerà il connettore al Back-end e gli farà posticipare la
- domanda
+metodo che richiamerà il browser e gli farà posticipare la domanda
 \begin_inset Newline newline
 \end_inset
 
@@ -2906,7 +3464,7 @@ metodo che richiamerà il connettore al Back-end e gli farà posticipare la
 
 +
 \series bold
-rispondi()
+void rispondi()
 \end_layout
 
 \begin_layout Standard
@@ -2949,7 +3507,7 @@ begin{center}
 
 
 \begin_inset Graphics
-	filename img/singole classi/desk/logic/ControlLogin.png
+	filename img/singole classi/desk/logic/DatiLogin.png
 
 \end_inset
 
@@ -3069,6 +3627,10 @@ Attributi
 - Login l
 \end_layout
 
+\begin_layout Standard
+riferimento all'oggetto condiviso Login
+\end_layout
+
 \begin_layout Subsection*
 Metodi
 \end_layout
@@ -3090,7 +3652,7 @@ costruttore che dovrà inizializzare gli attributi
 
 +
 \series bold
-getUsername()
+ String getUsername()
 \end_layout
 
 \begin_layout Standard
@@ -3104,7 +3666,7 @@ metodo che ritorna lo username
 
 +
 \series bold
-getPassword()
+ String getPassword()
 \end_layout
 
 \begin_layout Standard
@@ -3118,7 +3680,7 @@ metodo che ritorna la password
 
 +
 \series bold
-getLogin()
+ Login getLogin()
 \end_layout
 
 \begin_layout Standard
@@ -3202,7 +3764,7 @@ classe si occuperà di recuperare i dati del server dell'azienda dal file
  di testo dedicato.
  Se il file non esiste, viene creato e viene richiesto all'
 \bar under
-Utente
+Utilizzatore
 \bar default
  di inserire un indirizzo 
 \end_layout
@@ -3252,9 +3814,39 @@ Attributi
 \begin_layout Standard
 
 \series bold
-N
-\series default
-on sono stati ancora previsti degli attributi
+- boolean aperto
+\end_layout
+
+\begin_layout Standard
+indica se il file in lettura è aperto o meno
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- File file
+\end_layout
+
+\begin_layout Standard
+Riferimento al flusso di dati verso il file 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+- FileReader in
+\end_layout
+
+\begin_layout Standard
+Riferimento allo stream in input
 \end_layout
 
 \begin_layout Subsection*
@@ -3279,7 +3871,7 @@ costruttore che dovrà inizializzare gli attributi e provare ad aprire il
 
 +
 \series bold
-leggi()
+ String leggi()
 \end_layout
 
 \begin_layout Standard
@@ -3294,12 +3886,40 @@ metodo che servirà a leggere la stringa contenente l'indirizzo del database
 
 +
 \series bold
-scrivi(String s)
+boolean scrivi(String server)
 \end_layout
 
 \begin_layout Standard
 metodo che scriverà sul file appena creato l'indirizzo dell'azienda così
  da non doverlo richiedere ad ogni avvio del programma
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+boolean isOpen()
+\end_layout
+
+\begin_layout Standard
+metodo che indica se il file è aperto in lettura o no
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++
+\series bold
+void finalize()
+\end_layout
+
+\begin_layout Standard
+metodo che chiude correttamente il flusso di dati verso il file
 \end_layout
 
 \begin_layout Standard
@@ -3321,6 +3941,50 @@ placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/singole classi/desk/logic/Timer.png
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -3415,12 +4079,6 @@ Questa classe verrà utilizzata e utilizzerà le seguenti classi:
 \begin_layout Itemize
 
 \family typewriter
-desktop.view.Menu
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
 desktop.logic.ControlMenu
 \end_layout
 
@@ -3443,9 +4101,11 @@ Attributi
 \begin_layout Standard
 
 \series bold
-- int tempo
-\series default
+- long tempo
+\end_layout
 
+\begin_layout Standard
+tempo in millisecondi
 \begin_inset Newline newline
 \end_inset
 
@@ -3456,8 +4116,24 @@ Attributi
 \end_inset
 
 - boolean cambiato
-\series default
+\end_layout
 
+\begin_layout Standard
+booleano che indica se il tempo è stato cambiato durante l'attesa
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+- int ID
+\end_layout
+
+\begin_layout Standard
+intero che identifica il numero del thread Timer
 \begin_inset Newline newline
 \end_inset
 
@@ -3468,6 +4144,10 @@ Attributi
 \end_inset
 
 - boolean finito
+\end_layout
+
+\begin_layout Standard
+booleano che inidca se il tempo è finito
 \end_layout
 
 \begin_layout Subsection*
@@ -3681,156 +4361,6 @@ gestisce correttamente i dati ricevuti e inviati al Back-end
 \end_layout
 
 \begin_layout Subsubsection
-com.safetyGame.desktop.condivisi.Domanda
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/singole classi/desk/condivisi/Domanda.png
-	scale 50
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-La 
-\series default
-funzione di questa classe è identica a quella della classe contenuta in
- 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
-
-\series medium
-Tutti 
-\series default
-gli attributi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-Tutti i metodi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Domanda
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
 com.safetyGame.desktop.condivisi.Login
 \end_layout
 
@@ -3972,156 +4502,6 @@ Tutti i metodi di questa classe sono identici a quelli della classe contenuta
  in 
 \series bold
 com.safetyGame.back.condivisi.Login
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-com.safetyGame.desktop.condivisi.Punteggio
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename img/singole classi/desk/condivisi/Punteggio.png
-	scale 75
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Funzione
-\series medium
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-La 
-\series default
-funzione di questa classe è identica a quella della classe contenuta in
- 
-\series bold
-com.safetyGame.back.condivisi.Punteggio
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Description
-Relazioni
-\series bold
-
-\begin_inset space ~
-\end_inset
-
-d'uso
-\begin_inset space ~
-\end_inset
-
-con
-\begin_inset space ~
-\end_inset
-
-altri
-\begin_inset space ~
-\end_inset
-
-moduli
-\series default
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Questa classe verrà utilizzata e utilizzerà le seguenti classi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-desktop.logic.ConnBack
-\end_layout
-
-\begin_layout Subsection*
-Attributi
-\end_layout
-
-\begin_layout Description
-
-\series medium
-Tutti 
-\series default
-gli attributi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Punteggio
-\series default
-, per ogni dubbio si faccia riferimento alla documentazione di quella classe
-\end_layout
-
-\begin_layout Subsection*
-Metodi
-\end_layout
-
-\begin_layout Standard
-Tutti i metodi di questa classe sono identici a quelli della classe contenuta
- in 
-\series bold
-com.safetyGame.back.condivisi.Punteggio
 \series default
 , per ogni dubbio si faccia riferimento alla documentazione di quella classe
 \end_layout
