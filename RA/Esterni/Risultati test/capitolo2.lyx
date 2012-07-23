@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\include{preface}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,6 +28,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -98,7 +102,7 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{ | C{5cm} | m{2cm} | m{2cm} | }
+begin{longtable}{ | p{5cm} | p{2cm} | p{2cm} | }
 \end_layout
 
 \begin_layout Plain Layout
@@ -2784,12 +2788,164 @@ begin{center}
 
 	
 \backslash
-begin{longtable}{|c|c|c|c}
+begin{longtable}{|c|c|c|c|} 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-	
+	Package & Linee di codice raggiunte & Linee di codice totali & Percentuale
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back & 54 & 58 & 93,10
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.access & 641 & 664 & 96,54
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.condivisi & 332 & 332 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.connection & 57 & 57 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.controller & 895 & 957 & 93,52
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.condivisi & 14 & 14 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.logic & 210 & 238 & 88,24
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.view & 204 & 229 & 89,08
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.mobile.view & 760 & 805 & 94,41
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.mobile.Utils & 300 & 371 & 80,86
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.mobile.condivisi & 138 & 138 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
 \end_layout
 
 \begin_layout Plain Layout
