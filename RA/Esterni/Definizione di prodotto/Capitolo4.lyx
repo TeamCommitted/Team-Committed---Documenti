@@ -8240,11 +8240,25 @@ Metodo per controllare la correttezza dei dati di un tentativo di autenticazione
 
 
 \series bold
-+ void logout(Login login)
++ void logoutD(Login login)
 \end_layout
 
 \begin_layout Standard
-Metodo per segnalare al sistema il logout di un utente
+Metodo per segnalare al sistema il logout di un dipendente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ void logoutA(Login login)
+\end_layout
+
+\begin_layout Standard
+Metodo per segnalare al sistema il logout di un amministratore
 \end_layout
 
 \begin_layout Standard
@@ -9136,12 +9150,33 @@ Access-Tier
 
 
 \series bold
-+ static void sendMailInserito(String destinatario, String messaggio)
++ static void sendMail(String destinatario, String messaggio)
 \end_layout
 
 \begin_layout Standard
 Metodo che si occupa di inviare una mail all'utente che ha richiesto il
  ripristino della password.
+\end_layout
+
+\begin_layout Standard
+Dovrà creare una connessione con il server SMTP indicato nella configurazione
+ interna al metodo, quindi tentare di inviare il messaggio.
+ Nel caso ci sia un errore, dovrà lanciare un'eccezione di tipo 
+\series bold
+RuntimeException.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++ static void sendMailInserito(String destinatario, String messaggio)
+\end_layout
+
+\begin_layout Standard
+Metodo che si occupa di inviare una mail all'utente che è stato inserito
+ all'interno del sistema.
 \end_layout
 
 \begin_layout Standard
@@ -9799,7 +9834,13 @@ null
 \end_layout
 
 \begin_layout Standard
-Metodo che assegna una Badge ad un Dipendente
+Metodo che assegna un Badge ad un Dipendente.
+\end_layout
+
+\begin_layout Standard
+Dovrà passare dei parametri alla classe deputata all'interazione con il
+ database.
+ Tali parametri dovranno includere l'id del dipendente e del badge assegnato
 \end_layout
 
 \begin_layout Standard
@@ -10245,6 +10286,20 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 \begin_layout Standard
 Metodo che resetta la password (casuale) di un Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo che consente di recuperate l'elenco dei ruoli aziendali
 \end_layout
 
 \begin_layout Standard
@@ -10673,6 +10728,20 @@ Metodo che resetta la password (casuale) di un Dipendente
 
 \begin_layout Standard
 Metodo che resetta la password (casuale) di un Amministratore
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
++ ArrayList<String> getElencoRuoli()
+\end_layout
+
+\begin_layout Standard
+Metodo che restituisce la lista dei ruoli aziendali
 \end_layout
 
 \begin_layout Standard
@@ -11940,7 +12009,7 @@ Metodi
 \begin_layout Standard
 
 \series bold
-+ boolean loginAmministratore(Login login)
++ boolean loginAmministratore(Login login, boolean tipo)
 \end_layout
 
 \begin_layout Standard
