@@ -1,0 +1,2937 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\include{preface}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Risultati dei test
+\end_layout
+
+\begin_layout Subsection
+Analisi metrica del codice
+\end_layout
+
+\begin_layout Standard
+Si forniscono in tabella una sintesi riguardante le misure statiche del
+ codice effettuate sulle metriche e calcolate utilizzanto il plug-in per
+ 
+\bar under
+Eclipse Metrics
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+Si evidenzieranno in rosso quei valori che non rispettano le massime misure
+ consentite.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{ | p{5cm} | p{2cm} | p{2cm} | }
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+textbf{ Metrica } & 
+\backslash
+textbf{ Media } & 
+\backslash
+textbf{ Massimo } 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Complessità ciclomatica &  1,342 & {
+\backslash
+color{red}13} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di parametri &  0.903 & {
+\backslash
+color{red}11} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di campi dati per classe & 3.34 & 23 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Numero di livelli di annidamento & 1,179 & 5 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Indice di unità & 6.75 & 32 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Indice di dipendenza & 4.875 & 15 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Nonostante alcuni elementi della colonna massimo superino i valori prefissati
+ è necessario analizzare adeguatamente questi dati prima di trarre conclusioni
+ affrettate.
+ La complessità ciclomatica raggiunge il valore 13 soltanto per la classe
+ GestioneBadgeD in quanto effettua dei controlli molto importanti relativamente
+ alla gestione dei badge di un dipendente.
+ Di conseguenza tale dato può essere considerato tutto sommato accettabile
+ ed infatti, escludendo la complessità ciclomatica di GestioneBadgeD, il
+ valore massimo diviene 8.
+\begin_inset Newline newline
+\end_inset
+
+Il numero di parametri è a sua volta accettabile anche se sopra la soglia
+ massima consentita in relazione al fatto che questo valore è condizionato
+ dai parametri necessari ai metodi del package condivisi per eseguire il
+ loro compito.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Le altre metriche hanno invece evidenziato valori più che accettabili.
+\end_layout
+
+\begin_layout Subsection
+Descrizione dei Test effettuati
+\end_layout
+
+\begin_layout Standard
+Di seguito saranno definiti i test di verifica effettuati sulle componenti
+ del 
+\bar under
+back-end
+\bar default
+.
+ I test implementati e descritti sono quindi dei test che cercano di verificare
+ singolarmente il comportamento delle funzioni di una componente, ossia
+ quella specifica alla quale il test fa riferimento.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Test Package com.safetyGame.back.access
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAODipendentiTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAODipendenti
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database 
+\bar under
+SQL
+\bar default
+.
+ Nel dettaglio viene controllato se è possibile aggiungere un nuovo dipendente
+ al 
+\bar under
+DB
+\bar default
+ aziendale, visualizzare le informazioni di un dipendente, modificare le
+ informazioni di un dipendente, modificare i ¨ di un dipendente, eliminare
+ un dipendente, ottenere l'elenco dei dipendenti, ottenere le informazioni
+ di un amministratore e modificare le informazioni di un amministratore.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAODomandeTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAODomande
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database 
+\bar under
+SQL
+\bar default
+.
+ Nel dettaglio viene controllato se è possibile aggiungere una nuova domanda,
+ eliminare una domanda, ottenere una domanda specifica, ottenere i campi
+ di una domanda specifica, ottenere la lista di domande di un'azienda, segnalare
+ una domanda come risposta e segnalare una domanda come posticipata.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAOLoginTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: SqlDAOLogin
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il database SQL.
+ Nel dettaglio viene controllato se è possibile effettuare il login di un
+ dipendente o di un amministratore.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAOPunteggiTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica:
+\series default
+ SqlDAOPunteggi
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione:
+\series default
+ Questa classe controlla se la classe in test è in grado di interagire correttam
+ente con il 
+\bar under
+database SQL.
+
+\bar default
+ Nel dettaglio viene controllato se è possibile ottenere le statistiche
+ dei punteggi di uno specifico utente e se è possibile ottenere le statistiche
+ globali degli utenti.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito:
+\series default
+ nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+SqlDAOBadgeTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: SqlDAOBadge
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di interagire
+ correttamente con il 
+\bar under
+database SQL
+\bar default
+.
+ Nel dettaglio viene controllato se è possibile ottenere i badge dell'azienda,
+ i badge personali di un dipendente o se è possibile assegnare un 
+\bar under
+badge
+\bar default
+ ad un 
+\bar under
+dipendente
+\bar default
+.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection
+Test package com.safetyGame.back.condivisi
+\end_layout
+
+\begin_layout Subsubsection*
+DataOraTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: DataOra
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Questa classe controlla se la classe in test è in grado di creare in maniera
+ corretta un oggetto di tipo DataOra.
+ Nel dettaglio viene controllato se è possibile ottenere un oggetto DataOra
+ corretto, a seconda del diverso costruttore richiamato.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection
+Test package com.safetyGame.back.controller
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneLogTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneLog
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare correttamen
+te le operazioni di registrazione dei 
+\bar under
+log
+\bar default
+, secondo quanto definito in fase di analisi dei requisiti.
+ Nel dettaglio viene controllato se è possibile creare un nuovo file di
+ log qual'ora non esistesse, oppure aggiornarne uno già esistente al verificarsi
+ di determinate operazioni quali il login di un utente od un amministratore,
+ il logout, la ricezione di domande, la proposta di domande, il posticipo
+ di una domanda, la risposta ad una domanda, la modifica delle informazioni
+ di un utente, l'ottenimento di un badge da parte di un utente, l'aggiunta
+ di un nuovo dipendente, la rimozione di un dipendente, l'aggiunta di una
+ nuova domanda e la rimozione di una domanda.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: i test sulla classe GestioneLog hanno evidenziato che, a causa di alcune
+ restrizioni del server TomCat, non è possibile per ora attivare le funzioni
+ di log delle operazioni sopra elencate.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneBadgeASTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica:
+\series default
+ GestioneBadgeAS
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione:
+\series default
+ Classe che controlla se la classe in test è in grado di ottenere correttamente
+ la lista di tutti i badge disponibili presso una data azienda.
+ Questa operazione è stata effettuate definendo un input fittizio e verificandon
+e l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneRecuperoTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneRecupero
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare il
+ reset della password di un dipendente.
+ Nel dettaglio si andrà a testare che la classe sia in grado di resettare
+ la password di un dipendente, di resettare la password di un amministratore
+ e di inviare infine un'apposita mail contenente la nuova password da utilizzare
+ per l'accesso al sistema.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDipendentiAATest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneDipendentiAA
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di gestione dei dipendenti di un'azienda.
+ Nel dettaglio si andrà a testare che la classe possa aggiungere un nuovo
+ dipendente, rimuovere un dipendente, modificare le informazioni di un dipendent
+e, modificare la password di un dipendente e visionare l'elenco dei dipendenti
+ di un'azienda.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneBadgeDTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneBadgeD
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di recupero dei 
+\bar under
+badge
+\bar default
+ personali di un 
+\bar under
+dipendente
+\bar default
+.
+ Nel dettaglio si andrà a testare che la classe esegua correttamente l'ottenimen
+to di tutti i badge assegnati ad uno specifico utente e di assegnare un
+ certo badge ad un utente.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDipendentiDTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestioneDipendentiD
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di interazione con il sistema Safety-Game.
+ Nel dettaglio si andrà a testare che la classe riesca ad effettuare correttamen
+te il recupero delle informazioni di un 
+\bar under
+dipendente
+\bar default
+ e la modifica delle informazioni di un dipendente.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDomandeASTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestioneDomandeAS
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di interazione con il 
+\bar under
+database
+\bar default
+ delle domande da parte di un amministratore sicurezza.
+ Nel dettaglio si andrà a testare che la classe riesca ad effettuare correttamen
+te il recupero dell'elenco generale delle domande, l'aggiunta di una nuova
+ domanda a quelle specifiche di un'azienda e la rimozione di una domanda.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneLoginTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestioneLogin
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: CLasse che controlla se la classe in test è in grado di effettuare le
+ operazioni di login di un un utente all'interno del sistema.
+ Nel dettaglio si andrà a verificare che utenti di tipo dipendente ed amministra
+tore riescano ad effettuare il login ed il logout.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato
+\end_layout
+
+\begin_layout Subsubsection*
+GestionePunteggiAATest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestionePunteggiAA
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni riguardanti il recupero dei punteggi medi dell'azienda ed i
+ punteggi di tutti i dipendenti oltre che alla modifica dei trofei di uno
+ specifico utente.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestionePunteggiDTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestionePunteggiD
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni riguardanti la gestione dei punteggi da parte di un dipendente.
+ Nel dettaglio si verificherà il funzionamento delle funzioni di ottenimento
+ delle statistiche di uno specifico 
+\bar under
+dipendente
+\bar default
+ e le statistiche globali.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDatiTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata
+\series default
+: GestioneDati
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di gestione dei dati contenuti all'interno del sistema Safety-Game.
+ La classe GestioneDati è un façade e si è quindi verificato che le sue
+ sottoclassi svolgessero correttamente le operazioni ad esse assegnate.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+GestioneDomandeDTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: GestioneDomande
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che controlla se la classe in test è in grado di effettuare le
+ operazioni di gestione delle interazioni tra un dipendente ed una domanda
+ del sistema.
+ Nel dettaglio si andranno a verificare le funzioni di ottenimento di una
+ domanda, di risposta ad una domanda e di posticipo di una domanda.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection
+Test package com.safetyGame.mobile.View
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DatiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DatiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che avvenga correttamente il focus sugli elementi EditText
+ per nuova password, conferma password e vecchia password.
+ Verifica anche che vengano accettati le stringhe in input, esegua correttamente
+ il focus sul bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed avvenga correttamente il click.
+ Queste operazioni sono state effettuate definendo un input fittizio e verifican
+done l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+DomandaActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ DomandaActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione: 
+\series default
+Classe che verifica che il titolo della domanda a cui un utente deve rispondere
+ non sia null e che il pulsante 
+\begin_inset Quotes eld
+\end_inset
+
+Rispondi
+\begin_inset Quotes erd
+\end_inset
+
+ sia in grado di ottenere il focus ed eseguire correttamente il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+LoginActivtyTest 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verifica
+\series default
+: LoginActivty
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Descrizione
+\series default
+: Classe che verifica che avvenga corretamente il focus sugli elementi EditText
+ e che accettino in input delle stringhe.
+ Controlla anche che avvenga successivamente all'inserimento il focus sul
+ bottone 
+\begin_inset Quotes eld
+\end_inset
+
+Invia
+\begin_inset Quotes erd
+\end_inset
+
+ ed esegua il click.
+
+\series bold
+ 
+\series default
+Queste operazioni sono state effettuate definendo un input fittizio e verificand
+one l'output.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+PunteggiActivityTest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe verificata:
+\series default
+ PunteggiActivity
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Descrizione:
+\series default
+ Classe che verifica che il testo che rappresenta i punteggi non sia di
+ tipo 
+\begin_inset Quotes eld
+\end_inset
+
+null
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito: 
+\series default
+nessun errore riscontrato.
+\end_layout
+
+\begin_layout Subsection
+Esiti dei test di Sistema
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Generale
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica:
+\series default
+ TS-RFOB 1
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito:
+\series default
+ Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica:
+\series default
+ TS-RFOB 1.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito:
+\series default
+ Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFD 2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RPOB 1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RPOB 2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RQOP 3.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito:
+\series default
+ Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RQOP 3.2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata implementata per esaurimento del quantitativo orario
+ a disposizione del programmatore addetto a tale parte.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RVOP 1.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+superato
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Utente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 3
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 3.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 4
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 4.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 4.1.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 11
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Dipendente
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 5a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 
+\series bold
+5
+\series default
+b
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito
+\series default
+: Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 5.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 6
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 7
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 7.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 10a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 10b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 10c
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 11.2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 12
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 13a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 13b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 14.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 15
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 16
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19.2.3
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Azienda
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 17a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 17b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 18
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19.2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19.2.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 19.2.2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 20
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 21a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 21b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 21c
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 22
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 23
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 24
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 25
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Sicurezza
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 26a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 26b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 27
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 28
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 28.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 28.2
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 29
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non verificato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 29.1
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non verificato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 30
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ambito Amministratore Installatore
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 31
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 32
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 33
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOB 34
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 35a
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 35b
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 35c
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 35d
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cod.
+ Verifica: 
+\series default
+TS-RFOP 35e
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Non superato
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Motivazioni: 
+\series default
+La funzione non è stata completamente implementata per esaurimento del quantitat
+ivo orario a disposizione del programmatore addetto a tale parte
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni sui test eseguiti
+\end_layout
+
+\begin_layout Standard
+Come si evince dalla lista riportata, la totalità dei test che verificano
+ i requisiti definiti obbligatori hanno avuto esito positivo.
+ Tutte le funzionalità essenziali del sistema sono quindi disponibili ai
+ vari utenti e l'applicazione riesce a soddisfare gli obiettivi di qualità
+ imposti all'interno del Piano di Qualifica, capitolo 3.2 Qualità del prodotto.
+ 
+\begin_inset Newline newline
+\end_inset
+
+I restanti test non superati riguardano la verifica di requisiti desiderabili
+ ed opzionali ed in questo caso le funzionalità non sono state realizzate
+ in quanto è terminato il quantitativo orario a disposizione del programmatore
+ addetto ad una determinata parte.
+\end_layout
+
+\begin_layout Subsection
+Esito dei test di integrazione
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente:
+\series default
+ CDESK1 (login Dipendente)
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CDESK2 (notifica nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB2 (gestione dati Utente) 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB3 (amministrazione utenti)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB4 (rispondere ad una domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB5 (amministrazione domande)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB6 (visualizzazione punteggi)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB7 (gestione punteggi)
+\series bold
+ ???
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CWEB8 (notifica nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB2 (gestione dati Utente)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB3 (rispondere nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB4 (visualizzazione punteggi)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CMOB5 (notifica nuova domanda)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK1 (login)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK2 (amministrazione utenti)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK3 (gestione domande e risposte)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente: 
+\series default
+CBACK4 (amministrazione punteggi)
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+Esito: 
+\series default
+Positivo
+\end_layout
+
+\begin_layout Subsubsection
+Considerazioni sui test eseguiti
+\end_layout
+
+\begin_layout Standard
+I test di integrazione hanno dato esiti totalmente positivi: le varie componenti
+ sono state collaudate con successo, verificandone il loro completo funzionament
+o in varie situazioni e raggiungendo un elevato grado di soddisfacimento
+ degli obiettivi di qualità del prodotto.
+ 
+\end_layout
+
+\begin_layout Subsection
+Test di Copertura
+\end_layout
+
+\begin_layout Standard
+Di seguito verranno elencati i test di copertura effettuati sul codice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{longtable}{|c|c|c|c|} 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	Package & Linee di codice raggiunte & Linee di codice totali & Percentuale
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back & 54 & 58 & 93,10
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.access & 641 & 664 & 96,54
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.condivisi & 332 & 332 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.connection & 57 & 57 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.back.controller & 895 & 957 & 93,52
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.condivisi & 14 & 14 & 100,00
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.logic & 210 & 238 & 88,24
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.desktop.view & 204 & 229 & 89,08
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+	com.safetyGame.mobile.view 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
