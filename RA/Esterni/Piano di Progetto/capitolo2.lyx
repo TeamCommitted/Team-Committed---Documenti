@@ -105,7 +105,7 @@ name "sub:Glossario"
 Al fine di evitare ogni ambiguità relativa al linguaggio e ai termini utilizzati
  nei documenti formali, il glossario viene incluso nel file 
 \family typewriter
-Glossario_V2.0.pdf
+Glossario_V3.0.pdf
 \family default
 , dove vengono definiti e descritti i termini marcati da una sottolineatura.
 \end_layout
@@ -180,7 +180,7 @@ status collapsed
 \series bold
 Norme di Progetto
 \series default
- - v 2.0
+ - v 4.0
 \end_layout
 
 \begin_layout Subsubsection
